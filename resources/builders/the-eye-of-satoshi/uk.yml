@@ -1,0 +1,4 @@
+description: |
+  Око Сатоші - це спостережна вежа Lightning, що відповідає BOLT13, написана на Rust.
+contributors:
+  - rabbit-hole

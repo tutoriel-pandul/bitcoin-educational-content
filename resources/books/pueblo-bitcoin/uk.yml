@@ -1,0 +1,18 @@
+title: "Біткойн Село"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  У "Біткойн Селі" автор веде нас інформативною подорожжю через цю технологію, досліджуючи від походження грошей до ядра комп'ютерного протоколу. Він також надає роздуми про соціальні та політичні впливи, визначаючи основи, які Біткойн закладає для справедливішого та більш свідомого суспільства.
+contributors:
+  - another-satoshi
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+      - davidecoltro
+    reward:
