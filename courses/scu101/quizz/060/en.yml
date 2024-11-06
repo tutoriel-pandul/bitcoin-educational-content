@@ -5,8 +5,12 @@ wrong_answers:
   - The weather
   - The news
 explanation: |
-  The chapter mentions that the constant evolution of threats in cybersecurity
+  The chapter mentions that the constant evolution of threats
+  in cybersecurity requires regular monitoring.''' requires
+  regular monitoring.''' requires regular monitoring.'''
+  requires regular monitoring.''' requires regular
+  monitoring.'''
 
 
   requires regular monitoring.'''
-reviewed: false
+reviewed: true
