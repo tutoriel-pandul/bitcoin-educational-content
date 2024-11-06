@@ -5,8 +5,8 @@
   address_line_1: Haidmühle, Germany
   name: Test event 3
   builder: Amity Age
-  type: course
-  book_online: false
+  type: exam
+  book_online: true
   book_in_person: false
   price_dollars: 0
   description: Join an exclusive 4-day intensive training program designed specifically for women looking to become effective Bitcoin educators in their communities. This unique "Train the Trainers" academy combines technical Bitcoin knowledge with essential communication and teaching skills.
