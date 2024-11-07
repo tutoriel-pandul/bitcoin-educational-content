@@ -8,8 +8,9 @@
   builder: Plan ₿ Network
   type: Lecture
   book_online: true
-  book_in_person: false
+  book_in_person: true
   price_dollars: 0
+  available_seats: 10
   description: Bitcoin Circular Economies & Citadels
   language: 
     - en
