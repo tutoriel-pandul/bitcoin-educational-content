@@ -22,81 +22,159 @@ Cette formation vous dotera non seulement des connaissances pour comprendre la s
 ## Introduction à la cryptographie
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
-### Est-ce que cette formation est pour vous ? OUI !
 
-![introduction par Rogzy](https://youtu.be/ul8zU5QWIXg)
+***REFAIRE L'INTRO***
 
-C'est avec grand plaisir que nous vous accueillons à la nouvelle formation intitulée "Crypto 301 : Introduction à la cryptographie et au portefeuille HD", orchestrée par l'expert en la matière, Loïc Morel. Ce cours va vous faire plonger dans le fascinant univers de la cryptographie, cette discipline fondamentale des mathématiques qui assure l'encryption et la sécurité de vos données.
 
-Dans notre vie quotidienne et particulièrement dans le domaine des Bitcoins, la cryptographie joue un rôle primordial. Les concepts liés à celle-ci tels que les clés privées, publiques, les adresses, les chemins de dérivation, la graine et l'entropie, sont au cœur de l'utilisation et de la création d'un portefeuille Bitcoin. À travers ce cours, Loïc vous expliquera en détail comment sont créées les clés privées et comment elles sont liées aux adresses. Loïc consacrera également une heure à vous expliquer les détails mathématiques de la courbe elliptique. De plus, vous comprendrez pourquoi l'utilisation de HMAC SHA512 est importante pour sécuriser votre portefeuille et quelle est la différence entre la graine et la phrase mnémonique.
 
-Le but ultime de cette formation est de vous permettre de comprendre techniquement les processus de création d'un portefeuille HD et les méthodes cryptographiques employées. Au fil des années, les portefeuilles Bitcoin ont évolué pour devenir plus faciles à utiliser, plus sécurisés et standardisés grâce à des BIP spécifiques. Loïc vous aidera à comprendre ces BIP pour saisir les choix des développeurs de Bitcoin et des cryptographes. Comme toutes les formations offertes par notre université, celle-ci est entièrement gratuite et open source. Cela signifie que vous pouvez librement la reprendre et l'utiliser à votre guise. Nous avons hâte de recevoir vos retours à la fin de ce cours passionnant.
+Avant d'explorer en détail le fonctionnement et la construction des portefeuilles Bitcoin, nous allons parcourir plusieurs chapitres qui vous présentent les bases indispensables en cryptographie pour bien comprendre la suite.
 
-### La parole est au professeur !
 
-![intro par loïc](https://youtu.be/mwuxXLk4Kws)
 
-Bonjour à toutes et à tous, je suis Loïc Morel, votre guide à travers cette exploration technique de la cryptographie utilisée dans les portefeuilles Bitcoin.
-
-Notre voyage commence avec une plongée dans les abysses des fonctions de hachage cryptographiques. Nous démonterons ensemble les rouages de l'incontournable SHA256 et explorerons divers algorithmes dédiés à la dérivation.
-
-Nous poursuivrons notre aventure en déchiffrant le monde mystérieux des signatures numériques. Vous découvrirez comment la magie des courbes elliptiques s'applique à ces signatures, et nous ferons la lumière sur la manière de calculer la clé publique à partir de la clé privée. Et bien sûr, nous aborderons le processus de la signature numérique.
-
-Ensuite, nous remonterons le temps pour voir l'évolution des portefeuilles Bitcoin, et nous nous aventurerons dans les concepts d'entropie et de nombres aléatoires. Nous passerons en revue la fameuse phrase mnémonique, tout en ouvrant une parenthèse sur la passphrase. Vous aurez même l'occasion de vivre une expérience unique en créant une graine depuis 128 lancés de dés !
-
-Avec ces bases solides, nous serons prêts pour la partie cruciale : la création d'un portefeuille Bitcoin. De la naissance de la graine et de la clé maître, en passant par l'étude des clés étendues, jusqu'à la dérivation des paires de clés enfants, chaque étape sera décortiquée. Nous discuterons également de la structure du portefeuille et des chemins de dérivation.
-
-Pour couronner le tout, nous terminerons notre parcours en examinant les adresses Bitcoin. Nous expliquerons comment elles sont créées et comment elles jouent un rôle essentiel dans le fonctionnement des portefeuilles Bitcoin.
-
-Embarquez avec moi pour ce voyage captivant, et préparez-vous à explorer l'univers de la cryptographie comme jamais auparavant. Laissez vos préconceptions à la porte et ouvrez votre esprit à une nouvelle manière de comprendre Bitcoin et sa structure fondamentale.
 
 # Les fonctions de hachage
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
-## Introduction aux fonctions de hachage cryptographique relative à Bitcoin
+## Introduction aux fonctions de hachage
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
-![2.1 - les fonctions de hachage cryptographiques](https://youtu.be/dvnGArYvVr8)
+Le premier type d'algorithmes cryptographiques utilisé sur Bitcoin regroupe les fonctions de hachage. Elles jouent un rôle essentiel à différents niveaux du protocole, mais également au sein des portefeuilles Bitcoin. Découvrons ensemble ce qu'est une fonction de hachage et à quoi ça sert sur Bitcoin.
 
-Bienvenue à notre session d'aujourd'hui consacrée à une immersion approfondie dans le monde cryptographique des fonctions de hachage, une pierre angulaire essentielle à la sécurité du protocole Bitcoin. Imaginez une fonction de hachage comme un robot déchiffreur cryptographique ultra-efficace qui transforme des informations de toutes tailles en une empreinte digitale unique et de taille fixe, appelée "hash", "empreinte" ou encore "condensat". 
-En résumé, une fonction de hachage prend en entrée un message de taille arbitraire pour le convertir en une empreinte de taille fixe en sortie. 
+### Définition et principe du hachage
 
-Dépeindre le profil des fonctions de hachage cryptographiques nécessite de comprendre deux qualités essentielles : leur irréversibilité et leur résistance à la falsification. 
+Le hachage est un procédé qui permet de transformer une information de longueur arbitraire en une autre information de longueur fixe par le biais d'une fonction de hachage cryptographique. Autrement dit, une fonction de hachage prend une entrée de taille quelconque et la convertit en une empreinte de taille fixe, appelée "hash".
 
-L'irréversabilité ou bien la résistance à la préimage, c'est le fait que le calcul de la sortie en sachant l'entrée peut etre réalisé facilement, mais le calcul à partir de la sortie pour retrouver l'entrée est impossible.
-C'est une fonction à sens unique.
+Le hash peut également parfois être désigné par les termes "digest", "condensat", "condensé" ou "haché".
 
-![image](assets/image/section1/0.webp)
+Par exemple, la fonction de hachage SHA256 produit un hash d'une longueur fixe de 256 bits. Ainsi, si l’on utilise l’entrée "*PlanB*", un message de longueur arbitraire, le hash généré sera l'empreinte de 256 bits suivante :
 
-La résistance à la falcification provient du fait que la moindre modification de l'entrée donnera une sortie profondément différente.
-Ces fonctions permettent de vérifier l'intégrité des logiciels téléchargés. 
+```txt
+24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
+```
 
-![image](assets/image/section1/1.webp)
+001
 
-Une autre caractéristique cruciale qu'elles possèdent est leur résistance aux collisions et à la seconde préimage. Une collision, c'est le fait que deux entrées distinctes rendent la même sortie.
-Certes, dans l'univers du hachage, les collisions sont inévitables, mais une excellente fonction de hachage cryptographique les minimise considérablement. Le risque doit etre tellement faible qu'on peut le considérer comme nul. C'est comme si chaque hash était une maison dans une ville immense ; malgré le nombre énorme de maisons, une bonne fonction de hachage veille à ce que chaque maison ait une adresse unique.
-La résistance à la seconde préimage dépend de la résistance aux collisions ; s'il y a résistance aux collisions alors il y a résistance à la seconde préimage. 
-Etant donnée une information en entrée qui nous est imposée, il faut trouver une seconde entrée, différente de la première, qui  donne une collision sur le hachage en sortie de la fonction. La résistance à la seconde préimage est similaire à la résistance aux collisions excepté le fait que l'entrée est imposée.
+### Caractéristiques des fonctions de hachage
 
-Naviguons maintenant sur les flots tumultueux des fonctions de hachage désuètes. SHA0, SHA1, et MD5 sont aujourd'hui considérées comme des coques rouillées dans l'océan du hachage cryptographique. Elles sont souvent déconseillées car elles ont perdu leur résistance aux collisions. Le principe des tiroirs explique pourquoi, malgré nos meilleurs efforts, l'évitement des collisions est impossible en raison de la limitation de la taille de la sortie. Pour être véritablement considérée comme sûre, une fonction de hachage doit résister aux collisions, à la seconde préimage et à la préimage.
+Ces fonctions de hachage cryptographiques possèdent plusieurs caractéristiques essentielles qui les rendent particulièrement utiles dans le contexte de Bitcoin et d'autres systèmes informatiques :
+1. L'irréversibilité (ou résistance à la préimage)
+2. La résistance à la falsification (effet avalanche)
+3. La résistance aux collisions
+4. La résistance à la seconde préimage
 
-Élément clé dans le protocole Bitcoin, la fonction de hachage SHA-256 est le capitaine du navire. D'autres fonctions, comme SHA-512, sont utilisées pour la dérivation avec HMAC et PBKDF. De plus, RIPMD160 est utilisée pour réduire une empreinte à 160 bits. Lorsque nous parlons de HASH256 et HASH160, nous nous référons à l'utilisation d'un double hachage avec SHA-256 et RIPMD. 
+#### 1. L'irréversibilité (résistance à la préimage) :
 
-Pour HASH256, il s'agit d'un double hachage du message avec la fonction SHA256.
+L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine. On parle souvent de fonction à sens unique ou de "*trap door function*" pour décrire cette caractéristique. 
+
+Dans l'exemple donné, obtenir le hash `24f1b9…` en connaissant l'entrée "*PlanB*" est simple et rapide. Toutefois, retrouver le message "*PlanB*" en connaissant uniquement `24f1b9…` est impossible.
+
+002
+
+Il est donc impossible trouver une préimage $m$ pour un hash $h$ tel que $h = \text{HASH}(m)$, où $\text{HASH}$ est une fonction de hachage.
+
+#### 2. La résistance à la falsification (effet avalanche)
+
+La deuxième caractéristique est la résistance à la falsification, également connue sous le nom d'**effet avalanche**. Cette caractéristique s'observe sur une fonction de hachage si une petite modification du message d'entrée entraîne une modification radicale du hash de sortie.
+
+Si l'on reprend notre exemple avec l’entrée "*PlanB*" et la fonction SHA256, nous avons vu que le hash généré est le suivant :
+
+```txt
+24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
+```
+
+Si l'on modifie très légèrement l'entrée en utilisant cette fois "*Planb*", alors le simple passage d'un "B" majuscule à un "b" minuscule modifie complètement le hash en sortie de SHA256 :
+
+```txt
+bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
+```
+
+003
+
+Cette propriété garantit que même une altération minime du message original est immédiatement détectable, car cela ne modifie pas seulement une petite partie du hash, mais bien tout le hash. Cela pourra nous intéresser dans divers domaines pour vérifier l'intégrité de messages, de logiciels ou encore, de transactions Bitcoin.
+
+#### 3. La résistance aux collisions
+
+La troisième caractéristique est la résistance aux collisions. Une fonction de hachage est résistante aux collisions s'il est computationnellement impossible de trouver 2 messages différents qui produisent le même hash en sortie de la fonction. Formellement, il est difficile de trouver deux messages distincts $m_1$ et $m_2$ tels que :
+
 $$
-SHA256(SHA256(message))
+\text{HASH}(m_1) = \text{HASH}(m_2)
 $$
-Pour HASH160, il s'agit d'un double hachage du message en utilisant d'abord la fonction SHA256 puis RIPMD160.
+
+004
+
+En réalité, il est mathématiquement inévitable que des collisions existent pour les fonctions de hachage, car la taille des entrées peut être supérieure à celle des sorties. C'est ce que l'on appelle le principe des tiroirs de Dirichlet : si $n$ objets sont répartis dans $m$ tiroirs, avec $m < n$, alors au moins un tiroir contiendra forcément deux objets ou plus. Pour une fonction de hachage, ce principe s'applique, car le nombre de messages possibles est (presque) infini, tandis que le nombre de hash possibles est fini ($2^{256}$ dans le cas de SHA256).
+
+Ainsi, cette caractéristique ne signifie pas qu'il n'existe aucune collision pour les fonctions de hachage, mais plutôt qu'une bonne fonction de hachage rend la probabilité de trouver une collision négligeable. Cette caractéristique n’est par exemple plus vérifiée sur les algorithmes SHA-0 et SHA-1, prédécesseurs des SHA-2, pour lesquels des collisions ont été trouvées. Ces fonctions sont donc aujourd’hui déconseillées et souvent considérées comme désuètes.
+
+Pour une fonction de hachage de $n$ bits, la résistance aux collisions est de l'ordre de $2^{\frac{n}{2}}$, conformément à l'attaque de l'anniversaire. Par exemple, pour SHA256 ($n = 256$), la complexité de trouver une collision est de l'ordre de $2^{128}$ essais. Concrètement, cela veut dire que si l'on passe $2^{128}$ messages différents dans la fonction, on va probablement trouver une collision. 
+
+#### 4. La résistance à la seconde préimage
+
+La résistance à la seconde préimage est une autre caractéristique importante des fonction de hachage. Elle stipule qu'étant donné un message $m_1$ et son hash $h$, il est computationnellement infaisable de trouver un autre message $m_2 \neq m_1$ tel que :
+
 $$
-RIPMD160(SHA256(message))
+\text{HASH}(m_1) = \text{HASH}(m_2)
 $$
-L'utilisation de HASH160 est particulièrement avantageuse car elle permet de bénéficier de la sécurité de SHA-256 tout en réduisant la taille de l'empreinte.
 
-Pour résumer, l'objectif ultime d'une fonction de hachage cryptographique est de transmuter une information de taille arbitraire en une empreinte de taille fixe. Pour être reconnue comme sécurisée, elle doit avoir plusieurs cordes à son arc : irréversibilité, résistance à la falsification, résistance aux collisions, et résistance à la seconde préimage.
+La résistance à la seconde préimage est donc un petit peu similaire à la résistance à la collision, sauf qu'ici, l'attaque est plus difficile car l'attaquant ne peut pas choisir librement $m_1$.
 
-![image](assets/image/section1/2.webp)
+005
 
-Au terme de cette exploration, nous avons démystifié les fonctions de hachage cryptographiques, mis en évidence leurs utilisations dans le protocole Bitcoin, et décortiqué leurs objectifs spécifiques. Nous avons appris que pour être considérées comme sûres, les fonctions de hachage doivent être résistantes à la préimage, à la seconde préimage, aux collisions et à la falsification. Nous avons également parcouru l'éventail des différentes fonctions de hachage utilisées dans le protocole Bitcoin. Dans notre prochaine session, nous plongerons dans le coeur de la fonction de hachage SHA256, et découvrirons les mathématiques fascinantes qui lui confèrent ses caractéristiques uniques.
+### Applications des fonctions de hachage dans Bitcoin
+
+La fonction de hachage la plus utilisée dans Bitcoin est **SHA-256** ("*Secure Hash Algorithm 256 bits"*). Conçue au début des années 2000 par la NSA et standardisée par le NIST, elle produit un hash de 256 bits en sortie.
+
+Cette fonction est utilisée dans de nombreux aspects de Bitcoin. Au niveau protocolaire, elle intervient dans le mécanisme de Proof-of-Work, où elle est appliquée en double hachage pour rechercher une collision partielle entre l'en-tête d'un bloc candidat, créé par un mineur, et la cible de difficulté. Si cette collision partielle est trouvée, le bloc candidat devient valide et peut être ajouté à la blockchain.
+
+SHA256 est également utilisée dans la construction des arbres de Merkle, qui est notamment l'accumulateur utilisé pour l'enregistrement des transactions dans les blocs. On retrouve aussi cette structure dans le protocole Utreexo qui permet de réduire la taille de l'UTXO Set. Aussi, avec l'introduction de Taproot en 2021, SHA256 est exploitée dans les MAST (*Merkelised Alternative Script Tree*), qui permettent de ne révéler que les conditions de dépense effectivement utilisées dans un script, sans divulguer les autres options possibles.
+
+Enfin, et c'est ce qui nous intéressera particulièrement dans cette formation, SHA256 est utilisée au niveau applicatif pour la construction des portefeuilles Bitcoin et la dérivation des adresses.
+
+La plupart du temps, lorsque vous croiserez l'utilisation de SHA256 sur Bitcoin, ce sera en réalité un double hachage SHA256, noté "**HASH256**", et qui consiste simplement à appliquer SHA256 deux fois successivement :
+
+$$
+\text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
+$$
+
+Cette pratique du double hachage ajoute une couche supplémentaire de sécurité contre certaines attaques potentielles, même si un SHA256 simple est aujourd'hui considéré comme sûr cryptographiquement.
+
+Une autre fonction de hachage disponible dans le langage de Script et utilisée pour la dérivation des adresses de réception est la fonction **RIPEMD160**. Cette fonction produit un hash de 160 bits (donc plus court que SHA256). Elle est généralement combinée avec SHA256 pour former la fonction **HASH160** :
+
+$$
+\text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
+$$
+
+Cette combinaison est employée pour générer des hash plus courts, notamment dans la création de certaines adresses Bitcoin qui représentes des hachages de clés ou des hachages de script, ainsi que pour produire des empreintes de clés.
+
+Enfin, au niveau applicatif uniquement, on utilise parfois également la fonction SHA512, qui intervient de manière indirecte dans la dérivation de clés pour les portefeuilles. Cette fonction est très similaire à SHA256 dans son fonctionnement ; toutes deux appartiennent à la même famille SHA2, mais SHA512 produit, comme son nom l'indique, un hash de 512 bits, contre 256 bits pour SHA256. Nous détaillerons son utilisation dans les chapitres suivants.
+
+Vous connaissez maintenant les bases indispensables sur les fonctions de hachage pour la suite. Dans le chapitre suivant, je vous propose de découvrir plus en détail le fonctionnement de la fonction qui est au cœur de Bitcoin : SHA256. Nous allons la décortiquer pour comprendre comment elle parvient à obtenir les caractéristiques que nous avons décrites ici. Ce prochain chapitre est assez long et technique, mais il n'est pas indispensable pour suivre la suite de la formation. Donc, si vous avez des difficultés à le comprendre, ne vous inquiétez pas et passez directement au chapitre suivant, qui sera lui bien plus accessible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Les rouages de SHA256
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
