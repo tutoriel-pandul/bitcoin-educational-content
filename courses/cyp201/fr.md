@@ -598,55 +598,115 @@ Dans ce chapitre, nous avons exploré les fonctions HMAC-SHA512 et PBKDF2, qui u
 ## Signatures numériques et courbes elliptiques
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
-![Signatures numériques et courbes elliptiques](https://youtu.be/gOjYiPkx4z8)
+La deuxième méthode cryptographique utilisée dans Bitcoin concerne les algorithmes de signatures numériques. Examinons ensemble en quoi cela consiste et comment cela fonctionne.
 
-Où sont stockés ces fameux bitcoins ? Pas dans un portefeuille Bitcoin, comme on pourrait le penser. En réalité, un portefeuille Bitcoin conserve les clés privées nécessaires pour prouver la possession des bitcoins. Les bitcoins eux-mêmes sont enregistrés sur la blockchain, une base de données décentralisée qui archive toutes les transactions.
+### Bitcoins, UTXOs et conditions de dépense
 
-Dans le système Bitcoin, l'unité de compte est le bitcoin (notez le "b" minuscule). Ce dernier est divisible jusqu'à huit décimales, la plus petite unité étant le satoshi. Les UTXO, ou "Unspent Transaction Output", représentent les sorties de transactions non dépensées appartenant à une clef publique qui est elle-même liée mathématiquement à une clef privée. Pour dépenser ces bitcoins, il faut pouvoir répondre à la condition de dépense de la transaction. Une condition de dépense typique consiste à prouver au reste du réseau que l'utilisateur est le propriétaire légitime de la clef publique associée aux UTXO. Pour ce faire, il va devoir démontrer qu'il est en possession de la clé privée correspondante à la clé publique liée à chaque UTXO sans pour autant dévoiler la clef privée. 
+Le terme "*wallet*" sur Bitcoin est assez déroutant pour les débutants. En effet, ce que l'on appelle un portefeuille Bitcoin est un logiciel qui ne conserve pas directement vos bitcoins, contrairement à un portefeuille physique qui permet de conserver des pièces ou des billets. Les bitcoins sont simplement des unités de compte. Cette unité de compte est représentée par des **UTXO** (*Unspent Transaction Outputs*), qui sont des sorties de transactions non dépensées. Si ces sorties ne sont pas dépensées, cela signifie qu'elles appartiennent à un utilisateur. Les UTXOs sont donc en quelque sorte des morceaux de bitcoins, d'une taille variable, appartenant à un utilisateur.
 
-C'est ce que permet la signature numérique. Elle sert de preuve mathématique démontrant la possession d'une clé privée associée à une clé publique spécifique. Cette technique de protection des données est essentiellement basée sur un domaine fascinant de la cryptographie appelé la cryptographie sur courbes elliptiques (ECC).
+Le protocole Bitcoin est distribué et fonctionne sans autorité centrale. On ne peut donc pas faire comme dans les registres bancaires traditionnels, où les euros qui vous appartiennent sont simplement associés à votre identité personnelle. 
 
-La signature peut etre vérifée mathématiquement par les autres parties prenante du réseau Bitcoin.
+Sur Bitcoin, vos UTXOs vous appartiennent car ils sont protégés par des conditions de dépense spécifiées dans le langage Script. Pour simplifier, il existe deux types de scripts : le script de verrouillage (*scriptPubKey*), qui protège un UTXO, et le script de déverrouillage (*scriptSig*), qui permet de déverrouiller un UTXO et ainsi de dépenser les unités de bitcoins qu'il représente.
 
-![image](assets/image/section2/0.webp)
+Le fonctionnement initial de Bitcoin avec les scripts P2PK consiste à utiliser une clé publique pour verrouiller les fonds, en spécifiant dans un *scriptPubKey* que la personne souhaitant dépenser cet UTXO doit fournir une signature valide avec la clé privée correspondant à cette clé publique. Pour déverrouiller cet UTXO, il est donc nécessaire de fournir une signature valide dans le *scriptSig*. Comme leurs noms l'indiquent, la clé publique est connue de tous puisqu'elle est diffusée sur la blockchain, tandis que la clé privée est uniquement connue du propriétaire légitime des fonds.
 
-Pour assurer la sécurité des transactions, Bitcoin fait appel à deux protocoles de signature numérique : l'ECDSA (Elliptic Curve Digital Signature Algorithm) et Schnorr. ECDSA est un protocole de signature intégré à Bitcoin depuis son lancement en 2009, tandis que les signatures de Schnorr ont été ajoutées plus récemment, en novembre 2021. Bien que ces deux protocoles reposent sur la cryptographie sur courbes elliptiques et utilisent des mécanismes mathématiques similaires, ils diffèrent principalement en termes de structure de signature.
+Ça, c'est le fonctionnement de base de Bitcoin, mais au fil des mises à jour, ce fonctionnement s'est complexifié. D'abord, Satoshi a également introduit les scripts P2PKH, qui utilisent une adresse de réception dans le *scriptPubKey*, laquelle représente le hachage de la clé publique. Puis, le système s'est encore complexifié avec l'arrivée de SegWit puis de Taproot. Cependant, le principe général reste fondamentalement le même : une clé publique ou une représentation de cette clé sert à verrouiller les UTXOs, et une clé privée correspondante est requise pour les déverrouiller et donc les dépenser.
 
-Dans ce cours, nous présenterons l'algorithme ECDSA.
+L'utilisateur qui souhaite faire une transaction Bitcoin doit donc établir une signature numérique à l'aide de sa clé privée sur la transaction en question. La signature pourra être vérifiée par les autres participants du réseau. Si elle est valide, cela signifie que l'utilisateur qui initie la transaction est bien le propriétaire de la clé privée, et donc qu'il est bien le propriétaire des bitcoins qu'il souhaite dépenser. Les autres utilisateurs pourront alors accepter et propager la transaction.
 
-### Qu'est-ce qu'une courbe elliptique ?
+En conséquence, un utilisateur qui possède des bitcoins verrouillés avec une clé publique doit trouver un moyen de stocker de manière sécurisée ce qui permet de débloquer ses fonds : la clé privée. Un portefeuille Bitcoin est justement un dispositif qui va vous permettre de conserver facilement toutes vos clés sans que d'autres personnes n'y aient accès. Cela ressemble donc plus à un porte-clés qu'à un portefeuille.
 
-La cryptographie sur courbe elliptique c'est un ensemble d'algorithmes qui utilisent une courbe elliptique pour ses differentes propriétés geométriques et mathématiques dans un objectif cryptographique et dont la sécurité se base sur la difficulté de calcul du logarithme discret.
+Le lien mathématique entre une clé publique et une clé privée, ainsi que la possibilité de réaliser une signature pour prouver la possession d'une clé privée sans la dévoiler, sont rendus possibles par un algorithme de signature numérique. Dans le protocole Bitcoin, on utilise 2 algorithmes de signature : **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) et le **schéma de signature de Schnorr**. ECDSA est le protocole de signature numérique utilisé dans Bitcoin depuis ses débuts. Schnorr est plus récent dans Bitcoin, puisqu'il a été introduit en novembre 2021 avec la mise à jour Taproot.
 
-Les courbes elliptiques sont utiles dans une variété d'applications cryptographiques sur le protocole Bitcoin, allant des échanges de clés au chiffrement asymétrique en passant par les signatures numériques. 
+Ces deux algorithmes sont assez similaires dans leurs mécanismes. Ils sont tous deux basés sur la cryptographie sur les courbes elliptiques. La différence majeure entre ces deux protocoles réside dans la structure de la signature et certaines propriétés mathématiques spécifiques. Nous allons donc étudier le fonctionnement de ces algorithme en commençant par le plus ancien : ECDSA.
 
-Les courbes élliptiques ont des propriétés intéressantes :
+### La cryptographie sur les courbes elliptiques
 
-- la symétrie : Toute droite non verticale coupant deux points sur la courbe elliptique, recoupera la courbe en un troisieme point.
-- Toute droite non verticale et tangeante à la courbe en un point, coupera toujours la courbe en un deuxieme point unique.
+La cryptographie sur les courbes elliptiques (ECC) est un ensemble d'algorithmes qui utilisent une courbe elliptique pour ses différentes propriétés mathématiques et géométriques dans un objectif cryptographique. La sécurité de ces algorithmes repose sur la difficulté du problème du logarithme discret sur les courbes elliptiques. Les courbes elliptiques sont notamment utilisées pour réaliser des échanges de clés, du chiffrement asymétrique, ou encore pour réaliser des signatures numériques.
 
-Le protocole Bitcoin utilise une courbe elliptique particulière nommée Secp256k1 pour effectuer ses opérations cryptographiques. 
+Une propriété importante de ces courbes est qu'elles sont symétriques par rapport à l'axe des abscisses. Ainsi, toute droite non verticale coupant la courbe en deux points distincts intersectera toujours la courbe en un troisième point. De plus, toute tangente à la courbe en un point non singulier recoupera la courbe en un autre point. Ces propriétés seront utiles pour définir les opérations sur la courbe.
 
-Avant de plonger plus profondément dans ces mécanismes de signature, il est important de bien comprendre ce qu'est une courbe elliptique. Une courbe elliptique est définie par l'équation y² = x³ + ax + b. Tout point sur cette courbe a une symétrie distinctive qui est la clé de son utilité en cryptographie.
+Voici une représentation d'une courbe elliptique sur le corps des réels :
 
-![image](assets/image/section2/1.webp)
+014
 
-En fin de compte, diverses courbes elliptiques sont reconnues comme étant sécurisées pour un usage cryptographique. Le plus connu est peut-être la courbe secp256r1. Cependant, pour Bitcoin, Satoshi Nakamoto a opté pour une autre courbe : la secp256k1.
+Toute courbe elliptique est définie par une équation de la forme :
 
-Cette courbe se définit par les paramètres a=0 et b=7, et son équation est y² = x³ + 7 modulo n, avec n représentant le nombre premier qui détermine l'ordre de la courbe.
-
-![image](assets/image/section2/2.webp)
-
-La première image représente la courbe secp256k1 sur le corps des réels et son équation. 
-La deuxième image est une représentation de la courbe secp256k1 sur le corps ZP, le corps des entiers naturels et positifs, modulo p où p est un nombre premier. Cela ressemble à un nuage de points. Nous utilisons ce corps des entiers naturels et positifs pour éviter les approximations.
-p est un nombre premier, c'est l'ordre de la courbe qui est utilisé.
-Finalement, l'équation qui est utilisée sur le protocole Bitcoin est :
 $$
-y^2 = (x^3 + 7) mod(p)
+y^2 = x^3 + ax + b
 $$
-L'équation de la courbe elliptique sur bitcoin correspond à la dernière équation sur l'image précédente.
 
-Dans la prochaine section de ce cours, nous utiliserons des courbes qui sont sur le corps des réels simplement pour faciliter la compréhension.
+### secp256k1
+
+Pour utiliser ECDSA ou Schnorr, il faut choisir les paramètres de la courbe elliptique, c'est-à-dire les valeurs de $a$ et de $b$ dans l'équation de la courbe. Il existe différents standards de courbes elliptiques réputées cryptographiquement sûres. La plus connue est la courbe *secp256r1*, définie et recommandée par le NIST (*National Institute of Standards and Technology*).
+
+Malgré cela, Satoshi Nakamoto, l'inventeur de Bitcoin, a choisi de ne pas utiliser cette courbe. La raison de ce choix est inconnue, mais certains pensent qu'il a préféré trouver une alternative car les paramètres de cette courbe pourraient potentiellement contenir une backdoor. À la place, le protocole Bitcoin utilise la courbe standard ***secp256k1***. Cette courbe définie par les paramètres $a = 0$ et $b = 7$. Son équation est donc :
+
+$$
+y^2 = x^3 + 7
+$$
+
+Sa représentation graphique sur le corps des réels ressemble à ceci :
+
+015
+
+Cependant, en cryptographie, nous travaillons sur des ensembles finis de nombres. Plus précisément, nous travaillons sur le corps fini $\mathbb{F}_p$, qui est le corps des entiers modulo un nombre premier $p$.
+
+**Définition** : Un nombre premier est un entier naturel supérieur ou égal à 2 qui n'admet que deux diviseurs entiers positifs distincts : 1 et lui-même. Par exemple, le nombre 7 est un nombre premier puisqu'il ne peut être divisé que par 1 et 7. En revanche, le nombre 8 n'est pas premier, car il peut être divisé par 1, 2, 4 et 8.
+
+Dans Bitcoin, le nombre premier $p$ utilisé pour définir le corps fini est très grand. Il est choisi de manière à ce que l'ordre du corps (c'est-à-dire le nombre d'éléments dans $\mathbb{F}_p$) soit suffisamment grand pour assurer la sécurité cryptographique.
+
+Le nombre premier $p$ utilisé est :
+
+```txt
+p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
+```
+
+En notation décimale, cela correspond à :
+$$
+p = 2^{256} - 2^{32} - 977
+$$
+
+Ainsi, l'équation de notre courbe elliptique est en réalité :
+$$
+y^2 \equiv x^3 + 7 \mod p
+$$
+
+Étant donné que cette courbe est définie sur le corps fini $\mathbb{F}_p$, elle ne ressemble plus à une courbe continue mais plutôt à un ensemble discret de points. Par exemple, voici à quoi ressemble la courbe utilisée dans Bitcoin pour un tout petit $p = 17$ :
+
+016
+
+Dans cet exemple, nous avons intentionnellement limité le corps fini à $p = 17$ pour des raisons pédagogiques, mais il faut imaginer que celui utilisé dans Bitcoin est immensément plus grand, presque $2^{256}$.
+
+Nous utilisons un corps fini d'entiers modulo $p$ afin d'assurer la précision des opérations sur la courbe. En effet, les courbes elliptiques sur le corps des réels sont sujettes à des imprécisions dues aux erreurs d'arrondi lors des calculs informatiques. Si l'on effectue de nombreuses opérations sur la courbe, ces erreurs s'accumulent et le résultat final peut être incorrect ou difficilement reproductible. L'utilisation exclusive d'entiers positifs permet d'assurer une précision parfaite des calculs et donc une reproductibilité du résultat.
+
+Les mathématiques des courbes elliptiques sur les corps finis sont analogues à celles sur le corps des réels, avec l'adaptation que toutes les opérations sont effectuées modulo $p$. Pour simplifier les explications, nous continuerons dans les prochains chapitres à illustrer les concepts en utilisant une courbe définie sur les nombres réels, tout en gardant à l'esprit que, dans la pratique, la courbe est définie sur un corps fini.
+
+Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter cette autre formation complète sur PlanB Network :
+
+https://planb.network/courses/cyp302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Calculer la clé publique à partir de la clé privée
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
