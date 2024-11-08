@@ -126,9 +126,7 @@ La fonction de hachage la plus utilisée dans Bitcoin est **SHA-256** ("*Secure 
 
 Cette fonction est utilisée dans de nombreux aspects de Bitcoin. Au niveau protocolaire, elle intervient dans le mécanisme de Proof-of-Work, où elle est appliquée en double hachage pour rechercher une collision partielle entre l'en-tête d'un bloc candidat, créé par un mineur, et la cible de difficulté. Si cette collision partielle est trouvée, le bloc candidat devient valide et peut être ajouté à la blockchain.
 
-SHA256 est également utilisée dans la construction des arbres de Merkle, qui est notamment l'accumulateur utilisé pour l'enregistrement des transactions dans les blocs. On retrouve aussi cette structure dans le protocole Utreexo qui permet de réduire la taille de l'UTXO Set. Aussi, avec l'introduction de Taproot en 2021, SHA256 est exploitée dans les MAST (*Merkelised Alternative Script Tree*), qui permettent de ne révéler que les conditions de dépense effectivement utilisées dans un script, sans divulguer les autres options possibles.
-
-Enfin, et c'est ce qui nous intéressera particulièrement dans cette formation, SHA256 est utilisée au niveau applicatif pour la construction des portefeuilles Bitcoin et la dérivation des adresses.
+SHA256 est également utilisée dans la construction des arbres de Merkle, qui est notamment l'accumulateur utilisé pour l'enregistrement des transactions dans les blocs. On retrouve aussi cette structure dans le protocole Utreexo qui permet de réduire la taille de l'UTXO Set. Aussi, avec l'introduction de Taproot en 2021, SHA256 est exploitée dans les MAST (*Merkelised Alternative Script Tree*), qui permettent de ne révéler que les conditions de dépense effectivement utilisées dans un script, sans divulguer les autres options possibles. On la retrouve également dans le calcul de l'identifiant des transactions, dans la transmission des paquets sur le réseau P2P, dans les signatures électroniques... Enfin, et c'est ce qui nous intéressera particulièrement dans cette formation, SHA256 est utilisée au niveau applicatif pour la construction des portefeuilles Bitcoin et la dérivation des adresses.
 
 La plupart du temps, lorsque vous croiserez l'utilisation de SHA256 sur Bitcoin, ce sera en réalité un double hachage SHA256, noté "**HASH256**", et qui consiste simplement à appliquer SHA256 deux fois successivement :
 
@@ -155,173 +153,364 @@ Vous connaissez maintenant les bases indispensables sur les fonctions de hachage
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Les rouages de SHA256
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
-![Les rourages de SHA256](https://youtu.be/74SWg_ZbUj4)
+Nous avons vu précédemment que les fonctions de hachage possèdent des caractéristiques importantes qui justifient leur utilisation sur Bitcoin. Examinons maintenant les mécanismes internes de ces fonctions de hachage qui leur confèrent ces propriétés, et pour ce faire, je vous propose de décortiquer le fonctionnement de SHA256.
 
-Bienvenue à la suite de notre voyage fascinant à travers les labyrinthes cryptographiques de la fonction de hachage. Aujourd'hui, nous ôtons le voile sur les mystères de SHA256, un processus complexe mais ingénieux, que nous avons introduit précédemment. 
-Pour rappel, le but de la fonction de hachage SHA256 c'est de prendre un message en entrée de n'importe quelle taille et de générer en sortie un hash de 256 bits.
+Les fonctions SHA256 et SHA512 appartiennent à la même famille des SHA2. Leur mécanisme est basé sur une construction spécifique appelée **construction de Merkle-Damgård**. RIPEMD-160 utilise également ce même type de construction.
 
-### Le pré-traitement
+Pour rappel, nous avons donc un message  taille arbitraire en entrée de SHA256, et nous allons le passer dans la fonction pour obtenir un hash de 256 bits en sortie.
 
-Faisons un pas de plus dans ce labyrinthe, en débutant par le pré-traitement de SHA256. 
+### Pré-traitement de l'input
 
-#### Les bits de rembourrage 
+Pour commencer, il faut préparer notre message $m$ en entrée afin qu'il ait une longueur standard qui est un multiple de 512 bits. Cette étape est importante pour le bon fonctionnement de l'algorithme par la suite.
 
-L'objectif de cette première étape est de disposer d'un message égalisé sur un multiple de 512 bits. Pour ce faire, nous allons ajouter des bits de rembourrage au message.
+Pour ce faire, on commence avec l'étape des bits de rembourrage. On ajoute d'abord un bit séparateur `1` au message, suivi d'un certain nombre de bits `0`. Le nombre de bits `0` ajoutés est calculé de manière à ce que la longueur totale du message après cet ajout soit congrue à 448 modulo 512. On a donc la longueur $L$ du message avec les bits de rembourrage qui est égale à :
 
-Soit M, une taille de message initial. 
-Soit 1, un bit réservé pour le séparateur.
-Soit P, un nombre de bits utilisés pour le rembourrage et 64, un nombre de bits mis de côté pour la deuxième phase de pré-traitement. 
-Le total doit être un multiple de 512 bits, c'est ce que n représente.
+$$
+L \equiv 448 \mod 512
+$$
 
-![image](assets/image/section1/3.webp)
+"$\text{mod}$", pour modulo, est une opération mathématique qui, entre deux nombres entiers, renvoie le reste de la division euclidienne du premier par le second. Par exemple : $16 \mod 5 = 1$. C'est une opération très utilisée en cryptographie.
 
-Exemple avec un message en entrée de 950 bits :
+Ici, l'étape du rembourrage garantit que, après l'ajout des 64 bits de l'étape suivante, la longueur totale du message égalisé sera un multiple de 512 bits. Si le message initial a une longueur de $M$ bits, le nombre ($N$) de bits `0` à ajouter est donc :
 
-```
-Etape 1 : Déterminer la taille ; le nombre final de bits idéal.
-Le premier multiple de 512 > (M + 64 + 1) (avec M = 950) est 1024. 
-1024 = 2 * 512
-Donc n = 2.
+$$
+N = (448 - (M + 1) \mod 512) \mod 512
+$$
 
-Etape 2 : Déterminer P, le nombre de bits de rembourrage necessaires pour atteindre le nombre final de bits idéal.
--> M + 1 + P + 64 = n * 512
--> M + 1 + P + 64 = 2 * 512
--> 950 + 1 + P + 64 = 1024
--> P = 1024 - 1 - 64 - 950
--> P = 9
+Par exemple, si le message initial mesure 950 bits, le calcul sera le suivant : 
 
-Donc il faudra rajouter 9 bits de rembourrage pour avoir un message égalisé sur un multiple de 512.
-```
+$$
+\begin{align*}
+M & = 950 \\
+M + 1 & = 951 \\
+(M + 1) \mod 512 & = 951 \mod 512 \\
+& = 951 - 512 \cdot \left\lfloor \frac{951}{512} \right\rfloor \\
+& = 951 - 512 \cdot 1 \\
+& = 951 - 512 \\
+& = 439 \\
+\\
+448 - (M + 1) \mod 512 & = 448 - 439 \\
+& = 9 \\
+\\
+N & = (448 - (M + 1) \mod 512) \mod 512 \\
+N & = 9 \mod 512 \\
+& = 9
+\end{align*}
+$$
 
-Et maintenant ? 
-Juste après le message initial, il faut rajouter le séparateur 1 suivit de P qui dans notre exemple, est égale à neuf 0.
+Nous aurions ainsi 9 `0` en plus du séparateur `1`. Nos bits de rembourrage à ajouter directement après notre message $M$ seraient donc :
 
-```
-message + 1 000 000 000
-```
-
-#### Le rembourrage de la taille
-
-Nous passons maintenant à la deuxième phase du prétraitement, qui implique l'ajout de la représentation binaire de la taille du message initial, en bits. 
-
-Reprenons l'exemple avec un input de 950 bits :
-
-```
-La représentation binaire du chiffre 950 est : 11 1011 0110
-
-Nous utilisons nos 64 bits réservés lors de l'étape précédente. Nous ajoutons des zéros pour arrondir nos 64 bits à notre entrée équilibrée. Ensuite, nous fusionnons le message initial, le remplissage des bits et le remplissage de la taille, pour obtenir notre entrée égalisée.
+```txt
+1000 0000 00
 ```
 
-Voici le résultat :
+Après avoir ajouté les bits de rembourrage à notre message $M$, on ajoute également une représentation de 64 bits de la longueur originale du message $M$, exprimée en binaire. Cela permet à la fonction de hachage d'être sensible à l'ordre des bits et à la longueur du message.
 
-![image](assets/image/section1/4.webp)
+Si l'on reprend notre exemple avec un message initial de 950 bits, on va convertir le nombre décimal `950` en nombre binaire ce qui nous donne `1110 1101 10`. On complète ce nombre avec des zéros à la base pour faire 64 bits au total. Dans notre exemple, cela donne :
 
-### Le traitement
+```txt
+0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011 1011 0110
+```
 
-#### Prérequis de compréhension
+Ce rembourrage de la taille est ajouté à la suite du rembourrage des bits. Le message après notre pré-traitement se compose donc de trois parties :
+1. Le message original $M$ ;
+2. Un bit `1` suivi de plusieurs bits `0` pour former le rembourrage des bits ;
+3. Une représentation de 64 bits de la longueur de $M$ pour former de le rembourrage avec la taille.
 
-##### Les constantes et vecteurs d'initialisation
+006
 
-À présent, nous nous préparons pour les premières étapes du traitement de la fonction SHA-256. Comme dans toute bonne recette, nous avons besoin de certains ingrédients de base, que nous appelons constantes et vecteurs d'initialisation. 
+### Initialisation des variables
 
-Les vecteurs d'initialisation, de A à H, sont les premiers 32 bits des parties décimales des racines carrées des 8 premiers nombres premiers. Ils vont nous servir de valeurs de base dans les premières étapes de traitement. Leurs valeurs sont au format hexadecimal.
+SHA-256 utilise huit variables d'état initiales, notées $A$ à $H$, chacune de 32 bits. Ces variables sont initialisées avec des constantes spécifiques, qui sont les parties fractionnaires des racines carrées des huit premiers nombres premiers. Nous allons utiliser ces valeurs par la suite durant le processus du hachage :
 
-Les constantes K, de 0 à 63, représentent quant à elles les 32 premiers bits des parties décimales des racines cubiques des 64 premiers nombres premiers. Elles sont utilisées à chaque tour de la fonction de compression. Leurs valeurs sont également au format hexadécimal.
+- $A = 0x6a09e667$
+- $B = 0xbb67ae85$
+- $C = 0x3c6ef372$
+- $D = 0xa54ff53a$
+- $E = 0x510e527f$
+- $F = 0x9b05688c$
+- $G = 0x1f83d9ab$
+- $H = 0x5be0cd19$
 
-![image](assets/image/section1/5.webp)
+SHA-256 utilise également 64 autres constantes, notées $K_0$ à $K_{63}$, qui sont les parties fractionnaires des racines cubiques des 64 premiers nombres premiers :
 
-##### Les opérations utilisées
+$$
+K[0 \ldots 63] = \begin{pmatrix}
+0x428a2f98, & 0x71374491, & 0xb5c0fbcf, & 0xe9b5dba5, \\
+0x3956c25b, & 0x59f111f1, & 0x923f82a4, & 0xab1c5ed5, \\
+0xd807aa98, & 0x12835b01, & 0x243185be, & 0x550c7dc3, \\
+0x72be5d74, & 0x80deb1fe, & 0x9bdc06a7, & 0xc19bf174, \\
+0xe49b69c1, & 0xefbe4786, & 0x0fc19dc6, & 0x240ca1cc, \\
+0x2de92c6f, & 0x4a7484aa, & 0x5cb0a9dc, & 0x76f988da, \\
+0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
+0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
+0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
+0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
+0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
+0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
+\end{pmatrix}
+$$
 
-Au sein de la fonction de compression, nous utilisons des opérateurs spécifiques tels que XOR, AND et NOT. Nous traitons les bits un par un selon leur rang, en utilisant l'opérateur XOR et une table de vérité. L'opérateur AND est utilisé pour retourner 1 seulement si les deux opérandes sont égales à 1, et l'opérateur NOT pour renvoyer la valeur opposée d'une opérande. Nous utilisons également l'opération SHR pour décaler les bits vers la droite selon un nombre choisi.
+### Division de l'input
 
-La table de vérité :
+Maintenant que nous avons un input égalisé, nous allons maintenant aborder la phase de traitement principal de l'algorithme SHA256 : la fonction de compression. Cette étape est très importante, car c'est principalement elle qui confère à la fonction de hachage ses propriétés cryptographiques que nous avons étudiées dans le chapitre précédent.
 
-![image](assets/image/section1/6.webp)
+Tout d'abord, on commence par diviser notre message égalisé (résultat des étapes de pré-traitement) en plusieurs blocs $P$ de 512 bits chacun. Si notre message égalisé a une taille totale de $n \times 512$ bits, nous aurons donc $n$ blocs, chacun de 512 bits. Chaque bloc de 512 bits sera traité individuellement par la fonction de compression, qui consiste en 64 tours d'opérations successives. Nommons ces blocs $P_1$, $P_2$, $P_3$...
 
-Les opérations de décalage de bits :
+### Opérations logiques
 
-![image](assets/image/section1/7.webp)
+Avant d'explorer en détail la fonction de compression, il est important de comprendre les opérations logiques de base utilisées dans celle-ci. Ces opérations, basées sur l'algèbre de Boole, opèrent au niveau des bits. Les opérations logiques de base utilisées sont :
+- **La conjonction (AND)** : notée $\land$, correspond à un "ET" logique.
+- **La disjonction (OR)** : notée $\lor$, correspond à un "OU" logique.
+- **La négation (NOT)** : notée $\lnot$, correspond à un "NON" logique.
 
-#### La fonction de compression
+À partir de ces opérations de base, nous pouvons définir des opérations plus complexes, telles que le "OU exclusif" (XOR) noté $\oplus$, qui est très utilisé en cryptographie.
 
-Avant d'appliquer la fonction de compression, nous divisons l'input en blocs de 512 bits. Chaque bloc sera traité indépendamment des autres. 
+Chaque opération logique peut être représentée par une table de vérité, qui indique le résultat pour toutes les combinaisons possibles des valeurs d'entrée en binaire (deux opérandes $p$ et $q$).
 
-Chaque bloc de 512 bits est ensuite redivisé en morceaux W de 32 bits. De cette manière, W(0) représente les 32 premiers bits du bloc de 512 bits. W(1) représente les 32 bits suivants et ainsi de suite jusqu'à arriver aux 512 bits du bloc.
+Pour le XOR ($\oplus$) :
 
-Une fois que toutes les constantes K et les morceaux W sont définient, nous pourrons traiter pour chaque morceau W, les calculs suivants pour chaque tour.
+| $p$ | $q$ | $p \oplus q$ |
+| --- | --- | ------------ |
+| 0   | 0   | 0            |
+| 0   | 1   | 1            |
+| 1   | 0   | 1            |
+| 1   | 1   | 0            |
 
-Nous effectuons 64 tours de calcul dans la fonction de compression. Au dernier tour, nous aurons au niveau de la "Sortie de la fonction",  un état intermédiaire qui sera additionné à l'état initiale de la fonction de compression. 
+Pour le AND ($\land$) :
 
-Ensuite, nous réitérons toutes ces étapes de la fonction de compression sur le bloc de 512 bits suivant, jusqu'au dernier bloc.
+| $p$ | $q$ | $p \land q$ |
+| --- | --- | ----------- |
+| 0   | 0   | 0           |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
+| 1   | 1   | 1           |
 
-Toutes les additions dans la fonction de compression sont des additions modulo 2^32 afin de toujours garder une somme à 32 bits. 
+Pour le NOT ($\lnot p$) :
+
+| $p$ | $\lnot p$ |
+| --- | --------- |
+| 0   | 1         |
+| 1   | 0         |
 
 
+Prenons un exemple pour bien comprendre le fonctionnement de l'opération XOR au niveau des bits. Si nous avons deux nombres binaires sur 6 bits :
 
-![image](assets/image/section1/9.webp)
+- $a = 101100$
+- $b = 001000$
 
-![image](assets/image/section1/8.webp)
+Alors :
 
-##### Un tour de la fonction de compression
+$$
+a \oplus b = 101100 \oplus 001000 = 100100
+$$
 
-![image](assets/image/section1/11.webp)
+En appliquant le XOR bit par bit :
 
-![image](assets/image/section1/10.webp)
+| Position du bit | $a$ | $b$ | $a \oplus b$ |
+| --------------- | --- | --- | ------------ |
+| 1               | 1   | 0   | 1            |
+| 2               | 0   | 0   | 0            |
+| 3               | 1   | 1   | 0            |
+| 4               | 1   | 0   | 1            |
+| 5               | 0   | 0   | 0            |
+| 6               | 0   | 0   | 0            |
 
-Le tour de la fonction de compression se fera 64 fois. On retrouve en entrée nos morceaux W et nos constantes K définient précédemment. 
+Le résultat est donc $100100$.
 
-Les carrés/croix rouges correspondent à une addition modulo 2^32 bits.
+En plus des opérations logiques, la fonction de compression utilise des opérations de décalage de bits, qui vont jouer un rôle essentiel pour la diffusion des bits dans l'algorithme.
 
-Les inputs A, B, C, D, E, F, G, H seront associés à une valeur de 32 bits pour au total faire 32 * 8 = 256 bits.
-On retrouve également, en output une nouvelle suite A, B, C, D, E, F, G, H. Cet output sera ensuite utilisé en entrée du tour suivant et ainsi de suite jusqu'à la fin du 64ième tour.
+Tout d'abord il y a l'opération de décalage logique à droite, notée $ShR_n(x)$, qui décale tous les bits de $x$ vers la droite de $n$ positions, en complétant les bits vacants à gauche par des zéros.
 
-Les valeurs de la suite en input du premier tour de la fonction de compression, correspondent aux vecteurs d'initialisation prédéfinit plus haut. 
-Pour rappel, les vecteurs d'initialisation représentent les 32 premiers bits des parties décimales des racines carrés des 8 premiers nombre premier.
+Par exemple, pour $x = 101100001$ (sur 9 bits) et $n = 4$ :
 
-Voici l'exemple d'un tour : 
+$$
+ShR_4(101100001) = 000010110
+$$
 
-![image](assets/image/section1/12.1.webp)
+Schématiquement, l'opération de décalage à droite pourrait être vue comme cela :
 
-##### L'état intermédiaire 
+007
 
-Pour rappel, le message est divisé en blocs de 512 bits qui sont ensuite divisés en morceaux de 32 bits. Pour chaque bloc de 512 bits, nous appliquons les 64 tours de la fonction de compression.
-L'état intermédiaire correspond à la fin des 64 tours d'un bloc. Les valeurs de la suite en sortie de ce 64ième tour sont utilisées comme valeurs initiales de la suite en input du premier tour du bloc suivant.
+Une autre opération que l'on utilise dans SHA256 pour manier les bits est celle de la rotation circulaire à droite, notée $RotR_n(x)$, qui décale les bits de $x$ vers la droite de $n$ positions, en réinsérant les bits décalés à droite au début de la chaîne.
 
-![image](assets/image/section1/12.2.webp)
+Par exemple, pour $x = 101100001$ (sur 9 bits) et $n = 4$ :
 
-#### Vision globale de la fonction de hachage
+$$
+RotR_4(101100001) = 000110110
+$$
 
-![image](assets/image/section1/13.webp)
+Schématiquement, l'opération de décalage circulaire à droite pourrait être vue comme cela :
 
-Nous remarquerons que l'output du premier morceau de message de 512 bits correspond à nos vecteurs d'initialisation en input du 2ieme morceau de message, et ainsi de suite.
+008
 
-L'output du dernier tour, du dernier morceau correspond au résultat final de la fonction SHA256.
+### Fonction de compression
 
-Pour conclure, nous voudrions souligner le rôle crucial des calculs effectués dans les boîtes CH, MAJ, σ0 et σ1. Ces opérations, parmi d'autres, sont les gardiens qui assurent la robustesse de la fonction de hachage SHA256 face aux attaques, faisant de celle-ci un choix privilégié pour la sécurisation de nombreux systèmes numériques, notamment au sein du protocole Bitcoin. Il est donc évident que bien que complexe, la beauté de SHA256 réside dans sa robustesse à retrouver l'entrée à partir du hash, alors que la vérification du hash pour une entrée donnée est une action mécaniquement simple.
+Maintenant que nous avons compris les opérations de base, examinons la fonction de compression de SHA256 en détail.
+
+À l'étape précédente, nous avons donc divisé notre input en plusieurs morceaux $P$ de 512 bits chacun. Pour chaque bloc $P$ de 512 bits, nous avons :
+- **Les mots de message $W_i$** : pour $i$ de 0 à 63.
+- **Les constantes $K_i$** : pour $i$ de 0 à 63, définies à l'étape précédente.
+- **Les variables d'état $A, B, C, D, E, F, G, H$** : initialisées avec les valeurs de l'étape précédente.
+
+Les 16 premiers mots, $W_0$ à $W_{15}$, sont directement extraits du bloc $P$ de 512 bits traité. Chaque mot $W_i$ est constitué de 32 bits consécutifs du bloc. On prend donc par exemple notre premier morceau de l'input $P_1$, et on le divise encore en de plus petits morceaux de 32 bits chacun que l'on appelle les mots.
+
+Les 48 mots suivants ($W_{16}$ à $W_{63}$) sont générés à l'aide de la formule suivante :
+
+$$
+W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
+$$
+
+Avec :
+- $\sigma_0(x) = RotR_7(x) \oplus RotR_{18}(x) \oplus ShR_3(x)$
+- $\sigma_1(x) = RotR_{17}(x) \oplus RotR_{19}(x) \oplus ShR_{10}(x)$
+
+Dans ce cas, $x$ est égal à $W_{i-15}$ pour $\sigma_0(x)$ et $W_{i-2}$ pour $\sigma_1(x)$.
+
+Une fois que nous avons déterminé tous les mots $W_i$ pour notre morceau de 512 bits, nous pouvons passer à la fonction de compression qui consiste à effectuer 64 tours.
+
+009
+
+Pour chaque tour $i$ de 0 à 63, nous avons donc 3 types d'input différents. D'abord, les $W_i$ que nous venons de déterminer, constitués en partie de notre morceau $P_n$ du message. Ensuite, les 64 constantes $K_i$. Enfin, nous utilisons les variables d'état $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$, qui vont évoluer tout au long du processus de hachage et être modifiées à chaque fonction de compression. Cependant, pour le premier morceau $P_1$, on utilise les constantes initiales données précédemment.
+
+Nous effectuons donc les opérations suivantes sur nos inputs :
+
+- **Fonction $\Sigma_0$ :**
+$$
+\Sigma_0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)
+$$
+
+- **Fonction $\Sigma_1$ :**
+$$
+\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
+$$
+
+- **Fonction $Ch$ ("*Choose*") :**
+$$
+Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
+$$
+
+- **Fonction $Maj$ ("*Majority*") :**
+$$
+Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
+$$
+
+Nous calculons ensuite 2 variables temporaires :
+
+- $temp1$ :
+$$
+temp1 = H + \Sigma_1(E) + Ch(E, F, G) + K_i + W_i \mod 2^{32}
+$$
+
+- $temp2$ :
+$$
+temp2 = \Sigma_0(A) + Maj(A, B, C) \mod 2^{32}
+$$
+
+Ensuite, nous mettons à jour les variables d'état comme suit :
+
+$$
+\begin{cases}
+H = G \\
+G = F \\
+F = E \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
+C = B \\
+B = A \\
+A = temp1 + temp2 \mod 2^{32}
+\end{cases}
+$$
+
+Le schéma suivant représente un tour de la fonction de compression de SHA256 comme nous venons de le décrire :
+
+010
+
+- Les flèches indiquent le flux des données ;
+- Les boîtes représentent les opérations effectuées ;
+- Les $+$ entourés représentent l'addition modulo $2^{32}$.
+
+On peut déjà observer que ce tour nous donne en sortie de nouvelles variables d'état $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$. Ces nouvelles variables serviront d’entrée pour le tour suivant, qui produira à son tour de nouvelles variables $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$, que l'on utilisera pour le tour d'après. Ce processus se poursuit ainsi jusqu'au 64ème tour.
+
+Après les 64 tours, nous mettons à jour les valeurs initiales des variables d'état en les additionnant aux valeurs finales en sortie du tour n°64 :
+
+$$
+\begin{cases}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
+\end{cases}
+$$
+
+Ces nouvelles valeurs de $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$ serviront de valeurs initiales pour le bloc suivant, $P_2$. Pour ce bloc $P_2$, on reproduit le même processus de compression avec 64 tours, puis on met à jour les variables pour le bloc $P_3$, et ainsi de suite jusqu'au dernier bloc de notre input égalisé.
+
+Après avoir traité tous les blocs du message, nous concaténons les valeurs finales des variables $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$ pour former le hash final de 256 bits de notre fonction de hachage :
+
+$$
+\text{Hash} = A \, || \, B \, || \, C \, || \, D \, || \, E \, || \, F \, || \, G \, || \, H
+$$
+
+Chaque variable est un entier de 32 bits, donc leur concaténation donne bien toujours un résultat de 256 bits, et ce, quelle que soit la taille de notre message en input de la fonction de hachage.
+
+### Justification des propriétés cryptographiques
+
+Mais alors, en quoi cette fonction est-elle irréversible, résistante aux collisions et résistante à la falsification ? 
+
+Pour la résistance à la falsification, c’est assez simple à comprendre. Il y a tellement de calculs effectués en cascade, qui dépendent à la fois de l’input et des constantes, que la moindre modification du message initial change complètement le chemin parcouru, et donc change complètement le hash en sortie. C'est ce que l'on appelle l'effet avalanche. Cette propriété est en partie assurée par le mélange des états intermédiaires avec les états initiaux pour chaque morceau.
+
+Ensuite, lorsque l’on parle d’une fonction de hachage cryptographique, le terme "irréversibilité" n’est généralement pas utilisé. À la place, on parle de “résistance à la préimage” qui spécifie que pour tout $y$ donné, il est difficile de trouver un $x$ tel que $h(x) = y$. Cette résistance à la préimage, quant à elle, est garantie par la complexité algébrique et la forte non-linéarité des opérations effectuées dans la fonction de compression, ainsi que par la perte de certaines informations dans le processus. Par exemple, pour un résultat donné à une addition modulo, il existe plusieurs opérandes possibles :
+
+$$
+3+2 \mod 10 = 5 \\
+7+8 \mod 10 = 5 \\
+5+10 \mod 10 = 5
+$$
+
+On voit bien dans cet exemple qu’en connaissant uniquement le modulo utilisé (10) et le résultat (5), on ne peut pas déterminer avec certitude quelles sont les deux bonnes opérandes utilisées dans l’addition. On dit qu’il existe plusieurs congrus modulo 10.
+
+Pour l’opération XOR, on est confronté au même problème. Rappelez-vous de la table de vérité de cette opération : toute sortie de 1 bit peut être déterminée par deux configurations différentes en entrées qui ont exactement la même probabilité d’être les bonnes valeurs. On ne peut donc pas déterminer avec certitude les opérandes d’un XOR en connaissant uniquement son résultat. Si on augmente la taille des opérandes du XOR, le nombre de possibles entrées en connaissant uniquement le résultat augmente de façon exponentielle. De plus, le XOR est souvent utilisé aux côtés d’autres opérations au niveau du bit, comme l’opération $\text{RotR}$, qui viennent ajouter encore plus d’interprétations possibles au résultat.
+
+On utilise également au sein de la fonction de compression l’opération $\text{ShR}$. Celle-ci vient supprimer une partie de l’information de base qui est donc impossible à retrouver par la suite. Il n’y a encore une fois pas de moyen algébrique pour inverser cette opération. Toutes ces opérations à sens unique et ces opérations de perte d’information sont utilisées à de très nombreuses reprises dans les fonctions de compression. Le nombre de possibles entrées pour une sortie donnée est donc presque infini, et chaque tentative de calcul inverse mènerait à des équations avec un nombre d’inconnus très élevé qui augmenterait exponentiellement à chaque étape.
+
+Enfin, pour la caractéristique de résistance aux collisions, plusieurs paramètres entrent en compte. Le pré-traitement du message d’origine tient un rôle essentiel. Sans ce pré-traitement, il pourrait être plus facile de trouver des collisions sur la fonction. Bien que, théoriquement, des collisions existent (en raison du principe des tiroirs), la structure de la fonction de hachage, combinée aux propriétés précédentes, rend la probabilité de trouver une collision extrêmement faible.
+
+Pour qu'une fonction de hachage soit résistante aux collisions, il est essentiel que :
+
+- La sortie soit imprévisible : Toute prévisibilité peut être exploitée pour trouver des collisions plus rapidement qu'avec une attaque par force brute. La fonction assure que chaque bit de la sortie dépend de façon non triviale de l'entrée. En d'autres termes, la fonction est conçue pour que chaque bit du résultat final ait une probabilité indépendante d'être 0 ou 1, même si cette indépendance n'est pas absolue en pratique.
+- La distribution des hash soit pseudo-aléatoire : Cela assure que les hash sont répartis de manière uniforme.
+- La taille du hash soit conséquente : au plus l'espace possible pour les résultats est grand, au plus il est difficile de trouver une collision.
+
+Les cryptographes conçoivent ces fonctions en évaluant les meilleures attaques possibles pour trouver des collisions, puis en ajustant les paramètres pour rendre ces attaques inefficaces.
+
+### Construction de Merkle-Damgård
+
+La structure de SHA256 est basée sur la construction de Merkle-Damgård, qui permet de transformer une fonction de compression en une fonction de hachage pouvant traiter des messages de longueur arbitraire. C'est justement ce que nous venons de voir dans ce chapitre.
+
+Cependant, certaines vieilles fonctions de hachage comme SHA1 ou MD5, qui utilisent cette construction spécifique, sont vulnérables aux attaques par extension de longueur. C'est une technique qui permet à un attaquant qui connaît le hash d’un message $M$ et la longueur de $M$ (sans connaître le message lui-même) de calculer le hash d’un message $M'$ formé de $M$ concaténé avec un contenu supplémentaire.
+
+SHA256, même si elle utilise le même type de construction, est en théorie résistante à ce type d'attaque, contrairement à SHA1 et MD5. C'est peut-être ce qui pourrait expliquer le mystère du double hachage implémenté partout dans Bitcoin par Satoshi Nakamoto. Pour éviter ce type d'attaque, il est possible que Satoshi ait préféré utiliser un double SHA256 :
+
+$$
+\text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
+$$
+
+Cela renforce la sécurité contre les attaques potentielles liées à la construction de Merkle-Damgård, mais cela n'augmente absolument pas la sécurité du processus de hachage en termes de résistance aux collisions. De plus, même si SHA256 avait été vulnérable à ce type d'attaque, cela n'aurait pas eu d'impact grave, car tous les cas d'utilisation des fonctions de hachage dans Bitcoin concernent des données publiques. Or, l'attaque par extension de longueur peut n'être utile pour un attaquant que si les données hachées sont privées et que l'utilisateur a utilisé la fonction de hachage comme un mécanisme d'authentification pour ces données, à la manière d'un MAC. Ainsi, l'implémentation du double hachage reste un mystère dans la conception de Bitcoin.
+
+Maintenant que nous avons vu en détail le fonctionnement des fonctions de hachage, et notamment de SHA256, utilisée partout dans Bitcoin, nous allons nous pencher plus spécifiquement sur les algorithmes de dérivation employés au niveau applicatif, notamment pour dériver les clés de votre portefeuille.
+
+
 
 ## Les algorithmes utilisés pour la dérivation
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
