@@ -515,45 +515,82 @@ Maintenant que nous avons vu en détail le fonctionnement des fonctions de hacha
 ## Les algorithmes utilisés pour la dérivation
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
-![Les algorithmes utilisés pour la dérivation](https://youtu.be/ZF1_BMsOJXc)
+Sur Bitcoin au niveau applicatif, en complément des fonctions de hachage, on utilise des algorithmes de dérivation cryptographiques permettant de générer des données sécurisées à partir d'entrées initiales. Bien que ces algorithmes reposent sur des fonctions de hachage, ils répondent à des objectifs différents, notamment en termes d'authentification et de génération de clés. Ces algorithmes conservent en partie les caractéristiques des fonctions de hachage, telles que l'irréversibilité, la résistance à la falsification et la résistance aux collisions.
 
-Les algorithmes de dérivation HMAC et PBKDF2 sont des composants clés dans la mécanique de sécurité du protocole Bitcoin. Ils préviennent une variété d'attaques potentielles et garantissent l'intégrité des portefeuilles Bitcoin.
+Sur les portefeuilles Bitcoin, on utilise principalement 2 algorithmes de dérivation :
+1. **HMAC (*Hash-based Message Authentication Code*)**
+2. **PBKDF2 (*Password-Based Key Derivation Function 2*)**
 
-HMAC et PBKDF2 sont des outils cryptographiques utilisés pour différentes tâches dans Bitcoin. HMAC est principalement utilisé pour contrer les attaques par extension de longueur lors de la dérivation des portefeuilles hiérarchiquement déterministes (HD), tandis que PBKDF2 est utilisé pour convertir une phrase mémonique en graine.
+Nous allons explorer ensemble le fonctionnement et le rôle de chacun d'eux.
 
-#### HMAC-SHA512
+### HMAC-SHA512
 
-Le couple HMAC-SHA512  a pour caractéristique deux entrées : un message m (Entrée 1) et une clé K choisie arbitrairement par l'utilisateur (Entrée 2).
-Il a également une sortie de taille fixe : 512 bits
+HMAC est un algorithme cryptographique permettant de calculer un code d'authentification basé sur une combinaison d’une fonction de hachage et d’une clé secrète. Bitcoin utilise HMAC-SHA512, soit la variante de HMAC utilisant la fonction de hachage SHA512. Nous avons déjà vu dans le chapitre précédent que SHA512 fait parti de la même famille de fonction de hachage que SHA256, mais elle produit un output de 512 bits.
 
+Voici son schéma de fonctionnement général avec $m$ le message en entrée et $K$ une clé secrète :
 
-Notons : 
-- m : message de taille arbitraire choisi par l'utilisateur (entrée 1)
-- K : clé arbitraire choisie par l'utilisateur (entrée 2)
-- K' : la clé K égalisée. Elle a été ajustée à la taille B des blocs.
-- || : opération de concaténation.
-- opad : constante définie par l'octet 0x5c répété B fois.
-- ipad : constante définie par l'octet 0x36 répété B fois.
-- B : La taille des blocs de la fonction de hachage utilisée.
+011
 
+Étudions plus en détail ce qu’il se passe dans cette boîte noire HMAC-SHA512. Soit la fonction HMAC-SHA512 avec :
+- $m$ : le message de taille arbitraire choisi par l’utilisateur (premier input) ;
+- $K$ : la clé secrète arbitraire choisie par l’utilisateur (second input) ;
+- $K'$ : la clé $K$ ajustée à la taille $B$ des blocs de la fonction de hachage (1024 bits pour SHA512, soit 128 octets) ;
+- $\text{SHA512}$ : la fonction de hachage SHA512 ;
+- $\oplus$ : l'opération XOR (ou exclusif) ;
+- $\|$ : l’opérateur de concaténation, reliant les chaînes de bits bout-à-bout ;
+- $\text{opad}$ : constante composée de l’octet $0x5c$ répété 128 fois
+- $\text{ipad}$ : constante composée de l’octet $0x36$ répété 128 fois
 
-![image](assets/image/section1/14.webp)
+Avant de calculer le HMAC, il est nécessaire d'égaliser la clé et les constantes selon la taille du bloc $B$. Par exemple, si la clé $K$ est plus courte que 128 octets, on la complète avec des zéros pour obtenir la taille $B$. Si $K$ est plus longue que 128 octets, on la compresse avec SHA512, puis on ajoute des zéros jusqu'à atteindre 128 octets. De cette manière on obtient une clé égalisée nommée $K'$.
 
-HMAC-SHA512, qui prend un message et une clé comme entrés, génère une sortie de taille fixe. Pour assurer l'uniformité, la clé est ajustée en fonction de la taille des blocs utilisés dans la fonction de hachage. Dans le cadre de la dérivation des portefeuilles HD, HMAC-SHA-512 est utilisé. Ce dernier fonctionne avec des blocs de 1024 bits (128 octets) et ajuste la clé en conséquence. Il utilise les constantes OPAD (0x5c) et IPAD (0x36), répétées autant de fois que nécessaire pour renforcer la sécurité.
+Les valeurs de $\text{opad}$ et $\text{ipad}$ sont obtenues en répétant leur octet de base ($0x5c$ pour $\text{opad}$, $0x36$ pour $\text{ipad}$ ) jusqu'à atteindre la taille $B$. Ainsi, avec $B = 128$ octets, on a :
+$$
+\text{opad} = 0x5c5c\ldots5c \quad (\text{*128})
+$$
 
-Le processus de HMAC-SHA-512 implique la concaténation du résultat de SHA-512 appliqué à la clé XOR OPAD et à la clé XOR IPAD avec le message. Lorsqu'il est utilisé avec des blocs de 1024 bits (128 octets), la clé d'entrée est complétée par des zéros si nécessaire, puis XORée avec IPAD et OPAD. La clé ainsi modifiée est ensuite concaténée avec le message.
+Une fois le prétraitement réalisé, l'algorithme HMAC-SHA512 est défini par l'équation suivante :
 
-![image](assets/image/section1/15.webp)
+$$
+\text {HMAC-SHA512}_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+$$
 
-Le code de chaîne, en intégrant une source supplémentaire d'entropie, augmente la sécurité des clés dérivées. Sans lui, une attaque pourrait compromettre l'ensemble du portefeuille et voler tous les bitcoins.
+Cette équation se décompose avec les étapes suivantes :
+1. On XOR la clé ajustée $K'$ avec $\text{ipad}$ pour obtenir $\text{iKpad}$ ;
+2. On XOR la clé ajustée $K'$ avec $\text{opad}$ pour obtenir $\text{oKpad}$ ;
+3. On concatène $\text{iKpad}$ avec le message $m$.
+4. On hache ce résultat avec SHA512 pour obtenir un hash intermédiaire $H_1$.
+5. On concatène $\text{oKpad}$ avec $H_1$.
+6. On hache ce résultat avec SHA512 pour obtenir le résultat final $H_2$.
 
-PBKDF2 est utilisé pour convertir une phrase mémonique en graine. Cet algorithme réalise 2048 tours en utilisant HMAC SHA512. Grâce à ces algorithmes de dérivation, deux entrées différentes peuvent donner une sortie unique et fixe, ce qui pallie le problème des attaques par extension de longueur possibles sur les fonctions de la famille SHA-2.
+Ces étapes peuvent être résumées schématiquement comme suit :
 
-Une attaque par extension de longueur exploite une propriété spécifique de certaines fonctions de hachage cryptographiques. Dans une telle attaque, un attaquant qui possède déjà le hachage d'un message inconnu peut l'utiliser pour calculer le hachage d'un message plus long, qui est une extension du message original. Cela est souvent possible sans connaître le contenu du message original, ce qui peut mener à des failles de sécurité importantes si ce genre de fonction de hachage est utilisé pour des tâches comme la vérification d'intégrité.
+012
 
-![image](assets/image/section1/16.webp)
+HMAC est utilisé dans Bitcoin notamment pour la dérivation des clés dans les portefeuilles HD (nous en parlerons plus en détails dans les prochains chapitres) et comme composant de PBKDF2.
 
-En conclusion, les algorithmes HMAC et PBKDF2 jouent des rôles essentiels dans la sécurité de la dérivation des portefeuilles HD dans le protocole Bitcoin. L'HMAC-SHA-512 est utilisé pour se prémunir contre les attaques par extension de longueur, tandis que PBKDF2 permet la conversion de la phrase mémonique en graine. Le code de chaîne ajoute une source d'entropie supplémentaire dans la dérivation des clés, assurant ainsi la robustesse du système.
+### PBKDF2
+
+PBKDF2 (*Password-Based Key Derivation Function 2*) est un algorithme de dérivation de clé destiné à renforcer la sécurité des mots de passe. L'algorithme applique une fonction pseudo-aléatoire (ici HMAC-SHA512) sur un mot de passe et un sel cryptographique, puis répète cette opération un certain nombre de fois pour obtenir une clé en sortie.
+
+Dans Bitcoin, PBKDF2 est utilisé pour générer la graine d'un portefeuille HD à partir d’une phrase mnémonique et d'une passphrase (mais nous en parlerons plus en détail dans les prochains chapitres).
+
+Le processus de PBKDF2 est le suivant, avec :
+- $m$ : la phrase de récupération de l'utilisateur
+- $s$ : la passphrase optionnelle pour augmenter la sécurité (champs vide si pas de passphrase)
+- $n$ : le nombre d'itération de la fonction, dans notre cas c'est 2048
+
+La fonction PBKDF2 est définie de manière itérative. Chaque itération prend en entrée le résultat de la précédente, le passe dans HMAC-SHA512, et combine les résultats successifs pour produire la clé finale :
+
+$$
+\text{PBKDF2}(m, s) = \text{HMAC-SHA512}^{2048}(m, s)
+$$
+
+Schématiquement, PBKDF2 peut être représenté comme suit :
+
+013
+
+Dans ce chapitre, nous avons exploré les fonctions HMAC-SHA512 et PBKDF2, qui utilisent les fonctions de hachage pour garantir l'intégrité et la sécurité des dérivations de clés dans le protocole Bitcoin. Dans le prochaine partie, nous allons nous pencher sur les signatures numériques, une autre méthode cryptographique largement utilisée sur Bitcoin.
+
 
 # Les signatures numériques
 <partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
