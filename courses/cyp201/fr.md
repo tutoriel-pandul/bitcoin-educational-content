@@ -682,28 +682,9 @@ Nous utilisons un corps fini d'entiers modulo $p$ afin d'assurer la précision d
 
 Les mathématiques des courbes elliptiques sur les corps finis sont analogues à celles sur le corps des réels, avec l'adaptation que toutes les opérations sont effectuées modulo $p$. Pour simplifier les explications, nous continuerons dans les prochains chapitres à illustrer les concepts en utilisant une courbe définie sur les nombres réels, tout en gardant à l'esprit que, dans la pratique, la courbe est définie sur un corps fini.
 
-Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter cette autre formation complète sur PlanB Network :
+Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur PlanB Network :
 
 https://planb.network/courses/cyp302
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -711,77 +692,115 @@ https://planb.network/courses/cyp302
 ## Calculer la clé publique à partir de la clé privée
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 
-![Calculer la clé publique depuis la clé privée](https://youtu.be/NJENwFU889Y)
+Comme vu précédemment, les algorithmes de signature numérique sur Bitcoin sont basés sur un couple clé privée / clé publique qui sont liées mathématiquement. Découvrons ensemble quel est ce lien mathématique et comment elles sont générées.
 
-Pour commencer, plongeons dans l'univers de l'algorithme Elliptic Curve Digital Signature Algorithm (ECDSA). Bitcoin exploite cet algorithme de signature numérique pour lier les clés privées et publiques. Dans ce système, la clé privée est un nombre aléatoire ou pseudo-aléatoire de 256 bits. Le nombre total de possibilités pour une clé privée est théoriquement de 2^256, mais il est légèrement inférieur à cela dans la réalité. Pour être précis, certaines clés privées de 256 bits ne sont pas valides pour Bitcoin.
+### La clé privée
 
-Pour être compatible avec Bitcoin, une clé privée doit être comprise entre 1 et n-1, où n représente l'ordre de la courbe elliptique. Cela signifie que le nombre total de possibilités pour une clé privée Bitcoin est presque égal à 1,158 x 10^77. Pour mettre cela en perspective, c'est à peu près le même nombre d'atomes présents dans l'univers observable. 
+La clé privée est simplement un nombre aléatoire ou pseudo-aléatoire. Dans le cas de Bitcoin, ce nombre est d'une taille de 256 bits. Le nombre de possibilités pour une clé privée Bitcoin est donc théoriquement de $2^{256}$.
 
-![image](assets/image/section2/3.webp)
+**Remarque** : Un "nombre pseudo-aléatoire" est un nombre qui possède des propriétés s'approchant de celles d'un nombre véritablement aléatoire, mais qui est généré par un algorithme déterministe.
 
-La clé privée unique, notée k, est ensuite utilisée pour déterminer une clé publique.
+Cependant, en pratique, il existe seulement $n$ points distincts sur notre courbe elliptique secp256k1, où $n$ est l'ordre du point générateur $G$ de la courbe. Nous verrons plus tard à quoi correspond ce nombre, mais retenez simplement qu'une clé privée valide est un nombre entier compris entre $1$ et $n-1$, en sachant que $n$ est un nombre proche mais légèrement plus petit que $2^{256}$. Il existe donc certains nombres de 256 bits qui ne sont pas valides pour devenir une clé privée dans Bitcoin, en l'occurrence, ce sont tous les nombres compris entre $n$ et $2^{256}$. Si la génération du nombre aléatoire (la clé privée) produit une valeur $k$ telle que $k \geq n$, celle-ci est considérée comme invalide, et il faudra générer une nouvelle valeur aléatoire.
 
-La clé publique, notée K, est un point sur la courbe elliptique qui est dérivé de la clé privée en utilisant des algorithmes irréversibles comme ECDSA. Lorsque nous avons connaissance de la clef privée, il est très facile de retrouver la clef publique mais lorsque nous possedons uniquement la clef publique, il est impossible de retrouver la clef privée. Cette irréversibilité est la pierre angulaire de la sécurité du portefeuille Bitcoin.
+Le nombre de possibilités pour une clé privée Bitcoin est donc d'environ $n$, qui est un nombre proche de $1.158 \times 10^{77}$. C'est un nombre tellement grand que si vous choisissez une clé privée aléatoirement, il est statistiquement presque impossible de tomber sur la clé privée d'un autre utilisateur. Pour vous donner un ordre de grandeur, le nombre de clés privées possibles sur Bitcoin est d’un ordre de magnitude proche de celui des atomes estimés dans l'univers observable.
 
-La clé publique fait 512 bits car elle correspond à un point sur la courbe avec une coordonnée x de 256 bits et une coordonnée y de 256 bits. Cependant, elle peut être compressée en un nombre de 264 bits.
+Comme nous le verrons dans les prochains chapitres, aujourd'hui, la majorité des clés privées utilisées sur Bitcoin ne sont pas générées aléatoirement mais sont le résultat d'une dérivation déterministe depuis une phrase mnémonique, elle-même pseudo-aléatoire (c'est la fameuse phrase de 12 ou 24 mots). Cette information ne change rien pour l'utilisation des algorithmes de signature comme ECDSA, mais elle permet de recentrer notre vulgarisation sur Bitcoin.
 
-![image](assets/image/section2/4.webp)
+Pour la suite de l'explication, la clé privée sera notée par la lettre minuscule $k$.
 
-Le point générateur (G)  est le point sur la courbe à partir duquel toutes les clés publiques sont générées sur le protocole Bitcoin. Il a des coordonnées x et y spécifiques, généralement représentées en hexadécimal. Pour secp256k1, les coordonnées G sont, en hexadécimale :
+### La clé publique
 
-- `Gx = 79BE667E F9DCBBAC 55A06295 CE870B07 029BFCDB 2DCE28D9 59F2815B 16F81798`
-- `Gy = 483ADA77 26A3C465 5DA4FBFC 0E1108A8 FD17B448 A6855419 9C47D08F FB10D4B8`
+La clé publique est un point sur la courbe elliptique, noté par la lettre majuscule $K$, et est calculée à partir de la clé privée $k$. Ce point $K$ est représenté par une paire de coordonnées $(x, y)$ sur la courbe elliptique, chaque coordonnée étant un entier modulo $p$, le nombre premier définissant le corps fini $\mathbb{F}_p$.
 
-Ce point est utile pour dériver toutes les clefs publiques. Pour calculer la clef publique K, il suffit de multiplier le point G par la clef privée k, tel que : K = k.G
+En pratique, une clé publique non compressée est représentée par 512 bits (ou 64 octets), correspondant à deux nombres mis bout-à-bout de 256 bits ($x$ et $y$). Ces nombres, ce sont l'abscisse ($x$) et l'ordonnée ($y$) de notre point sur secp256k1. Si l'on ajoute le préfixe, la clé publique fait au total 520 bits.
 
-Nous allons maintenant étudier comment additionner et multiplier des points sur les courbes elliptiques.
+Cependant, il est aussi possible de représenter la clé publique de manière compressée en utilisant seulement 33 octets (264 bits) en conservant uniquement l'abscisse $x$ de notre point sur la courbe et un octet indiquant la parité de $y$. C'est ce qu'on appelle une clé publique compressée. Je vous en parlerai plus en détail dans les derniers chapitres de cette formation. Mais ce qu'il faut retenir, c'est qu'une clé publique $K$ est un point décris par $x$ et $y$.
 
-#### Addition et doublement de points sur les courbes elliptiques
+Pour calculer le point $K$ qui correspond à notre clé publique, nous utilisons l'opération de multiplication scalaire sur les courbes elliptiques, définie comme une addition répétée ($k$ fois) du point générateur $G$ :
 
-##### Additionner deux points M + L
+$$
+K = k \cdot G
+$$
 
-L'une des propriétés remarquables des courbes elliptiques est qu'une droite non verticale intersectant la courbe en deux points l'intersectera également en un troisième point, appelé point O dans notre exemple. Cette propriété est utilisée pour déterminer le point U, qui est l'opposé du point O. 
+où :
+- $k$ est la clé privée (un entier aléatoire compris entre $1$ et $n-1$) ;
+- $G$ est le point générateur de la courbe elliptique utilisé par tous les participants du réseau Bitcoin ;
+- $\cdot$ représente la multiplication scalaire sur la courbe elliptique, qui équivaut à ajouter le point $G$ à lui-même $k$ fois.
 
-M + L = U
+Le fait que ce point $G$ soit commun à toutes les clés publiques sur Bitcoin nous permet d'être sûr qu'une même clé privée $k$ nous donnera toujours la même clé publique $K$ :
 
-![image](assets/image/section2/5.webp)
+017
 
-##### Addition un point par lui même = Doublement de point
+La principale caractéristique de cette opération est qu'elle est une fonction à sens unique. Il est facile de calculer la clé publique $K$ en connaissant la clé privée $k$ et le point générateur $G$, mais il est pratiquement impossible de calculer la clé privée $k$ en connaissant seulement la clé publique $K$ et le point générateur $G$. Trouver $k$ à partir de $K$ et $G$ revient à résoudre le problème du logarithme discret sur les courbes elliptiques, un problème mathématiquement difficile pour lequel il n'existe pas d'algorithme efficace connu. Même les calculateurs les plus puissants actuels sont incapables de résoudre ce problème dans un temps raisonnable.
 
-L'addition d'un point G à lui-même se fait en traçant une tangente à la courbe au niveau de ce point. Cette tangeante, selon les propriétés des courbes elliptiques recoupera forcément la courbe en un second point unique -J. L'opposé de ce point, J, est le résultat de l'addition du point G à lui même.
-G + G = J
+018
 
-D'ailleur, le point G est le point de départ pour calculer toutes les clés publiques des utilisateurs du système Bitcoin.
+### Addition et doublement de points sur les courbes elliptiques
 
-![image](assets/image/section2/6.webp)
+La notion d'addition sur les courbes elliptiques est définie de manière géométrique. Si nous avons deux points $P$ et $Q$ sur la courbe, l'opération $P + Q$ est calculée en traçant la droite passant par $P$ et $Q$. Cette droite coupera forcément la courbe en un troisième point $R'$. Nous prenons alors le symétrique de ce point par rapport à l'axe des abscisses pour obtenir le point $R$, qui est le résultat de l'addition :
 
-#### Le produit scalaire sur courbe elliptique
+$$
+P + Q = R
+$$
 
-Le produit scalaire d'un point par n revient à ajouter ce point à lui-même n fois.
+Graphiquement, cela peut être représenté comme suit :
 
-De la même manière que l'or d'un doublement de point, le produit scalaire du point G par un point n se fait en traçant une tangente à la courbe au niveau du point G. Cette tangeante, selon les propriétés des courbes elliptiques recoupera forcément la courbe en un second point unique -2G. L'opposé de ce point, 2G, est le résultat de l'addition du point G à lui même.
+019
 
-Si n = 4, alors on réitère l'opération jusqu'à arriver à 4G.
+Pour le doublement d'un point, c'est-à-dire l'opération $P + P$, nous traçons la tangente à la courbe en ce point $P$. Cette tangente coupe la courbe en un autre point $S'$. Nous prenons alors le symétrique de ce point par rapport à l'axe des abscisses pour obtenir le point $S$, qui est le résultat du doublement :
 
-![image](assets/image/section2/7.webp)
+$$
+2P = S
+$$
 
-Voici un exemple de calcul pour 3G :
+Graphiquement, cela donne :
 
-![image](assets/image/section2/8.webp)
+020
 
-Ces opérations sur les points d'une courbe elliptique sont la base du calcul des clés publiques. La dérivation d'une clef publique en sachant la clef privée est très facile.
-Une clef publique est un point sur la courbe elliptique, c'est le résultat de notre addition et doublement du point G k fois. Avec k = clef privée.
+En utilisant ces opérations d'addition et de doublement, nous pouvons effectuer la multiplication scalaire d'un point par un entier $k$, notée $kP$, en effectuant des doublements répétés et des additions.
 
-Dans cet exemple :
+Par exemple, supposons que nous ayons choisi une clé privée $k = 4$. Pour calculer la clé publique associée, nous effectuons :
 
-- La clef privée k = 4
-- La clef publique K = kG = 4G
+$$
+K = k \cdot G = 4G
+$$
 
-![image](assets/image/section2/9.webp)
+Graphiquement, cela correspond à effectuer une série d'additions et de doublements :
+- Calculer $2G$ en doublant $G$.
+- Calculer $4G$ en doublant $2G$.
 
-Connaissant la clé privée k, il est facile de calculer la clé publique K. Impossible en revenche de retrouver la clef privée en fonction de la clef publique. Est-ce le résutat d'une addition ou d'un doublement de point ? 
+021
 
-Dans notre prochain cours, nous explorerons comment une signature numérique est réalisée en utilisant l'algorithme ECDSA avec une clé privée pour dépenser des bitcoins. 
+Si l’on souhaite, par exemple, calculer le point $3G$, nous devons d’abord calculer le point $2G$ en doublant le point $G$, puis additionner $G$ et $2G$. Pour additionner $G$ et $2G$, il suffit de tracer la droite reliant ces deux points, de récupérer le point unique $-3G$ à l’intersection entre cette droite et la courbe elliptique, puis de déterminer $3G$ comme l’opposé de $-3G$.
+
+Nous aurons donc :
+$$
+G + G = 2G
+$$
+$$
+2G + G = 3G
+$$
+
+Graphiquement, cela se représenterait ainsi :
+
+022
+
+### Fonction à sens unique
+
+Grâce à ces opérations, nous pouvons comprendre pourquoi il est facile de dériver une clé publique à partir d'une clé privée, mais l'inverse est pratiquement impossible.
+
+Reprenons notre exemple simplifié. Avec une clé privée $k = 4$. Pour calculer la clé publique associée, nous effectuons :
+
+$$
+K = k \cdot G = 4G
+$$
+
+Nous avons donc pu facilement calculer la clé publique $K$ en connaissant $k$ et $G$.
+
+Maintenant, si quelqu'un connaît uniquement la clé publique $K$, il est confronté au problème du logarithme discret : trouver $k$ tel que $K = k \cdot G$. Ce problème est considéré comme difficile car il n'existe pas d'algorithme efficace pour le résoudre sur les courbes elliptiques. Cela assure la sécurité des algorithmes ECDSA et Schnorr.
+
+Bien sûr, dans cet exemple simplifié avec $k = 4$, il serait possible de trouver $k$ par essai successif, car le nombre de possibilités est faible. Cependant, en pratique sur Bitcoin, $k$ est un entier de 256 bits, ce qui rend le nombre de possibilités astronomiquement grand (environ $1.158 \times 10^{77}$). Il est donc infaisable de trouver $k$ par force brute.
+
 
 ## Signer avec la clé privée
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
