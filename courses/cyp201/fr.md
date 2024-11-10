@@ -805,93 +805,239 @@ Bien sûr, dans cet exemple simplifié avec $k = 4$, il serait possible de trouv
 ## Signer avec la clé privée
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-![Signer avec la clé privée](https://youtu.be/h2hIyGgPqkM)
+Maintenant que vous savez dériver une clé publique à partir d’une clé privée, vous pouvez déjà recevoir des bitcoins en utilisant cette paire de clés comme condition de dépense. Mais comment les dépenser ? Pour dépenser des bitcoins, il va falloir déverrouiller le *scriptPubKey* apposé sur votre UTXO pour prouver que vous en êtes bien le propriétaire légitime. Pour ce faire, il faut produire une signature $s$ qui correspond à la clé publique $K$ présente dans le *scriptPubKey* à l'aide de la clé privée $k$ qui a servi initialement à calculer $K$. La signature numérique est ainsi une preuve irréfutable que vous êtes bien en possession de la clé privée associée à la clé publique que vous revendiquez.
 
-Le processus de signature numérique est une méthode clé pour prouver que vous êtes le détenteur d'une clé privée sans avoir à la révéler. Ceci est réalisé en utilisant l'algorithme ECDSA, qui comprend la détermination d'un nonce unique, le calcul d'un nombre spécifique, V, et la création d'une signature numérique composée de deux parties, S1 et S2. 
-Il est crucial de toujours utiliser un nonce unique pour éviter les attaques de sécurité. Un exemple notoire de ce qui peut se produire lorsque cette règle n'est pas respectée est le cas du piratage de la PlayStation 3, qui a été compromis en raison de la réutilisation du nonce.
+### Les paramètres de la courbe elliptique
 
-![](assets/image/section2/10.webp)
+Pour réaliser une signature numérique, il faut tout d’abord que tous les participants se mettent d'accord sur les paramètres de la courbe elliptique utilisée. Dans le cas de Bitcoin, les paramètres de **secp256k1** sont les suivants :
 
-Etapes :
+Le champ fini $\mathbb{Z}_p$ défini par :
 
-- Déterminer un nonce v, c'est-à-dire, un nombre unique aléatoire.
-  Nonce = Number Only Use Once.
-  Il est déterminé par celui qui réalise la signature.
-- Calculer par addition et doublement de point sur courbe elliptique à partir du point G, la position de V sur la courbe elliptique. 
-  Tel que V = v.G
-  x et y sont les coordonnées de V sur le plan
-- Calculer S1.
-  S1 = x mod n avec n = l'ordre de la courbe et x une coordonnée de V sur le plan.
-  NB : Le nombre de possibilité de la clef publique est plus grand que le nombre de points sur la courbe elliptique dans le corps fini des entiers positifs qui est utilisé sur Bitcoin.
-  L'ordre de la courbe correspond uniquement aux possibilités que peut prendre la clef publique sur la courbe.
-- Calculer S2.
-  H(Tx) = Hash de la transaction 
-  k = la clef privée
-- Calculer la signature : la concatenation de S1 + S2.
-- Calculer P, le calcul de vérification de la signature.
-  K = la clef publique
+$$
+p = 2^{256} - 2^{32} - 977
+$$
 
-Par exemple, pour obtenir la clé publique 3G, vous dessinez une tangente au point G, calculez l'opposé de -G pour obtenir 2G, puis additionnez G et 2G. Pour réaliser une transaction, vous devez prouver que vous connaissez le nombre 3 en débloquant les bitcoins associés à la clé publique 3G.
+```txt
+p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
+```
 
-Pour créer une signature numérique et prouver que vous connaissez la clé privée associée à la clé publique 3G, vous calculez d'abord un nonce, puis le point V associé à ce nonce (dans l'exemple donné, c'est 4G). Ensuite, vous calculez le point T en additionnant la clé publique 3G et le point V, ce qui donne 7G.
+$p$ est un nombre premier très grand légèrement inférieur à $2^{256}$.
 
-![image](assets/image/section2/11.webp)
+La courbe elliptique $y^2 = x^3 + ax + b$ sur $\mathbb{Z}_p$ définie par :
 
-Vulgarisons le processus de signature numérique.
-Sur l'image précédente, la clef privée k = 3. 
-Nous pouvons facilement calculer la clef publique K associée à cette clef privée : K = 3G
-Ensuite, nous générons pseudo-aléatoirement un nonce : v = 4. 
-A partir de ce nonce, il est possible de calculer V tel que : V = v.G = 4G.
+$$
+a = 0, \quad b = 7
+$$
 
-A partir de ce point V, nous calculons le point T tel que :
-T = t.G = 7G (avec t = 7)
+Le point générateur ou point d'origine $G$ :
+
+```txt
+G = 0x0279BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
+```
+
+Ce nombre est la forme compressée qui donne uniquement l’abscisse du point $G$. Le préfixe `02` au départ permet de déterminer laquelle des deux valeurs ayant cette abscisse $x$ est à utiliser comme point générateur.
+
+L'ordre $n$ de $G$ (le nombre de points existants) et le cofacteur $h$ :
+
+```txt
+n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
+```
+
+$n$ est un nombre très grand légèrement inférieur à $p$.
+
+$$
+h=1
+$$
+
+$h$ est le cofacteur ou le nombre de sous-groupes. Je ne vais pas développer ce que cela représente ici, car c’est assez complexe, et dans le cas de Bitcoin, nous n’avons pas besoin de le prendre en compte puisqu’il est égal à $1$.
+
+Toutes ces informations sont publiques et connues de tous les participants. Grâce à elles, les utilisateurs sont en capacité de réaliser une signature numérique et de la vérifier.
+
+### Signature avec ECDSA
+
+L'algorithme ECDSA permet à un utilisateur de signer un message en utilisant sa clé privée, de manière à ce que toute personne connaissant la clé publique correspondante puisse vérifier la validité de la signature, sans que la clé privée ne soit jamais révélée. Dans le contexte de Bitcoin, le message à signer dépend du *sighash* choisi par l'utilisateur. C'est ce *sighash* qui va déterminer quelles parties de la transaction sont couvertes par la signature. Je vous en parlerai plus en détail dans le chapitre suivant. 
+
+Voici les étapes pour générer une signature ECDSA :
+
+Tout d'abord on va calculer le hash ($e$) du message qui doit être signé. Le message $m$ est donc passé dans une fonction de hachage cryptographique, généralement SHA256 ou double SHA256 dans le cas de Bitcoin :
+$$
+e = \text{HASH}(m)
+$$
+
+Ensuite, on va calculer un nonce. En cryptographie, un nonce est simplement un nombre généré de manière aléatoire ou pseudo-aléatoire qui est utilisé une seule fois. C'est-à-dire qu'à chaque fois que l'on réalise une nouvelle signature numérique avec cette paire de clés, il sera très important d'utiliser un nonce différent, sinon cela compromettra la sécurité de la clé privée. Il suffit donc de déterminer un entier aléatoire et unique $r$ tel que $1 \leq r \leq n-1$, où $n$ est l'ordre du point générateur $G$ de la courbe elliptique.
+
+Puis, nous allons calculer le point $R$ sur la courbe elliptique avec les coordonnées $(x_R, y_R)$ tel que :
+$$
+R = r \cdot G
+$$
+
+On extrait la valeur de l'abscisse du point $R$ ($x_R$). Cette valeur représente la première partie de la signature. Et enfin, on calcule la seconde partie de la signature $s$ de cette manière :
+$$
+s = r^{-1} \left( e + k \cdot x_R \right) \mod n
+$$
+
+où :
+- $r^{-1}$ est l'inverse modulaire de $r$ modulo $n$, c'est-à-dire un entier tel que $r \cdot r^{-1} \equiv 1 \mod n$ ;
+- $k$ est la clé privée de l'utilisateur ;
+- $e$ est le hash du message ;
+- $n$ est l'ordre du point générateur $G$ de la courbe elliptique.
+
+La signature est alors simplement la concaténation $x_R$ et de $s$ :
+$$
+\text {SIG} = x_R \| s
+$$
+
+### Vérification de la signature ECDSA
+
+Pour vérifier une signature $(x_R, s)$, toute personne connaissant la clé publique $K$ et les paramètres de la courbe elliptique peut procéder de cette façon :
+
+Tout d'abord, on vérifie que $x_R$ et $s$ sont bien dans l'intervalle $[1, n-1]$. Cela garantit que la signature respecte les contraintes mathématiques du groupe elliptique. Si ce n’est pas le cas, le vérificateur rejette immédiatement la signature comme invalide.
+
+Puis, on calcul le hash du message :
+$$
+e = \text{HASH}(m)
+$$
+
+On calcule l'inverse modulaire de $s$ modulo $n$ :
+$$
+s^{-1} \mod n
+$$
+
+On calcule deux valeurs scalaires $u_1$ et $u_2$ de cette manière :
+$$
+\begin{align*}
+u_1 &= e \cdot s^{-1} \mod n \\
+u_2 &= x_R \cdot s^{-1} \mod n
+\end{align*}
+$$
+
+Et enfin, on calcule le point $V$ sur la courbe elliptique tel que :
+$$
+V = u_1 \cdot G + u_2 \cdot K
+$$
+
+La signature est valide uniquement si $x_V \equiv x_R \mod n$, où $x_V$ est la coordonnée $x$ du point $V$. En effet, en combinant $u_1 \cdot G$ et $u_2 \cdot K$, on obtient un point $V$ qui, si la signature est valide, doit correspondre au point $R$ utilisé lors de la signature (modulo $n$).
+
+
+### Signature avec le protocole de Schnorr
+
+Le schéma de signature de Schnorr est une alternative à ECDSA qui offre de nombreux avantages. Il est possible de l'utiliser sur Bitcoin depuis 2021 et l'introduction de Taproot, avec les modèles  script P2TR. Comme ECDSA, le schéma de Schnorr permet de signer un message en utilisant une clé privée, de manière à ce que la signature puisse être vérifiée par toute personne connaissant la clé publique correspondante.
+
+Dans le cas de Schnorr on utilise exactement la même courbe que ECDSA avec les mêmes paramètres. En revanche, les clés publiques sont représentées légèrement différemment par rapport à ECDSA. En effet, on les désigne uniquement par la coordonnée $x$ du point sur la courbe elliptique. Contrairement à ECDSA, où les clés publiques compressées sont représentées par 33 octets (avec l'octet de préfixe indiquant la parité de $y$), Schnorr utilise des clés publiques de 32 octets, correspondant uniquement à la coordonnée $x$ du point $K$, et on considère que $y$ est pair par défaut. Cette représentation simplifiée permet de réduire la taille des signatures et facilite certaines optimisations dans les algorithmes de vérification.
+
+La clé publique est alors la coordonnée $x$ du point $K$ :
+$$
+\text{pk} = K_x
+$$
+
+La première étape pour générer une signature est de hacher le message. Mais contrairement à ECDSA, on va le faire avec d'autres valeurs et on va utiliser une fonction de hachage étiquetée pour éviter les collisions dans différents contextes. Une fonction de hachage étiquetée consiste simplement à ajouter une étiquette arbitraire dans les inputs de la fonction de hachage aux côté des données du message.
+
+023
+
+En plus du message, on va également passer dans la fonction étiquetée l'abscisse de la clé publique $K_x$, ainsi qu'un point $R$ calculé à partir du nonce $r$ ($R=r \cdot G$) qui est lui-même un entier unique pour chaque signature, calculé de manière déterministe à partir de la clé privée et du message pour éviter les vulnérabilités liées à la réutilisation du nonce. De la même manière que pour la clé publique, seule l'abscisse du point du nonce $R_x$ est conservée pour décrire le point.
+
+Le résultat de ce hachage noté $e$ s'appelle le "challenge" :
+
+$$
+e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
+$$
+
+Ici, $\text{HASH}$ est la fonction de hachage SHA256, et $\text{``BIP0340/challenge''}$ est le tag spécifique pour le hachage.
+
+Et enfin, on calcule le paramètre $s$ de cette manière à partir de la clé privée $k$, du nonce $r$ et du challenge $e$ :
+$$
+s = (r + e \cdot k) \mod n
+$$
+
+La signature est ensuite simplement le couple $Rx$ et $s$. 
+$$
+\text{SIG} = R_x || s
+$$
+
+### Vérification de la signature Schnorr
+
+La vérification d'une signature Schnorr est plus simple que celle d'une signature ECDSA. Voici les étapes pour vérifier la signature $(R_x, s)$ avec la clé publique $K_x$ et le message $m$ :
+
+Tout d'abord, on vérifie que $K_x$ est un entier valide et inférieur à $p$. Si c'est le cas, on récupère le point correspondant sur la courbe avec $K_y$ pair. On va également extraire $R_x$ et $s$ en séparant la signature $\text{SIG}$. Puis, nous vérifions que $R_x < p$ et $s < n$ (l'ordre de la courbe).
+
+Ensuite, on calcule le challenge $e$ de la même manière que l'a fait l'émetteur de la signature :
+
+$$
+e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
+$$
+
+Et enfin, on calcule un point de référence sur la courbe de cette façon :
+$$
+R' = s \cdot G - e \cdot K
+$$
+
+Enfin, on vérifie que $R'_x = R_x$. Si les deux abscisses correspondent, alors la signature $(R_x, s)$ est bien valide avec la clé publique $K_x$.
+
+### Pourquoi cela fonctionne-t-il ?
+
+Le signataire a calculé $s = r + e \cdot k \mod n$, donc $R' = s \cdot G - e \cdot K$ devrait être égal au point $R$ original, car :
+$$
+s \cdot G = (r + e \cdot k) \cdot G = r \cdot G + e \cdot k \cdot G
+$$
+
+Puisque $K = k \cdot G$, on a $e \cdot k \cdot G = e \cdot K$. Ainsi :
+$$
+R' = r \cdot G = R
+$$
+
+On a donc bien : 
+$$
+R'_x = R_x
+$$
+
+### Les avantages des signatures de Schnorr
+
+Le schéma de signature de Schnorr présente plusieurs avantages pour Bitcoin par rapport à l'algorithme original ECDSA. Tout d’abord, Schnorr permet l'agrégation des clés et des signatures. Cela signifie que plusieurs clés publiques peuvent être combinées en une seule clé.
+
+024
+
+Et de même, plusieurs signatures peuvent être agrégées en une seule signature valide. Ainsi, dans le cas d'une transaction multisignatures, un ensemble de participants peut signer avec une seule signature et une seule clé publique agrégée. Cela réduit considérablement les coûts de stockage et de calcul pour le réseau, car chaque nœud n’a besoin de vérifier qu'une seule signature.
+
+025
+
+De plus, l’agrégation des signatures améliore la confidentialité. Avec Schnorr, il devient impossible de distinguer une transaction multisignature d'une transaction standard à une seule signature. Cette homogénéité rend les analyses de la chaîne plus difficile, car elle limite la possibilité d'identifier des empreintes de portefeuille.
+
+Enfin, Schnorr offre également la possibilité de vérification par lot. En vérifiant plusieurs signatures simultanément, les nœuds peuvent gagner en efficacité, surtout pour les blocs contenant de nombreuses transactions. Cette optimisation réduit le temps et les ressources nécessaires pour valider un bloc.
+
+Aussi, les signatures Schnorr ne sont pas malléables, contrairement aux signatures produites avec ECDSA. Cela signifie qu'un attaquant ne peut pas modifier une signature valide pour créer une autre signature valide pour le même message et la même clé publique. Cette vulnérabilité était présente auparavant sur Bitcoin et empêchait notamment la mise en place de manière sécurisée du Lightning Network. Elle a été résolue pour ECDSA avec le softfork SegWit en 2017, qui consiste à déplacer les signatures dans une base de données séparée des transactions afin d'empêcher leur malléabilité.
+
+### Pourquoi Satoshi a-t-il choisi ECDSA ?
+
+Nous l'avons vu, Satoshi a initialement choisi d'implémenter ECDSA pour les signatures numériques sur Bitcoin. Pourtant, nous avons également vu que Schnorr est bien supérieur à ECDSA sur de nombreux aspects, et ce protocole a été créé par Claus-Peter Schnorr en 1989, soit 20 ans avant l'invention de Bitcoin. 
+
+Et bien, on ne sait pas vraiment pourquoi Satoshi ne l'a pas choisi, mais une hypothèse probable est que ce protocole était sous brevet jusqu'en 2008. Bien que Bitcoin ait vu le jour un an plus tard, en janvier 2009, aucune standardisation open-source pour les signatures de Schnorr n'était alors disponible. Peut-être que Satoshi a jugé plus sûr d'utiliser ECDSA, qui était déjà largement utilisé et testé dans des logiciels open-source et bénéficiait de plusieurs implémentations reconnues (notamment la bibliothèque OpenSSL utilisée jusqu'en 2015 sur Bitcoin Core, puis remplacée par libsecp256k1 dans la version 0.10.0). Ou alors, peut-être qu'il n'avait tout simplement pas connaissance du fait que ce brevet allait expirer en 2008. Dans tous les cas, l'hypothèse la plus probable semble liée à ce brevet et au fait qu'ECDSA avait alors un historique éprouvé et était plus facile à implémenter.
 
 
 
-Il est temps de procéder à la vérification de la signature numérique.
-
-La vérification d'une signature numérique est une étape cruciale dans l'utilisation de l'algorithme ECDSA, qui permet de confirmer l'authenticité d'un message signé sans avoir besoin de la clé privée de l'expéditeur. Voici comment cela se déroule en détail :
-
-Dans notre exemple, nous avons deux valeurs importantes : t et V. 
-t est une valeur numérique (7 dans cet exemple), et V est un point sur la courbe elliptique (représenté par 4G ici). Ces valeurs sont produites lors de la création de la signature numérique et sont ensuite envoyées avec le message pour permettre la vérification.
-
-Quand le vérificateur reçoit le message, il va également recevoir ces deux valeurs, t et V.
-
-Voici les étapes que le vérificateur va suivre pour valider la signature :
-
-1. Il va d'abord calculer le hachage du message, que nous appellerons H.
-2. Ensuite, il calculera u1 et u2. Pour ce faire, il utilisera les formules suivantes :
-   - u1 = H /\* (S2)^-1 mod n
-   - u2 = T /\* (S2)^-1 mod n
-     Où S2 est la deuxième partie de la signature numérique, n est l'ordre de la courbe elliptique et (S2)^-1 est l'inverse de S2 mod n.
-3. Le vérificateur calculera ensuite un point P' sur la courbe elliptique à l'aide de la formule : P' = u1 _ G + u2 _ K
-   - G est le point de génération de la courbe
-   - K est la clé publique de l'expéditeur
-4. Le vérificateur calculera alors I', qui est simplement la coordonnée x du point P' modulo n.
-5. Enfin, le vérificateur confirmera que I' est égal à t. Si c'est le cas, la signature est considérée comme valide. Si ce n'est pas le cas, la signature est invalide.
-
-Cette procédure garantit que seul l'expéditeur possédant la clé privée correspondante pourrait avoir produit une signature qui passe ce processus de vérification.
-
-![image](assets/image/section2/12.webp)
-
-Vulgarisons : 
-Celui qui produit la signature va fournir à celui qui vérifie le nombre t (dans notre exemple, t = 7) et le point V.
-
-Il est impossible de déterminer la clef publique ou la clef privée à partir du nombre 7 et du nombre V.
-
-Les étapes de vérification de la signature numérique sont les suivantes :
-
-- Sur la courbe, il additionne le point de la clef publique avec le point V pour retrouver le point T'.
-- Il calcul le nombre t.G
-- Il vérifie que le résultat de t.G soit bien égal au nombre T'
 
 
 
-En conclusion, la vérification d'une signature numérique est une procédure essentielle dans les transactions Bitcoin. Elle permet de garantir que le message signé n'a pas été altéré lors de sa transmission et que l'expéditeur est bien le détenteur de la clé privée. Cette technique d'authentification numérique repose sur des principes mathématiques complexes, notamment l'arithmétique de courbe elliptique, tout en maintenant la confidentialité de la clé privée. Elle offre une solide base de sécurité pour les transactions cryptographiques.
 
-Cela dit, la gestion de ces clés, ainsi que leur création, est une autre question essentielle dans Bitcoin. Comment générer une nouvelle paire de clés ? Comment organiser une multitude de clés de manière sécurisée et efficace ? Comment les récupérer si nécessaire ?
 
-Pour répondre à ces questions et approfondir votre compréhension de la sécurité de la cryptographie, notre prochain cours se concentrera sur le concept de Portefeuille Déterministe Hiérarchique (HD wallets) et l'utilisation des phrases mnémoniques. Ces mécanismes offrent des moyens élégants de gérer efficacement vos clés de cryptomonnaie tout en renforçant la sécurité.
+***AJOUTER CHAPITRE 3.4 SUR LES SIGHASH***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # La phrase mnémonique
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
