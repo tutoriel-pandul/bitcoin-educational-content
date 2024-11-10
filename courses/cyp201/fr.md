@@ -961,7 +961,6 @@ La vérification d'une signature Schnorr est plus simple que celle d'une signatu
 Tout d'abord, on vérifie que $K_x$ est un entier valide et inférieur à $p$. Si c'est le cas, on récupère le point correspondant sur la courbe avec $K_y$ pair. On va également extraire $R_x$ et $s$ en séparant la signature $\text{SIG}$. Puis, nous vérifions que $R_x < p$ et $s < n$ (l'ordre de la courbe).
 
 Ensuite, on calcule le challenge $e$ de la même manière que l'a fait l'émetteur de la signature :
-
 $$
 e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
 $$
