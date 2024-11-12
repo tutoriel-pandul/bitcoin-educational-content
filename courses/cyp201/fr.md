@@ -23,7 +23,7 @@ Cette formation vous dotera non seulement des connaissances pour comprendre la s
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 
-***REFAIRE L'INTRO***
+***REFAIRE L'INTRO + ACCROCHE PAGE D'ACCUEIL***
 
 
 
@@ -1012,27 +1012,68 @@ Nous l'avons vu, Satoshi a initialement choisi d'implémenter ECDSA pour les sig
 Et bien, on ne sait pas vraiment pourquoi Satoshi ne l'a pas choisi, mais une hypothèse probable est que ce protocole était sous brevet jusqu'en 2008. Bien que Bitcoin ait vu le jour un an plus tard, en janvier 2009, aucune standardisation open-source pour les signatures de Schnorr n'était alors disponible. Peut-être que Satoshi a jugé plus sûr d'utiliser ECDSA, qui était déjà largement utilisé et testé dans des logiciels open-source et bénéficiait de plusieurs implémentations reconnues (notamment la bibliothèque OpenSSL utilisée jusqu'en 2015 sur Bitcoin Core, puis remplacée par libsecp256k1 dans la version 0.10.0). Ou alors, peut-être qu'il n'avait tout simplement pas connaissance du fait que ce brevet allait expirer en 2008. Dans tous les cas, l'hypothèse la plus probable semble liée à ce brevet et au fait qu'ECDSA avait alors un historique éprouvé et était plus facile à implémenter.
 
 
+## Les sighash flags
+<chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+Comme nous l'avons vu dans les chapitres précédents, les signatures numériques sont souvent utilisées pour déverrouiller le script d'un input. Dans le processus de signature, il est nécessaire d’inclure la donnée signée dans le calcul, désignée dans nos exemples par le message $m$. Cette donnée, une fois signée, ne peut plus être modifiée sans rendre la signature invalide. En effet, que ce soit pour ECDSA ou pour Schnorr, le vérificateur de la signature doit inclure dans son calcul le même message $m$. Si celui-ci diffère du message $m$ utilisé initialement par le signataire, le résultat sera incorrect et la signature sera jugée invalide. On dit alors qu'une signature couvre une certaine donnée et la protège en quelque sorte contre les modifications non autorisées.
 
+### C'est quoi un sighash flag ?
 
+Dans le cas spécifique de Bitcoin, nous avons vu que le message $m$ correspond à la transaction. Mais en réalité, c'est un peu plus complexe. En effet, il est possible, grâce aux sighash flags, de sélectionner les données spécifiques dans la transaction qui seront couvertes ou non par la signature.
 
+Le "sighash flag" est donc un paramètre ajouté à chaque input, permettant de déterminer les composants d'une transaction qui sont couverts par la signature associée. Ces composants sont les inputs et les outputs. Le choix du sighash flag détermine ainsi quels inputs et quels outputs de la transaction sont figés par la signature et lesquels peuvent encore être modifiés sans invalider celle-ci. Ce mécanisme permet aux signatures d'engager les données de transaction selon les intentions du signataire.
 
+Évidemment, une fois la transaction confirmée sur la blockchain, elle devient immuable, quels que soient les sighash flags utilisés. La possibilité de modification via les sighash flags est limitée à la période entre la signature et la confirmation.
 
-***AJOUTER CHAPITRE 3.4 SUR LES SIGHASH***
+Généralement, les logiciels de portefeuille ne vous proposent pas de modifier manuellement le sighash flag de vos inputs lorsque vous construisez une transaction. Par défaut, c'est le `SIGHASH_ALL` qui est paramétré. Personnellement, je ne connais que Sparrow Wallet qui permette de faire cette modification depuis l'interface utilisateur.
 
+### Quels sont les sighash flags existants sur Bitcoin ?
 
+Sur Bitcoin, il y a tout d'abord 3 sighash flags de base :
 
+- `SIGHASH_ALL` (`0x01`) : La signature s'applique à tous les inputs et tous les outputs de la transaction. La transaction est donc entièrement couverte par la signature et ne peut plus être modifiée. `SIGHASH_ALL` est le sighash le plus couramment utilisé dans les transactions au quotidien, lorsque l'on souhaite simplement faire une transaction sans qu'elle puisse être modifiée.
 
+026
 
+Dans tous les schémas de ce chapitre, la couleur orange représente les éléments couverts par la signature, tandis que la couleur noire indique ceux qui ne le sont pas.
 
+- `SIGHASH_NONE` (`0x02`) : La signature couvre tous les inputs mais aucun output, ce qui permet ainsi la modification des outputs après la signature. Concrètement, il s’agit d’un chèque en blanc. Le signataire déverrouille les UTXOs en inputs, mais laisse le champ des outputs entièrement modifiable. N'importe qui connaissant cette transaction peut donc y ajouter l’output de son choix, par exemple en spécifiant une adresse de réception pour récupérer les fonds consommés par les inputs, puis diffuser la transaction pour récupérer les bitcoins. La signature du propriétaire des inputs ne sera pas invalidée, car elle couvre uniquement les inputs.
 
+027
 
+- `SIGHASH_SINGLE` (`0x03`) : La signature couvre tous les inputs ainsi qu’un seul output, correspondant à l’index de l’input signé. Par exemple, si la signature déverrouille le *scriptPubKey* de l'input #0, alors elle couvre également l'output #0. LA signature protège également tous les autres inputs, qui ne peuvent plus être modifiés. Cependant, n'importe qui peut ajouter un output supplémentaire sans invalider la signature, à condition de ne pas modifier l'output #0, qui est le seul couvert par celle-ci.
 
+028
 
+En complément de ces trois sighash flags, il existe également le modificateur `SIGHASH_ANYONECANPAY` (`0x80`). Ce modificateur peut être combiné avec un sighash flag de base pour créer trois nouveaux sighash flags :
 
+- `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`) : La signature couvre un seul input tout en incluant l'intégralité des outputs de la transaction. Ce sighash flag combiné permet, par exemple, de créer une transaction de financement participatif. L’organisateur prépare l'output avec son adresse et le montant cible, et chaque investisseur peut ensuite ajouter des inputs pour financer cet output. Une fois les fonds suffisants réunis en inputs pour satisfaire l'output, la transaction peut être diffusée.
 
+029
 
+- `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`) : La signature couvre un seul input, sans engager aucun output ;
 
+030
+
+- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`) : La signature couvre un seul input ainsi que l'output ayant le même index que cet input. Par exemple, si la signature déverrouille le *scriptPubKey* de l'input #3, elle couvrira également l'output #3. Le reste de la transaction demeure modifiable, tant au niveau des autres inputs que des autres outputs.
+
+031
+
+### Les projets d'ajout de nouveaux sighash flags
+
+Actuellement (2024), seuls les sighash flags présentés dans la section précédente sont utilisables sur Bitcoin. Cependant, certains projets envisagent l’ajout de nouveaux sighash flags. Par exemple, le BIP118, proposé par Christian Decker et Anthony Towns, introduit deux nouveaux sighash flags : `SIGHASH_ANYPREVOUT` et `SIGHASH_ANYPREVOUTANYSCRIPT` (*AnyPrevOut = "Any Previous Output"*).
+
+Ces deux sighash flags offriraient une possibilité supplémentaire sur Bitcoin : créer des signatures qui ne couvrent aucun input spécifique de la transaction.
+
+032
+
+Cette idée a initialement été formulée par Joseph Poon et Thaddeus Dryja dans le White Paper de Lightning. Avant son renommage, ce sighash flag portait le nom de `SIGHASH_NOINPUT`.
+
+Si ce sighash flag est intégré à Bitcoin, il permettra l'utilisation de covenants, mais c'est aussi un prérequis obligatoire pour implémenter Eltoo, un protocole généraliste pour les secondes couches qui définit la manière de gérer conjointement la propriété d'un UTXO. Eltoo a notamment été conçu pour résoudre les problèmes associés aux mécanismes de négociation de l'état des canaux Lightning, c'est-à-dire entre l'ouverture et la fermeture.
+
+Pour approfondir vos connaissances sur le Lightning Network, après la formation CYP201, je vous recommande vivement la formation LNP201 de Fanis Michalakis, qui aborde le sujet en détail :
+
+https://planb.network/courses/lnp201
 
 
 
