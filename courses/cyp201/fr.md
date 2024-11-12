@@ -29,9 +29,6 @@ Cette formation vous dotera non seulement des connaissances pour comprendre la s
 
 Avant d'explorer en détail le fonctionnement et la construction des portefeuilles Bitcoin, nous allons parcourir plusieurs chapitres qui vous présentent les bases indispensables en cryptographie pour bien comprendre la suite.
 
-
-
-
 # Les fonctions de hachage
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
@@ -1075,8 +1072,7 @@ Pour approfondir vos connaissances sur le Lightning Network, après la formation
 
 https://planb.network/courses/lnp201
 
-
-
+Dans la prochaine partie, je vous propose de découvrir comment fonctionne la phrase mnémonique à la base de votre portefeuille Bitcoin.
 
 
 # La phrase mnémonique
@@ -1085,27 +1081,43 @@ https://planb.network/courses/lnp201
 ## Évolution des portefeuilles Bitcoin
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
-![Évolution des portefeuilles Bitcoin](https://youtu.be/6tmu1R9cXyk)
+Maintenant que nous avons découvert les rouages des fonctions de hachages et des signature numérique, nous allons pouvoir étudier le fonctionnement des portefeuilles Bitcoin. L’objectif va être de pouvoir visualiser comment se construit un portefeuille sur Bitcoin, comment il se décompose et à quoi servent les différentes informations qui le constituent. Cette compréhension des mécanismes du portefeuille vous permettra par la suite d'améliorer votre utilisation de Bitcoin en termes de sécurisation et de confidentialité.
 
-Le Portefeuille Déterministe Hiérarchique, ou plus couramment appelé portefeuille HD, joue un rôle prépondérant dans l'écosystème des cryptomonnaies. Le terme "portefeuille" peut sembler trompeur pour ceux qui sont novices dans ce domaine, car il n'implique pas la détention d'argent ou de devises. Il fait plutôt référence à une collection de clés cryptographiques privées. 
+Avant d'entrer dans les détails techniques, il est essentiel de clarifier ce que l'on entend par "portefeuille Bitcoin" et de comprendre son utilité.
 
-Les premiers portefeuilles étaient des logiciels regroupant des clefs privées déterminées de manière pseudo-aléatoire mais qui n'avaient aucun lien entres elles. Ces portefeuilles sont nommés "Just a Bunch Of Keys" (JBOK).
+### Qu'est-ce qu'un portefeuille Bitcoin ?
 
-Les clefs n'ayant aucun liens entres elles, l'utilisateur est obligé de réaliser une nouvelle sauvegarde pour toute nouvelle paire de clef générée.
-Soit l'utilisateur utilise tout le temps la même pair de clef et perd en confidentialité, soit il dérive de nouvelle paire de clef de manière aléatoire et donc doit réaliser une nouvelle sauvegarde de ces clefs. 
+Contrairement aux portefeuilles classiques, qui permettent de stocker des billets et des pièces physiques, un portefeuille Bitcoin ne "contient" pas de bitcoins à proprement parler. En effet, les bitcoins n'existent pas sous forme physique ou numérique stockable, mais sont représentés par des unités de compte représentées sur le système sous forme d'**UTXOs** (*Unspent Transaction Output*).
 
-![image](assets/image/section3/0.webp)
+Les UTXOs représentent donc des fragments de bitcoins, de tailles variables, pouvant être dépensés à condition que leur *scriptPubKey* soit satisfait. Pour dépenser ses bitcoins, un utilisateur doit fournir un *scriptSig* qui déverrouille le *scriptPubKey* associé à son UTXO. Cette preuve se fait généralement par une signature numérique, générée à partir de la clé privée correspondant à la clé publique présente dans le *scriptPubKey*. Ainsi, l'élément crucial que l’utilisateur doit sécuriser est la clé privée.
 
-Cependant, la complexité de la gestion de ces clés est compensée par un ensemble de protocoles, appelés Bitcoin Improvement Proposals (BIP). Ces propositions de mise à niveau sont au cœur de la fonctionnalité et de la sécurité des portefeuilles HD. Par exemple, le [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), lancé en 2012, a révolutionné la manière dont ces clés sont générées et stockées, en introduisant le concept de clés dérivées de manière déterministe et hiérarchique. L'idée est de dériver toutes les clefs de façon déterministe et hierarchique depuis une information unique : la seed. Ainsi, le processus de sauvegarde de ces clés est grandement simplifié, tout en conservant leur niveau de sécurité.
+Le rôle d’un portefeuille Bitcoin est précisément de gérer de manière sécurisée ces clés privées. En réalité, son rôle se rapproche donc davantage de celui d’un porte-clés que d’un portefeuille au sens classique.
 
-![image](assets/image/section3/1.webp)
+### Les portefeuilles JBOK (*Just a Bunch Of Keys*)
 
-Par la suite, le [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) a introduit une innovation marquante : la phrase mnémonique de 24 mots. Ce système a permis de transformer une suite de chiffres complexe et difficile à retenir en une série de mots ordinaires, bien plus facile à mémoriser et à stocker. En outre, le [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) a proposé d'ajouter une passphrase supplémentaire pour renforcer la sécurité des clés individuelles. Ces améliorations successives ont abouti aux normes BIP43 et BIP44, qui ont standardisé la structure et la hiérarchisation des portefeuilles HD, rendant ces portefeuilles plus accessibles et plus faciles à utiliser pour le grand public.
+Les premiers portefeuilles utilisés sur Bitcoin étaient des portefeuilles JBOK (*Just a Bunch Of Keys*), qui regroupaient des clés privées générées de manière indépendante et sans aucun lien entre elles. Ces portefeuilles fonctionnaient sur un modèle simple où chaque clé privée permettait de déverrouiller une adresse de réception Bitcoin unique. 
 
-Dans les sections suivantes, nous allons plonger plus profondément dans le fonctionnement des portefeuilles HD. Nous aborderons les principes de dérivation des clés et nous examinerons les concepts fondamentaux de l'entropie et de la génération de nombres aléatoires, qui sont essentiels pour garantir la sécurité de votre portefeuille HD.
+Si l’on souhaitait utiliser plusieurs clés privées, il fallait alors effectuer autant de sauvegardes pour garantir l’accès aux fonds en cas de problème avec l’appareil hébergeant le portefeuille. Si l’on utilise une seule clé privée, cette structure de portefeuille peut convenir, puisqu’une seule sauvegarde suffit. Cependant, cela pose un problème : sur Bitcoin, il est fortement déconseillé d’utiliser toujours la même clé privée. En effet, une clé privée est associée à une adresse unique, et les adresses de réception sur Bitcoin sont normalement conçues pour un usage unique. À chaque fois que vous recevez des fonds, vous devriez générer une nouvelle adresse vierge.
 
-En guise de synthèse, il est essentiel de souligner le rôle central des BIP32 et BIP39 dans la conception et la sécurisation des portefeuilles HD. Ces protocoles permettent de générer une multitude de clés à partir d'une seule graine, qui est supposée être un nombre aléatoire ou pseudo-aléatoire. Aujourd'hui, ces normes sont adoptées par la majorité des portefeuilles de cryptomonnaies, qu'ils soient dédiés à une seule cryptomonnaie ou qu'ils prennent en charge plusieurs types de devises.
+Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutilisant une même adresse, on facilite le travail des observateurs externes qui peuvent alors retracer l’ensemble de mes transactions Bitcoin. C’est pourquoi la réutilisation d’une adresse de réception est fortement déconseillée. Or, pour disposer de plusieurs adresses et séparer publiquement nos transactions, il est nécessaire de gérer de multiples clés privées. Dans le cas des portefeuilles JBOK, cela implique de créer autant de sauvegardes qu'il y a de nouvelles paires de clés, une tâche qui peut rapidement devenir complexe et difficile à maintenir pour les utilisateurs.
 
+Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan B Network :
+
+https://planb.network/courses/btc204
+
+### Les portefeuilles HD (*Hierarchical Deterministic*)
+
+Pour résoudre cette limitation des portefeuilles JBOK, on a ensuite utilisé une nouvelle structure de portefeuille. En 2012, Pieter Wuille propose une amélioration avec le BIP32, qui introduit les portefeuilles déterministes hiérarchiques. Le principe d’un portefeuille HD est de dériver l'ensemble des clés privées d'une unique source d'information, appelée graine (ou "seed"), de façon déterministe et hiérarchique. Cette graine est générée de manière aléatoire lors de la création du portefeuille et constitue une unique sauvegarde qui permet de recréer l'ensemble des clés privées du portefeuille. Ainsi, l'utilisateur peut générer un très grand nombre de clés privées pour éviter la réutilisation d'adresse et préserver sa confidentialité, tout en ne faisant qu'une seule sauvegarde de son portefeuille via la graine.
+
+Dans les portefeuilles HD, la dérivation de clés est réalisée selon une structure hiérarchique qui permet d'organiser les clés en sous-espaces de dérivation, chaque sous-espace pouvant lui-même être subdivisé, afin de faciliter la gestion des fonds et l'interopérabilité entre les différents logiciels de portefeuille. De nos jours, ce standard est adopté par l'immense majorité des utilisateurs de Bitcoin. Pour cette raison, nous allons l'examiner en détail dans les chapitres suivants.
+
+### Le standard BIP39 : La phrase mnémonique
+
+En complément du BIP32, le BIP39 standardise le format de la graine sous forme de phrase mnémonique, afin de faciliter la sauvegarde et la lisibilité par les utilisateurs. La phrase mnémonique, également appelée phrase de récupération ou phrase de 24 mots, est une séquence de mots tirée d'une liste prédéfinie qui encode de manière sécurisée la graine du portefeuille.
+
+La phrase mnémonique simplifie grandement la sauvegarde pour l’utilisateur. En cas de perte, de casse ou de vol du support hébergeant le portefeuille, la simple connaissance de cette phrase mnémonique permet de recréer le portefeuille et de récupérer l’accès à l’ensemble des fonds sécurisés par celui-ci.
+
+Dans les prochains chapitres, nous explorerons le fonctionnement interne des portefeuilles HD, notamment les mécanismes de dérivation des clés et les différentes structures hiérarchiques possibles. Cela vous permettra de mieux comprendre les bases cryptographiques sur lesquelles repose la sécurité des fonds sur Bitcoin. Et pour commencer, dans le chapitre suivant, je vous propose de découvrir le rôle de l'entropie à la base de votre portefeuille.
 
 
 ## Entropie et nombre aléatoire
