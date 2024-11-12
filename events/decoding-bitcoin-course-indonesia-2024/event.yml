@@ -9,7 +9,7 @@
   book_online: false
   book_in_person: false
   price_dollars: 0
-  description: An intermediate, 8 weeks weekly course designed as a hands-on experience focused on teaching students how to interact with Bitcoin Core using the command-line interface (CLI)
+  description: An on-line intermediate, 8 weeks weekly course designed as a hands-on experience focused on teaching students how to interact with Bitcoin Core using the command-line interface (CLI)
   language: 
     - en
   links:
