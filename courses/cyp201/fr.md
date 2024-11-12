@@ -1097,6 +1097,8 @@ Le rôle d’un portefeuille Bitcoin est précisément de gérer de manière sé
 
 Les premiers portefeuilles utilisés sur Bitcoin étaient des portefeuilles JBOK (*Just a Bunch Of Keys*), qui regroupaient des clés privées générées de manière indépendante et sans aucun lien entre elles. Ces portefeuilles fonctionnaient sur un modèle simple où chaque clé privée permettait de déverrouiller une adresse de réception Bitcoin unique. 
 
+033
+
 Si l’on souhaitait utiliser plusieurs clés privées, il fallait alors effectuer autant de sauvegardes pour garantir l’accès aux fonds en cas de problème avec l’appareil hébergeant le portefeuille. Si l’on utilise une seule clé privée, cette structure de portefeuille peut convenir, puisqu’une seule sauvegarde suffit. Cependant, cela pose un problème : sur Bitcoin, il est fortement déconseillé d’utiliser toujours la même clé privée. En effet, une clé privée est associée à une adresse unique, et les adresses de réception sur Bitcoin sont normalement conçues pour un usage unique. À chaque fois que vous recevez des fonds, vous devriez générer une nouvelle adresse vierge.
 
 Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutilisant une même adresse, on facilite le travail des observateurs externes qui peuvent alors retracer l’ensemble de mes transactions Bitcoin. C’est pourquoi la réutilisation d’une adresse de réception est fortement déconseillée. Or, pour disposer de plusieurs adresses et séparer publiquement nos transactions, il est nécessaire de gérer de multiples clés privées. Dans le cas des portefeuilles JBOK, cela implique de créer autant de sauvegardes qu'il y a de nouvelles paires de clés, une tâche qui peut rapidement devenir complexe et difficile à maintenir pour les utilisateurs.
@@ -1108,6 +1110,8 @@ https://planb.network/courses/btc204
 ### Les portefeuilles HD (*Hierarchical Deterministic*)
 
 Pour résoudre cette limitation des portefeuilles JBOK, on a ensuite utilisé une nouvelle structure de portefeuille. En 2012, Pieter Wuille propose une amélioration avec le BIP32, qui introduit les portefeuilles déterministes hiérarchiques. Le principe d’un portefeuille HD est de dériver l'ensemble des clés privées d'une unique source d'information, appelée graine (ou "seed"), de façon déterministe et hiérarchique. Cette graine est générée de manière aléatoire lors de la création du portefeuille et constitue une unique sauvegarde qui permet de recréer l'ensemble des clés privées du portefeuille. Ainsi, l'utilisateur peut générer un très grand nombre de clés privées pour éviter la réutilisation d'adresse et préserver sa confidentialité, tout en ne faisant qu'une seule sauvegarde de son portefeuille via la graine.
+
+034
 
 Dans les portefeuilles HD, la dérivation de clés est réalisée selon une structure hiérarchique qui permet d'organiser les clés en sous-espaces de dérivation, chaque sous-espace pouvant lui-même être subdivisé, afin de faciliter la gestion des fonds et l'interopérabilité entre les différents logiciels de portefeuille. De nos jours, ce standard est adopté par l'immense majorité des utilisateurs de Bitcoin. Pour cette raison, nous allons l'examiner en détail dans les chapitres suivants.
 
@@ -1123,39 +1127,27 @@ Dans les prochains chapitres, nous explorerons le fonctionnement interne des por
 ## Entropie et nombre aléatoire
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
-![Entropie et nombre aléatoire](https://youtu.be/k18yH18w2TE)
+Les portefeuilles HD modernes (déterministes et hiérarchiques) reposent sur une unique information initiale appelée "entropie" pour générer de manière déterministe l’ensemble des clés du portefeuille. Cette entropie est un nombre pseudo-aléatoire dont le niveau de chaos détermine en partie la sécurité du portefeuille.
 
-L'importance de la sécurité des clés privées dans l'écosystème du Bitcoin est incontestable. Elles sont en effet la pierre angulaire qui assure la sécurité des transactions Bitcoin. Pour éviter toute vulnérabilité associée à la prédictibilité, ces clés doivent être générées de manière véritablement aléatoire, ce qui peut rapidement se révéler être un exercice laborieux. Le problème c'est qu'en informatique, il est impossible de générer un nombre véritablement aléatoire puisqu'il est forcément issu d'un processus déterministe ; un code. 
-C'est pourquoi il est essentiel de s'informer sur les différents Générateur de Nombres Aléatoires (RNG). Les types de RNG varient, allant des Pseudo-Random Number Generators (PRNG) aux True Random Number Generators (TRNG), ainsi qu'aux PRNG qui intègrent une source d'entropie.
+### Définition de l’entropie
 
-L'entropie désigne l'état de « désordre » d'un système. A partir d'une entropie externe, c'est à dire, une source d'information externe, il est possible d'utiliser un générateur de nombre aléatoire afin d'obtenir un nombre aléatoire.
+L'entropie, dans le contexte de la cryptographie et de l'information, est une mesure quantitative de l'incertitude ou de l'imprévisibilité associée à une source de données ou à un processus aléatoire. Elle joue un rôle important dans la sécurité des systèmes cryptographiques, notamment dans la génération de clés et de nombres aléatoires. Une entropie élevée garantit que les clés générées sont suffisamment imprévisibles et résistantes aux attaques par force brute, où un attaquant essaie toutes les combinaisons possibles pour deviner la clé.
 
+Dans le contexte de Bitcoin, l'entropie est utilisée pour générer la graine. Lors de la création d'un portefeuille déterministe et hiérarchique, la construction de la phrase mnémonique se fait à partir d'un nombre aléatoire, lui-même issu d'une source d'entropie. La phrase est ensuite utilisée pour générer plusieurs clés privées, de manière déterministe et hiérarchique, afin de créer des conditions de dépense sur des UTXOs.
 
-![image](assets/image/section3/2.webp)
+### Les méthodes de génération de l’entropie
 
-Voyons ensemble le fonctionnement d'un Pseudo-Random Number Generator (PRNG).
+L’entropie initiale utilisée pour un portefeuille HD est généralement de 128 bits ou 256 bits, où :
+- **128 bits d’entropie** correspondent à une phrase mnémonique de **12 mots** ;
+- **256 bits d’entropie** correspondent à une phrase mnémonique de **24 mots**.
 
-Il prend en entrée une graine, c'est à dire, une information qui va correspondre à l'état interne 0.
-Sur cet etat interne, il est appliqué une fonction de transformation et le résultat qui est un nombre pseudo-aléatoire correspond à l'état interne 1.
-Sur cet etat interne 1, à nouveau, il est apliqué une fonction de transformation qui résulte en un nouveau nombre aléatoire = etat interne 2.
-Et ainsi de suite.
+Dans la plupart des cas, ce nombre aléatoire est généré automatiquement par le logiciel de portefeuille grâce à un PRNG (*Pseudo-Random Number Generator*). Les PRNG sont une catégorie d'algorithmes utilisés pour générer des séquences de nombres à partir d'un état initial, qui disposent de caractéristiques s'approchant d'un nombre aléatoire, sans pour autant en être. Un bon PRNG doit avoir des propriétés telles que l'uniformité des sorties, l'imprévisibilité et la résistance aux attaques prédictives. Contrairement aux générateurs de nombres véritablement aléatoires (TRNG), les PRNG sont en revanche déterministes et reproduisibles.
 
-L'inconvenient principal c'est que toute graine identique donnera toujours le même résultat en sortie. Et également, si nous connaissons le résultat des fonctions de transformation du début, nous sauront en mesure de retrouver le nombre aléatoire en sortie de processus.
+035
 
-Un exemple de fonction de transformation est le fonction PBKDF2.
+Une alternative consiste à générer manuellement l’entropie, ce qui offre un meilleur contrôle mais est également beaucoup plus risqué. Je vous déconseille d'ailleurs fortement de générer vous-même l'entropie à la base de votre portefeuille HD.
 
-**Pour résumer, un PRNG cryptographiquement sûr doit :**
-
-- etre statistiquement aléatoire
-- etre imprédictible
-- etre résistant même si les résultats sont révélés
-- avoir une periode suffisamment longue
-
-
-
-![image](assets/image/section3/3.webp)
-
-Dans le cas du Bitcoin, les clés privées sont générées à partir d'une seule information à la base du portefeuille. Cette information permet une dérivation déterministe et hiérarchique des paires de clés enfant. L'entropie est le socle de tout portefeuille HD, bien qu'il n'existe pas de standard pour la génération de ce nombre aléatoire. Par conséquent, la génération de nombres aléatoires est un enjeu majeur pour sécuriser les transactions Bitcoin.
+Dans le prochain chapitre, nous allons voir comment est-ce que l'on passe d'un nombre aléatoire à une phrase mnémonique de 12 ou 24 mots.
 
 ## La phrase mnémonique
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
