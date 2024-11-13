@@ -1343,7 +1343,7 @@ $$
 
 La clé privée maîtresse est considérée comme la clé parent, à partir de laquelle toutes les clés privées dérivées — enfants, petits-enfants, arrière-petits-enfants, etc. — seront générées. Elle représente le niveau zéro dans la hiérarchie de dérivation.
 
-Le code de chaîne maître, pour sa part, introduit une source d’entropie supplémentaire dans le processus de dérivation des clés enfants, afin de contrer certaines attaques potentielles.
+Le code de chaîne maître, pour sa part, introduit une source d’entropie supplémentaire dans le processus de dérivation des clés enfants, afin de contrer certaines attaques potentielles. D’ailleurs, dans le portefeuille HD, chaque paire de clés possède un code de chaîne unique associé, qui est utilisé lui aussi pour dériver des clés enfants à partir de cette paire, mais nous en parlerons plus en détail dans les prochains chapitres.
 
 Avant de poursuivre la dérivation du portefeuille HD avec les éléments suivants, je souhaite, dans le prochain chapitre, vous présenter les clés étendues, qui sont souvent confondues avec la clé maîtresse. Nous allons voir comment elles sont construites et quel rôle elles jouent dans le portefeuille Bitcoin.
 
@@ -1351,48 +1351,129 @@ Avant de poursuivre la dérivation du portefeuille HD avec les éléments suivan
 ## Les clés étendues
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
-![Les clés étendues](https://youtu.be/TRz760E_zUY)
+Une clé étendue est simplement la concaténation d’une clé (qu’elle soit privée ou publique) et de son code de chaîne associé. Ce code de chaîne est indispensable pour la dérivation des clés enfants car, sans lui, il est impossible de dériver les clés enfants d’une clé parent, mais nous découvrirons plus précisément ce processus dans le chapitre suivant. Ces clés étendues permettent donc d’agréger toutes les informations nécessaires pour dériver des clés enfants, et donc de simplifier la gestion des comptes au sein d'un portefeuille HD.
 
-Dans cette partie du cours, nous allons étudier les clés étendues (xPub, zPub, yPub) et leurs préfixes, qui jouent un rôle important dans la dérivation des clés enfants dans un portefeuille HD (Hierarchical Deterministic Wallet).
+046
 
-![image](assets/image/section4/3.webp)
+La clé étendue se compose de deux parties :
+- La charge utile, qui contient la clé privée ou la clé publique ainsi que le code de chaîne associé ;
+- Les métadonnées, qui sont diverses informations pour faciliter l'interopérabilité entre les logiciels et améliorer la compréhension pour l’utilisateur.
 
-Les clés étendues se distinguent des clés maîtresses. Un portefeuille HD génère une phrase mnémonique et une graine pour obtenir la clé maîtresse et le code de chaîne maître. Les clés étendues sont utilisées pour dériver les clés enfants et nécessitent à la fois la clé parente et le code de chaîne correspondant. Une clé étendue combine ces deux informations pour simplifier le processus de dérivation.
+### Fonctionnement des clés étendues
 
-![image](assets/image/section4/4.webp)
+Lorsque la clé étendue contient une clé privée, on dit que c'est une clé privée étendue. Elle se reconnait par sont préfixe qui contient la mention `prv`. En plus de la clé privée, la clé privée étendue contient donc également le code chaîne associé à la clé. Avec ce type de clé étendue, il est possible de dériver tous les types de clés privées enfants, et donc par addition et doublement de points sur les courbes elliptiques, elle permet également de dériver l’intégralité des clés publiques enfants.
 
-Les clés publiques étendues ne peuvent dériver que des clés publiques enfants normales, tandis que les clés privées étendues permettent de dériver des clés enfants publiques et privées, que ce soit sur une dérivation normale ou endurcie. 
-La dérivation endurcie est la dérivation à partir de la clef parent privée. La dérivation normale correspond à la dérivation à partir de la clef parent publique.
+Lorsque la clé étendue ne contient pas une clé privée, mais à la place, une clé publique, on dit que c'est une clé publique étendue. Elle se reconnait par son préfixe qui contient la mention `pub`. Évidemment, en plus de la clé, elle contient également le code de chaîne associé. Contrairement à la clé privée étendue, la clé publique étendue permet de dériver uniquement les clés publiques enfants dites "normales" (c'est-à-dire qu'elle ne peut pas dériver les clés enfants "endurcies"). Nous verrons dans le chapitre suivant ce que signifient ces qualificatifs "normale" et "endurcie".
 
-L'utilisation de clés étendues avec le préfixe XPUB permet de dériver de nouvelles adresses sans remonter jusqu'aux clés privées correspondantes, offrant ainsi une meilleure sécurité. Les métadonnées associées aux clés étendues fournissent des informations importantes sur leur rôle et leur position dans la hiérarchie des clés.
+Mais dans tous les cas, la clé publique étendue ne permet pas de dériver des clés privées enfants. Par conséquent, même si une personne a accès à une `xpub`, elle ne pourra pas dépenser les fonds associés, car elle n’aura pas accès aux clés privées correspondantes. Elle pourra seulement dériver les clé publiques enfant pour observer les transactions associées.
 
-Les clés étendues sont identifiées par des préfixes spécifiques (XPRV, XPUB, YPUB, ZPUB) qui indiquent s'il s'agit d'une clé étendue privée ou publique, ainsi que son objectif spécifique. Les métadonnées associées à une clé étendue comprennent la version (préfixe), la profondeur, l'empreinte de la clé publique, l'index et la charge utile (code de chaîne et clé parente).
+Pour la suite, nous adopterons la notation suivante :
+- $K_{\text{PAR}}$ : une clé publique parent ;
+- $k_{\text{PAR}}$ : une clé privée parent ;
+- $C_{\text{PAR}}$ : un code chaîne parent ;
+- $C_{\text{CHD}}$ : un code chaîne enfant ;
+- $K_{\text{CHD}}^n$ : une clé publique enfant normale ;
+- $k_{\text{CHD}}^n$ : une clé privée enfant normale ;
+- $K_{\text{CHD}}^h$ : une clé publique enfant endurcie ;
+- $k_{\text{CHD}}^h$ : une clé privée enfant endurcie ;
 
-![image](assets/image/section4/5.webp)
+047
 
-La version correspond à type de clef : xpub, xprv, ...
+### Construction d'une clé étendue
 
-La profondeur correspond au nombre de dérivation entre parent-enfant qu'il y a eu depuis la clef maitresse.
+Une clé étendue est structurée comme suit :
+- **Version** : Code de version pour identifier la nature de la clé (`xprv`, `xpub`, `yprv`, `ypub`...). Nous verrons à la fin de ce chapitre à quoi correspondent les lettre `x`, `y` et `z`.
+- **Profondeur** : Niveau hiérarchique dans le portefeuille HD par rapport à la clé maîtresse (0 pour la clé maîtresse).
+- **Empreinte parent** : Les 4 premiers octets du hash HASH160 de la clé publique parent ayant servie à dériver la clé présente dans la charge utile.
+- **Numéro d'index** : Identifiant de l'enfant parmi les clés sœurs, c'est-à-dire parmi toutes les clés au même étage de dérivation qui ont les mêmes clés parent.
+- **Code de chaîne** : Code unique de 32 octets pour la dérivation des clés enfants.
+- **Clé** : La clé privée (préfixée par 1 octet pour la taille) ou la clé publique.
+- **Somme de contrôle** : On ajoute également une checksum calculée avec la fonction HASH256 (double SHA256), qui permet de vérifier l’intégrité de la clé étendue lors de sa transmission ou de son stockage.
 
-L'empreinte parent c'est les 4 premiers octets du hash 160 de la clef parent.
+Le format complet d’une clé étendue est donc de 78 octets sans la checksum, et de 82 octets avec la checksum. Elle est ensuite convertie en Base58 pour produire une représentation facilement lisible par les utilisateurs. Le format Base58 est le même que celui utilisé pour els adresses de réception *Legacy* (avant *SegWit*).
 
-L'index est le numéro de la paire qui est utilisée pour générer la clef étendu parmis ses soeurs. (soeurs = clefs de même profondeur)
-exemple : si on souhaite dériver la xpub de notre 3ieme compte, son index sera 2 (car index commence à 0).
+| Élément           | Description                                                                                                | Taille    |
+| ----------------- | ---------------------------------------------------------------------------------------------------------- | --------- |
+| Version           | Indique si la clé est publique (xpub, ypub) ou privée (xprv, zprv), ainsi que la version de la clé étendue | 4 octets  |
+| Profondeur        | Niveau dans la hiérarchie par rapport à la clé maîtresse                                                   | 1 octet   |
+| Empreinte parent  | Les 4 premiers octets de HASH160 de la clé publique parent                                                 | 4 octets  |
+| Numéro d'index    | Position de la clé dans l’ordre des enfants                                                                | 4 octets  |
+| Code de chaîne    | Utilisé pour dériver les clés enfants                                                                      | 32 octets |
+| Clé               | La clé privée (avec un préfixe de 1 octet) ou la clé publique                                              | 33 octets |
+| Somme de contrôle | Checksum pour vérifier l'intégrité                                                                         | 4 octets  |
 
-La charge utile est composée du code de chaîne (32 octets) et de la clé parente (33 octets).
+Si l'on ajoute un octet à la clé privée uniquement, c’est parce que la clé publique compressée est plus longue que la clé privée d’un octet. Cet octet supplémentaire, ajouté au début de la clé privée sous la forme `0x00`, permet d’égaliser leur taille, ce qui assure d'avoir une charge utile de clé étendue de même longueur, qu’il s’agisse d’une clé publique ou d'une clé privée.
 
-Les clés publiques compressées ont une taille de 33 octets, tandis que les clés publiques brutes sont de 512 bits. Les clés publiques compressées conservent les mêmes informations que les clés brutes, mais avec une taille réduite. Les clés étendues ont une taille de 82 octets et leur préfixe est représenté en base 58 grâce à une conversion en hexadécimal. Le checksum est calculé à l'aide de la fonction de hachage HASH256.
+### Préfixes des clés étendues
 
-![image](assets/image/section4/6.webp)
+Comme nous venons de le voir, les clé étendues incluent un préfixe qui indique d'une part la version de la clé étendue, mais également sa nature. La notation `pub` indique que l'on à affaires à une clé publique étendue et la notation `prv` indique une clé privée étendue. La lettre supplémentaire qui se trouve à la base de la clé étendue permet d'indiquer si le standard suivi est Legacy, SegWit v0, SegWit v1...
 
-Les dérivations renforcées commencent à partir des indexes qui sont des puissances de 2 (2^31). Il est intéressant de noter que les préfixes les plus couramment utilisés sont xpub et zpub, qui correspondent respectivement aux standards legacy et segwit v1 et segwit v0.
+Voici donc un récapitulatif des préfixes utilisés et leur signification :
 
-Dans notre prochain cours, nous nous pencherons sur la dérivation des paires de clés enfants en utilisant les connaissances acquises sur les clés étendues et la clé maîtresse du portefeuille.
+| Préfixe base 58 | Préfixe base 16     | Réseau   | Objectif             | Scripts associés          | Dérivation                 | Type de clé |
+|-----------------|---------------------|----------|-----------------------|----------------------------|-----------------------------|-------------|
+| `xpub`          | `0488b21e`          | Mainnet  | Legacy et SegWit V1  | P2PK / P2PKH / P2TR       | `m/44'/0'`, `m/86'/0'`      | publique    |
+| `xprv`          | `0488ade4`          | Mainnet  | Legacy et SegWit V1  | P2PK / P2PKH / P2TR       | `m/44'/0'`, `m/86'/0'`      | privée      |
+| `tpub`          | `043587cf`          | Testnet  | Legacy et SegWit V1  | P2PK / P2PKH / P2TR       | `m/44'/1'`, `m/86'/1'`      | publique    |
+| `tprv`          | `04358394`          | Testnet  | Legacy et SegWit V1  | P2PK / P2PKH / P2TR       | `m/44'/1'`, `m/86'/1'`      | privée      |
+| `ypub`          | `049d7cb2`          | Mainnet  | Nested SegWit        | P2WPKH in P2SH            | `m/49'/0'`                  | publique    |
+| `yprv`          | `049d7878`          | Mainnet  | Nested SegWit        | P2WPKH in P2SH            | `m/49'/0'`                  | privée      |
+| `upub`          | `049d7cb2`          | Testnet  | Nested SegWit        | P2WPKH in P2SH            | `m/49'/1'`                  | publique    |
+| `uprv`          | `044a4e28`          | Testnet  | Nested SegWit        | P2WPKH in P2SH            | `m/49'/1'`                  | privée      |
+| `zpub`          | `04b24746`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | publique    |
+| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | privée      |
+| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | publique    |
+| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | privée      |
+
+### Détail des éléments d'une clé étendue
+
+Pour mieux comprendre la structure interne d'une clé étendue, nous allons en prendre une pour exemple et la décomposée. Voici une clé étendue :
+
+- **En Base58** :
+
+```txt
+xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
+```
+
+- **En hexadécimal** :
+
+```txt
+0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
+```
+
+Cette clé étendue se décompose en plusieurs éléments distincts :
+
+1. **Version** : `0488B21E`  
+
+Les 4 premiers octets sont la version. Ici, cela correspond à une clé publique étendue sur le Mainnet avec un objectif de dérivation soit *Legacy*, soit *SegWit v1*.
+
+2. **Profondeur** : `03`  
+
+Ce champ indique le niveau hiérarchique de la clé dans le portefeuille HD. Dans ce cas, une profondeur de `03` signifie que cette clé est à trois niveaux de dérivation en dessous de la clé maîtresse.
+
+3. **Empreinte parent** : `6D5601AD`  
+
+Ce sont les 4 premiers octets du hash HASH160 de la clé publique parent ayant servi à dériver cette `xpub`.
+
+4. **Numéro d'index** : `80000000`  
+
+Cet index indique la position de la clé parmi les enfants de ses clés parent. Le préfixe `0x80` indique que la clé est dérivée de manière endurcie, et puisque le reste est rempli de zéros, cela indique que cette clé est la première parmi ses éventuelles sœurs.
+
+5. **Code de chaîne** : `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`  
+
+6. **Clé publique** : `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`  
+
+7. **Somme de contrôle** : `1F067C3A`  
+
+La checksum correspond aux 4 premiers octets du hachage (double SHA256) de tout le reste.
+
+Dans ce chapitre, nous avons découvert qu’il existe deux types de clés enfants différents. Nous avons également appris que la dérivation de ces clés enfants nécessite une clé (privée ou publique) et son code de chaîne. Dans le chapitre suivant, nous examinerons en détail la nature de ces différents types de clés et la manière de les dériver à partir de leur clé et code de chaîne parent.
+
 
 ## Dérivation des paires de clés enfants
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
-![Dérivation des paires de clés enfants](https://youtu.be/FXhI-GmE9Aw)
+
 
 Pour rappel, nous avons abordé le calcul de la graine et de la clé maîtresse, qui constituent les premiers éléments essentiels pour la hiérarchisation et la dérivation du portefeuille HD (Hierarchical Deterministic Wallet). La graine, d'une longueur de 128 à 256 bits, est générée de manière aléatoire ou à partir d'une phrase secrète. Elle joue un rôle déterministe dans la dérivation de toutes les autres clés. La clé maîtresse est la première clé dérivée à partir de la graine, et elle permet de dériver toutes les autres paires de clés enfants.
 
