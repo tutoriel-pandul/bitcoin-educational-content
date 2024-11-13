@@ -934,7 +934,6 @@ La première étape pour générer une signature est de hacher le message. Mais 
 En plus du message, on va également passer dans la fonction étiquetée l'abscisse de la clé publique $K_x$, ainsi qu'un point $R$ calculé à partir du nonce $r$ ($R=r \cdot G$) qui est lui-même un entier unique pour chaque signature, calculé de manière déterministe à partir de la clé privée et du message pour éviter les vulnérabilités liées à la réutilisation du nonce. De la même manière que pour la clé publique, seule l'abscisse du point du nonce $R_x$ est conservée pour décrire le point.
 
 Le résultat de ce hachage noté $e$ s'appelle le "challenge" :
-
 $$
 e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
 $$
@@ -1152,37 +1151,76 @@ Dans le prochain chapitre, nous allons voir comment est-ce que l'on passe d'un n
 ## La phrase mnémonique
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 
-![La phrase mnémonique](https://youtu.be/uJERqH9Xp7I)
+La phrase mnémonique, aussi appelée "seed phrase", "phrase de récupération", "phrase secrète", ou "phrase de 24 mots", est une séquence composée habituellement de 12 ou de 24 mots, qui est générée à partir de l'entropie. Elle est utilisée pour dériver de façon déterministe l'intégralité des clés d'un portefeuille HD. Cela signifie qu’à partir de cette phrase, il est possible de générer et de recréer déterministiquement l'ensemble des clés privées et publiques du portefeuille Bitcoin, et par conséquent d'accéder aux fonds qui sont protégés avec. La raison d'être de la phrase mnémonique est de fournir un moyen de sauvegarde et de récupération des bitcoins qui est à la fois sécurisé et facile à utiliser. Elle a été introduite dans les standards en 2013 avec le BIP39.
 
-La sécurité d'un portefeuille Bitcoin est une préoccupation majeure pour tous ses utilisateurs. Une manière essentielle d'assurer la sauvegarde du portefeuille consiste à générer une phrase mnémonique basée sur l'entropie et la checksum.
+Découvrons ensemble comment passer d'une entropie à une phrase mnémonique.
 
-![image](assets/image/section3/5.webp)
+### La checksum
 
-Pour passer de l'entropie à une phrase mnémonique, il suffit de calculer la checksum de l'entropie et de concaténer entropie et checksum.
+Pour transformer une entropie en phrase mnémonique, il faut d’abord ajouter une checksum (ou "somme de contrôle") à la fin de l’entropie. Cette checksum est une courte séquence de bits qui assure l’intégrité des données en vérifiant qu’aucune modification accidentelle n’a été introduite.
 
-Une fois que l'entropie est générée, on utilise la fonction SHA256 sur l'entropie afin d'en créer un hash. 
-On récupère les 8 premiers bits du hash, c'est la checksum.
-La phrase mnémonique est le résultat de l'entropie additionnée de la checksum.
+Pour calculer la checksum, on applique la fonction de hachage SHA256 à l’entropie (une seule fois ; c'est d'ailleurs l'un des rares cas dans Bitcoin où l'on utilise un SHA256 simple au lieu d'un double hachage). Cette opération produit un hash de 256 bits. La checksum est constituée des premiers bits de ce hash, et sa longueur dépend de celle de l’entropie, selon la formule suivante :
+$$
+\text{CS} = \frac{\text{ENT}}{32}
+$$
 
-La checksum assure la vérification de l'exactitude de la phrase de récupération. Sans cette checksum, une erreur dans la phrase pourrait aboutir à la création d'un portefeuille différent et donc à la perte des fonds. On obtient la checksum en passant l'entropie par la fonction SHA256 et en récupérant les 8 premiers bits du hachage.
+où $\text{ENT}$ représente la longueur de l’entropie en bits, et $\text{CS}$ la longueur de la checksum en bits.
 
-![image](assets/image/section3/6.webp)
+Par exemple, pour une entropie de 256 bits, on va prendre les 8 premiers bits du hash pour former la checksum :
+$$
+\text{CS} = \frac{256}{32} = 8 \text{ bits}
+$$
 
-Différents standards existent pour la phrase mnémonique en fonction de la taille de l'entropie. Le standard le plus couramment utilisé pour une phrase de récupération de 24 mots est une entropie de 256 bits. La taille de la checksum est déterminée en divisant la taille de l'entropie par 32.
+Une fois la checksum calculée, on la concatène avec l’entropie pour obtenir une séquence étendue de bits notée $\text{ENT} \, || \, \text{CS}$. "Concaténer" signifie mettre bout-à-bout.
 
-Par exemple, une entropie de 256 bits génère une checksum de 8 bits. La concaténation de l'entropie et de la checksum conduit alors à des tailles respectives de 128 bits, 160 bits, etc. En fonction de la taille de l'entropie, la phrase de récupération comportera 12 mots pour 128 bits, 15 mots pour 160 bits, et 24 mots pour 256 bits.
+036
 
-**L'encodage de la phrase mnémonique :**
+### Correspondance entre l’entropie et la phrase mnémonique
 
-![image](assets/image/section3/7.webp)
+Le nombre de mots dans la phrase mnémonique dépend de la taille de l’entropie initiale, comme illustré dans le tableau suivant avec :
+- $ENT$ : la taille en bits de l'entropie ;
+- $CS$ : la taille en bits de la checksum ;
+- $w$ : le nombre de mots dans la phrase mnémonique finale.
 
-Les 8 derniers bits correspondent à la checksum.
-Chaque segment de 11 bits est converti en décimal.
-Chaque décimal corespond à un mot  issu d'une liste de 2048 mots sur le BIP39. Il est important de préciser qu'aucun mot ne présente les quatre premières lettres dans le même ordre.
+$$
+\begin{array}{|c|c|c|c|}
+\hline
+ENT & CS & ENT \, || \ CS & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
 
-Il est essentiel de sauvegarder la phrase de récupération de 24 mots pour préserver l'intégrité du portefeuille Bitcoin. Les deux standards les plus couramment utilisés se basent sur une entropie de 128 ou 256 bits et une concaténation de 12 ou 24 mots. L'ajout d'une passphrase constitue une option supplémentaire pour renforcer la sécurité du portefeuille.
+Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \, || \, \text{CS}$ fait 264 bits et donne une phrase mnémonique de 24 mots.
 
-En conclusion, la génération d'une phrase mémonique pour sécuriser un portefeuille Bitcoin est un processus crucial. Il est important de respecter les standards de la phrase mémonique en fonction de la taille de l'entropie. La sauvegarde de la phrase de récupération de 24 mots est essentielle pour prévenir toute perte de fonds. 
+### Conversion de la séquence binaire en une phrase mnémonique
+
+La séquence de bits $\text{ENT} \, || \, \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+
+037
+
+Par exemple, pour une entropie de 128 bits et la checksum est de 4 bits, et donc la séquence totale mesure 132 bits. Elle est découpée en 12 segments de 11 bits (les bits oranges désignent la checksum) :
+
+038
+
+Chaque segment est ensuite converti en un nombre décimal qui représente un mot dans la liste. Par exemple, le segment binaire `01011010001` est équivalent en décimal à `721`. En ajoutant 1 pour aligner avec l’indexation de la liste (qui commence par 1 et non pas par 0), cela donne le mot de rang `722`, qui est "*focus*" dans la liste.
+
+039
+
+On répète cette correspondance pour chacun des 12 segments, afin d'obtenir une phrase de 12 mots.
+
+040
+
+### Caractéristiques de la liste de mots du BIP39
+
+Une particularité de la liste de mots du BIP39 est qu'aucun mot ne partage les quatre premières lettres dans le même ordre avec un autre mot. Cela signifie que noter seulement les quatre premières lettres de chaque mot suffit pour sauvegarder la phrase mnémonique. Cela peut être intéressant pour gagner de la place, notamment pour ceux qui souhaitent la graver sur un support en métal.
+
+Cette liste de 2048 mots existe en plusieurs langues. Ce ne sont pas de simples traductions, mais des mots distincts pour chaque langue. Cependant, il est fortement recommandé de se limiter à la version anglaise, car les versions dans d'autres langues ne sont généralement pas prises en charge par les logiciels de portefeuille.
 
 ## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
