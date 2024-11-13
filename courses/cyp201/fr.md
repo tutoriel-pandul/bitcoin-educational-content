@@ -1272,7 +1272,7 @@ Il est également important de bien sauvegarder cette passphrase, de la même ma
 
 042
 
-Dans la section suivante, nous examinerons comment ces deux éléments à labase de votre portefeuille — la phrase mnémonique et la passphrase — sont employés pour dériver les paires de clés utilisées dans les *scriptPubKey* afin de verrouiller vos UTXOs.
+Dans la section suivante, nous découvrirons comment ces deux éléments à la base de votre portefeuille — la phrase mnémonique et la passphrase — sont employés pour dériver les paires de clés utilisées dans les *scriptPubKey* qui verrouillent vos UTXOs.
 
 # Création des portefeuilles Bitcoin
 <partId>9c25e767-7eae-50b8-8c5f-679d8fc83bab</partId>
@@ -1280,31 +1280,73 @@ Dans la section suivante, nous examinerons comment ces deux éléments à labase
 ## Création de la graine et de la clé maîtresse
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
-![Création de la graine et de la clé maîtresse](https://youtu.be/56yAt_JDWhY)
+Une fois la phrase mnémonique et l'optionnelle passphrase générées, le processus de dérivation d’un portefeuille HD Bitcoin peut commencer. La phrase mnémonique est convertie d'abord convertie en une graine qui constitue la base de toutes les clés du portefeuille.
 
-Dans cette partie du cours, nous allons explorer les étapes de dérivation d'un portefeuille HD (Hierarchical Deterministic Wallet), qui permet de créer et gérer des clés privées et publiques de manière hiérarchique et déterministe.
+043
 
-![image](assets/image/section4/0.webp)
+### La graine d'un portefeuille HD
 
-Le fondement du portefeuille HD repose sur deux éléments essentiels : la phrase mnémonique et la passphrase (mot de passe supplémentaire optionnel). Ensemble, ils constituent la seed, une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille. À partir de cette seed, il est possible de dériver toutes les paires de clés enfants du portefeuille Bitcoin. La seed est la clé permettant d'accéder à l'ensemble des bitcoins associés au portefeuille, que vous utilisiez une passphrase ou non.
+Le standard BIP39 définit la graine comme une séquence de 512 bits, qui sert de point de départ pour la dérivation de toutes les clés d’un portefeuille HD. La graine est dérivée de la phrase mnémonique et de l'éventuelle passphrase en utilisant l’algorithme **PBKDF2** (*Password-Based Key Derivation Function 2*) dont nous avons déjà parlé dans le chapitre 3.3. dans cette fonction de dérivation, on va utiliser les paramètres suivants :
 
-![image](assets/image/section4/1.webp)
+- $m$ : la phrase mnémonique ;
+- $p$ : une passphrase optionnelle choisie par l’utilisateur pour renforcer la sécurité de la graine. S'il n'y a pas de passphrase, ce champs est laissé vide ;
+- $\text{PBKDF2}$ : la fonction de dérivations avec $\text{HMAC-SHA512}$ et $2048$ itérations ;
+- $s$ : la graine du portefeuille de 512 bits.
 
-Pour obtenir la seed, on utilise la fonction pbkdf2 (Password-Based Key Derivation Function 2) avec la phrase mnémonique et la passphrase. La sortie de pbkdf2 est une seed de 512 bits. 
+Quelle que soit la longueur de la phrase mnémonique choisie (132 bits ou 264 bits), la fonction PBKDF2 produira toujours un output de 512 bits et la graine sera donc toujours de cette taille.
 
-A partir de la seed, il est possible de déterminer la clé privée maitresse et le code de chaine en utilisant l'algorithme HMAC SHA-512 (Hash-based Message Authentication Code Secure Hash Algorithm 512). Cet algorithme nécessite un message et une clé en entrée pour générer un résultat. La clé privée maîtresse est calculée à partir de la seed et de la phrase "Bitcoin SEED". Cette phrase est identique pour toutes les dérivations de tous les portefeuilles HD, garantissant ainsi une cohérence entre les portefeuilles.
+### Schéma de dérivation de la graine avec PBKDF2
 
-Initialement, la fonction SHA-512 n'était pas implémentée dans le protocole Bitcoin, c'est pourquoi on utilise HMAC SHA-512. L'utilisation de HMAC SHA-512 avec la phrase "Bitcoin SEED" contraint l'utilisateur à générer un portefeuille spécifique à Bitcoin. Le résultat de HMAC SHA-512 est un nombre de 512 bits, divisé en deux parties : les 256 bits de gauche représentent la clé privée maîtresse, tandis que les 256 bits de droite représentent le code de chaîne maître.
+L’équation suivante illustre la dérivation de la graine à partir de la phrase mnémonique et de la passphrase :
 
-![image](assets/image/section4/2.webp)
+$$
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
+$$
 
-La clé privée maîtresse est la clé parente de toutes les futures clés du portefeuille, tandis que le code de chaîne maître intervient dans la dérivation des clés enfants. Il est important de noter qu'il est impossible de dériver une paire de clés enfant sans connaître le code de chaîne correspondant de la paire parente. 
+044
 
-Une paire de clés dans le portefeuille comprend une clé privée, une clé publique et un code de chaîne. Le code de chaîne permet d'introduire une source d'aléatoire dans la dérivation des clés enfants et d'isoler chaque paire de clés pour éviter toute fuite d'information.
+La valeur de la graine est ainsi influencée par la valeur de la phrase mnémonique et de la passphrase. En modifiant la passphrase, on obtient une graine différente. En revanche, avec une phrase mnémonique et une passphrase identiques, on génère toujours la même graine, puisque PBKDF2 est une fonction déterministe. Cela garantit que l’on peut retrouver les mêmes paires de clés grâce à nos sauvegardes.
 
-Il est important de souligner que la clé privée maîtresse est la première clé privée dérivée à partir de la seed et n'a aucun lien avec les clés étendues du portefeuille.
+**Remarque :** Dans le langage courant, le terme "graine" désigne souvent, par abus de langage, la phrase mnémonique. En effet, en l'absence de passphrase, l'une est simplement l'encodage de l'autre. Cependant, comme nous l'avons vu, dans la réalité technique des portefeuilles, la graine et la phrase mnémonique sont bien deux éléments distincts.
 
-Dans le prochain cours, nous explorerons en détail les clés étendues, telles que les xPub, xPRV, zPub, et nous comprendrons pourquoi elles sont utilisées et comment elles sont construites.
+Maintenant que nous disposons de notre graine, nous pouvons continuer la dérivation de notre portefeuille Bitcoin.
+
+### La clé maîtresse et le code de chaîne maître
+
+Une fois la graine obtenue, la prochaine étape de la dérivation d'un portefeuille HD consiste à calculer la clé privée maîtresse et le code de chaîne maître, qui représenteront la profondeur 0 de notre portefeuille.
+
+Pour obtenir la clé privée maîtresse et le code de chaîne maître, on applique la fonction HMAC-SHA512 à la graine, en utilisant une clé fixe "*Bitcoin Seed*" identique pour tous les utilisateurs de Bitcoin. Cette constante est choisie pour garantir que les dérivations de clé sont spécifiques à Bitcoin. Voici les éléments :
+- $\text{HMAC-SHA512}$ : la fonction de dérivations ;
+- $s$ : la graine du portefeuille de 512 bits ;
+- $\text{"Bitcoin Seed"}$ : la constante de dérivation commune à tous les portefeuilles Bitcoin.
+
+$$
+\text{output} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
+$$
+
+La sortie de cette fonction est donc de 512 bits. Elle est ensuite divisée en 2 parties :
+- Les 256 bits de gauche forment la **clé privée maîtresse** ;
+- Les 256 bits de droite forment le **code de chaîne maître**.
+
+Mathématiquement, on peut noter ces deux valeurs comme suit avec $k_M$ la clé privée maîtresse et $C_M$ le code de chaîne maître :
+$$
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
+$$
+
+$$
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+$$
+
+045
+
+### Rôle de la clé maîtresse et du code de chaîne
+
+La clé privée maîtresse est considérée comme la clé parent, à partir de laquelle toutes les clés privées dérivées — enfants, petits-enfants, arrière-petits-enfants, etc. — seront générées. Elle représente le niveau zéro dans la hiérarchie de dérivation.
+
+Le code de chaîne maître, pour sa part, introduit une source d’entropie supplémentaire dans le processus de dérivation des clés enfants, afin de contrer certaines attaques potentielles.
+
+Avant de poursuivre la dérivation du portefeuille HD avec les éléments suivants, je souhaite, dans le prochain chapitre, vous présenter les clés étendues, qui sont souvent confondues avec la clé maîtresse. Nous allons voir comment elles sont construites et quel rôle elles jouent dans le portefeuille Bitcoin.
+
 
 ## Les clés étendues
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
