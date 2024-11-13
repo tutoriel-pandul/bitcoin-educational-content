@@ -1222,30 +1222,57 @@ Une particularité de la liste de mots du BIP39 est qu'aucun mot ne partage les 
 
 Cette liste de 2048 mots existe en plusieurs langues. Ce ne sont pas de simples traductions, mais des mots distincts pour chaque langue. Cependant, il est fortement recommandé de se limiter à la version anglaise, car les versions dans d'autres langues ne sont généralement pas prises en charge par les logiciels de portefeuille.
 
+### Quelle longueur choisir pour sa phrase mnémonique ?
+
+Pour déterminer la longueur optimale de sa phrase mnémonique, il faut considérer la sécurité effective qu'elle offre. Une phrase de 12 mots assure 128 bits de sécurité, tandis qu'une phrase de 24 mots en offre 256 bits.
+
+Cependant, cette différence de sécurité au niveau de la phrase n’améliore pas la sécurité globale d’un portefeuille Bitcoin, car les clés privées dérivées depuis cette phrase ne bénéficient que de 128 bits de sécurité. En effet, comme nous l’avons vu précédemment, les clés privées Bitcoin sont générées à partir de nombres aléatoires (ou dérivés d’une source aléatoire) compris entre $1$ et $n-1$, où $n$ représente l’ordre du point générateur $G$ de la courbe secp256k1, un nombre légèrement inférieur à $2^{256}$. On pourrait donc penser que ces clés privées offrent une sécurité de 256 bits. Cependant, leur sécurité réside dans la difficulté à retrouver une clé privée depuis sa clé publique associée, une difficulté établie sur le problème mathématique du logarithme discret sur les courbes elliptiques (*ECDLP*). À ce jour, le meilleur algorithme connu pour résoudre ce problème est l’algorithme rho de Pollard, qui diminue le nombre d’opérations nécessaires pour casser une clé à la racine carrée de sa taille.
+
+Pour des clés de 256 bits, comme celles utilisées sur Bitcoin, l’algorithme rho de Pollard réduit donc la complexité à $2^{128}$ opérations :
+$$
+O(\sqrt{2^{256}}) = O(2^{128})
+$$
+
+Ainsi, on considère qu’une clé privée utilisée sur Bitcoin offre 128 bits de sécurité.
+
+En conséquence, choisir une phrase de 24 mots n’apporte pas de protection supplémentaire pour le portefeuille, car une sécurité de 256 bits sur la phrase est inutile si les clés dérivées n'offrent que 128 bits de sécurité. Pour illustrer ce principe, c'est comme si une maison possédait deux portes : une vieille porte en bois et une porte blindée. En cas de cambriolage, la porte blindée ne serait d'aucune utilité, puisque l'intrus passerait par la porte en bois. C'est une situation analogue ici.
+
+Une phrase de 12 mots, qui offre également 128 bits de sécurité, est donc actuellement suffisante pour protéger vos bitcoins contre toute tentative de vol. Tant que l’algorithme de signature numérique ne change pas pour utiliser des clés grandes ou bien pour reposer sur un autre problème mathématique que l'ECDLP, une phrase de 24 mots demeure superflue. De plus, une phrase plus longue augmente le risque de perte lors de la sauvegarde : une sauvegarde deux fois plus courte est toujours plus facile à gérer.
+
+Avant de poursuivre la dérivation du portefeuille à partir de cette phrase mnémonique, je vais vous présenter, dans le chapitre suivant, la passphrase BIP39, car celle-ci joue un rôle dans la dérivation, et elle se situe au même niveau que la phrase mnémonique.
+
 ## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
-![La passphrase](https://youtu.be/dZkOYO7MXwc)
+Comme nous venons de le voir, les portefeuilles HD sont générés à partir d’une phrase mnémonique constituée généralement de 12 ou de 24 mots. Cette phrase est très importante, car elle permet de restaurer l'ensemble des clés d'un portefeuille en cas de perte de son support (comme un hardware wallet par exemple). Cependant, elle constitue un point de défaillance unique, car si elle est compromise, un attaquant pourrait voler l'intégralité des bitcoins. C'est ici qu'intervient la passphrase BIP39.
 
-La passphrase est un mot de passe additionnel qui peut être intégré à un portefeuille Bitcoin pour accroître sa sécurité. Son utilisation est optionnelle et revient à l'appréciation de l'utilisateur. En ajoutant des informations arbitraires qui, conjointement avec la phrase mémonique, permettent de calculer la graine du portefeuille, la passphrase renforce la sécurité de celui-ci.
+### C'est quoi une passphrase BIP39 ?
 
-![image](assets/image/section3/8.webp)
+La passphrase un mot de passe optionnel, que vous pouvez choisir librement, qui s'ajoute à la phrase mnémonique dans la dérivation des clés pour renforcer la sécurité du portefeuille. 
 
-La passphrase est un sel cryptographique optionnel d'une taille choisi par l'utilisateur. Elle permet d'améliorer la sécurité d'un portefeuille HD en ajoutant une information arbitraire qui une fois aglomérée à la phrase mnémonique permettra de calculer la graine. 
+Attention, la passphrase ne doit pas être confondue avec le code PIN de votre hardware wallet ou le mot de passe permettant de déverrouiller l'accès à votre portefeuille sur votre ordinateur. Contrairement à tous ces éléments, la passphrase joue un rôle dans la dérivation des clés de votre portefeuille. **Cela signifie que sans elle, vous ne pourrez jamais récupérer vos bitcoins.**
 
-Lorsqu'elle a été établie lors de la création d'un portefeuille, elle est nécessaire pour la dérivation de toutes les clefs du portefeuille. La fonction pbkdf2 est utilisée pour générer la graine à partir de la passphrase. Cette graine permet de dériver toutes les paires de clés enfants du portefeuille. Si la passphrase est modifiée, le portefeuille Bitcoin devient complètement différent.
+La passphrase fonctionne en tandem avec la phrase mnémonique, en modifiant la graine à partir de laquelle sont générées les clés. Ainsi, même si une personne obtient votre phrase de 12 ou de 24 mots, sans la passphrase, elle ne peut pas accéder à vos fonds. L'utilisation d'une passphrase crée essentiellement un nouveau portefeuille avec des clés distinctes. Modifier (même légèrement) la passphrase générera un portefeuille différent.
 
-La passphrase est un outil essentiel pour renforcer la sécurité des portefeuilles Bitcoin. Elle peut permettre l'application de diverses stratégies de sécurité. Par exemple, elle peut être utilisée pour créer des doublons et faciliter les sauvegardes de la phrase mémonique. Elle peut également améliorer la sécurité du portefeuille en atténuant les risques associés à la génération aléatoire de la phrase mémonique.
+041
 
-Une passphrase efficace devrait être longue (20 à 40 caractères) et diversifiée (utilisant des majuscules, des minuscules, des chiffres et des symboles). Elle ne devrait pas être directement liée à l'utilisateur ou à son environnement. Il est plus sûr d'utiliser une séquence aléatoire de caractères plutôt qu'un mot simple comme passphrase.
+## Pourquoi devriez-vous utiliser une passphrase ?
 
-![image](assets/image/section3/9.webp)
+La passphrase est arbitraire et peut être n'importe quelle combinaison de caractères choisie par l'utilisateur. L'utilisation d'une passphrase offre ainsi plusieurs avantages. Tout d'abord, elle réduit tous les risques liés à la compromission de la phrase mnémonique en nécessitant un second facteur pour accéder aux fonds (cambriolage, accès à votre domicile…).
 
-Une passphrase est plus sécurisée qu'un simple mot de passe. La passphrase idéale est longue, variée et aléatoire. Elle peut renforcer la sécurité d'un portefeuille ou d'un logiciel chaud. Elle peut également être utilisée pour créer des sauvegardes redondantes et sécurisées.
+Ensuite, elle peut être utilisée stratégiquement pour créer un portefeuille d’appât, afin de faire face à des contraintes physiques pour voler vos fonds comme la fameuse "_$5 wrench attack_". Dans ce scénario, l'idée est d'avoir un portefeuille sans passphrase contenant seulement une petite quantité de bitcoins, suffisante pour satisfaire un agresseur potentiel, tout en disposant d'un portefeuille caché. Ce dernier utilise la même phrase mnémonique, mais est sécurisé avec une passphrase additionnelle.
 
-Il est crucial de prendre soin des sauvegardes de la passphrase pour éviter de perdre l'accès au portefeuille. Une passphrase est une option pour un portefeuille HD. Elle peut être générée aléatoirement avec des dés ou un autre générateur de nombres pseudo-aléatoires. Il est déconseillé de mémoriser une passphrase ou une phrase mémonique.
+Enfin, l'utilisation d'une passphrase est intéressante lorsque l’on souhaite maitriser le caractère aléatoire de la génération de la graine du portefeuille HD.
 
-Dans notre prochain cours, nous examinerons en détail le fonctionnement de la graine et la première paire de clés générée à partir de celle-ci. N'hésitez pas à suivre ce cours pour continuer votre apprentissage. Nous avons hâte de vous retrouver très bientôt.
+## Comment choisir une bonne passphrase ?
+
+Pour que la passphrase soit efficace, elle doit être suffisamment longue et aléatoire. Comme pour un mot de passe fort, je vous recommande de choisir une passphrase la plus longue et aléatoire possible, avec une diversité de lettres, de chiffres et de symboles pour rendre toute attaque par brute force impossible. 
+
+Il est également important de bien sauvegarder cette passphrase, de la même manière que la phrase mnémonique. **La perdre revient à perdre l’accès aux bitcoins**. Je vous déconseille fortement de la retenir uniquement de tête, car cela augmente irraisonnablement les risques de perte. L’idéal est de la noter sur un support physique (en papier ou en métal) séparé de la phrase mnémonique. Cette sauvegarde devra évidemment être stockée dans un lieu différent de celui où est stockée votre phrase mnémonique pour éviter que les deux soient compromis simultanément.
+
+042
+
+Dans la section suivante, nous examinerons comment ces deux éléments à labase de votre portefeuille — la phrase mnémonique et la passphrase — sont employés pour dériver les paires de clés utilisées dans les *scriptPubKey* afin de verrouiller vos UTXOs.
 
 # Création des portefeuilles Bitcoin
 <partId>9c25e767-7eae-50b8-8c5f-679d8fc83bab</partId>
