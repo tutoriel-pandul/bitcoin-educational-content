@@ -1375,7 +1375,7 @@ Pour la suite, nous adopterons la notation suivante :
 - $K_{\text{CHD}}^n$ : une clé publique enfant normale ;
 - $k_{\text{CHD}}^n$ : une clé privée enfant normale ;
 - $K_{\text{CHD}}^h$ : une clé publique enfant endurcie ;
-- $k_{\text{CHD}}^h$ : une clé privée enfant endurcie ;
+- $k_{\text{CHD}}^h$ : une clé privée enfant endurcie.
 
 047
 
@@ -1473,37 +1473,165 @@ Dans ce chapitre, nous avons découvert qu’il existe deux types de clés enfan
 ## Dérivation des paires de clés enfants
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
+La dérivation des paires de clés enfants dans les portefeuilles HD Bitcoin repose sur une structure hiérarchique permettant de générer un grand nombre de clés, tout en permettant d'organiser ces paires en différents groupes via des branches. Chaque paire enfant dérivée depuis une paire parent peut être utilisée soit directement dans un *scriptPubKey* pour verrouiller des bitcoins, soit comme point de départ pour générer d’autres clés enfants, et ainsi de suite, afin de créer une arborescence de clés.
 
+Toutes ces dérivations débutent avec la clé maîtresse et le code de chaîne maître, qui sont les premiers parents au niveau de profondeur 0. Ce sont, en quelque sorte, les Adam et Ève des clés de votre portefeuille, ancêtres communs de toutes les clés dérivées.
 
-Pour rappel, nous avons abordé le calcul de la graine et de la clé maîtresse, qui constituent les premiers éléments essentiels pour la hiérarchisation et la dérivation du portefeuille HD (Hierarchical Deterministic Wallet). La graine, d'une longueur de 128 à 256 bits, est générée de manière aléatoire ou à partir d'une phrase secrète. Elle joue un rôle déterministe dans la dérivation de toutes les autres clés. La clé maîtresse est la première clé dérivée à partir de la graine, et elle permet de dériver toutes les autres paires de clés enfants.
+048
 
-Le code de chaîne maître joue un rôle important dans la reprise du portefeuille à partir de la graine. Il est à noter que toutes les clés dérivées à partir de la même graine auront le même code de chaîne maître.
+Découvrons ensemble comment fonctionne cette dérivation déterministe.
 
-![image](assets/image/section4/7.webp)
+### Les différents types de dérivation de clés enfants
 
-La hiérarchisation et la dérivation du portefeuille HD offrent une gestion plus efficace des clés et des structures de portefeuille. Les clés étendues permettent la dérivation d'une paire de clés enfant à partir d'une paire parent en utilisant des calculs mathématiques et des algorithmes spécifiques.
+Nous l'avons abordé rapidement dans le chapitre précédent : les clés enfants se divisent en deux types principaux :
+1. **Les clés enfants normales** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$) : Elles sont dérivées à partir de la clé publique étendue parent ($K_{\text{PAR}}$), ou de la clé privée étendue ($k_{\text{PAR}}$), en dérivant d'abord la clé publique.
+2. **Les clés enfants endurcies** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$) : Elles ne peuvent être dérivées qu'à partir de la clé privée étendue ($k_{\text{PAR}}$) et sont donc invisibles aux observateurs disposant uniquement de la clé publique étendue.
 
-Il existe différents types de paires de clés enfants, notamment les clés renforcées et les clés normales. La clé publique étendue permet uniquement la dérivation de clés publiques enfants normales, tandis que la clé privée étendue permet la dérivation de toutes les clés enfants, à la fois publiques et privées, qu'elles soient en mode normal ou renforcé. Chaque paire de clés dispose d'un index qui permet de les différencier les unes des autres.
+Chaque paire de clés enfant est identifiée par un **index** de 32 bits (nommé $i$ dans nos calculs). Les index pour les clés normales vont de $0$ à $2^{31}-1$, tandis que ceux des clés endurcies vont de $2^{31}$ à $2^{32}-1$. Ces numéros servent à distinguer les paires de clés sœurs lors de la dérivation. En effet, chaque paire de clés parent doit être capable de dériver plusieurs paires de clés enfants. Si l’on appliquait systématiquement le même calcul depuis les clés parent, toutes les clés sœurs obtenues seraient identiques, ce qui n’est pas souhaitable. L’index introduit donc une variable qui modifie le calcul de dérivation, permettant ainsi de différencier chaque paire sœur. Sauf utilisation spécifique dans certains protocoles et standards de dérivation, on commence généralement par dériver la première clé enfant avec l’index `0`, la seconde avec l’index `1`, et ainsi de suite.
 
-![image](assets/image/section4/8.webp)
+### Processus de dérivation avec HMAC-SHA512
 
-La dérivation des clés enfants utilise la fonction HMAC-SHA512 en utilisant la clé parent concaténée à l'index et au code de chaîne associé à la paire de clés. Les clés enfants normales ont un index compris entre 0 et 2 puissance 31 moins 1, tandis que les clés enfants renforcées ont un index compris entre 2 puissance 31 et 2 puissance 32 moins 1.
+La dérivation de chaque clé enfant repose sur la fonction HMAC-SHA512 dont nous avons parlé dans la section 2 sur les fonctions de hachage. Elle prend en entrée 2 éléments : le code de chaîne parent $C_{\text{PAR}}$ et la concaténation de la clé parent (soit la clé publique $K_{\text{PAR}}$, soit la clé privée $k_{\text{PAR}}$ en fonction du type de clé enfant souhaité) et de l’index. La sortie du HMAC-SHA512 est une séquence de 512 bits, séparée en deux parties :
+- **Les 32 premiers octets** (ou $h_1$) servent à calculer la nouvelle paire enfant.
+- **Les 32 derniers octets** (ou $h_2$) servent de nouveau code de chaîne $C_{\text{CHD}}$ pour la paire enfant.
 
-![image](assets/image/section4/9.webp)
+Dans tous nos calculs, je noterai $hash$ l'output de la fonction HMAC-SHA512.
 
-![image](assets/image/section4/10.webp)
+049
 
-Il existe deux types de paires de clés enfants : les paires renforcées et les paires normales. Le processus de dérivation des clés enfants utilise les clés publiques pour générer les conditions de dépense, tandis que les clés privées sont utilisées pour la signature. La clé publique étendue permet uniquement la dérivation de clés publiques enfants normales, tandis que la clé privée étendue permet la dérivation de toutes les clés enfants, à la fois publiques et privées, en mode normal ou renforcé.
+#### Dérivation d'une clé privée enfant à partir d’une clé privée parent
 
-![image](assets/image/section4/11.webp)
-![image](assets/image/section4/12.webp)
+Pour dériver une clé privée enfant $k_{\text{CHD}}$ à partir d’une clé privée parent $k_{\text{PAR}}$, deux scénarios sont possibles en fonction de si l'on veut avoir une clé endurcie ou normale.
 
-La dérivation renforcée utilise la clé privée parent, tandis que la dérivation normale utilise la clé publique parent. La fonction HMAC-SHA512 est utilisée pour la dérivation renforcée, tandis que la dérivation normale utilise un condensat de 512 bits. La clé publique enfant est obtenue en multipliant la clé privée enfant par le générateur de la courbe elliptique.
+Pour une **clé enfant normale** ($i < 2^{31}$), le calcul de $\text{hash}$ est le suivant :
+$$
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \| i)
+$$
 
-![image](assets/image/section4/13.webp)
-![image](assets/image/section4/14.webp)
+Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique associée à la clé privée parent. La clé publique parent est utilisée ici car nous cherchons à dériver une clé enfant normale, et non endurcie.
 
-La hiérarchisation et la dérivation de nombreuses paires de clés de manière déterministe permettent de créer un schéma en arbre pour la dérivation hiérarchique. Dans le prochain cours de cette formation, nous étudierons la structure du portefeuille HD ainsi que les chemins de dérivation, en mettant notamment l'accent sur les notations des chemins de dérivation.
+On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
+$$
+\text{hash} = h_1 \| h_2
+$$
+$$
+h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+$$
+
+La clé privée enfant $k_{\text{CHD}}^n$ est alors calculée comme cela :
+
+$$
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+$$
+
+Dans ce calcul, l’opération $\text{parse256}(h_1)$ consiste à interpréter les 32 premiers octets du $\text{hash}$ comme un entier de 256 bits. Ce nombre est ensuite additionné à la clé privée parent, le tout étant pris modulo $n$ pour rester dans l’ordre de la courbe elliptique, comme nous l’avons vu dans la section 3 sur les signatures électroniques. Ainsi, pour dériver une clé privée enfant normale, bien que la clé publique parent soit utilisée comme base de calcul dans les entrées de la fonction HMAC-SHA512, il est toujours nécessaire de disposer de la clé privée parent pour finaliser le calcul.
+
+À partir de cette clé privée enfant, il est possible de dériver la clé publique correspondante en appliquant ECDSA ou Schnorr. Nous obtiendrons ainsi une paire de clés complète.
+
+Ensuite, on interprète simplement la seconde partie du $\text{hash}$ comme étant le code chaîne pour la paire de clés enfants que l'on vient de dériver :
+$$
+C_{\text{CHD}} = h_2
+$$
+
+Voici une représentation schématique de la dérivation globale :
+
+050
+
+Pour une **clé enfant endurcie** ($i \geq 2^{31}$), le calcul de $\text{hash}$ est le suivant :
+$$
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \|k_{\text{PAR}} \| i)
+$$
+
+Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé privée parent. La clé privée parent est utilisée ici car nous cherchons à dériver une clé enfant endurcie. De plus, un octet égal à `0x00` est ajouté au début de la clé. Cette opération permet d'égaliser sa longueur pour correspondre à celle d'une clé publique compressée.
+
+On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
+$$
+\text{hash} = h_1 \| h_2
+$$
+$$
+h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+$$
+
+La clé privée enfant $k_{\text{CHD}}^h$ est alors calculée comme cela :
+$$
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
+$$
+
+Ensuite, on interprète simplement la seconde partie de $\text{hash}$ comme étant le code chaîne pour la paire de clés enfants que l'on vient de dériver :
+$$
+C_{\text{CHD}} = h_2
+$$
+
+Voici une représentation schématique de la dérivation globale :
+
+051
+
+On peut donc constater que la dérivation normale et la dérivation endurcie fonctionnent de manière identique, à cette différence près : la dérivation normale utilise en entrée de la fonction HMAC la clé publique parent, tandis que la dérivation renforcée utilise la clé privée parent.
+
+#### Dérivation d'une clé publique enfant à partir d’une clé publique parent
+
+Si l'on n'a connaissance que de la clé publique parent $K_{\text{PAR}}$ et du code de chaîne associé $C_{\text{PAR}}$, c'est-à-dire une clé publique étendue, il est possible de dériver des clés publiques enfant $K_{\text{CHD}}^n$, mais seulement pour des clés enfants normales (non endurcies). Ce principe permet notamment de pouvoir surveiller les mouvements d'un compte dans un portefeuille Bitcoin à partir de la `xpub` (*watch-only*).
+
+Pour réaliser ce calcul, on va calculer le $\text{hash}$ avec un index $i < 2^{31}$ (dérivation normale) :
+$$
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \| i)
+$$
+
+Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique parent.
+
+On a donc maintenant un $hash$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
+$$
+\text{hash} = h_1 \| h_2
+$$
+$$
+h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+$$
+
+La clé publique enfant $K_{\text{CHD}}^n$ est alors calculée comme cela :
+$$
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
+$$
+
+Si $\text{parse256}(h_1) \geq n$ (ordre de la courbe elliptique) ou si $K_{\text{CHD}}^n$ est le point à l'infini, la dérivation est invalide, et un autre index doit être choisi.
+
+Dans ce calcul, l’opération $\text{parse256}(h_1)$ consiste à interpréter les 32 premiers octets du $\text{hash}$ comme un entier de 256 bits. On utilise ce nombre pour calculer un point sur la courbe elliptique par addition et doublement depuis le point générateur $G$. Ce point est ensuite additionné à la clé publique parent pour obtenir la clé publique enfant normale. Ainsi, pour dériver une clé publique enfant normale, seules la clé publique parent et le code de chaîne parent sont nécessaires ; la clé privée parent n'intervient jamais dans ce processus, contrairement au calcul de la clé privée enfant que nous avons vu précédemment.
+
+Ensuite, le code de chaîne enfant est simplement :
+$$
+C_{\text{CHD}} = h_2
+$$
+
+Voici une représentation schématique de la dérivation globale :
+
+052
+
+### Correspondance entre les clés publiques et privées enfants
+
+Une question que l'on peut se poser est de comprendre comment une clé publique enfant normale dérivée d’une clé publique parent peut correspondre à une clé privée enfant normale dérivée de la clé privée parent correspondante. Ce lien est justement assuré par les propriétés des courbes elliptiques. En effet, pour dériver une clé publique enfant normale, HMAC-SHA512 est appliquée de la même manière, mais sa sortie est utilisée différemment :
+   - **Clé privée enfant normale** : $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
+   - **Clé publique enfant normale** : $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
+
+Grâce aux opérations d’addition et de doublement sur la courbe elliptique, les deux méthodes produisent des résultats cohérents : la clé publique dérivée de la clé privée enfant est identique à la clé publique enfant dérivée directement de la clé publique parent.
+
+### Résumé des types de dérivations
+
+Pour résumer, voici les différents types de dérivations possibles :
+
+$$
+\begin{array}{|c|c|c|c|}
+\hline
+\rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
+\hline
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
+\hline
+\end{array}
+$$
+
+Si je résume, vous avez appris jusqu’à présent à créer les éléments de base du portefeuille HD : la phrase mnémonique, la graine, puis la clé maîtresse et le code de chaîne maître. Vous avez également découvert comment dériver des paires de clés enfants dans ce chapitre. Dans le prochain chapitre, nous découvrirons comment ces dérivations s’organisent dans les portefeuilles Bitcoin et quelle structure suivre pour obtenir concrètement les adresses de réception ainsi que les paires de clés utilisées dans le *scriptPubKey* et le *scriptSig*.
+
 
 ## Structure du portefeuille et chemins de dérivation
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
