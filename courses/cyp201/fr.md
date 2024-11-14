@@ -1719,16 +1719,53 @@ Dans cet exemple :
 Dans le prochain chapitre, nous allons découvrir ce que sont les "*output script descriptors*", une innovation récemment introduite dans Bitcoin Core qui simplifie la sauvegarde d'un portefeuille Bitcoin.
 
 
+## Output script descriptors
+<chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+On vous dit souvent que la phrase mnémonique seule suffit pour récupérer l’accès à un portefeuille. En réalité, les choses sont un peu plus complexes. Dans le chapitre précédent, nous avons vu la structure de dérivation du portefeuille HD, et vous avez peut-être constaté que ce processus est assez complexe. Les chemins de dérivation indiquent à un logiciel la direction à suivre pour dériver les clés de l’utilisateur. Cependant, lors de la récupération d’un portefeuille Bitcoin, si l’on ne connaît pas ces chemins, la phrase mnémonique seule ne suffit pas. Elle permet d’obtenir la clé maîtresse et le code de chaîne maître, mais il est ensuite nécessaire de connaître les index utilisés pour atteindre les clés enfant.
 
+Théoriquement, il faudrait donc sauvegarder non seulement la phrase mnémonique de notre portefeuille, mais aussi les chemins vers les comptes que l’on utilise. En pratique, on parvient souvent à retrouver l’accès aux clés enfant sans cette information, à condition d’avoir suivi les standards. En testant un à un chaque standard, on parvient généralement à retrouver l’accès aux bitcoins. Cependant, cela n’est pas garanti et c'est surtout compliqué pour les débutants. Aussi, avec la diversification des types de scripts et l’émergence de configurations plus complexes, ces informations pourraient devenir difficiles à extrapoler, transformant ainsi ces données en informations privées et difficilement récupérables par brute force. C’est pourquoi une innovation a récemment été introduite et commence à être intégrée dans vos logiciels de portefeuille préférés : les *output script descriptors*.
 
+### C'est quoi un "descriptor" ?
 
+Les "*output script descriptors*", ou simplement "*descriptors*", sont des expressions structurées qui décrivent intégralement un script de sortie (*scriptPubKey*) et fournissent toutes les informations nécessaires pour suivre les transactions associées à un script particulier. Ils facilitent la gestion des clés dans les portefeuilles HD en offrant une description standardisée et complète de la structure du portefeuille et des types d’adresses utilisés.
 
+L’avantage principal des descriptors réside dans leur capacité à encapsuler toutes les informations essentielles pour restaurer un portefeuille dans une seule chaîne de caractères (en complément de la phrase de récupération). En sauvegardant un descriptor avec les phrases mnémoniques associées, il devient possible de restaurer les clés privées en connaissant précisément leur position dans la hiérarchie. Pour les portefeuilles multisig, dont la sauvegarde était initialement plus complexe, le descriptor inclut les `xpub` de chaque facteur, ce qui garantie ainsi la possibilité de régénérer les adresses en cas de problème.
 
+### Construction d'un descriptor
 
+Un descriptor se compose de plusieurs éléments :
+* Des fonctions de script comme `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignature*) et `sortedmulti` (*Multisignature avec clés triées*) ;
+* Des chemins de dérivation, par exemple `[d34db33f/44h/0h/0h]` qui indique un chemin de compte dérivé et une empreinte de clé maîtresse spécifique ;
+* Des clés en divers formats tels que des clés publiques en hexadécimal ou des clés publiques étendues (`xpub`) ;
+* Une somme de contrôle, précédée d'un dièse, pour vérifier l'intégrité du descriptor.
 
+Par exemple, un descriptor pour un portefeuille P2WPKH (SegWit v0) pourrait ressembler à :
 
+```text
+wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17
+C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7n
+r4
+```
 
+Dans ce descriptor, la fonction de dérivation `wpkh` indique un type de script *Pay-to-Witness-Public-Key-Hash*. Elle est suivie par le chemin de dérivation qui contient :
+* `cdeab12f` : l'empreinte de la clé maîtresse ;
+* `84h` : qui signifie l'utilisation d'un objectif BIP84, destiné aux adresses SegWit v0 ;
+* `0h` : qui indique qu'il s'agit d'une devise BTC sur le mainnet ;
+* `0h` : qui fait référence au numéro de compte spécifique utilisé dans le portefeuille.
+
+Le descriptor inclut également la clé publique étendue utilisée sur ce portefeuille : 
+
+```text
+xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6
+cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
+```
+
+Ensuite, la notation `/<0;1>/*` spécifie que le descriptor peut générer des adresses à partir de la chaîne externe (`0`) et interne (`1`), avec un wildcard (`*`) permettant la dérivation séquentielle de plusieurs adresses de manière paramétrable, similaire à la gestion d'un « *gap limit* » sur des logiciels de portefeuille classiques.
+
+Enfin, `#jy0l7nr4` représente la somme de contrôle pour vérifier l'intégrité du descriptor.
+
+Vous savez désormais tout sur le fonctionnement du portefeuille HD sur Bitcoin et sur le processus de dérivation des paires de clés. Cependant, dans les derniers chapitres, nous nous sommes limités à la génération des clés privées et publiques, sans aborder la construction des adresses de réception. Ce sera justement l’objet de la prochaine partie !
 
 
 
