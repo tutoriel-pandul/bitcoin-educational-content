@@ -1632,41 +1632,105 @@ $$
 
 Si je résume, vous avez appris jusqu’à présent à créer les éléments de base du portefeuille HD : la phrase mnémonique, la graine, puis la clé maîtresse et le code de chaîne maître. Vous avez également découvert comment dériver des paires de clés enfants dans ce chapitre. Dans le prochain chapitre, nous découvrirons comment ces dérivations s’organisent dans les portefeuilles Bitcoin et quelle structure suivre pour obtenir concrètement les adresses de réception ainsi que les paires de clés utilisées dans le *scriptPubKey* et le *scriptSig*.
 
-
 ## Structure du portefeuille et chemins de dérivation
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
-![Structure du portefeuille et chemins de dérivation](https://youtu.be/etO9UxwyE2I)
+La structure hiérarchique des portefeuilles HD sur Bitcoin permet d'organiser les paires de clés de diverses façons. L'idée est de dériver, depuis la clé privée maîtresse et le code de chaîne maître, plusieurs niveaux de profondeur. Chaque niveau ajouté correspond à la dérivation d’une paire de clés enfants à partir d’une paire de clés parent.
 
-Dans ce chapitre, nous allons étudier la structure de l'arbre de dérivation dans un portefeuille HD (Hierarchical Deterministic Wallet). Nous avons déjà exploré le calcul de la graine, la clé maîtresse et la dérivation des paires de clés enfants. Maintenant, nous allons nous concentrer sur l'organisation des clés au sein du portefeuille.
+Au fil du temps, différents BIP ont introduit des normes pour ces chemins de dérivation, visant à standardiser leur usage entre les différents logiciels. Nous allons donc découvrir dans ce chapitre la signification de chaque niveau de dérivation dans les portefeuilles HD, en fonction de ces standards.
 
-Le portefeuille HD utilise des couches de profondeur pour organiser les clés. Chaque dérivation d'une paire parent vers une paire enfant correspond à une couche de profondeur. 
+### Les profondeurs de dérivation d’un portefeuille HD
 
-![image](assets/image/section4/15.webp)
+Les chemins de dérivation sont organisés en couches de profondeur, allant de la profondeur 0, qui représente la clé maîtresse et le code de chaîne maître, jusqu'à des couches de sous-niveaux pour dériver les adresses utilisées pour verrouiller des UTXOs. Les BIPs (*Bitcoin Improvement Proposals*) définissent les normes de chaque couche, ce qui permet d'harmoniser les pratiques entre les différents logiciels de gestion de portefeuille.
 
-- La profondeur 0 correspond à la clé maîtresse et au code de chaîne maître.
+Une chemin de dérivation désigne donc la séquence d'index utilisée pour dériver des clés enfants à partir d'une clé maîtresse.
 
-- La profondeur 1 est utilisée pour dériver des clés enfants selon un objectif spécifique, qui est déterminé par l'index. Les objectifs sont conformes aux standards BIP 84 et Segwit v0/v1.
+**Profondeur 0 : Clé maîtresse (BIP32)**  
 
-- La profondeur 2 permet de différencier les comptes de différentes cryptomonnaies ou réseaux. Cela permet d'organiser le portefeuille en fonction des différentes sources de fonds. Pour bitcoin, l'index sera 0.
+Cette profondeur correspond à la clé privée maîtresse et au code de chaîne maître du portefeuille. Elle est représentée par la notation $m/$.
 
-- La profondeur 3 est utilisée pour organiser le portefeuille en différents comptes, offrant ainsi une structure plus claire et organisée.
+**Profondeur 1 : Objectif (BIP43)**  
 
-- La profondeur 4 correspond aux chaînes interne et externe, qui sont utilisées pour les adresses destinées à être communiquées publiquement. L'index 0 est associé à la chaîne externe, tandis que l'index 1 est associé à la chaîne interne. Chaque compte dispose de deux chaînes : la chaîne externe (0) et la chaîne interne (1). La profondeur 4 est également utilisée pour gérer les types de script dans le cas des portefeuilles multi signatures.
+L’objectif détermine la structure logique de dérivation. Par exemple, une adresse P2WPKH aura $/84'/$ en profondeur 1 (selon le BIP84), tandis qu’une adresse P2TR aura $/86'/$ (selon le BIP86). Cette couche facilite la compatibilité entre les portefeuilles, en indiquant des numéros d’index correspondant aux numéros des BIPs.
 
-- La profondeur 5 est utilisée pour les adresses de réception sur un portefeuille classique. Dans la prochaine section, nous examinerons plus en détail la dérivation des paires de clés enfants.
+Autrement dit, une fois que l’on dispose de la clé maîtresse et du code de chaîne maître, ceux-ci servent de paire de clés parent pour dériver une paire de clés enfant. L’index utilisé dans cette dérivation peut être, par exemple, $/84'/$ si le portefeuille est destiné à utiliser des scripts  type SegWit v0. Cette paire de clés se situe alors en profondeur 1. Elle n’a pas pour rôle de verrouiller des bitcoins, mais simplement de servir de point de passage dans la hiérarchie de dérivation.
 
-![image](assets/image/section4/16.webp)
+**Profondeur 2 : Type de devise (BIP44)**  
 
-Pour chaque couche de profondeur, nous utilisons des index pour différencier les paires de clés enfants. 
+À partir de la paire de clés en profondeur 1, on effectue une nouvelle dérivation pour obtenir la paire de clés en profondeur 2. Cette profondeur permet de différencier les comptes Bitcoin des autres crypto-monnaies au sein d'un même portefeuille.
 
-L'index sans apostrophe correspond à l'index réel utilisé, tandis que l'index avec apostrophe correspond à l'index réel + 2^31. Les dérivations renforcées utilisent des index de 2^31 à 2^32-1. Par exemple, l'index 44' correspond à l'index réel 2^31 + 44.
+Chaque devise possède un index unique pour assurer la compatibilité sur des portefeuilles multi-devises. Par exemple, pour Bitcoin, l’index est $/0'/$ (ou `0x80000000` en notation hexadécimale). Les index des devises sont choisis dans l’intervalle de $2^{31}$ à $2^{32}-1$ pour garantir une dérivation endurcie.
 
-Pour générer une adresse de réception spécifique, nous dérivons une paire de clés enfants à partir de la clé maîtresse et du code de chaîne maître. Ensuite, nous utilisons l'index pour différencier les différentes paires de clés enfants de la même profondeur.
+Pour vous donner d'autres exemples, voici les index de quelques devises :
+- $1'$ (`0x80000001`) pour les bitcoins testnet ;
+- $2'$ (`0x80000002`) pour Litecoin ;
+- $60'$ (`0x8000003c`) pour Ethereum...
 
-Les clés étendues, telles que XPUB, permettent de partager votre portefeuille avec plusieurs personnes. La chaîne de dérivation est utilisée pour différencier la chaîne externe (adresses destinées à être communiquées) et la chaîne interne (adresses de change).
+**Profondeur 3 : Compte (BIP32)**  
 
-Dans le prochain chapitre, nous allons étudier les adresses de réception, leurs avantages d'utilisation et les étapes de leur construction.
+Chaque portefeuille peut être divisé en plusieurs comptes, numérotés à partir de $2^{31}$, et représentés en profondeur 3 par $/0'/$ pour le premier compte, $/1'/$ pour le second, et ainsi de suite. En général, lorsqu’on fait référence à une clé étendue $xpub$, il s’agit des clés situées à cette profondeur de dérivation.
+
+Cette séparation en différents comptes est optionnelle. Elle vise à simplifier l’organisation du portefeuille pour les utilisateurs. En pratique, on utilise souvent un seul compte, généralement le premier par défaut. Cependant, dans certains cas, si l’on souhaite bien distinguer les paires de clés pour différents usages, cela peut s’avérer utile. Par exemple, il est possible de créer un compte personnel et un compte professionnel à partir de la même graine, avec des groupes de clés complètement distincts à partir de cette profondeur de dérivation.
+
+**Profondeur 4 : Chaîne (BIP32)**  
+
+Chaque compte défini en profondeur 3 est ensuite structuré en deux chaînes :
+- **La chaîne externe** : Dans cette chaîne, on dérive les adresses dites "publiques". Ces adresses de réception sont destinées à verrouiller des UTXOs provenant de transactions extérieures (c'est à dire qui proviennent de la consommation d'UTXOs qui ne vous appartiennent pas). Pour le dire plus simplement, cette chaîne externe est utilisée à chaque fois que l'on souhaite recevoir des bitcoins. Lorsque vous cliquez sur "*recevoir*" dans votre logiciel de portefeuille, c’est toujours une adresse de la chaîne externe qui vous est proposée. Cette chaîne est représentée par une paire de clés dérivée avec l’index $/0/$.
+- **La chaîne interne (change)** : Cette chaîne est réservée aux adresses de réception qui verrouillent des bitcoins provenant de la consommation d’UTXOs vous appartenant, autrement dit, les adresses de change. Elle est identifiée par l’index $/1/$.
+
+**Profondeur 5 : Index d’adresse (BIP32)**  
+
+Enfin, la profondeur 5 représente la dernière étape de dérivation dans le portefeuille. Bien qu’il soit techniquement possible de continuer indéfiniment, les standards actuels s’arrêtent ici. À cette profondeur finale, on dérive donc les paires de clés qui seront effectivement utilisées pour verrouiller et déverrouiller les UTXOs. Chaque index permet de distinguer les paires de clés sœurs : ainsi, la première adresse de réception utilisera l’index $/0/$, la seconde l’index $/1/$, et ainsi de suite.
+
+### Notation des chemins de dérivation
+
+Le chemin de dérivation s’écrit en séparant chaque niveau par une barre oblique ($/$). Chaque barre oblique indique ainsi une dérivation d'une paire de clés parent ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) vers une paire de clés enfant ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Le nombre noté à chaque profondeur correspond à l'index utilisé pour dériver cette clé à partir de ses parents. L’apostrophe ($'$) située parfois à droite de l'index indique une dérivation endurcie ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Parfois, cette apostrophe est remplacée par un "$h$". En l'absence d'apostrophe ou de "$h$", il s'agit donc d'une dérivation normale ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
+
+Comme nous l’avons vu dans les chapitres précédents, les index des clés endurcies commencent à partir de $2^{31}$, soit `0x80000000` en hexadécimal. Par conséquent, lorsqu'un index est accompagné d'une apostrophe dans un chemin de dérivation, il faut ajouter $2^{31}$ au nombre indiqué pour obtenir la valeur réelle utilisée dans la fonction HMAC-SHA512. Par exemple, si le chemin de dérivation spécifie $/44'/$, l’index réel sera :
+$$
+i = 44 + 2^{31} = 2\,147\,483\,692
+$$
+
+En hexadécimal, cela donne `0x8000002C`.
+
+Maintenant que nous avons compris les grands principes des chemins de dérivation, prenons un exemple ! Voici le chemin de dérivation d'une adresse de réception Bitcoin :
+$$
+m / 84' / 0' / 1' / 0 / 7
+$$
+
+Dans cet exemple :
+- $84'$ indique le standard P2WPKH (SegWit v0) ;
+- $0'$ indique la devise Bitcoin sur le mainnet ;
+- $1'$ correspond au deuxième compte dans le portefeuille ;
+- $0$ désigne que l'adresse est sur la chaîne externe ;
+- $7$ désigne la 8ᵉ adresse externe de ce compte.
+
+### Résumé de la structure de dérivation
+
+| Profondeur | Description        | Exemple standard                  |
+| ---------- | ------------------ | --------------------------------- |
+| 0          | Clé maîtresse      | $m/$                              |
+| 1          | Objectif           | $/86'/$ (P2TR)                    |
+| 2          | Devise             | $/0'/$ (Bitcoin)                  |
+| 3          | Compte             | $/0'/$ (Premier compte)           |
+| 4          | Chaîne             | $/0/$ (externe) ou $/1/$ (change) |
+| 5          | Index de l’adresse | $/0/$ (première adresse)          |
+
+Dans le prochain chapitre, nous allons découvrir ce que sont les "*output script descriptors*", une innovation récemment introduite dans Bitcoin Core qui simplifie la sauvegarde d'un portefeuille Bitcoin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Qu'est-ce qu'une adresse Bitcoin ?
 <partId>81ec8d17-f8ee-5aeb-8035-d370866f4281</partId>
