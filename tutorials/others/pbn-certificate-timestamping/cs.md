@@ -19,7 +19,7 @@ Na Plan ₿ Network vám nabízíme certifikáty a diplomy, které jsou kryptogr
 V podstatě první operace umožňuje ověřit, kdo certifikát (nebo diplom) vydal, zatímco druhá umožňuje ověřit, kdy byl vydán.
 Věříme, že tento jednoduchý mechanismus důkazů nám umožňuje vydávat certifikáty a diplomy s nespornými důkazy, které si kdokoli může ověřit sám.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Vezměte na vědomí, že díky tomuto mechanismu důkazů jakýkoliv pokus o změnu i nejmenšího detailu vašeho certifikátu nebo diplomu vytvoří zcela odlišný sha256 hash podepsaného souboru, což by okamžitě odhalilo manipulaci, protože podpis a časové razítko by již nebyly platné. Navíc, pokud by se někdo pokusil zlomyslně padělat nějaké certifikáty nebo diplomy jménem Plan ₿ Network, jednoduché ověření podpisu by odhalilo podvod.
 

@@ -19,7 +19,7 @@ En Plan ₿ Network, te ofrecemos un certificado y diplomas que están firmados 
 Básicamente, la primera operación te permite verificar quién emite el certificado (o diploma) mientras que la segunda te permite verificar cuándo fue emitido.
 Creemos que este sencillo mecanismo de prueba nos permite emitir certificados y diplomas con pruebas indiscutibles que cualquiera puede verificar por sí mismo.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Nota que gracias a este mecanismo de prueba, cualquier intento de alterar incluso el más mínimo detalle de tu certificado o diploma creará un hash sha256 completamente diferente del archivo firmado, lo que revelaría instantáneamente la manipulación porque la firma y el sellado de tiempo ya no serían válidos. Además, si alguien intenta falsificar maliciosamente algunos certificados o diplomas en nombre de Plan ₿ Network, una simple verificación de la firma revelaría el fraude.
 

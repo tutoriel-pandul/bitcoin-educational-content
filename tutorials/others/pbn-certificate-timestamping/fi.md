@@ -19,7 +19,7 @@ Plan ₿ -verkossa tarjoamme sinulle sertifikaatteja ja diplomeja, jotka on kryp
 Käytännössä ensimmäinen toimenpide mahdollistaa sen, että voit varmistaa, kuka on myöntänyt sertifikaatin (tai diplomin), kun taas toinen toimenpide mahdollistaa sen, että voit varmistaa, milloin se on myönnetty.
 Uskomme, että tämä yksinkertainen todistusmekanismi mahdollistaa meidän myöntää sertifikaatteja ja diplomeja kiistattomin todistein, joita kuka tahansa voi itse varmistaa.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Huomaa, että tämän todistusmekanismin ansiosta minkä tahansa sertifikaatin tai diplomin pieninkin yksityiskohdan muuttaminen luo täysin erilaisen sha256-tiivisteen allekirjoitetusta tiedostosta, mikä paljastaisi välittömästi manipuloinnin, koska allekirjoitus ja aikaleimaus eivät enää olisi päteviä. Lisäksi, jos joku yrittää pahantahtoisesti väärentää sertifikaatteja tai diplomeja Plan B -verkon nimissä, allekirjoituksen yksinkertainen varmistaminen paljastaisi petoksen.
 

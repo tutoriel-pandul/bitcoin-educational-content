@@ -20,7 +20,7 @@ At Plan ₿ Network, we offer you a certificate and diplomas that are cryptograp
 Basically the first operation allow you to verify who issue the certificate (or diploma) whereas the second one allow you to verify when it was issued.
 We believe that this simple proof mechanism enables us to issue certificate and diploma with undeniable proofs that anyone can verify on their own.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Note that thanks to this proof mechanism, any attempt to alter even the smallest detail of your certificate or diploma will create a completely different sha256 hash of the signed file, which would instantly revealing tampering because the signature and the timestamping will not be valid anymore. Furthermore, if anyone tries to maliciously forge some certificates or diplomas on behalf of Plan B Network, a simple verification of the signature would reveal the fraud.
 

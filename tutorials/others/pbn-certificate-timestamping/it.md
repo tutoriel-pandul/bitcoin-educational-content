@@ -19,7 +19,7 @@ Nella Rete Plan ₿, ti offriamo un certificato e diplomi che sono firmati critt
 Fondamentalmente, la prima operazione ti permette di verificare chi ha rilasciato il certificato (o diploma), mentre la seconda ti permette di verificare quando è stato rilasciato.
 Crediamo che questo semplice meccanismo di prova ci permetta di rilasciare certificati e diplomi con prove indiscutibili che chiunque può verificare autonomamente.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Nota che grazie a questo meccanismo di prova, qualsiasi tentativo di alterare anche il più piccolo dettaglio del tuo certificato o diploma creerà un hash sha256 completamente diverso del file firmato, che rivelerà immediatamente la manomissione perché la firma e la marcatura temporale non saranno più valide. Inoltre, se qualcuno tenta di falsificare maliziosamente alcuni certificati o diplomi per conto della Rete Plan B, una semplice verifica della firma rivelerà la frode.
 

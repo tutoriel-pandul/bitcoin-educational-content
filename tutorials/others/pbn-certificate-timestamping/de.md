@@ -19,7 +19,7 @@ Im Plan ₿ Netzwerk bieten wir Ihnen ein Zertifikat und Diplome an, die kryptog
 Grundsätzlich ermöglicht Ihnen die erste Operation zu überprüfen, wer das Zertifikat (oder Diplom) ausgestellt hat, während die zweite Operation Ihnen ermöglicht zu überprüfen, wann es ausgestellt wurde.
 Wir glauben, dass dieses einfache Nachweisverfahren es uns ermöglicht, Zertifikate und Diplome mit unbestreitbaren Nachweisen auszustellen, die jeder selbst überprüfen kann.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Beachten Sie, dass dank dieses Nachweisverfahrens jeder Versuch, auch das kleinste Detail Ihres Zertifikats oder Diploms zu ändern, einen völlig anderen sha256-Hash der signierten Datei erzeugen würde, was sofort eine Manipulation aufdecken würde, da die Signatur und die Zeitstempelung nicht mehr gültig wären. Darüber hinaus würde eine einfache Überprüfung der Signatur den Betrug aufdecken, falls jemand versucht, böswillig einige Zertifikate oder Diplome im Namen des Plan B Netzwerks zu fälschen.
 

@@ -19,7 +19,7 @@ Plan ₿ võrgustikus pakume teile tunnistusi ja diplomeid, mis on krüptograafi
 Põhimõtteliselt võimaldab esimene operatsioon kontrollida, kes tunnistuse (või diplomi) väljastas, samas kui teine võimaldab kontrollida, millal see väljastati.
 Usume, et see lihtne tõendamismehhanism võimaldab meil väljastada tunnistusi ja diplomeid vaieldamatute tõenditega, mida igaüks saab iseseisvalt kontrollida.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Pange tähele, et tänu sellele tõendamismehhanismile loob teie tunnistuse või diplomi isegi kõige väiksema detaili muutmine täiesti erineva sha256 räsi allkirjastatud failist, mis paljastaks kohe võltsimise, kuna allkiri ja ajatempliga märkimine ei oleks enam kehtivad. Lisaks, kui keegi üritab pahatahtlikult võltsida mõningaid tunnistusi või diplomeid Plan ₿ võrgustiku nimel, paljastaks lihtne allkirja kontroll pettuse.
 

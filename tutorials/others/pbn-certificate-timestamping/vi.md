@@ -19,7 +19,7 @@ Tại Mạng Plan ₿, chúng tôi cung cấp cho bạn chứng chỉ và bằng
 Cơ bản thì thao tác đầu tiên cho phép bạn xác minh ai là người cấp chứng chỉ (hoặc bằng cấp) trong khi thao tác thứ hai cho phép bạn xác minh khi nào nó được cấp.
 Chúng tôi tin rằng cơ chế chứng minh đơn giản này cho phép chúng tôi cấp chứng chỉ và bằng cấp với bằng chứng không thể chối cãi mà bất kỳ ai cũng có thể tự mình xác minh.
 
-![./assets/proof-mechanisml.png]
+![./assets/proof-mechanism.png]
 
 Lưu ý rằng nhờ vào cơ chế chứng minh này, bất kỳ nỗ lực nào nhằm thay đổi ngay cả chi tiết nhỏ nhất của chứng chỉ hoặc bằng cấp của bạn sẽ tạo ra một mã hash sha256 hoàn toàn khác của tệp đã ký, điều này sẽ lập tức tiết lộ sự can thiệp bởi vì chữ ký và dấu thời gian sẽ không còn hợp lệ nữa. Hơn nữa, nếu ai đó cố gắng giả mạo một số chứng chỉ hoặc bằng cấp thay mặt cho Mạng Plan ₿, việc xác minh chữ ký đơn giản sẽ tiết lộ gian lận.
 
