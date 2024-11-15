@@ -1,0 +1,7 @@
+otázka: Pravda nebo nepravda? "Pokud si někdo přeje optimalizovat své soukromí, neměl by vícekrát používat stejnou adresu."
+odpověď: Pravda.
+nesprávné_odpovědi:
+  - Nepravda.
+vysvětlení: |
+  Opakované používání stejné adresy oslabuje soukromí tím, že odhaluje vazby mezi různými transakcemi na blockchainu.
+recenzováno: false

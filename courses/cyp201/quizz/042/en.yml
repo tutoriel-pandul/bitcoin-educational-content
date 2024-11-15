@@ -1,0 +1,9 @@
+question: If I generate a 256-bit random number, what will be the size of my recovery phrase in words?
+answer: 24 words.
+wrong_answers:
+  - 6 words.
+  - 8 words.
+  - 12 words.
+explanation: |
+  A 256-bit random number corresponds to a 24-word mnemonic phrase according to the BIP39 standard.
+reviewed: false

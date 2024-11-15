@@ -1,0 +1,11 @@
+Câu hỏi: Trong một hóa đơn Lightning, tiền tố "lnbc" trong phần dễ đọc có ý nghĩa gì?
+
+Câu trả lời: Nó chỉ ra một giao dịch Lightning trên blockchain Bitcoin
+
+Câu trả lời sai:
+  - Rằng hóa đơn chỉ hợp lệ trên mạng thử nghiệm Bitcoin
+  - Rằng hóa đơn được mã hóa trong bech32
+  - Rằng đó là một giao dịch trên chuỗi
+
+Giải thích:
+  Tiền tố 'lnbc' biểu thị rằng hóa đơn là cho một giao dịch Lightning trên mạng Bitcoin, và không phải trên mạng khác.

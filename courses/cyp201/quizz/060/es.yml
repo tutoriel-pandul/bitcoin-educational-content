@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es la función utilizada para derivar un par de claves hijo de un par de claves padre dentro de un monedero HD?
+respuesta: HMAC-SHA512.
+respuestas_incorrectas:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+explicación: |
+  HMAC-SHA512 se utiliza para derivar un par de claves hijo de un par de claves padre en un monedero HD.
+revisado: false

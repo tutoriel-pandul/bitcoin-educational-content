@@ -1,0 +1,8 @@
+domanda: Cos'è un portafoglio JBOK nel contesto di Bitcoin?
+risposta: Un portafoglio che raggruppa chiavi private determinate casualmente, senza nessun collegamento tra loro.
+risposte_errate:
+  - Un portafoglio che deriva chiavi in modo gerarchico da un unico seme.
+  - Un portafoglio che deriva chiavi dalle chiavi precedenti.
+  - Un portafoglio che utilizza solo una frase mnemonica per derivare le chiavi.
+spiegazione: |
+  Un portafoglio JBOK (Just a Bunch Of Keys) contiene chiavi private che sono generate casualmente e indipendentemente l'una dall'altra, a differenza dei portafogli HD.

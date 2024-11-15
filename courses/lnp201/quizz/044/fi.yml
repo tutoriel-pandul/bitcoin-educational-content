@@ -1,0 +1,9 @@
+kysymys: Mitä lähetysnode tekee, kun maksureitti epäonnistuu riittämättömän likviditeetin vuoksi?
+vastaus: Se yrittää toista reittiä, kunnes löytää toimivan
+väärät_vastaukset:
+  - Se lähettää automaattisesti hyvityspyyntön vastaanottajalle
+  - Se sulkee kanavan ja luo uuden suoran kanavan
+  - Se pyytää välittäviä nodeja lisäämään likviditeettiään
+selitys: |
+  Kun reitti epäonnistuu, lähetysnode yrittää muita vaihtoehtoisia reittejä, kunnes toimiva polku löytyy tai kaikki vaihtoehdot on käytetty loppuun.
+arvioitu: false

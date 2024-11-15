@@ -1,0 +1,9 @@
+pregunta: ¿Qué criterio puede ayudar a un nodo a elegir una ruta de pago eficiente?
+respuesta: La probabilidad de éxito basada en la capacidad total de los canales
+respuestas_incorrectas:
+  - La distancia geográfica entre los nodos
+  - La presencia de nodos con un nivel bajo de comisión
+  - El número de pagos realizados por el nodo objetivo
+explicación: |
+  La capacidad total de los canales puede indicar una mayor probabilidad de éxito, ya que sugiere una mayor disponibilidad de liquidez para las transacciones.
+revisado: false

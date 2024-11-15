@@ -1,0 +1,9 @@
+câu hỏi: Kỹ thuật mở hình tam giác cho phép các nút tham gia đạt được điều gì?
+câu trả lời: Lượng thanh khoản đến và đi trong mỗi kênh
+câu trả lời sai:
+  - Phí định tuyến giảm
+  - Số lượng giao dịch không giới hạn mà không cần xác nhận
+  - Một liên kết trực tiếp với mọi nút mạng khác
+giải thích: |
+  Kỹ thuật mở hình tam giác cho phép mỗi nút đạt được lượng thanh khoản cân bằng, cả đến và đi, bằng cách tạo một vòng lặp của các kênh giữa nhiều người tham gia.
+đã xem xét: false

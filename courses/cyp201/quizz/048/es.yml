@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es la función utilizada para generar la semilla a partir de la frase mnemotécnica y la frase de paso?
+respuesta: PBKDF2.
+respuestas_incorrectas:
+  - SHA256.
+  - HMAC.
+  - Argon2.
+explicación: |
+  PBKDF2 (Función de Derivación de Clave Basada en Contraseña 2) se utiliza para derivar la semilla a partir de la frase mnemotécnica y la frase de paso en las carteras HD.

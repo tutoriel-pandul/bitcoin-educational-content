@@ -1,0 +1,9 @@
+câu hỏi: Mục tiêu chính của HTLCs trong Lightning Network là gì?
+câu trả lời: Để kích hoạt việc chuyển tiền an toàn qua các nút trung gian mà không cần phải tin tưởng vào chúng
+câu trả lời sai:
+  - Để giảm phí giao dịch cho mỗi khoản thanh toán qua các nút trung gian
+  - Để tăng khả năng của mỗi kênh thanh toán
+  - Để thiết lập các kết nối trực tiếp giữa tất cả các nút trong mạng với sự tin tưởng của họ
+giải thích: |
+  HTLCs (Hashed Time-Locked Contracts) đảm bảo rằng mỗi nút trung gian sẽ chuyển tiền mà không giữ lại số tiền đó, vì nó chỉ có thể mở khóa chúng bằng cách hoàn thành giao dịch đến người nhận cuối cùng.
+đã xem xét: false

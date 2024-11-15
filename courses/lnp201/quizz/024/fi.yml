@@ -1,0 +1,8 @@
+kysymys: Mikä on aikaviiveen ja peruutusavaimen yhdistetty vaikutus sitoumustapahtumiin?
+vastaus: Ne estävät osallistujia huijaamasta tarjoamalla välittömän rangaistuksen
+väärät_vastaukset:
+  - Ne vähentävät kanavan kapasiteettia huijauksen tapauksessa
+  - Ne automaattisesti lukitsevat syyllisen osapuolen varat
+  - Ne pakottavat uuden kanavan avaamisen, jos tapahtuma on virheellinen
+selitys: |
+  Aikaviive ja peruutusavain estävät osallistujia huijaamasta varmistamalla, että mikä tahansa huijausyritys johtaa välittömään varojen menetykseen syylliselle osapuolelle.

@@ -1,0 +1,9 @@
+otázka: Jaký je první krok při otevírání Lightning kanálu mezi dvěma účastníky?
+odpověď: Výměna zpráv obsahujících částky a veřejné klíče
+špatné_odpovědi:
+  - Okamžitě publikovat transakci vkladu na blockchainu
+  - Vytvořit 2/2 multisignaturní adresu bez předchozí výměny
+  - Podepsat transakci pro výběr před výměnou veřejných klíčů
+vysvětlení: |
+  Otevření kanálu začíná výměnou zpráv mezi oběma stranami, kde sdílejí částky, které chtějí zavázat, a své veřejné klíče.
+recenzováno: false

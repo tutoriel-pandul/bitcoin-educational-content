@@ -1,0 +1,9 @@
+otázka: Co je "Nonce" v kryptografii?
+odpověď: Číslo určené k jednorázovému použití.
+špatné_odpovědi:
+  - Sudé číslo.
+  - Digitální podpis.
+  - Číslo, které lze znovu použít.
+vysvětlení: |
+  Nonce je číslo použité jednou pro kryptografické operace, zajišťující jedinečnost určitých hodnot v algoritmech.
+recenzováno: false

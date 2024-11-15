@@ -1,0 +1,9 @@
+câu hỏi: Chúng ta sử dụng bao nhiêu lần lặp lại trong hàm PBKDF2 trong Bitcoin?
+câu trả lời: 2048.
+câu trả lời sai:
+  - 512.
+  - 1000.
+  - 21000.
+giải thích: |
+  Bitcoin sử dụng 2048 lần lặp lại trong hàm PBKDF2 để tăng cường bảo mật cho seed.
+đã xem xét: false

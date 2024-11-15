@@ -1,0 +1,8 @@
+pregunta: ¿Cómo se calcula el checksum de una dirección Legacy?
+respuesta: Con HASH256.
+respuestas_incorrectas:
+  - Con HASH160.
+  - Con un código BCH.
+  - Con RIPEMD160.
+explicación: |
+  Para las direcciones Legacy, el checksum se obtiene realizando un doble hash con la función SHA256 (HASH256).

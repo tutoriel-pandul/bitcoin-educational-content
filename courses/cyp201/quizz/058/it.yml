@@ -1,0 +1,9 @@
+domanda: Quali metadati vengono aggiunti alla chiave estesa oltre al suo payload?
+risposta: Versione / profondità / impronta digitale genitore / indice / checksum.
+risposte_errate:
+  - Versione / indice.
+  - Versione / profondità / separatore / checksum.
+  - Non vengono aggiunti metadati.
+spiegazione: |
+  La chiave estesa include diversi pezzi di metadati. Ci sono la versione, la profondità, l'impronta digitale del genitore, l'indice e il checksum per facilitare la derivazione della chiave.
+recensito: false

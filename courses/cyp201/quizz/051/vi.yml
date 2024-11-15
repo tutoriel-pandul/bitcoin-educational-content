@@ -1,0 +1,8 @@
+câu hỏi: Hàm dẫn xuất khóa nào được sử dụng để dẫn xuất một hạt giống từ cụm từ ghi nhớ và một cụm mật khẩu tùy chọn?
+câu trả lời: PBKDF2.
+câu trả lời sai:
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
+giải thích: |
+  Hàm PBKDF2 được sử dụng để dẫn xuất hạt giống của một ví HD từ cụm từ ghi nhớ và một cụm mật khẩu tùy chọn.

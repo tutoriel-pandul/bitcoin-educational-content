@@ -1,0 +1,8 @@
+pregunta: ¿En qué sistema numérico suele codificarse la clave extendida para presentarla al usuario?
+respuesta: En Base 58.
+respuestas_incorrectas:
+  - En bech32.
+  - En Base 16.
+  - En bech32m.
+explicación: |
+  La clave extendida generalmente se codifica en Base 58 para ser más legible para el usuario y evitar caracteres ambiguos.

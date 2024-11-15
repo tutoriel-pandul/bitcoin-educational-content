@@ -1,0 +1,9 @@
+domanda: Quali informazioni deve conoscere il nodo mittente per effettuare un pagamento tramite onion routing?
+risposta: La topologia della rete e il percorso completo verso il destinatario
+risposte_errate:
+  - Solo il prossimo nodo intermedio
+  - La capacità di ogni canale
+  - La firma crittografica di ogni nodo sul percorso
+spiegazione: |
+  Il nodo mittente deve conoscere la topologia della rete per calcolare il percorso verso il destinatario, permettendogli di scegliere il miglior percorso.
+recensito: false

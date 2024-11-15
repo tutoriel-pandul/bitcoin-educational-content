@@ -1,0 +1,9 @@
+question: To perform a derivation of a normal child key pair, I must input into the HMAC-SHA512 function...
+answer: parent public key || index, parent chain code.
+wrong_answers:
+  - parent private key || index, parent chain code.
+  - parent private key, parent chain code.
+  - parent private key || index.
+explanation: |
+  To derive a normal child key, the parent public key is used with the index and the chain code in the HMAC-SHA512 function.
+reviewed: false

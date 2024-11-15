@@ -1,0 +1,9 @@
+Frage: Was ist die Funktion, die verwendet wird, um ein Kind-Schlüsselpaar von einem Eltern-Schlüsselpaar innerhalb eines HD-Wallets abzuleiten?
+Antwort: HMAC-SHA512.
+falsche_Antworten:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+Erklärung: |
+  HMAC-SHA512 wird verwendet, um ein Kind-Schlüsselpaar von einem Eltern-Schlüsselpaar in einem HD-Wallet abzuleiten.
+überprüft: false

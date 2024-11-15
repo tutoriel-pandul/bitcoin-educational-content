@@ -1,0 +1,9 @@
+Frage: Welche Metadaten werden zusätzlich zu seinem Payload zum erweiterten Schlüssel hinzugefügt?
+Antwort: Version / Tiefe / Eltern-Fingerprint / Index / Prüfsumme.
+falsche_Antworten:
+  - Version / Index.
+  - Version / Tiefe / Trennzeichen / Prüfsumme.
+  - Es werden keine Metadaten hinzugefügt.
+Erklärung: |
+  Der erweiterte Schlüssel beinhaltet mehrere Metadaten. Dazu gehören die Version, Tiefe, Eltern-Fingerprint, Index und Prüfsumme, um die Schlüsselableitung zu erleichtern.
+überprüft: false

@@ -1,0 +1,9 @@
+question: Why does using a passphrase strengthen the security of an HD wallet?
+answer: It adds an extra layer of protection to the mnemonic phrase.
+wrong_answers:
+  - It allows for the generation of stronger public keys.
+  - It cryptographically protects transactions.
+  - It doubles the number of bitcoins in the wallet.
+explanation: |
+  The passphrase enhances security by adding an additional piece of data to the mnemonic phrase, acting somewhat like a 2FA.
+reviewed: false

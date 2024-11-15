@@ -1,0 +1,9 @@
+pregunta: ¿Qué representa el punto V en el proceso de firma digital con ECDSA como ejemplo en este capítulo?
+respuesta: El punto calculado a partir del nonce v y el punto generador G (V = v.G).
+respuestas_incorrectas:
+  - El punto derivado directamente de la clave pública.
+  - El hash del mensaje firmado.
+  - El resultado de sumar dos puntos en la curva elíptica.
+explicación: |
+  V es el resultado del cálculo del nonce multiplicado por el punto generador en la curva elíptica.
+revisado: false

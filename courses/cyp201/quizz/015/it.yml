@@ -1,0 +1,9 @@
+domanda: Qual è il nome della curva ellittica utilizzata per gli algoritmi di firma digitale in Bitcoin?
+risposta: secp256k1.
+risposte_errate:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+spiegazione: |
+  La curva secp256k1 è utilizzata nel protocollo Bitcoin per le firme digitali.
+revisionato: false

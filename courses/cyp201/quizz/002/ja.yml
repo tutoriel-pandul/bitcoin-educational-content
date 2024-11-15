@@ -1,0 +1,9 @@
+question: Bitcoinプロトコルで使用されているハッシュ関数は何ですか？
+answer: SHA-256, RIPEMD-160
+wrong_answers:
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+explanation: |
+  Bitcoinでは、SHA-256とRIPEMD-160が使用されています。
+reviewed: false

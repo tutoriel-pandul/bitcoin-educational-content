@@ -1,0 +1,9 @@
+câu hỏi: Kích thước của khóa riêng Bitcoin là bao nhiêu?
+câu trả lời: 256 bit.
+câu trả lời sai:
+  - 512 byte.
+  - 520 bit.
+  - 512 bit.
+giải thích: |
+  Khóa riêng Bitcoin có kích thước tiêu chuẩn là 256 bit, tương ứng với thuật toán đường cong elliptic được sử dụng trong Bitcoin.
+đã xem xét: false

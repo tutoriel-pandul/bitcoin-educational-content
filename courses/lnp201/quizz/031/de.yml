@@ -1,0 +1,9 @@
+Frage: Was begrenzt die Höhe einer indirekten Zahlung im Lightning-Netzwerk?
+Antwort: Die kleinste verfügbare Liquidität in einem Kanal des gewählten Pfades
+falsche_Antworten:
+  - Die Anzahl der beteiligten Zwischenknoten
+  - Die Gesamtkapazität des Lightning-Netzwerks
+  - Die von jedem Knoten festgelegten Routing-Gebühren
+Erklärung: |
+  Der maximale Betrag, den eine indirekte Zahlung übertragen kann, hängt von der niedrigsten verfügbaren Liquidität in den genutzten Kanälen ab, da jeder Kanal die Mittel auf jeder Seite anpassen muss.
+überprüft: false

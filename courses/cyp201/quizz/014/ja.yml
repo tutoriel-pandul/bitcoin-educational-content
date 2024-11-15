@@ -1,0 +1,9 @@
+question: Bitcoinで親キーから子キーを導出するために使用される関数は何ですか？
+answer: HMAC-SHA512。
+wrong_answers:
+  - SHA256。
+  - MD5。
+  - BLAKE2。
+explanation: |
+  HMAC-SHA512関数は、BitcoinのHDウォレットで親キーから子キーを導出するために使用されます。
+reviewed: false

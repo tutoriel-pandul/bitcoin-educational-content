@@ -1,0 +1,9 @@
+Frage: Was ist das Ziel der Verwendung digitaler Signaturen bei Bitcoin?
+Antwort: Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz eines privaten Schlüssels ist, ohne diesen privaten Schlüssel preiszugeben.
+Falsche Antworten:
+  - Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz eines öffentlichen Schlüssels ist, ohne diesen öffentlichen Schlüssel preiszugeben.
+  - Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz einer Empfangsadresse ist, ohne diese Empfangsadresse preiszugeben.
+  - Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz einer Wallet ist.
+Erklärung: |
+  Digitale Signaturen bei Bitcoin ermöglichen den Nachweis, dass ein Benutzer den privaten Schlüssel besitzt, der mit einem öffentlichen Schlüssel verbunden ist, ohne diesen privaten Schlüssel preiszugeben.
+Überprüft: false

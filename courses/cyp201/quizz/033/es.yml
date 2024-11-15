@@ -1,0 +1,8 @@
+pregunta: ¿En qué BIP se propone la idea de la frase de recuperación o frase mnemotécnica (12/24 palabras)?
+respuesta: BIP39.
+respuestas_incorrectas:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+explicación: |
+  BIP39 introdujo la frase mnemotécnica de 24 palabras, para facilitar la copia de seguridad de las claves para los usuarios de monederos HD.

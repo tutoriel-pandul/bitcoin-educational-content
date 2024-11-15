@@ -1,0 +1,9 @@
+domanda: Qual è la curva ellittica più nota utilizzata nei sistemi crittografici?
+risposta: secp256r1.
+risposte_errate:
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
+spiegazione: |
+  La curva ellittica secp256r1 è ampiamente utilizzata in molti sistemi crittografici, ma Bitcoin utilizza la curva secp256k1.
+revisionato: false

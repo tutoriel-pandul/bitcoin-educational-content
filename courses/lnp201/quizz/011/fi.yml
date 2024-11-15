@@ -1,0 +1,8 @@
+kysymys: Miksi Alice luo nostotapahtuman ennen talletustapahtuman julkaisemista?
+vastaus: Saadakseen varansa takaisin, jos Bobin kanssa ilmenee ongelma
+väärät_vastaukset:
+  - Lisätäkseen kanavan kapasiteettia jokaisella tapahtumalla
+  - Suorittaakseen Lightning-tapahtuman heti avaamisen jälkeen
+  - Salliakseen Bobin käyttää varoja suoraan
+selitys: |
+  Alice luo nostotapahtuman saadakseen varansa takaisin, jos Bobin kanssa ilmenee ongelma, näin varmistaen talletuksensa turvallisuuden.

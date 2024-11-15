@@ -1,0 +1,9 @@
+questão: Qual é o papel principal de uma chave privada no sistema Bitcoin?
+resposta: Assinar transações para satisfazer um script
+respostas_erradas:
+  - Servir como um identificador para receber bitcoins
+  - Armazenar fundos de forma segura na blockchain
+  - Criar scripts de bloqueio para proteger bitcoins
+explicação: |
+  A chave privada é usada para assinar transações para satisfazer um script e desbloquear os bitcoins.
+revisado: false

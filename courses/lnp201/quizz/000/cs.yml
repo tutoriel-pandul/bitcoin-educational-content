@@ -1,0 +1,9 @@
+otázka: Jaký je hlavní cíl Lightning Network?
+odpověď: Zlepšit škálovatelnost Bitcoinu, aby umožnil rychlé a nízkonákladové platby
+špatné_odpovědi:
+  - Zrušit transakční poplatky na blockchainu Bitcoinu
+  - Vytvořit alternativu k Bitcoinu pro platby s vysokou hodnotou
+  - Zjednodušit výměny mezi různými kryptoměnami
+vysvětlení: |
+  Lightning Network si klade za cíl zlepšit škálovatelnost Bitcoinu tím, že umožní rychlé a levné transakce prostřednictvím platebních kanálů mimo hlavní blockchain.
+recenzováno: false

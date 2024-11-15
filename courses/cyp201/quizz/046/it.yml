@@ -1,0 +1,9 @@
+domanda: Cosa succede se utilizzo un portafoglio HD con una passphrase e perdo quella passphrase?
+risposta: I miei bitcoin sono persi per sempre.
+risposte_errate:
+  - Non è un problema, posso ancora accedere ai miei bitcoin solo con la mia frase mnemonica.
+  - Posso reimpostare la passphrase con la mia chiave privata.
+  - Posso recuperare i miei bitcoin utilizzando un portafoglio senza passphrase.
+spiegazione: |
+  Se la passphrase viene persa, l'accesso ai bitcoin è permanentemente perso, poiché è necessaria per derivare le chiavi private.
+recensito: false

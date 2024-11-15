@@ -1,0 +1,8 @@
+pregunta: ¿Por qué usar una frase de paso fortalece la seguridad de un monedero HD?
+respuesta: Añade una capa extra de protección a la frase mnemotécnica.
+respuestas_incorrectas:
+  - Permite la generación de claves públicas más fuertes.
+  - Protege criptográficamente las transacciones.
+  - Duplica el número de bitcoins en el monedero.
+explicación: |
+  La frase de paso mejora la seguridad al añadir un dato adicional a la frase mnemotécnica, actuando de manera similar a un 2FA.

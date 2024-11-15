@@ -1,0 +1,9 @@
+kysymys: Mikä on maksukanavan "kapasiteetti"?
+vastaus: Kaksi osallistujaa voivat vaihtaa keskenään olevien varojen kokonaismäärä
+vaarat_vastaukset:
+  - Kanavan avoinna pysymisen aikaraja
+  - Suurin määrä, jonka yksi osallistuja voi lähettää yhdessä siirrossa
+  - Transaktioiden määrä, jonka kanava voi tukea päivässä
+selitys: |
+  Kanavan kapasiteetti vastaa kahden osallistujan kokonaisvaroja ja pysyy kiinteänä määrittäen mahdolliset vaihdot.
+arvioitu: false

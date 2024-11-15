@@ -1,0 +1,9 @@
+pergunta: O que a frase-senha representa dentro de uma carteira HD?
+resposta: Um sal criptográfico opcional de tamanho arbitrário.
+respostas_incorretas:
+  - Uma 25ª palavra na frase mnemônica.
+  - Um sal criptográfico obrigatório de tamanho fixo.
+  - Uma segunda semente.
+explicação: |
+  A frase-senha é um sal criptográfico opcional, que aumenta a segurança da carteira ao adicionar informações adicionais à frase mnemônica para determinar a semente.
+revisado: false

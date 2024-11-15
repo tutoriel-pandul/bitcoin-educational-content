@@ -1,0 +1,8 @@
+Câu hỏi: Bước cuối cùng để tạo một địa chỉ Bitcoin Bech32 là gì?
+Câu trả lời: Thêm HRP "bc" và một dấu phân cách "1".
+Câu trả lời sai:
+  - Thêm phiên bản SegWit ở đầu.
+  - Thêm checksum vào đầu địa chỉ.
+  - Thêm tiền tố "1".
+Giải thích:
+  Bước cuối cùng trong việc xây dựng một địa chỉ Bech32 là thêm HRP (Human Readable Part), "bc" cho Bitcoin, theo sau là một dấu phân cách "1".

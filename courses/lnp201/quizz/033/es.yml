@@ -1,0 +1,8 @@
+pregunta: ¿Qué implica el enrutamiento de cebolla en la Red Lightning?
+respuesta: Significa que cada nodo intermedio solo conoce a sus vecinos inmediatos en la ruta.
+respuestas_incorrectas:
+  - Transmitir fondos directamente de nodo a nodo conociendo al destinatario final
+  - Calcular las comisiones para cada nodo intermedio de manera independiente
+  - Enviar fondos a todos los nodos en la ruta simultáneamente
+explicación: |
+  El enrutamiento de cebolla significa que cada nodo intermedio solo conoce al nodo anterior y al siguiente, preservando así la confidencialidad del destinatario final.

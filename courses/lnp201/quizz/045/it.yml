@@ -1,0 +1,9 @@
+domanda: Cosa permette di fare la funzionalità "LNURL-withdraw" agli utenti?
+risposta: Prelevare fondi da un servizio scansionando un codice QR
+risposte_errate:
+  - Effettuare un pagamento diretto senza commissioni di routing
+  - Collegare il proprio portafoglio Lightning senza una password
+  - Inviare fondi senza la conferma del destinatario
+spiegazione: |
+  LNURL-withdraw permette agli utenti di prelevare fondi da un servizio scansionando un codice QR, semplificando così il processo di prelievo.
+revisionato: false

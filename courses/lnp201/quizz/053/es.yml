@@ -1,0 +1,9 @@
+pregunta: ¿Por qué debe un router mantener una buena distribución de liquidez en sus canales?
+respuesta: Para maximizar el número de pagos que puede enrutar
+respuestas_incorrectas:
+  - Para reducir las comisiones por transacción
+  - Para evitar abrir nuevos canales
+  - Para limitar el uso de la blockchain de Bitcoin
+explicación: |
+  Un router tiene como objetivo enrutar tantos pagos como sea posible para recolectar comisiones, lo que requiere una buena distribución de la liquidez en ambos lados de los canales para asegurar la capacidad de enrutamiento.
+revisado: false

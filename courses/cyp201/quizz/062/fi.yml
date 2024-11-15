@@ -1,0 +1,8 @@
+kysymys: Normaalin lapsiavainparin johdannaisen suorittamiseksi, minun täytyy syöttää HMAC-SHA512 funktioon...
+vastaus: vanhemman julkinen avain || indeksi, vanhemman ketjukoodi.
+väärät_vastaukset:
+  - vanhemman yksityinen avain || indeksi, vanhemman ketjukoodi.
+  - vanhemman yksityinen avain, vanhemman ketjukoodi.
+  - vanhemman yksityinen avain || indeksi.
+selitys: |
+  Normaalin lapsiavaimen johdannaisen luomiseksi käytetään vanhemman julkista avainta yhdessä indeksin ja ketjukoodin kanssa HMAC-SHA512 funktiossa.

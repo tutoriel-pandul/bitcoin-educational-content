@@ -1,0 +1,9 @@
+Frage: Was ist die Rolle von Routing-Gebühren im Lightning-Netzwerk?
+Antwort: Um Zwischenknoten zu incentivieren, ihre Liquidität für die Übertragung von Zahlungen bereitzustellen
+falsche_Antworten:
+  - Um die Anzahl der Transaktionen im Netzwerk zu begrenzen
+  - Um sicherzustellen, dass jeder Kanal über ausreichende Mittel verfügt
+  - Um automatisch den kürzesten Weg zu berechnen
+Erklärung: |
+  Routing-Gebühren werden verwendet, um Zwischenknoten, die Zahlungen weiterleiten, zu entschädigen, indem sie ihre Liquidität anbieten, um die Übertragung von Geldern über das Netzwerk zu ermöglichen.
+überprüft: false

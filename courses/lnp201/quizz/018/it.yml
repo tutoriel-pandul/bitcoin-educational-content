@@ -1,0 +1,9 @@
+domanda: Come viene creata una nuova stato del canale dopo ogni trasferimento?
+risposta: Creando una nuova transazione di impegno con la distribuzione aggiornata
+risposte_errate:
+  - Inviando una transazione on-chain dopo ogni trasferimento
+  - Aumentando la capacità totale del canale
+  - Chiudendo e riaprendo il canale dopo ogni transazione
+spiegazione: |
+  Ogni transazione all'interno del canale aggiorna lo stato del canale con una nuova transazione di impegno, riflettendo la distribuzione attuale dei fondi tra i due partecipanti.
+revisionato: false

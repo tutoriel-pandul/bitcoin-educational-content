@@ -1,0 +1,8 @@
+kysymys: Mikä funktio käytetään generoimaan siemen mnemonic-lauseesta ja salasanasta?
+vastaus: PBKDF2.
+väärät_vastaukset:
+  - SHA256.
+  - HMAC.
+  - Argon2.
+selitys: |
+  PBKDF2 (Password-Based Key Derivation Function 2) käytetään johdattamaan siemen mnemonic-lauseesta ja salasanasta HD-lompakoissa.

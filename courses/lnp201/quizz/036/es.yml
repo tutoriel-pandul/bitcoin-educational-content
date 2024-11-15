@@ -1,0 +1,9 @@
+pregunta: ¿Qué condición debe cumplirse para que el receptor de un HTLC reciba los fondos?
+respuesta: Deben proporcionar un secreto (preimagen) para desbloquear el pago.
+respuestas_incorrectas:
+  - Deben aceptar las tarifas de enrutamiento de cada nodo intermediario.
+  - Deben firmar una nueva transacción de compromiso.
+  - Deben esperar a que el bloqueo temporal expire antes de recuperar los fondos.
+explicación: |
+  Para recibir los fondos en un HTLC, el receptor debe proporcionar un secreto específico que permite desbloquear el pago asegurado por el hash.
+revisado: false

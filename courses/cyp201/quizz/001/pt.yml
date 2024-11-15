@@ -1,0 +1,9 @@
+pergunta: Qual é o tamanho da saída da função de hash SHA256?
+resposta: 256 bits.
+respostas_erradas:
+  - 256 bytes.
+  - 512 bits.
+  - 512 bytes.
+explicação: |
+  SHA-256 produz uma saída fixa de 256 bits, independentemente do tamanho dos dados de entrada.
+revisado: false

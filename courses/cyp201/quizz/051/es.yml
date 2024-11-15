@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es la función de derivación de clave utilizada para derivar una semilla a partir de una frase mnemotécnica y una frase de paso opcional?
+respuesta: PBKDF2.
+respuestas_incorrectas:
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
+explicación: |
+  La función PBKDF2 se utiliza para derivar la semilla de un monedero HD a partir de la frase mnemotécnica y una frase de paso opcional.

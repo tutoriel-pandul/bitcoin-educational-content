@@ -1,0 +1,8 @@
+pregunta: ¿Qué permite hacer la clave de revocación en caso de trampa?
+respuesta: Recuperar todos los fondos castigando al tramposo
+respuestas_incorrectas:
+  - Cancelar la transacción de compromiso
+  - Duplicar la capacidad del canal
+  - Prevenir cualquier transacción futura en el canal
+explicación: |
+  La clave de revocación permite a la parte agraviada recuperar todos los fondos en el evento de un intento de trampa por la otra parte.

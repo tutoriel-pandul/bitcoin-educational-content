@@ -1,0 +1,8 @@
+kysymys: Mikä on tunnetuin elliptinen käyrä, jota käytetään kryptografisissa järjestelmissä?
+vastaus: secp256r1.
+väärät_vastaukset:
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
+selitys: |
+  Elliptinen käyrä secp256r1 on laajalti käytössä monissa kryptografisissa järjestelmissä, mutta Bitcoin käyttää käyrää secp256k1.

@@ -1,0 +1,9 @@
+domanda: Quando si considera ufficialmente aperto un canale Lightning?
+risposta: Quando la transazione di deposito viene confermata sulla blockchain di Bitcoin
+risposte_errate:
+  - Non appena vengono scambiati i chiavi pubbliche tra i partecipanti
+  - Quando la transazione di prelievo viene firmata da entrambe le parti
+  - Non appena viene creata l'indirizzo multisignature 2/2
+spiegazione: |
+  Il canale si considera aperto una volta che la transazione di deposito è stata inclusa in un blocco Bitcoin e ha raggiunto un certo numero di conferme.
+recensito: false

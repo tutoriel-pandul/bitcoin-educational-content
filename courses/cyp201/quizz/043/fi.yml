@@ -1,0 +1,9 @@
+kysymys: Kuinka määrittää palautuslauseen tarkistussumman bittikoko?
+vastaus: Jaa satunnaisluvun (entropia) koko 32:lla.
+vaarat_vastaukset:
+  - Jaa satunnaisluvun (entropia) koko 8:lla.
+  - Jaa satunnaisluvun (entropia) koko 16:lla.
+  - Kerro satunnaisluvun (entropia) koko 2:lla.
+selitys: |
+  Tarkistussumman koko saadaan jakamalla entropian koko 32:lla, BIP39:n mukaisesti.
+arvioitu: false

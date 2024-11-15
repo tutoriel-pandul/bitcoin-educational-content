@@ -1,0 +1,9 @@
+otázka: Jaká je základní informace, která umožňuje určit dobrou mnemonickou frázi pro HD peněženku?
+odpověď: Externí entropie umožňující určení náhodného nebo pseudonáhodného čísla.
+špatné_odpovědi:
+  - Křestní jméno majitele peněženky.
+  - Žádné informace, přímo si vybereme slova, která se nám líbí.
+  - Datum vytvoření peněženky.
+vysvětlení: |
+  Mnemonická fráze je odvozena ze zdroje entropie, což znamená náhodné nebo pseudonáhodné informace, aby byla zajištěna bezpečnost soukromých klíčů.
+recenzováno: false

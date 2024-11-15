@@ -1,0 +1,8 @@
+pregunta: ¿Cómo se determinan los pares de claves en una cartera Determinista Jerárquica (HD)?
+respuesta: Todos los pares de claves en la cartera se determinan de manera determinista y jerárquica a partir de una pieza única de información en la base de la cartera.
+respuestas_incorrectas:
+  - Todos los pares de claves en la cartera se determinan independientemente de otros, aleatoriamente, por un generador de números aleatorios.
+  - Cada par de claves en la cartera se determina de manera determinista a partir del par de claves anterior.
+  - Los pares de claves son todos aleatorios y sin vinculación jerárquica.
+explicación: |
+  En las carteras HD, todas las claves se derivan de una pieza única de información llamada "semilla", lo que permite una gestión jerárquica y determinista de las claves.

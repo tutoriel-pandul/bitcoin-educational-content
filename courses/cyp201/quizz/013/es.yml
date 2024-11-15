@@ -1,0 +1,9 @@
+pregunta: ¿Qué significa el prefijo "0x"?
+respuesta: El número que sigue a este prefijo se expresa en base 16 (hexadecimal).
+respuestas_incorrectas:
+  - El número que sigue a este prefijo se expresa en base 2 (binario).
+  - El número que sigue a este prefijo se expresa en base 10 (decimal).
+  - El número que sigue a este prefijo se expresa en base 8 (octal).
+explicación: |
+  El prefijo "0x" indica que el número que le sigue se expresa en base 16 (hexadecimal).
+revisado: false

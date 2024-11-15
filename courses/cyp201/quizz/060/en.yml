@@ -1,0 +1,9 @@
+question: What is the function used to derive a child key pair from a parent key pair within an HD wallet?
+answer: HMAC-SHA512.
+wrong_answers:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+explanation: |
+  HMAC-SHA512 is used to derive a child key pair from a parent key pair in an HD wallet.
+reviewed: false

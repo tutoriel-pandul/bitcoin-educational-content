@@ -1,0 +1,8 @@
+pergunta: Em relação à notação de um caminho de derivação, o que significa o apóstrofo ou o "H" anotado à direita do número? Exemplo m/84'/0'.
+resposta: Indica uma derivação endurecida.
+respostas_erradas:
+  - Indica uma derivação normal.
+  - Está lá apenas como decoração.
+  - Indica uma chave de mudança.
+explicação: |
+  O apóstrofo ou "H" em um caminho de derivação indica uma derivação endurecida, que utiliza a chave privada pai e o intervalo de índice correspondente.

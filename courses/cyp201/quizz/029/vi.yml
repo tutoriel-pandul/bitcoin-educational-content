@@ -1,0 +1,9 @@
+Câu hỏi: Chữ ký số chứng minh điều gì trong hệ thống Bitcoin thông qua scriptSig?
+Câu trả lời: Sự sở hữu của khóa riêng liên kết với một khóa công khai cụ thể.
+Câu trả lời sai:
+  - Sự sở hữu của một địa chỉ Bitcoin.
+  - Khả năng khai thác một khối Bitcoin.
+  - Tính hợp lệ của một giao dịch Bitcoin.
+Giải thích: |
+  Chữ ký số chứng minh rằng người dùng có khóa riêng mà không cần phải tiết lộ nó, đảm bảo tính xác thực của giao dịch.
+Đã xem xét: false

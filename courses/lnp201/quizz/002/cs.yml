@@ -1,0 +1,9 @@
+otázka: Pokud Alice pošle Bobovi 40 000 satoshi z platebního kanálu, kde původně má 100 000 satoshi, kolik finančních prostředků jí po transakci zbývá?
+odpověď: 60 000 satoshi
+špatné_odpovědi:
+  - 30 000 satoshi
+  - 40 000 satoshi
+  - 140 000 satoshi
+vysvětlení: |
+  Po odeslání 40 000 satoshi je zůstatek Alice v kanálu 60 000 satoshi.
+recenzováno: false

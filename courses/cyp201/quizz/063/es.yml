@@ -1,0 +1,9 @@
+pregunta: ¿Cuáles son los dos tipos de derivación de claves secundarias en una cartera HD?
+respuesta: Derivación normal y derivación reforzada.
+respuestas_incorrectas:
+  - Derivación simple y derivación compleja.
+  - Derivación elíptica y derivación de curva.
+  - Derivación estática y derivación dinámica.
+explicación: |
+  Los dos tipos de derivación son la derivación normal, que utiliza la clave pública del padre, y la derivación reforzada, que utiliza la clave privada del padre.
+revisado: false

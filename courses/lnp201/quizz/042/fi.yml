@@ -1,0 +1,9 @@
+kysymys: Mikä kriteeri voi auttaa solmua valitsemaan tehokkaan maksureitin?
+vastaus: Menestymisen todennäköisyys perustuen kanavien kokonaiskapasiteettiin
+vaarat_vastaukset:
+  - Solmujen välinen maantieteellinen etäisyys
+  - Solmujen läsnäolo, joilla on matala maksutaso
+  - Kohdesolmun suorittamien maksujen määrä
+selitys: |
+  Kanavien kokonaiskapasiteetti voi viitata suurempaan menestymisen todennäköisyyteen, sillä se vihjaa suuremmasta likviditeetin saatavuudesta transaktioille.
+arvioitu: false

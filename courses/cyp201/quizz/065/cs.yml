@@ -1,0 +1,9 @@
+otázka: Co odpovídá hloubce 0 v cestách derivace HD peněženky?
+odpověď: Hlavní klíč.
+špatné_odpovědi:
+  - Rozšířený klíč.
+  - Přijímací adresy.
+  - Typ měny.
+vysvětlení: |
+  Hloubka 0 v cestách derivace odpovídá hlavnímu klíči, který je výchozím bodem pro všechny derivace v HD peněžence.
+recenzováno: false

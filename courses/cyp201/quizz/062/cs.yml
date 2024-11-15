@@ -1,0 +1,9 @@
+otázka: Pro odvození normálního páru dětských klíčů musím zadat do funkce HMAC-SHA512...
+odpověď: rodičovský veřejný klíč || index, rodičovský řetězový kód.
+špatné_odpovědi:
+  - rodičovský soukromý klíč || index, rodičovský řetězový kód.
+  - rodičovský soukromý klíč, rodičovský řetězový kód.
+  - rodičovský soukromý klíč || index.
+vysvětlení: |
+  Pro odvození normálního dětského klíče se používá rodičovský veřejný klíč spolu s indexem a řetězovým kódem ve funkci HMAC-SHA512.
+recenzováno: false

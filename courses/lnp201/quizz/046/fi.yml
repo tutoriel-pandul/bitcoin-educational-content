@@ -1,0 +1,9 @@
+kysymys: Mitä etuliite "lnbc" tarkoittaa Lightning-laskun ihmislukukelpoisessa osassa?
+vastaus: Se osoittaa Lightning-siirron Bitcoin-lohkoketjussa
+väärät_vastaukset:
+  - Että lasku on voimassa vain Bitcoinin testiverkossa
+  - Että lasku on koodattu bech32-muodossa
+  - Että kyseessä on ketjussa tapahtuva siirto
+selitys: |
+  Etuliite 'lnbc' merkitsee, että lasku on Lightning-siirtoa varten Bitcoin-verkossa, eikä missään muussa verkossa.
+arvioitu: false

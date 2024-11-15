@@ -1,0 +1,8 @@
+pergunta: Para aplicar esta curva elíptica a usos criptográficos, sobre qual campo devemos defini-la?
+resposta: Um campo finito de números inteiros positivos.
+respostas_erradas:
+  - O campo dos números reais.
+  - Um campo finito de números reais.
+  - Um campo complexo.
+explicação: |
+  No Bitcoin, a curva elíptica secp256k1 é definida sobre um campo finito de números inteiros positivos módulo um número primo para evitar aproximações e garantir segurança.

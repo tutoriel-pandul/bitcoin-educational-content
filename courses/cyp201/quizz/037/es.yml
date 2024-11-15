@@ -1,0 +1,8 @@
+pregunta: ¿Por qué es importante usar una buena fuente de entropía para generar claves privadas?
+respuesta: Una entropía deficiente puede hacer que las claves privadas sean predecibles y vulnerables a ataques.
+respuestas_incorrectas:
+  - Una buena entropía ayuda a optimizar el rendimiento del monedero.
+  - La entropía no juega ningún papel en la seguridad de las claves privadas.
+  - Una entropía deficiente ralentiza las transacciones.
+explicación: |
+  Si la entropía utilizada para generar claves privadas es baja, podría permitir a un atacante adivinar o calcular estas claves, comprometiendo la seguridad del monedero.

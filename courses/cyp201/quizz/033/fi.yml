@@ -1,0 +1,8 @@
+kysymys: Missä BIP:ssä ehdotetaan palautuslauseen tai muistilauseen (12/24 sanaa) ideaa?
+vastaus: BIP39.
+väärät_vastaukset:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+selitys: |
+  BIP39 esitteli 24 sanan muistilauseen palautuslauseen, jotta HD-lompakoiden käyttäjien avainten varmuuskopiointi helpottuisi.

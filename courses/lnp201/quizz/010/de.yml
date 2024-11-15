@@ -1,0 +1,9 @@
+Frage: Was ist der erste Schritt beim Öffnen eines Lightning-Kanals zwischen zwei Teilnehmern?
+Antwort: Austausch von Nachrichten, die die Beträge und öffentlichen Schlüssel enthalten
+falsche_Antworten:
+  - Sofort eine Einzahlungstransaktion auf der Blockchain veröffentlichen
+  - Eine 2/2-Multisignatur-Adresse ohne vorherigen Austausch erstellen
+  - Die Auszahlungstransaktion signieren, bevor der Austausch der öffentlichen Schlüssel erfolgt
+Erklärung: |
+  Das Öffnen eines Kanals beginnt mit einem Austausch von Nachrichten zwischen den beiden Parteien, in denen sie die Beträge, die sie einbringen möchten, und ihre öffentlichen Schlüssel teilen.
+überprüft: false

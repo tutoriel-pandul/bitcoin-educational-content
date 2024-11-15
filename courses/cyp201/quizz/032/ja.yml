@@ -1,0 +1,9 @@
+question: Bitcoinで最初のバージョンのHDウォレットを提案したBIP（Bitcoin Improvement Proposal）は何ですか？
+answer: BIP32。
+wrong_answers:
+  - BIP16。
+  - BIP39。
+  - BIP44。
+explanation: |
+  BIP32は、2012年に提案され、Bitcoinにおける階層的決定性（HD）ウォレットの概念を初めて導入したものです。
+reviewed: false

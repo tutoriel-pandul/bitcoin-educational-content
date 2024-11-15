@@ -1,0 +1,9 @@
+question: In HD wallet derivation paths, what does depth 0 correspond to?
+answer: The master key.
+wrong_answers:
+  - The extended key.
+  - The receiving addresses.
+  - The type of currency.
+explanation: |
+  Depth 0 in derivation paths corresponds to the master key, which is the starting point for all derivations in an HD wallet.
+reviewed: false

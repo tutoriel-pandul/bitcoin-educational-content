@@ -1,0 +1,8 @@
+kysymys: Mikä on lähettävän solmun päärooli reitityksessä Lightning-verkossa?
+vastaus: Laskea koko reitti vastaanottajalle
+väärät_vastaukset:
+  - Säilyttää kaikkien verkon kanavien likviditeettitiedot
+  - Määrittää siirtomaksut jokaiselle välisolmulle
+  - Kommunikoida suoraan kaikkien välisolmujen kanssa
+selitys: |
+  Lähettävä solmu vastaa koko reitin laskemisesta vastaanottajalle, sillä välisolmut tuntevat vain välittömän naapurinsa.

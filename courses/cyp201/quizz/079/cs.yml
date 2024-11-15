@@ -1,0 +1,8 @@
+otázka: Jaký je poslední krok pro vytvoření Bech32 Bitcoin adresy?
+odpověď: Přidat HRP "bc" a oddělovač "1".
+špatné_odpovědi:
+  - Přidat na začátek verzi SegWit.
+  - Přidat kontrolní součet na začátek adresy.
+  - Přidat předponu "1".
+vysvětlení: |
+  Posledním krokem při konstrukci Bech32 adresy je přidání HRP (Human Readable Part), "bc" pro Bitcoin, následované oddělovačem "1".

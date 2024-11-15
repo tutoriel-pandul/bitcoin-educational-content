@@ -1,0 +1,9 @@
+question: What is a receiving address (generally)?
+answer: A hash of a public key with metadata put into a specific format.
+wrong_answers:
+  - A hash of a private key with metadata put into a specific format.
+  - A hash of an extended key with metadata put into a specific format.
+  - A hash of a chain code with metadata.
+explanation: |
+  A receiving address is generally a hash of a public key associated with metadata, used in a scriptPubKey to establish conditions.
+reviewed: false

@@ -1,0 +1,9 @@
+Frage: Welche Funktion wird verwendet, um den Seed aus der mnemonischen Phrase und dem Passphrase zu generieren?
+Antwort: PBKDF2.
+Falsche Antworten:
+  - SHA256.
+  - HMAC.
+  - Argon2.
+Erklärung: |
+  PBKDF2 (Password-Based Key Derivation Function 2) wird verwendet, um den Seed aus der mnemonischen Phrase und dem Passphrase in HD-Wallets abzuleiten.
+Überprüft: false

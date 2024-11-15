@@ -1,0 +1,9 @@
+question: Jaká klíčová odvozovací funkce se používá k odvození seedu z mnemonické fráze a volitelného hesla?
+answer: PBKDF2.
+wrong_answers:
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
+explanation: |
+  Funkce PBKDF2 se používá k odvození seedu HD peněženky z mnemonické fráze a volitelného hesla.
+reviewed: false

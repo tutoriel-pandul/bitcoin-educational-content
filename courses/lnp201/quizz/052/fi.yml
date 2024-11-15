@@ -1,0 +1,9 @@
+kysymys: Mikä palvelu mahdollistaa likviditeetin siirtämisen kanavan vastakkaiselle puolelle samalla kun varoja noudetaan on-chain?
+vastaus: Loop Out
+vaarat_vastaukset:
+  - Keysend
+  - LNURL
+  - CoinSwap
+selitys: |
+  Lightning Labsin Loop Out -palvelu mahdollistaa varojen siirtämisen Lightning-kanavalta on-chain-lohkoketjuun, optimoiden näin vastaanottokapasiteettia samalla kun bitcoineja noudetaan pääketjusta.
+arvioitu: false

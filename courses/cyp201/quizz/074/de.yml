@@ -1,0 +1,8 @@
+Frage: Welches Präfix oder HRP entspricht einer SegWit-Standardadresse?
+Antwort: "bc"
+Falsche Antworten:
+  - "1"
+  - "0x"
+  - "btc"
+Erklärung: |
+  Das Präfix "bc" wird für SegWit-Adressen im Bitcoin-Hauptnetz verwendet.

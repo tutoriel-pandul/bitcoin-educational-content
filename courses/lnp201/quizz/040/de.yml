@@ -1,0 +1,9 @@
+Frage: Was ist die Hauptaufgabe des sendenden Knotens beim Routing im Lightning-Netzwerk?
+Antwort: Berechnung der kompletten Route zum Empfänger
+falsche_Antworten:
+  - Speicherung der Liquiditätsinformationen aller Kanäle des Netzwerks
+  - Festlegung der Transaktionsgebühren für jeden Zwischenknoten
+  - Direkte Kommunikation mit allen Zwischenknoten
+Erklärung: |
+  Der sendende Knoten ist dafür verantwortlich, die gesamte Route zum Empfänger zu berechnen, da Zwischenknoten nur ihren unmittelbaren Nachbarn kennen.
+überprüft: false

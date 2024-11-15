@@ -1,0 +1,8 @@
+câu hỏi: Hệ thống số nào thường được sử dụng để mã hóa khóa mở rộng trước khi trình bày cho người dùng?
+câu trả lời: Trong Base 58.
+câu trả lời sai:
+  - Trong bech32.
+  - Trong Base 16.
+  - Trong bech32m.
+giải thích: |
+  Khóa mở rộng thường được mã hóa trong Base 58 để dễ đọc hơn cho người dùng và tránh những ký tự gây nhầm lẫn.

@@ -1,0 +1,9 @@
+pregunta: ¿Qué es una dirección de recepción (en general)?
+respuesta: Un hash de una clave pública con metadatos colocados en un formato específico.
+respuestas_incorrectas:
+  - Un hash de una clave privada con metadatos colocados en un formato específico.
+  - Un hash de una clave extendida con metadatos colocados en un formato específico.
+  - Un hash de un código de cadena con metadatos.
+explicación: |
+  Una dirección de recepción es generalmente un hash de una clave pública asociada con metadatos, utilizada en un scriptPubKey para establecer condiciones.
+revisado: false

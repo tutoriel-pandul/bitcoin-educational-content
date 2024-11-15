@@ -1,0 +1,8 @@
+pergunta: O que a chave de revogação permite fazer em caso de trapaça?
+resposta: Recuperar todos os fundos punindo o trapaceiro
+respostas_erradas:
+  - Cancelar a transação de compromisso
+  - Dobrar a capacidade do canal
+  - Prevenir quaisquer transações futuras no canal
+explicação: |
+  A chave de revogação permite à parte lesada recuperar todos os fundos no evento de uma tentativa de trapaça pela outra parte.

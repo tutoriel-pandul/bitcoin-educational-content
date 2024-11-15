@@ -1,0 +1,9 @@
+Frage: Wie wird der Aufbau der SHA256-Hashfunktion genannt?
+Antwort: Merkle-Damgård-Konstruktion.
+falsche_Antworten:
+  - Schwammkonstruktion.
+  - Iterative Hashfunktionen Konstruktion (HAIFA).
+  - Feistel-Konstruktion.
+Erklärung: |
+  SHA256 verwendet die Merkle-Damgård-Konstruktion, eine Struktur, die häufig verwendet wird, um sichere Hashfunktionen zu erstellen.
+überprüft: false

@@ -1,0 +1,8 @@
+câu hỏi: Nếu tuân theo BIP39, kích thước của hạt giống ví HD là bao nhiêu?
+câu trả lời: 512 bit.
+câu trả lời sai:
+  - 32 byte.
+  - 1024 bit.
+  - 512 byte.
+giải thích: |
+  Theo BIP39, hạt giống của ví HD là 512 bit, được tạo ra từ cụm từ ghi nhớ và cụm từ mật khẩu.

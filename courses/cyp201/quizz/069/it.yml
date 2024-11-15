@@ -1,0 +1,9 @@
+domanda: Cosa indica il seguente percorso di derivazione? m/44'/0'/0'/0/0
+risposta: Un indirizzo Legacy esterno sulla rete principale.
+risposte_errate:
+  - Un indirizzo SegwitV1 esterno sulla rete principale.
+  - Un indirizzo Legacy interno sulla rete di test.
+  - Un indirizzo SegwitV0 esterno sulla rete principale.
+spiegazione: |
+  Il percorso di derivazione m/44'/0'/0'/0/0 indica un indirizzo Legacy esterno sulla rete principale (mainnet). 44' = Legacy, 0' = mainnet, 0 = esterno
+recensito: false

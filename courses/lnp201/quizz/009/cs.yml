@@ -1,0 +1,9 @@
+otázka: Co dělá uzamykací skript v Bitcoinové transakci?
+odpověď: Ukládá specifické podmínky pro utracení přidružených prostředků
+špatné_odpovědi:
+  - Automaticky posílá prostředky na více adres
+  - Určuje hodnotu UTXO, která má být vytvořena
+  - Dočasně uzamkne prostředky, aby zabránil nadměrným výdajům
+vysvětlení: |
+  Uzamykací skript ukládá podmínky, jako je podepsání soukromým klíčem, aby bylo možné prostředky v transakci odemknout a použít.
+recenzováno: false

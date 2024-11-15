@@ -1,0 +1,7 @@
+kysymys: Totta vai tarua? "Jos haluaa optimoida yksityisyytensä, ei tulisi käyttää samaa osoitetta useita kertoja."
+vastaus: Totta.
+vaarat_vastaukset:
+  - Tarua.
+selitys: |
+  Saman osoitteen uudelleenkäyttö heikentää yksityisyyttä paljastamalla linkit eri transaktioiden välillä lohkoketjussa.
+arvioitu: false

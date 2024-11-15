@@ -1,0 +1,9 @@
+Frage: Welche Funktion wird verwendet, um einen Kind-Schlüssel von einem Eltern-Schlüssel in Bitcoin abzuleiten?
+Antwort: HMAC-SHA512.
+falsche_Antworten:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+Erklärung: |
+  Die Funktion HMAC-SHA512 wird verwendet, um Kind-Schlüssel von Eltern-Schlüsseln in Bitcoin HD-Wallets abzuleiten.
+überprüft: false

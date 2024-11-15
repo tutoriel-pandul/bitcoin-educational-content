@@ -1,0 +1,9 @@
+otázka: Z čeho se skládá operace konkatenace?
+odpověď: Z umístění dvou operandů za sebou.
+špatné_odpovědi:
+  - Sčítání dvou operandů.
+  - Dělení dvou operandů.
+  - Odečítání dvou operandů.
+vysvětlení: |
+  Konkatenace zahrnuje umístění dvou operandů jeden za druhým bez jejich modifikace, široce používané v kryptografii.
+recenzováno: false

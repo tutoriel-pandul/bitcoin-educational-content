@@ -1,0 +1,9 @@
+domanda: Per eseguire una derivazione di una coppia di chiavi figlio normale, devo inserire nella funzione HMAC-SHA512...
+risposta: chiave pubblica genitore || indice, codice catena genitore.
+risposte_errate:
+  - chiave privata genitore || indice, codice catena genitore.
+  - chiave privata genitore, codice catena genitore.
+  - chiave privata genitore || indice.
+spiegazione: |
+  Per derivare una chiave figlio normale, si utilizza la chiave pubblica del genitore con l'indice e il codice catena nella funzione HMAC-SHA512.
+recensito: false

@@ -1,0 +1,9 @@
+domanda: Come costruire la frase di recupero (mnemonica) in binario?
+risposta: Concatena il numero casuale con il suo checksum alla fine.
+risposte_errate:
+  - Concatena il numero casuale con il suo checksum all'inizio.
+  - Concatena il numero casuale con un seed.
+  - Dividi il numero casuale in due parti e inserisci il checksum nel mezzo.
+spiegazione: |
+  Per generare una frase mnemonica binaria, concatena il checksum alla fine del numero casuale prima di convertirlo in parole.
+revisionato: false

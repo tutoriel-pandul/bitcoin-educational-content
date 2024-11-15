@@ -1,0 +1,9 @@
+domanda: In cosa consiste l'operazione di concatenazione?
+risposta: Mettere due operandi uno di seguito all'altro.
+risposte_errate:
+  - Sommare due operandi.
+  - Dividere due operandi.
+  - Sottrarre due operandi.
+spiegazione: |
+  La concatenazione prevede di posizionare due operandi uno dopo l'altro senza modificarli, ampiamente utilizzata in crittografia.
+revisionato: false

@@ -1,0 +1,9 @@
+câu hỏi: Trong đường dẫn phái sinh ví HD, độ sâu 0 tương ứng với gì?
+câu trả lời: Khóa chính.
+câu trả lời sai:
+  - Khóa mở rộng.
+  - Các địa chỉ nhận.
+  - Loại tiền tệ.
+giải thích: |
+  Độ sâu 0 trong đường dẫn phái sinh tương ứng với khóa chính, đây là điểm xuất phát cho tất cả các phái sinh trong một ví HD.
+đã xem xét: false

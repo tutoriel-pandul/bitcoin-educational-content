@@ -1,0 +1,8 @@
+pergunta: Como deve ser escolhida uma frase-senha eficaz?
+resposta: Deve ser longa, diversificada e aleatória, sem conexão com o usuário.
+respostas_erradas:
+  - Deve ser fácil de lembrar e relacionada ao ambiente do usuário.
+  - Deve ser curta, mas incluir números.
+  - Deve conter pelo menos 10 dígitos.
+explicação: |
+  Uma frase-senha eficaz deve ser longa (20 a 40 caracteres), diversificada e aleatória para proporcionar máxima segurança, semelhante a uma boa senha.

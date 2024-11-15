@@ -1,0 +1,8 @@
+pergunta: Qual é o tamanho de uma chave pública Bitcoin não comprimida, incluindo seu prefixo?
+resposta: 520 bits.
+respostas_erradas:
+  - 512 bytes.
+  - 256 bits.
+  - 512 bits.
+explicação: |
+  Uma chave pública Bitcoin não comprimida com seu prefixo é de 520 bits, compreendendo as coordenadas x e y do ponto na curva elíptica.

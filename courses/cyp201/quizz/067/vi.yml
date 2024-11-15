@@ -1,0 +1,9 @@
+câu hỏi: Đường dẫn phái sinh sau đây chỉ ra điều gì? m/84'/0'/1'/0/7
+câu trả lời: Một địa chỉ SegwitV0 bên ngoài trên mạng chính.
+câu trả lời sai:
+  - Một địa chỉ SegwitV1 bên ngoài trên mạng chính.
+  - Một địa chỉ Legacy bên trong trên mạng thử nghiệm.
+  - Một địa chỉ Legacy bên ngoài trên mạng chính.
+giải thích: |
+  Đường dẫn phái sinh m/84'/0'/1'/0/7 chỉ ra một địa chỉ SegwitV0 bên ngoài trên mạng chính (mainnet). 84' = SegWit v0, 0' = mạng chính, 1 = bên ngoài
+đã xem xét: false

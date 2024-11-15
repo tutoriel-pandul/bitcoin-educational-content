@@ -1,0 +1,9 @@
+otázka: Co se stane, pokud je kanál s aktivním HTLC násilně uzavřen?
+odpověď: HTLC je zahrnuto v transakcích závazku jako výstup.
+špatné_odpovědi:
+  - HTLC je automaticky zrušeno.
+  - Prostředky jsou přerozděleny předchozím uzlům.
+  - Kanál nemůže být uzavřen, dokud HTLC nevyprší.
+vysvětlení: |
+  Při nuceném uzavření jsou nevyřízené HTLC reprezentovány jako výstupy v transakcích závazku, čímž je zajištěno jejich provedení nebo vrácení podle definovaných podmínek.
+recenzováno: false

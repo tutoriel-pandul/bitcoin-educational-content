@@ -1,0 +1,9 @@
+câu hỏi: Tính năng "LNURL-withdraw" cho phép người dùng làm gì?
+câu trả lời: Rút tiền từ một dịch vụ bằng cách quét mã QR
+câu trả lời sai:
+  - Thực hiện thanh toán trực tiếp mà không cần phí định tuyến
+  - Kết nối ví Lightning của họ mà không cần mật khẩu
+  - Gửi tiền mà không cần xác nhận từ người nhận
+giải thích: |
+  LNURL-withdraw cho phép người dùng rút tiền từ một dịch vụ bằng cách quét mã QR, từ đó đơn giản hóa quá trình rút tiền.
+đã xem xét: false

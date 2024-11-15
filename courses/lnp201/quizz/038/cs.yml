@@ -1,0 +1,9 @@
+otázka: Jakou roli hraje časový zámek v provozu HTLC?
+odpověď: Poskytuje časový rámec pro dokončení platby před zrušením
+špatné_odpovědi:
+  - Zvyšuje kapacitu použitého kanálu
+  - Přidává vrstvu soukromí k transakci
+  - Ukládá dodatečné poplatky za každý prostřednický uzel
+vysvětlení: |
+  Časový zámek stanovuje časový rámec pro dokončení HTLC, což umožňuje obnovu finančních prostředků, pokud transakce neuspěje, zrušením platby po tomto období.
+recenzováno: false

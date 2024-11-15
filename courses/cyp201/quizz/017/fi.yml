@@ -1,0 +1,9 @@
+kysymys: Mikä on digitaalisten allekirjoitusten käytön tavoite Bitcoinissa?
+vastaus: Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan yksityisen avaimen, paljastamatta kyseistä yksityistä avainta.
+väärät_vastaukset:
+  - Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan julkisen avaimen, paljastamatta kyseistä julkista avainta.
+  - Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan vastaanotto-osoitteen, paljastamatta kyseistä vastaanotto-osoitetta.
+  - Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan lompakon.
+selitys: |
+  Digitaaliset allekirjoitukset Bitcoinissa mahdollistavat sen todistamisen, että käyttäjä omistaa yksityisen avaimen, joka on yhdistetty julkiseen avaimen, paljastamatta kyseistä yksityistä avainta.
+arvioitu: false

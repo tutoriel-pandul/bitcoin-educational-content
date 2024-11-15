@@ -1,0 +1,9 @@
+otázka: Proč Alice vytváří transakci pro výběr peněz před publikováním transakce vkladu?
+odpověď: Aby mohla získat zpět své peníze v případě problému s Bobem
+špatné_odpovědi:
+  - Aby zvýšila kapacitu kanálu s každou transakcí
+  - Aby mohla okamžitě provést Lightning transakci po otevření
+  - Aby umožnila Bobovi přímo utratit peníze
+vysvětlení: |
+  Alice vytváří transakci pro výběr peněz, aby mohla získat zpět své peníze, pokud by došlo k problému s Bobem, čímž zajišťuje bezpečnost svého vkladu.
+recenzováno: false

@@ -1,0 +1,9 @@
+question: What are the two types of child key derivation in an HD wallet?
+answer: Normal derivation and hardened derivation.
+wrong_answers:
+  - Simple derivation and complex derivation.
+  - Elliptic derivation and curve derivation.
+  - Static derivation and dynamic derivation.
+explanation: |
+  The two types of derivation are normal derivation, which uses the parent public key, and hardened derivation, which uses the parent private key.
+reviewed: false

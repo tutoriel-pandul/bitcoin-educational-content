@@ -1,0 +1,9 @@
+otázka: Proč je důležité používat dobrý zdroj entropie pro generování soukromých klíčů?
+odpověď: Slabá entropie může způsobit, že soukromé klíče budou předvídatelné a zranitelné vůči útokům.
+špatné_odpovědi:
+  - Dobrá entropie pomáhá optimalizovat výkon peněženky.
+  - Entropie nehraje žádnou roli v bezpečnosti soukromých klíčů.
+  - Slabá entropie zpomaluje transakce.
+vysvětlení: |
+  Pokud je entropie použitá pro generování soukromých klíčů nízká, může to umožnit útočníkovi uhodnout nebo vypočítat tyto klíče, čímž je ohrožena bezpečnost peněženky.
+recenzováno: false

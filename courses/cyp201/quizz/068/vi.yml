@@ -1,0 +1,9 @@
+Câu hỏi: Mục đích của chuỗi bên ngoài trong quá trình phái sinh là gì?
+Câu trả lời: Để cô lập các địa chỉ dự định công khai.
+Câu trả lời sai:
+  - Để cô lập các địa chỉ thay đổi.
+  - Để quản lý các giao dịch đến.
+  - Để tách biệt khóa riêng từ khóa công khai.
+Giải thích: |
+  Chuỗi bên ngoài được sử dụng để phái sinh các địa chỉ dự định công khai, như những địa chỉ dùng để nhận thanh toán.
+Đã xem xét: false

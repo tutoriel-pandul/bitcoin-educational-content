@@ -1,0 +1,9 @@
+kysymys: Mikä funktio käytetään johdettavan lapsiavainparin muodostamiseen vanhemmasta avainparista HD-lompakossa?
+vastaus: HMAC-SHA512.
+väärät_vastaukset:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+selitys: |
+  HMAC-SHA512:tä käytetään lapsiavainparin johdattamiseen vanhemmasta avainparista HD-lompakossa.
+arvioitu: false

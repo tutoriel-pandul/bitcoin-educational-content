@@ -1,0 +1,9 @@
+question: How is a Bitcoin private key determined?
+answer: It is determined from a random or pseudo-random number.
+wrong_answers:
+  - It is determined by addition and doubling points on the elliptic curve from its public key.
+  - It is determined by hashing its public key.
+  - It is determined by the SHA-256 algorithm.
+explanation: |
+  A Bitcoin private key is generated in a random or pseudo-random manner, which ensures its uniqueness and security.
+reviewed: false

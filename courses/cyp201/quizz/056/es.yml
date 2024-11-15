@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el propósito de la clave extendida?
+respuesta: Reunir toda la información necesaria para derivar claves secundarias en una sola cadena.
+respuestas_incorrectas:
+  - Reunir toda la información necesaria para reconstruir una billetera HD completa en una sola cadena.
+  - Reunir información sobre los UTXOs en la billetera.
+  - Reunir la frase mnemotécnica y la contraseña en un solo formato.
+explicación: |
+  Una clave extendida permite contener toda la información necesaria para derivar claves secundarias, simplificando así la gestión de cuentas en una billetera HD.
+revisado: false

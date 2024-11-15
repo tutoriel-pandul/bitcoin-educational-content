@@ -1,0 +1,9 @@
+domanda: Quali sono i due tipi di derivazione di chiavi figlio in un portafoglio HD?
+risposta: Derivazione normale e derivazione rinforzata.
+risposte_errate:
+  - Derivazione semplice e derivazione complessa.
+  - Derivazione ellittica e derivazione curva.
+  - Derivazione statica e derivazione dinamica.
+spiegazione: |
+  I due tipi di derivazione sono la derivazione normale, che utilizza la chiave pubblica genitore, e la derivazione rinforzata, che utilizza la chiave privata genitore.
+reviewed: false

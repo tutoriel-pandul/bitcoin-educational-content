@@ -1,0 +1,9 @@
+Frage: Was ist eine JBOK-Wallet im Kontext von Bitcoin?
+Antwort: Eine Wallet, die zufällig bestimmte private Schlüssel zusammenfasst, ohne eine Verbindung zwischen ihnen.
+falsche_Antworten:
+  - Eine Wallet, die Schlüssel auf hierarchische Weise aus einem einzigen Seed ableitet.
+  - Eine Wallet, die Schlüssel aus vorherigen Schlüsseln ableitet.
+  - Eine Wallet, die ausschließlich eine mnemonische Phrase verwendet, um Schlüssel abzuleiten.
+Erklärung: |
+  Eine JBOK (Just a Bunch Of Keys) Wallet enthält private Schlüssel, die zufällig und unabhängig voneinander generiert werden, im Gegensatz zu HD-Wallets.
+überprüft: false

@@ -1,0 +1,9 @@
+otázka: Co umožňuje Lightning Network ve srovnání s tradičními transakcemi na Bitcoinovém blockchainu?
+odpověď: Rychlé transakce s minimálními poplatky
+nesprávné_odpovědi:
+  - Anonymní a nevystopovatelné transakce
+  - Transakce ve velkém množství bez limitů objemu
+  - Transakce mezi různými blockchainy
+vysvětlení: |
+  Lightning Network umožňuje rychlé a nízkonákladové transakce prostřednictvím platebních kanálů mimo blockchain, což se liší od běžných transakcí na blockchainu.
+recenzováno: false

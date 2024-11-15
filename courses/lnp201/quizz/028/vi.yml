@@ -1,0 +1,9 @@
+câu hỏi: Bob có thể làm gì nếu phát hiện Alice cố gắng gian lận trong quá trình đóng kênh?
+câu trả lời: Sử dụng khóa thu hồi để lấy lại toàn bộ số tiền
+câu trả lời sai:
+  - Hủy bỏ giao dịch cam kết của Alice
+  - Đóng vĩnh viễn kênh mà không có tùy chọn mở lại
+  - Chỉ yêu cầu một nửa số tiền có sẵn
+giải thích: |
+  Trong trường hợp gian lận, Bob có thể sử dụng khóa thu hồi để lấy lại toàn bộ số tiền từ kênh, như vậy sẽ trừng phạt Alice vì cố gắng gian lận.
+đã xem xét: false

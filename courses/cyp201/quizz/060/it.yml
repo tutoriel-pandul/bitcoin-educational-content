@@ -1,0 +1,9 @@
+domanda: Qual è la funzione utilizzata per derivare una coppia di chiavi figlio da una coppia di chiavi genitore all'interno di un portafoglio HD?
+risposta: HMAC-SHA512.
+risposte_errate:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+spiegazione: |
+  HMAC-SHA512 è utilizzato per derivare una coppia di chiavi figlio da una coppia di chiavi genitore in un portafoglio HD.
+revisionato: false

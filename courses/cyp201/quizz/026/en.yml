@@ -1,0 +1,9 @@
+question: Why is it important to never reuse a nonce in the ECDSA algorithm?
+answer: Reusing a nonce compromises security and can expose the private key.
+wrong_answers:
+  - Reusing a nonce slows down performance.
+  - Reusing a nonce makes the signatures longer.
+  - Reusing a nonce increases the size of the public key.
+explanation: |
+  Reusing a nonce in ECDSA can allow an attacker to discover the private key, compromising security.
+reviewed: false

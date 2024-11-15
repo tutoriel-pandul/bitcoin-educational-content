@@ -1,0 +1,8 @@
+domanda: In quale BIP viene proposta l'idea della frase di recupero, o frase mnemonica (12/24 parole)?
+risposta: BIP39.
+risposte_errate:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+spiegazione: |
+  BIP39 ha introdotto la frase mnemonica di recupero di 24 parole, per facilitare il backup delle chiavi per gli utenti di portafogli HD.

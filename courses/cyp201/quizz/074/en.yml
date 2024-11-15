@@ -1,0 +1,8 @@
+question: What prefix or HRP corresponds to a SegWit standard address?
+answer: "bc"
+wrong_answers:
+  - "1"
+  - "0x"
+  - "btc"
+explanation: |
+  The prefix "bc" is used for SegWit addresses on the Bitcoin mainnet.

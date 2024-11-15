@@ -1,0 +1,9 @@
+otázka: Jaký je cíl kryptografického hašovacího procesu?
+odpověď: Přiřadit bitový řetězec libovolné délky k bitovému řetězci pevné délky.
+špatné_odpovědi:
+  - Zašifrovat zprávu.
+  - Zajistit, že odesílatel zprávy nemůže v budoucnu popřít, že zprávu odeslal.
+  - Zaručit důvěrnost dat.
+vysvětlení: |
+  Hašování transformuje data jakékoli velikosti na výstup pevné velikosti, což je užitečné pro ověření integrity bez nutnosti šifrování nebo autentizace dat.
+recenzováno: false

@@ -1,0 +1,8 @@
+kysymys: Laajennetun julkisen avaimen avulla voin johtaa...
+vastaus: ...tavallisia lapsen julkisia avaimia.
+väärät_vastaukset:
+  - ...vahvistettuja lapsen julkisia avaimia.
+  - ...tavallisia lapsen yksityisiä avaimia.
+  - ...vahvistettuja lapsen yksityisiä avaimia.
+selitys: |
+  Laajennettu julkinen avain mahdollistaa vain tavallisten lapsen julkisten avainten johdannan, mutta ei yksityisiä avaimia.

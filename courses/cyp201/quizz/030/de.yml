@@ -1,0 +1,8 @@
+Frage: Was ist die Hauptfunktion eines Bitcoin-Wallets?
+Antwort: Kryptographische Schlüsselpaare zu speichern.
+falsche_Antworten:
+  - Bitcoins zu speichern.
+  - UTXOs zu speichern.
+  - Transaktionen zu speichern.
+Erklärung: |
+  Ein Bitcoin-Wallet speichert nicht direkt Bitcoins, sondern kryptographische Schlüsselpaare, die verwendet werden, um UTXOs zu verwalten und auszugeben.

@@ -1,0 +1,9 @@
+Câu hỏi: Tại sao không thể lấy lại khóa riêng từ một chữ ký số hợp lệ?
+Câu trả lời: Chữ ký dựa trên các phép toán không thể đảo ngược trên đường cong elliptic.
+Câu trả lời sai:
+  - Khóa riêng được mã hóa trước khi sử dụng.
+  - Hạt giống bảo vệ khóa riêng.
+  - Việc băm tin nhắn ngăn chặn việc lấy lại khóa riêng.
+Giải thích: |
+  Các phép toán trên đường cong elliptic là không thể đảo ngược, đảm bảo rằng không thể suy luận khóa riêng từ chữ ký.
+Đã xem xét: false

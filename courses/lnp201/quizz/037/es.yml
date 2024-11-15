@@ -1,0 +1,9 @@
+pregunta: ¿Qué sucede si un pago a través de HTLC no se completa dentro del tiempo asignado?
+respuesta: El pago se cancela y los fondos regresan al remitente.
+respuestas_incorrectas:
+  - El pago es retenido por el último nodo intermediario
+  - Los fondos se distribuyen a todos los nodos en el camino
+  - Los fondos quedan bloqueados permanentemente
+explicación: |
+  Si un HTLC expira sin que se revele el secreto, el pago se cancela y los fondos regresan al remitente, evitando así que cualquier nodo intermediario pueda quedarse con los fondos.
+revisado: false

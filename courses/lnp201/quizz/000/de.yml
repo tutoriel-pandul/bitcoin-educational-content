@@ -1,0 +1,9 @@
+Frage: Was ist das Hauptziel des Lightning-Netzwerks?
+Antwort: Die Skalierbarkeit von Bitcoin zu verbessern, um schnelle und kostengünstige Zahlungen zu ermöglichen
+falsche_Antworten:
+  - Transaktionsgebühren auf der Bitcoin-Blockchain eliminieren
+  - Eine Alternative zu Bitcoin für hochwertige Zahlungen schaffen
+  - Austausche zwischen verschiedenen Kryptowährungen vereinfachen
+Erklärung: |
+  Das Lightning-Netzwerk zielt darauf ab, die Skalierbarkeit von Bitcoin zu erhöhen, indem es schnelle und preiswerte Transaktionen durch Off-Chain-Zahlungskanäle ermöglicht.
+überprüft: false

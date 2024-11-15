@@ -1,0 +1,9 @@
+question: How is the checksum of a Legacy address calculated?
+answer: With HASH256.
+wrong_answers:
+  - With HASH160.
+  - With a BCH code.
+  - With RIPEMD160.
+explanation: |
+  For Legacy addresses, the checksum is obtained by performing a double hash with the SHA256 function (HASH256).
+reviewed: false

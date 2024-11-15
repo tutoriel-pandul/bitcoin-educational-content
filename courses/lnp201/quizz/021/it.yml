@@ -1,0 +1,9 @@
+domanda: Come protegge il timelock dal barare nelle transazioni di impegno?
+risposta: Impedisce alla parte inadempiente di recuperare immediatamente i propri fondi
+risposte_errate:
+  - Rimborsa automaticamente i fondi al truffatore
+  - Annulla la transazione in caso di tentativo di truffa
+  - Blocca l'uso della chiave di revoca
+spiegazione: |
+  Il timelock impone un ritardo durante il quale il truffatore non può recuperare i propri fondi, dando così all'altra parte l'opportunità di rispondere.
+recensito: false

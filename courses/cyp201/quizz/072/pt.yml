@@ -1,0 +1,8 @@
+pergunta: Qual é a função usada para gerar um endereço?
+resposta: HASH160.
+respostas_erradas:
+  - HASH256.
+  - HASH512.
+  - SHA256.
+explicação: |
+  A função HASH160, que combina SHA256 e RIPEMD-160, é usada para gerar endereços Bitcoin a partir de chaves públicas.

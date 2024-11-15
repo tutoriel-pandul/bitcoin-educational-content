@@ -1,0 +1,9 @@
+Frage: Wie groß ist die Ausgabegröße der SHA256-Hashfunktion?
+Antwort: 256 Bits.
+falsche_Antworten:
+  - 256 Bytes.
+  - 512 Bits.
+  - 512 Bytes.
+Erklärung: |
+  SHA-256 erzeugt eine feste Ausgabegröße von 256 Bits, unabhängig von der Größe der Eingabedaten.
+überprüft: false

@@ -1,0 +1,8 @@
+pergunta: Em qual BIP a ideia da frase de recuperação, ou frase mnemônica (12/24 palavras), foi proposta?
+resposta: BIP39.
+respostas_erradas:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+explicação: |
+  BIP39 introduziu a frase mnemônica de 24 palavras, para facilitar o backup de chaves para os usuários de carteiras HD.

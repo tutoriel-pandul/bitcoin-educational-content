@@ -1,0 +1,8 @@
+kysymys: Mitä tietoa lasketaan siemenestä soveltamalla HMAC-SHA512:tä?
+vastaus: Lompakon pääavain ja pääketjukoodi.
+väärät_vastaukset:
+  - Lompakon laajennettu avain.
+  - Lompakon xpub ja xprv.
+  - Yksityisen avaimen allekirjoituskoodi.
+selitys: |
+  Siemenestä HMAC-SHA512 johdetaan pääavain ja pääketjukoodi, jotka ovat avainten luonnin perusta.

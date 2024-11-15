@@ -1,0 +1,9 @@
+pergunta: Qual é o papel das taxas de roteamento na Lightning Network?
+resposta: Incentivar nós intermediários a fornecerem sua liquidez para a transferência de pagamentos
+respostas_erradas:
+  - Limitar o número de transações na rede
+  - Garantir que cada canal tenha fundos suficientes
+  - Calcular automaticamente o caminho mais curto
+explicação: |
+  As taxas de roteamento são usadas para compensar nós intermediários que retransmitem pagamentos ao oferecerem sua liquidez para possibilitar a transferência de fundos através da rede.
+revisado: false

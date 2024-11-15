@@ -1,0 +1,9 @@
+question: What does the payload of an extended key consist of?
+answer: A public or private key, and the associated chain code.
+wrong_answers:
+  - A private key and the associated public key.
+  - A chain code, a public key, and a private key.
+  - A private key and a derivation index.
+explanation: |
+  The payload of an extended key includes either a public or private key, along with a chain code used to derive child keys.
+reviewed: false

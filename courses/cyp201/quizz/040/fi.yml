@@ -1,0 +1,8 @@
+kysymys: Mikä on ainutlaatuinen piirre 2048 sanan listassa, joka mahdollistaa mnemonisen koodauksen?
+vastaus: Yksikään sana ei ala samoilla neljällä kirjaimella samassa järjestyksessä.
+vaarat_vastaukset:
+  - Yksikään sana ei pääty samoihin kolmeen kirjaimeen.
+  - Yksikään sana ei ala kirjaimella “J”.
+  - Yksikään sana ei ole yli kuusi kirjainta pitkä.
+selitys: |
+  Tämä piirre auttaa välttämään mahdollisen epäselvyyden sanoja syötettäessä, varmistaen näin jokaisen sanan ainutlaatuisuuden listalla, samalla vähentäen tarvittavaa tallennustilaa.

@@ -1,0 +1,9 @@
+pergunta: Quantos bits são reservados para o preenchimento pelo tamanho na função SHA256?
+resposta: 64 bits.
+respostas_erradas:
+  - 128 bits.
+  - 256 bits.
+  - 512 bits.
+explicação: |
+  O SHA256 reserva 64 bits para preenchimento, o que representa o tamanho inicial da mensagem antes do preenchimento.
+revisado: false

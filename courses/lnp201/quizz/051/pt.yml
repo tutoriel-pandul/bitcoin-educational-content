@@ -1,0 +1,9 @@
+pergunta: O que a técnica de abertura de triângulo permite que os nós participantes alcancem?
+resposta: Liquidez de entrada e saída em cada canal
+respostas_erradas:
+  - Taxas de roteamento reduzidas
+  - Um número ilimitado de transações sem confirmação
+  - Um link direto com todos os outros nós da rede
+explicação: |
+  A técnica de abertura de triângulo permite que cada nó alcance liquidez balanceada, tanto de entrada quanto de saída, formando um loop de canais entre vários participantes.
+revisado: false

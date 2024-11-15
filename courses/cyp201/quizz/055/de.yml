@@ -1,0 +1,9 @@
+Frage: Woraus besteht die Nutzlast eines erweiterten Schlüssels?
+Antwort: Ein öffentlicher oder privater Schlüssel und der zugehörige Chain-Code.
+falsche_Antworten:
+  - Ein privater Schlüssel und der zugehörige öffentliche Schlüssel.
+  - Ein Chain-Code, ein öffentlicher Schlüssel und ein privater Schlüssel.
+  - Ein privater Schlüssel und ein Ableitungsindex.
+Erklärung: |
+  Die Nutzlast eines erweiterten Schlüssels umfasst entweder einen öffentlichen oder privaten Schlüssel, zusammen mit einem Chain-Code, der zur Ableitung von Kinderschlüsseln verwendet wird.
+überprüft: false

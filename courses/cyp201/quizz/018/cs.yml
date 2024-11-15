@@ -1,0 +1,9 @@
+otázka: Kde jsou uloženy soukromé klíče?
+odpověď: V Bitcoinových peněženkách
+nesprávné_odpovědi:
+  - Na blockchainu
+  - Na serverech Bitcoinové komunity.
+  - Na peer-to-peer síti.
+vysvětlení: |
+  Peněženka obsahuje soukromé klíče nezbytné pro přístup k bitcoinům.
+recenzováno: false

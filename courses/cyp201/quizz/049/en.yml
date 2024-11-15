@@ -1,0 +1,9 @@
+question: How should an effective passphrase be chosen?
+answer: It should be long, diverse, and random, with no connection to the user.
+wrong_answers:
+  - It should be easy to remember and related to the user's environment.
+  - It should be short but include numbers.
+  - It should contain at least 10 digits.
+explanation: |
+  An effective passphrase should be long (20 to 40 characters), diverse, and random to provide maximum security, similar to a good password.
+reviewed: false

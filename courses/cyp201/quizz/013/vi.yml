@@ -1,0 +1,9 @@
+câu hỏi: Tiền tố "0x" có ý nghĩa gì?
+câu trả lời: Số theo sau tiền tố này được biểu diễn ở cơ số 16 (hệ thập lục phân).
+câu trả lời sai:
+  - Số theo sau tiền tố này được biểu diễn ở cơ số 2 (nhị phân).
+  - Số theo sau tiền tố này được biểu diễn ở cơ số 10 (thập phân).
+  - Số theo sau tiền tố này được biểu diễn ở cơ số 8 (bát phân).
+giải thích: |
+  Tiền tố "0x" chỉ ra rằng số theo sau nó được biểu diễn ở cơ số 16 (hệ thập lục phân).
+đã xem xét: false

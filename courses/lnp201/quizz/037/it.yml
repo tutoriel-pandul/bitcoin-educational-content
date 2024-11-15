@@ -1,0 +1,9 @@
+domanda: Cosa succede se un pagamento tramite HTLC non viene completato entro il tempo assegnato?
+risposta: Il pagamento viene annullato e i fondi ritornano al mittente.
+risposte_errate:
+  - Il pagamento viene trattenuto dall'ultimo nodo intermediario
+  - I fondi vengono distribuiti a tutti i nodi nel percorso
+  - I fondi vengono bloccati permanentemente
+spiegazione: |
+  Se un HTLC scade senza che il segreto venga rivelato, il pagamento viene annullato e i fondi ritornano al mittente, impedendo così a qualsiasi nodo intermediario di trattenere i fondi.
+revisionato: false

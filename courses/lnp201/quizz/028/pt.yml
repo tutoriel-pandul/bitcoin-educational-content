@@ -1,0 +1,9 @@
+pergunta: O que Bob pode fazer se detectar uma tentativa de Alice de trapacear durante o fechamento do canal?
+resposta: Usar a chave de revogação para recuperar todos os fundos
+respostas_erradas:
+  - Cancelar a transação de compromisso de Alice
+  - Fechar permanentemente o canal sem opção de reabertura
+  - Reivindicar apenas metade dos fundos disponíveis
+explicação: |
+  No caso de trapaça, Bob pode usar a chave de revogação para recuperar todos os fundos do canal, assim punindo Alice por sua tentativa.
+revisado: false

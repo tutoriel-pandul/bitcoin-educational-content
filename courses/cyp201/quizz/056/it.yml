@@ -1,0 +1,9 @@
+domanda: Qual è lo scopo della chiave estesa?
+risposta: Raccogliere tutte le informazioni necessarie per derivare le chiavi figlie in un'unica stringa.
+risposte_errate:
+  - Raccogliere tutte le informazioni necessarie per ricostruire un intero portafoglio HD in un'unica stringa.
+  - Raccogliere informazioni sui UTXO presenti nel portafoglio.
+  - Raccogliere la frase mnemonica e la passphrase in un unico formato.
+spiegazione: |
+  Una chiave estesa permette di contenere tutte le informazioni necessarie per derivare le chiavi figlie, semplificando così la gestione degli account in un portafoglio HD.
+recensito: false

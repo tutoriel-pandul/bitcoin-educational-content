@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el método de cierre de canal más económico y rápido?
+respuesta: Cierre cooperativo
+respuestas_incorrectas:
+  - Cierre forzado
+  - Cierre con engaño
+  - Ninguno es más económico y rápido
+explicación: |
+  El cierre cooperativo es el método más rápido y económico porque ambas partes acuerdan cerrar el canal, ajustando las tarifas según las condiciones del mercado.
+revisado: false

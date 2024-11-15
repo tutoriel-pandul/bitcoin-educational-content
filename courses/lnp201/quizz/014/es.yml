@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el último paso para abrir un canal en la Red Lightning?
+respuesta: Publicar la transacción de depósito en la blockchain de Bitcoin
+respuestas_incorrectas:
+  - Firmar una transacción de retiro para recuperar los fondos
+  - Enviar un mensaje de confirmación de la apertura a la otra parte
+  - Verificar el saldo de fondos de cada participante
+explicación: |
+  El último paso para abrir un canal es publicar la transacción de depósito en la blockchain, lo que oficialmente abre el canal.
+revisado: false

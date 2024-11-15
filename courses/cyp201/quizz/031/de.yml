@@ -1,0 +1,8 @@
+Frage: Wie werden Schlüsselpaare in einem hierarchisch deterministischen (HD) Wallet bestimmt?
+Antwort: Alle Schlüsselpaare im Wallet werden auf deterministische und hierarchische Weise aus einem einzigartigen Informationsstück an der Basis des Wallets bestimmt.
+falsche_Antworten:
+  - Alle Schlüsselpaare im Wallet werden unabhängig voneinander, zufällig, durch einen Zufallszahlengenerator bestimmt.
+  - Jedes Schlüsselpaar im Wallet wird deterministisch aus dem vorherigen Schlüsselpaar bestimmt.
+  - Die Schlüsselpaare sind alle zufällig und ohne hierarchische Verbindung.
+Erklärung: |
+  In HD-Wallets werden alle Schlüssel von einem einzigartigen Informationsstück abgeleitet, das als "Seed" bezeichnet wird, was eine hierarchische und deterministische Verwaltung von Schlüsseln ermöglicht.

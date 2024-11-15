@@ -1,0 +1,8 @@
+Frage: Wenn BIP39 befolgt wird, wie groß ist der Seed eines HD-Wallets?
+Antwort: 512 Bits.
+falsche_Antworten:
+  - 32 Bytes.
+  - 1024 Bits.
+  - 512 Bytes.
+Erklärung: |
+  Gemäß BIP39 ist der Seed eines HD-Wallets 512 Bits groß, abgeleitet aus der mnemonischen Phrase und dem Passwort.

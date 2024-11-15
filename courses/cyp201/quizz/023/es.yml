@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es el tamaño de una clave pública de Bitcoin sin comprimir incluyendo su prefijo?
+respuesta: 520 bits.
+respuestas_incorrectas:
+  - 512 bytes.
+  - 256 bits.
+  - 512 bits.
+explicación: |
+  Una clave pública de Bitcoin sin comprimir con su prefijo es de 520 bits, comprendiendo las coordenadas x e y del punto en la curva elíptica.

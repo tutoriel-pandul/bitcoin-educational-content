@@ -1,0 +1,9 @@
+domanda: Se genero un numero casuale di 128 bit, qual sarà la dimensione della mia frase di recupero in parole?
+risposta: 12 parole.
+risposte_errate:
+  - 6 parole.
+  - 8 parole.
+  - 24 parole.
+spiegazione: |
+  Un numero casuale di 128 bit corrisponde a una frase mnemonica di 12 parole, seguendo lo standard BIP39.
+revisionato: false

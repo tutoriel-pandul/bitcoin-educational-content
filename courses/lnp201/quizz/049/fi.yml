@@ -1,0 +1,9 @@
+kysymys: Mikä on Lightning-laskun ensisijainen toiminto?
+vastaus: Pyytää maksua lähettävältä solmulta
+väärät_vastaukset:
+  - Lähetä varoja ilman on-chain siirtoa
+  - Aktivoi HTLC:t kanavalla
+  - Avaa uuden Lightning-kanavan
+selitys: |
+  Lightning-lasku on maksupyyntö, jonka vastaanottava solmu lähettää lähettävälle solmulle aloittaakseen maksun Lightning-verkossa.
+arvioitu: false

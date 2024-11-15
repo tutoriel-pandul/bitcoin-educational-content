@@ -1,0 +1,9 @@
+Frage: Wann wird eine Commitment-Transaktion auf der Bitcoin-Blockchain veröffentlicht?
+Antwort: Letztendlich, wenn der Kanal geschlossen wird
+falsche_Antworten:
+  - Unmittelbar nach jeder Übertragung im Kanal
+  - Vor jeder neuen Commitment-Transaktion
+  - Wenn die verfügbaren Mittel erschöpft sind
+Erklärung: |
+  Commitment-Transaktionen werden für jede Änderung in der Zuteilung erstellt und signiert, aber sie werden letztendlich nur im Falle einer Kanalschließung auf der Blockchain veröffentlicht.
+überprüft: false

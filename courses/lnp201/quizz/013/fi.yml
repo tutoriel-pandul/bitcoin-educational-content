@@ -1,0 +1,9 @@
+kysymys: Mitä tapahtuu, jos Alice ei saa Bobin allekirjoitusta nostotapahtumaan?
+vastaus: Hän riskeeraa menettävänsä pääsynsä varoihinsa, jotka on talletettu moniallekirjoitusosoitteeseen
+väärät_vastaukset:
+  - Hän ei voi enää kommunikoida Bobin kanssa Lightning-verkossa
+  - Kanava avautuu rajoitetulla kapasiteetilla
+  - Bob saa automaattisesti kanavassa olevat varat
+selitys: |
+  Ilman Bobin allekirjoitusta nostotapahtumassa Alice ei voi varmistaa varojensa palautumista ongelmatilanteessa, mikä aiheuttaa menetysriskin.
+arvioitu: false

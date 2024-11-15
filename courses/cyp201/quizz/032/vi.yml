@@ -1,0 +1,8 @@
+câu hỏi: BIP (Đề xuất Cải tiến Bitcoin) nào đã đề xuất phiên bản đầu tiên của một ví HD trên Bitcoin?
+câu trả lời: BIP32.
+câu trả lời sai:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+giải thích: |
+  BIP32, được đề xuất vào năm 2012, là đề xuất đầu tiên giới thiệu khái niệm về ví xác định phân cấp (HD) trong Bitcoin.

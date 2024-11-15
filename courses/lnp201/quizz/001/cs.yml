@@ -1,0 +1,9 @@
+otázka: Co je "kapacita" platebního kanálu?
+odpověď: Celková částka finančních prostředků, které mohou dva účastníci vyměnit
+špatné_odpovědi:
+  - Časový limit, po který může kanál zůstat otevřený
+  - Maximální částka, kterou jeden účastník může poslat v jedné transakci
+  - Počet transakcí, které kanál může podporovat za den
+vysvětlení: |
+  Kapacita kanálu odpovídá celkovým finančním prostředkům obou účastníků a zůstává pevně stanovena, aby určila možné výměny.
+recenzováno: false

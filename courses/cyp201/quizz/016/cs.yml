@@ -1,0 +1,9 @@
+otázka: Abychom mohli použít tuto eliptickou křivku pro kryptografické účely, na jakém poli ji musíme definovat?
+odpověď: Konečné pole kladných celých čísel.
+špatné_odpovědi:
+  - Pole reálných čísel.
+  - Konečné pole reálných čísel.
+  - Komplexní pole.
+vysvětlení: |
+  V Bitcoinu je eliptická křivka secp256k1 definována nad konečným polem kladných celých čísel modulo prvočíslo, aby se zabránilo aproximacím a zajistila bezpečnost.
+posouzeno: false

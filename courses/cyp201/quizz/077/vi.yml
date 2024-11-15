@@ -1,0 +1,8 @@
+câu hỏi: Checksum của một địa chỉ Legacy được tính toán như thế nào?
+câu trả lời: Với HASH256.
+câu trả lời sai:
+  - Với HASH160.
+  - Với một mã BCH.
+  - Với RIPEMD160.
+giải thích: |
+  Đối với các địa chỉ Legacy, checksum được thu được bằng cách thực hiện một phép băm kép với hàm SHA256 (HASH256).

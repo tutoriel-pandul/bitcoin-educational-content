@@ -1,0 +1,9 @@
+question: What is the pseudo-random function used in PBKDF2 to calculate the seed of a Bitcoin HD wallet?
+answer: HMAC-SHA512.
+wrong_answers:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+explanation: |
+  HMAC-SHA512 is the pseudo-random function used in PBKDF2 to generate the seed of a Bitcoin HD wallet.
+reviewed: false

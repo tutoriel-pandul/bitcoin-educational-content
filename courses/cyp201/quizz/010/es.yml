@@ -1,0 +1,8 @@
+pregunta: ¿Cuáles son los algoritmos utilizados para la derivación en las carteras HD de Bitcoin?
+respuesta: HMAC/PBKDF2
+respuestas_incorrectas:
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+explicación: |
+  Las carteras HD de Bitcoin utilizan HMAC (Código de Autenticación de Mensaje basado en Hash) para la derivación de claves y PBKDF2 (Función de Derivación de Clave Basada en Contraseña 2) para la derivación de semillas.

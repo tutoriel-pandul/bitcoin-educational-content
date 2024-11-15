@@ -1,0 +1,9 @@
+domanda: Qual è la condizione necessaria affinché il destinatario di un HTLC riceva i fondi?
+risposta: Deve fornire un segreto (pre-immagine) per sbloccare il pagamento.
+risposte_errate:
+  - Deve accettare le commissioni di instradamento di ogni nodo intermediario.
+  - Deve firmare una nuova transazione di impegno.
+  - Deve attendere la scadenza del timelock prima di recuperare i fondi.
+spiegazione: |
+  Per ricevere i fondi in un HTLC, il destinatario deve fornire un segreto specifico che consente di sbloccare il pagamento assicurato dall'hash.
+recensito: false

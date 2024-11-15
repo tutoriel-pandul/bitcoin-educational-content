@@ -1,0 +1,9 @@
+domanda: Qual è la BIP (Proposta di Miglioramento di Bitcoin) che ha proposto la prima versione di un portafoglio HD su Bitcoin?
+risposta: BIP32.
+risposte_errate:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+spiegazione: |
+  BIP32, proposta nel 2012, è la prima ad introdurre il concetto di portafogli gerarchici deterministici (HD) in Bitcoin.
+revisionato: false

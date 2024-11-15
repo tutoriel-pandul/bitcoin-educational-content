@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es la función pseudoaleatoria utilizada en PBKDF2 para calcular la semilla de una cartera HD de Bitcoin?
+respuesta: HMAC-SHA512.
+respuestas_incorrectas:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+explicación: |
+  HMAC-SHA512 es la función pseudoaleatoria utilizada en PBKDF2 para generar la semilla de una cartera HD de Bitcoin.
+revisado: false

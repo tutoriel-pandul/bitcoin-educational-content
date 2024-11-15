@@ -1,0 +1,9 @@
+kysymys: Mikä BIP (Bitcoin Improvement Proposal) ehdotti ensimmäistä versiota HD-lompakosta Bitcoinissa?
+vastaus: BIP32.
+väärät_vastaukset:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+selitys: |
+  BIP32, joka ehdotettiin vuonna 2012, on ensimmäinen, joka esitteli hierarkkisen deterministisen (HD) lompakoiden konseptin Bitcoinissa.
+arvioitu: false

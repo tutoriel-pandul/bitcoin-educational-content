@@ -1,0 +1,9 @@
+domanda: Nei percorsi di derivazione dei portafogli HD, a cosa corrisponde la profondità 0?
+risposta: La chiave principale.
+risposte_errate:
+  - La chiave estesa.
+  - Gli indirizzi di ricezione.
+  - Il tipo di valuta.
+spiegazione: |
+  La profondità 0 nei percorsi di derivazione corrisponde alla chiave principale, che è il punto di partenza per tutte le derivazioni in un portafoglio HD.
+revisionato: false

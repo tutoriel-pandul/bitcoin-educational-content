@@ -1,0 +1,9 @@
+question: Where are private keys stored?
+answer: In Bitcoin wallets
+wrong_answers:
+  - On the blockchain
+  - On Bitcoin community servers.
+  - On the peer-to-peer network.
+explanation: |
+  The wallet contains the private keys necessary to access bitcoins.
+reviewed: false

@@ -1,0 +1,9 @@
+domanda: Cosa riflette una transazione di impegno in un canale Lightning?
+risposta: La nuova distribuzione dei fondi tra le due parti
+risposte_errate:
+  - Il numero totale delle transazioni effettuate
+  - L'importo delle commissioni da pagare per la transazione
+  - L'apertura di un nuovo canale di pagamento
+spiegazione: |
+  Una transazione di impegno rappresenta l'attuale distribuzione dei fondi nel canale dopo ogni transazione Lightning, ma non viene pubblicata sulla blockchain finché il canale rimane aperto.
+recensito: false

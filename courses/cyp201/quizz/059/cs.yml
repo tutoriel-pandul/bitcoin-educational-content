@@ -1,0 +1,9 @@
+otázka: V jaké číselné soustavě je obvykle zakódován rozšířený klíč, aby byl prezentován uživateli?
+odpověď: V Base 58.
+nesprávné_odpovědi:
+  - V bech32.
+  - V Base 16.
+  - V bech32m.
+vysvětlení: |
+  Rozšířený klíč je obecně zakódován v Base 58, aby byl pro uživatele čitelnější a aby se vyhnul nejednoznačným znakům.
+recenzováno: false

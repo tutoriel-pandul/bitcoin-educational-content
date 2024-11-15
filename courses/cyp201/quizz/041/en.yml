@@ -1,0 +1,9 @@
+question: If I generate a 128-bit random number, what will be the size of my recovery phrase in words?
+answer: 12 words.
+wrong_answers:
+  - 6 words.
+  - 8 words.
+  - 24 words.
+explanation: |
+  A 128-bit random number corresponds to a 12-word mnemonic phrase, following the BIP39 standard.
+reviewed: false

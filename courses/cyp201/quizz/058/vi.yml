@@ -1,0 +1,13 @@
+Câu hỏi: Metadata nào được thêm vào khóa mở rộng ngoài payload của nó?
+
+Câu trả lời: Phiên bản / độ sâu / dấu vân tay của cha mẹ / chỉ số / mã kiểm tra.
+
+Câu trả lời sai:
+  - Phiên bản / chỉ số.
+  - Phiên bản / độ sâu / dấu phân cách / mã kiểm tra.
+  - Không có metadata nào được thêm vào.
+
+Giải thích:
+  Khóa mở rộng bao gồm một số phần metadata. Có phiên bản, độ sâu, dấu vân tay của cha mẹ, chỉ số, và mã kiểm tra để hỗ trợ việc phát sinh khóa.
+
+Đã xem xét: false

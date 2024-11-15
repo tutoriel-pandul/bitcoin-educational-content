@@ -1,0 +1,9 @@
+Frage: Was kann Bob tun, wenn er einen Versuch von Alice entdeckt, während des Kanalschlusses zu betrügen?
+Antwort: Den Widerrufsschlüssel verwenden, um alle Gelder zurückzuholen
+falsche_Antworten:
+  - Alices Commitment-Transaktion abbrechen
+  - Den Kanal dauerhaft schließen ohne die Möglichkeit, ihn wieder zu öffnen
+  - Nur die Hälfte der verfügbaren Gelder beanspruchen
+Erklärung: |
+  Im Falle eines Betrugs kann Bob den Widerrufsschlüssel verwenden, um alle Gelder aus dem Kanal zurückzuholen und somit Alice für ihren Versuch zu bestrafen.
+überprüft: false

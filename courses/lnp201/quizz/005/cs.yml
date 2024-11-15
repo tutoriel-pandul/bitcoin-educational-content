@@ -1,0 +1,9 @@
+otázka: Jaká je hlavní role soukromého klíče v systému Bitcoin?
+odpověď: Podepisování transakcí pro splnění skriptu
+špatné_odpovědi:
+  - Sloužit jako identifikátor pro přijímání bitcoinů
+  - Bezpečné ukládání prostředků na blockchainu
+  - Vytváření zamykacích skriptů pro ochranu bitcoinů
+vysvětlení: |
+  Soukromý klíč se používá k podepisování transakcí pro splnění skriptu a odemknutí bitcoinů.
+recenzováno: false

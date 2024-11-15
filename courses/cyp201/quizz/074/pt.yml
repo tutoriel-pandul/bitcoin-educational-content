@@ -1,0 +1,8 @@
+pergunta: Qual prefixo ou HRP corresponde a um endereço padrão SegWit?
+resposta: "bc"
+respostas_erradas:
+  - "1"
+  - "0x"
+  - "btc"
+explicação: |
+  O prefixo "bc" é usado para endereços SegWit na rede principal do Bitcoin.

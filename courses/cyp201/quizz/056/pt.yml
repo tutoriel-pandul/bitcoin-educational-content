@@ -1,0 +1,9 @@
+pergunta: Qual é o propósito da chave estendida?
+resposta: Reunir todas as informações necessárias para derivar chaves filhas em uma única string.
+respostas_erradas:
+  - Reunir todas as informações necessárias para reconstruir uma carteira HD inteira em uma única string.
+  - Reunir informações sobre os UTXOs na carteira.
+  - Reunir a frase mnemônica e a senha em um único formato.
+explicação: |
+  Uma chave estendida permite que todas as informações necessárias para derivar chaves filhas sejam contidas, simplificando assim o gerenciamento de contas em uma carteira HD.
+revisado: false

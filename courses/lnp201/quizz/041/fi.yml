@@ -1,0 +1,9 @@
+kysymys: Miksi lähettävän solmun on vaikea arvioida kanavan tarkan likviditeetin?
+vastaus: Koska vain kaksi osallistujaa tietää varojen tarkan jakautumisen
+vaarat_vastaukset:
+  - Koska kanavien kokonaiskapasiteetti muuttuu jatkuvasti
+  - Koska välisolmujen maksut eivät ole julkisia
+  - Koska kanavat sulkeutuvat automaattisesti jokaisen siirron jälkeen
+selitys: |
+  Tarkan varojen jakautumisen kanavassa näkevät vain kaksi osallistuvaa solmua, mikä estää muita solmuja arvioimasta saatavilla olevaa likviditeettiä reititystä varten.
+arvioitu: false

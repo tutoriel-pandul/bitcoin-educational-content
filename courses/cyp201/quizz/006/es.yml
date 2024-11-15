@@ -1,0 +1,8 @@
+pregunta: ¿Cuántos bits se reservan para el relleno por tamaño en la función SHA256?
+respuesta: 64 bits.
+respuestas_incorrectas:
+  - 128 bits.
+  - 256 bits.
+  - 512 bits.
+explicación: |
+  SHA256 reserva 64 bits para el relleno, lo que representa el tamaño inicial del mensaje antes del relleno.

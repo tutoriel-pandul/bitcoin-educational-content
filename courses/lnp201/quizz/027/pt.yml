@@ -1,0 +1,9 @@
+pergunta: Por que o fechamento forçado é menos desejável?
+resposta: É mais lento e as taxas podem ser inapropriadas
+respostas_erradas:
+  - Requer autorização de Satoshi Nakamoto
+  - Força a recriação de um canal mais tarde
+  - Impede o uso da chave de revogação
+explicação: |
+  O fechamento forçado é menos desejável porque inclui um bloqueio de tempo, o que retarda o processo, e as taxas podem ser inapropriadas, pois foram definidas no momento da criação do canal.
+revisado: false

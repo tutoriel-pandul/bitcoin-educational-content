@@ -1,0 +1,9 @@
+otázka: Jaká funkce se používá k odvození dětského klíčového páru z rodičovského klíčového páru v HD peněžence?
+odpověď: HMAC-SHA512.
+nesprávné_odpovědi:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+vysvětlení: |
+  HMAC-SHA512 se používá k odvození dětského klíčového páru z rodičovského klíčového páru v HD peněžence.
+recenzováno: false

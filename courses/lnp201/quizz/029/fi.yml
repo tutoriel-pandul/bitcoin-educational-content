@@ -1,0 +1,8 @@
+kysymys: Missä tilanteessa kanavan pakotettu sulkeminen käytetään?
+vastaus: Kun toinen osapuolista ei enää vastaa
+väärät_vastaukset:
+  - Kun kanavan kapasiteettia tarvitsee kasvattaa
+  - Kun aikalukko on riittämätön
+  - Kun siirtomaksut ovat liian korkeat
+selitys: |
+  Pakotettu sulkeminen käytetään viimeisenä keinona, jos toinen osapuolista esimerkiksi teknisen ongelman vuoksi ei enää vastaa toisen viesteihin.

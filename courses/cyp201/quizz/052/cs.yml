@@ -1,0 +1,9 @@
+otázka: Jaká pseudonáhodná funkce se používá v PBKDF2 pro výpočet seedu Bitcoin HD peněženky?
+odpověď: HMAC-SHA512.
+nesprávné_odpovědi:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+vysvětlení: |
+  HMAC-SHA512 je pseudonáhodná funkce používaná v PBKDF2 pro generování seedu Bitcoin HD peněženky.
+recenzováno: false

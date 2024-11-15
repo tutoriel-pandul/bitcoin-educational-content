@@ -1,0 +1,9 @@
+otázka: Jaký je hlavní cíl HTLC v Lightning Network?
+odpověď: Umožnit bezpečné převody plateb prostřednictvím zprostředkujících uzlů bez nutnosti důvěřovat jim
+špatné_odpovědi:
+  - Snížit transakční poplatky za každou platbu prostřednictvím zprostředkujících uzlů
+  - Zvýšit kapacitu každého platebního kanálu
+  - Zřídit přímá spojení mezi všemi uzly sítě s jejich důvěrou
+vysvětlení: |
+  HTLC (Hashed Time-Locked Contracts) zajišťují, že každý zprostředkující uzel převede platbu bez zadržení finančních prostředků, jelikož je může odemknout pouze dokončením transakce až k finálnímu příjemci.
+recenzováno: false

@@ -1,0 +1,8 @@
+kysymys: Mikä on "Nonce" kryptografiassa?
+vastaus: Numero, joka on tarkoitettu käytettäväksi vain kerran.
+väärät_vastaukset:
+  - Parillinen numero.
+  - Digitaalinen allekirjoitus.
+  - Numero, jota voidaan käyttää uudelleen.
+selitys: |
+  Nonce on numero, jota käytetään kerran kryptografisissa toiminnoissa, varmistaen tiettyjen arvojen yksilöllisyyden algoritmeissa.

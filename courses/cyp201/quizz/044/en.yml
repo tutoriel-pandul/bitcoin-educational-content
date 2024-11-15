@@ -1,0 +1,9 @@
+question: How to construct the recovery phrase (mnemonic) in binary?
+answer: Concatenate the random number with its checksum at the end.
+wrong_answers:
+  - Concatenate the random number with its checksum at the beginning.
+  - Concatenate the random number with a seed.
+  - Divide the random number into two parts and insert the checksum in the middle.
+explanation: |
+  To generate a binary mnemonic phrase, concatenate the checksum to the end of the random number before converting into words.
+reviewed: false

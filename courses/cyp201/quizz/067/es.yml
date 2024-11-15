@@ -1,0 +1,9 @@
+pregunta: ¿Qué indica el siguiente camino de derivación? m/84'/0'/1'/0/7
+respuesta: Una dirección SegwitV0 externa en la red principal.
+respuestas_incorrectas:
+  - Una dirección SegwitV1 externa en la red principal.
+  - Una dirección Legacy interna en la red de pruebas.
+  - Una dirección Legacy externa en la red principal.
+explicación: |
+  El camino de derivación m/84'/0'/1'/0/7 indica una dirección SegwitV0 externa en la red principal (mainnet). 84' = SegWit v0, 0' = red principal, 1 = externo
+revisado: false

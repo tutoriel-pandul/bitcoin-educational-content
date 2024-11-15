@@ -1,0 +1,8 @@
+pergunta: Como o timelock protege contra trapaças em transações de compromisso?
+resposta: Ele impede que a parte infratora recupere seus fundos imediatamente
+respostas_erradas:
+  - Ele automaticamente reembolsa os fundos para o trapaceiro
+  - Ele cancela a transação em caso de tentativa de trapaça
+  - Ele bloqueia o uso da chave de revogação
+explicação: |
+  O timelock impõe um atraso durante o qual o trapaceiro não pode recuperar seus fundos, dando assim à outra parte a oportunidade de responder.

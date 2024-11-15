@@ -1,0 +1,9 @@
+pergunta: Dentro do protocolo Bitcoin, o que é um HASH256?
+resposta: Um hash SHA256 duplo.
+respostas_erradas:
+  - Um hash Keccak-256 duplo.
+  - Um hash SHA256 seguido por um hash RIPEMD160.
+  - Um único hash SHA256.
+explicação: |
+  Um HASH256 é um hash SHA256 duplo, o que significa que a função SHA256 é aplicada uma vez a um pedaço de dados, e então uma segunda vez ao resultado da primeira.
+revisado: false

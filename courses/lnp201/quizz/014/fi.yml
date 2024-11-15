@@ -1,0 +1,9 @@
+kysymys: Mikä on viimeinen vaihe kanavan avaamiseksi Lightning-verkossa?
+vastaus: Julkaise talletustransaktio Bitcoin-lohkoketjussa
+väärät_vastaukset:
+  - Allekirjoita varojen palautustransaktio
+  - Lähetä vahvistusviesti avauksesta toiselle osapuolelle
+  - Tarkista kunkin osallistujan varojen saldo
+selitys: |
+  Kanavan avaamisen viimeinen vaihe on talletustransaktion julkaiseminen lohkoketjussa, mikä virallisesti avaa kanavan.
+arvioitu: false

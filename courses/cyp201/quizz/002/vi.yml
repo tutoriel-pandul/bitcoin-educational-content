@@ -1,0 +1,9 @@
+Câu hỏi: Các hàm băm nào được sử dụng trong giao thức Bitcoin?
+Câu trả lời: SHA-256, RIPEMD-160
+Câu trả lời sai:
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+Giải thích: |
+  Trong Bitcoin, SHA-256 và RIPEMD-160 được sử dụng.
+Đã xem xét: false

@@ -1,0 +1,9 @@
+Frage: Warum verstärkt die Verwendung einer Passphrase die Sicherheit eines HD-Wallets?
+Antwort: Sie fügt der mnemonischen Phrase eine zusätzliche Schutzebene hinzu.
+falsche_Antworten:
+  - Es ermöglicht die Erzeugung stärkerer öffentlicher Schlüssel.
+  - Es schützt Transaktionen kryptografisch.
+  - Es verdoppelt die Anzahl der Bitcoins im Wallet.
+Erklärung: |
+  Die Passphrase erhöht die Sicherheit, indem sie ein zusätzliches Datenstück zur mnemonischen Phrase hinzufügt und wirkt somit ähnlich wie eine 2FA.
+überprüft: false

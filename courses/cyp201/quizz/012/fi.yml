@@ -1,0 +1,8 @@
+kysymys: Kuinka monta iteraatiota käytetään PBKDF2-funktiossa Bitcoinissa?
+vastaus: 2048.
+väärät_vastaukset:
+  - 512.
+  - 1000.
+  - 21000.
+selitys: |
+  Bitcoin käyttää 2048 iteraatiota PBKDF2-funktiossa siemenen turvallisuuden parantamiseksi.

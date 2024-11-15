@@ -1,0 +1,9 @@
+pregunta: Para realizar una derivación de un par de claves hijo normal, debo introducir en la función HMAC-SHA512...
+respuesta: clave pública del padre || índice, código de cadena del padre.
+respuestas_incorrectas:
+  - clave privada del padre || índice, código de cadena del padre.
+  - clave privada del padre, código de cadena del padre.
+  - clave privada del padre || índice.
+explicación: |
+  Para derivar una clave hijo normal, se utiliza la clave pública del padre con el índice y el código de cadena en la función HMAC-SHA512.
+revisado: false

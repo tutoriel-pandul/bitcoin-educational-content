@@ -1,0 +1,8 @@
+pregunta: ¿Qué prefijo o HRP corresponde a una dirección estándar SegWit?
+respuesta: "bc"
+respuestas_incorrectas:
+  - "1"
+  - "0x"
+  - "btc"
+explicación: |
+  El prefijo "bc" se utiliza para direcciones SegWit en la red principal de Bitcoin.

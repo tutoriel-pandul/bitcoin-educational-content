@@ -1,0 +1,9 @@
+kysymys: Mikä on ensimmäinen askel Lightning-kanavan avaamisessa kahden osapuolen välillä?
+vastaus: Viestien vaihto, jotka sisältävät summat ja julkiset avaimet
+väärät_vastaukset:
+  - Talletustransaktion välitön julkaiseminen lohkoketjussa
+  - 2/2 moniallekirjoitusosoitteen luominen ilman aiempaa vaihtoa
+  - Nostotransaktion allekirjoittaminen ennen julkisten avainten vaihtoa
+selitys: |
+  Kanavan avaaminen alkaa viestien vaihdolla kahden osapuolen välillä, joissa he jakavat sitoumukseensa kuuluvat summat ja julkiset avaimensa.
+arvioitu: false

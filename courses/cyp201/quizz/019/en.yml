@@ -1,0 +1,9 @@
+question: What is the most well-known elliptical curve used in cryptographic systems?
+answer: secp256r1.
+wrong_answers:
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
+explanation: |
+  The elliptical curve secp256r1 is widely used in many cryptographic systems, but Bitcoin uses the curve secp256k1.
+reviewed: false

@@ -1,0 +1,9 @@
+kysymys: Mikä on HASH256 Bitcoin-protokollassa?
+vastaus: Kahden SHA256-hassin yhdistelmä.
+väärät_vastaukset:
+  - Kahden Keccak-256-hassin yhdistelmä.
+  - SHA256-hassi seurattuna RIPEMD160-hassilla.
+  - Yksittäinen SHA256-hassi.
+selitys: |
+  HASH256 on kahden SHA256-hassin yhdistelmä, mikä tarkoittaa, että SHA256-funktiota sovelletaan kerran tietoerään, ja sitten toisen kerran ensimmäisen tulokseen.
+arvioitu: false

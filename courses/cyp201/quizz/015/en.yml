@@ -1,0 +1,9 @@
+question: What is the name of the elliptical curve used for digital signature algorithms in Bitcoin?
+answer: secp256k1.
+wrong_answers:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+explanation: |
+  The secp256k1 curve is used in the Bitcoin protocol for digital signatures.
+reviewed: false

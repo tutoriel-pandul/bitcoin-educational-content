@@ -1,0 +1,9 @@
+otázka: Jaká je role LNURL v transakcích Lightning?
+odpověď: Zjednodušit interakci mezi uzly a aplikacemi Lightning
+špatné_odpovědi:
+  - Umožnit vytváření kanálů pro každou platbu
+  - Zajistit důvěrnost informací o platbě
+  - Automaticky vypočítat poplatky za transakci
+vysvětlení: |
+  LNURL je komunikační protokol navržený k zjednodušení interakcí, jako jsou výběry a platby, mezi uzly a aplikacemi Lightning.
+recenzováno: false

@@ -1,0 +1,9 @@
+otázka: Co představuje heslová fráze v HD peněžence?
+odpověď: Volitelný kryptografický sůl libovolné velikosti.
+špatné_odpovědi:
+  - 25. slovo ve mnemotechnické frázi.
+  - Povinný kryptografický sůl pevné velikosti.
+  - Druhé semínko.
+vysvětlení: |
+  Heslová fráze je volitelný kryptografický sůl, který zvyšuje bezpečnost peněženky přidáním dodatečných informací k mnemotechnické frázi pro určení semínka.
+recenzováno: false

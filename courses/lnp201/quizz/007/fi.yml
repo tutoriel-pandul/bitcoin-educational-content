@@ -1,0 +1,9 @@
+kysymys: Miksi UTXO:ja usein verrataan seteleihin?
+vastaus: Ne on käytettävä kokonaisuudessaan
+väärät_vastaukset:
+  - Niitä voidaan käyttää useita kertoja, kunnes ne on käytetty loppuun
+  - Ne ovat käytettävissä vain tietyissä erityistransaktioissa
+  - Ne edustavat pieniä, kiinteitä määriä bitcoineja
+selitys: |
+  Kuten setelin, UTXO on käytettävä kokonaan transaktiossa, ja mahdollinen ylimäärä palautetaan lähettäjälle "vaihtorahana".
+arvioitu: false

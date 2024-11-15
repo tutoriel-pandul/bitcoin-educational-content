@@ -1,0 +1,8 @@
+câu hỏi: Nếu tôi tạo ra một số ngẫu nhiên 256-bit, cụm từ khôi phục của tôi sẽ có kích thước bao nhiêu từ?
+câu trả lời: 24 từ.
+câu trả lời sai:
+  - 6 từ.
+  - 8 từ.
+  - 12 từ.
+giải thích: |
+  Một số ngẫu nhiên 256-bit tương ứng với một cụm từ ghi nhớ 24 từ theo tiêu chuẩn BIP39.

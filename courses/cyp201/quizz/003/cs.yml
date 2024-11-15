@@ -1,0 +1,9 @@
+otázka: Co je v protokolu Bitcoinu HASH160?
+odpověď: SHA256 hash následovaný RIPEMD160 hashem.
+špatné_odpovědi:
+  - Dvojitý RIPEMD160 hash.
+  - Dvojitý SHA256 hash.
+  - MD5 hash následovaný SHA256 hashem.
+vysvětlení: |
+  HASH160 kombinuje SHA256 hash následovaný RIPEMD160, používá se zejména pro generování Bitcoinových adres.
+recenzováno: false

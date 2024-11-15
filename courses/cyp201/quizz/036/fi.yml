@@ -1,0 +1,9 @@
+kysymys: Mikä on PRNG?
+vastaus: Algoritmi, joka luo satunnaisia numeroita siemenestä ja muunnosfunktiosta.
+vaarat_vastaukset:
+  - Laitteisto, joka luo todella satunnaisia numeroita.
+  - Generaattori, joka tuottaa satunnaisia numeroita ilman siementä.
+  - Algoritmi, joka luo ennustettavia numeroita.
+selitys: |
+  PRNG luo pseudo-satunnaisia numeroita siemenestä, mutta toisin kuin TRNG, se ei ole todella satunnainen.
+arvioitu: false

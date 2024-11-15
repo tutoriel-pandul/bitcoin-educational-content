@@ -1,0 +1,9 @@
+kysymys: Mikä rajoittaa välillisen maksun määrää Lightning-verkossa?
+vastaus: Pienin saatavilla oleva likviditeetti valitun reitin kanavassa
+väärät_vastaukset:
+  - Välisolmujen määrä
+  - Lightning-verkon kokonaiskapasiteetti
+  - Kunkin solmun asettamat reititysmaksut
+selitys: |
+  Suurin määrä, jonka välillinen maksu voi siirtää, riippuu käytettyjen kanavien alhaisimmasta saatavilla olevasta likviditeetistä, sillä jokaisen kanavan on sopeutettava varat kummallakin puolella.
+arvioitu: false

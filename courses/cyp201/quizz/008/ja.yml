@@ -1,0 +1,9 @@
+question: SHA256圧縮関数は何ラウンドで構成されていますか？
+answer: 64ラウンド。
+wrong_answers:
+  - 10ラウンド。
+  - 128ラウンド。
+  - 150ラウンド。
+explanation: |
+  SHA256圧縮関数は、処理される各データブロックについて64ラウンドを実行します。
+reviewed: false

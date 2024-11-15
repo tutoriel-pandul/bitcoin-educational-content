@@ -1,0 +1,9 @@
+Frage: Was passiert, wenn eine Zahlung über HTLC nicht innerhalb der vorgesehenen Zeit abgeschlossen wird?
+Antwort: Die Zahlung wird storniert und die Gelder gehen an den Absender zurück.
+falsche_Antworten:
+  - Die Zahlung wird vom letzten Zwischenknotenpunkt behalten
+  - Die Gelder werden an alle Knotenpunkte im Pfad verteilt
+  - Die Gelder werden dauerhaft gesperrt
+Erklärung: |
+  Wenn ein HTLC abläuft, ohne dass das Geheimnis offenbart wird, wird die Zahlung storniert und die Gelder gehen an den Absender zurück, was verhindert, dass irgendein Zwischenknotenpunkt die Gelder behalten kann.
+überprüft: false

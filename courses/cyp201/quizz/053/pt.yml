@@ -1,0 +1,8 @@
+pergunta: Que informação é calculada a partir da semente ao aplicar HMAC-SHA512?
+resposta: A chave mestre e o código de cadeia mestre da carteira.
+respostas_erradas:
+  - A chave estendida da carteira.
+  - O xpub e xprv da carteira.
+  - O código de assinatura da chave privada.
+explicação: |
+  A partir da semente, o HMAC-SHA512 deriva a chave mestre e o código de cadeia mestre, que são a base para a geração de chaves.

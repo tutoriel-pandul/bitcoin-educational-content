@@ -1,0 +1,9 @@
+kysymys: Mikä on laajennetun avaimen tarkoitus?
+vastaus: Kerätä kaikki tarvittavat tiedot lapsiavainten johdannaisiin yhteen merkkijonoon.
+väärät_vastaukset:
+  - Kerätä kaikki tarvittavat tiedot koko HD-lompakon uudelleenrakentamiseen yhteen merkkijonoon.
+  - Kerätä tietoja lompakon UTXO:ista.
+  - Kerätä muistisana ja salasana yhteen muotoon.
+selitys: |
+  Laajennettu avain mahdollistaa kaikkien tarvittavien tietojen sisällyttämisen lapsiavainten johdannaisiin, mikä yksinkertaistaa tilien hallintaa HD-lompakossa.
+arvioitu: false

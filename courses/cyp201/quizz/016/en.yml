@@ -1,0 +1,9 @@
+question: In order to apply this elliptical curve to cryptographic uses, on what field must we define it?
+answer: A finite field of positive integers.
+wrong_answers:
+  - The field of real numbers.
+  - A finite field of real numbers.
+  - A complex field.
+explanation: |
+  In Bitcoin, the elliptical curve secp256k1 is defined over a finite field of positive integers modulo a prime number to avoid approximations and ensure security.
+reviewed: false

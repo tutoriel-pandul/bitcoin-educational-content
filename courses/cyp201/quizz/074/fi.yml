@@ -1,0 +1,8 @@
+kysymys: Mikä etuliite tai HRP vastaa SegWit-standardin osoitetta?
+vastaus: "bc"
+vaarat_vastaukset:
+  - "1"
+  - "0x"
+  - "btc"
+selitys: |
+  Etuliitettä "bc" käytetään SegWit-osoitteissa Bitcoinin pääverkossa.

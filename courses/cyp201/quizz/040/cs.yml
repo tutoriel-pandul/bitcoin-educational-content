@@ -1,0 +1,9 @@
+otázka: Jaká je unikátní vlastnost seznamu 2048 slov umožňující mnemonické kódování?
+odpověď: Žádné slovo nemá stejné první čtyři písmena ve stejném pořadí.
+špatné_odpovědi:
+  - Žádné slovo nemá stejná poslední tři písmena.
+  - Žádné slovo nezačíná písmenem „J“.
+  - Žádné slovo není delší než šest písmen.
+vysvětlení: |
+  Tato vlastnost pomáhá vyhnout se jakékoli nejednoznačnosti při zadávání slov, čímž zajišťuje jedinečnost každého slova v seznamu, a zároveň snižuje potřebný úložný prostor.
+recenzováno: false

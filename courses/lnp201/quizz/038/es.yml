@@ -1,0 +1,9 @@
+pregunta: ¿Qué papel desempeña el timelock en la operación de los HTLCs?
+respuesta: Proporciona un plazo para completar el pago antes de su cancelación
+respuestas_incorrectas:
+  - Aumenta la capacidad del canal utilizado
+  - Añade una capa de privacidad a la transacción
+  - Aplica tarifas adicionales por cada nodo intermediario
+explicación: |
+  El timelock impone un plazo para completar un HTLC, lo que permite la recuperación de fondos si la transacción no tiene éxito, cancelando el pago después de este período.
+revisado: false

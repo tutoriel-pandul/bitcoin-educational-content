@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es la información primitiva que permite determinar una buena frase mnemotécnica para una cartera HD?
+respuesta: Una entropía externa que permite determinar un número aleatorio o pseudoaleatorio.
+respuestas_incorrectas:
+  - El primer nombre del propietario de la cartera.
+  - Ninguna información, elegimos directamente las palabras que nos gustan.
+  - La fecha de creación de la cartera.
+explicación: |
+  La frase mnemotécnica se deriva de una fuente de entropía, lo que significa información aleatoria o pseudoaleatoria, para asegurar la seguridad de las claves privadas.

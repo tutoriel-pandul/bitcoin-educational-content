@@ -1,0 +1,8 @@
+pergunta: Em qual sistema numérico a chave estendida é geralmente codificada para ser apresentada ao usuário?
+resposta: Em Base 58.
+respostas_erradas:
+  - Em bech32.
+  - Em Base 16.
+  - Em bech32m.
+explicação: |
+  A chave estendida é geralmente codificada em Base 58 para ser mais legível para o usuário e evitar caracteres ambíguos.

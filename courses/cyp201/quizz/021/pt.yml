@@ -1,0 +1,9 @@
+pergunta: Qual é o tamanho de uma chave privada Bitcoin?
+resposta: 256 bits.
+respostas_erradas:
+  - 512 bytes.
+  - 520 bits.
+  - 512 bits.
+explicação: |
+  A chave privada Bitcoin possui um tamanho padrão de 256 bits, correspondendo ao algoritmo de curva elíptica usado no Bitcoin.
+revisado: false

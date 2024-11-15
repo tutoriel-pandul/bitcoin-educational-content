@@ -1,0 +1,8 @@
+kysymys: Mitä tapahtuu, jos käytän HD-lompakkoa salasanan kanssa ja kadotan kyseisen salasanan?
+vastaus: Bitcoinini ovat menetettyjä ikuisesti.
+väärät_vastaukset:
+  - Ei ole ongelma, voin silti päästä käsiksi bitcoineihini pelkällä mnemonisella fraasillani.
+  - Voin nollata salasanan yksityisavaimellani.
+  - Voin palauttaa bitcoinini käyttämällä lompakkoa ilman salasanaa.
+selitys: |
+  Jos salasana katoaa, pääsy bitcoineihin menetetään pysyvästi, koska se on välttämätön yksityisten avainten johdannaisuuden kannalta.

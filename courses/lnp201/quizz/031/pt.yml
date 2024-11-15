@@ -1,0 +1,9 @@
+pergunta: O que limita a quantidade de um pagamento indireto na Lightning Network?
+resposta: A menor liquidez disponível em um canal do caminho escolhido
+respostas_erradas:
+  - O número de nós intermediários envolvidos
+  - A capacidade total da Lightning Network
+  - As taxas de roteamento definidas por cada nó
+explicação: |
+  O valor máximo que um pagamento indireto pode transferir depende da menor liquidez disponível nos canais utilizados, pois cada canal deve ajustar os fundos de cada lado.
+revisado: false

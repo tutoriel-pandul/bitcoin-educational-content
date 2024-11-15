@@ -1,0 +1,9 @@
+question: What is the purpose of the extended key?
+answer: To gather all the necessary information for deriving child keys into a single string.
+wrong_answers:
+  - To gather all the necessary information for reconstructing an entire HD wallet into a single string.
+  - To gather information about the UTXOs in the wallet.
+  - To gather the mnemonic phrase and passphrase into a single format.
+explanation: |
+  An extended key allows for all the necessary information to derive child keys to be contained, thus simplifying the management of accounts in an HD wallet.
+reviewed: false

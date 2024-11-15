@@ -1,0 +1,9 @@
+domanda: Qual è lo scopo dell'utilizzo delle firme digitali in Bitcoin?
+risposta: Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di una chiave privata, senza rivelare tale chiave privata.
+risposte_errate:
+  - Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di una chiave pubblica, senza rivelare tale chiave pubblica.
+  - Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di un indirizzo di ricezione, senza rivelare tale indirizzo di ricezione.
+  - Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di un portafoglio.
+spiegazione: |
+  Le firme digitali in Bitcoin permettono di dimostrare che un utente possiede la chiave privata associata a una chiave pubblica senza rivelare tale chiave privata.
+recensito: false
