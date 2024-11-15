@@ -1239,6 +1239,10 @@ En conséquence, choisir une phrase de 24 mots n’apporte pas de protection sup
 
 Une phrase de 12 mots, qui offre également 128 bits de sécurité, est donc actuellement suffisante pour protéger vos bitcoins contre toute tentative de vol. Tant que l’algorithme de signature numérique ne change pas pour utiliser des clés grandes ou bien pour reposer sur un autre problème mathématique que l'ECDLP, une phrase de 24 mots demeure superflue. De plus, une phrase plus longue augmente le risque de perte lors de la sauvegarde : une sauvegarde deux fois plus courte est toujours plus facile à gérer.
 
+Pour aller plus loin et découvrir concrètement comment générer manuellement une phrase mnémonique de test, je vous conseille de découvrir ce tutoriel : 
+
+https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+
 Avant de poursuivre la dérivation du portefeuille à partir de cette phrase mnémonique, je vais vous présenter, dans le chapitre suivant, la passphrase BIP39, car celle-ci joue un rôle dans la dérivation, et elle se situe au même niveau que la phrase mnémonique.
 
 ## La passphrase
@@ -1682,6 +1686,8 @@ Chaque compte défini en profondeur 3 est ensuite structuré en deux chaînes :
 
 Enfin, la profondeur 5 représente la dernière étape de dérivation dans le portefeuille. Bien qu’il soit techniquement possible de continuer indéfiniment, les standards actuels s’arrêtent ici. À cette profondeur finale, on dérive donc les paires de clés qui seront effectivement utilisées pour verrouiller et déverrouiller les UTXOs. Chaque index permet de distinguer les paires de clés sœurs : ainsi, la première adresse de réception utilisera l’index $/0/$, la seconde l’index $/1/$, et ainsi de suite.
 
+053
+
 ### Notation des chemins de dérivation
 
 Le chemin de dérivation s’écrit en séparant chaque niveau par une barre oblique ($/$). Chaque barre oblique indique ainsi une dérivation d'une paire de clés parent ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) vers une paire de clés enfant ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Le nombre noté à chaque profondeur correspond à l'index utilisé pour dériver cette clé à partir de ses parents. L’apostrophe ($'$) située parfois à droite de l'index indique une dérivation endurcie ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Parfois, cette apostrophe est remplacée par un "$h$". En l'absence d'apostrophe ou de "$h$", il s'agit donc d'une dérivation normale ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
@@ -1765,145 +1771,133 @@ Ensuite, la notation `/<0;1>/*` spécifie que le descriptor peut générer des a
 
 Enfin, `#jy0l7nr4` représente la somme de contrôle pour vérifier l'intégrité du descriptor.
 
-Vous savez désormais tout sur le fonctionnement du portefeuille HD sur Bitcoin et sur le processus de dérivation des paires de clés. Cependant, dans les derniers chapitres, nous nous sommes limités à la génération des clés privées et publiques, sans aborder la construction des adresses de réception. Ce sera justement l’objet de la prochaine partie !
+Vous savez désormais tout sur le fonctionnement du portefeuille HD sur Bitcoin et sur le processus de dérivation des paires de clés. Cependant, dans les derniers chapitres, nous nous sommes limités à la génération des clés privées et publiques, sans aborder la construction des adresses de réception. Ce sera justement l’objet du prochain chapitre !
+
+## Les adresses de réception
+<chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
+
+Les adresses de réception sont des informations intégrées dans les *scriptPubKey* pour verrouiller des UTXOs nouvellement créés. En termes simples, une adresse sert à recevoir des bitcoins. Explorons leur fonctionnement en lien avec ce que nous avons étudié dans les chapitres précédents.
+
+### Le rôle des adresses Bitcoin dans les scripts
+
+Comme expliqué précédemment, une transaction a pour rôle de transférer la possession des bitcoins des inputs vers les outputs. Ce processus consiste à consommer des UTXOs en inputs tout en créant de nouveaux UTXOs en outputs. Ces UTXOs sont sécurisés par des scripts, qui définissent les conditions nécessaires pour débloquer les fonds.
+
+Lorsqu’un utilisateur reçoit des bitcoins, l’expéditeur crée un UTXO en output et le verrouille avec un *scriptPubKey*. Ce script contient les règles spécifiant généralement les signatures et clés publiques requises pour débloquer cet UTXO. Pour dépenser cet UTXO dans une nouvelle transaction, l’utilisateur doit fournir les informations demandées via un *scriptSig*. L’exécution du *scriptSig* en combinaison avec le *scriptPubKey* doit retourner "vrai" ou `1`. Si cette condition est remplie, l’UTXO peut être dépensé pour créer un nouvel UTXO, lui-même verrouillé par un nouveau *scriptPubKey*, et ainsi de suite.
+
+054
+
+C’est précisément dans le *scriptPubKey* que se trouvent les adresses de réception. Leur utilisation varie cependant en fonction du standard de script adopté. Voici un tableau récapitulatif des informations contenues dans le *scriptPubKey* selon le standard utilisé, ainsi que des informations attendues dans le *scriptSig* pour déverrouiller le *scriptPubKey*.
+
+| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
+| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
+| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
+| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
+| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Données arbitraires |                                          |
+| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
+| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
+| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
+| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
+| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
+| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
+
+*Source : Bitcoin Core PR review club du 7 Juillet 2021 - Gloria Zhao*
+
+Les opcodes utilisés dans un script permettent de manipuler les informations, et, si nécessaire, de les comparer ou de les tester. Prenons l’exemple d’un script P2PKH, qui a la forme suivante :
+
+```txt
+OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
+```
+
+Comme nous allons le voir dans la suite de ce chapitre, `<pubKeyHash>` représente en réalité la charge utile de l’adresse de réception utilisée pour verrouiller l’UTXO. Pour déverrouiller ce *scriptPubKey*, il est nécessaire de fournir un *scriptSig* contenant :
+
+```txt
+<signature> <public key>
+```
+
+Dans le langage script, la "pile" est une structure de données de type "*LIFO*" ("*Last In, First Out*") utilisée pour stocker temporairement des éléments pendant l'exécution du script. Chaque opération du script manipule cette pile, où les éléments peuvent être ajoutés (*push*) ou retirés (*pop*). Les scripts exploitent ces piles pour évaluer des expressions, stocker des variables temporaires et gérer des conditions.
+
+L'exécution du script que je viens de vous donner en exemple suit donc ce processus :
+
+- On a le *scriptSig*, le *ScriptPubKey* et la pile :
+
+055
+
+- Le *scriptSig* est poussé sur la pile :
+
+056
+
+- `OP_DUP` duplique la clé publique fournie dans le *scripSig* sur la pile :
+
+057
+
+- `OP_HASH160` renvoie le hachage de la clé publique qui vient d'être dupliquée :
+
+058
+
+- `OP_PUSHBYTES_20 <pubKeyHash>` pousse l'adresse Bitcoin contenue dans le *scriptPubKey* sur la pile :
+
+059
+
+- `OP_EQUALVERIFY` vérifie que la clé publique hachée correspond à l'adresse de réception fournie :
+
+060
+
+- `OP_CHECKSIG` vérifie la signature contenue dans le *scriptSig* à partir de la clé publique. Cet opcode exécute essentiellement une vérification de signature telle que nous l'avons décrite dans la partie 3 de cette formation :
+
+061
+
+- S'il reste `1` sur la pile, alors le script est valide :
+
+062
+
+Donc pour résumer, ce script permet de vérifier, à l’aide de la signature numérique, que l’utilisateur revendiquant la propriété de cet UTXO et souhaitant le dépenser possède bien la clé privée associée à l’adresse de réception utilisée lors de la création de cet UTXO.
+
+### Les différents types d'adresses Bitcoin
+
+Au fil de l’évolution de Bitcoin, plusieurs modèles de script standards ont été ajoutés. Chacun d’entre eux utilise un type d’adresse de réception distinct. Voici un aperçu des principaux modèles de script disponibles à ce jour :
+
+**P2PK (*Pay-to-PubKey*)** :
+
+Ce modèle de script a été introduit dès la première version de Bitcoin par Satoshi Nakamoto. Le script P2PK verrouille des bitcoins directement à l’aide d’une clé publique brute (on n'utilise donc pas d'adresse de réception avec ce modèle). Sa structure est simple : il contient une clé publique et requiert une signature numérique correspondante pour déverrouiller les fonds. Ce script fait partie du standard "*Legacy*".
+
+**P2PKH (*Pay-to-PubKey-Hash*)** :
+
+Comme pour P2PK, le script P2PKH a été introduit dès le lancement de Bitcoin. Contrairement à son prédécesseur, il verrouille les bitcoins à l’aide du hash de la clé publique, plutôt que d’utiliser directement la clé publique brute. Le *scriptSig* doit alors fournir la clé publique associée à l’adresse de réception, ainsi qu’une signature valide. Les adresses correspondant à ce modèle commencent par `1` et sont encodées en *base58check*. Ce script appartient également au standard "*Legacy*".
+
+**P2SH (*Pay-to-Script-Hash*)** :
+
+Introduit en 2012 avec le BIP16, le modèle P2SH permet d’utiliser le hash d’un script arbitraire dans le *scriptPubKey*. Ce script haché, appelé "*redeemScript*", contient les conditions de déverrouillage des fonds. Pour dépenser un UTXO verrouillé avec P2SH, il est nécessaire de fournir un *scriptSig* contenant le *redeemScript* original ainsi que les données nécessaires pour le valider. Ce modèle est notamment utilisé pour les vieux multisigs. Les adresses associées à P2SH commencent par `3` et sont encodées en *base58check*. Ce script appartient également au standard "*Legacy*".
+
+**P2WPKH (*Pay-to-Witness-PubKey-Hash*)** :
+
+Ce script est similaire au P2PKH, car il verrouille également des bitcoins en utilisant le hash d’une clé publique. Cependant, contrairement à P2PKH, le *scriptSig* est déplacé dans une section distincte appelée "*Witness*". On parle parfois de "*scriptWitness*" pour désigner cet ensemble comprenant la signature et la clé publique. Chaque input SegWit possède son propre *scriptWitness*, et l’ensemble des *scriptWitness* constitue le champ *Witness* de la transaction. Ce déplacement des données de signature est une innovation introduite par la mise à jour SegWit, visant notamment à empêcher la malléabilité des transactions à cause des signatures ECDSA.
+
+Les adresses P2WPKH utilisent l’encodage *bech32* et commencent toujours par `bc1q`. Ce type de script correspond aux sorties SegWit de version 0.
+
+**P2WSH (*Pay-to-Witness-Script-Hash*)** :
+
+Le modèle P2WSH a également été introduit avec la mise à jour SegWit en août 2017. Similaire au modèle P2SH, il verrouille des bitcoins en utilisant le hash d’un script. La principale différence réside dans la manière dont les signatures et les scripts sont intégrés dans la transaction. Pour dépenser des bitcoins verrouillés avec ce type de script, le bénéficiaire doit fournir le script original, appelé *witnessScript* (équivalent du *redeemScript* dans P2SH), ainsi que les données nécessaire pour valider ce *witnessScript*. Ce mécanisme permet de mettre en place des conditions de dépense plus complexes, comme des multisigs.
+
+Les adresses P2WSH utilisent l’encodage *bech32* et commencent toujours par `bc1q`. Ce script correspond également aux sorties SegWit de version 0.
+
+**P2TR (*Pay-to-Taproot*)** :
+
+Le modèle P2TR a été introduit avec l’implémentation de Taproot en novembre 2021. Il repose sur le protocole de Schnorr pour l’agrégation de clés cryptographiques, ainsi que sur un arbre de Merkle pour des scripts alternatifs, appelé MAST (*Merkelized Alternative Script Tree*). Contrairement aux autres types de scripts, où les conditions de dépense sont exposées publiquement (soit à la réception, soit à la dépense), P2TR permet de masquer des scripts complexes derrière une clé publique unique et apparente.
+
+Techniquement, un script P2TR verrouille des bitcoins sur une clé publique Schnorr unique, dénommée $K$. Cette clé $K$ est en réalité un agrégat d’une clé publique $P$ et d’une clé publique $M$, cette dernière étant calculée à partir de la racine de Merkle d’une liste de *scriptPubKey*. Les bitcoins verrouillés avec ce type de script peuvent être dépensés de deux manières :
+- En publiant une signature pour la clé publique $P$ (*key path*).
+- En satisfaisant l’un des scripts contenus dans l’arbre de Merkle (*script path*).
+
+P2TR offre ainsi une grande flexibilité, car il permet de verrouiller des bitcoins soit avec une clé publique unique, soit avec plusieurs scripts au choix, soit les deux simultanément. L'avantage de cette structure en arbre de Merkle est que seule le script de dépense utilisé est révélé lors de la transaction, mais tous les autres scripts alternatifs restent secrets.
+
+P2TR correspond aux sorties SegWit de version 1, ce qui signifie que les signatures pour les entrées P2TR sont stockées dans le témoin (*Witness*) d’une transaction, et non dans le *scriptSig*. Les adresses P2TR utilisent l’encodage *bech32m* et commencent par `bc1p`, mais elles sont assez particulière car on n'utilise pas de fonction de hachage pour les construire. En effet, elles représentent directement la clé publique $K$ qui est simplement mise en forme avec des métadonnées. C'est donc un modèle de script proche de P2PK.
+
+Maintenant que nous avons vu la théorie, passons à la pratique ! Je vous propose dans le chapitre suivant de dériver une adresse SegWit v0 et une adresse SegWit v1 à partir d’une paire de clés.
 
 
 
-# Qu'est-ce qu'une adresse Bitcoin ?
-<partId>81ec8d17-f8ee-5aeb-8035-d370866f4281</partId>
-
-## Les adresses Bitcoin
-<chapterId>0a887ed8-3424-5a52-98e1-e4b406150475</chapterId>
-
-![Les adresses Bitcoin](https://youtu.be/nqGBMjPtFNI)
-
-Dans ce chapitre, nous allons explorer les adresses de réception, qui jouent un rôle crucial dans le système Bitcoin. Elles permettent de recevoir des fonds sur une pièce et sont générées à partir de paires de clés privées et publiques. Bien qu'il existe un type de script appelé Pay2PublicKey qui permet de bloquer des bitcoins sur une clé publique, les utilisateurs préfèrent généralement utiliser des adresses de réception plutôt que ce script.
-
-![image](assets/image/section5/0.webp)
-
-Lorsqu'un destinataire souhaite recevoir des bitcoins, il fournit une adresse de réception à l'émetteur plutôt que sa clé publique. Une adresse est en réalité un hash d'une clé publique, avec un format spécifique. La clé publique est dérivée de la clé privée enfant en utilisant des opérations mathématiques telles que l'addition et le doublement de points sur les courbes elliptiques.
-
-![image](assets/image/section5/1.webp)
-
-Il est important de noter qu'il n'est pas possible de remonter de l'adresse vers la clé publique, ni de la clé publique vers la clé privée. L'utilisation d'une adresse permet de réduire la taille de l'information de la clé publique, qui initialement fait 512 bits. 
-
-Les adresses Bitcoin ont été réduites en taille pour faciliter leur utilisation. Elles possèdent une checksum, ce qui permet de détecter les fautes de frappe et de réduire les risques de perte de bitcoins. En revanche, les clés publiques n'ont pas de checksum, ce qui signifie que les fautes de frappe peuvent entraîner la perte des fonds correspondants.
-
-Les adresses offrent également une deuxième couche de sécurité entre l'information publique et privée, rendant plus difficile la prise de contrôle de la clé privée.
-
-Il est essentiel de souligner que chaque adresse devrait être à usage unique. La réutilisation d'une même adresse pose des problèmes de confidentialité et doit être évitée. 
-
-Différents préfixes sont utilisés pour les adresses Bitcoin. Par exemple, BC1Q correspond à une adresse Segwit V0, BC1P à une adresse Taproot/Segwit V1, et les préfixes 1 et 3 sont associés aux adresses Pay2PublicKeyH/Pay2ScriptH (legacy). Dans le prochain cours, nous expliquerons étape par étape la dérivation d'une adresse à partir d'une clé publique.
-
-## Comment créer une adresse Bitcoin ?
-<chapterId>6dee7bf3-7767-5f8d-a01b-659b95cfe0a5</chapterId>
-
-![Comment créer une adresse Bitcoin ?](https://youtu.be/ewMGTN8dKjI)
-
-Dans ce chapitre, nous allons aborder la construction d'une adresse de réception pour les transactions Bitcoin. Une adresse de réception est une représentation sous forme de caractères alphanumériques d'une clé publique compressée. La conversion d'une clé publique en une adresse de réception passe par plusieurs étapes.
-
-### Etape 1 : Compression de la clef publique
-
-![image](assets/image/section5/14.webp)
-
-Une adresse est dérivée à partir d'une clé publique enfant.
-
-Une clef publique est un point sur la courbe elliptique. Grâce à la symétrie de la courbe elliptique, un point sur la courbe elliptique aura une abscisse x uniquement associée à deux valeurs possibles pour y : positive ou négative. 
-Cependant, sur le protocole Bitcoin, nous travaillons avec un corps d'entiers positifs finis plutôt qu'avec le corps des réels. Pour faire la distinction entre les deux valeurs possible de y, il suffit donc d'indiquer si y est pair ou bien impair.
-
-La compression d'une clé publique permet de réduire sa taille de 520 bits à 264 bits. 
-
-Nous utilisons le préfixe 0x02 pour un y pair et 0x03 pour un y impair. C'est la forme compressée de la clé publique.
-
-### Etape 2 : Hachage de la clef publique compressée
-
-![image](assets/image/section5/3.webp)
-
-Le hachage de la clef publique compressée est effectuée avec la fonction SHA256. La fonction RIPEMD160 est ensuite appliquée sur le condensat.
-
-### Etape 3 : Le payload = Charge utile de l'adresse
-
-![image](assets/image/section5/4.webp)
-
-Le condensat en binaire de RIPEMD160(SHA256(K)) permet de former des groupes de 5 bits. Chaque groupe est transformé en base16 (Hexadécimal) et/ou en base 10.
-
-### Etape 4 : Ajout des métadonnées pour le calcul de la checksum avec le programme BCH
-
-![image](assets/image/section5/5.webp)
-
-Dans le cas des adresses legacy, nous utilisons le double hachage SHA256 pour générer la somme de contrôle de l'adresse. Cependant, pour les adresses Segwit V0 et V1, nous faisons appel à la technologie de checksum BCH pour assurer la détection des erreurs. Le programme BCH est capable de suggérer et de corriger les erreurs avec une probabilité d'erreur extrêmement faible. Actuellement, le programme BCH est utilisé pour détecter et suggérer les modifications à apporter, mais il ne les effectue pas automatiquement à la place de l'utilisateur.
-
-Le programme BCH requiert plusieurs informations en entrée, dont le HRP (Human Readable Part) qui doit être étendu. L'extension du HRP consiste à encoder chaque lettre en base 2 celon leur code ASCII. Puis, en prenant les transformer les 3 premiers bits du résultat pour chaque lettre en base 10 (en bleu sur l'image). Insérer un séparateur 0. Puis concatener à la suite les 5 derniers bits de chaque lettre préalablement transformés en base 10 (en jaune sur l'image).
-
-L'extension du HRP en base 10 permet d'isoler les cinq derniers bits de chaque caractère, renforçant ainsi la checksum.
-
-La version Segwit V0 est représentée par le code 00 et le "payload" est en noir, en base 10. Cela est suivi de six caractères réservés pour la checksum. 
-
-### Etape 5 : Calcul de la somme de contrôle avec le programme BCH
-
-![image](assets/image/section5/6.webp)
-
-L'entrée contenant les métadonnées est ensuite soumise au programme BCH pour obtenir la checksum en base 10. 
-
-Nous avons ici la checksum.
-
-### Etape 6 : Construction de l'adresse et conversion en Bech32
-
-![image](assets/image/section5/7.webp)
-
-La concaténation de la version, du payload et de la checksum permet de construire l'adresse. Les caractères en base 10 sont ensuite convertis en caractères bech32 à l'aide d'une table de correspondance. L'alphabet bech32 comprend tous les caractères alphanumériques, à l'exception de 1, b, i et o, afin d'éviter toute confusion.
-
-
-
-### Etape 7 : Ajout du HRP et du séparateur
-
-![image](assets/image/section5/8.webp)
-
-En rose la checksum.
-En noir, le payload = le hash de la clef publique.
-En bleu, la version.
-
-Le tout est converti en Bech32, puis est rajouté 'bc' pour bitcoin et '1' comme séparateur et voici l'adresse.
-
-# Allez plus loins
+# Conclusion
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
-
-## Création d’une seed depuis 128 lancés de dés !
-<chapterId>0f4d40a7-cf0e-5faf-bc4d-691486771ac1</chapterId>
-
-![Création d’une seed depuis 128 lancés de dés !](https://youtu.be/lUw-1kk75Ok)
-
-La création d'une phrase mnémonique est une étape cruciale pour la sécurisation de votre portefeuille de crypto-monnaie. Il existe plusieurs méthodes pour générer une phrase mnémonique, cependant, nous allons nous focaliser sur la méthode de génération manuelle utilisant des dés. Il est important de souligner que cette méthode n'est pas adaptée pour un portefeuille de grande valeur. Il est conseillé d'utiliser un logiciel open source ou un portefeuille matériel pour générer la phrase mnémonique. Pour créer une phrase mnémonique, nous allons utiliser des dés pour générer une information binaire. L'objectif est de comprendre le processus de création de la phrase mnémonique.
-
-**Étape 1 - Préparation :**
-Assurez-vous d'avoir une distribution Linux amnésique, comme Tails OS, installée sur une clé USB pour plus de sécurité. Notez que ce tutoriel ne devrait pas être utilisé pour créer un portefeuille principal.
-
-**Étape 2 - Génération d'un nombre aléatoire binaire :**
-Nous allons utiliser des dés pour générer une information binaire. Lancez un dé 128 fois et notez chaque résultat (1 pour impair, 0 pour pair).
-
-**Étape 3 - Organisation des nombres binaires :**
-Organisez les nombres binaires obtenus en rangées de 11 chiffres pour faciliter les calculs ultérieurs. La douzième ligne ne devrait que 7 chiffres.
-
-**Étape 4 - Calcul de la checksum :**
-Les derniers 4 chiffres pour la douxième ligne correspondent à la checksum. Pour calculer cette checksum, il nous faut utiliser un terminal d'une distribution Linux. Il est conseillé d'utiliser [TailOs](https://tails.boum.org/index.fr.html) qui est une distribution sans mémoire bootable à partir d'une clé USB. Une fois sur votre terminal, entrez la commande `echo <binary number> | shasum -a 254 -0`. Remplacer `<binary number>` par votre liste de 128 zéro et un. La sortie est un hash en hexadécimal. Relevez le premier caractère de ce hash et convertissez le en binaire. Vous pouvez vous aider de cette [table](https://www.educative.io/answers/decimal-binary-and-hex-conversion-table). Ajoutez la checksum en binaire (4 chiffres) à la douxième ligne de votre feuille.
-
-**Étape 5 - Conversion en décimale :**
-Pour trouver les mots associés à chacune de vos lignes, il vous faut d'abord convertir en décimal chaque séries de 11 bits. Ici vous ne pouvez pas utiliser de convertisseur en ligne car ces bits représentent votre phrase mnémonique. Il va donc falloir convertir à l'aide d'une calculatrice et d'une astuce que voici : chaque bit est associé à une puissance de 2 ainsi de la gauche vers la droite nous avons 11 rangs qui correspondent à respectivement 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1. Pour convertir votre série de 11 bit en décimal il vous suffit d'additionner uniquement les rangs qui contiennent un 1. Par exemple pour la série 00110111011, cela correspond à l'addtion suivante : 256 + 128 + 32 + 16 + 8 + 2 + 1 = 443. Vous pouvez maintenant convertir chaque ligne en décimale. Et avant de passer à l'encodage en mots il faut ajouter +1 à toutes les lignes car l'index de la liste des mots BIP39 commence à partir de 1 et non 0.
-
-**Étape 8 - Génération de la phrase mnémonique :**
-Commencez par imprimer la [liste des 2048 mots](https://seedxor.com/files/wordlist.pdf) pour faire la conversion entre vos nombres décimales et les mots du BIP39. La particularité de cette liste est qu'aucun mot ne possède ces 4 premières lettres en commun avec tous les autres mots de ce dictionnaire. Puis chercher pour chacune de vos lignes le mots associés au nombre décimal.
-
-**Étape 9 - Test de la phrase mnémonique :**
-Testez immédiatement votre phrase mnémonique sur Sparrow Wallet en créant un portefeuille à partir de celle-ci. Si vous obtenez une erreur de checksum invalide, il est probable que vous ayez fait une erreur de calcul. Corrigez cette erreur en repartant à l'étape 4 et testez à nouveau sur Sparrow Wallet. Voilà ! Vous venez de créer un nouveau portefeuille Bitcoin à partir de 128 lancés de dés.
-
-Générer une phrase mnémonique est un processus important pour sécuriser votre portefeuille de crypto-monnaie. Il est recommandé d'utiliser des méthodes plus sécurisées, comme l'utilisation de logiciels open source ou de hardware wallet, pour générer la phrase mnémonique. Toutefois, réaliser cet atelier permet de mieux saisir comment à partir d'un nombre aléatoire nous pouvons créer un portefeuille Bitcoin.
-
-## BONUS: Interview avec Théo Pantamis
-<chapterId>39f0ec5a-e258-55cb-9789-bc46d314d816</chapterId>
-
-Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin est la méthode des signatures numériques.
-
-![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 
 
@@ -1916,22 +1910,9 @@ Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin
 <isCourseExam>true</isCourseExam>
 
 
-## Conclusion et fin
+## Conclusion
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
-### Remerciements et continuez à creuser le terrier du lapin
 
-Nous tenons à vous remercier sincèrement d'avoir suivi la formation Crypto 301. Nous espérons que cette expérience a été enrichissante et formatrice pour vous. Nous avons abordé de nombreux sujets passionnants, allant des mathématiques à la cryptographie en passant par le fonctionnement du protocole Bitcoin.
 
-Si vous souhaitez approfondir davantage le sujet, nous avons une ressource supplémentaire à vous offrir. Nous avons réalisé une interview exclusive avec Théo Pantamis et Loïc Morel, deux experts renommés dans le domaine de la cryptographie. Cette interview explore en profondeur divers aspects du sujet et offre des perspectives intéressantes.
-
-N'hésitez pas à regarder cette interview pour continuer à explorer le domaine fascinant de la cryptographie. Nous espérons que cela vous sera utile et inspirant dans votre parcours. Encore une fois, merci de votre participation et de votre engagement tout au long de cette formation.
-
-### Soutiens-nous
-
-Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
-
-### Note la formation
-
-Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 
