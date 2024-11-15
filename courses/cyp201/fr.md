@@ -1890,9 +1890,257 @@ Techniquement, un script P2TR verrouille des bitcoins sur une clé publique Schn
 
 P2TR offre ainsi une grande flexibilité, car il permet de verrouiller des bitcoins soit avec une clé publique unique, soit avec plusieurs scripts au choix, soit les deux simultanément. L'avantage de cette structure en arbre de Merkle est que seule le script de dépense utilisé est révélé lors de la transaction, mais tous les autres scripts alternatifs restent secrets.
 
+063
+
 P2TR correspond aux sorties SegWit de version 1, ce qui signifie que les signatures pour les entrées P2TR sont stockées dans le témoin (*Witness*) d’une transaction, et non dans le *scriptSig*. Les adresses P2TR utilisent l’encodage *bech32m* et commencent par `bc1p`, mais elles sont assez particulière car on n'utilise pas de fonction de hachage pour les construire. En effet, elles représentent directement la clé publique $K$ qui est simplement mise en forme avec des métadonnées. C'est donc un modèle de script proche de P2PK.
 
 Maintenant que nous avons vu la théorie, passons à la pratique ! Je vous propose dans le chapitre suivant de dériver une adresse SegWit v0 et une adresse SegWit v1 à partir d’une paire de clés.
+
+## Dérivation des adresses
+<chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+Découvrons ensemble comment générer une adresse de réception à partir d’une paire de clés située, par exemple, en profondeur 5 d’un portefeuille HD. Cette adresse pourra ensuite être utilisée dans un logiciel de portefeuille pour verrouiller un UTXO.
+
+Puisque le processus de génération d’une adresse dépend du modèle de script adopté, concentrons-nous sur deux cas spécifiques : la génération d’une adresse SegWit v0 en P2WPKH et celle d’une adresse SegWit v1 en P2TR. Ces deux types d’adresses couvrent aujourd’hui l’immense majorité des usages.
+
+### Compression de la clé publique
+
+Après avoir effectué toutes les étapes de dérivation depuis la clé maîtresse jusqu’à la profondeur 5 en utilisant les index appropriés, nous obtenons une paire de clés ($k$, $K$) avec $K = k \cdot G$. Bien qu’il soit possible d’utiliser cette clé publique telle quelle pour verrouiller des fonds avec le standard P2PK, ce n’est pas ce que nous cherchons à faire ici. Nous souhaitons plutôt créer une adresse en P2WPKH dans un premier temps, puis en P2TR pour un autre exemple.
+
+La première étape consiste à compresser la clé publique $K$. Pour bien comprendre ce processus, rappelons d’abord quelques fondamentaux abordés dans la partie 3.
+
+Une clé publique sur Bitcoin est un point $K$ situé sur une courbe elliptique. Elle est représentée sous la forme $(x, y)$, où $x$ et $y$ sont les coordonnées du point. Dans sa forme non compressée, cette clé publique mesure 520 bits : 8 bits pour un préfixe (valeur initiale de `0x04`), 256 bits pour la coordonnée $x$, et 256 bits pour la coordonnée $y$.
+
+Cependant, les courbes elliptiques possèdent une propriété de symétrie par rapport à l’axe des abscisses : pour une coordonnée $x$ donnée, il n’existe que deux valeurs possibles pour $y$ : $y$ et $-y$. Ces deux points se trouvent de part et d’autre de l’axe des abscisses. En d’autres termes, si nous connaissons $x$, il suffit de préciser si $y$ est pair ou impair pour identifier le point exact sur la courbe.
+
+064
+
+Pour compresser une clé publique, on encode uniquement $x$, qui occupe 256 bits, et on ajoute un préfixe pour préciser la parité de $y$. Cette méthode réduit la taille de la clé publique à 264 bits au lieu des 520 initiaux. Le préfixe `0x02` indique que $y$ est pair, et le préfixe `0x03` indique que $y$ est impair.
+
+Prenons un exemple pour bien comprendre, avec la clé publique brute en représentation non compressée :
+
+```txt
+K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
+```
+
+Si l'on décompose cette clé, on a :
+   - Le préfixe : `04` ;
+   - $x$ : `678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6`  ;
+   - $y$ : `49f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f`  
+
+Le dernier caractère hexadécimal de $y$ est `f`. En base 10, `f = 15`, ce qui correspond à un nombre impair. Par conséquent, $y$ est impair, et le préfixe sera `0x03` pour l’indiquer.
+
+La clé publique compressée devient :
+
+```txt
+K = 03678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6
+```
+
+Ce fonctionnement s’applique à tous les modèles de script reposant sur ECDSA, c’est-à-dire tous, sauf P2TR qui utilise Schnorr. Dans le cas de Schnorr, comme expliqué dans la partie 3, nous ne conservons que la valeur de $x$, sans ajouter de préfixe pour indiquer la parité de $y$, contrairement à ECDSA. C'est rendu possible par le fait qu'une parité unique est choisie arbitrairement pour toutes les clés. Cela permet ainsi de gagner un peu de place dans le stockage des clés publiques.
+
+### Dérivation d'une adresse SegWit v0 (bech32)
+
+Maintenant que nous avons obtenu notre clé publique compressée, nous pouvons dériver une adresse de réception SegWit v0 à partir de celle-ci.
+
+La première étape consiste à appliquer la fonction de hachage HASH160 à la clé publique compressée. HASH160 est une composition de deux fonctions de hachage successives : SHA256, suivie de RIPEMD160 :
+$$
+\text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
+$$
+
+On passe d'abord la clé dans SHA256 :
+
+```txt
+SHA256(K) = C489EBD66E4103B3C4B5EAFF462B92F5847CA2DCE0825F4997C7CF57DF35BF3A
+```
+
+Puis on passe le résultat dans RIPEMD160 :
+
+```txt
+RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
+```
+
+Nous avons obtenu un hash de 160 bits de la clé publique, qui constitue ce que l’on appelle la charge utile de l’adresse. Cette charge utile représente la partie centrale et la plus importante de l’adresse. Elle est d’ailleurs utilisée dans le *scriptPubKey* pour verrouiller les UTXOs.
+
+Cependant, pour rendre cette charge utile plus facilement utilisable par les humains, on y ajoute des métadonnées. L’étape suivante consiste à encoder ce hash en groupes de 5 bits en décimal. Cette transformation en décimal nous sera utile pour la conversion en *bech32*, utilisée par les adresses post-SegWit. Le hash binaire de 160 bits est ainsi divisé en 32 groupes de 5 bits :
+
+$$
+\begin{array}{|c|c|}
+\hline
+\text{Groupes de 5 bits} & \text{Valeur décimale} \\
+\hline
+10011 & 19 \\
+11110 & 30 \\
+00000 & 0 \\
+10011 & 19 \\
+00100 & 4 \\
+01011 & 11 \\
+00110 & 6 \\
+01000 & 8 \\
+10000 & 16 \\
+11000 & 24 \\
+10001 & 17 \\
+01100 & 12 \\
+10100 & 20 \\
+10011 & 19 \\
+00110 & 6 \\
+01011 & 11 \\
+00101 & 5 \\
+01001 & 9 \\
+01001 & 9 \\
+01010 & 10 \\
+00100 & 4 \\
+00111 & 7 \\
+10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
+\end{array}
+$$
+
+On a donc :
+
+```txt
+HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
+```
+
+Une fois le hash encodé en groupes de 5 bits, on ajoute une somme de contrôle à l’adresse. Cette checksum sert à vérifier que la charge utile de l’adresse n’a pas été altérée lors de son stockage ou de sa transmission. Par exemple, elle permet à un logiciel de portefeuille de s’assurer que vous n’avez pas commis une faute de frappe en saisissant une adresse de réception. Sans cette vérification, vous pourriez envoyer des bitcoins à une adresse incorrecte sans faire exprès, ce qui entraînerait une perte définitive des fonds, car vous ne possédez ni la clé publique ni la clé privée associées. La somme de contrôle est donc une protection contre les erreurs humaines.
+
+Pour les anciennes adresses Bitcoin *Legacy*, la somme de contrôle était simplement calculée à partir du début du hash de l'adresse avec la fonction HASH256. Avec l’introduction de SegWit et du format *bech32*, on utilise désormais des codes BCH (*Bose, Ray-Chaudhuri, et Hocquenghem*). Ces codes de correction d’erreurs sont utilisés pour détecter et corriger les erreurs dans des séquences de données. Ils garantissent que les informations transmises arrivent intactes à destination, même en cas d’altérations mineures. Les codes BCH sont utilisés dans de nombreux domaines, tels que les SSD, les DVD et les QR codes. Par exemple, grâce à ces codes BCH, un QR code partiellement masqué peut encore être lu et décodé.
+
+Dans le contexte de Bitcoin, les codes BCH offrent un meilleur compromis entre la taille et la capacité de détection d’erreurs par rapport aux simples fonctions de hachage utilisées pour les adresses *Legacy*. Cependant, sur Bitcoin, les codes BCH sont utilisés uniquement pour détecter les erreurs, et non pour les corriger. Ainsi, un logiciel de portefeuille signalera une adresse de réception incorrecte, mais ne la corrigera pas automatiquement. Cette limitation est délibérée : permettre la correction automatique réduirait la capacité de détection d’erreurs.
+
+Pour calculer la somme de contrôle avec les codes BCH, nous devons préparer plusieurs éléments :
+- **Le HRP (*Human Readable Part*)** : Pour le réseau principal Bitcoin mainnet, le HRP est `bc` ;
+
+Le HRP doit être étendu en séparant chaque caractère en deux parties :
+- On prend les caractères du HRP en ASCII :
+	- `b` : `01100010`
+	- `c` : `01100011`
+
+- On extraie les 3 bits de poids fort et les 5 bits de poids faible :
+	- 3 bits de poids fort : `011` (3 en décimal)
+	- 3 bits de poids fort : `011` (3 en décimal)
+	- 5 bits de poids faible : `00010` (2 en décimal)
+	- 5 bits de poids faible : `00011` (3 en décimal)
+
+Avec le séparateur `0` entre les deux caractères, l'extension du HRP est donc :
+
+```txt
+[03, 03, 00, 02, 03]
+```
+
+- **La version du témoin** : Pour SegWit version 0, c'est `00` ;
+
+- **La charge utile** : Les valeurs décimales du hash de la clé publique ;
+
+- **La réservation pour la checksum** : Nous ajoutons 6 zéros `[0, 0, 0, 0, 0, 0]` en fin de séquence.
+
+Toutes les données combinées à transmettre en entrée du programme pour calculer la checksum sont les suivantes :
+
+```txt
+HRP = 03 03 00 02 03
+SEGWIT v0 = 00
+HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
+CHECKSUM = 00 00 00 00 00 00
+
+INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 00 00 00 00 00 00
+```
+
+Le calcul de la checksum est assez complexe. Il fait appel à l’arithmétique des champs finis polynomiaux. Nous ne détaillerons pas ce calcul ici et passerons directement au résultat. Dans notre exemple, la checksum obtenue en décimal est :
+
+```txt
+10 16 11 04 13 18
+```
+
+Nous pouvons maintenant construire l'adresse de réception en concaténant dans l'ordre les éléments suivants :
+- **La version de SegWit** : `00`
+- **La charge utile** : Le hash de la clé publique
+- **La checksum** : Les valeurs obtenues à l'étape précédente (`10 16 11 04 13 18`)
+
+Cela nous donne en décimal :
+
+```txt
+00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 10 16 11 04 13 18
+```
+
+Puis il faut mapper chaque valeur décimale à son caractère *bech32* en utilisant le tableau de conversion suivant :
+
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ 
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\ 
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\ 
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\ 
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\ 
+\hline
+\end{array}
+$$
+
+Pour convertir une valeur en un caractère *bech32* à l’aide de ce tableau, il suffit de repérer les valeurs en première colonne et en première ligne qui, une fois additionnées, donnent le résultat recherché. Ensuite, on récupère le caractère correspondant. Par exemple, le nombre décimal `19` sera converti en la lettre `n`, car $19 = 16 + 3$.
+
+En mappant toutes nos valeurs, nous obtenons l'adresse suivante :
+
+```
+qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+```
+
+Il ne reste plus qu’à ajouter le HRP `bc`, qui indique qu’il s’agit d’une adresse pour le mainnet de Bitcoin, ainsi que le séparateur `1`, afin d’obtenir l’adresse de réception complète :
+
+```
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+```
+
+La particularité de cet alphabet *bech32* est qu’il intègre l’ensemble des caractères alphanumériques à l’exception de `1`, `b`, `i` et `o` pour éviter les confusions visuelles entre des caractères semblables, notamment lors de leur saisie ou de leur lecture par des humains.
+
+Pour résumer, voici le processus de dérivation :
+
+065
+
+Voilà comment dériver une adresse de réception P2WPKH (SegWit v0) à partir d'une paire de clés. Passons maintenant aux adresses P2TR (SegWit v1 / Taproot) et découvrons leur processus de génération.
+
+### Dérivation d'une adresse SegWit v1 (bech32m)
+
+Pour les adresses Taproot, le processus de génération diffère légèrement. Dès l’étape de compression de la clé publique, il y a une distinction par rapport à ECDSA : les clés publiques utilisées pour Schnorr sur Bitcoin sont représentées uniquement par leur abscisse ($x$).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
