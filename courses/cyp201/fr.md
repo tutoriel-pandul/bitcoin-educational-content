@@ -1,14 +1,14 @@
 ---
-name: Introduction aux algorithmes cryptographiques de Bitcoin
-goal: Comprendre la création d’un portefeuille Bitcoin d’un point de vue cryptographique
+name: Les rouages des portefeuilles Bitcoin
+goal: Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin.
 objectives:
-  - Démystifier la terminologie de la cryptographie liée aux Bitcoin.
-  - Maîtriser la création d'un portefeuille Bitcoin.
-  - Comprendre la structure d'un portefeuille Bitcoin.
-  - Comprendre les adresses et chemin de dérivation
+  - Définir les notions théoriques nécessaires à la compréhension des algorithmes cryptographiques utilisés sur Bitcoin.
+  - Comprendre en intégralité la construction d'un portefeuille déterministe et hiérachique.
+  - Savoir identifier et réduire les risques liés à la gestion d’un portefeuille.
+  - Comprendre les principes des fonctions de hachage, des clés cryptographiques et des signatures numériques.
 ---
 
-# Un voyage au cœur de la cryptographie
+# Un voyage au cœur des portefeuilles Bitcoin
 
 Découvrez les secrets des portefeuilles Bitcoin déterministes et hiérarchiques avec notre formation CYP201 ! Que vous soyez un utilisateur régulier ou un passionné cherchant à approfondir vos connaissances, ce cours vous offre une immersion complète dans les rouages de ces outils que nous utilisons tous au quotidien.
 
