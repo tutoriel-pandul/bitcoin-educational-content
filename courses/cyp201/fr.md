@@ -134,7 +134,7 @@ La résistance à la seconde préimage est donc un petit peu similaire à la ré
 
 ### Applications des fonctions de hachage dans Bitcoin
 
-La fonction de hachage la plus utilisée dans Bitcoin est **SHA-256** ("*Secure Hash Algorithm 256 bits"*). Conçue au début des années 2000 par la NSA et standardisée par le NIST, elle produit un hash de 256 bits en sortie.
+La fonction de hachage la plus utilisée dans Bitcoin est **SHA256** ("*Secure Hash Algorithm 256 bits"*). Conçue au début des années 2000 par la NSA et standardisée par le NIST, elle produit un hash de 256 bits en sortie.
 
 Cette fonction est utilisée dans de nombreux aspects de Bitcoin. Au niveau protocolaire, elle intervient dans le mécanisme de Proof-of-Work, où elle est appliquée en double hachage pour rechercher une collision partielle entre l'en-tête d'un bloc candidat, créé par un mineur, et la cible de difficulté. Si cette collision partielle est trouvée, le bloc candidat devient valide et peut être ajouté à la blockchain.
 
@@ -170,7 +170,7 @@ Vous connaissez maintenant les bases indispensables sur les fonctions de hachage
 
 Nous avons vu précédemment que les fonctions de hachage possèdent des caractéristiques importantes qui justifient leur utilisation sur Bitcoin. Examinons maintenant les mécanismes internes de ces fonctions de hachage qui leur confèrent ces propriétés, et pour ce faire, je vous propose de décortiquer le fonctionnement de SHA256.
 
-Les fonctions SHA256 et SHA512 appartiennent à la même famille des SHA2. Leur mécanisme est basé sur une construction spécifique appelée **construction de Merkle-Damgård**. RIPEMD-160 utilise également ce même type de construction.
+Les fonctions SHA256 et SHA512 appartiennent à la même famille des SHA2. Leur mécanisme est basé sur une construction spécifique appelée **construction de Merkle-Damgård**. RIPEMD160 utilise également ce même type de construction.
 
 Pour rappel, nous avons donc un message  taille arbitraire en entrée de SHA256, et nous allons le passer dans la fonction pour obtenir un hash de 256 bits en sortie.
 
@@ -236,7 +236,7 @@ Ce rembourrage de la taille est ajouté à la suite du rembourrage des bits. Le 
 
 ### Initialisation des variables
 
-SHA-256 utilise huit variables d'état initiales, notées $A$ à $H$, chacune de 32 bits. Ces variables sont initialisées avec des constantes spécifiques, qui sont les parties fractionnaires des racines carrées des huit premiers nombres premiers. Nous allons utiliser ces valeurs par la suite durant le processus du hachage :
+SHA256 utilise huit variables d'état initiales, notées $A$ à $H$, chacune de 32 bits. Ces variables sont initialisées avec des constantes spécifiques, qui sont les parties fractionnaires des racines carrées des huit premiers nombres premiers. Nous allons utiliser ces valeurs par la suite durant le processus du hachage :
 
 - $A = 0x6a09e667$
 - $B = 0xbb67ae85$
@@ -247,7 +247,7 @@ SHA-256 utilise huit variables d'état initiales, notées $A$ à $H$, chacune de
 - $G = 0x1f83d9ab$
 - $H = 0x5be0cd19$
 
-SHA-256 utilise également 64 autres constantes, notées $K_0$ à $K_{63}$, qui sont les parties fractionnaires des racines cubiques des 64 premiers nombres premiers :
+SHA256 utilise également 64 autres constantes, notées $K_0$ à $K_{63}$, qui sont les parties fractionnaires des racines cubiques des 64 premiers nombres premiers :
 
 $$
 K[0 \ldots 63] = \begin{pmatrix}
