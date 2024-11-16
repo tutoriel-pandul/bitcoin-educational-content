@@ -1,0 +1,10 @@
+pergunta: Qual foi o resultado da "guerra dos blocos" em 2017?
+resposta: Usuários e nós rejeitaram a mudança proposta para aumentar o tamanho do bloco e ativaram uma atualização chamada SegWit.
+respostas_erradas:
+  - Usuários e nós aceitaram a mudança proposta para aumentar o tamanho do bloco e ativaram uma atualização chamada SegWit.
+  - Usuários e nós rejeitaram a mudança proposta para aumentar o tamanho do bloco e não ativaram nenhuma atualização.
+  - Usuários e nós aceitaram a mudança proposta para aumentar o tamanho do bloco e não ativaram nenhuma atualização.
+explicação: >-
+  Na "guerra dos blocos" em 2017, usuários e nós triunfaram ao rejeitar a
+  mudança proposta para aumentar o tamanho do bloco e ativaram uma atualização chamada SegWit.
+revisado: true

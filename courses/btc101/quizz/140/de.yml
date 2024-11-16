@@ -1,0 +1,9 @@
+Frage: Wie groß ist die Bitcoin-Blockchain derzeit?
+Antwort: Ungefähr 500GB.
+falsche_Antworten:
+  - Ungefähr 100GB.
+  - Ungefähr 1TB.
+  - Ungefähr 2TB.
+Erklärung: |
+  Die Bitcoin-Blockchain ist Stand 2023 ungefähr 500GB groß.
+überprüft: true

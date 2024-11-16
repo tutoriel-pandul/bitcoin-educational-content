@@ -1,0 +1,9 @@
+pertanyaan: Apa salah satu karakteristik utama dari protokol Bitcoin?
+jawaban: Protokol ini netral terhadap semua penggunanya.
+jawaban_salah:
+  - Protokol ini memihak beberapa pengguna daripada yang lain.
+  - Protokol ini bias terhadap beberapa pengguna.
+  - Protokol ini hanya menguntungkan sekelompok pengguna tertentu.
+penjelasan: >-
+  Teks tersebut menyebutkan bahwa protokol Bitcoin netral terhadap semua
+  penggunanya.

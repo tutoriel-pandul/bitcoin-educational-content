@@ -1,0 +1,9 @@
+Frage: Welches der folgenden ist keine Eigenschaft von Bitcoin?
+Antwort: Es lässt sich leicht zensieren.
+falsche_Antworten:
+  - Es ist sofort transportierbar.
+  - Es hat vernachlässigbare Verifizierungskosten.
+  - Es hat eine feste Geldpolitik.
+Erklärung: |
+  Bitcoin besitzt alle notwendigen Eigenschaften, um eine effiziente und gesunde Währung zu sein: teilbar, sofort transportierbar, unzensierbar, vernachlässigbare Kosten für die Verifizierung und mit einer bereits für Jahrhunderte festgelegten Geldpolitik mit 21 Millionen Einheiten.
+überprüft: true

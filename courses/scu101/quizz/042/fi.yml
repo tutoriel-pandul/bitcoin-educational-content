@@ -1,0 +1,12 @@
+kysymys: Miksi on tärkeää käyttää satunnaisesti generoituja salasanoja?
+vastaus: Ne ovat vastustuskykyisempiä murtamisyrityksille kuin samanpituiset salasanat, jotka sisältävät sanakirjan sanoja.
+väärät_vastaukset:
+  - Ne ovat helpompia muistaa mutta hitaampia kirjoittaa.
+  - Ne ovat aina turvallisia, koska ne ylittävät 20 satunnaista merkkiä.
+  - Useimmat verkkopalvelut pyytävät vain minimipituutta ja merkkijoukkoa, tämän kriteerin täyttäminen tarkoittaa, että salasanat ovat tarpeeksi vahvoja.
+selitys: |
+  Satunnaisesti generoidut salasanat tarjoavat korkeamman
+  turvallisuustason, koska ne ovat vastustuskykyisempiä
+  murtamisyrityksille, jotka yrittävät arvata salasanoja
+  kokeilemalla kaikkia mahdollisia merkkien yhdistelmiä.
+arvioitu: true

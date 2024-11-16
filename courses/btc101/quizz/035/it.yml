@@ -1,0 +1,9 @@
+domanda: Qual è il significato di "moneta fiat"?
+risposta: La moneta fiat è una valuta che ha valore perché un governo la mantiene e le persone hanno fiducia nel suo valore, piuttosto che essere supportata da una merce fisica come l'oro.
+risposte_errate:
+  - La moneta fiat è una valuta che è supportata da una merce fisica, come l'oro o l'argento, il che significa che il suo valore è direttamente legato al valore di quella merce.
+  - La moneta fiat è un tipo di criptovaluta che opera su una rete decentralizzata, consentendo transazioni peer-to-peer senza la necessità di un'autorità centrale.
+  - La moneta fiat è una valuta che non ha valore intrinseco e non può essere utilizzata per transazioni, rendendola essenzialmente senza valore nell'economia.
+spiegazione: |
+  La moneta fiat è stabilita come valuta legale per decreto governativo, e il suo valore non deriva da alcuna merce fisica.
+recensito: true

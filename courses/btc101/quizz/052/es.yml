@@ -1,0 +1,10 @@
+pregunta: ¿Cuál es el impacto de una inflación del 20% en el poder adquisitivo a lo largo de 3 años?
+respuesta: Pierdes el 50% de tu poder adquisitivo.
+respuestas_incorrectas:
+  - Pierdes el 100% de tu poder adquisitivo.
+  - Pierdes el 60% de tu poder adquisitivo.
+  - Pierdes el 30% de tu poder adquisitivo.
+explicación: |
+  Con una inflación del 20%, pierdes casi la mitad de tu poder
+  adquisitivo en 3 años.
+revisado: true

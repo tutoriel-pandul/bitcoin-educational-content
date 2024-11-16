@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi aloitteista, jotka edistävät Bitcoin-talouden saavutettavuutta ja mukavuutta kaikille?
+vastaus: BTCMap.
+väärät_vastaukset:
+  - Bitcoin-vaihto.
+  - Bitcoin-louhinta.
+  - BTCLottery.
+selitys: >-
+  BTCMap on yksi aloitteista, jotka edistävät Bitcoin-talouden saavutettavuutta ja mukavuutta kaikille. Se on avoimen lähdekoodin ja yhteistyöhön perustuva projekti, joka listaa kaikki kauppiaat, jotka hyväksyvät Bitcoinin maksuvälineenä sekä eri Bitcoin-yhteisöt ympäri maailmaa.
+arvioitu: true

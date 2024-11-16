@@ -1,0 +1,10 @@
+pregunta: ¿Cuándo desapareció Satoshi Nakamoto?
+respuesta: En 2010
+respuestas_incorrectas:
+  - En 2008
+  - En 2009
+  - En 2023
+explicación: |
+  Satoshi Nakamoto desapareció en 2010, dejando su creación
+  en manos de la comunidad.
+revisado: true

@@ -1,0 +1,11 @@
+otázka: Jaká je povaha přijetí Bitcoinu, jak je popsáno v tomto kurzu?
+odpověď: Virální.
+špatné_odpovědi:
+  - Pomalé a stabilní.
+  - Rychlé a nekontrolovatelné.
+  - Sporadické a nepředvídatelné.
+vysvětlení: |
+  Text kurzu popisuje přijetí Bitcoinu jako virální,
+  což naznačuje, že se rychle a široce šíří z jedné
+  osoby na druhou, podobně jako virus, ale v dobrém slova smyslu.
+posouzeno: true

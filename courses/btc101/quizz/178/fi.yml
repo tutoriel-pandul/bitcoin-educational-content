@@ -1,0 +1,9 @@
+kysymys: Mikä on Bitcoinin yleinen suuntaus ottaen huomioon sen rajallinen määrä ja puolittumisprosessi?
+vastaus: Yleinen ylöspäin suuntautuva trendi.
+väärät_vastaukset:
+  - Yleinen alaspäin suuntautuva trendi.
+  - Ei mitään trendiä lainkaan.
+  - Trendi, joka vaihtelee rajusti ilman havaittavaa kaavaa.
+selitys: >-
+  Bitcoin seuraa yleistä ylöspäin suuntautuvaa trendiä johtuen sen rajallisesta määrästä, 21 miljoonasta bitcoinista, ja sen puolittumisprosessista (rahanluonnin puolittaminen keskimäärin joka neljäs vuosi).
+arvioitu: true

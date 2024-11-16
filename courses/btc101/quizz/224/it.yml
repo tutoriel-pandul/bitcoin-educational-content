@@ -1,0 +1,10 @@
+domanda: Cosa consente di fare la Lightning Network?
+risposta: Transazioni Bitcoin istantanee e a basso costo.
+risposte_errate:
+  - Transazioni Bitcoin istantanee e ad alto costo.
+  - Transazioni Bitcoin ritardate e a basso costo.
+  - Transazioni Bitcoin ritardate e ad alto costo.
+spiegazione: >-
+  La Lightning Network consente transazioni Bitcoin istantanee e a basso costo,
+  risolvendo così il problema di scalabilità di Bitcoin.
+revisionato: vero

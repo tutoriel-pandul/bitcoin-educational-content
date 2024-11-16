@@ -1,0 +1,9 @@
+pregunta: ¿Cuáles fueron las primeras formas de moneda?
+respuesta: Bienes como el grano y el ganado.
+respuestas_incorrectas:
+  - Oro y plata.
+  - Billetes de papel.
+  - Activos digitales.
+explicación: |
+  Las primeras formas de moneda estaban a menudo vinculadas a bienes esenciales como el grano, el ganado y otras mercancías. Sin embargo, estos bienes tenían grandes inconvenientes, como la perecibilidad, lo que dificultaba su uso como medio de ahorro a largo plazo.
+revisado: true

@@ -1,0 +1,10 @@
+Frage: Warum wird Bitcoin als eine neue Form von Geld betrachtet?
+Antwort: Weil es ein digitales Geld ohne zentrale Instanz ist.
+falsche_Antworten:
+  - Weil es eine digitale Währung ist, die durch Gold gedeckt ist.
+  - Weil es eine Währung ist, die die Bank-Blockchain benötigt.
+  - Weil die Federal Reserve es so sagt.
+Erklärung: |
+  Bitcoin kann als eine neue Form von Geld betrachtet werden, da es
+  aus einem Peer-to-Peer-Netzwerk ohne zentrale Instanz entsteht.
+überprüft: true

@@ -1,0 +1,9 @@
+Câu hỏi: Điều gì xảy ra nếu khóa riêng của bạn bị tiết lộ cho một bên thứ ba?
+Câu trả lời: Bên thứ ba có thể chi tiêu bitcoin của bạn.
+Câu trả lời sai:
+  - Bên thứ ba chỉ có thể xem lịch sử giao dịch của bạn.
+  - Bên thứ ba có thể thay đổi khóa riêng của bạn.
+  - Bên thứ ba có thể truy cập thông tin cá nhân của bạn.
+Giải thích: |
+  Nếu khóa riêng của bạn bị tiết lộ cho một bên thứ ba, các quỹ liên quan không còn được bảo mật, bởi vì khóa riêng cho phép họ truy cập vào quỹ của bạn.
+Đã xem xét: true

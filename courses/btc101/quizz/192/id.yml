@@ -1,0 +1,11 @@
+pertanyaan: Apa itu OpenNode?
+jawaban: Sebuah solusi online sederhana bagi bisnis untuk menerima Bitcoin
+jawaban_salah:
+  - Sebuah jenis Bitcoin
+  - Perangkat lunak penambangan Bitcoin
+  - Platform pertukaran Bitcoin
+penjelasan: >-
+  OpenNode adalah solusi online sederhana bagi bisnis untuk menerima Bitcoin.
+  Solusi lain termasuk Swiss Bitcoin Pay untuk pedagang amatir dan BTCpay Server
+  untuk struktur besar atau penggemar bitcoin yang bersemangat.
+ditinjau: false

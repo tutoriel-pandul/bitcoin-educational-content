@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es el papel de la unidad de bitcoin en la vida cotidiana?
+respuesta: Se utiliza para comprar y vender bienes y servicios.
+respuestas_incorrectas:
+  - Se utiliza para minar nuevos bitcoins.
+  - Se utiliza para regular el precio del Bitcoin.
+  - Se utiliza para controlar el protocolo de Bitcoin.
+explicación: |
+  En la vida cotidiana, las personas usan la unidad de Bitcoin para comprar y
+  vender bienes y servicios. Para ser utilizada, la unidad
+  depende del protocolo de Bitcoin.
+revisado: true

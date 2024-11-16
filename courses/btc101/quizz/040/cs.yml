@@ -1,0 +1,12 @@
+otázka: Jaká strategie je používána centrálními subjekty k devalvaci fiat měny?
+odpověď: Zvyšují měnovou masu o několik procent každý rok.
+špatné_odpovědi:
+  - Sníží měnovou masu o několik procent každý rok.
+  - Udržují její měnovou masu konstantní ve srovnání s počáteční masou.
+  - Mají její měnovou masu náhodně kolísat ve srovnání s počáteční masou.
+vysvětlení: |
+  Centrální subjekty často devalvují měnu zvyšováním její
+  měnové masy ve srovnání s počáteční o několik procent
+  každý rok. Toto tiché devalvování je často odůvodňováno jako
+  v zájmu lidí.
+recenzováno: true

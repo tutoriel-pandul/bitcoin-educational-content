@@ -1,0 +1,10 @@
+pregunta: ¿Cómo se aseguran las transacciones en la Lightning Network?
+respuesta: A través de la criptografía y, de manera indirecta, mediante la energía consumida por los mineros en Bitcoin.
+respuestas_incorrectas:
+  - Solo mediante el uso de claves privadas.
+  - Solo mediante el uso de claves públicas.
+  - Solo mediante el uso de ambas, claves privadas y públicas.
+explicación: >-
+  Las transacciones en la Lightning Network se aseguran mediante criptografía
+  y, de manera indirecta, a través de la energía consumida por los mineros en Bitcoin.
+revisado: true

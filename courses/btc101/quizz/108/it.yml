@@ -1,0 +1,11 @@
+domanda: Qual è lo scopo di un portafoglio Bitcoin?
+risposta: Conservare le chiavi private per effettuare transazioni in bitcoin.
+risposte_errate:
+  - Utilizzare le risorse del dispositivo per minare bitcoin.
+  - Acquistare bitcoin tramite la chiave pubblica.
+  - Conservare i bitcoin su un dispositivo.
+spiegazione: |
+  I portafogli Bitcoin sono un tipo di software utilizzato per
+  conservare le chiavi private che ti permettono di effettuare transazioni
+  con i tuoi bitcoin.
+revisionato: true

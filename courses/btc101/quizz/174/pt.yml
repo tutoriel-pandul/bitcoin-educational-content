@@ -1,0 +1,10 @@
+pergunta: Quais são os custos típicos para um minerador?
+resposta: Consumo de eletricidade e compra de hardware.
+respostas_erradas:
+  - Apenas compra de hardware.
+  - Taxas de transação.
+  - Consumo de eletricidade e taxas de transação.
+explicação: >-
+  Minerar Bitcoin requer uma quantidade substancial de poder computacional, o que, por sua vez, consome eletricidade.
+Além disso, os mineradores precisam investir em hardware especializado para minerar efetivamente.
+revisado: false

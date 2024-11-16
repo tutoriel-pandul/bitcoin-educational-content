@@ -1,0 +1,9 @@
+pergunta: Desde sua criação, qual porcentagem do tempo a rede Bitcoin esteve funcional?
+resposta: 99,988%.
+respostas_erradas:
+  - 100%.
+  - 90,009%.
+  - 80,17%.
+explicação: |
+  A disponibilidade online do Bitcoin é de 99,988% desde 2009.
+revisado: true

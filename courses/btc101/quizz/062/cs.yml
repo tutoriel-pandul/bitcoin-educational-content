@@ -1,0 +1,10 @@
+otázka: Jaký mechanismus zajišťuje, že je do blockchainu přidán nový blok každých deset minut?
+odpověď: Úprava obtížnosti.
+špatné_odpovědi:
+  - Úprava rychlosti.
+  - Úprava času.
+  - Úprava bloku.
+vysvětlení: |
+  Mechanismus, který zajišťuje přidání nového bloku do blockchainu každých deset minut, je úprava obtížnosti.
+  Tato úprava probíhá každých 2016 bloků, což je přibližně každé dva týdny.
+recenzováno: true

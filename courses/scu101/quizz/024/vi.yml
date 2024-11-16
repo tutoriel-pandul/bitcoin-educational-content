@@ -1,0 +1,11 @@
+câu hỏi: Một số giải pháp mã hóa dữ liệu trên các hệ điều hành khác nhau là gì?
+câu trả lời: BitLocker cho Windows, LUKS cho Linux, và tùy chọn sẵn có cho Mac.
+câu trả lời sai:
+  - BitLocker cho Linux, LUKS cho Mac, và tùy chọn sẵn có cho Windows.
+  - BitLocker cho Mac, LUKS cho Windows, và tùy chọn sẵn có cho Linux.
+  - LUKS cho tất cả các hệ điều hành.
+giải thích: |
+  Các hệ điều hành khác nhau có các giải pháp khác nhau cho
+  việc mã hóa dữ liệu. BitLocker dành cho Windows, LUKS dành cho
+  Linux, và Mac có tùy chọn sẵn có cho mã hóa dữ liệu.
+đã xem xét: true

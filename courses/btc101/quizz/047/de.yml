@@ -1,0 +1,12 @@
+Frage: Was ist Hyperinflation?
+Antwort: Ein drastischer Anstieg der Geldmenge.
+falsche_Antworten:
+  - Ein kleiner Anstieg der Geldmenge.
+  - Ein drastischer Rückgang der Geldmenge.
+  - Ein kleiner Rückgang der Geldmenge.
+Erklärung: |
+  Hyperinflation ist ein monetäres Phänomen, das durch einen
+  drastischen Anstieg der Inflation durch das Drucken von Geld
+  durch die Behörden gekennzeichnet ist, was zu einem vollständigen Verlust des
+  Vertrauens in eine Währung führt.
+überprüft: true

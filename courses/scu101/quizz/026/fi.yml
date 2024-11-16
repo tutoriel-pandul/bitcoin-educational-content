@@ -1,0 +1,10 @@
+kysymys: Tarvitsevatko Linux ja Mac usein virustorjuntaa?
+vastaus: Tämä on väärin
+väärät_vastaukset:
+  - Tämä on totta
+  - Vain Linux tarvitsee virustorjuntaa.
+  - Vain Mac tarvitsee virustorjuntaa.
+selitys: |
+  Linux ja Mac, kiitos niiden käyttäjäoikeuksien erottelujärjestelmän,
+  eivät usein tarvitse virustorjuntaa.
+arvioitu: true

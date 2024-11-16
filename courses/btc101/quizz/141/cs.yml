@@ -1,0 +1,11 @@
+otázka: Jaké jsou náklady na provoz Bitcoinového uzlu na Raspberry Pi 4 z hlediska spotřeby elektřiny za rok (k roku 2023)?
+odpověď: Trochu méně než 10€ za rok.
+špatné_odpovědi:
+  - Trochu více než 50€ za rok.
+  - Trochu méně než 100€ za rok.
+  - Přibližně 200€ za rok.
+vysvětlení: |
+  Provoz Bitcoinového uzlu na Raspberry Pi 4 stojí trochu
+  méně než 10€ za rok z hlediska spotřeby elektřiny
+  k roku 2023.
+recenzováno: true

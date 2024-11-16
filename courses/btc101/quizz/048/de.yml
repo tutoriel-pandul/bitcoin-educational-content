@@ -1,0 +1,11 @@
+Frage: Was ist die Folge von Hyperinflation?
+Antwort: Ein drastischer Rückgang des Währungswertes.
+falsche_Antworten:
+  - Ein kleiner Rückgang des Währungswertes.
+  - Ein drastischer Anstieg des Währungswertes.
+  - Ein kleiner Anstieg des Währungswertes.
+Erklärung: |
+  Aufgrund von Hyperinflation verlieren die Menschen schnell das
+  Vertrauen in die Währung, was zu einem drastischen Rückgang ihres Wertes
+  über einen kurzen Zeitraum führt.
+überprüft: true

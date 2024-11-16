@@ -1,0 +1,11 @@
+kysymys: Mikä on Swiss Bitcoin Pay?
+vastaus: Ratkaisu harrastelijakauppiaille hyväksyä Bitcoinia.
+väärät_vastaukset:
+  - Sveitsiläinen pankki, joka hyväksyy Bitcoinin.
+  - Bitcoin-vaihto Sveitsistä.
+  - Kaivosyhtiö, joka toimii Sveitsissä.
+selitys: >-
+  Swiss Bitcoin Pay on ratkaisu harrastelijakauppiaille hyväksyä Bitcoinia.
+  Muita ratkaisuja ovat OpenNode yksinkertaisille verkkoliiketoiminnoille ja BTCpay Server
+  suurille rakenteille tai intohimoisille bitcoinisteille.
+arvioitu: true

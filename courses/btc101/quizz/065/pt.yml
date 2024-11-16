@@ -1,0 +1,12 @@
+pergunta: Quais princípios econômicos o Bitcoin segue?
+resposta: Princípios da economia Austríaca.
+wrong_answers:
+  - Princípios da economia Keynesiana.
+  - Princípios da economia Marxista.
+  - Princípios da economia Neoclássica.
+explicação: |
+  O Bitcoin segue os princípios da economia Austríaca.
+  Sua quantidade limitada e a falta de uma entidade central protegem-no
+  dos riscos inerentes de inflação que são vistos em
+  moedas tradicionais.
+revisado: true

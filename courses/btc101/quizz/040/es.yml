@@ -1,0 +1,12 @@
+pregunta: ¿Cuál es la estrategia utilizada por las entidades centrales para devaluar una moneda fiduciaria?
+respuesta: Aumentan la masa monetaria en un porcentaje cada año.
+respuestas_incorrectas:
+  - Disminuyen la masa monetaria en un porcentaje cada año.
+  - Mantienen su masa monetaria constante en comparación con la masa inicial.
+  - Hacen que su masa monetaria fluctúe aleatoriamente en comparación con la masa inicial.
+explicación: |
+  Las entidades centrales a menudo devalúan una moneda aumentando su
+  masa monetaria en comparación con la inicial en un porcentaje
+  cada año. Esta devaluación silenciosa a menudo se justifica como
+  siendo en interés del pueblo.
+revisado: true

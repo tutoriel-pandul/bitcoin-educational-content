@@ -1,0 +1,11 @@
+otázka: Jaké je jednoduché řešení pro ochranu vašich dat před útoky ransomware?
+odpověď: Pravidelně zálohujte svá důležitá data na externí úložné zařízení nebo do bezpečné online úložné služby.
+špatné_odpovědi:
+  - Nainstalujte na svůj počítač více antivirových programů a pravidelně provádějte skenování.
+  - Pravidelně měňte svůj počítač nebo přeinstalujte váš operační systém (OS).
+  - Můžete používat veřejnou Wi-Fi síť, pokud na svém zařízení nemáte co skrývat.
+vysvětlení: |
+  Pravidelné zálohování vašich dat vám umožní obnovit vaše
+  data v případě kybernetického útoku nebo selhání hardware
+  bez ztráty klíčových informací.
+recenzováno: true

@@ -1,0 +1,13 @@
+otázka: Co je multisig peněženka?
+odpověď: Sada peněženek, která vyžaduje více podpisů pro provedení transakce.
+špatné_odpovědi:
+  - Peněženka, která vyžaduje jediný podpis pro provedení transakce.
+  - Peněženka, která nevyžaduje žádné podpisy pro provedení transakce.
+  - Peněženka, která vyžaduje fyzický podpis pro provedení transakce.
+vysvětlení: |
+  Multisig peněženka je typ Bitcoinové peněženky, která vyžaduje
+  více podpisů pro provedení transakce. To přidává
+  další vrstvu zabezpečení, protože to znamená, že jedna osoba
+  nemůže provést transakci bez schválení
+  ostatních.
+recenzováno: true

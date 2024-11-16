@@ -1,0 +1,10 @@
+Frage: Was ist die Rolle des öffentlichen Schlüssels in einem Bitcoin-Wallet?
+Antwort: Er wird verwendet, um Bitcoin-Adressen zu generieren und somit Geld zu empfangen.
+falsche_Antworten:
+  - Er wird verwendet, um Bitcoin-Transaktionen zu verschlüsseln.
+  - Er wird verwendet, um auf das Bitcoin-Wallet zuzugreifen.
+  - Er wird verwendet, um das Bitcoin-Wallet zu sichern.
+Erklärung: |
+  Der öffentliche Schlüssel wird vom privaten Schlüssel abgeleitet und verwendet,
+  um Bitcoin-Adressen zu generieren, um Geld zu empfangen.
+überprüft: true

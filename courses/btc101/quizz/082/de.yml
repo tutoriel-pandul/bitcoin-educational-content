@@ -1,0 +1,11 @@
+Frage: Welche Technologie wird verwendet, um Gelder sicher mit einem Bitcoin-Wallet auszugeben?
+Antwort: Elliptische-Kurven-Kryptographie.
+falsche_Antworten:
+  - Symmetrische Kryptographie.
+  - Quantenkryptographie.
+  - RSA-Kryptographie.
+Erklärung: |
+  Um Bitcoins auszugeben, muss der Besitzer den Elliptic Curve
+  Digital Signature Algorithm (ECDSA) verwenden, um eine Signatur
+  für die Weiterleitung einer Bitcoin-Transaktion zu erstellen.
+überprüft: true

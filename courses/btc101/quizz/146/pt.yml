@@ -1,0 +1,11 @@
+pergunta: Por que é importante que um nó de Bitcoin permaneça acessível e ao alcance de todos os usuários possíveis?
+resposta: Porque facilita a descentralização da rede.
+respostas_erradas:
+  - Porque aumenta a capacidade de transação da rede.
+  - Porque diminui a capacidade de transação da rede.
+  - Porque aumenta a recompensa por bloco para os mineradores.
+explicação: |
+  O custo acessível e a acessibilidade de um nó de Bitcoin são
+  importantes porque facilitam a descentralização da
+  rede.
+revisado: true

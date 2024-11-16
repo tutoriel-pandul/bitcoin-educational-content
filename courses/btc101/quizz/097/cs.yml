@@ -1,0 +1,11 @@
+otázka: Co se stane, pokud váš soukromý klíč bude odhalen třetí straně?
+odpověď: Třetí strana může utratit vaše bitcoiny.
+špatné_odpovědi:
+  - Třetí strana může pouze zobrazit vaši historii transakcí.
+  - Třetí strana může změnit váš soukromý klíč.
+  - Třetí strana může přistupovat k vašim osobním informacím.
+vysvětlení: |
+  Pokud je váš soukromý klíč odhalen třetí straně, přidružené
+  finanční prostředky již nejsou v bezpečí, protože soukromý
+  klíč jim umožňuje přístup k vašim prostředkům.
+recenzováno: true

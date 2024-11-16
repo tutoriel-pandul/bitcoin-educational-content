@@ -1,0 +1,12 @@
+pregunta: ¿Cuáles son las principales características de una moneda efectiva?
+respuesta: Fungible, Divisible, Líquida.
+respuestas_incorrectas:
+  - Fungible, Divisible, Perecedera.
+  - Fungible, Indivisible, Líquida.
+  - No fungible, Divisible, Líquida.
+explicación: |
+  Una moneda efectiva debe ser fungible (intercambiable
+  sin pérdida de valor), divisible (separable en partes pequeñas
+  para facilitar transacciones de diferentes volúmenes) y
+  líquida (fácilmente convertible en bienes o servicios).
+revisado: true

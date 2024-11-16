@@ -1,0 +1,13 @@
+otázka: Která z následujících možností není klíčovou vlastností mikrotransakcí na Lightning Network?
+odpověď: Dlouhá doba platby.
+špatné_odpovědi:
+  - Nízké poplatky.
+  - Okamžité platby.
+  - Škálovatelnost.
+vysvětlení: |
+  U mikrotransakcí na Lightning Network mohou uživatelé
+  těžit z nízkých transakčních poplatků, což činí ekonomicky výhodné posílání
+  velmi malých částek Bitcoinu. Také mohou mít okamžité platby, což umožňuje
+  transakce v reálném čase. Nakonec mohou dosáhnout škálovatelnosti, což umožňuje
+  zpracování velkého počtu transakcí současně. Tedy špatná odpověď je dlouhá doba platby.
+recenzováno: true

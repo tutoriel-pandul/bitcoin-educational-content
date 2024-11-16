@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi Bitcoinin päähyödyistä ihmisille, joilla ei ole pankkitiliä?
+vastaus: Bitcoin mahdollistaa yhdenvertaisuuden transaktioissa riippumatta sosiaalisesta asemastasi tai poliittisesta asemastasi.
+väärät_vastaukset:
+  - Bitcoin mahdollistaa epätasa-arvon transaktioissa palkitsemalla rikkaimpia käyttäjiä.
+  - Bitcoin hyödyttää vain ihmisiä, joilla on pankkitili ja vasemmistolainen poliittinen kanta.
+  - Bitcoin hyödyttää vain ihmisiä, joilla on korkea sosiaalinen asema.
+selitys: |
+  Tekstissä mainitaan, että maailmassa on 2,4 miljardia ihmistä ilman pankkitiliä, ja Bitcoin mahdollistaa yhdenvertaisuuden transaktioissa riippumatta heidän sosiaalisesta asemastaan tai poliittisesta asemastaan.
+arvioitu: true

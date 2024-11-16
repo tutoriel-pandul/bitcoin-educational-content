@@ -1,0 +1,13 @@
+kysymys: Mikä on matemaattinen käsite, joka perustuu ihmisen rationaalisuuteen ja jota
+  käytetään Bitcoinissa?
+vastaus: Peliteoria.
+vaarat_vastaukset:
+  - Todennäköisyysteoria.
+  - Lukuteoria.
+  - Joukkoteoria.
+selitys: |
+  Peliteoria on matemaattinen käsite, joka perustuu
+  ihmisen rationaalisuuteen. Bitcoinissa protokollamuutokset
+  toteutetaan käyttäjien toimesta, mikä tekee minkä tahansa muutoksen Bitcoinin
+  protokollaan erittäin monimutkaiseksi.
+arvioitu: true

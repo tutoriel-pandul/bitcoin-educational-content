@@ -1,0 +1,10 @@
+pergunta: Como as transações na Lightning Network são seguras?
+resposta: Através da criptografia e indiretamente através da energia consumida pelos mineradores no Bitcoin.
+respostas_erradas:
+  - Através do uso apenas de chaves privadas.
+  - Através do uso apenas de chaves públicas.
+  - Através do uso apenas de chaves privadas e públicas.
+explicação: >-
+  As transações na Lightning Network são seguras através da criptografia
+  e indiretamente através da energia consumida pelos mineradores no Bitcoin.
+revisado: true

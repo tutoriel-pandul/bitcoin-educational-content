@@ -1,0 +1,9 @@
+pregunta: ¿Cuál ha sido la disponibilidad en línea de Bitcoin desde 2009?
+respuesta: 99.988%.
+respuestas_incorrectas:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explicación: |
+  La disponibilidad en línea de Bitcoin es del 99.988% desde 2009.
+revisado: true

@@ -1,0 +1,10 @@
+Frage: Was sind die typischen Kosten für einen Miner?
+Antwort: Stromverbrauch und Hardwarekauf.
+falsche_Antworten:
+  - Nur Hardwarekauf.
+  - Transaktionsgebühren.
+  - Stromverbrauch und Transaktionsgebühren.
+Erklärung: >-
+  Das Mining von Bitcoin erfordert erhebliche Rechenleistung, was wiederum Strom verbraucht.
+Außerdem müssen Miner in spezialisierte Hardware investieren, um effektiv minen zu können.
+überprüft: false

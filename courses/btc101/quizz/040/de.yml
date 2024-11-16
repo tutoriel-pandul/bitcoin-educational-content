@@ -1,0 +1,12 @@
+Frage: Welche Strategie verwenden zentrale Einheiten, um eine Fiat-Währung abzuwerten?
+Antwort: Sie erhöhen die Geldmenge jedes Jahr um einige Prozent.
+falsche_Antworten:
+  - Sie verringern die Geldmenge jedes Jahr um einige Prozent.
+  - Sie halten ihre Geldmenge im Vergleich zur anfänglichen Menge konstant.
+  - Sie lassen ihre Geldmenge im Vergleich zur anfänglichen Menge zufällig schwanken.
+Erklärung: |
+  Zentrale Einheiten werten eine Währung oft ab, indem sie
+  ihre Geldmenge im Vergleich zur anfänglichen um einige Prozent
+  jedes Jahr erhöhen. Diese stille Abwertung wird oft als
+  im Interesse der Bevölkerung gerechtfertigt.
+überprüft: true

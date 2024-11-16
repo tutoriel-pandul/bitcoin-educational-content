@@ -1,0 +1,14 @@
+Frage: Wie löst Bitcoin das Byzantinische Generäle-Problem?
+Antwort: Durch die Verwendung einer Blockchain, die auf Proof of Work mit einer variablen Schwierigkeit basiert.
+Falsche Antworten:
+  - Durch die Verwendung von digitalen Signaturen.
+  - Durch die Verwendung eines öffentlichen Registers.
+  - Durch die Verwendung eines Proof of Stake-Algorithmus.
+Erklärung: >-
+  Das Byzantinische Generäle-Problem ist ein klassisches Problem in
+der verteilten Datenverarbeitung, das das Erreichen eines Konsenses
+in einem Netzwerk betrifft, in dem einige der Knoten fehlerhaft oder
+bösartig sein können. Bitcoin löst dieses Problem durch die Verwendung einer
+Blockchain, die auf Proof of Work basiert, was sicherstellt, dass alle
+Knoten über den Zustand der Transaktionshistorie übereinstimmen.
+Überprüft: true

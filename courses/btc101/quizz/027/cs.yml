@@ -1,0 +1,12 @@
+otázka: Proč Bitcoin není dnes široce přijímán v obchodě?
+odpověď: Protože není široce přijímán jednotlivci.
+špatné_odpovědi:
+  - Protože není přenosný.
+  - Protože není dělitelný na malé jednotky.
+  - Protože není likvidní.
+vysvětlení: |
+  Navzdory svým vlastnostem, jako je striktně omezená
+  nabídka, Bitcoin stále není široce přijímán v obchodě
+  dnes, kvůli nedostatku přijetí jednotlivci, takže
+  obchodníci nejsou motivováni jej přijímat.
+recenzováno: true

@@ -1,0 +1,9 @@
+kysymys: Mitä Salamaverkko mahdollistaa?
+vastaus: Siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
+vaarat_vastaukset:
+  - Luoda suoria kanavayhteyksiä vain keskitettyjen pörssien kanssa.
+  - Luoda kanavayhteyksiä, jotka vaativat useita vahvistuksia minkä tahansa siirron yhteydessä.
+  - Perustaa suoria kanavayhteyksiä, jotka ovat rajoitettuja vain suuriin siirtoihin.
+selitys: |
+  Salamaverkko mahdollistaa siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
+arvioitu: true

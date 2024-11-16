@@ -1,0 +1,12 @@
+domanda: Qual è il numero massimo di unità Bitcoin che possono esistere?
+risposta: 21 milioni.
+risposte_errate:
+  - 3 trilioni.
+  - 100 milioni.
+  - Non c'è limite.
+spiegazione: |
+  La fornitura totale di Bitcoin è limitata a 21 milioni di unità.
+  Questa è una caratteristica fondamentale di Bitcoin che lo differenzia
+  dalle valute fiduciarie, che possono essere stampate in
+  quantità illimitate dalle banche centrali.
+revisionato: vero

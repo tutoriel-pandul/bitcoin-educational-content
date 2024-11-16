@@ -1,0 +1,10 @@
+domanda: Qual è uno degli svantaggi dell'oro come forma di denaro?
+risposta: Non è facilmente divisibile.
+risposte_errate:
+  - Non mantiene il suo valore nello spazio.
+  - Si erode nel tempo.
+  - È facile da produrre.
+spiegazione: |
+  Uno degli svantaggi principali dell'oro come forma di denaro è
+  la difficoltà di dividerlo in piccole unità all'occorrenza, il che lo rende meno pratico da usare.
+revisionato: vero

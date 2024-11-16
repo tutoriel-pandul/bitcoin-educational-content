@@ -1,0 +1,10 @@
+otázka: Jaké jsou typické náklady pro těžaře?
+odpověď: Spotřeba elektřiny a nákup hardware.
+špatné_odpovědi:
+  - Pouze nákup hardware.
+  - Transakční poplatky.
+  - Spotřeba elektřiny a transakční poplatky.
+vysvětlení: >-
+  Těžba Bitcoinu vyžaduje značný výpočetní výkon, což zase spotřebovává elektřinu.
+Kromě toho musí těžaři investovat do specializovaného hardware, aby mohli efektivně těžit.
+recenzováno: false

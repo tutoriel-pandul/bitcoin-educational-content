@@ -1,0 +1,12 @@
+otázka: Jak Bitcoinový protokol zajišťuje svou odolnost vůči cenzuře a odolnost?
+odpověď: Každá složka protokolu je geograficky distribuována po celém světě.
+špatné_odpovědi:
+  - Využívá lokální síť uzlů distribuovaných v Evropě.
+  - Používá složitý algoritmus pro validaci transakcí.
+  - Používá vysokou úroveň šifrování.
+vysvětlení: |
+  Bitcoinový protokol zajišťuje svou odolnost vůči cenzuře a
+  odolnost, protože každá jeho složka je geograficky distribuována
+  po celém světě. Například existuje přibližně 40 000 Bitcoinových
+  uzlů na všech kontinentech.
+recenzováno: true

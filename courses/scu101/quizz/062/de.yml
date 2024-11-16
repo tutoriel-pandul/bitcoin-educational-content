@@ -1,0 +1,11 @@
+Frage: Welche Aspekte des Netzwerkwissens sind in der Cybersicherheit erforderlich?
+Antwort: TCP/IP, VPN, Firewall
+falsche_Antworten:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+Erklärung: |
+  Das Kapitel erwähnt TCP/IP, VPN und Firewall als einige der
+  Aspekte des Netzwerkwissens, die in der
+  Cybersicherheit erforderlich sind.
+überprüft: true

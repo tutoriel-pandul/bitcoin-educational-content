@@ -1,0 +1,12 @@
+kysymys: Mikä on Lightning Network?
+vastaus: Teknologia, joka mahdollistaa nopeat Bitcoin-siirrot.
+vaarat_vastaukset:
+  - Teknologia, joka hidastaa Bitcoin-siirtoja.
+  - Teknologia, jolla ei ole vaikutusta Bitcoin-siirtoihin.
+  - Teknologia, joka tekee Bitcoin-siirroista vähemmän turvallisia.
+selitys: |
+  Lightning Network on teknologia, joka parantaa
+  Bitcoinin käytettävyyttä päivittäisissä siirroissa, tekemällä niistä
+  nopeampia ja tehokkaampia ratkaistakseen Bitcoinin
+  skaalautuvuusongelman.
+arvioitu: true

@@ -1,0 +1,10 @@
+kysymys: Miksi on tärkeää, että Bitcoin-solmu pysyy edullisena ja saavutettavissa kaikille mahdollisille käyttäjille?
+vastaus: Koska se edistää verkon hajauttamista.
+väärät_vastaukset:
+  - Koska se lisää verkon transaktiokapasiteettia.
+  - Koska se vähentää verkon transaktiokapasiteettia.
+  - Koska se lisää lohkopalkkiota louhijoille.
+selitys: |
+  Bitcoin-solmun edullinen hinta ja saavutettavuus ovat
+  tärkeitä, koska ne edistävät verkon hajauttamista.
+arvioitu: true

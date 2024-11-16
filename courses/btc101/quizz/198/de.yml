@@ -1,0 +1,10 @@
+Frage: Was ist eine der Dinge, die man haben sollte, bevor man Bitcoin kauft?
+Antwort: Ein sicheres Wallet.
+falsche_Antworten:
+  - Einen physischen Safe.
+  - Ein Bankkonto.
+  - Eine Kreditkarte.
+Erklärung: |
+  Im Kursmaterial wird erwähnt, dass man, bevor man Bitcoin kauft,
+  ein sicheres Wallet haben sollte, in dem man seine Schlüssel aufbewahrt.
+überprüft: true

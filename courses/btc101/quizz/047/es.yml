@@ -1,0 +1,12 @@
+pregunta: ¿Qué es la hiperinflación?
+respuesta: Un aumento drástico en la masa monetaria.
+respuestas_incorrectas:
+  - Un pequeño aumento en la masa monetaria.
+  - Una disminución drástica en la masa monetaria.
+  - Una pequeña disminución en la masa monetaria.
+explicación: |
+  La hiperinflación es un fenómeno monetario caracterizado por un
+  aumento drástico en la inflación a través de la impresión monetaria
+  por parte de las autoridades, lo que lleva a una pérdida completa de
+  confianza en una moneda.
+revisado: true

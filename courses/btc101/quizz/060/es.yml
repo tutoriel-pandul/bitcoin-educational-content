@@ -1,0 +1,9 @@
+pregunta: ¿Cómo se llama el proceso que verifica las transacciones en la red de Bitcoin?
+respuesta: Minería
+respuestas_incorrectas:
+  - Excavación
+  - Cosecha
+  - Agricultura
+explicación: |
+  El proceso que verifica las transacciones en la red de Bitcoin se llama minería. Los mineros realizan una tarea criptográfica y son recompensados con la emisión de nuevos bitcoins.
+revisado: true

@@ -1,0 +1,9 @@
+pregunta: ¿Cuándo fue validada e implementada por primera vez la Lightning Network?
+respuesta: 2017
+respuestas_incorrectas:
+  - 2015
+  - 2016
+  - 2018
+explicación: |
+  La Lightning Network fue validada e implementada por primera vez en 2017.
+revisado: true

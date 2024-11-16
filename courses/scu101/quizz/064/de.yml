@@ -1,0 +1,12 @@
+Frage: Warum wird davon abgeraten, Browser-Erweiterungen für das automatische Ausfüllen von Passwörtern zu verwenden?
+Antwort: Sie können den Benutzer anfälliger für Phishing-Angriffe machen, die Angriffsfläche vergrößern und die Browserleistung verlangsamen.
+falsche_Antworten:
+  - Sie sind schwer zu benutzen.
+  - Sie sind nicht mit allen Browsern kompatibel.
+  - Sie benötigen viel Speicherplatz.
+Erklärung: |
+  Browser-Erweiterungen für das automatische Ausfüllen von Passwörtern können
+  den Benutzer anfälliger für Phishing-Angriffe machen. Sie neigen auch dazu,
+  die Angriffsfläche zu vergrößern und können die Browserleistung verlangsamen,
+  was ein erhebliches Risiko darstellt.
+überprüft: true

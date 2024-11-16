@@ -1,0 +1,12 @@
+domanda: In quale anno avverrà il settimo halving?
+risposta: 2036
+risposte_errate:
+  - 2032
+  - 2028
+  - 2048
+spiegazione: |
+  Il settimo halving dovrebbe avvenire nel 2036, e il numero stimato
+  di bitcoin in circolazione sarà di 20.835.937,5,
+  che corrisponderà approssimativamente al 99,22% dell'offerta
+  totale.
+revisionato: vero

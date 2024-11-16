@@ -1,0 +1,11 @@
+Frage: Was passiert, wenn Ihr privater Schlüssel einer dritten Partei offenbart wird?
+Antwort: Die dritte Partei kann Ihre Bitcoins ausgeben.
+falsche_Antworten:
+  - Die dritte Partei kann nur Ihre Transaktionshistorie einsehen.
+  - Die dritte Partei kann Ihren privaten Schlüssel ändern.
+  - Die dritte Partei kann auf Ihre persönlichen Informationen zugreifen.
+Erklärung: |
+  Wenn Ihr privater Schlüssel einer dritten Partei offenbart wird, sind die
+  damit verbundenen Geldmittel nicht mehr sicher, da der private
+  Schlüssel ihnen den Zugang zu Ihren Geldmitteln ermöglicht.
+überprüft: true

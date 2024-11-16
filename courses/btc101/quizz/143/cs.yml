@@ -1,0 +1,11 @@
+otázka: Co by se stalo, pokud by uživatel uzlu rozhodl následovat odlišná pravidla, která by byla v rozporu s existujícími pravidly konsensu?
+odpověď: Uzel již nebude součástí Bitcoinové sítě.
+špatné_odpovědi:
+  - Uzel se stane součástí jiné Bitcoinové sítě.
+  - Uzel bude Bitcoinovou sítí penalizován.
+  - Uzel bude Bitcoinovou sítí odměněn.
+vysvětlení: |
+  Pokud by uživatel uzlu rozhodl následovat jiná pravidla,
+  která by invalidovala současná pravidla konsensu, pak by tento uzel
+  již nebyl součástí Bitcoinové sítě.
+recenzováno: true

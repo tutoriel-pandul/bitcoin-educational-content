@@ -1,0 +1,9 @@
+kysymys: Mikä näistä vaihtoehdoista on väärä koskien Bitcoin-lompakon sisältävän laitteen menettämistä?
+vastaus: Voit palauttaa lompakkosi ja käyttää bitcoinejasi nollaamalla salasanasi.
+väärät_vastaukset:
+  - Menetät kaikki Bitcoinsisi, jos sinulla ei ole muistisanaista fraasia.
+  - Voit varmistaa julkisilla avaimillasi, etteivät bitcoinisi ole kuluneet.
+  - Voit palauttaa lompakkosi ja käyttää bitcoinejasi muistisanaista fraasin avulla.
+selitys: |
+  Lompakkoa sisältävän laitteen menettäminen ei välttämättä tarkoita Bitcoiniesi menettämistä. Sen, mikä mahdollistaa lompakkosi palauttamisen ja bitcoiniesi käytön, on muistisanaista fraasi.
+arvioitu: true

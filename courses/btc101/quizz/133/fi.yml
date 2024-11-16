@@ -1,0 +1,10 @@
+kysymys: Kuinka louhijat vahvistavat siirtoja ja sisällyttävät ne lohkoon?
+vastaus: Työn todistamisen prosessin kautta.
+väärät_vastaukset:
+  - Panoksen todistamisen prosessin kautta.
+  - Valtaoikeuden todistamisen prosessin kautta.
+  - Polttamisen todistamisen prosessin kautta.
+selitys: >-
+  Louhijat vahvistavat siirtoja ja sisällyttävät ne lohkoon prosessin avulla,
+  jota kutsutaan "työn todistamiseksi". Tämä sisältää kryptografisen pulman ratkaisemisen.
+arvioitu: true

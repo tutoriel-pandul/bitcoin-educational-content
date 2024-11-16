@@ -1,0 +1,11 @@
+kysymys: Minä vuonna seitsemäs puolitus tapahtuu?
+vastaus: 2036
+vaarat_vastaukset:
+  - 2032
+  - 2028
+  - 2048
+selitys: |
+  Seitsemännen puolituksen pitäisi tapahtua vuonna 2036, ja arvioitu
+  bitcoinien määrä liikkeessä tulee olemaan 20,835,937.5,
+  mikä vastaa suurin piirtein 99.22% koko tarjonnasta.
+arvioitu: true

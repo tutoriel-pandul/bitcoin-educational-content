@@ -1,0 +1,9 @@
+otázka: V kterém roce se předpokládá, že dojde k ukončení tvoření bitcoinů?
+odpověď: 2140
+špatné_odpovědi:
+  - 2050
+  - 2030
+  - 2200
+vysvětlení: |
+  Díky mechanismu halvingu lze matematicky předpovědět, že tvoření bitcoinů skončí v roce 2140, kdy celkový počet bitcoinů dosáhne svého limitu 21 milionů.
+posouzeno: true

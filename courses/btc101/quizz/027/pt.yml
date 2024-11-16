@@ -1,0 +1,12 @@
+pergunta: Por que o Bitcoin não é amplamente aceito no comércio hoje?
+resposta: Porque não é amplamente adotado por indivíduos.
+respostas_erradas:
+  - Porque não é transportável.
+  - Porque não é divisível em unidades pequenas.
+  - Porque não é líquido.
+explicação: |
+  Apesar de suas propriedades, como seu fornecimento estritamente limitado,
+  o Bitcoin ainda não é amplamente aceito no comércio
+  hoje, devido à falta de adoção por indivíduos, então
+  os comerciantes não são incentivados a aceitá-lo.
+revisado: true

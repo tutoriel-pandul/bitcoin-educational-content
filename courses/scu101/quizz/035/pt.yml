@@ -1,0 +1,12 @@
+pergunta: Qual é o propósito das tentativas de phishing?
+resposta: Extrair informações sensíveis como suas credenciais e senhas.
+respostas_erradas:
+  - Enviar-lhe e-mails de spam.
+  - Vender-lhe produtos ou serviços.
+  - Convidá-lo para eventos ou webinars.
+explicação: |
+  As tentativas de phishing visam extrair informações sensíveis
+  como suas credenciais e senhas. Hackers utilizam várias táticas
+  como e-mails fraudulentos para enganá-lo e fazer com que revele
+  suas informações.
+revisado: true

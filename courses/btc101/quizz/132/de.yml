@@ -1,0 +1,12 @@
+Frage: Was ist die Bedeutung der geografischen Verteilung von Bitcoin-Knoten?
+Antwort: Es macht es praktisch unmöglich, alle Kopien der Blockchain zu zerstören.
+falsche_Antworten:
+  - Es bestimmt den Preis von Bitcoin in verschiedenen Regionen.
+  - Es beeinflusst die Geschwindigkeit von Bitcoin-Transaktionen.
+  - Es bestimmt die Anzahl der in einer Region abbaubaren Bitcoins.
+Erklärung: |
+  Die geografische Verteilung von Bitcoin-Knoten macht es
+  praktisch unmöglich, alle Kopien der Blockchain zu zerstören.
+  Da die Knoten verteilt sind, ist es schwierig, sie alle physisch
+  zu beschlagnahmen.
+überprüft: true

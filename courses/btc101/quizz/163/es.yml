@@ -1,0 +1,10 @@
+pregunta: ¿Cuál es el tiempo promedio entre la creación de dos bloques en el protocolo de Bitcoin?
+respuesta: 10 minutos.
+respuestas_incorrectas:
+  - 5 minutos.
+  - 15 minutos.
+  - 20 minutos.
+explicación: >-
+  En promedio, un bloque se crea cada 10 minutos en el protocolo de Bitcoin.
+  Este tiempo permanece constante independientemente del número de mineros y su poder de cómputo.
+revisado: true

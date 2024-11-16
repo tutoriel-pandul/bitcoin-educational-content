@@ -1,0 +1,10 @@
+Frage: Was ist eines der Hauptmerkmale des Bitcoin-Protokolls?
+Antwort: Es ist neutral gegenüber allen seinen Nutzern.
+falsche_Antworten:
+  - Es bevorzugt bestimmte Nutzer gegenüber anderen.
+  - Es ist voreingenommen gegenüber bestimmten Nutzern.
+  - Es kommt nur einer ausgewählten Gruppe von Nutzern zugute.
+Erklärung: >-
+  Im Text wird erwähnt, dass das Bitcoin-Protokoll neutral gegenüber allen seinen
+  Nutzern ist.
+überprüft: true

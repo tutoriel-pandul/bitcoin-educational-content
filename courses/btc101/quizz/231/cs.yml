@@ -1,0 +1,10 @@
+otázka: Jaký je průměrný časový interval mezi vytvořením dvou bloků v protokolu Bitcoin?
+odpověď: 10 minut.
+nesprávné_odpovědi:
+  - 5 minut.
+  - 15 minut.
+  - 20 minut.
+vysvětlení: |
+  Průměrný časový interval mezi vytvořením dvou
+  bloků v protokolu Bitcoin je 10 minut.
+posouzeno: true

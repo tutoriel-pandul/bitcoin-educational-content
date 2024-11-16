@@ -1,0 +1,11 @@
+câu hỏi: Điều gì sẽ xảy ra nếu một người dùng nút quyết định tuân theo những quy tắc khác biệt mâu thuẫn với quy tắc đồng thuận hiện tại?
+câu trả lời: Nút đó sẽ không còn là một phần của mạng lưới Bitcoin.
+câu trả lời sai:
+  - Nút đó sẽ trở thành một phần của một mạng lưới Bitcoin khác.
+  - Nút đó sẽ bị mạng lưới Bitcoin phạt.
+  - Nút đó sẽ được mạng lưới Bitcoin thưởng.
+giải thích: |
+  Nếu một người dùng nút quyết định tuân theo những quy tắc khác
+  làm mất hiệu lực của quy tắc đồng thuận hiện tại, thì nút này
+  sẽ không còn là một phần của mạng lưới Bitcoin.
+đã xem xét: true

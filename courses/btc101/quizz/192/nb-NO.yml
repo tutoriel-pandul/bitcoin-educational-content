@@ -1,0 +1,11 @@
+spørsmål: Hva er OpenNode?
+svar: En enkel nettbasert løsning for bedrifter for å akseptere Bitcoin
+feil_svar:
+  - En type Bitcoin
+  - En programvare for Bitcoin-mining
+  - En Bitcoin-utvekslingsplattform
+forklaring: >-
+  OpenNode er en enkel nettbasert løsning for bedrifter for å akseptere Bitcoin.
+  Andre løsninger inkluderer Swiss Bitcoin Pay for amatørforhandlere og BTCpay Server
+  for store strukturer eller lidenskapelige bitcoinere.
+gjennomgått: false

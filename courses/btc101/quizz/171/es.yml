@@ -1,0 +1,13 @@
+pregunta: ¿Cómo asegura el protocolo de Bitcoin su resistencia a la censura y su resiliencia?
+respuesta: Cada componente del protocolo está distribuido geográficamente por todo el mundo.
+respuestas_incorrectas:
+  - Utiliza una red local de nodos distribuidos en Europa.
+  - Utiliza un algoritmo complejo para validar transacciones.
+  - Utiliza un alto nivel de cifrado.
+explicación: |
+  El protocolo de Bitcoin asegura su resistencia a la censura y
+  resiliencia porque cada componente del protocolo está
+  distribuido geográficamente por todo el mundo. Por ejemplo,
+  hay aproximadamente 40,000 nodos de Bitcoin en todos los
+  continentes.
+revisado: true

@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es el papel de los mineros en la red de Bitcoin?
+respuesta: Los mineros aseguran la red y añaden transacciones a los bloques.
+respuestas_incorrectas:
+  - Los mineros crean nuevos bitcoins.
+  - Los mineros verifican la identidad de los usuarios de Bitcoin.
+  - Los mineros establecen el precio de Bitcoin.
+explicación: >-
+  Los mineros utilizan su poder computacional para resolver problemas matemáticos complejos,
+  lo que les permite añadir nuevas transacciones a la cadena de bloques. Este proceso asegura
+  la red y mantiene su integridad.
+revisado: true

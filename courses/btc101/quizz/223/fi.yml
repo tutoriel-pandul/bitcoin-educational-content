@@ -1,0 +1,11 @@
+kysymys: Mikä on lohkoketjun trilemma?
+vastaus: Protokolla, joka perustuu lohkoketjuun, voi täyttää vain kaksi kriteeriä kolmesta: hajautus, turvallisuus ja skaalautuvuus.
+väärät_vastaukset:
+  - Protokolla, joka perustuu lohkoketjuun, voi täyttää vain yhden kriteerin kolmesta: hajautus, turvallisuus ja skaalautuvuus.
+  - Protokolla, joka perustuu lohkoketjuun, voi täyttää kaikki kriteerit: hajautus, turvallisuus ja skaalautuvuus.
+  - Protokolla, joka perustuu lohkoketjuun, ei voi täyttää mitään kriteereistä: hajautus, turvallisuus ja skaalautuvuus.
+selitys: |
+  Lohkoketjun trilemma viittaa haasteeseen, jonka mukaan
+  protokolla, joka perustuu lohkoketjuun, voi täyttää vain kaksi kriteeriä
+  kolmesta: hajautus, turvallisuus ja skaalautuvuus.
+arvioitu: true

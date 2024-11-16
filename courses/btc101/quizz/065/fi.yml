@@ -1,0 +1,11 @@
+kysymys: Mihin taloustieteen periaatteisiin Bitcoin noudattaa?
+vastaus: Itävaltalaisen taloustieteen periaatteet.
+väärät_vastaukset:
+  - Keynesiläisen taloustieteen periaatteet.
+  - Marxilaisen taloustieteen periaatteet.
+  - Uusklassisen taloustieteen periaatteet.
+selitys: |
+  Bitcoin noudattaa itävaltalaisen taloustieteen periaatteita.
+  Sen rajattu määrä ja keskusyksikön puuttuminen suojaavat sitä
+  perinteisille valuutoille ominaisilta inflaation sisäsyntyisiltä riskeiltä.
+arvioitu: true

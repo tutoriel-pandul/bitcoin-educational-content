@@ -1,0 +1,11 @@
+kysymys: Mikä on yksi riskeistä, jotka liittyvät Bitcoinin ostamiseen?
+vastaus: Sen hinta voi laskea nollaan.
+väärät_vastaukset:
+  - Sen voi varastaa helposti.
+  - Sen voi kopioida.
+  - Sen voi menettää fyysisesti.
+selitys: |
+  Kurssitekstissä mainitaan, että Bitcoin on erittäin volatiili
+  finanssiomaisuus, ja sen hinta voi laskea nollaan, mikä on yksi
+  riskeistä, jotka liittyvät Bitcoinin ostamiseen.
+arvioitu: true

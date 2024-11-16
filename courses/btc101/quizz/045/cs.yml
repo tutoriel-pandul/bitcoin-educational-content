@@ -1,0 +1,13 @@
+otázka: Jaká je klíčová vlastnost Bitcoinu, která jej odlišuje od fiat měn?
+odpověď: Jeho měnová politika je vynucována obecným konsensem.
+špatné_odpovědi:
+  - Může být tisknut v neomezeném množství centrálními bankami.
+  - Je kryt fyzickým komoditním aktivem jako zlato nebo stříbro.
+  - Je regulován centrální bankou.
+vysvětlení: |
+  Díky své decentralizované a kryptografické povaze
+  nemůže být Bitcoin padělán a je omezen na 21 milionů
+  jednotek. To je klíčová vlastnost, která jej odlišuje od
+  fiat měn, které následují měnovou politiku, kterou mohou
+  měnit centrální banky.
+recenzováno: true

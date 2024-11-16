@@ -1,0 +1,10 @@
+küsimus: Miks soovitatakse vältida Google Chrome'i brauserit?
+vastus: Seoses selle jälgijatega.
+valed_vastused:
+  - Kuna see ei ole turvaline.
+  - Kuna see ei ole kasutajasõbralik.
+  - Kuna see ei toeta laiendusi.
+selgitus: |
+  Google Chrome'i brauser on tuntud oma jälgijate poolest, mis võivad koguda andmeid
+  teie veebitegevuse kohta. See võib olla mõne kasutaja jaoks privaatsusmure.
+üle vaadatud: false

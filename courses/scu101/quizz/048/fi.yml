@@ -1,0 +1,11 @@
+kysymys: Mikä seuraavista on hyvä ja turvallinen menetelmä kaksivaiheisessa tunnistautumisessa (2FA)?
+vastaus: Sovelluksen, kuten Google Authenticatorin tai Authyn, generoima koodi.
+väärät_vastaukset:
+  - Puhelu tai SMS-koodi tilin haltijalle
+  - Sähköposti, jossa on 10 minuutin kuluttua vanheneva koodi tilin haltijalle
+  - Kirje lähetettynä tilin haltijan kotiosoitteeseen
+selitys: |
+  Kaksivaiheisen tunnistautumisen toinen vaihe voi olla väliaikainen koodi, joka lähetetään
+  SMS:nä, sähköpostilla, sovelluksen generoimana koodina tai fyysisenä turva-avaimena. Kuitenkaan kaikki nämä menetelmät
+  eivät mahdollista saman turvallisuustason ylläpitämistä.
+arvioitu: true

@@ -1,0 +1,12 @@
+kysymys: Mikä on fiat-valuuttojen pääetu?
+vastaus: Ne ovat helposti jaettavissa.
+väärät_vastaukset:
+  - Ne ovat keskitetyn tahon hallinnassa.
+  - Niitä ei ole helppo kuljettaa.
+  - Ne ovat tehokkaita säilyttämään arvoa ajan myötä.
+selitys: |
+  Fiat-valuutat, kuten dollari ja euro, ovat erittäin
+  likvidejä ja helposti kuljetettavia, koska ne ovat nykyään pääasiassa
+  digitaalisia. Niiden arvo kuitenkin hupenee jatkuvasti
+  rahapoliittisen inflaation myötä.
+arvioitu: true

@@ -1,0 +1,11 @@
+domanda: Qual è il ruolo dell'unità bitcoin nella vita quotidiana?
+risposta: Viene utilizzata per comprare e vendere beni e servizi.
+risposte_errate:
+  - Viene utilizzata per minare nuovi bitcoin.
+  - Viene utilizzata per regolare il prezzo del Bitcoin.
+  - Viene utilizzata per controllare il protocollo Bitcoin.
+spiegazione: |
+  Nella vita quotidiana, le persone usano l'unità Bitcoin per comprare e
+  vendere beni e servizi. Per essere utilizzata, l'unità
+  si affida al protocollo Bitcoin.
+revisionato: vero

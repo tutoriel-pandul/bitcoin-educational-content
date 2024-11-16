@@ -1,0 +1,9 @@
+pregunta: Desde su creación, ¿qué porcentaje del tiempo ha estado funcional la red de Bitcoin?
+respuesta: 99.988%.
+respuestas_incorrectas:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explicación: |
+  La disponibilidad en línea de Bitcoin es del 99.988% desde 2009.
+revisado: true

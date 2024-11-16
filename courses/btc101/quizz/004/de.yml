@@ -1,0 +1,11 @@
+Frage: Was sind die zwei Hauptmerkmale von Bitcoin?
+Antwort: Bitcoin ist sowohl ein Computerprotokoll als auch eine Währungseinheit.
+falsche_Antworten:
+  - Bitcoin ist sowohl eine physische Währung als auch eine digitale Geldbörse.
+  - Bitcoin ist sowohl eine Art von Aktie als auch eine Art von Anleihe.
+  - Bitcoin ist sowohl eine zentralisierte als auch eine dezentralisierte Währung.
+Erklärung: |
+  Bitcoin ist sowohl ein Computerprotokoll, das Technologien
+  wie Kryptographie und die Blockchain nutzt, als auch eine
+  Währungseinheit, die für Transaktionen verwendet wird.
+überprüft: true

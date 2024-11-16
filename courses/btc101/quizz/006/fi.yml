@@ -1,0 +1,14 @@
+kysymys: Mikä on pääetu oppia käyttämään Bitcoinia?
+vastaus: Ymmärtää, miten olla oman rahasi hallinnassa.
+väärät_vastaukset:
+  - Opiskella, miten väitellä taloustieteilijöiden kanssa.
+  - Luoda uusi krypto-protokolla.
+  - Säädellä Bitcoinin hintaa.
+selitys: |
+  Bitcoinin käytön oppiminen on olennaista kenelle tahansa,
+  joka haluaa olla oman rahansa hallinnassa. Itse asiassa Bitcoin
+  mahdollistaa yksilöiden ostaa/myydä tavaroita ja palveluita luomalla
+  transaktioita ilman kolmannen osapuolen tarvetta.
+  Lisäksi se antaa mahdollisuuden turvallisesti säilyttää rahaa
+  ei-hoidetuissa digitaalisissa lompakoissa.
+arvioitu: true

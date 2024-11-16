@@ -1,0 +1,9 @@
+domanda: Qual è il rischio di complicare eccessivamente la sicurezza e l'accessibilità dei tuoi bitcoin?
+risposta: Puoi danneggiarti se gestisci male i backup dei portafogli.
+risposte_errate:
+  - Puoi danneggiarti se gestisci male i portafogli fisici.
+  - Puoi danneggiarti se gestisci male i portafogli digitali.
+  - Puoi danneggiarti se gestisci male i portafogli multisig.
+spiegazione: |
+  Complicare eccessivamente la sicurezza e l'accessibilità dei tuoi bitcoin può danneggiarti se, per esempio, gestisci male i backup dei tuoi portafogli. Questo perché procedure di backup semplici sono cruciali per riacquistare l'accesso ai tuoi fondi in caso di perdita del tuo telefono o computer.
+revisionato: true

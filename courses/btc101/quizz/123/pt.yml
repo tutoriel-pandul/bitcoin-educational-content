@@ -1,0 +1,11 @@
+pergunta: Qual é o número do bloco da primeira transação Bitcoin?
+resposta: Bloco 170.
+respostas_erradas:
+  - Bloco 1.
+  - Bloco 17.
+  - Bloco 1700.
+explicação: |
+  A primeira transação Bitcoin, que foi uma transação de
+  10 BTC entre Satoshi Nakamoto e Hal Finney, está registrada
+  no bloco 170.
+revisado: true

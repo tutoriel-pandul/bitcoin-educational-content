@@ -1,0 +1,12 @@
+domanda: Cos'è un "hash" valido nel contesto del mining di blocchi nella rete Bitcoin?
+risposta: Un'impronta digitale unica associata al blocco, composta da 256 caratteri.
+risposte_errate:
+  - Un codice unico utilizzato per accedere al blocco.
+  - Una password unica richiesta per minare il blocco.
+  - Un identificativo unico per il minatore che ha minato il blocco.
+spiegazione: |
+  Nel contesto del mining di blocchi nella rete Bitcoin, un
+  "hash" valido è un'impronta digitale unica associata al
+  blocco, composta da 256 caratteri. La validità di questo
+  hash dipende dalla difficoltà della rete Bitcoin.
+revisionato: true

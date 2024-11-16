@@ -1,0 +1,12 @@
+domanda: Qual è la potenziale minaccia dell'utilizzo di software craccato che non può essere aggiornato?
+risposta: L'arrivo di un virus durante il suo download illegale e un uso insicuro contro nuove forme di attacco.
+risposte_errate:
+  - Il software smetterà di funzionare dopo un certo periodo.
+  - Il software non avrà nuove funzionalità.
+  - Il software consumerà più risorse di sistema.
+spiegazione: |
+  Il software craccato che non può essere aggiornato rappresenta una doppia
+  minaccia potenziale. Può portare un virus durante il suo
+  download illegale da un sito sospetto e può essere insicuro
+  contro nuove forme di attacco.
+revisionato: true

@@ -1,0 +1,16 @@
+kysymys: Mikä on verkkosivuston Have I Been Pwned tarkoitus?
+vastaus: Tarkistaa, onko sähköpostiosoitteesi vaarantunut ja saada ilmoituksia tulevista tietomurroista.
+vaarat_vastaukset:
+  - Tarkistaa, onko sähköpostiosoitteesi kelvollinen ja saada ilmoituksia tulevista tietomurroista.
+  - Tarkistaa, onko sähköpostiosoitteesi saatavilla, ja jos on, käyttää sitä rekisteröitymiseen kuuluisaan online-panttilainaamoon.
+  - Tarkistaa, onko sähköpostiosoitteesi estetty tietomurron vuoksi.
+selitys: |
+  Verkkosivusto Have I Been Pwned mahdollistaa tarkistaa, onko
+  sähköpostiosoitteesi vaarantunut tietomurrossa ja saada
+  ilmoituksia tulevista tietomurroista.' on vaarantunut
+  tietomurrossa ja saada ilmoituksia tulevista tietomurroista.' on vaarantunut tietomurrossa ja saada
+  ilmoituksia tulevista tietomurroista.' on vaarantunut
+  tietomurrossa ja saada ilmoituksia tulevista tietomurroista.'
+
+  on vaarantunut tietomurrossa ja saada ilmoituksia tulevista tietomurroista.'
+arvioitu: true

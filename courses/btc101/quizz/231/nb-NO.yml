@@ -1,0 +1,9 @@
+spørsmål: Hva er den gjennomsnittlige tiden mellom to blokker i Bitcoin-protokollen?
+svar: 10 minutter
+feil_svar:
+  - 5 minutter
+  - 15 minutter
+  - 20 minutter
+forklaring: >-
+  I gjennomsnitt er tiden mellom to blokker i Bitcoin-protokollen 10 minutter.
+gjennomgått: false

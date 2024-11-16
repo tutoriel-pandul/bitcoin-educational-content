@@ -1,0 +1,9 @@
+kysymys: Mikä on rahan painamisen seuraus?
+vastaus: Se johtaa inflaatioon, vähitellen köyhdyttäen väestöä.
+väärät_vastaukset:
+  - Se johtaa deflaatioon, vähitellen rikastuttaen väestöä.
+  - Se johtaa vakaaseen talouteen ilman inflaatiota tai deflaatiota.
+  - Se johtaa rahan määrän vähenemiseen.
+selitys: |
+  Rahan painaminen, eli uuden rahan luominen keskuspankkien toimesta, johtaa inflaatioon. Tämä johtuu siitä, että rahan määrän lisääntyminen vähentää rahan ostovoimaa, mikä johtaa korkeampiin hintoihin ja säästöjen arvon alenemiseen.
+arvioitu: true

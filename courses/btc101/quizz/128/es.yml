@@ -1,0 +1,11 @@
+pregunta: Al crear un plan de herencia, ¿qué no es necesario incluir?
+respuesta: El nombre de la cartera de Bitcoin que sueles usar.
+respuestas_incorrectas:
+  - Una carta escrita a mano que enumera tus activos.
+  - Una descripción de cómo acceder a tus fondos.
+  - La información de contacto de personas de confianza.
+explicación: |
+  Crear un plan de herencia es un paso crucial para asegurar que tus bitcoins sean gestionados adecuadamente después de tu muerte.
+Este plan puede incluir una carta escrita a mano que enumera tus activos,
+sus métodos de acceso, y la información de contacto de personas de confianza a las que se debe contactar.
+revisado: true

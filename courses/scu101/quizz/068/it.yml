@@ -1,0 +1,13 @@
+domanda: Qual è una causa comune delle vulnerabilità di sicurezza?
+risposta: La negligenza umana.
+risposte_errate:
+  - Interruzioni di corrente.
+  - Velocità di internet lenta.
+  - Hardware obsoleto.
+spiegazione: |
+  Le vulnerabilità di sicurezza sono spesso il risultato della
+  negligenza umana, come l'utilizzo di password predefinite o
+  l'annotazione delle password in luoghi non sicuri. Attacchi
+  sofisticati non sono sempre necessari per mettere a rischio
+  la sicurezza informatica.
+revisionato: true

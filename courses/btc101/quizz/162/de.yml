@@ -1,0 +1,12 @@
+Frage: Was ist die Rolle der Miner im Bitcoin-Protokoll?
+Antwort: Sie sichern das aktuelle und das historische Netzwerk.
+falsche_Antworten:
+  - Sie regulieren den Preis von Bitcoin.
+  - Sie kontrollieren das Angebot von Bitcoin.
+  - Sie verwalten Transaktionen zwischen Benutzern.
+Erklärung: |
+  Miner im Bitcoin-Protokoll sichern sowohl das aktuelle als
+  auch das historische Netzwerk. Sie regulieren nicht den Preis
+  von Bitcoin, kontrollieren nicht dessen Angebot, noch verwalten
+  sie Transaktionen zwischen Benutzern.
+überprüft: true

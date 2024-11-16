@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es el antivirus incorporado en Windows?
+respuesta: Windows Defender
+respuestas_incorrectas:
+  - Kaspersky
+  - Norton
+  - McAfee
+explicación: |
+  Windows Defender es el antivirus incorporado en Windows. Es
+  una solución segura y efectiva para proteger el sistema
+  de amenazas.
+revisado: true

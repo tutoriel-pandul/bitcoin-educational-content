@@ -1,0 +1,12 @@
+domanda: Qual è la frequenza dell'aggiustamento della difficoltà?
+risposta: Ogni 2016 blocchi.
+risposte_errate:
+  - Ogni 1048 blocchi.
+  - Ogni 512 blocchi.
+  - Ogni 4032 blocchi.
+spiegazione: |
+  L'aggiustamento della difficoltà è un meccanismo che si verifica
+  ogni 2016 blocchi, o circa due settimane, per garantire che un
+  nuovo blocco venga aggiunto alla blockchain ogni dieci minuti in
+  media, indipendentemente dal hashrate globale.
+revisionato: true

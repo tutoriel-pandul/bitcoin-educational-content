@@ -1,0 +1,13 @@
+pregunta: ¿Cuál es el estatus de Bitcoin en El Salvador?
+respuesta: Moneda de curso legal.
+respuestas_incorrectas:
+  - Criminalizado.
+  - Desconocido.
+  - No regulado.
+explicación: |
+  El texto del curso menciona que algunos países han prohibido
+  y criminalizado el uso de Bitcoin, añadiendo a la
+  complejidad de la adopción de Bitcoin basada en culturas, épocas y
+  naciones. Sin embargo, El Salvador fue lo suficientemente valiente como para adoptarlo
+  como moneda de curso legal.
+revisado: true

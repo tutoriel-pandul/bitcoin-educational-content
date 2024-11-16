@@ -1,0 +1,11 @@
+otázka: Co je OpenNode?
+odpověď: Jednoduché online řešení pro podniky k přijímání Bitcoinu.
+špatné_odpovědi:
+  - Typ Bitcoinového uzlu, který je současně používán mnoha uživateli.
+  - Bitcoinový těžební software, který je open-source.
+  - Platforma pro výměnu Bitcoinů.
+vysvětlení: >-
+  OpenNode je jednoduché online řešení pro podniky k přijímání Bitcoinu.
+  Další řešení zahrnují Swiss Bitcoin Pay pro amatérské obchodníky a BTCpay Server
+  pro velké struktury nebo vášnivé bitcoinisty.
+recenzováno: true

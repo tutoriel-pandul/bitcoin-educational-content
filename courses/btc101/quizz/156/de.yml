@@ -1,0 +1,11 @@
+Frage: Was ist der Zweck von Mining-Pools?
+Antwort: Mining-Pools ermöglichen es Minern, ihre Rechenressourcen zu bündeln und kleinere, aber regelmäßigere Belohnungen zu erhalten.
+falsche_Antworten:
+  - Mining-Pools werden verwendet, um die HashRate des gesamten Bitcoin-Netzwerks zu erhöhen.
+  - Mining-Pools werden verwendet, um die Schwierigkeit des Minings zu verringern.
+  - Mining-Pools werden verwendet, um die Belohnung für das Mining zu erhöhen.
+Erklärung: >-
+  Mining-Pools sind Gruppen von Minern, die ihre Rechenleistung kombinieren,
+  um ihre Chancen zu erhöhen, einen Block zu minen. Indem sie ihre Ressourcen bündeln, können sie
+  Blöcke häufiger minen und kleinere, aber regelmäßigere Belohnungen erhalten.
+überprüft: true

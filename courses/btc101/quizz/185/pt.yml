@@ -1,0 +1,11 @@
+pergunta: Em comparação com as moedas fiduciárias, como o Bitcoin é percebido?
+resposta: Como uma economia paralela.
+respostas_erradas:
+  - Como uma economia substituta.
+  - Como uma economia industrial.
+  - Como uma economia terciária.
+explicação: >-
+  O Bitcoin é visto como uma economia paralela às moedas fiduciárias, significando que
+  opera ao lado das economias tradicionais e pode ser usado para transações diretamente,
+  sem a necessidade de passar por uma plataforma de câmbio.
+revisado: true

@@ -1,0 +1,11 @@
+domanda: Di cosa trattava la guerra dei blocchi nel 2017?
+risposta: Un conflitto riguardo all'opportunità di aumentare la dimensione del blocco per espandere la capacità di transazione.
+risposte_errate:
+  - Un conflitto riguardo all'opportunità di diminuire la dimensione del blocco per ridurre la capacità di transazione.
+  - Un conflitto riguardo all'opportunità di aumentare la ricompensa del blocco per incentivare i minatori.
+  - Un conflitto riguardo all'opportunità di diminuire la ricompensa del blocco per disincentivare i minatori.
+spiegazione: |
+  La guerra dei blocchi nel 2017 era un conflitto riguardo alla possibilità di
+  modificare Bitcoin aumentando la dimensione del blocco per espandere
+  la capacità di transazione.
+revisionato: true

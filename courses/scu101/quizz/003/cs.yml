@@ -1,0 +1,11 @@
+otázka: Jaká je hlavní výhoda používání open-source softwaru?
+odpověď: Umožňuje ověření, že neexistuje žádný skrytý přístup pro krádež vašich osobních údajů.
+špatné_odpovědi:
+  - Je vždy zdarma.
+  - Je vždy bezpečnější než software s uzavřeným zdrojovým kódem.
+  - Je vždy uživatelsky přívětivější než software s uzavřeným zdrojovým kódem.
+vysvětlení: |
+  Open-source software je software, jehož kód je známý a
+  přístupný všem. To umožňuje ověření, mimo jiné, že neexistuje žádný skrytý přístup pro krádež vašich osobních údajů. Nicméně, není vždy zdarma, bezpečnější nebo
+  uživatelsky přívětivější než software s uzavřeným zdrojovým kódem.
+recenzováno: true

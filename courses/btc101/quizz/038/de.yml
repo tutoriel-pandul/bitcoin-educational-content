@@ -1,0 +1,12 @@
+Frage: Was ist die maximale Anzahl an Bitcoin-Einheiten, die jemals existieren können?
+Antwort: 21 Millionen.
+falsche_Antworten:
+  - 3 Billionen.
+  - 100 Millionen.
+  - Es gibt kein Limit.
+Erklärung: |
+  Das Gesamtangebot von Bitcoin ist auf 21 Millionen Einheiten begrenzt.
+  Dies ist ein Schlüsselmerkmal von Bitcoin, das es
+  von Fiatwährungen unterscheidet, die in
+  unbegrenzten Mengen von Zentralbanken gedruckt werden können.
+überprüft: true

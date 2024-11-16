@@ -1,0 +1,9 @@
+domanda: Qual è lo scopo dei tentativi di phishing?
+risposta: Estrarre informazioni sensibili come le tue credenziali e password.
+risposte_errate:
+  - Inviarti email di spam.
+  - Venderti prodotti o servizi.
+  - Invitarti a eventi o webinar.
+spiegazione: |
+  I tentativi di phishing mirano a estrarre informazioni sensibili come le tue credenziali e password. Gli hacker utilizzano varie tattiche, come email fraudolente, per ingannarti e farti rivelare le tue informazioni.
+revisionato: vero

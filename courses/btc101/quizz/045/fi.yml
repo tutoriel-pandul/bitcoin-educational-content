@@ -1,0 +1,13 @@
+kysymys: Mikä on yksi Bitcoinin keskeisistä ominaisuuksista, joka erottaa sen fiat-valuutoista?
+vastaus: Sen rahapolitiikka perustuu yleiseen konsensukseen.
+väärät_vastaukset:
+  - Sitä voidaan painaa rajattomasti keskuspankkien toimesta.
+  - Se on tuettu fyysisellä hyödykkeellä kuten kulta tai hopea.
+  - Sitä säätelee keskuspankki.
+selitys: |
+  Bitcoinin hajautetun ja kryptografisen luonteen vuoksi
+  sitä ei voi väärentää ja se on rajoitettu 21 miljoonaan
+  yksikköön. Tämä on keskeinen ominaisuus, joka erottaa sen
+  fiat-valuutoista, joiden rahapolitiikkaa voidaan
+  muuttaa keskuspankkien toimesta.
+arvioitu: true

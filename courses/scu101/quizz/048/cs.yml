@@ -1,0 +1,12 @@
+otázka: Která z následujících metod je dobrým a bezpečným způsobem dvoufaktorové autentizace (2FA)?
+odpověď: Kód generovaný aplikací jako Google Authenticator nebo Authy.
+špatné_odpovědi:
+  - Telefonní hovor nebo SMS kód zaslaný držiteli účtu
+  - Email s kódem, který vyprší za 10 minut, zaslaný držiteli účtu
+  - Dopis zaslaný na domácí adresu držitele účtu
+vysvětlení: |
+  Druhý krok v 2FA může být dočasný kód zaslaný přes
+  SMS, email, kód generovaný aplikací, nebo
+  fyzický bezpečnostní klíč. Nicméně, ne všechny tyto metody
+  nám umožňují udržet stejnou úroveň bezpečnosti.
+recenzováno: true

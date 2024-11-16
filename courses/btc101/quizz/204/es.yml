@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es uno de los aspectos que deberías considerar al elegir una plataforma DCA?
+respuesta: Disponibilidad en tu país.
+respuestas_incorrectas:
+  - El color del logotipo de la plataforma.
+  - El número de usuarios en la plataforma.
+  - La antigüedad de la plataforma.
+explicación: |
+  Este texto del curso menciona que al elegir una
+  plataforma DCA, la elección correcta dependerá más de su
+  disponibilidad en tu país.
+revisado: true

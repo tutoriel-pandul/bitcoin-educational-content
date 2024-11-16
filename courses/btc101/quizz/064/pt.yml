@@ -1,0 +1,9 @@
+pergunta: Qual é o comando para verificar a quantidade de bitcoins em circulação em um nó Bitcoin?
+resposta: bitcoin-cli gettxoutsetinfo.
+respostas_erradas:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
+explicação: |
+  O comando para verificar a quantidade de bitcoins em circulação em um nó Bitcoin é bitcoin-cli gettxoutsetinfo. Este comando fornece transparência e verificabilidade, fortalecendo a confiança no sistema Bitcoin.
+revisado: true

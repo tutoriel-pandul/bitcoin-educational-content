@@ -1,0 +1,11 @@
+kysymys: Mistä oli kyse vuoden 2017 lohkosodassa?
+vastaus: Konfliktista siitä, pitäisikö lohkon kokoa kasvattaa siirtojen kapasiteetin laajentamiseksi.
+vaarat_vastaukset:
+  - Konfliktista siitä, pitäisikö lohkon kokoa pienentää siirtojen kapasiteetin vähentämiseksi.
+  - Konfliktista siitä, pitäisikö lohkopalkkiota kasvattaa louhijoiden kannustamiseksi.
+  - Konfliktista siitä, pitäisikö lohkopalkkiota pienentää louhijoiden kannustamisen vähentämiseksi.
+selitys: |
+  Vuoden 2017 lohkosota oli konflikti siitä, pitäisikö
+  Bitcoinia muokata kasvattamalla lohkon kokoa siirtojen
+  kapasiteetin laajentamiseksi.
+arvioitu: true

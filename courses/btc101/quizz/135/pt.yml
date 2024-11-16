@@ -1,0 +1,11 @@
+pergunta: Qual é a função do ajuste de dificuldade na rede Bitcoin?
+resposta: Garante que um bloco seja adicionado à blockchain aproximadamente a cada dez minutos.
+respostas_erradas:
+  - Determina o preço do Bitcoin.
+  - Regula o número de bitcoins que podem ser minerados na blockchain.
+  - Determina o tamanho de um bloco.
+explicação: >-
+  O ajuste de dificuldade na rede Bitcoin garante que um bloco
+  seja adicionado aproximadamente a cada dez minutos. Isso faz parte das regras do protocolo
+  da rede Bitcoin.
+revisado: true

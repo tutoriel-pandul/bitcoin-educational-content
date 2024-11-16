@@ -1,0 +1,9 @@
+otázka: Jakým způsobem lze dlouhodobě zabezpečit vaše bitcoiny?
+odpověď: Vyrytím vaší mnemonické fráze do odolného materiálu, jako je ocel.
+špatné_odpovědi:
+  - Uchováváním v hot wallet.
+  - Ponecháním na burzovní platformě.
+  - Sdílením vaší mnemonické fráze s kolegou.
+vysvětlení: |
+  Vyrytím vaší mnemonické fráze do odolného materiálu, jako je ocel, vytvoříte fyzickou zálohu vašich klíčů, která je odolná vůči poškození vodou i ohněm, čímž dlouhodobě zabezpečíte vaše bitcoiny.
+recenzováno: true

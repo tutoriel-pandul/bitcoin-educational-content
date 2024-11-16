@@ -1,0 +1,12 @@
+pregunta: ¿Cuál es la práctica recomendada al insertar una llave USB en tu computadora?
+respuesta: No insertes llaves USB desconocidas o sospechosas.
+respuestas_incorrectas:
+  - Inserta cualquier llave USB sin verificar.
+  - Siempre formatea la llave USB antes de insertarla.
+  - Inserta la llave USB y luego verifica si tiene virus.
+explicación: |
+  Insertar llaves USB desconocidas o sospechosas puede exponer el
+  sistema a programas maliciosos que pueden lanzarse automáticamente
+  al ser insertados. Verificar la llave USB será inútil una vez
+  que haya sido insertada.
+revisado: true

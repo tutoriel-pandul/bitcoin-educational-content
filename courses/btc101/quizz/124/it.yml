@@ -1,0 +1,10 @@
+domanda: Qual è la versione del primo software Bitcoin rilasciato?
+risposta: Bitcoin-0.1.0.
+risposte_errate:
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+spiegazione: >-
+  Il primo software Bitcoin rilasciato è stato Bitcoin-0.1.0. È stato annunciato
+  da Satoshi Nakamoto l'8 gennaio 2009.
+revisionato: vero

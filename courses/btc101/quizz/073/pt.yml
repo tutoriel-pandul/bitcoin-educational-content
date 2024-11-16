@@ -1,0 +1,11 @@
+pergunta: O que é a chave privada em uma carteira Bitcoin?
+resposta: Uma chave secreta que permite assinar suas transações.
+respostas_erradas:
+  - Uma chave pública usada para gerar endereços Bitcoin.
+  - Uma lista secreta de palavras para destruir uma carteira em caso de necessidade.
+  - Uma chave secreta para criptografar transações Bitcoin.
+explicação: >-
+  Ao inicializar uma carteira Bitcoin, é gerada uma lista secreta de palavras, chamada semente mnemônica.
+  Esta lista de recuperação é muito importante porque representa a propriedade
+  dos Bitcoins e, portanto, o direito de enviá-los.
+revisado: true

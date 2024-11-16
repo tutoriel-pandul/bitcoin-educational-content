@@ -1,0 +1,12 @@
+domanda: Qual è lo scopo principale della Lightning Network?
+risposta: Facilitare le micro-transazioni.
+risposte_errate:
+  - Aumentare il valore del Bitcoin.
+  - Sostituire il protocollo Bitcoin.
+  - Creare una nuova criptovaluta.
+spiegazione: >-
+  La Lightning Network è una soluzione di secondo livello al protocollo Bitcoin
+  che mira a facilitare le micro-transazioni, ovvero transazioni di valore molto basso
+  che altrimenti sarebbero impraticabili a causa delle alte commissioni e dei lunghi tempi di conferma
+  sulla blockchain di Bitcoin.
+revisionato: vero

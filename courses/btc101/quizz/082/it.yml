@@ -1,0 +1,9 @@
+domanda: Qual è la tecnologia utilizzata per spendere fondi in modo sicuro utilizzando un Portafoglio Bitcoin?
+risposta: Crittografia a curve ellittiche.
+risposte_errate:
+  - Crittografia simmetrica.
+  - Crittografia quantistica.
+  - Crittografia RSA.
+spiegazione: |
+  Per spendere Bitcoin, il proprietario deve utilizzare l'Algoritmo di Firma Digitale a Curve Ellittiche (ECDSA) per forgiare una firma per la propagazione di una transazione Bitcoin.
+revisionato: vero

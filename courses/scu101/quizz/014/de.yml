@@ -1,0 +1,11 @@
+Frage: Wie kann man Online-Betrug vermeiden?
+Antwort: Überprüfen Sie die Identität der Website, die Sie besuchen, insbesondere durch Überprüfung der Erweiterung und des Domainnamens.
+falsche_Antworten:
+  - Öffentliche WLAN-Netzwerke nutzen.
+  - Seiten nutzen, die das HTTPS-Protokoll nicht verwenden.
+  - Seiten nutzen, die kein Schlosssymbol anzeigen.
+Erklärung: |
+  Um Online-Betrug zu vermeiden, ist es entscheidend, die Identität
+  der Website, die Sie besuchen, zu überprüfen. Dies kann durch Überprüfung
+  der Erweiterung und des Domainnamens der Seite erfolgen.
+überprüft: true

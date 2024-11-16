@@ -1,0 +1,12 @@
+domanda: Qual è il potenziale esito di una improvvisa svalutazione o di una perdita di fiducia in una valuta fiduciaria?
+risposta: Iperinflazione.
+risposte_errate:
+  - Deflazione.
+  - Un'economia stabile.
+  - Un aumento del valore della valuta.
+spiegazione: |
+  Una improvvisa svalutazione o una perdita di fiducia in una valuta
+  fiduciaria può portare all'iperinflazione. Questa è una situazione
+  in cui i prezzi dei beni e dei servizi aumentano a un tasso
+  estremamente elevato, spesso portando a instabilità economica.
+revisionato: true

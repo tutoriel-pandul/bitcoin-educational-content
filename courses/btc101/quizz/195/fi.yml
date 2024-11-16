@@ -1,0 +1,11 @@
+kysymys: Mitkä seuraavista toimista voivat auttaa niitä, jotka haluavat käyttää Bitcoinia jokapäiväisessä elämässä?
+vastaus: Tee lista kaikista kauppiaista, jotka hyväksyvät Bitcoinin.
+väärät_vastaukset:
+  - Nosta Bitcoinin hintaa.
+  - Vähennä Bitcoinien määrää.
+  - Rajoita Bitcoinin käyttöä.
+selitys: >-
+  Yksi tapa helpottaa Bitcoinin käyttöä jokapäiväisissä transaktioissa on
+  listata kaikki kauppiaat, jotka hyväksyvät Bitcoinin. Tämä voidaan tehdä alustojen
+  kuten BTCMap avulla.
+arvioitu: true

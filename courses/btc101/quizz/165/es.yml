@@ -1,0 +1,12 @@
+pregunta: ¿Cómo mantiene el protocolo de Bitcoin un tiempo promedio constante entre la creación de dos bloques?
+respuesta: La dificultad para encontrar un hash válido se ajusta cada 2016 bloques.
+respuestas_incorrectas:
+  - El número de mineros se regula a un número fijo.
+  - El tamaño de los bloques se ajusta a 10 megabytes.
+  - La recompensa por encontrar un hash válido se incrementa.
+explicación: |
+  El protocolo de Bitcoin asegura que el tiempo promedio entre
+  dos bloques permanezca constante ajustando la dificultad de
+  encontrar un hash válido cada 2016 bloques. Este evento sucede
+  independientemente del número de mineros y su poder de cómputo.
+revisado: true

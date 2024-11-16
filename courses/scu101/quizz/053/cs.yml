@@ -1,0 +1,12 @@
+otázka: Proč jsou biometrická data považována za méně bezpečná než kombinace znalostí a držení pro 2FA?
+odpověď: Biometrická data by měla zůstat na autentizačním zařízení a neměla by být zveřejňována online.
+špatné_odpovědi:
+  - Biometrická data jsou snadněji extrahovatelná, i když jsou uchovávána offline na autentizačním zařízení.
+  - Biometrická data jsou obtížnější si pamatovat a používat při použití autentizačního zařízení.
+  - Nástroje pro biometrická data jsou dražší k implementaci a proto nejsou cenově efektivní ve srovnání s jinými řešeními.
+vysvětlení: |
+  Biometrická data jsou méně bezpečná, protože by měla zůstat
+  na autentizačním zařízení a neměla by být zveřejňována online. Pokud
+  jsou zveřejněna online, mohou být ukradena a použita pro
+  neautorizovaný přístup.
+recenzováno: true

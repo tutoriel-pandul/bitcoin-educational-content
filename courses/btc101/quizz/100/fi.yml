@@ -1,0 +1,9 @@
+kysymys: Mitä lompakon mnemonisen lauseen puuttuminen osoittaa?
+vastaus: Se osoittaa, että lompakko ei ole turvallinen pitkäaikaista Bitcoinien säilytystä varten.
+väärät_vastaukset:
+  - Se osoittaa, että lompakko on täysin turvallinen eikä vaadi mitään varmuuskopiointia.
+  - Se tarkoittaa, että lompakko voi pitää sisällään monia erilaisia obligaatioita.
+  - Se vihjaa, että lompakko varmuuskopioidaan automaattisesti laitteellasi.
+selitys: |
+  Mnemonisen lauseen, eli 12 tai 24 sanan listan, puuttuminen lompakosta tulisi herättää huolesi, sillä se osoittaa, että lompakko ei ole turvallinen, koska se ei noudata standardin mukaisia varmuuskopiointimenettelyjä.
+arvioitu: true

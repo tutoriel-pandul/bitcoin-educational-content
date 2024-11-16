@@ -1,0 +1,10 @@
+domanda: Che tipo di rete crea la Lightning Network?
+risposta: Una rete di canali di pagamento.
+risposte_errate:
+  - Una rete di nodi di mining.
+  - Una rete di nodi blockchain.
+  - Una rete di scambi di criptovalute.
+spiegazione: >-
+  La Lightning Network funziona come una rete di canali di pagamento, consentendo
+  transazioni istantanee con commissioni basse per il mittente.
+revisionato: vero

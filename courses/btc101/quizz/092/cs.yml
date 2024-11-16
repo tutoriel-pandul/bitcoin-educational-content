@@ -1,0 +1,13 @@
+otázka: Jaké je doporučené využití multisig peněženky?
+odpověď: Uchovávání velkých částek pro firemní použití.
+špatné_odpovědi:
+  - Uchovávání malých částek pro osobní použití.
+  - Uchovávání středních částek pro neziskové použití.
+  - Uchovávání denních výdajů pro individuální použití.
+vysvětlení: |
+  Multisig peněženka je doporučena pro uchovávání velkých částek
+  a pro firemní využití, protože vyžaduje více
+  podpisů pro provedení transakce. Tento proces přidává
+  další vrstvu zabezpečení, protože jednotlivec nemůže
+  provést transakci bez schválení ostatních.
+posouzeno: true

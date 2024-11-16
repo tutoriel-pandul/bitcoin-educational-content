@@ -1,0 +1,11 @@
+kysymys: Mikä on yksi tekijä, joka tulee ottaa huomioon valittaessa ratkaisua Bitcoinien vastaanottamiseen yrityksessäsi?
+vastaus: Odotettu transaktiovolyymi.
+väärät_vastaukset:
+  - Logosi väri.
+  - Työntekijöiden määrä.
+  - Pääkonttorisi sijainti.
+selitys: >-
+  Valittaessa ratkaisua Bitcoinien vastaanottamiseen yrityksessäsi, useita
+  tekijöitä tulee ottaa huomioon, kuten odotettu transaktiovolyymi, varattu
+  budjetti ja liiketoiminnan tyyppi (verkossa tai fyysinen).
+arvioitu: true

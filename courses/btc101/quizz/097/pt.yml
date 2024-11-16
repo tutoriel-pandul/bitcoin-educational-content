@@ -1,0 +1,11 @@
+pergunta: O que acontece se a sua chave privada for revelada a um terceiro?
+resposta: O terceiro pode gastar seus bitcoins.
+respostas_erradas:
+  - O terceiro pode apenas visualizar seu histórico de transações.
+  - O terceiro pode alterar sua chave privada.
+  - O terceiro pode acessar suas informações pessoais.
+explicação: |
+  Se sua chave privada for revelada a um terceiro, os
+  fundos associados não estão mais seguros, porque a chave
+  privada permite que eles acessem seus fundos.
+revisado: true

@@ -1,0 +1,9 @@
+spørsmål: Hva er størrelsen på Bitcoin-blockchainen?
+svar: Omtrent 500GB
+feil_svar:
+  - Omtrent 100GB
+  - Omtrent 1TB
+  - Omtrent 2TB
+forklaring: >-
+  Bitcoin-blockchainen er omtrent 500GB stor.
+gjennomgått: false

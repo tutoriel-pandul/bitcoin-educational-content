@@ -1,0 +1,11 @@
+kysymys: Mitkä ovat joitakin verkkotuntemuksen näkökohtia, jotka ovat tarpeen kyberturvallisuudessa?
+vastaus: TCP/IP, VPN, palomuuri
+väärät_vastaukset:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+selitys: |
+  Luvussa mainitaan TCP/IP, VPN ja palomuuri esimerkkeinä
+  verkkotuntemuksen näkökohdista, jotka ovat tarpeen
+  kyberturvallisuudessa.
+arvioitu: true

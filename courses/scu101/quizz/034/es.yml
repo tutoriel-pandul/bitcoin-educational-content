@@ -1,0 +1,11 @@
+pregunta: ¿Qué contenido malicioso pueden contener los archivos adjuntos y las imágenes de los correos electrónicos?
+respuesta: Malware
+respuestas_incorrectas:
+  - Spam
+  - Anuncios
+  - Contenido promocional
+explicación: |
+  Los archivos adjuntos y las imágenes de los correos electrónicos pueden contener malware.
+  Por lo tanto, no deberías descargar ni abrir archivos adjuntos de
+  remitentes desconocidos o sospechosos.
+revisado: true

@@ -1,0 +1,10 @@
+pregunta: ¿Cuál es un factor a considerar al elegir una solución para aceptar Bitcoin en tu negocio?
+respuesta: El volumen de transacciones esperado.
+respuestas_incorrectas:
+  - El color de tu logotipo.
+  - El número de empleados.
+  - La ubicación de tu sede central.
+explicación: >-
+  Al elegir una solución para aceptar Bitcoin en tu negocio, se deben tener en cuenta varios
+  factores, como el volumen de transacciones esperado, el presupuesto asignado y el tipo de negocio (en línea o físico).
+revisado: true

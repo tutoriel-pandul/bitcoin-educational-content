@@ -1,0 +1,11 @@
+kysymys: Mikä on yksityisavain Bitcoin-lompakossa?
+vastaus: Salainen avain, joka mahdollistaa transaktioidesi allekirjoittamisen.
+vaarat_vastaukset:
+  - Julkinen avain, jota käytetään Bitcoin-osoitteiden luomiseen.
+  - Salainen sanojen lista, jolla lompakko voidaan tuhota tarvittaessa.
+  - Salainen avain Bitcoin-transaktioiden salaamiseen.
+selitys: >-
+  Bitcoin-lompakkoa alustettaessa luodaan salainen sanojen lista, jota kutsutaan mnemonic seediksi. 
+  Tämä palautuslista on erittäin tärkeä, koska se edustaa omistajuutta
+  Bitcoineista ja siten oikeutta lähettää niitä.
+arvioitu: true

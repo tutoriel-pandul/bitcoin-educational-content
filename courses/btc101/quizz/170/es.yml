@@ -1,0 +1,10 @@
+pregunta: ¿Cuál es la principal ventaja de las máquinas especializadas SHA256, o ASICs, en la minería de Bitcoin?
+respuesta: Aumentan la tasa de hash por joule.
+respuestas_incorrectas:
+  - Reducen el consumo de energía.
+  - Aumentan la velocidad de las transacciones.
+  - Aumentan la seguridad de la red.
+explicación: >-
+  Las máquinas especializadas SHA256, o ASICs, aumentan la tasa de hash por joule
+  en la minería de Bitcoin. Esto significa el número de intentos por segundo y por energía consumida.
+revisado: true

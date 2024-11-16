@@ -1,0 +1,10 @@
+otázka: Kdy proběhla válka o velikost bloku?
+odpověď: V roce 2017.
+špatné_odpovědi:
+  - V roce 2008.
+  - V roce 2010.
+  - V roce 2019.
+vysvětlení: >-
+  Válka o velikost bloku proběhla v roce 2017. Tento konflikt postavil proti sobě aktéry, kteří chtěli upravit Bitcoin zvětšením velikosti bloku, aby zvýšili kapacitu transakcí,
+a ty, kteří usilovali o zachování nezávislosti a moci uživatelů tím, že velikost ponechali na 1 MB.
+recenzováno: true

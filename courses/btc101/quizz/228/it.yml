@@ -1,0 +1,10 @@
+domanda: Quali sono le commissioni per le transazioni sulla Lightning Network?
+risposta: 0,5%.
+risposte_errate:
+  - 1%.
+  - 2%.
+  - 3%.
+spiegazione: >-
+  Le commissioni per le transazioni sulla Lightning Network sono estremamente basse, spesso
+  inferiori allo 0,5%.
+revisionato: vero

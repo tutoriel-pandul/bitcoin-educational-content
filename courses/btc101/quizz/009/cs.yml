@@ -1,0 +1,10 @@
+otázka: Jaké technologie využívá protokol Bitcoin?
+odpověď: Kryptografie, síťová komunikace a blockchain.
+špatné_odpovědi:
+  - Umělá inteligence, strojové učení a blockchain.
+  - Kvantové výpočty, síťová komunikace a blockchain.
+  - Kryptografie, umělá inteligence a blockchain.
+vysvětlení: >-
+  Protokol Bitcoin využívá základní technologie, jako jsou kryptografie,
+  síťová komunikace a blockchain.
+recenzováno: true

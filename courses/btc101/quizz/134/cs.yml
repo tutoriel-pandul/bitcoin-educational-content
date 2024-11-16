@@ -1,0 +1,9 @@
+otázka: Co je platný "hash" v kontextu těžby bloků v síti Bitcoin?
+odpověď: Unikátní otisk spojený s blokem, skládající se z 256 znaků.
+špatné_odpovědi:
+  - Unikátní kód používaný pro přístup k bloku.
+  - Unikátní heslo požadované pro těžbu bloku.
+  - Unikátní identifikátor pro těžaře, který blok vytěžil.
+vysvětlení: |
+  V kontextu těžby bloků v síti Bitcoin je platný "hash" unikátní otisk spojený s blokem, skládající se z 256 znaků. Platnost tohoto hash závisí na obtížnosti sítě Bitcoin.
+recenzováno: true

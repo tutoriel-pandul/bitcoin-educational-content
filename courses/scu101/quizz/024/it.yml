@@ -1,0 +1,11 @@
+domanda: Quali sono alcune soluzioni per la crittografia dei dati su diversi sistemi operativi?
+risposta: BitLocker per Windows, LUKS per Linux e l'opzione integrata per Mac.
+risposte_errate:
+  - BitLocker per Linux, LUKS per Mac e l'opzione integrata per Windows.
+  - BitLocker per Mac, LUKS per Windows e l'opzione integrata per Linux.
+  - LUKS per tutti i sistemi operativi.
+spiegazione: |
+  Diversi sistemi operativi dispongono di diverse soluzioni per
+  la crittografia dei dati. BitLocker è per Windows, LUKS è per
+  Linux, e Mac ha un'opzione integrata per la crittografia dei dati.
+revisionato: vero

@@ -1,0 +1,12 @@
+Frage: Was ist die empfohlene Verwendung eines mobilen Wallets?
+Antwort: Speichern von täglichen Ausgaben.
+falsche_Antworten:
+  - Speichern von langfristigen Ersparnissen.
+  - Speichern von mittelfristigen Ersparnissen.
+  - Speichern großer Beträge.
+Erklärung: |
+  Ein mobiles Wallet wird für tägliche Ausgaben empfohlen, weil
+  es einfach ist, Transaktionen damit durchzuführen. Es wird jedoch
+  nicht für das Speichern großer Beträge oder für langfristige Ersparnisse empfohlen, da es potenziell anfällig für
+  Online-Bedrohungen ist.
+überprüft: true

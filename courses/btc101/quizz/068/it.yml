@@ -1,0 +1,11 @@
+domanda: Ogni quanto viene dimezzata la ricompensa per il mining?
+risposta: Ogni 210.000 blocchi.
+risposte_errate:
+  - Ogni 120.000 blocchi.
+  - Ogni 540.000 blocchi.
+  - Ogni 2.100.000 blocchi.
+spiegazione: |
+  La ricompensa per il mining è programmata per essere dimezzata ogni 210.000
+  blocchi, il che avviene approssimativamente ogni quattro anni: un evento
+  noto come "halving".
+revisionato: true

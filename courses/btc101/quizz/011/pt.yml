@@ -1,0 +1,10 @@
+pergunta: Como a Lightning Network melhora a escalabilidade para transações de Bitcoin?
+resposta: Ela utiliza uma rede p2p de canais de pagamento para criar transações fora da cadeia.
+respostas_erradas:
+  - Ela utiliza uma parte centralizada confiável para processar transações de forma eficiente.
+  - Ela utiliza outra blockchain para agregar transações em blocos grandes.
+  - Ela utiliza uma equipe de usuários confiáveis para criar um reserva federal de bitcoin.
+explicação: |
+  Por meio do uso de canais de pagamento, a Lightning Network pode
+  rotear transações fora da cadeia mais rapidamente e com menor custo.
+revisado: true

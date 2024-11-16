@@ -1,0 +1,10 @@
+domanda: Da cosa è spesso rappresentata la chiave privata in un portafoglio Bitcoin?
+risposta: Una lista di 12 o 24 parole.
+risposte_errate:
+  - Una lista di 12 o 48 parole.
+  - Una lista di 32 parole.
+  - Una lista di 64 parole.
+spiegazione: |
+  In un portafoglio Bitcoin, la chiave privata è spesso rappresentata
+  da una lista di 12 o 24 parole, nota anche come "frase seed"
+  o "frase mnemonica".

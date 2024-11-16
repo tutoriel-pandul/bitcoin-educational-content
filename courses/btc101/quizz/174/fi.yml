@@ -1,0 +1,10 @@
+kysymys: Mitkä ovat tyypillisiä kustannuksia louhijalle?
+vastaus: Sähkönkulutus ja laitteiston hankinta.
+väärät_vastaukset:
+  - Vain laitteiston hankinta.
+  - Siirtomaksut.
+  - Sähkönkulutus ja siirtomaksut.
+selitys: >-
+  Bitcoinin louhiminen vaatii merkittävää laskentatehoa, mikä puolestaan kuluttaa sähköä.
+Lisäksi louhijoiden on investoitava erikoistuneeseen laitteistoon voidakseen louhia sitä tehokkaasti.
+arvioitu: false

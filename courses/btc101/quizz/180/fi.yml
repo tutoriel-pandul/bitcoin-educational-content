@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi tekijä, joka tekee Bitcoinin sääntelystä vaikeaa rahoitusviranomaisille?
+vastaus: Se toimii globaalilla tasolla, 24 tuntia vuorokaudessa, 7 päivää viikossa.
+väärät_vastaukset:
+  - Sitä kontrolloi keskitetty auktoriteetti.
+  - Sitä ei käytetä missään päin maailmaa.
+  - Sitä on helppo väärentää.
+selitys: >-
+  Bitcoin-protokolla on ainutlaatuinen, sillä se toimii globaalilla tasolla, 24 tuntia vuorokaudessa, 7 päivää viikossa, mikä tekee sääntelystä vaikeaa rahoitusviranomaisille.
+arvioitu: true

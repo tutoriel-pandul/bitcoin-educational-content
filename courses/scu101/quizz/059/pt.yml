@@ -1,0 +1,10 @@
+pergunta: Quais são algumas das habilidades necessárias em cibersegurança?
+resposta: Análise de logs, resposta a incidentes
+respostas_erradas:
+  - Design gráfico, edição de vídeo
+  - Vendas, marketing
+  - Cozinhar, assar
+explicação: |
+  O capítulo menciona análise de logs e resposta a incidentes como
+  algumas das habilidades necessárias em cibersegurança.
+revisado: true

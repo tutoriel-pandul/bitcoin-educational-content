@@ -1,0 +1,11 @@
+otázka: Co je Důkaz práce (POW)?
+odpověď: Je to bezpečnostní konsensus protokolu Bitcoinu.
+špatné_odpovědi:
+  - Je to proces vytváření nových bitcoinů.
+  - Je to metoda ověřování Bitcoinových transakcí.
+  - Je to algoritmus používaný k těžbě bitcoinů.
+vysvětlení: >-
+  Důkaz práce je konsensus algoritmus používaný v síti Bitcoin
+  k ověření transakcí a vytváření nových bloků. Vyžaduje od těžařů řešení složitých
+  matematických problémů, čímž zajišťuje bezpečnost a integritu sítě.
+recenzováno: true

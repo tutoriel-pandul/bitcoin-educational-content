@@ -1,0 +1,12 @@
+domanda: Qual è lo scopo principale dell'unità Bitcoin?
+risposta: L'unità Bitcoin è la valuta necessaria per il corretto funzionamento del protocollo Bitcoin.
+risposte_errate:
+  - L'unità Bitcoin è una squadra che regola il prezzo del Bitcoin.
+  - L'unità Bitcoin è un'autorità centrale che controlla il protocollo Bitcoin.
+  - L'unità Bitcoin è una piattaforma di scambio Bitcoin.
+spiegazione: |
+  L'unità Bitcoin è la valuta necessaria per il corretto
+  funzionamento del protocollo Bitcoin. Viene utilizzata per
+  le transazioni e si basa sul protocollo Bitcoin per
+  funzionare.
+revisionato: vero

@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es el número aproximado de nodos distribuidos por todo el mundo a
+  partir de septiembre de 2023?
+respuesta: 45,000 nodos.
+respuestas_incorrectas:
+  - 10,000 nodos.
+  - 100,000 nodos.
+  - 500,000 nodos.
+explicación: >-
+  A partir de septiembre de 2023, hay aproximadamente 45,000 nodos distribuidos
+  por todo el mundo.
+revisado: true

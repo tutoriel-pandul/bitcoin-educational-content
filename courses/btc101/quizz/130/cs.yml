@@ -1,0 +1,9 @@
+otázka: Proč je počet potvrzení u Bitcoinové transakce důležitý?
+odpověď: Čím více potvrzení transakce má, tím je neměnnější.
+špatné_odpovědi:
+  - Čím více potvrzení transakce má, tím je cennější.
+  - Čím více potvrzení transakce má, tím rychleji je zpracována.
+  - Čím více potvrzení transakce má, tím je méně bezpečná.
+vysvětlení: >-
+  Počet potvrzení u Bitcoinové transakce ukazuje, kolik bloků bylo vytěženo na vrcholu bloku obsahujícího transakci. Čím více potvrzení transakce má, tím je neměnnější.
+recenzováno: true

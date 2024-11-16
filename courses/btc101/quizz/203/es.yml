@@ -1,0 +1,11 @@
+pregunta: ¿Qué deberías hacer después de comprar Bitcoin en una plataforma de intercambio?
+respuesta: Retirar los bitcoins y enviarlos a tu billetera.
+respuestas_incorrectas:
+  - Dejar los bitcoins en la plataforma.
+  - Vender los bitcoins inmediatamente.
+  - Transferir los bitcoins a otra plataforma de intercambio.
+explicación: |
+  El texto del curso aconseja que después de comprar Bitcoin, uno
+  debe retirar inmediatamente los UTXOs de las plataformas de intercambio
+  para minimizar los riesgos de hackeo y bloqueo de fondos.
+revisado: true

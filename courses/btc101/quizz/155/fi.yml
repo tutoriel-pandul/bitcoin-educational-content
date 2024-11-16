@@ -1,0 +1,9 @@
+kysymys: Mikä on coinbase-transaktio?
+vastaus: Lohkon ensimmäinen transaktio, joka sisältää louhijan palkkion.
+väärät_vastaukset:
+  - Transaktio, joka suoritetaan pörssissä Coinbase.
+  - Lohkon toinen transaktio, joka sisältää korkeimmat maksut.
+  - Transaktio, jonka louhija suorittaa saatuaan palkkion.
+selitys: >-
+  Coinbase-transaktio on aina lohkon ensimmäinen transaktio. Se sisältää louhijan palkkion validointityön suorittamisesta.
+arvioitu: true

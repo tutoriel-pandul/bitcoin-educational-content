@@ -1,0 +1,12 @@
+pregunta: ¿Con qué principios económicos se alinea Bitcoin?
+respuesta: Principios de la economía austriaca.
+respuestas_incorrectas:
+  - Principios de la economía keynesiana.
+  - Principios de la economía marxista.
+  - Principios de la economía neoclásica.
+explicación: |
+  Bitcoin se alinea con los principios de la economía austriaca.
+  Su cantidad limitada y la falta de una entidad central lo protegen
+  de los riesgos inherentes de inflación que se ven en
+  las monedas tradicionales.
+revisado: true

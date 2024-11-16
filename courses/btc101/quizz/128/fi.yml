@@ -1,0 +1,11 @@
+kysymys: Mitä ei ole tarpeen sisällyttää perintösuunnitelmaan?
+vastaus: Yleisimmin käyttämäsi Bitcoin-lompakon nimi.
+väärät_vastaukset:
+  - Käsin kirjoitettu kirje, jossa luetellaan omaisuutesi.
+  - Kuvaus varojesi käyttöön pääsemiseksi.
+  - Luotettujen henkilöiden yhteystiedot.
+selitys: |
+  Perintösuunnitelman laatiminen on ratkaisevan tärkeää varmistettaessa, että bitcoinsi hallinnoidaan asianmukaisesti kuolemasi jälkeen.
+  Tähän suunnitelmaan voi sisältyä käsin kirjoitettu kirje, jossa luetellaan omaisuutesi,
+  niiden käyttömenetelmät ja luotettavien henkilöiden yhteystiedot, joihin tulee ottaa yhteyttä.
+arvioitu: true

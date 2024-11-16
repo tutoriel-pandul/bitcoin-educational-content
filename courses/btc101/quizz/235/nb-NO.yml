@@ -1,0 +1,9 @@
+spørsmål: Hva er enheten for Bitcoin som brukes i Lightning Network?
+svar: Sats
+feil_svar:
+  - Bitcoin
+  - Ether
+  - Litecoin
+forklaring: >-
+  Lightning Network bruker sats (desimalen til bitcoin) for å fungere.
+gjennomgått: false

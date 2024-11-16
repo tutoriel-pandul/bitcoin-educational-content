@@ -1,0 +1,11 @@
+domanda: Quali delle seguenti azioni possono aiutare coloro che vogliono utilizzare Bitcoin nella vita quotidiana?
+risposta: Avere un elenco di tutti i commercianti che accettano Bitcoin.
+risposte_errate:
+  - Aumentare il prezzo del Bitcoin.
+  - Diminuire il numero di Bitcoin.
+  - Limitare l'uso del Bitcoin.
+spiegazione: >-
+  Un modo per facilitare l'uso di Bitcoin nelle transazioni quotidiane è
+  elencare tutti i commercianti che accettano Bitcoin. Questo può essere fatto tramite piattaforme
+  come BTCMap.
+revisionato: vero

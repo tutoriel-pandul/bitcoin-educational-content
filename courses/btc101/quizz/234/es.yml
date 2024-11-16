@@ -1,0 +1,12 @@
+pregunta: ¿Cuál es una de las aplicaciones potenciales de la Red Lightning en la vida cotidiana?
+respuesta: Facturación instantánea en el comercio.
+respuestas_incorrectas:
+  - Minar nuevos Bitcoins.
+  - Crear nuevas criptomonedas.
+  - Aumentar el valor de Bitcoin.
+explicación: >-
+  La Red Lightning abre la puerta a una amplia gama de aplicaciones potenciales
+  para Bitcoin que anteriormente estaban fuera de alcance debido a las restricciones necesarias para
+  asegurar la seguridad y descentralización de Bitcoin. Entre estas aplicaciones en
+  la vida cotidiana, podemos mencionar la facturación instantánea en el comercio.
+revisado: true

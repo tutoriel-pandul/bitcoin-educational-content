@@ -1,0 +1,9 @@
+otázka: Jaká je hlavní výhoda specializovaných strojů SHA256, neboli ASICů, při těžbě Bitcoinu?
+odpověď: Zvyšují hash rate na joule.
+špatné_odpovědi:
+  - Sníží spotřebu energie.
+  - Zvyšují rychlost transakcí.
+  - Zvyšují bezpečnost sítě.
+vysvětlení: >-
+  Specializované stroje SHA256, neboli ASICy, zvyšují hash rate na joule při těžbě Bitcoinu. To znamená počet pokusů za sekundu a na spotřebovanou energii.
+recenzováno: true

@@ -1,0 +1,12 @@
+Frage: Was ist eine Methode, um Ihre Bitcoins langfristig zu sichern?
+Antwort: Das Gravieren Ihrer mnemonischen Phrase auf einem widerstandsfähigen Material wie Stahl.
+falsche_Antworten:
+  - Sie in einem Hot Wallet aufzubewahren.
+  - Sie auf einer Handelsplattform zu belassen.
+  - Ihre mnemonische Phrase mit einem Arbeitskollegen zu teilen.
+Erklärung: |
+  Das Gravieren Ihrer mnemonischen Phrase auf einem widerstandsfähigen Material wie
+  Stahl schafft eine physische Sicherung Ihrer Schlüssel, die
+  sowohl gegen Wasserschäden als auch Feuer resistent ist, und sichert somit Ihre
+  Bitcoins langfristig.
+überprüft: true

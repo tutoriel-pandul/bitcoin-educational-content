@@ -1,0 +1,9 @@
+otázka: Jaké jsou tři kanonické funkce peněz?
+odpověď: Uchovatel hodnoty, Prostředek směny, Měřítko hodnoty.
+špatné_odpovědi:
+  - Uchovatel hodnoty, Prostředek směny, Prostředek výroby.
+  - Uchovatel hodnoty, Prostředek výroby, Měřítko hodnoty.
+  - Prostředek směny, Prostředek výroby, Měřítko hodnoty.
+vysvětlení: |
+  Podle Aristotela peníze plní tři funkce: jsou uchovatelem hodnoty, prostředkem směny a měřítkem hodnoty. V současnosti je funkce prostředku směny široce uznávána jako hlavní, před ostatními dvěma.
+posouzeno: true

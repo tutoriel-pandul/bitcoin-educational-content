@@ -1,0 +1,10 @@
+domanda: Qual è l'intervallo di tempo medio tra la creazione di due blocchi nel protocollo Bitcoin?
+risposta: 10 minuti.
+risposte_errate:
+  - 5 minuti.
+  - 15 minuti.
+  - 20 minuti.
+spiegazione: |
+  L'intervallo di tempo medio tra la creazione di due
+  blocchi nel protocollo Bitcoin è di 10 minuti.
+revisionato: vero

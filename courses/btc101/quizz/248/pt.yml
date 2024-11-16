@@ -1,0 +1,11 @@
+pergunta: Qual é uma das principais características do Bitcoin?
+resposta: Pode ser trocado em qualquer lugar do mundo sem qualquer autorização de qualquer entidade.
+respostas_erradas:
+  - Só pode ser usado por um grupo selecionado de pessoas.
+  - Requer autorização de uma autoridade central para ser usado.
+  - Só pode ser usado em certos países.
+explicação: |
+  O texto menciona que o Bitcoin é pseudônimo e pode ser
+  trocado em qualquer lugar do mundo sem a autorização
+  de qualquer entidade.
+revisado: true

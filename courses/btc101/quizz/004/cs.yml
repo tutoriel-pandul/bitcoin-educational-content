@@ -1,0 +1,11 @@
+otázka: Jaké jsou dvě hlavní charakteristiky Bitcoinu?
+odpověď: Bitcoin je jak počítačový protokol, tak měnová jednotka.
+špatné_odpovědi:
+  - Bitcoin je jak fyzická měna, tak digitální peněženka.
+  - Bitcoin je jak typ akcie, tak typ dluhopisu.
+  - Bitcoin je jak centralizovaná, tak decentralizovaná měna.
+vysvětlení: |
+  Bitcoin je jak počítačový protokol, který využívá technologie
+  jako kryptografie a blockchain, také měnová
+  jednotka, která se používá pro transakce.
+recenzováno: true

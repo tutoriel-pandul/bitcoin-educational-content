@@ -1,0 +1,12 @@
+kysymys: Mitkä ovat hyvän salasanan ominaisuudet?
+vastaus: Pitkä, monimutkainen, ainutlaatuinen ja ei perustu henkilökohtaisiin tietoihin.
+väärät_vastaukset:
+  - Lyhyt, yksinkertainen ja helppo muistaa.
+  - Perustuu henkilökohtaisiin tietoihin, kuten syntymäpäiviin ja nimiin.
+  - Sama salasana kaikille tileille.
+selitys: |
+  Hyvä salasana on pitkä (vähintään 12 merkkiä), monimutkainen
+  (sekoitus isoja ja pieniä kirjaimia, numeroita ja
+  symboleita), ainutlaatuinen (ei uudelleenkäytetä eri tileille) ja
+  ei perustu henkilökohtaisiin tietoihin.
+arvioitu: true

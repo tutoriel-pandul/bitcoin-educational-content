@@ -1,0 +1,9 @@
+domanda: Perché l'oro non è un materiale portatile?
+risposta: Perché è denso e pesante, rendendolo ingombrante da trasportare in grandi quantità.
+risposte_errate:
+  - Perché è troppo prezioso per essere spostato.
+  - Perché non può essere facilmente modellato in forme più piccole.
+  - Perché è un liquido a temperatura ambiente.
+spiegazione: |
+  L'oro è denso e pesante, il che significa che trasportare grandi quantità può essere fisicamente impegnativo. Questo peso lo rende meno conveniente per il trasporto rispetto a materiali più leggeri.
+revisionato: true

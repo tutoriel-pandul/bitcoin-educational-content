@@ -1,0 +1,12 @@
+pregunta: ¿Cuál es un método para asegurar tus bitcoins a largo plazo?
+respuesta: Grabar tu frase mnemotécnica en un material resistente como el acero.
+respuestas_incorrectas:
+  - Almacenarlos en una cartera caliente.
+  - Mantenerlos en una plataforma de intercambio.
+  - Compartir tu frase mnemotécnica con un compañero de trabajo.
+explicación: |
+  Grabar tu frase mnemotécnica en un material resistente como
+  el acero crea una copia de seguridad física de tus claves que es
+  resistente tanto al daño por agua como al fuego, asegurando así tus
+  bitcoins a largo plazo.
+revisado: true

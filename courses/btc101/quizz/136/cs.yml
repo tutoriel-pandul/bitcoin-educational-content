@@ -1,0 +1,9 @@
+otázka: Jak Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu?
+odpověď: Prostřednictvím pravidel protokolu a ekonomických pobídek.
+špatné_odpovědi:
+  - Prostřednictvím přísné regulace a dohledu.
+  - Použitím pokročilých bezpečnostních opatření.
+  - Přes hrozbu právních kroků.
+vysvětlení: >-
+  Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu prostřednictvím pravidel protokolu a ekonomických pobídek. To eliminuje potřebu důvěry v jakémkoli kroku převodu vlastnictví bitcoinů.
+posouzeno: true

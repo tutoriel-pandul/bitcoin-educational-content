@@ -1,0 +1,10 @@
+domanda: Quali sono alcuni degli strumenti utilizzati nella cybersecurity?
+risposta: Wireshark, Metasploit, Nmap
+risposte_errate:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+spiegazione: |
+  Il capitolo elenca Wireshark, Metasploit e Nmap come alcuni
+  degli strumenti utilizzati nella cybersecurity.
+revisionato: vero

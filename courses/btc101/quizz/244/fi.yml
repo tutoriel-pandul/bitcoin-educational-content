@@ -1,0 +1,9 @@
+kysymys: Mikä on yksi tapa testata Lightning Networkia itse?
+vastaus: Kokeilemalla podcast-sovellusta nimeltä Fountain.
+väärät_vastaukset:
+  - Louhimalla Bitcoinia henkilökohtaisella tietokoneella.
+  - Ostamalla Bitcoinia pankista.
+  - Luomalla uuden kryptovaluutan.
+selitys: >-
+  Yksi tapa testata Lightning Networkia itse on kokeilemalla podcast-sovellusta nimeltä Fountain, joka mahdollistaa sinulle muutaman satoshin saamisen palkkioksi lempipodcastejesi kuuntelemisesta.
+arvioitu: true

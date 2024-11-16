@@ -1,0 +1,11 @@
+kysymys: Mitä tapahtuu, jos yksityinen avaimesi paljastuu kolmannelle osapuolelle?
+vastaus: Kolmas osapuoli voi käyttää bitcoinejasi.
+väärät_vastaukset:
+  - Kolmas osapuoli voi vain tarkastella tapahtumahistoriaasi.
+  - Kolmas osapuoli voi muuttaa yksityistä avaimesi.
+  - Kolmas osapuoli voi päästä käsiksi henkilökohtaisiin tietoihisi.
+selitys: |
+  Jos yksityinen avaimesi paljastuu kolmannelle osapuolelle, siihen
+  liittyvät varat eivät ole enää turvassa, koska yksityinen
+  avain mahdollistaa heille pääsyn varoihisi.
+arvioitu: true

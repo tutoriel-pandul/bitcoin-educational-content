@@ -1,0 +1,10 @@
+domanda: Quali sono alcune delle competenze necessarie nella cybersecurity?
+risposta: Analisi dei log, risposta agli incidenti
+risposte_errate:
+  - Design grafico, montaggio video
+  - Vendite, marketing
+  - Cucina, pasticceria
+spiegazione: |
+  Il capitolo menziona l'analisi dei log e la risposta agli incidenti come
+  alcune delle competenze necessarie nella cybersecurity.
+revisionato: vero

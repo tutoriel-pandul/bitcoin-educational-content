@@ -1,0 +1,11 @@
+otázka: Co byste měli udělat po zakoupení Bitcoinu na burzovní platformě?
+odpověď: Vybrat bitcoiny a poslat je do vaší peněženky.
+špatné_odpovědi:
+  - Nechat bitcoiny na platformě.
+  - Okamžitě prodat bitcoiny.
+  - Převést bitcoiny na jinou burzovní platformu.
+vysvětlení: |
+  Text kurzu radí, že po zakoupení Bitcoinu je nutné
+  okamžitě vybrat UTXO z burzovních platforem,
+  aby se minimalizovala rizika hackování a blokování fondů.
+recenzováno: true

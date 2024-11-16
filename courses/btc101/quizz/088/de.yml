@@ -1,0 +1,12 @@
+Frage: Was ist das Hauptrisiko bei der Verwendung eines Verwahrungsdienstes zur Aufbewahrung Ihrer Bitcoins?
+Antwort: Die vertrauenswürdige dritte Partei kann jederzeit Ihren Zugang zu Ihren Mitteln einschränken.
+falsche_Antworten:
+  - Die vertrauenswürdige dritte Partei kann den Wert Ihrer Bitcoins jederzeit erhöhen.
+  - Die vertrauenswürdige dritte Partei kann den Wert Ihrer Bitcoins jederzeit verringern.
+  - Die vertrauenswürdige dritte Partei kann Ihre Bitcoins zu keinem Zeitpunkt duplizieren.
+Erklärung: >-
+  Wenn Sie einen Verwahrungsdienst zur Aufbewahrung Ihrer Bitcoins nutzen, sind Sie nicht
+  der alleinige Inhaber Ihrer Bitcoins. Das bedeutet, dass die vertrauenswürdige dritte Partei
+  jederzeit Ihren Zugang zu Ihren Mitteln einschränken kann, was Ihnen das gleiche Maß an finanzieller Souveränität
+  wie das traditionelle Bankensystem gibt.
+überprüft: true

@@ -1,0 +1,12 @@
+Frage: Was ist das mathematische Konzept, das auf menschlicher Rationalität basiert und bei Bitcoin verwendet wird?
+Antwort: Spieltheorie.
+falsche_Antworten:
+  - Wahrscheinlichkeitstheorie.
+  - Zahlentheorie.
+  - Mengenlehre.
+Erklärung: |
+  Die Spieltheorie ist ein mathematisches Konzept, das auf
+  menschlicher Rationalität basiert. Bei Bitcoin werden
+  Protokolländerungen von den Nutzern durchgesetzt, was jede
+  Modifikation des Bitcoin-Protokolls hochkomplex macht.
+überprüft: true

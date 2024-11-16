@@ -1,0 +1,10 @@
+otázka: Jaká je unikátní vlastnost protokolu Bitcoin?
+odpověď: Funguje na celosvětové úrovni, 24 hodin denně, 7 dní v týdnu.
+špatné_odpovědi:
+  - Funguje pouze během pracovní doby.
+  - Je kontrolován centrální autoritou.
+  - Dá se snadno hacknout.
+vysvětlení: >-
+  Protokol Bitcoin je unikátní tím, že funguje na celosvětové úrovni,
+  24 hodin denně, 7 dní v týdnu, což ztěžuje regulaci finančními autoritami.
+recenzováno: true

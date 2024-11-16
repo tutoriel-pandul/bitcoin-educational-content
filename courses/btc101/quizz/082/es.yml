@@ -1,0 +1,10 @@
+pregunta: ¿Cuál es la tecnología que se utiliza para gastar fondos de manera segura usando un Monedero Bitcoin?
+respuesta: Criptografía de curva elíptica.
+respuestas_incorrectas:
+  - Criptografía simétrica.
+  - Criptografía cuántica.
+  - Criptografía RSA.
+explicación: |
+  Gastar Bitcoins requiere que el propietario utilice el Algoritmo de Firma Digital de Curva Elíptica (ECDSA) para forjar una firma
+  para la propagación de una transacción Bitcoin.
+revisado: true

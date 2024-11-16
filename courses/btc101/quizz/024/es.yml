@@ -1,0 +1,13 @@
+pregunta: ¿Cuál es la principal desventaja de las monedas fiduciarias?
+respuesta: Su valor se erosiona constantemente por la inflación monetaria.
+respuestas_incorrectas:
+  - No son fácilmente transportables.
+  - Su valor se aprecia constantemente por la inflación monetaria.
+  - No son divisibles.
+explicación: |
+  La principal desventaja de las monedas fiduciarias, como el
+  dólar y el euro, es que su valor se erosiona constantemente
+  por la inflación monetaria. Esto se debe a la
+  devaluación causada por las entidades que las controlan (rey,
+  banco central, emperador, dictador).
+revisado: true

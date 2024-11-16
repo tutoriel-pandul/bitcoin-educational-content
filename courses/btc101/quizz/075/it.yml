@@ -1,0 +1,12 @@
+domanda: Cos'è la frase mnemonica in un portafoglio Bitcoin?
+risposta: Una lista di 12 o 24 parole che ti permette di accedere ai tuoi bitcoin.
+risposte_errate:
+  - Una password scelta per accedere al portafoglio Bitcoin.
+  - Un codice per criptare le transazioni Bitcoin.
+  - Una frase segreta di recupero che distrugge il portafoglio Bitcoin in caso di necessità.
+spiegazione: |
+  Dal 2017, la chiave privata può essere codificata in una semplice lista
+  di 12 o 24 parole, chiamata frase mnemonica. Questa frase
+  è un backup del tuo portafoglio Bitcoin, quindi ti permette di
+  accedere ai tuoi bitcoin utilizzando qualsiasi software/app di portafoglio Bitcoin.
+revisionato: true

@@ -1,0 +1,13 @@
+kysymys: Mikä on suositeltu käyttötarkoitus multisig-lompakolle?
+vastaus: Suurten summien säilyttäminen yrityskäyttöön.
+väärät_vastaukset:
+  - Pienten summien säilyttäminen henkilökohtaiseen käyttöön.
+  - Keskisuurten summien säilyttäminen voittoa tavoittelemattomaan käyttöön.
+  - Päivittäisten menojen säilyttäminen yksilön käyttöön.
+selitys: |
+  Multisig-lompakkoa suositellaan suurten summien säilyttämiseen
+  ja yrityskäyttöön, koska se vaatii useita
+  allekirjoituksia tapahtuman suorittamiseksi. Tämä prosessi lisää
+  ylimääräisen turvallisuustason, koska yksittäinen henkilö ei voi
+  suorittaa tapahtumaa ilman muiden hyväksyntää.
+arvioitu: true

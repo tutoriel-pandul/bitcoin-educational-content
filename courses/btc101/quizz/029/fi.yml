@@ -1,0 +1,9 @@
+kysymys: Miksi kulta ei ole kannettava materiaali?
+vastaus: Koska se on tiheää ja raskasta, mikä tekee siitä hankalaa kantaa suurissa määrissä.
+väärät_vastaukset:
+  - Koska se on liian arvokasta siirrettäväksi.
+  - Koska sitä ei voi helposti muotoilla pienempiin muotoihin.
+  - Koska se on nestemäistä huoneenlämmössä.
+selitys: |
+  Kulta on tiheää ja raskasta, mikä tarkoittaa, että suurten määrien kantaminen voi olla fyysisesti haastavaa. Tämä paino tekee siitä vähemmän kätevän kuljetettavan verrattuna kevyempiin materiaaleihin.
+arvioitu: true

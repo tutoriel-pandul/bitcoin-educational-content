@@ -1,0 +1,10 @@
+spørsmål: Hvem var den første personen som ble med i Bitcoin-nettverket etter Satoshi Nakamoto?
+svar: Hal Finney
+feil_svar:
+  - Laszlo Hanyecz
+  - Phil Champagne
+  - Rogzy
+forklaring: |
+  Hal Finney var den første personen som ble med i Bitcoin-nettverket etter Satoshi
+  Nakamoto selv. Han tvitret til og med "Running Bitcoin" for å markere anledningen.
+gjennomgått: true

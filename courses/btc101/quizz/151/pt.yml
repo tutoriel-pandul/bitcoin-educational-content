@@ -1,0 +1,11 @@
+pergunta: O que é a Prova de Trabalho (POW)?
+resposta: É o consenso de segurança do protocolo Bitcoin.
+respostas_erradas:
+  - É o processo de criação de novos bitcoins.
+  - É o método de verificação de transações Bitcoin.
+  - É o algoritmo usado para minerar bitcoins.
+explicação: >-
+  A Prova de Trabalho é um algoritmo de consenso usado na rede Bitcoin
+  para validar transações e criar novos blocos. Requer que os mineradores resolvam problemas
+  matemáticos complexos, garantindo a segurança e integridade da rede.
+revisado: true

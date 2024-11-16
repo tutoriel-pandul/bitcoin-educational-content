@@ -1,0 +1,9 @@
+otázka: Jaké je číslo bloku první Bitcoinové transakce?
+odpověď: Blok 170.
+špatné_odpovědi:
+  - Blok 1.
+  - Blok 17.
+  - Blok 1700.
+vysvětlení: |
+  První Bitcoinová transakce, která byla transakcí 10 BTC mezi Satoshi Nakamotem a Hal Finneym, je zaznamenána v bloku 170.
+recenzováno: true

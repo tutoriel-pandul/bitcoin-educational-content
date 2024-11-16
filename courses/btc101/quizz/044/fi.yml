@@ -1,0 +1,10 @@
+kysymys: Mikä on mahdollinen seuraus äkillisestä arvonalennuksesta tai luottamuksen menetyksestä luottamusvaluutassa?
+vastaus: Hyperinflaatio.
+väärät_vastaukset:
+  - Deflaatio.
+  - Vakaa talous.
+  - Valuutan arvon nousu.
+selitys: |
+  Äkillinen devalvaatio tai luottamuksen menetys luottamusvaluutassa voi johtaa hyperinflaatioon. Tämä on tilanne,
+  jossa tavaroiden ja palveluiden hinnat nousevat erittäin nopeasti, usein johtaen taloudelliseen epävakauteen.
+arvioitu: true
