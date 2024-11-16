@@ -1,4 +1,4 @@
-question: Quel est l’intérêt d’un portefeuille d’appât utilisant une passphrase ?
+question: Quel est l'intérêt d'un portefeuille d'appât utilisant une passphrase ?
 answer: Simuler un portefeuille avec une petite somme en cas de contrainte physique
 wrong_answers:
   - Ajouter une sauvegarde automatique des transactions

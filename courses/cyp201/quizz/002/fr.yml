@@ -1,4 +1,4 @@
-question: Quelle propriété des fonctions de hachage est démontrée par une modification complète du hash lorsqu’un message change légèrement ?
+question: Quelle propriété des fonctions de hachage est démontrée par une modification complète du hash lorsqu'un message change légèrement ?
 answer: L'effet avalanche
 wrong_answers:
   - La résistance aux collisions

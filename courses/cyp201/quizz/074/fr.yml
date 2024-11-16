@@ -5,5 +5,5 @@ wrong_answers:
   - Une devise Bitcoin testnet
   - Une devise Bitcoin mainnet
 explanation: |
-  L'index /84'/ est défini dans le BIP84 pour indiquer l’utilisation du standard SegWit v0 avec des adresses P2WPKH en profondeur 1 (celle de l'objectif de dérivation).
+  L'index /84'/ est défini dans le BIP84 pour indiquer l'utilisation du standard SegWit v0 avec des adresses P2WPKH en profondeur 1 (celle de l'objectif de dérivation).
 reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - Les bits sont réorganisés de manière aléatoire
   - Chaque hash est stocké dans une base de données
 explanation: |
-  Les opérations comme ShR et XOR rendent impossible le retour à l’état initial, garantissant l’irréversibilité.
+  Les opérations comme ShR et XOR rendent impossible le retour à l'état initial, garantissant l'irréversibilité.
 reviewed: false

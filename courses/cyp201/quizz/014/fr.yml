@@ -1,4 +1,4 @@
-question: Quel est le nombre d’itérations utilisé par PBKDF2 dans Bitcoin ?
+question: Quel est le nombre d'itérations utilisé par PBKDF2 dans Bitcoin ?
 answer: 2048
 wrong_answers:
   - 1024

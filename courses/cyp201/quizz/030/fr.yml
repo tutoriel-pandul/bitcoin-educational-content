@@ -5,5 +5,5 @@ wrong_answers:
   - Couvrir uniquement les inputs
   - Couvrir tous les outputs sauf un
 explanation: |
-  SIGHASH_SINGLE couvre un seul input et un seul output correspondant à l’index de l’input signé, laissant le reste modifiable.
+  SIGHASH_SINGLE couvre un seul input et un seul output correspondant à l'index de l'input signé, laissant le reste modifiable.
 reviewed: false

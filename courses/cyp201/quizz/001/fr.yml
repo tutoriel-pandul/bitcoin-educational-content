@@ -5,5 +5,5 @@ wrong_answers:
   - L'effet avalanche
   - La résistance à la seconde préimage
 explanation: |
-  La résistance à la préimage assure qu’il est pratiquement impossible de retrouver le message d'origine à partir de son hash.
+  La résistance à la préimage assure qu'il est pratiquement impossible de retrouver le message d'origine à partir de son hash.
 reviewed: false
