@@ -10,24 +10,39 @@ objectives:
 
 # Un voyage au cœur de la cryptographie
 
-Vous êtes fasciné par Bitcoin ? Vous vous demandez comment fonctionne un portefeuille Bitcoin ? Préparez-vous à embarquer dans un voyage captivant au cœur de la cryptographie ! Loïc, notre expert, vous guidera à travers les méandres de la création d'un portefeuille Bitcoin, dévoilant les mystères derrière les termes techniques intimidants tels que le hachage, la dérivation des clés et les courbes elliptiques.
+Découvrez les secrets des portefeuilles Bitcoin déterministes et hiérarchiques avec notre formation CYP201 ! Que vous soyez un utilisateur régulier ou un passionné cherchant à approfondir vos connaissances, ce cours vous offre une immersion complète dans les rouages de ces outils que nous utilisons tous au quotidien.
 
-Cette formation vous dotera non seulement des connaissances pour comprendre la structure d'un portefeuille Bitcoin, mais vous préparera également à plonger plus profondément dans le passionnant univers de la cryptographie. Alors, êtes-vous prêt à entreprendre ce voyage ? Rejoignez-nous et transformez votre curiosité en compétence !
+Découvrez les mécanismes des fonctions de hachage, des signatures numériques (ECDSA et Schnorr), de la phrase mnémonique, des clés cryptographiques et de la création des adresses de réception, tout en explorant des stratégies de sécurisation avancées.
+
+Cette formation vous dotera non seulement des connaissances pour comprendre la structure d'un portefeuille Bitcoin, mais vous préparera également à plonger plus profondément dans le passionnant univers de la cryptographie.
+
+Grâce à une pédagogie claire, plus de 60 schémas explicatifs et des exemples concrets, CYP201 vous permettra de comprendre de A à Z comment fonctionne votre portefeuille, afin de naviguer dans l’univers de Bitcoin en toute confiance. Reprenez le contrôle sur vos UTXOs dès aujourd'hui en comprenant comment fonctionnent les portefeuilles HD !
 
 +++
 
 # Introduction
 <partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
-## Introduction à la cryptographie
+## Introduction de la formation
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+Bienvenue dans la formation CYP201, dans laquelle nous allons explorer en profondeur le fonctionnement des portefeuilles Bitcoin HD. Ce cours s’adresse à tous ceux qui souhaitent comprendre les bases techniques de l'utilisation de Bitcoin, qu’ils soient simples utilisateurs, amateurs éclairés ou futurs experts.
 
-***REFAIRE L'INTRO + ACCROCHE PAGE D'ACCUEIL***
+L’objectif de cette formation est de vous donner les clés pour maîtriser les outils que vous utilisez au quotidien. Les portefeuilles Bitcoin HD, qui sont au cœur de votre expérience utilisateur, reposent sur des concepts parfois complexes, que nous allons essayer de rendre accessibles. Ensemble, nous allons les démystifier !
 
+Avant d’entrer dans le détail de la construction et du fonctionnement des portefeuilles Bitcoin, nous commencerons avec quelques chapitres sur les primitives cryptographiques à connaître pour la suite.
 
+Nous débuterons avec les fonctions de hachage cryptographique, fondamentales tant pour les portefeuilles que pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : SHA256.
 
-Avant d'explorer en détail le fonctionnement et la construction des portefeuilles Bitcoin, nous allons parcourir plusieurs chapitres qui vous présentent les bases indispensables en cryptographie pour bien comprendre la suite.
+Ensuite, nous aborderons le fonctionnement des algorithmes de signature numérique que vous utilisez au quotidien pour sécuriser vos UTXOs. Bitcoin en utilise deux : ECDSA et le protocole de Schnorr. Vous apprendrez quelles primitives mathématiques sous-tendent ces algorithmes et comment ils garantissent la sécurité des transactions.
+
+Une fois que nous aurons bien compris ces quelques éléments sur la cryptographie, nous passerons enfin au cœur de la formation : les portefeuille déterministes et hiérarchiques ! Il y a tout d'abord une section dédiée aux phrases mnémoniques, ces suites de 12 ou 24 mots qui permettent de créer et de restaurer vos portefeuilles. Vous découvrirez comment ces mots sont générés à partir d’une source d’entropie et en quoi ils facilitent l’utilisation de Bitcoin.
+
+La formation continuera avec l’étude de la passphrase BIP39, de la graine (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
+
+Enfin, à partir de la clé maîtresse, nous découvrirons comment les paires de clés cryptographiques sont dérivées de manière déterministe et hiérarchique jusqu’aux adresses de réception.
+
+Ce parcours, au cœur des portefeuilles Bitcoin, vous permettra d’utiliser vos logiciels en toute confiance, tout en renforçant vos compétences pour identifier et atténuer les risques. Préparez-vous à devenir un véritable expert des portefeuilles Bitcoin !
 
 # Les fonctions de hachage
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
@@ -1884,7 +1899,7 @@ Les adresses P2WSH utilisent l’encodage *bech32* et commencent toujours par `b
 
 Le modèle P2TR a été introduit avec l’implémentation de Taproot en novembre 2021. Il repose sur le protocole de Schnorr pour l’agrégation de clés cryptographiques, ainsi que sur un arbre de Merkle pour des scripts alternatifs, appelé MAST (*Merkelized Alternative Script Tree*). Contrairement aux autres types de scripts, où les conditions de dépense sont exposées publiquement (soit à la réception, soit à la dépense), P2TR permet de masquer des scripts complexes derrière une clé publique unique et apparente.
 
-Techniquement, un script P2TR verrouille des bitcoins sur une clé publique Schnorr unique, dénommée $K$. Cette clé $K$ est en réalité un agrégat d’une clé publique $P$ et d’une clé publique $M$, cette dernière étant calculée à partir de la racine de Merkle d’une liste de *scriptPubKey*. Les bitcoins verrouillés avec ce type de script peuvent être dépensés de deux manières :
+Techniquement, un script P2TR verrouille des bitcoins sur une clé publique Schnorr unique, dénommée $Q$. Cette clé $Q$ est en réalité un agrégat d’une clé publique $P$ et d’une clé publique $M$, cette dernière étant calculée à partir de la racine de Merkle d’une liste de *scriptPubKey*. Les bitcoins verrouillés avec ce type de script peuvent être dépensés de deux manières :
 - En publiant une signature pour la clé publique $P$ (*key path*).
 - En satisfaisant l’un des scripts contenus dans l’arbre de Merkle (*script path*).
 
@@ -1892,7 +1907,7 @@ P2TR offre ainsi une grande flexibilité, car il permet de verrouiller des bitco
 
 063
 
-P2TR correspond aux sorties SegWit de version 1, ce qui signifie que les signatures pour les entrées P2TR sont stockées dans le témoin (*Witness*) d’une transaction, et non dans le *scriptSig*. Les adresses P2TR utilisent l’encodage *bech32m* et commencent par `bc1p`, mais elles sont assez particulière car on n'utilise pas de fonction de hachage pour les construire. En effet, elles représentent directement la clé publique $K$ qui est simplement mise en forme avec des métadonnées. C'est donc un modèle de script proche de P2PK.
+P2TR correspond aux sorties SegWit de version 1, ce qui signifie que les signatures pour les entrées P2TR sont stockées dans le témoin (*Witness*) d’une transaction, et non dans le *scriptSig*. Les adresses P2TR utilisent l’encodage *bech32m* et commencent par `bc1p`, mais elles sont assez particulière car on n'utilise pas de fonction de hachage pour les construire. En effet, elles représentent directement la clé publique $Q$ qui est simplement mise en forme avec des métadonnées. C'est donc un modèle de script proche de P2PK.
 
 Maintenant que nous avons vu la théorie, passons à la pratique ! Je vous propose dans le chapitre suivant de dériver une adresse SegWit v0 et une adresse SegWit v1 à partir d’une paire de clés.
 
@@ -2112,37 +2127,84 @@ Voilà comment dériver une adresse de réception P2WPKH (SegWit v0) à partir d
 
 ### Dérivation d'une adresse SegWit v1 (bech32m)
 
-Pour les adresses Taproot, le processus de génération diffère légèrement. Dès l’étape de compression de la clé publique, il y a une distinction par rapport à ECDSA : les clés publiques utilisées pour Schnorr sur Bitcoin sont représentées uniquement par leur abscisse ($x$).
+Pour les adresses Taproot, le processus de génération diffère légèrement. Voyons tout cela ensemble !
 
+Dès l’étape de compression de la clé publique, une première distinction apparaît par rapport à ECDSA : les clés publiques utilisées pour Schnorr sur Bitcoin sont représentées uniquement par leur abscisse ($x$). Il n’y a donc pas de préfixe, et la clé compressée mesure exactement 256 bits.
 
+Comme nous l’avons vu dans le chapitre précédent, un script P2TR verrouille des bitcoins sur une clé publique Schnorr unique, désignée par $Q$. Cette clé $Q$ est un agrégat de deux clés publiques : $P$, une clé publique interne principale, et $M$, une clé publique dérivée de la racine de Merkle d’une liste de *scriptPubKey*. Les bitcoins verrouillés avec ce type de script peuvent être dépensés de deux manières :
+- En publiant une signature pour la clé publique $P$ (*key path*) ;
+- En satisfaisant l’un des scripts inclus dans l’arbre de Merkle (*script path*).
 
+En réalité, ces deux clés ne sont pas véritablement "agrégées". La clé $P$ est plutôt tweakée par la clé $M$. En cryptographie, "tweaker" une clé publique consiste à modifier cette clé en y appliquant une valeur additive appelée "tweak". Cette opération permet à la clé modifiée de rester compatible avec la clé privée d’origine et le tweak. Techniquement, un tweak est une valeur scalaire $t$ qui est ajoutée à la clé publique initiale. Si $P$ est la clé publique d’origine, la clé tweakée devient :
+$$
+P' = P + tG
+$$
 
+Où $G$ est le générateur de la courbe elliptique utilisée. Cette opération produit une nouvelle clé publique dérivée de la clé originale, tout en conservant des propriétés cryptographiques permettant son utilisation.
 
+Si vous n’avez pas besoin d’ajouter des scripts alternatifs (dépense exclusivement via le *key path*), vous pouvez générer une adresse Taproot établie uniquement sur la clé publique présente en profondeur 5 de votre portefeuille. Dans ce cas, il est nécessaire de créer un script non dépensable pour le *script path*, afin de satisfaire les exigences de la structure. Le tweak $t$ est alors calculé en appliquant une fonction de hachage taguée, **`TapTweak`**, sur la clé publique interne $P$ :
+$$
+t = \text{H}_{\text{TapTweak}}(P)
+$$
 
+où :
+- **$\text{H}_{\text{TapTweak}}$** est une fonction de hachage SHA256 taguée avec le tag `TapTweak`. Si vous ne savez pas ce qu’est une fonction de hachage taguée, je vous invite à consulter le chapitre 3.3 ;
+- $P$ est la clé publique interne, représentée dans son format compressé de 256 bits, utilisant uniquement l’abscisse $x$.
 
+La clé publique Taproot $Q$ est ensuite calculée en ajoutant le tweak $t$, multiplié par le générateur de la courbe elliptique $G$, à la clé publique interne $P$ :
+$$
+Q = P + t \cdot G
+$$
 
+Une fois la clé publique Taproot $Q$ obtenue, nous pouvons générer l’adresse de réception correspondante. Contrairement à d’autres formats, les adresses Taproot ne sont pas établies sur un hash de la clé publique. La clé $Q$ est donc insérée directement dans l’adresse, de manière brute.
 
+Pour commencer, nous extrayons l’abscisse $x$ du point $Q$ afin d’obtenir une clé publique compressée. Sur cette charge utile, une somme de contrôle est calculée à l’aide de codes BCH, comme pour les adresses SegWit v0. Cependant, le programme utilisé pour les adresses Taproot diffère légèrement. En effet, après l’introduction du format bech32 avec SegWit, un bug a été découvert : lorsque le dernier caractère d’une adresse est un `p`, insérer ou supprimer des `q` juste avant ce `p` ne rend pas la somme de contrôle invalide. Bien que ce bug n’ait pas de conséquence sur SegWit v0 (grâce à une contrainte de taille), il pourrait poser problème à l’avenir. Ce bug a donc été corrigé pour les adresses Taproot, et le nouveau format corrigé est appelé "*bech32m*".
 
+L’adresse Taproot est générée en encodant la coordonnée $x$ de $Q$ dans le format *bech32m*, avec les éléments suivants :
+- **Le HRP (*Human Readable Part*)** : `bc`, pour indiquer le réseau principal Bitcoin ;
+- **La version** : `1` pour indique Taproot / SegWit v1 ;
+- **La checksum**.
 
+L'adresse finale aura donc le format :
 
+```
+bc1p[Qx][checksum]
+```
 
+En revanche, si vous souhaitez ajouter des scripts alternatifs en complément de la dépense avec la clé publique interne (*script path*), le calcul de l’adresse de réception sera légèrement différent. Vous devrez inclure le hash des scripts alternatifs dans le calcul du tweak. Sur Taproot, chaque script alternatif, situé au bout de l'arbre de Merkle, est appelé une "feuille".
 
+Une fois les différents scripts alternatifs écrits, vous devez les passer individuellement dans une fonction de hachage taguée `TapLeaf`, accompagnée de quelques métadonnées :
+$$
+\text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}}(v || sz || S)
+$$
 
+Avec :
+- $v$ : le numéro de version du script (par défaut **`0xC0`** pour Taproot) ;
+- $sz$ : la taille du script encodée en format *CompactSize* ;
+- $S$ : le script.
 
+Les différents hash de script ($\text{h}_{\text{leaf}}$) sont d’abord triés dans l’ordre lexicographique. Ensuite, ils sont concaténés par paires et passés dans une fonction de hachage taguée `TapBranch`. Ce processus est répété de manière itérative pour construire, étape par étape, l’arbre de Merkle :
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} || \text{h}_{\text{leaf2}})
+$$
 
+On poursuit ensuite en concaténant les résultats deux par deux, en les passant à chaque étape dans la fonction de hachage taguée `TapBranch`, jusqu’à obtenir la racine de l’arbre de Merkle :
 
+066
 
+Une fois la racine de Merkle $h_{\text{root}}$ calculée, on va pouvoir calculer le tweak. Pour cela, on concatène la clé publique interne du portefeuille $P$ avec la racine $h_{\text{root}}$, puis on passe l’ensemble dans la fonction de hachage taguée `TapTweak` :
+$$
+t = \text{H}_{\text{TapTweak}}(P || h_{\text{root}})
+$$
 
+Enfin, comme précédemment, la clé publique Taproot $Q$ est obtenue en ajoutant la clé publique interne $P$ au produit du tweak $t$ par le point générateur $G$ :
+$$
+Q = P + t \cdot G
+$$
 
+Ensuite, la génération de l’adresse suit le même processus, en utilisant la clé publique brute $Q$ comme charge utile, accompagnée de quelques métadonnées supplémentaires.
 
-
-
-
-
-
-
-
-
+Et voilà ! Nous arrivons à la fin de cette formation CYP201. Si ce cours vous a été utile, je vous serais très reconnaissant de prendre quelques instants pour lui attribuer une bonne note dans le chapitre d’évaluation qui suit. N’hésitez pas également à le partager avec vos proches ou sur vos réseaux sociaux. Enfin, si vous souhaitez obtenir votre diplôme pour cette formation, vous pouvez passer l’examen final juste après le chapitre de l'évaluation.
 
 # Conclusion
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
@@ -2161,6 +2223,12 @@ Pour les adresses Taproot, le processus de génération diffère légèrement. D
 ## Conclusion
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
+Nous arrivons à la fin de la formation CYP201. J’espère qu’elle vous a été utile dans votre apprentissage de Bitcoin et qu’elle vous a permis de mieux comprendre le fonctionnement des portefeuilles HD que vous utilisez au quotidien. Merci d’avoir suivi ce cours jusqu’à son terme !
 
+Selon moi, ces connaissances sur les portefeuilles sont fondamentales, car elles relient un aspect théorique de Bitcoin à son utilisation pratique. En effet, si vous utilisez Bitcoin, vous manipulez forcément des logiciels de portefeuille. Comprendre leurs rouages vous permet de mettre en place des stratégies de sécurisation efficaces, tout en maîtrisant les mécanismes sous-jacents, les risques et les éventuelles faiblesses. Ainsi, vous pouvez utiliser Bitcoin de manière plus sûre et en toute confiance.
 
+Si vous ne l’avez pas encore fait, je vous invite à noter et commenter cette formation. Cela m’aiderait énormément. Vous pouvez également partager cette formation sur vos réseaux sociaux pour diffuser ces connaissances au plus grand nombre.
 
+Pour poursuivre votre parcours dans le terrier du lapin, je vous recommande vivement la formation **BTC204**, que j’ai également produite sur Plan B Network. Elle est dédiée à la confidentialité sur Bitcoin et explore des thématiques clés : Quel est le modèle de confidentialité ? Comment fonctionne l’analyse de chaîne ? Comment utiliser Bitcoin de manière optimale pour maximiser votre confidentialité ? Une suite logique pour approfondir vos compétences !
+
+https://planb.network/courses/btc204
