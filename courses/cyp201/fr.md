@@ -34,15 +34,25 @@ Avant d’entrer dans le détail de la construction et du fonctionnement des por
 
 Nous débuterons avec les fonctions de hachage cryptographique, fondamentales tant pour les portefeuilles que pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : SHA256.
 
+![CYP201](assets/fr/010.webp)
+
 Ensuite, nous aborderons le fonctionnement des algorithmes de signature numérique que vous utilisez au quotidien pour sécuriser vos UTXOs. Bitcoin en utilise deux : ECDSA et le protocole de Schnorr. Vous apprendrez quelles primitives mathématiques sous-tendent ces algorithmes et comment ils garantissent la sécurité des transactions.
+
+![CYP201](assets/fr/021.webp)
 
 Une fois que nous aurons bien compris ces quelques éléments sur la cryptographie, nous passerons enfin au cœur de la formation : les portefeuille déterministes et hiérarchiques ! Il y a tout d'abord une section dédiée aux phrases mnémoniques, ces suites de 12 ou 24 mots qui permettent de créer et de restaurer vos portefeuilles. Vous découvrirez comment ces mots sont générés à partir d’une source d’entropie et en quoi ils facilitent l’utilisation de Bitcoin.
 
+![CYP201](assets/fr/040.webp)
+
 La formation continuera avec l’étude de la passphrase BIP39, de la graine (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
+
+![CYP201](assets/fr/045.webp)
 
 Enfin, à partir de la clé maîtresse, nous découvrirons comment les paires de clés cryptographiques sont dérivées de manière déterministe et hiérarchique jusqu’aux adresses de réception.
 
-Ce parcours, au cœur des portefeuilles Bitcoin, vous permettra d’utiliser vos logiciels en toute confiance, tout en renforçant vos compétences pour identifier et atténuer les risques. Préparez-vous à devenir un véritable expert des portefeuilles Bitcoin !
+![CYP201](assets/fr/056.webp)
+
+Cette formation vous permettra d’utiliser vos logiciels de portefeuille en toute confiance, tout en renforçant vos compétences pour identifier et atténuer les risques. Préparez-vous à devenir un véritable expert des portefeuilles Bitcoin !
 
 # Les fonctions de hachage
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
@@ -159,11 +169,6 @@ Cette combinaison est employée pour générer des hash plus courts, notamment d
 Enfin, au niveau applicatif uniquement, on utilise parfois également la fonction SHA512, qui intervient de manière indirecte dans la dérivation de clés pour les portefeuilles. Cette fonction est très similaire à SHA256 dans son fonctionnement ; toutes deux appartiennent à la même famille SHA2, mais SHA512 produit, comme son nom l'indique, un hash de 512 bits, contre 256 bits pour SHA256. Nous détaillerons son utilisation dans les chapitres suivants.
 
 Vous connaissez maintenant les bases indispensables sur les fonctions de hachage pour la suite. Dans le chapitre suivant, je vous propose de découvrir plus en détail le fonctionnement de la fonction qui est au cœur de Bitcoin : SHA256. Nous allons la décortiquer pour comprendre comment elle parvient à obtenir les caractéristiques que nous avons décrites ici. Ce prochain chapitre est assez long et technique, mais il n'est pas indispensable pour suivre la suite de la formation. Donc, si vous avez des difficultés à le comprendre, ne vous inquiétez pas et passez directement au chapitre suivant, qui sera lui bien plus accessible.
-
-
-
-
-
 
 ## Les rouages de SHA256
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
