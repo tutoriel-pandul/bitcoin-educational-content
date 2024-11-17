@@ -1,9 +1,9 @@
-问题：42 mod 2的值是多少？
-答案：0
-错误答案：
+question:42 mod 2的值是多少？
+answer:0
+错误answer:
   - 1
   - 2
   - 42
-解释：
+explanation:
   通过将42除以2，余数是零，因此42 mod 2等于0。
 审核：false
