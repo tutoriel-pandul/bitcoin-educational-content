@@ -5,5 +5,5 @@ wrong_answers:
   - 0000
   - 1101
 explanation: |
-  En appliquant XOR bit par bit : 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, donc le résultat est 1011.
+  En appliquant XOR bit par bit: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, donc le résultat est 1011.
 reviewed: false
