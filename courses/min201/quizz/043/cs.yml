@@ -1,10 +1,10 @@
-otázka: Co znamená přísloví "Not your hashrate, not your reward" v kontextu těžby Bitcoinu?
-odpověď: Pokud nekontrolujete hashrate, nekontrolujete odměny z těžby.
-špatné_odpovědi:
+question: Co znamená přísloví "Not your hashrate, not your reward" v kontextu těžby Bitcoinu?
+answer: Pokud nekontrolujete hashrate, nekontrolujete odměny z těžby.
+wrong_answers:
   - Pokud nemáte vysoký hashrate, nedostanete žádné odměny.
   - Pokud nevlastníte Bitcoin, nedostanete žádné odměny.
   - Pokud nemáte těžební stroj, nedostanete žádné odměny.
-vysvětlení: |
+explanation: |
   Přísloví "Not your hashrate, not your reward" je podobné
   dobře známému přísloví ve světě kryptoměn,
   "Not your keys, not your Bitcoins." To znamená, že pokud

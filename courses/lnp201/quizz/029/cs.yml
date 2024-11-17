@@ -1,9 +1,9 @@
-otázka: V jaké situaci se používá vynucené uzavření kanálu?
-odpověď: Když jedna ze stran již neodpovídá
-špatné_odpovědi:
+question: V jaké situaci se používá vynucené uzavření kanálu?
+answer: Když jedna ze stran již neodpovídá
+wrong_answers:
   - Když je potřeba zvýšit kapacitu kanálu
   - Když je časový zámek nedostatečný
   - Když jsou transakční poplatky příliš vysoké
-vysvětlení: |
+explanation: |
   Vynucené uzavření se používá jako poslední možnost, pokud jedna ze stran, například kvůli technickému problému, již neodpovídá na zprávy druhé strany.
 recenzováno: false

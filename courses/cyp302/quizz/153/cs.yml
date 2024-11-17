@@ -1,9 +1,9 @@
-otázka: Jaký bezpečnostní problém vzniká, pokud je stejná zpráva v zjednodušeném kryptosystému RSA šifrována vícekrát?
-odpověď: Zpráva bude vždy produkovat stejnou šifrování
-špatné_odpovědi:
+question: Jaký bezpečnostní problém vzniká, pokud je stejná zpráva v zjednodušeném kryptosystému RSA šifrována vícekrát?
+answer: Zpráva bude vždy produkovat stejnou šifrování
+wrong_answers:
   - Zpráva bude zranitelná vůči útokům hrubou silou
   - Zpráva bude obrácena
   - Zprávu bude nemožné dešifrovat
-vysvětlení: |
+explanation: |
   V zjednodušeném RSA, šifrování zprávy vícekrát vždy produkuje stejný výsledek, což činí šifrování zranitelným vůči útokům.
 recenzováno: false

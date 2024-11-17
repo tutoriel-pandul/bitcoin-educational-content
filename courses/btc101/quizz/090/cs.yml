@@ -1,10 +1,10 @@
-otázka: Jaké je doporučené využití mobilní peněženky?
-odpověď: Ukládání běžných výdajů.
-špatné_odpovědi:
+question: Jaké je doporučené využití mobilní peněženky?
+answer: Ukládání běžných výdajů.
+wrong_answers:
   - Ukládání dlouhodobých úspor.
   - Ukládání střednědobých úspor.
   - Ukládání velkých částek.
-vysvětlení: |
+explanation: |
   Mobilní peněženka je doporučena pro běžné výdaje, protože
   s ní je snadné provádět transakce. Nicméně, není doporučena
   pro ukládání velkých částek nebo pro dlouhodobé úspory, jelikož

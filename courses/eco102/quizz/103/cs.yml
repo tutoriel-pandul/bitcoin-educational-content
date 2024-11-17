@@ -1,9 +1,9 @@
-otázka: Kterou školou myšlení dvacátého století Bastiat předjímal?
-odpověď: Teorie veřejné volby
-špatné_odpovědi:
+question: Kterou školou myšlení dvacátého století Bastiat předjímal?
+answer: Teorie veřejné volby
+wrong_answers:
   - Teorie endogenního růstu
   - Teorie nerovnováhy
   - Neoklasická škola ekonomie
-vysvětlení: |
+explanation: |
   Bastiat předvídal myšlenky Teorie veřejné volby, demonstrující, jak zájmové skupiny ovlivňují stát, aby získaly privilegia na úkor ostatních.
 recenzováno: false

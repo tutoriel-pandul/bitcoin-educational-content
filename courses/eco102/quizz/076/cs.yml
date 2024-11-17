@@ -1,9 +1,9 @@
-otázka: Podle Bastiata, co statismus odebírá jednotlivcům?
-odpověď: Důsledky jejich činů
-špatné_odpovědi:
+question: Podle Bastiata, co statismus odebírá jednotlivcům?
+answer: Důsledky jejich činů
+wrong_answers:
   - Od jejich rodin
   - Od radostí volné experimentace
   - Od jejich přátel
-vysvětlení: |
+explanation: |
   Pro Bastiata, nadměrný státní zásah snižuje individuální zodpovědnost tím, že odstraňuje přímé důsledky činů jednotlivců, čímž podporuje nezodpovědnost.
 recenzováno: false

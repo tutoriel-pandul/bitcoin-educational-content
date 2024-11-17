@@ -1,8 +1,8 @@
-otázka: Jaký je Bastiatův pohled na povahu člověka při narození?
-odpověď: Vlastník
+question: Jaký je Bastiatův pohled na povahu člověka při narození?
+answer: Vlastník
 nesprávné_odpovědi:
   - Otrok
   - Dobrý
   - Poddajný
-vysvětlení: |
+explanation: |
   Bastiat tvrdí, že člověk se rodí jako "vlastník", protože má v sobě právo používat své schopnosti k naplňování svých potřeb.

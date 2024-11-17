@@ -1,9 +1,9 @@
-otázka: Jaký byl přínos fyziokratů pro liberální myšlení?
-odpověď: Všechny výše uvedené odpovědi jsou správné.
-špatné_odpovědi:
+question: Jaký byl přínos fyziokratů pro liberální myšlení?
+answer: Všechny výše uvedené odpovědi jsou správné.
+wrong_answers:
   - Zastávali se individuální svobody a soukromého vlastnictví.
   - Vyvinuli teorii volného trhu.
   - Kritizovali merkantilismus a státní zásahy.
-vysvětlení: |
+explanation: |
   Fyziokraté přispěli k liberálnímu myšlení tím, že zastávali individuální svobodu, soukromé vlastnictví, volný trh a odmítali merkantilismus a státní zásahy, čímž položili základy pro ekonomiku založenou na přirozených zákonech.
 recenzováno: false

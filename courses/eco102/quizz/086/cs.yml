@@ -1,8 +1,8 @@
-otázka: Jaký koncept používá Bastiat k popisu ideologie nucené redistribuce a legálního loupení?
-odpověď: socialismus
-špatné_odpovědi:
+question: Jaký koncept používá Bastiat k popisu ideologie nucené redistribuce a legálního loupení?
+answer: socialismus
+wrong_answers:
   - republikanismus
   - konzervatismus
   - liberalismus
-vysvětlení: |
+explanation: |
   Bastiat kritizuje socialismus za jeho tendenci používat zákon k nucené redistribuci, kterou považuje za formu legálního loupení.

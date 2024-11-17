@@ -1,9 +1,9 @@
-otázka: Kdo navrhl první skutečné logo Bitcoinu (zlaté velké písmeno B protknuté dvěma svislými pruhy) v únoru 2010?
-odpověď: Satoshi Nakamoto
-špatné_odpovědi:
+question: Kdo navrhl první skutečné logo Bitcoinu (zlaté velké písmeno B protknuté dvěma svislými pruhy) v únoru 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
   - NewLibertyStandard
   - Martti Malmi
   - bitboy
-vysvětlení: |
+explanation: |
   Použil návrh NewLibertyStandard použít symbol thajského bahtu (฿). Oranžové logo později vytvořil někdo známý jako bitboy.
 recenzováno: false

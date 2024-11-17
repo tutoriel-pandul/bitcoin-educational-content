@@ -1,9 +1,9 @@
-otázka: Jaké hlavní téma rozvíjí Bastiat ve své knize "Zákon"?
-odpověď: Boj proti legálnímu lupičství a obrana vlastnictví
-špatné_odpovědi:
+question: Jaké hlavní téma rozvíjí Bastiat ve své knize "Zákon"?
+answer: Boj proti legálnímu lupičství a obrana vlastnictví
+wrong_answers:
   - Obrana sociálních práv a veřejných služeb
   - Studium přínosů klasického vzdělání
   - Kritika průmyslové revoluce
-vysvětlení: |
+explanation: |
   V "Zákonu" Bastiat kontrastuje legální lupičství s vlastnictvím a zastává svobodu jako řešení sociálních problémů.
 recenzováno: false

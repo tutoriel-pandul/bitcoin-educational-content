@@ -1,9 +1,9 @@
-otázka: Jak sestavit obnovovací frázi (mnemoniku) v binárním kódu?
-odpověď: Připojte náhodné číslo se svým kontrolním součtem na konec.
-špatné_odpovědi:
+question: Jak sestavit obnovovací frázi (mnemoniku) v binárním kódu?
+answer: Připojte náhodné číslo se svým kontrolním součtem na konec.
+wrong_answers:
   - Připojte náhodné číslo se svým kontrolním součtem na začátek.
   - Připojte náhodné číslo se semenem.
   - Rozdělte náhodné číslo na dvě části a vložte kontrolní součet do prostředka.
-vysvětlení: |
+explanation: |
   Pro generování binární mnemonické fráze připojte kontrolní součet na konec náhodného čísla před jeho převedením do slov.
 recenzováno: false

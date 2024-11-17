@@ -1,10 +1,10 @@
-otázka: Proč je klíčové pravidelně aktualizovat operační systém a aplikace?
-odpověď: Aby se chránilo před novými hrozbami a zranitelnostmi.
-špatné_odpovědi:
+question: Proč je klíčové pravidelně aktualizovat operační systém a aplikace?
+answer: Aby se chránilo před novými hrozbami a zranitelnostmi.
+wrong_answers:
   - Aby se stroj stal zastaralým.
   - Aby se stroj zpomalil.
   - Aby se změnilo uživatelské rozhraní.
-vysvětlení: |
+explanation: |
   Pravidelné aktualizace jsou zásadní pro ochranu systému
   před novými hrozbami a zranitelnostmi. Nejsou určeny k tomu,
   aby stroj zastaral nebo zpomalil.

@@ -1,9 +1,9 @@
-otázka: Co je abelovská grupa?
-odpověď: Grupa, ve které je operace komutativní
-špatné_odpovědi:
+question: Co je abelovská grupa?
+answer: Grupa, ve které je operace komutativní
+wrong_answers:
   - Grupa, která má unikátní generátor
   - Grupa omezená na celá čísla
   - Grupa bez neutrálního prvku
-vysvětlení: |
+explanation: |
   Abelovská grupa je grupa, ve které pořadí prvků v operaci neovlivňuje výsledek, což znamená, že dodržuje komutativitu.
 recenzováno: false

@@ -1,8 +1,8 @@
-otázka: Jaký je hlavní účinek protekcionismu na spotřebitele?
-odpověď: Zvyšuje cenu produktů, které kupují
-špatné_odpovědi:
+question: Jaký je hlavní účinek protekcionismu na spotřebitele?
+answer: Zvyšuje cenu produktů, které kupují
+wrong_answers:
   - Umožňuje jim kupovat produkty vyšší kvality
   - Nabízí jim širší výběr produktů
   - Nemá žádný vliv na jejich kupní sílu
-vysvětlení: |
+explanation: |
   Protekcionismus uvaluje cla na dovoz, což činí produkty dražšími pro spotřebitele.

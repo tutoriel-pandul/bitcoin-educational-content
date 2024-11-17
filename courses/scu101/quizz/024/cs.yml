@@ -1,11 +1,11 @@
-otázka: Jaká jsou některá řešení pro šifrování dat na různých operačních systémech?
-odpověď: BitLocker pro Windows, LUKS pro Linux a vestavěná možnost pro Mac.
-špatné_odpovědi:
+question: Jaká jsou některá řešení pro šifrování dat na různých operačních systémech?
+answer: BitLocker pro Windows, LUKS pro Linux a vestavěná možnost pro Mac.
+wrong_answers:
   - BitLocker pro Linux, LUKS pro Mac a vestavěná možnost pro Windows.
   - BitLocker pro Mac, LUKS pro Windows a vestavěná možnost pro Linux.
   - LUKS pro všechny operační systémy.
-vysvětlení: |
+explanation: |
   Různé operační systémy mají různá řešení pro
   šifrování dat. BitLocker je pro Windows, LUKS je pro
   Linux a Mac má vestavěnou možnost pro šifrování dat.
-posouzeno: true
+reviewed: true

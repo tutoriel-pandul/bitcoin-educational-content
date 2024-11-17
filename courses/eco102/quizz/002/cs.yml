@@ -1,8 +1,8 @@
-otázka: Co znamená termín "politický trh" podle Frédérica Bastiata?
-odpověď: Rozhodovat o majetku někoho jiného prostřednictvím zákona
-špatné_odpovědi:
+question: Co znamená termín "politický trh" podle Frédérica Bastiata?
+answer: Rozhodovat o majetku někoho jiného prostřednictvím zákona
+wrong_answers:
   - Nakupování
   - Vyhrající primárky
   - Nákup veřejných služeb
-vysvětlení: |
+explanation: |
   "Politický trh" pro Bastiata odkazuje na tendenci státu rozhodovat o majetku jiných prostřednictvím legislativních prostředků, jev, který kritizuje jako "legální loupež".

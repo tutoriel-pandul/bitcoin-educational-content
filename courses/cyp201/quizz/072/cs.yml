@@ -1,9 +1,9 @@
-otázka: Jaká funkce se používá pro generování adresy?
-odpověď: HASH160.
+question: Jaká funkce se používá pro generování adresy?
+answer: HASH160.
 nesprávné_odpovědi:
   - HASH256.
   - HASH512.
   - SHA256.
-vysvětlení: |
+explanation: |
   Funkce HASH160, která kombinuje SHA256 a RIPEMD-160, se používá pro generování Bitcoin adres z veřejných klíčů.
 recenzováno: false

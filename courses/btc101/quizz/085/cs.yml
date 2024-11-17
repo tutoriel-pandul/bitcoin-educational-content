@@ -1,10 +1,10 @@
-otázka: Co je hot wallet?
-odpověď: Bitcoinová peněženka ve vašem telefonu nebo počítači připojená k internetu.
-špatné_odpovědi:
+question: Co je hot wallet?
+answer: Bitcoinová peněženka ve vašem telefonu nebo počítači připojená k internetu.
+wrong_answers:
   - Peněženka, která je fyzicky horká na dotek.
   - Peněženka, která je populární mezi uživateli Bitcoinu.
   - Peněženka, která je doporučena pro ukládání velkých množství bitcoinů.
-vysvětlení: |
+explanation: |
   Hot wallet je termín používaný pro popis Bitcoinové peněženky
   uložené na zařízení s přístupem k internetu, jako je
   telefon nebo počítač. Tímto způsobem je snadné provádět

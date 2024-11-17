@@ -1,10 +1,10 @@
-otázka: Jaká by měla být hlavní starost, když vlastníte bitcoin?
-odpověď: Zabezpečení vašich prostředků.
-špatné_odpovědi:
+question: Jaká by měla být hlavní starost, když vlastníte bitcoin?
+answer: Zabezpečení vašich prostředků.
+wrong_answers:
   - Hodnota Bitcoinu ve směnném kurzu k dolaru.
   - Legalita vlastnictví bitcoinů.
   - Povolení utrácet vaše prostředky.
-vysvětlení: |
+explanation: |
   Když vlastníte bitcoiny, primární starostí je zabezpečení
   vašich prostředků. To je proto, že Bitcoin, jako jakákoli jiná
   forma měny, může být ukraden nebo ztracen, pokud není řádně zabezpečen.

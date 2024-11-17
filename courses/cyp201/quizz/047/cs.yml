@@ -1,9 +1,9 @@
-otázka: Proč použití heslové fráze zvyšuje bezpečnost HD peněženky?
-odpověď: Přidává další vrstvu ochrany k mnemonické frázi.
-špatné_odpovědi:
+question: Proč použití heslové fráze zvyšuje bezpečnost HD peněženky?
+answer: Přidává další vrstvu ochrany k mnemonické frázi.
+wrong_answers:
   - Umožňuje generování silnějších veřejných klíčů.
   - Kryptograficky chrání transakce.
   - Zdvojnásobuje počet bitcoinů v peněžence.
-vysvětlení: |
+explanation: |
   Heslová fráze zvyšuje bezpečnost přidáním dodatečného kusu dat k mnemonické frázi, působí podobně jako 2FA.
 recenzováno: false

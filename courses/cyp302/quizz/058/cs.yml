@@ -1,9 +1,9 @@
-otázka: Proč chemici používají teorii grup?
-odpověď: Klasifikovat tvary molekul
-špatné_odpovědi:
+question: Proč chemici používají teorii grup?
+answer: Klasifikovat tvary molekul
+wrong_answers:
   - Analyzovat chemické vazby
   - Vypočítat molekulovou hmotnost
   - Předpovídat chemické reakce
-vysvětlení: |
+explanation: |
   Teorie grup umožňuje chemikům klasifikovat tvary molekul na základě jejich symetrií, což pomáhá v pochopení jejich strukturních vlastností.
 recenzováno: false

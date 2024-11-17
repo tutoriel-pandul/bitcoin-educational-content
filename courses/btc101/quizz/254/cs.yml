@@ -1,10 +1,10 @@
-otázka: Jaký je praktický způsob, jak získat Bitcoiny?
-odpověď: Koupit je prostřednictvím regulovaných nebo neregulovaných platforem.
-špatné_odpovědi:
+question: Jaký je praktický způsob, jak získat Bitcoiny?
+answer: Koupit je prostřednictvím regulovaných nebo neregulovaných platforem.
+wrong_answers:
   - Těžit je pomocí laptopu.
   - Najít je ve fyzickém světě.
   - Vytvořit je pomocí speciálního softwaru.
-vysvětlení: |
+explanation: |
   Text uvádí, že uživatelé mohou získat Bitcoiny
   přijetím za obchod nebo koupí prostřednictvím
   regulovaných nebo neregulovaných platforem.

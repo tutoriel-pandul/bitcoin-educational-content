@@ -1,9 +1,9 @@
-otázka: Proč není zlato považováno za přenosný materiál?
-odpověď: Protože je husté a těžké, což z něj činí nepraktické k přenášení ve velkém množství.
-špatné_odpovědi:
+question: Proč není zlato považováno za přenosný materiál?
+answer: Protože je husté a těžké, což z něj činí nepraktické k přenášení ve velkém množství.
+wrong_answers:
   - Protože je příliš cenné, aby bylo přemisťováno.
   - Protože ho nelze snadno tvarovat do menších forem.
   - Protože je při pokojové teplotě kapalné.
-vysvětlení: |
+explanation: |
   Zlato je husté a těžké, což znamená, že přenášení velkých množství může být fyzicky náročné. Tato váha ho činí méně vhodným pro transport ve srovnání s lehčími materiály.
-posouzeno: true
+reviewed: true

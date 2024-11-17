@@ -1,10 +1,10 @@
-otázka: Jaká je doporučená praxe pro používání účtu správce ve Windows?
-odpověď: Vytvořte dva oddělené účty; účet správce a účet pro každodenní použití.
-špatné_odpovědi:
+question: Jaká je doporučená praxe pro používání účtu správce ve Windows?
+answer: Vytvořte dva oddělené účty; účet správce a účet pro každodenní použití.
+wrong_answers:
   - Používejte účet správce pro každodenní použití, pokud PC není připojeno k internetu.
   - Vytvořte dva oddělené účty správce; jeden pro každodenní použití a jeden pro správu operačního systému.
   - Nevytvářejte účet správce.
-vysvětlení: |
+explanation: |
   Používání účtu správce pro každodenní použití ve Windows může
   systém vystavit větším bezpečnostním rizikům. Doporučuje se
   vytvořit dva oddělené účty; jeden pro administrativní

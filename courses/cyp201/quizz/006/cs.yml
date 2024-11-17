@@ -1,9 +1,9 @@
-otázka: Kolik bitů je vyhrazeno pro doplnění podle velikosti ve funkci SHA256?
-odpověď: 64 bitů.
+question: Kolik bitů je vyhrazeno pro doplnění podle velikosti ve funkci SHA256?
+answer: 64 bitů.
 nesprávné_odpovědi:
   - 128 bitů.
   - 256 bitů.
   - 512 bitů.
-vysvětlení: |
+explanation: |
   SHA256 vyhradí 64 bitů pro doplnění, což představuje počáteční velikost zprávy před doplněním.
 recenzováno: false

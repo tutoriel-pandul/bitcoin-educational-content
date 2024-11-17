@@ -1,9 +1,9 @@
-otázka: Jaká je charakteristika negativní spravedlnosti podle Bastiata?
-odpověď: Zabraňuje uzurpaci práv některých jinými.
-špatné_odpovědi:
+question: Jaká je charakteristika negativní spravedlnosti podle Bastiata?
+answer: Zabraňuje uzurpaci práv některých jinými.
+wrong_answers:
   - Nedělá nic a nechává spory, aby se vyřešily samy.
   - Špatné pro práva obou stran.
   - Vytváří nerovnováhu mezi individuálními a kolektivními právy.
-vysvětlení: |
+explanation: |
   Negativní spravedlnost, podle Bastiata, spočívá v zabránění uzurpaci práv, čímž se omezuje pouze na ochranu přirozených práv bez nutnosti ukládat jednotlivcům pozitivní akce.
 recenzováno: false

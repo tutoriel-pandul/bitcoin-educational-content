@@ -1,8 +1,8 @@
-otázka: Co je UTXO v kontextu Bitcoinu?
-odpověď: Kus nevyužitých bitcoinů spojených se skriptem
+question: Co je UTXO v kontextu Bitcoinu?
+answer: Kus nevyužitých bitcoinů spojených se skriptem
 nesprávné_odpovědi:
   - Plně potvrzená transakce na blockchainu
   - Veřejný klíč, který generuje adresy Bitcoinu
   - Částka bitcoinu rozdělená do několika částí
-vysvětlení: |
+explanation: |
   UTXO, neboli "Unspent Transaction Output" (nevyužitý výstup transakce), představuje určitou částku bitcoinů, kterou držitel může použít.

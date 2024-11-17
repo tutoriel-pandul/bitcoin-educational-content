@@ -1,9 +1,9 @@
-otázka: Jaký název byl dán problému konsensu v distribuované síti?
-odpověď: Byzantský generálský problém
-špatné_odpovědi:
+question: Jaký název byl dán problému konsensu v distribuované síti?
+answer: Byzantský generálský problém
+wrong_answers:
   - Problém římských centurionů
   - Problém albánských plukovníků
   - Problém japonských Taišó
-vysvětlení: |
+explanation: |
   Název tohoto problému (formalizovaný Lamportem, Shostakem a Peasem v roce 1982) byl zvolen, aby se předešlo urážce čtenáře, jelikož se nikdo nikdy neidentifikoval jako Byzantec.
 recenzováno: false

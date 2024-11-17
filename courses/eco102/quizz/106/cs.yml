@@ -1,9 +1,9 @@
-otázka: V jakém populárním ekonomickém díle Henri Hazlitt znovu navštěvuje Bastiatův příklad rozbitého okna?
-odpověď: Ekonomie v jedné lekci
-špatné_odpovědi:
+question: V jakém populárním ekonomickém díle Henri Hazlitt znovu navštěvuje Bastiatův příklad rozbitého okna?
+answer: Ekonomie v jedné lekci
+wrong_answers:
   - 49 lekcí ekonomie
   - Ekonomie podle náhody
   - Umění ekonomie
-vysvětlení: |
+explanation: |
   Henri Hazlitt v díle "Ekonomie v jedné lekci" používá příklad rozbitého okna k ilustraci skrytých důsledků ekonomických politik.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Jaká byla online dostupnost Bitcoinu od roku 2009?
-odpověď: 99,988 %.
-špatné_odpovědi:
+question: Jaká byla online dostupnost Bitcoinu od roku 2009?
+answer: 99,988 %.
+wrong_answers:
   - 100 %.
   - 90,009 %.
   - 80,17 %.
-vysvětlení: |
+explanation: |
   Online dostupnost Bitcoinu je od roku 2009 99,988 %.
-posouzeno: true
+reviewed: true

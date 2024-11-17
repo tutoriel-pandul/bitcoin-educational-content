@@ -1,9 +1,9 @@
-otázka: Jaká funkce se používá k vygenerování seedu z mnemonické fráze a hesla?
-odpověď: PBKDF2.
-špatné_odpovědi:
+question: Jaká funkce se používá k vygenerování seedu z mnemonické fráze a hesla?
+answer: PBKDF2.
+wrong_answers:
   - SHA256.
   - HMAC.
   - Argon2.
-vysvětlení: |
+explanation: |
   PBKDF2 (Password-Based Key Derivation Function 2) se používá k odvození seedu z mnemonické fráze a hesla v HD peněženkách.
 recenzováno: false

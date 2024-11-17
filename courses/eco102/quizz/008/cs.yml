@@ -1,9 +1,9 @@
-otázka: Kde seděl Frédéric Bastiat v Národním shromáždění?
-odpověď: Ve středu vlevo s Alexisem de Tocquevillem
-špatné_odpovědi:
+question: Kde seděl Frédéric Bastiat v Národním shromáždění?
+answer: Ve středu vlevo s Alexisem de Tocquevillem
+wrong_answers:
   - Na levici se socialisty
   - Na pravici s monarchisty
   - Ve středu vpravo s konzervativními liberály
-vysvětlení: |
+explanation: |
   Bastiat seděl ve středu vlevo s Tocquevillem, kde obhajoval individuální svobody.
 recenzováno: false

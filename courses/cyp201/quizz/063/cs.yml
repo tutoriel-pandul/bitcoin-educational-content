@@ -1,9 +1,9 @@
-otázka: Jaké jsou dva typy odvození dětských klíčů v HD peněžence?
-odpověď: Normální odvození a zpevněné odvození.
-špatné_odpovědi:
+question: Jaké jsou dva typy odvození dětských klíčů v HD peněžence?
+answer: Normální odvození a zpevněné odvození.
+wrong_answers:
   - Jednoduché odvození a složité odvození.
   - Eliptické odvození a křivkové odvození.
   - Statické odvození a dynamické odvození.
-vysvětlení: |
+explanation: |
   Dva typy odvození jsou normální odvození, které používá veřejný klíč rodiče, a zpevněné odvození, které používá soukromý klíč rodiče.
 recenzováno: false

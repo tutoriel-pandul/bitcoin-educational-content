@@ -1,13 +1,13 @@
-otázka: Jak se počítá efektivita Bitcoinové transakce z hlediska soukromí?
+question: Jak se počítá efektivita Bitcoinové transakce z hlediska soukromí?
 
-odpověď: Porovnáním skutečné entropie transakce s maximální možnou entropií.
+answer: Porovnáním skutečné entropie transakce s maximální možnou entropií.
 
-špatné_odpovědi:
+wrong_answers:
   - Vynásobením počtu vstupů počtem výstupů.
   - Vynásobením skutečné entropie transakce počtem vstupů a výstupů.
   - Porovnáním počtu vstupů s počtem výstupů.
 
-vysvětlení: |
+explanation: |
   Efektivita transakce se počítá odečtením maximální entropie od skutečné entropie analyzované transakce.
 
 recenzováno: false

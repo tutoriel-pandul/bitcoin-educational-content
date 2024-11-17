@@ -1,8 +1,8 @@
-otázka: Která kniha od Frédérica Bastiata byla oblíbenou knihou Ronalda Reagana?
-odpověď: Zákon
-špatné_odpovědi:
+question: Která kniha od Frédérica Bastiata byla oblíbenou knihou Ronalda Reagana?
+answer: Zákon
+wrong_answers:
   - Ekonomické sofismy
   - To, co je vidět a co není vidět
   - Ekonomické harmonie
-vysvětlení: |
+explanation: |
   "Zákon" je dílo od Bastiata, které hluboce ovlivnilo Ronalda Reagana, symbolizující boj proti právnímu lupení.

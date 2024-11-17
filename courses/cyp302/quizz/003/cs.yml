@@ -1,9 +1,9 @@
-otázka: Co odhaluje druhá Bealeova zpráva po dešifrování?
-odpověď: Seznam pohřbených pokladů (zlato, stříbro a drahokamy)
-špatné_odpovědi:
+question: Co odhaluje druhá Bealeova zpráva po dešifrování?
+answer: Seznam pohřbených pokladů (zlato, stříbro a drahokamy)
+wrong_answers:
   - Přesná lokace, kde je poklad pohřben
   - Datum Bealeova návratu
   - Podpis Bealea a jeho společníků
-vysvětlení: |
+explanation: |
   Po dešifrování druhá zpráva popisuje obsah pokladu, který se skládá ze zlata, stříbra a drahokamů.
 recenzováno: false

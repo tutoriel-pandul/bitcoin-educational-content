@@ -1,8 +1,8 @@
-otázka: Jaký typ algebraické struktury je základem abstraktní algebry?
-odpověď: Grupa
-špatné_odpovědi:
+question: Jaký typ algebraické struktury je základem abstraktní algebry?
+answer: Grupa
+wrong_answers:
   - Těleso
   - Okruh
   - Matice
-vysvětlení: |
+explanation: |
   Grupa je základní algebraická struktura, na které je abstraktní algebra založena, definovaná množinou prvků a binární operací, která respektuje určité vlastnosti.

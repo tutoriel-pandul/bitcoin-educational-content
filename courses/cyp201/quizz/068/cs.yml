@@ -1,9 +1,9 @@
-otázka: Jaký je účel externího řetězce v procesu derivace?
-odpověď: Izolovat adresy určené k veřejnému použití.
-špatné_odpovědi:
+question: Jaký je účel externího řetězce v procesu derivace?
+answer: Izolovat adresy určené k veřejnému použití.
+wrong_answers:
   - Izolovat adresy pro vrácení peněz.
   - Spravovat příchozí transakce.
   - Oddělit soukromé klíče od veřejných klíčů.
-vysvětlení: |
+explanation: |
   Externí řetězec se používá k derivaci adres určených k veřejnému použití, jako jsou ty pro přijímání plateb.
 recenzováno: false

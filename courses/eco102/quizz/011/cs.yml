@@ -1,9 +1,9 @@
-otázka: Podle Adama Smithe, proč trh funguje?
-odpověď: Protože je založen na vlastním zájmu
-špatné_odpovědi:
+question: Podle Adama Smithe, proč trh funguje?
+answer: Protože je založen na vlastním zájmu
+wrong_answers:
   - Protože je regulován
   - Protože je ctnostný
   - Protože je monitorován státem
-vysvětlení: |
+explanation: |
   Pro Adama Smithe trh funguje, protože každý jednotlivec jedná ve svém vlastním zájmu, což přirozeně generuje kolektivní prosperitu.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Jaký je jeden možný důsledek pokroku technologií AI?
-odpověď: Technologie AI povedou k zániku více než 80 % dnešních pracovních míst.
-špatné_odpovědi:
+question: Jaký je jeden možný důsledek pokroku technologií AI?
+answer: Technologie AI povedou k zániku více než 80 % dnešních pracovních míst.
+wrong_answers:
   - Technologie AI zničí všechny počítače.
   - Technologie AI povedou ke snížení lidské inteligence.
   - Technologie AI způsobí globální ekonomický kolaps.
-vysvětlení: >-
+explanation: >-
   Text uvádí, že jeden možný důsledek pokroku technologií AI je, že více než 80 % pracovních míst zmizí kvůli AI a automatizaci.
 recenzováno: true

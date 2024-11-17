@@ -1,9 +1,9 @@
-otázka: Jaký byl hlavní cíl Anglické ligy v roce 1838?
-odpověď: Proti obilným zákonům
-špatné_odpovědi:
+question: Jaký byl hlavní cíl Anglické ligy v roce 1838?
+answer: Proti obilným zákonům
+wrong_answers:
   - Proti velkým pozemkovým vlastníkům
   - Za podporu zemědělských pracovníků
   - Proti zahraničním obchodníkům
-vysvětlení: |
+explanation: |
   Anglická liga, inspirovaná Richardem Cobdenem, si kladla za cíl zrušit protekcionistické obilné zákony, aby podpořila volný obchod a snížila chudobu.
 recenzováno: false

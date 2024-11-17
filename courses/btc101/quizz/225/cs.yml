@@ -1,10 +1,10 @@
-otázka: Kdy byla Lightning Network poprvé ověřena a implementována?
-odpověď: 2017
+question: Kdy byla Lightning Network poprvé ověřena a implementována?
+answer: 2017
 nesprávné_odpovědi:
   - 2015
   - 2016
   - 2018
-vysvětlení: |
+explanation: |
   Lightning Network byla poprvé ověřena a implementována
   v roce 2017.
-posouzeno: true
+reviewed: true

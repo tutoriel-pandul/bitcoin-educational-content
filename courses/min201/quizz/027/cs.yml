@@ -1,10 +1,10 @@
-otázka: Proč je Důkaz práce (Proof of Work) zásadní v síti Bitcoin?
-odpověď: Představuje fyzické spojení mezi reálným světem a Bitcoinem, vyžaduje hmatatelnou energii pro produkci a validaci bitcoinů a bloků.
-špatné_odpovědi:
+question: Proč je Důkaz práce (Proof of Work) zásadní v síti Bitcoin?
+answer: Představuje fyzické spojení mezi reálným světem a Bitcoinem, vyžaduje hmatatelnou energii pro produkci a validaci bitcoinů a bloků.
+wrong_answers:
   - Umožňuje účast malých těžařů, zejména těch v silně cenzurovaných lokalitách.
   - Zaručuje ochranu proti centralizaci.
   - Odráží stávající nerovnosti v mocenském rozložení ve společnosti.
-vysvětlení: |
+explanation: |
   Důkaz práce je zásadní v síti Bitcoin, protože
   představuje fyzické spojení mezi reálným světem a
   Bitcoinem. Produkce a validace bitcoinů a

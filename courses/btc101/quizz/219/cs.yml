@@ -1,9 +1,9 @@
-otázka: Co tento kurz naznačuje o budoucnosti Bitcoinu?
-odpověď: Nezmizí.
-špatné_odpovědi:
+question: Co tento kurz naznačuje o budoucnosti Bitcoinu?
+answer: Nezmizí.
+wrong_answers:
   - Bude nahrazen lepší technologií.
   - Bude zakázán po celém světě.
   - Ztratí svou hodnotu.
-vysvětlení: |
+explanation: |
   Text kurzu naznačuje, že Bitcoin nezmizí. Naopak, revoluce teprve začala.
 recenzováno: true

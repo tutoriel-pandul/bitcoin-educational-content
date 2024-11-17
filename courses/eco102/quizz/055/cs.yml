@@ -1,9 +1,9 @@
-otázka: Kdo je v této příběhu považován za "nefér konkurenta" výrobců svíček?
-odpověď: Slunce
-špatné_odpovědi:
+question: Kdo je v této příběhu považován za "nefér konkurenta" výrobců svíček?
+answer: Slunce
+wrong_answers:
   - Zahraniční výrobci svíček
   - Elektřina
   - Olejové lampy
-vysvětlení: |
+explanation: |
   V jeho satiře Bastiat označuje slunce za "nefér konkurenta", čímž zdůrazňuje absurditu protekcionistických opatření tím, že přehání požadavky výrobců svíček.
 recenzováno: false

@@ -1,10 +1,10 @@
-otázka: Co se stane při 51% útoku na síť Bitcoinu?
-odpověď: Útočník vlastní více než polovinu hashrate a může se pokusit upravit blockchain.
-špatné_odpovědi:
+question: Co se stane při 51% útoku na síť Bitcoinu?
+answer: Útočník vlastní více než polovinu hashrate a může se pokusit upravit blockchain.
+wrong_answers:
   - Útočník získá kontrolu nad více než polovinou bitcoinů v oběhu.
   - Útočník získá kontrolu nad více než polovinou uzlů v síti Bitcoin.
   - Útočník získá kontrolu nad více než polovinou těžebních poolů v síti Bitcoin.
-vysvětlení: |
+explanation: |
   Při 51% útoku může útočník, který vlastní více než polovinu
   výpočetního výkonu sítě, potenciálně manipulovat s
   blockchainem vytvořením alternativního řetězce bloků.

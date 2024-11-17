@@ -1,9 +1,9 @@
-otázka: Co je podle Bastiata politická ekonomie?
-odpověď: Teorie výměny
-špatné_odpovědi:
+question: Co je podle Bastiata politická ekonomie?
+answer: Teorie výměny
+wrong_answers:
   - Teorie hodnoty
   - Teorie bohatství
   - Teorie kupní síly
-vysvětlení: |
+explanation: |
   Bastiat definuje politickou ekonomii jako teorii výměny.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Jaký je hlavní rozdíl mezi PRNG a TRNG?
-odpověď: PRNG je deterministický, zatímco TRNG produkuje skutečně náhodná čísla.
-špatné_odpovědi:
+question: Jaký je hlavní rozdíl mezi PRNG a TRNG?
+answer: PRNG je deterministický, zatímco TRNG produkuje skutečně náhodná čísla.
+wrong_answers:
   - TRNG je rychlejší než PRNG.
   - TRNG používá seed, zatímco PRNG nepoužívá žádný seed.
   - PRNG je hardware, zatímco TRNG je software.
-vysvětlení: |
+explanation: |
   TRNG (True Random Number Generator) generuje náhodná čísla z fyzikálního náhodného jevu, na rozdíl od PRNG, který je deterministický.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Který prezident Spojených států amerických během svého mládí šířil Bastiatovy myšlenky na firemních seminářích?
-odpověď: Ronald Reagan
-špatné_odpovědi:
+question: Který prezident Spojených států amerických během svého mládí šířil Bastiatovy myšlenky na firemních seminářích?
+answer: Ronald Reagan
+wrong_answers:
   - Franklin Roosevelt
   - George Bush
   - Dwight D. Eisenhower
-vysvětlení: |
+explanation: |
   Ronald Reagan, předtím než se stal prezidentem, šířil liberální myšlenky Bastiata a dalších ekonomů na seminářích pro General Electric.
 recenzováno: false

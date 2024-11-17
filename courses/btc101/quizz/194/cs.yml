@@ -1,10 +1,10 @@
-otázka: Jaký nástroj slouží pro přijímání Bitcoinu pro velké organizace nebo vášnivé nadšence do Bitcoinu?
-odpověď: BTCpay Server.
+question: Jaký nástroj slouží pro přijímání Bitcoinu pro velké organizace nebo vášnivé nadšence do Bitcoinu?
+answer: BTCpay Server.
 nesprávné_odpovědi:
   - Bitcoinová peněženka.
   - Bitcoinová burza.
   - BTCpay Mining.
-vysvětlení: |
+explanation: |
   BTCpay Server je nástroj pro přijímání Bitcoinu pro velké
   struktury nebo vášnivé příznivce bitcoinu. Další řešení
   zahrnují OpenNode pro jednoduché online podnikání a Swiss

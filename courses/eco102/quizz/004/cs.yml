@@ -1,9 +1,9 @@
-otázka: Proč je dnes Frédéric Bastiat uznáván jako vlivný myslitel, přestože je relativně neznámý?
-odpověď: Předvídal moderní názory na politický trh a legální loupež.
-špatné_odpovědi:
+question: Proč je dnes Frédéric Bastiat uznáván jako vlivný myslitel, přestože je relativně neznámý?
+answer: Předvídal moderní názory na politický trh a legální loupež.
+wrong_answers:
   - Propagoval veřejné vzdělání pro všechny.
   - Napsal pojednání o moderních revolucích.
   - Přímo ovlivnil vznik sociálního zabezpečení ve Francii.
-vysvětlení: |
+explanation: |
   Bastiat je znovuobjeven pro své názory na svobodu, práva na vlastnictví a jeho kritiku legální loupeže, které rezonují s moderními výzvami.
 recenzováno: false

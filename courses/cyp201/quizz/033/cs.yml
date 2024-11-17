@@ -1,9 +1,9 @@
-otázka: V kterém BIP je navržena myšlenka obnovovací fráze nebo mnemonické fráze (12/24 slov)?
-odpověď: BIP39.
-špatné_odpovědi:
+question: V kterém BIP je navržena myšlenka obnovovací fráze nebo mnemonické fráze (12/24 slov)?
+answer: BIP39.
+wrong_answers:
   - BIP16.
   - BIP32.
   - BIP44.
-vysvětlení: |
+explanation: |
   BIP39 zavedl 24-slovnou mnemonickou obnovovací frázi, aby usnadnil zálohování klíčů pro uživatele HD peněženek.
 recenzováno: false

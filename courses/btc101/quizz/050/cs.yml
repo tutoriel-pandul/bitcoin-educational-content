@@ -1,10 +1,10 @@
-otázka: Jaká je poslední fáze fenoménu hyperinflace?
-odpověď: Vzniká nová měna.
-špatné_odpovědi:
+question: Jaká je poslední fáze fenoménu hyperinflace?
+answer: Vzniká nová měna.
+wrong_answers:
   - Ztráta důvěry.
   - Kolaps měny & nárůst cen.
   - Zlý kruh tisku peněz.
-vysvětlení: |
+explanation: |
   Poslední fáze hyperinflace nastává, když je zavedena nová
   měna, která nahrazuje starou.
-posouzeno: true
+reviewed: true

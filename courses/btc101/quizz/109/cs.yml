@@ -1,11 +1,11 @@
-otázka: Jaký je význam individuální odpovědnosti v Bitcoinu?
-odpověď: Je to klíčové, protože máte na starosti zálohy.
-špatné_odpovědi:
+question: Jaký je význam individuální odpovědnosti v Bitcoinu?
+answer: Je to klíčové, protože máte na starosti zálohy.
+wrong_answers:
   - Je to zásadní, protože musíte těžit bitcoiny.
   - Je to zásadní pro nákup bitcoinů.
   - Je to klíčové, protože máte na starosti téma peněženky.
-vysvětlení: |
+explanation: |
   V Bitcoinu jde finanční suverenita ruku v ruce s
   individuální odpovědností, protože musíte sami zajistit
   opatrování svých prostředků tím, že budete dodržovat doporučené postupy pro zálohování.
-posouzeno: true
+reviewed: true

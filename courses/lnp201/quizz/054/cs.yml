@@ -1,9 +1,9 @@
-otázka: Jaký typ likvidity musí prodejce na Lightning Network primárně spravovat, aby mohl přijímat platby?
-odpověď: Příchozí likvidita
-špatné_odpovědi:
+question: Jaký typ likvidity musí prodejce na Lightning Network primárně spravovat, aby mohl přijímat platby?
+answer: Příchozí likvidita
+wrong_answers:
   - Odchozí likvidita
   - Vysoká celková kapacita kanálu
   - Vysoký zůstatek na-chain
-vysvětlení: |
+explanation: |
   Aby mohl prodejce přijímat platby, potřebuje mít příchozí likviditu, což znamená, že na opačné straně kanálu musí být dostupné prostředky, aby mohl platby přijímat.
 recenzováno: false

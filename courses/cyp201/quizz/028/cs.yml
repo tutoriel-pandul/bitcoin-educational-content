@@ -1,9 +1,9 @@
-otázka: Proč je nemožné získat soukromý klíč z platného digitálního podpisu?
-odpověď: Podpis je založen na nevratných matematických operacích na eliptické křivce.
-špatné_odpovědi:
+question: Proč je nemožné získat soukromý klíč z platného digitálního podpisu?
+answer: Podpis je založen na nevratných matematických operacích na eliptické křivce.
+wrong_answers:
   - Soukromý klíč je před použitím zašifrován.
   - Semínko chrání soukromý klíč.
   - Hašování zpráv brání získání soukromého klíče.
-vysvětlení: |
+explanation: |
   Operace na eliptických křivkách jsou nevratné, což zajišťuje, že soukromý klíč nemůže být odvozen z podpisu.
 recenzováno: false

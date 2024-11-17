@@ -1,9 +1,9 @@
-otázka: Co umožňuje funkce "LNURL-withdraw" uživatelům?
-odpověď: Vybrat prostředky ze služby skenováním QR kódu
-špatné_odpovědi:
+question: Co umožňuje funkce "LNURL-withdraw" uživatelům?
+answer: Vybrat prostředky ze služby skenováním QR kódu
+wrong_answers:
   - Provádět přímé platby bez poplatků za přesměrování
   - Připojit jejich Lightning peněženku bez hesla
   - Posílat prostředky bez potvrzení příjemce
-vysvětlení: |
+explanation: |
   LNURL-withdraw umožňuje uživatelům vybrat prostředky ze služby skenováním QR kódu, čímž zjednodušuje proces výběru.
 recenzováno: false

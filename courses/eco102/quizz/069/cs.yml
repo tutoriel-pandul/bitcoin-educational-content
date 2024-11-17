@@ -1,9 +1,9 @@
-otázka: Proč si Bastiat myslí, že je zásadní osvětlit občany v oblasti ekonomické morálky?
-odpověď: Aby se snížil vliv podvodníků a falešných ekonomických doktrín
-špatné_odpovědi:
+question: Proč si Bastiat myslí, že je zásadní osvětlit občany v oblasti ekonomické morálky?
+answer: Aby se snížil vliv podvodníků a falešných ekonomických doktrín
+wrong_answers:
   - Učit charitu a altruismus
   - Udělat daňový systém spravedlivějším
   - Odstranit chudobu prostřednictvím ekonomie
-vysvětlení: |
+explanation: |
   Bastiat vidí v ekonomické morálce způsob, jak snížit manipulaci a vliv falešných doktrín osvětlením veřejnosti o pravých ekonomických důsledcích.
 recenzováno: false

@@ -1,9 +1,9 @@
-otázka: Podle Rousseaua, jaký je cíl omezování jednotlivců?
-odpověď: Přivést je k svobodě
-špatné_odpovědi:
+question: Podle Rousseaua, jaký je cíl omezování jednotlivců?
+answer: Přivést je k svobodě
+wrong_answers:
   - Zotročit je
   - Udělat je rovnými
   - Sjednotit je v otroctví
-vysvětlení: |
+explanation: |
   Rousseau věří, že omezení může vést jednotlivce ke svobodě tím, že je navede k společnému ideálu, který by pronásledovali, kdyby byli osvíceni.
 recenzováno: false

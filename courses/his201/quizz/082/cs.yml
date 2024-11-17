@@ -1,8 +1,8 @@
-otázka: Jak se jmenuje zakladatel Švédské pirátské strany, který v květnu 2011 popsal Bitcoin jako "Napster bankovnictví"?
-odpověď: Rick Falkvinge
-špatné_odpovědi:
+question: Jak se jmenuje zakladatel Švédské pirátské strany, který v květnu 2011 popsal Bitcoin jako "Napster bankovnictví"?
+answer: Rick Falkvinge
+wrong_answers:
   - Smári McCarthy
   - Edward Snowden
   - Florian Hufsky
-vysvětlení: |
+explanation: |
   Jako milovník svobody mu Bitcoin přišel jako dobrý nápad, když ho objevil. V následujících letech se stal významným propagátorem kryptoměny.

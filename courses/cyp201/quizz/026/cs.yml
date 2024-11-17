@@ -1,9 +1,9 @@
-otázka: Proč je důležité nikdy neopakovat použití nonce v algoritmu ECDSA?
-odpověď: Opakované použití nonce ohrožuje bezpečnost a může odhalit soukromý klíč.
-špatné_odpovědi:
+question: Proč je důležité nikdy neopakovat použití nonce v algoritmu ECDSA?
+answer: Opakované použití nonce ohrožuje bezpečnost a může odhalit soukromý klíč.
+wrong_answers:
   - Opakované použití nonce zpomaluje výkon.
   - Opakované použití nonce prodlužuje podpisy.
   - Opakované použití nonce zvyšuje velikost veřejného klíče.
-vysvětlení: |
+explanation: |
   Opakované použití nonce v ECDSA může umožnit útočníkovi odhalit soukromý klíč, čímž ohrožuje bezpečnost.
 recenzováno: false

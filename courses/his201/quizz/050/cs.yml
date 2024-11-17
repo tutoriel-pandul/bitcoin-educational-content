@@ -1,9 +1,9 @@
-otázka: Kdo vytvořil platformu pro výměnu Mt. Gox dne 18. července 2010, týden po "velkém slashdottingu" Bitcoinu?
-odpověď: Jed McCaleb
-špatné_odpovědi:
+question: Kdo vytvořil platformu pro výměnu Mt. Gox dne 18. července 2010, týden po "velkém slashdottingu" Bitcoinu?
+answer: Jed McCaleb
+wrong_answers:
   - Mark Karpelès
   - Martti Malmi
   - Gavin Andresen
-vysvětlení: |
+explanation: |
   Tuto efektivní tržiště vytvořil "ze zvědavosti", když si uvědomil, jak obtížné bylo získat bitcoin výměnou za dolary (zejména na Bitcoin Market).
 recenzováno: false

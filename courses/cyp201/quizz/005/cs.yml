@@ -1,9 +1,9 @@
-otázka: Jakou velikost musí mít vstup funkce SHA256 po doplnění?
-odpověď: Násobek 512 bitů.
+question: Jakou velikost musí mít vstup funkce SHA256 po doplnění?
+answer: Násobek 512 bitů.
 nesprávné_odpovědi:
   - 256 bitů.
   - 256 bajtů.
   - Násobek 256 bitů.
-vysvětlení: |
+explanation: |
   Funkce SHA256 vyžaduje, aby vstup byl po doplnění násobkem 512 bitů, aby správně fungovala.
 recenzováno: false

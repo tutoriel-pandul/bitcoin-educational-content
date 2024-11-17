@@ -1,10 +1,10 @@
-otázka: Jak tento kurz popisuje Bitcoin?
-odpověď: Jako multidisciplinární předmět.
-špatné_odpovědi:
+question: Jak tento kurz popisuje Bitcoin?
+answer: Jako multidisciplinární předmět.
+wrong_answers:
   - Jednoduchý předmět.
   - Fyzický předmět.
   - Jednodisciplinární předmět.
-vysvětlení: |
+explanation: |
   Bitcoin je popsán jako multidisciplinární předmět, protože
   vyvolává otázky související s různými obory, včetně
   kryptografie, teorie her, ekonomie a měnové politiky,

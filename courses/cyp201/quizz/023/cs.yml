@@ -1,9 +1,9 @@
-otázka: Jaká je velikost nekomprimovaného veřejného klíče Bitcoinu včetně jeho prefixu?
-odpověď: 520 bitů.
-špatné_odpovědi:
+question: Jaká je velikost nekomprimovaného veřejného klíče Bitcoinu včetně jeho prefixu?
+answer: 520 bitů.
+wrong_answers:
   - 512 bajtů.
   - 256 bitů.
   - 512 bitů.
-vysvětlení: |
+explanation: |
   Nekomprimovaný veřejný klíč Bitcoinu s jeho prefixem je 520 bitů, což zahrnuje x a y souřadnice bodu na eliptické křivce.
 recenzováno: false

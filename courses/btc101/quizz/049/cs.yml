@@ -1,9 +1,9 @@
-otázka: Jaká je první fáze fenoménu hyperinflace?
-odpověď: Ztráta důvěry.
-špatné_odpovědi:
+question: Jaká je první fáze fenoménu hyperinflace?
+answer: Ztráta důvěry.
+wrong_answers:
   - Kolaps měny a růst cen.
   - Zlý kruh tisku peněz.
   - Vznik nové měny.
-vysvětlení: |
+explanation: |
   První fáze hyperinflace je ztráta důvěry v měnu.
 recenzováno: true

@@ -1,10 +1,10 @@
-otázka: Jaký je jeden z aspektů kybernetické bezpečnosti, který vyžaduje pravidelné sledování?
-odpověď: Neustálý vývoj hrozeb
-špatné_odpovědi:
+question: Jaký je jeden z aspektů kybernetické bezpečnosti, který vyžaduje pravidelné sledování?
+answer: Neustálý vývoj hrozeb
+wrong_answers:
   - Akciový trh
   - Počasí
   - Zprávy
-vysvětlení: |
+explanation: |
   Kapitola uvádí, že neustálý vývoj hrozeb
   v kybernetické bezpečnosti vyžaduje pravidelné sledování.
-posouzeno: true
+reviewed: true

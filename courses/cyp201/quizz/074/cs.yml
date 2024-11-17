@@ -1,8 +1,8 @@
-otázka: Jaká předpona nebo HRP odpovídá standardní adrese SegWit?
-odpověď: "bc"
+question: Jaká předpona nebo HRP odpovídá standardní adrese SegWit?
+answer: "bc"
 nesprávné_odpovědi:
   - "1"
   - "0x"
   - "btc"
-vysvětlení: |
+explanation: |
   Předpona "bc" se používá pro adresy SegWit na hlavní síti Bitcoinu.

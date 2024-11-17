@@ -1,13 +1,13 @@
-otázka: Jak se vypočítává entropie v kontextu analýzy řetězce na Bitcoinu?
+question: Jak se vypočítává entropie v kontextu analýzy řetězce na Bitcoinu?
 
-odpověď: Vzít binární logaritmus počtu interpretací.
+answer: Vzít binární logaritmus počtu interpretací.
 
-špatné_odpovědi:
+wrong_answers:
   - Vynásobením počtu vstupů počtem výstupů.
   - Přičtením počtu vstupů a výstupů.
   - Vzít binární logaritmus počtu vstupů a výstupů.
 
-vysvětlení: |
+explanation: |
   Entropie je definována jako binární logaritmus počtu možných kombinací.
 
-posouzeno: false
+reviewed: false

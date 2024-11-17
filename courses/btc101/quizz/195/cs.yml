@@ -1,11 +1,11 @@
-otázka: Které z následujících akcí mohou pomoci těm, kteří chtějí využívat Bitcoin v každodenním životě?
-odpověď: Mít seznam všech obchodníků, kteří přijímají Bitcoin.
-špatné_odpovědi:
+question: Které z následujících akcí mohou pomoci těm, kteří chtějí využívat Bitcoin v každodenním životě?
+answer: Mít seznam všech obchodníků, kteří přijímají Bitcoin.
+wrong_answers:
   - Zvýšit cenu Bitcoinu.
   - Snížit počet Bitcoinů.
   - Omezit používání Bitcoinu.
-vysvětlení: >-
+explanation: >-
   Jedním ze způsobů, jak usnadnit používání Bitcoinu v každodenních transakcích, je
   vytvořit seznam všech obchodníků, kteří Bitcoin přijímají. To lze provést prostřednictvím platforem
   jako je BTCMap.
-posouzeno: true
+reviewed: true

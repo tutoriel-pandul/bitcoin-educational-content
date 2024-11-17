@@ -1,9 +1,9 @@
-otázka: Co umožňuje revokační klíč udělat v případě podvodu?
-odpověď: Vrátit všechny prostředky tím, že podvodníka potrestá
-špatné_odpovědi:
+question: Co umožňuje revokační klíč udělat v případě podvodu?
+answer: Vrátit všechny prostředky tím, že podvodníka potrestá
+wrong_answers:
   - Zrušit transakci závazku
   - Zdvojnásobit kapacitu kanálu
   - Zabránit jakýmkoliv dalším transakcím v kanálu
-vysvětlení: |
+explanation: |
   Revokační klíč umožňuje poškozené straně získat zpět všechny prostředky v případě pokusu o podvod ze strany druhé strany.
 recenzováno: false

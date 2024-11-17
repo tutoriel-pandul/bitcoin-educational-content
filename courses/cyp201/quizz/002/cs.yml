@@ -1,9 +1,9 @@
-otázka: Jaké hašovací funkce se používají v protokolu Bitcoin?
-odpověď: SHA-256, RIPEMD-160
+question: Jaké hašovací funkce se používají v protokolu Bitcoin?
+answer: SHA-256, RIPEMD-160
 nesprávné_odpovědi:
   - MD5, SHA3-256
   - Keccak-256, SHA-512
   - SHA-1, Whirlpool
-vysvětlení: |
+explanation: |
   V Bitcoinu se používají SHA-256 a RIPEMD-160.
 recenzováno: false

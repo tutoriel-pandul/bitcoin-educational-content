@@ -1,9 +1,9 @@
-otázka: Co znamená absence mnemonické fráze v peněžence?
-odpověď: To znamená, že peněženka není bezpečná pro dlouhodobé uchovávání Bitcoinu.
-špatné_odpovědi:
+question: Co znamená absence mnemonické fráze v peněžence?
+answer: To znamená, že peněženka není bezpečná pro dlouhodobé uchovávání Bitcoinu.
+wrong_answers:
   - To znamená, že peněženka je plně bezpečná a nevyžaduje žádnou zálohu.
   - To znamená, že peněženka může držet mnoho různých dluhopisů.
   - Naznačuje to, že peněženka je automaticky zálohována vaším zařízením.
-vysvětlení: |
+explanation: |
   Absence seznamu 12 nebo 24 slov, což je mnemonická fráze, v peněžence by vás měla upozornit na to, že peněženka není bezpečná, protože nedodržuje standardní postupy zálohování.
 recenzováno: true

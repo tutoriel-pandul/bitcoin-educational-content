@@ -1,9 +1,9 @@
-otázka: Jak se počítá kontrolní součet Legacy adresy?
-odpověď: S HASH256.
-špatné_odpovědi:
+question: Jak se počítá kontrolní součet Legacy adresy?
+answer: S HASH256.
+wrong_answers:
   - S HASH160.
   - S BCH kódem.
   - S RIPEMD160.
-vysvětlení: |
+explanation: |
   U Legacy adres se kontrolní součet získá provedením dvojitého hashování funkcí SHA256 (HASH256).
 recenzováno: false

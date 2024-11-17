@@ -1,9 +1,9 @@
-otázka: Jaký je cíl používání digitálních podpisů v Bitcoinu?
-odpověď: Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní soukromý klíč, aniž by tento soukromý klíč odhalil.
-špatné_odpovědi:
+question: Jaký je cíl používání digitálních podpisů v Bitcoinu?
+answer: Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní soukromý klíč, aniž by tento soukromý klíč odhalil.
+wrong_answers:
   - Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní veřejný klíč, aniž by tento veřejný klíč odhalil.
   - Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní přijímací adresu, aniž by tuto přijímací adresu odhalil.
   - Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní peněženku.
-vysvětlení: |
+explanation: |
   Digitální podpisy v Bitcoinu umožňují dokázat, že uživatel vlastní soukromý klíč spojený s veřejným klíčem, aniž by tento soukromý klíč odhalil.
 recenzováno: false

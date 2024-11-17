@@ -1,9 +1,9 @@
-otázka: Z čeho se skládá payload rozšířeného klíče?
-odpověď: Veřejný nebo soukromý klíč a přidružený řetězový kód.
-špatné_odpovědi:
+question: Z čeho se skládá payload rozšířeného klíče?
+answer: Veřejný nebo soukromý klíč a přidružený řetězový kód.
+wrong_answers:
   - Soukromý klíč a přidružený veřejný klíč.
   - Řetězový kód, veřejný klíč a soukromý klíč.
   - Soukromý klíč a index derivace.
-vysvětlení: |
+explanation: |
   Payload rozšířeného klíče zahrnuje buď veřejný nebo soukromý klíč spolu s řetězovým kódem používaným pro derivaci dceřiných klíčů.
 recenzováno: false

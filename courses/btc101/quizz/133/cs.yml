@@ -1,9 +1,9 @@
-otázka: Jak těžaři ověřují transakce a zařazují je do bloku?
-odpověď: Prostřednictvím procesu Proof of work (Důkaz práce).
+question: Jak těžaři ověřují transakce a zařazují je do bloku?
+answer: Prostřednictvím procesu Proof of work (Důkaz práce).
 nesprávné_odpovědi:
   - Prostřednictvím procesu Proof of stake (Důkaz vlastnictví).
   - Prostřednictvím procesu Proof of authority (Důkaz autority).
   - Prostřednictvím procesu Proof of burn (Důkaz spálením).
-vysvětlení: >-
+explanation: >-
   Těžaři ověřují transakce a zařazují je do bloku prostřednictvím procesu nazývaného "proof of work" (Důkaz práce). To zahrnuje řešení kryptografické hádanky.
 recenzováno: true

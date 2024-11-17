@@ -1,9 +1,9 @@
-otázka: Při transakci s Bitcoinem, která technologie se obvykle používá k prokázání vlastnictví prostředků odemknutím skriptu?
-odpověď: Digitální podpisy
-špatné_odpovědi:
+question: Při transakci s Bitcoinem, která technologie se obvykle používá k prokázání vlastnictví prostředků odemknutím skriptu?
+answer: Digitální podpisy
+wrong_answers:
   - Digitální certifikáty
   - Symetrické šifrování
   - Kódy pro ověření zpráv (MAC)
-vysvětlení: |
+explanation: |
   Digitální podpisy v Bitcoinu dokazují vlastnictví prostředků podepsáním transakcí soukromým klíčem za účelem odemknutí skriptu, který zabezpečuje UTXO.
 recenzováno: false

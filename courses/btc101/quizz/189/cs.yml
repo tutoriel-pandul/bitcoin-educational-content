@@ -1,10 +1,10 @@
-otázka: Jak Bitcoin řeší problém byzantských generálů?
-odpověď: Prostřednictvím využití blockchainu založeného na Důkazu práce s pohyblivou obtížností.
-špatné_odpovědi:
+question: Jak Bitcoin řeší problém byzantských generálů?
+answer: Prostřednictvím využití blockchainu založeného na Důkazu práce s pohyblivou obtížností.
+wrong_answers:
   - Prostřednictvím využití digitálních podpisů.
   - Prostřednictvím využití veřejného účetního rejstříku.
   - Prostřednictvím využití algoritmu Důkazu vkladu.
-vysvětlení: >-
+explanation: >-
   Problém byzantských generálů je klasický problém v
 distribuovaném výpočtu, který zahrnuje dosažení konsenzu
 v síti, kde některé uzly mohou být chybné nebo

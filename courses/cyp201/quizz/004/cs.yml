@@ -1,8 +1,8 @@
-otázka: Co je v protokolu Bitcoinu HASH256?
-odpověď: Dvojitý SHA256 hash.
-špatné_odpovědi:
+question: Co je v protokolu Bitcoinu HASH256?
+answer: Dvojitý SHA256 hash.
+wrong_answers:
   - Dvojitý Keccak-256 hash.
   - SHA256 hash následovaný hashem RIPEMD160.
   - Jednoduchý SHA256 hash.
-vysvětlení: |
+explanation: |
   HASH256 je dvojitý SHA256 hash, což znamená, že funkce SHA256 je použita jednou na kus dat, a poté podruhé na výsledek prvního použití.

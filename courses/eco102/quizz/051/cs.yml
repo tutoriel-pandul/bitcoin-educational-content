@@ -1,9 +1,9 @@
-otázka: Jaký je hlavní argument těch, kteří věří, že destrukce vytváří bohatství?
-odpověď: Vytváří pracovní místa
-špatné_odpovědi:
+question: Jaký je hlavní argument těch, kteří věří, že destrukce vytváří bohatství?
+answer: Vytváří pracovní místa
+wrong_answers:
   - Podporuje inovace
   - Zvyšuje kupní sílu
   - Zlepšuje produktivitu
-vysvětlení: |
+explanation: |
   Zastánci tohoto názoru věří, že destrukce stimuluje zaměstnanost tím, že generuje práci pro ty, kteří provádějí opravy, perspektiva, kterou Bastiat vyvrací zdůrazněním nákladů příležitosti.
 recenzováno: false

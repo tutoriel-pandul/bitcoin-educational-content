@@ -1,9 +1,9 @@
-otázka: Jaká je hlavní myšlenka Margaret Thatcherové ohledně Lafferovy křivky?
-odpověď: Daně by měly být sníženy, aby se stimulovala ekonomika
-špatné_odpovědi:
+question: Jaká je hlavní myšlenka Margaret Thatcherové ohledně Lafferovy křivky?
+answer: Daně by měly být sníženy, aby se stimulovala ekonomika
+wrong_answers:
   - Daně bohatých by měly být zvýšeny
   - Vysoké daňové sazby by měly být udržovány pro financování veřejných služeb
   - Všechny daně by měly být udržovány
-vysvětlení: |
+explanation: |
   Margaret Thatcherová, inspirována Lafferovou křivkou, prosazovala snížení daní, aby se stimuloval hospodářský růst.
 recenzováno: false

@@ -1,10 +1,10 @@
-otázka: Jaká je klíčová otázka, kterou byste si měli položit při výběru Bitcoin peněženky, pokud jde o samostatnou správu?
-odpověď: Jste vlastníkem prostředků nebo necháváte kontrolu nad svými penězi třetí straně?
-špatné_odpovědi:
+question: Jaká je klíčová otázka, kterou byste si měli položit při výběru Bitcoin peněženky, pokud jde o samostatnou správu?
+answer: Jste vlastníkem prostředků nebo necháváte kontrolu nad svými penězi třetí straně?
+wrong_answers:
   - Je peněženka zabezpečena heslovou frází?
   - Umožňuje peněženka přijímat a odesílat bitcoiny?
   - Mohu sdílet svou peněženku s jinou osobou?
-vysvětlení: |
+explanation: |
   Při výběru Bitcoin peněženky je klíčovou otázkou:
   jste vlastníkem prostředků nebo necháváte kontrolu nad
   svými penězi třetí straně? To je proto, že držitel

@@ -1,8 +1,8 @@
-otázka: Jaká je role neredukovatelného polynomu v konečném tělese?
-odpověď: Definuje násobící operace v tělese
-špatné_odpovědi:
+question: Jaká je role neredukovatelného polynomu v konečném tělese?
+answer: Definuje násobící operace v tělese
+wrong_answers:
   - Definuje aditivní inverzi každého prvku
   - Zajistí uzavřenost tělesa
   - Určí multiplikativní identitu
-vysvětlení: |
+explanation: |
   Neredukovatelné polynomy se používají k strukturování násobení v konečných tělesech, čímž se zajišťuje, že každý prvek zůstane v tělese.

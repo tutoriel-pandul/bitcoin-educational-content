@@ -1,10 +1,10 @@
-otázka: Jaká je hlavní výhoda vlastnictví vlastního těžebního zařízení?
-odpověď: Získání nedotčených bitcoinů.
-špatné_odpovědi:
+question: Jaká je hlavní výhoda vlastnictví vlastního těžebního zařízení?
+answer: Získání nedotčených bitcoinů.
+wrong_answers:
   - Vyhnout se potřebě přímo kupovat Bitcoin.
   - Zisk z prodeje zařízení později.
   - Vyhnout se potřebě důvěřovat ostatním těžařům.
-vysvětlení: |
+explanation: |
   Vlastnictví vlastního těžebního zařízení nabízí značné
   výhody. Kromě osobní spokojenosti z aktivního přispívání
   k zabezpečení sítě Bitcoin a vidění odměn padajících do vaší peněženky,

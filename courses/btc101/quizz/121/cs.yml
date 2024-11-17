@@ -1,9 +1,9 @@
-otázka: Jaké procento času byla síť Bitcoin funkční od svého vzniku?
-odpověď: 99,988 %.
-špatné_odpovědi:
+question: Jaké procento času byla síť Bitcoin funkční od svého vzniku?
+answer: 99,988 %.
+wrong_answers:
   - 100 %.
   - 90,009 %.
   - 80,17 %.
-vysvětlení: |
+explanation: |
   Online dostupnost Bitcoinu je 99,988 % od roku 2009.
 recenzováno: true

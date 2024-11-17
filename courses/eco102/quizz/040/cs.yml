@@ -1,9 +1,9 @@
-otázka: Co je podle Bastiata protekcionismus?
-odpověď: Forma ekonomického nacionalismu zaměřená na omezení zahraniční konkurence
-špatné_odpovědi:
+question: Co je podle Bastiata protekcionismus?
+answer: Forma ekonomického nacionalismu zaměřená na omezení zahraniční konkurence
+wrong_answers:
   - Ekonomická politika zaměřená na podporu mezinárodního obchodu
   - Strategie pro zvýšení kupní síly spotřebitelů
   - Opatření na podporu malých místních podniků
-vysvětlení: |
+explanation: |
   Bastiat popisuje protekcionismus jako ekonomický nacionalismus, který se snaží chránit národní zájmy omezením zahraniční konkurence.
 recenzováno: false
