@@ -1,13 +1,13 @@
-質問: コインスワップで使用されるスマートコントラクトの2つの主要なバリアントは何ですか？
+question: コインスワップで使用されるスマートコントラクトの2つの主要なバリアントは何ですか？
 
-回答: HTLCとPTLC
+answer: HTLCとPTLC
 
-誤った回答:
+wrong_answers:
   - マルチシグネチャとシングルシグネチャ
   - スマートコントラクトとDApps
   - SegWitとTaproot
 
-説明: |
+explanation: |
   コインスワップを実行するためには、HTLC（Hash Time-Locked Contracts）またはPTLC（Point Time-Locked Contracts）を使用できます。
 
 レビュー済み: false

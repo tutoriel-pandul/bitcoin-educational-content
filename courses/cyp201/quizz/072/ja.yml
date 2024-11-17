@@ -1,8 +1,8 @@
-質問: アドレスを生成するために使用される関数は何ですか？
-回答: HASH160。
-誤った回答:
+question: アドレスを生成するために使用される関数は何ですか？
+answer: HASH160。
+wrong_answers:
   - HASH256。
   - HASH512。
   - SHA256。
-説明: |
+explanation: |
   HASH160関数は、SHA256とRIPEMD-160を組み合わせたもので、公開鍵からBitcoinアドレスを生成するために使用されます。

@@ -1,8 +1,8 @@
-質問: 2010年12月にBitcoin.it wikiを作成したのは誰ですか？
-回答: Mark Karpelès (MagicalTux)
-誤った回答:
+question: 2010年12月にBitcoin.it wikiを作成したのは誰ですか？
+answer: Mark Karpelès (MagicalTux)
+wrong_answers:
   - Michael Marquardt (Theymos)
   - Martti Malmi (sirius-m)
   - Amir Taaki (genjix)
-説明: |
+explanation: |
   このアイデアは「より非公式でコミュニティに焦点を当てたwikiを開発する」というものでした。

@@ -1,8 +1,8 @@
-質問: SegWit標準アドレスに対応するプレフィックスまたはHRPは何ですか？
-回答: "bc"
-誤った回答:
+question: SegWit標準アドレスに対応するプレフィックスまたはHRPは何ですか？
+answer: "bc"
+wrong_answers:
   - "1"
   - "0x"
   - "btc"
-説明: |
+explanation: |
   プレフィックス"bc"は、Bitcoinメインネット上のSegWitアドレスに使用されます。
