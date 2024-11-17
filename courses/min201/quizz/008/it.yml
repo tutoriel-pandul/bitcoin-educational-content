@@ -1,0 +1,13 @@
+domanda: Qual è il principale vantaggio degli ASIC nel contesto del mining di Bitcoin?
+risposta: Possono eseguire un tipo specifico di calcolo molto efficientemente
+risposte_errate:
+  - Possono eseguire una moltitudine di tipi diversi di calcoli
+  - Consumano meno elettricità rispetto ai CPU
+  - Sono più economici dei CPU
+spiegazione: |
+  Gli ASIC sono chip, paragonabili a un chip CPU, tuttavia,
+  sono sviluppati per eseguire solo un tipo specifico di
+  calcolo nel modo più efficiente possibile. Nel caso
+  degli ASIC per Bitcoin, sono progettati per il calcolo
+  dell'algoritmo SHA256.
+revisionato: vero

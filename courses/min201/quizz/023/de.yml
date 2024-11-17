@@ -1,0 +1,10 @@
+Frage: Wie viele Bitcoins können maximal erstellt werden?
+Antwort: etwa 21 Millionen Einheiten
+falsche_Antworten:
+  - mehr oder weniger 18 Millionen Einheiten
+  - etwa 25 Millionen Einheiten
+  - etwa 30 Millionen Einheiten
+Erklärung: |
+  Die Erstellung von Bitcoin ist durch eine feste Obergrenze von
+  21 Millionen Einheiten gekennzeichnet.
+überprüft: true

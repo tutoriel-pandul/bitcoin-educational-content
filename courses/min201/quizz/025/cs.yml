@@ -1,0 +1,9 @@
+otázka: Jak se často označuje základní vrstva sítě Bitcoin?
+odpověď: Vyrovnávací vrstva
+špatné_odpovědi:
+  - Transakční vrstva
+  - Bezpečnostní vrstva
+  - Konsenzuální vrstva
+vysvětlení: |
+  Základní vrstva sítě Bitcoin, na které síť Lightning spoléhá pro otevírání a zavírání platebních kanálů, se často označuje jako "vyrovnávací vrstva".
+recenzováno: true

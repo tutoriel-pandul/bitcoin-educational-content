@@ -1,0 +1,11 @@
+pergunta: Qual é a camada base da rede Bitcoin frequentemente chamada?
+resposta: A camada de liquidação
+respostas_erradas:
+  - A camada de transação
+  - A camada de segurança
+  - A camada de consenso
+explicação: |
+  A camada base da rede Bitcoin, na qual a Lightning
+  Network depende para abrir e fechar canais de pagamento,
+  é frequentemente referida como a "camada de liquidação".
+revisado: true

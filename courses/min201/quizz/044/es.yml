@@ -1,0 +1,13 @@
+pregunta: ¿Qué son los "virgin bitcoins"?
+respuesta: Bitcoins recién minados que nunca han sido gastados y no tienen historial asociado.
+respuestas_incorrectas:
+  - Bitcoins que han sido utilizados en actividades ilegales.
+  - Bitcoins que han sido perdidos o olvidados.
+  - Bitcoins que han sido almacenados en una cartera durante mucho tiempo.
+explicación: |
+  Los virgin bitcoins son bitcoins recién minados que nunca
+  han sido gastados y no tienen historial asociado. Estos
+  bitcoins a menudo se consideran más valiosos porque nunca
+  han sido contaminados, proporcionando cierta garantía contra
+  el rechazo por parte de reguladores o plataformas de intercambio importantes.
+revisado: true

@@ -1,0 +1,13 @@
+Frage: Was ist die Beziehung zwischen den Produktionskosten von Bitcoin und seinem Marktpreis?
+Antwort: Die Kosten von Bitcoin könnten im Allgemeinen proportional zu seinem Preis sein.
+falsche_Antworten:
+  - Die Kosten von Bitcoin sind umgekehrt proportional zu seinem Preis
+  - Die Kosten von Bitcoin sind fest, innerhalb eines bestimmten Verhältnisses, zu seinem Preis
+  - Die Kosten von Bitcoin sind immer höher als sein Preis
+Erklärung: |
+  Die Kosten von Bitcoin, die mit dem Strombedarf
+  zum Betreiben von Mining-Maschinen zusammenhängen, können im Allgemeinen
+  proportional zu seinem Preis sein. Diese Beziehung bietet ein
+  besseres Verständnis für Preisschwankungen und zukünftige
+  Aussichten.
+überprüft: true

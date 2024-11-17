@@ -1,0 +1,12 @@
+Frage: Was ist die potenzielle Bedrohung von Proof of Stake im Bitcoin-Netzwerk?
+Antwort: Diejenigen, die bereits eine große Menge der Währung besitzen, haben unverhältnismäßig viel Macht, was bestehende Machtungleichheiten widerspiegelt.
+falsche_Antworten:
+  - Es würde eine signifikante Barriere für Validatoren darstellen, die eine große Menge Währung halten.
+  - Es erlaubt keine Beteiligung im kleinen Maßstab.
+  - Es erfordert keine greifbaren Ressourcen.
+Erklärung: |
+  In einem Proof of Stake-Netzwerk haben diejenigen, die bereits eine große
+  Menge der Währung besitzen, unverhältnismäßig viel Macht. Diese
+  Dynamik könnte potenziell die Zentralisierung und
+  Machtkonzentration in den Händen weniger weiterführen.
+überprüft: true

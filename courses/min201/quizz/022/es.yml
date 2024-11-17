@@ -1,0 +1,11 @@
+pregunta: ¿En qué confiarán los mineros para obtener compensación después de que se hayan creado los 21 millones de bitcoins?
+respuesta: Los mineros confiarán únicamente en las tarifas de transacción para obtener compensación.
+respuestas_incorrectas:
+  - Los mineros confiarán únicamente en las recompensas de bloque para obtener compensación.
+  - Los mineros confiarán únicamente en las confirmaciones de transacción para obtener compensación.
+  - Los mineros confiarán únicamente en las tarifas de red para obtener compensación.
+explicación: |
+  Para 2140, no se crearán nuevos bitcoins. En este punto,
+  los mineros confiarán únicamente en las tarifas de transacción para
+  obtener compensación.
+revisado: true

@@ -1,0 +1,12 @@
+küsimus: Mis on sõlmede roll Bitcoin'i võrgustikus?
+vastus: Sõlmed hoiavad terviklikkust, kontrollides ja kinnitades tehinguid ning plokke.
+valed_vastused:
+  - Sõlmed loovad ja kinnitavad plokke.
+  - Sõlmed kontrollivad ainult tehinguid.
+  - Sõlmedel ei ole Bitcoin'i võrgustikus mingit rolli.
+selgitus: |
+  Bitcoin'i võrgustikus hoiavad sõlmed võrgu terviklikkust,
+  kontrollides ja kinnitades tehinguid ning plokke. Vale või
+  petturlik plokk lükatakse sõlmede poolt tagasi, säilitades
+  võrgu turvalisuse.
+üle vaadatud: true

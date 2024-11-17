@@ -1,0 +1,12 @@
+domanda: Qual è il significato della Lightning Network nel contesto del mining di Bitcoin?
+risposta: La Lightning Network ha il potenziale di ridurre significativamente le commissioni sulle transazioni, influenzando così il reddito dei minatori.
+risposte_errate:
+  - La Lightning Network aumenta la dimensione del blocco, aumentando così il reddito dei minatori.
+  - La Lightning Network riduce il consumo energetico del mining di Bitcoin.
+  - La Lightning Network aumenta la velocità del mining di Bitcoin.
+spiegazione: |
+  La Lightning Network permette transazioni rapide e a basso costo
+  al di fuori della catena principale di Bitcoin. Questo ha
+  il potenziale di ridurre significativamente le commissioni sulle transazioni,
+  il che potrebbe influenzare il reddito dei minatori.
+revisionato: true

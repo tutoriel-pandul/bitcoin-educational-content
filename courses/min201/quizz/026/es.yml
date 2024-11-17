@@ -1,0 +1,12 @@
+pregunta: ¿Cuál es el papel de los nodos en la red de Bitcoin?
+respuesta: Los nodos mantienen la integridad verificando y validando transacciones y bloques.
+respuestas_incorrectas:
+  - Los nodos crean y validan bloques.
+  - Los nodos solo verifican transacciones.
+  - Los nodos no tienen ningún papel en la red de Bitcoin.
+explicación: |
+  En la red de Bitcoin, los nodos mantienen la integridad de la
+  red verificando y validando transacciones y
+  bloques. Un bloque incorrecto o fraudulento será rechazado
+  por los nodos, preservando la seguridad de la red.
+revisado: true

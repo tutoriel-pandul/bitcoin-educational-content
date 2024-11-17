@@ -1,0 +1,13 @@
+Frage: Was ist die Rolle von Knoten im Bitcoin-Netzwerk?
+Antwort: Knoten erhalten die Integrität, indem sie Transaktionen und Blöcke verifizieren und validieren.
+falsche_Antworten:
+  - Knoten erstellen und validieren Blöcke.
+  - Knoten verifizieren nur Transaktionen.
+  - Knoten haben keine Rolle im Bitcoin-Netzwerk.
+Erklärung: |
+  Im Bitcoin-Netzwerk erhalten Knoten die Integrität des
+  Netzwerks, indem sie Transaktionen und Blöcke verifizieren
+  und validieren. Ein inkorrekter oder betrügerischer Block
+  wird von den Knoten abgelehnt, was die Sicherheit des
+  Netzwerks bewahrt.
+überprüft: true

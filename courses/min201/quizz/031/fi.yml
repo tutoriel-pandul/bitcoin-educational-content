@@ -1,0 +1,10 @@
+kysymys: Mikä on Bitcoinin perustehtävä?
+vastaus: Olla sensuurinkestävä arvonvaihdon verkosto.
+väärät_vastaukset:
+  - Korvata perinteiset valuutat.
+  - Tehdä transaktioista anonyymejä.
+  - Luoda uusi sijoitusmuoto.
+selitys: |
+  Bitcoinin perustehtävä on olla sensuurinkestävä arvonvaihdon verkosto. Bitcoin-yhteisö pyrkii jatkuvasti vahvistamaan
+  jakelua, sensuurinkestävyyttä ja verkon anti-haurautta.
+arvioitu: true

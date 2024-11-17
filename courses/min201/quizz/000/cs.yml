@@ -1,0 +1,9 @@
+otázka: Jaká je současná odměna za těžbu v síti Bitcoin?
+odpověď: Vytvoření nových bitcoinů a transakční poplatky
+špatné_odpovědi:
+  - Vytvoření nových bitcoinů pouze
+  - Pouze transakční poplatky
+  - Vytvoření nových bitcoinů, transakční poplatky a bonus pro nejrychlejšího těžaře
+vysvětlení: |
+  Současná odměna za těžbu v síti Bitcoin je dvojí. Zahrnuje vytvoření nových bitcoinů, které se snížilo z původních 50 bitcoinů každých deset minut na dnešních 6.25 bitcoinů (2023). Zahrnuje také transakční poplatky, neboli poplatky za těžbu, z transakcí, které si těžař rozhodne zahrnout do svého bloku.
+recenzováno: true

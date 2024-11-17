@@ -1,0 +1,9 @@
+otázka: Jaké je potenciální riziko Proof of Stake v síti Bitcoin?
+odpověď: Ti, kteří již drží velké množství měny, mají nepřiměřenou moc, což odráží stávající nerovnosti v mocenském rozložení.
+špatné_odpovědi:
+  - Představovalo by to významnou bariéru pro validátory držící velké množství měny.
+  - Neumožňuje účast na malé škále.
+  - Nevyžaduje hmatatelné zdroje.
+vysvětlení: |
+  V síti Proof of Stake mají ti, kteří již drží velké množství měny, nepřiměřenou moc. Tato dynamika by potenciálně mohla udržovat centralizaci a koncentraci moci v rukou několika málo.
+recenzováno: true

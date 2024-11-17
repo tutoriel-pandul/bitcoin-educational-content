@@ -1,0 +1,11 @@
+pergunta: Qual é o principal desafio associado à mineração de Bitcoin?
+resposta: A indústria de mineração é extremamente competitiva e volátil, e incidentes imprevistos podem interromper as operações de mineração.
+respostas_erradas:
+  - O principal desafio é encontrar uma fonte confiável de eletricidade.
+  - O principal desafio é encontrar um lugar seguro para armazenar os bitcoins minerados.
+  - O principal desafio é encontrar um comprador para os bitcoins minerados.
+explicação: |
+  O principal desafio associado à mineração de Bitcoin é que
+  a indústria de mineração é extremamente competitiva e volátil,
+  e incidentes imprevistos podem interromper as operações de mineração.
+revisado: true

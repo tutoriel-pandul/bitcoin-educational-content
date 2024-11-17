@@ -1,0 +1,9 @@
+kysymys: Mikä on Attakai-aloite Bitcoin-louhinnan kontekstissa?
+vastaus: Aloitteella pyritään tekemään louhinnasta helpommin saavutettavaa ja vähemmän haitallista samalla kun edistetään verkon toimintaa.
+väärät_vastaukset:
+  - Aloitteella pyritään nostamaan Bitcoinin hintaa
+  - Aloitteella pyritään vähentämään verkon hashratea
+  - Aloitteella pyritään keskittämään laskentatehoa
+selitys: |
+  Attakai-aloitteella pyritään tekemään Bitcoin-louhinnasta helpommin saavutettavaa ja vähemmän haitallista. Se kannustaa ihmisiä louhimaan kotona edullisemmalla laitteistolla ja tarjoamaan ratkaisuja melusaasteen vähentämiseksi. Aloitteessa korostetaan myös Bitcoin-verkon turvallisuuden ja hajautuksen edistämisen tärkeyttä.
+arvioitu: true

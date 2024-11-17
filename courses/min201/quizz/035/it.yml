@@ -1,0 +1,11 @@
+domanda: Cosa misura l'hashrate nella rete Bitcoin?
+risposta: Le calcolazioni al secondo
+risposte_errate:
+  - Il numero di transazioni al secondo
+  - Il numero di nodi attivi
+  - La quantità di elettricità consumata dalla rete
+spiegazione: |
+  L'hashrate nella rete Bitcoin misura il numero di
+  calcolazioni che possono essere eseguite al secondo. È un indicatore
+  chiave della salute e della sicurezza della rete.
+revisionato: true

@@ -1,0 +1,11 @@
+pergunta: O que a mineração estabelece para o Bitcoin?
+resposta: Um preço mínimo
+respostas_erradas:
+  - Um preço máximo
+  - Um preço fixo
+  - Um preço variável
+explicação: |
+  A mineração estabelece um preço mínimo para o Bitcoin, abaixo do qual
+  os mineradores venderiam com prejuízo. O custo da mineração
+  influencia significativamente o preço do Bitcoin.
+revisado: true

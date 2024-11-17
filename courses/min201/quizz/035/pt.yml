@@ -1,0 +1,11 @@
+pergunta: O que o hashrate mede na rede Bitcoin?
+resposta: Os cálculos por segundo
+respostas_erradas:
+  - O número de transações por segundo
+  - O número de nós ativos
+  - A quantidade de eletricidade consumida pela rede
+explicação: |
+  O hashrate na rede Bitcoin mede o número de
+  cálculos que podem ser realizados por segundo. É um indicador chave
+  da saúde e segurança da rede.
+revisado: true

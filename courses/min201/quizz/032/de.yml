@@ -1,0 +1,10 @@
+Frage: Was ist die Belohnung für Miner im Bitcoin-Netzwerk?
+Antwort: Neue Bitcoins und Transaktionsgebühren.
+falsche_Antworten:
+  - Nur neue Bitcoins.
+  - Nur Transaktionsgebühren.
+  - Es gibt keine Belohnung für Miner.
+Erklärung: |
+  Miner im Bitcoin-Netzwerk werden für ihre Arbeit bei der Validierung
+  und Erstellung von Blöcken mit neuen Bitcoins und Transaktionsgebühren belohnt.
+überprüft: true

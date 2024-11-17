@@ -1,0 +1,12 @@
+kysymys: Mikä on louhijoiden rooli Bitcoin-verkossa?
+vastaus: Louhijat ovat keskeisessä asemassa vahvistaessaan ja luodessaan lohkoja.
+väärät_vastaukset:
+  - Louhijat vahvistavat vain siirtoja.
+  - Louhijat hallitsevat Bitcoinin hintaa.
+  - Louhijoilla ei ole mitään roolia Bitcoin-verkossa.
+selitys: |
+  Louhijat ovat keskeisessä asemassa Bitcoin-verkossa
+  vahvistaessaan ja luodessaan lohkoja. He vahvistavat verkkoa
+  sensuuria vastaan käyttämällä sähköä Bitcoinin työtodistuksen
+  laskemiseen.
+arvioitu: true

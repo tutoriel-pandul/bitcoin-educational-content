@@ -1,0 +1,12 @@
+domanda: Qual è l'obiettivo della comunità Bitcoin in termini di gestione della rete?
+risposta: Rafforzare la distribuzione, la resistenza alla censura e l'antifragilità della rete.
+risposte_errate:
+  - Aumentare il prezzo del Bitcoin.
+  - Rendere le transazioni più veloci.
+  - Aumentare la difficoltà del mining.
+spiegazione: |
+  La comunità Bitcoin si impegna costantemente per rafforzare
+  la distribuzione, la resistenza alla censura e l'antifragilità
+  della rete. Questo è in linea con la missione fondamentale di Bitcoin
+  di essere una rete di scambio di valore resistente alla censura.
+revisionato: vero

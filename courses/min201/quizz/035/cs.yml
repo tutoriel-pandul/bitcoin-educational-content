@@ -1,0 +1,9 @@
+otázka: Co měří hashrate v síti Bitcoin?
+odpověď: Počet výpočtů za sekundu
+špatné_odpovědi:
+  - Počet transakcí za sekundu
+  - Počet aktivních uzlů
+  - Množství elektrické energie spotřebované sítí
+vysvětlení: |
+  Hashrate v síti Bitcoin měří počet výpočtů, které lze provést za sekundu. Je to klíčový ukazatel zdraví a bezpečnosti sítě.
+recenzováno: true

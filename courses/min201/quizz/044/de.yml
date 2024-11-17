@@ -1,0 +1,13 @@
+Frage: Was sind "virgin bitcoins"?
+Antwort: Frisch geschürfte Bitcoins, die noch nie ausgegeben wurden und keine Historie aufweisen.
+falsche_Antworten:
+  - Bitcoins, die in illegalen Aktivitäten verwendet wurden.
+  - Bitcoins, die verloren gegangen oder vergessen wurden.
+  - Bitcoins, die lange Zeit in einer Wallet gespeichert wurden.
+Erklärung: |
+  Virgin bitcoins sind frisch geschürfte Bitcoins, die noch
+  nie ausgegeben wurden und keine Historie aufweisen. Diese
+  Bitcoins werden oft als wertvoller betrachtet, da sie nie
+  verunreinigt wurden, was eine gewisse Garantie gegen
+  Ablehnung durch Regulierungsbehörden oder große Handelsplattformen bietet.
+überprüft: true

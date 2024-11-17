@@ -1,0 +1,9 @@
+domanda: Come si chiama l'evento in cui la ricompensa per il mining delle transazioni Bitcoin viene dimezzata?
+risposta: Halving
+risposte_errate:
+  - Raddoppio
+  - Quarto
+  - Triplicazione
+spiegazione: |
+  La riduzione programmata delle ricompense di mining, che avviene ogni quattro anni, è un evento noto come "halving".
+revisionato: vero

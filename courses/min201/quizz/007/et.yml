@@ -1,0 +1,9 @@
+küsimus: Mis juhtub Bitcoin võrgu kaevandamise tasuga umbes iga nelja aasta tagant?
+vastus: See väheneb poole võrra
+vale_vastused:
+  - See kahekordistub
+  - See kolmekordistub
+  - See jääb samaks
+selgitus: |
+  Bitcoin võrgu kaevandamise tasu väheneb poole võrra iga 210,000 ploki järel, mis toimub umbes iga nelja aasta tagant. See tasu toimib võimsa stiimulina, et julgustada kaevureid osalema kaevandamisprotsessis hoolimata selle energiakulust.
+üle vaadatud: true
