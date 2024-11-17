@@ -1,6 +1,6 @@
 question:对于现代加密技术，什么密钥大小被认为能够抵御暴力破解攻击？
 answer:128位
-错误answer:
+wrong_answers:
   - 16位
   - 64位
   - 100位

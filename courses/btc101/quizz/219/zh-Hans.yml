@@ -1,6 +1,6 @@
 question:文本对比特币的未来有何暗示？
 answer:它不会消失
-错误answer:
+wrong_answers:
   - 它将被更好的技术所取代
   - 它将被全球禁止
   - 它将失去其价值

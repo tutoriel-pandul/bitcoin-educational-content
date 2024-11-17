@@ -1,6 +1,6 @@
 question:在他的著作中，中本聪明确提到了哪一种私人货币系统？
 answer:Liberty Reserve
-错误answer:
+wrong_answers:
   - e-gold
   - The Liberty Dollar
   - e-Bullion

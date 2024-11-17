@@ -1,6 +1,6 @@
 question:是谁提出建立一个测试网络以避免损害主要的比特币网络？
 answer:Gavin Andresen
-错误answer:
+wrong_answers:
   - Satoshi Nakamoto
   - Martti Malmi
   - Laszlo Hanyecz

@@ -1,6 +1,6 @@
 question:2014年3月，一位来自圣殿城的电信工程师被《新闻周刊》的一名记者错误地认定为中本聪，他的名字是什么？
 answer:Dorian
-错误answer:
+wrong_answers:
   - Prentice
   - Satoshi
   - Patoshi

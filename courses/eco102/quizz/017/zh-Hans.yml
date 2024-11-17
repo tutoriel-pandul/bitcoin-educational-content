@@ -1,6 +1,6 @@
 question:对于巴斯夏，什么是政治经济学？
 answer:交换理论
-错误answer:
+wrong_answers:
   - 价值理论
   - 财富理论
   - 购买力理论

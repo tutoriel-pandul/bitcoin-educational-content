@@ -1,6 +1,6 @@
 question:闪电网络中使用的比特币单位是什么？
 answer:Sats
-错误answer:
+wrong_answers:
   - 比特币
   - 以太坊
   - 莱特币

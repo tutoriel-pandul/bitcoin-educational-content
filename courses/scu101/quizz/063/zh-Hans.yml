@@ -1,6 +1,6 @@
 question:在网络安全中使用的密码学有哪些方面？
 answer:SSL/TLS、对称/非对称加密
-错误answer:
+wrong_answers:
   - RSA、DSA、ECC
   - AES、DES、3DES
   - MD5、SHA-1、SHA-256

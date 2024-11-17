@@ -1,6 +1,6 @@
 question:津巴布韦采取了什么措施来对抗通货膨胀？
 answer:美元化
-错误answer:
+wrong_answers:
   - 增加货币发行
   - 推出新货币
   - 减少货币供应量

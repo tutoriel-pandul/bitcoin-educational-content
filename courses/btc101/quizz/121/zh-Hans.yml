@@ -1,6 +1,6 @@
 question:比特币的在线可用性是多少？
 answer:99.988%
-错误answer:
+wrong_answers:
   - 100%
   - 90.009%
   - 80.17%

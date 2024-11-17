@@ -1,6 +1,6 @@
 question:抽象代数的基础是什么类型的代数结构？
 answer:群
-错误answer:
+wrong_answers:
   - 域
   - 环
   - 矩阵

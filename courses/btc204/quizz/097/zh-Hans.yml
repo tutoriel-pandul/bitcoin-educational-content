@@ -2,7 +2,7 @@ question:大型匿名集合（anonset）对一个UTXO的隐私意味着什么？
 
 answer:隐私性提高。
 
-错误answer:
+wrong_answers:
   - 隐私性降低。
   - 可追踪性提高。
   - CoinJoin交易速度变快。

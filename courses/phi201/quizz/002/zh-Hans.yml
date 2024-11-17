@@ -1,6 +1,6 @@
 question:自由包含什么？
 answer:所有其他答案
-错误answer:
+wrong_answers:
   - 用属于自己的东西做自己想做的事的能力
   - 外部约束的缺乏
   - 独立思考和行动的能力

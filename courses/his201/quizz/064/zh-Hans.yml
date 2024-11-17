@@ -1,6 +1,6 @@
 question:谁是第一篇用法语介绍比特币的文章的作者？
 answer:Lucien Grondin (grondilu)
-错误answer:
+wrong_answers:
   - Lionel Dricot (Ploum)
   - Amaury Séchet (deadalnix)
   - David François (davout)

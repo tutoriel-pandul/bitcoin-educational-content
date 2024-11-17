@@ -1,6 +1,6 @@
 question:根据卢梭的观点，限制个体的目的是什么？
 answer:引导他们走向自由
-错误answer:
+wrong_answers:
   - 奴役他们
   - 使他们平等
   - 在奴役中统一他们

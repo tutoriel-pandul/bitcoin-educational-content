@@ -1,6 +1,6 @@
 question:恢复短语或助记词短语（12/24个词）的概念是在哪个BIP中提出的？
 answer:BIP39。
-错误answer:
+wrong_answers:
   - BIP16。
   - BIP32。
   - BIP44。

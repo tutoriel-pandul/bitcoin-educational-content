@@ -1,6 +1,6 @@
 question:Windows中内置的杀毒软件是什么？
 answer:Windows Defender
-错误answer:
+wrong_answers:
   - 卡巴斯基
   - 诺顿
   - 麦咖啡

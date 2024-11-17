@@ -1,6 +1,6 @@
 question:非对称加密技术是在哪一年正式被发现的？
 answer:1976
-错误answer:
+wrong_answers:
   - 1676
   - 1776
   - 1876

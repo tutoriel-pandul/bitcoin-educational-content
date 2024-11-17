@@ -1,6 +1,6 @@
 question:什么类型的加密是移位加密？
 answer:单字母替换密码
-错误answer:
+wrong_answers:
   - 一个单词置换密码
   - 一个多字母替换密码
   - 一个非对称密码

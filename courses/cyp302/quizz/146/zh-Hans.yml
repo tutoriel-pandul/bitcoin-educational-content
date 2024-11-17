@@ -1,6 +1,6 @@
 question:整数a要有模N的逆元的条件是什么？
 answer:a和N必须互质
-错误answer:
+wrong_answers:
   - N必须是偶数
   - a必须是奇数
   - a必须是一个质数

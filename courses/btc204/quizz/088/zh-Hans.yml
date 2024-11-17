@@ -2,7 +2,7 @@ question:Wabisabi采用什么策略来增加参与者的匿名集？
 
 answer:通过几个非常大的交易。
 
-错误answer:
+wrong_answers:
   - 通过许多非常小的交易。
   - 通过一个小交易。
   - 不通过任何交易。

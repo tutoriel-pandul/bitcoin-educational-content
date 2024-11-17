@@ -1,6 +1,6 @@
 question:在加密系统中最著名的椭圆曲线是什么？
 answer:secp256r1。
-错误answer:
+wrong_answers:
   - secp256k1。
   - secp256r1。
   - ed25519。

@@ -1,6 +1,6 @@
 question:以下哪项不是货币的三个基本功能之一？
 answer:能量来源
-错误answer:
+wrong_answers:
   - 价值储存
   - 交易媒介
   - 计价单位

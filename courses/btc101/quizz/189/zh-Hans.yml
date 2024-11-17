@@ -1,6 +1,6 @@
 question:自2021年以来，哪个国家将比特币定为法定货币？
 answer:萨尔瓦多
-错误answer:
+wrong_answers:
   - 法国
   - 美国
   - 中国

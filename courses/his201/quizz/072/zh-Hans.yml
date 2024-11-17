@@ -1,6 +1,6 @@
 question:当中本聪离开时，他将软件开发的责任交给了谁？
 answer:Gavin Andresen
-错误answer:
+wrong_answers:
   - Martti Malmi
   - Jeff Garzik
   - Mike Hearn

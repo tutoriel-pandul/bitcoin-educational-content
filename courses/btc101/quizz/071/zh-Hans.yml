@@ -1,6 +1,6 @@
 question:第七次减半将在哪一年发生？
 answer:2036
-错误answer:
+wrong_answers:
   - 2032
   - 2028
   - 2048

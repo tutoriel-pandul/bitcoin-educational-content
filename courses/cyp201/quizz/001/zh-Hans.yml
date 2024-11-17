@@ -1,6 +1,6 @@
 question:SHA256哈希函数的输出大小是多少？
 answer:256位。
-错误answer:
+wrong_answers:
   - 256字节。
   - 512位。
   - 512字节。

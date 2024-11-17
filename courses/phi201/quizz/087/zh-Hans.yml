@@ -1,6 +1,6 @@
 question:根据康斯坦特的观点，政治权力没有影响力的领域有哪些？
 answer:上述所有领域（宗教、科学、工业）。
-错误answer:
+wrong_answers:
   - 宗教
   - 科学
   - 工业

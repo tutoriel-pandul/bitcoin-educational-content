@@ -1,6 +1,6 @@
 question:如果一笔交易有2个UTXO作为输入，每个UTXO为5,000 sats，以及3个UTXO作为输出，每个UTXO为3,000 sats，那么这笔交易的手续费是多少？
 answer:1,000 sats
-错误answer:
+wrong_answers:
   - 1,500 sats
   - 2,500 sats
   - 3,000 sats

@@ -2,7 +2,7 @@ question:在比特币核心配置文件中，哪个选项允许启用或禁用P2
 
 answer:v2transport=
 
-错误answer:
+wrong_answers:
   - p2penable=
   - networkv2=
   - enablev2=

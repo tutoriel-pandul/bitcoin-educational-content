@@ -2,7 +2,7 @@ question:哪种启发式方法可以用来链接一次整合的所有输入？
 
 answer:CIOH。
 
-错误answer:
+wrong_answers:
   - 地址重用。
   - 最大输出。
   - 固定支付。

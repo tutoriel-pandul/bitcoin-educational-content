@@ -1,6 +1,6 @@
 question:谁在2010年2月设计了第一个真正的比特币标志（一个被两条垂直线条穿过的金色大写字母B）？
 answer:中本聪
-错误answer:
+wrong_answers:
   - NewLibertyStandard
   - Martti Malmi
   - bitboy

@@ -1,6 +1,6 @@
 question:黑客的首要攻击途径是什么？
 answer:电子邮件
-错误answer:
+wrong_answers:
   - 社交媒体
   - 在线购物网站
   - 银行网站

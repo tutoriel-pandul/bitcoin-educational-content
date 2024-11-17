@@ -1,6 +1,6 @@
 question:什么数学概念依赖于人类的理性，并且被用于比特币中？
 answer:博弈论
-错误answer:
+wrong_answers:
   - 概率论
   - 数论
   - 集合论

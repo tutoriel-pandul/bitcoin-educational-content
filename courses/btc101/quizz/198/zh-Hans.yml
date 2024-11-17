@@ -1,6 +1,6 @@
 question:在购买比特币之前你应该拥有什么？
 answer:一个安全的钱包。
-错误answer:
+wrong_answers:
   - 一个实体保险箱。
   - 一个银行账户。
   - 一张信用卡。

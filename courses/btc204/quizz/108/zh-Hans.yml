@@ -2,7 +2,7 @@ question:支付加密交易使用哪种链上启发式分析作为欺骗分析�
 
 answer:CIOH
 
-错误answer:
+wrong_answers:
   - 地址重用
   - 钱包指纹识别
   - 版本重用

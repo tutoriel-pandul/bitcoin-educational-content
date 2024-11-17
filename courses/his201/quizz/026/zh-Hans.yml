@@ -1,6 +1,6 @@
 question:2008年10月31日，比特币设计中缺少了哪个元素？
 answer:单位的有限数量
-错误answer:
+wrong_answers:
   - 工作量证明
   - 简化支付验证
   - 区块链

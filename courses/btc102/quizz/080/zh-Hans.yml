@@ -1,6 +1,6 @@
 question:总共有多少比特币？
 answer:2100万
-错误answer:
+wrong_answers:
   - 210亿
   - 21000
   - 21万亿

@@ -1,6 +1,6 @@
 question:AES加密的哪个阶段使用了伽罗瓦域？
 answer:在字节替换和MixColumns操作中
-错误answer:
+wrong_answers:
   - 在生成私钥时
   - 当将文本分割成128位块时
   - 在每个XOR操作阶段

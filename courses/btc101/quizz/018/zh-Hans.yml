@@ -1,6 +1,6 @@
 question:最初的货币形式通常与什么有关？
 answer:基本商品，如谷物、牲畜和其他商品
-错误answer:
+wrong_answers:
   - 黄金和白银
   - 纸币
   - 数字资产

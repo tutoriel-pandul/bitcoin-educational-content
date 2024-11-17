@@ -1,6 +1,6 @@
 question:中本聪在2008年10月31日在哪里发布了比特币白皮书？
 answer:密码学邮件列表
-错误answer:
+wrong_answers:
   - Reddit
   - Twitter
   - Hackernews

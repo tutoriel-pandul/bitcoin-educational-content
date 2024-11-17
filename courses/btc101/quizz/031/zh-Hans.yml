@@ -1,6 +1,6 @@
 question:以下哪项不是比特币作为一种货币的优势？
 answer:它用于支付税款
-错误answer:
+wrong_answers:
   - 它是可分割的
   - 它是可携带的
   - 它是无需许可的货币

@@ -1,6 +1,6 @@
 question:谁在2011年9月启动了比特币改进提案系统，一个旨在协调比特币改进的过程？
 answer:Amir Taaki
-错误answer:
+wrong_answers:
   - Gavin Andresen
   - Jeff Garzik
   - Nils Schneider

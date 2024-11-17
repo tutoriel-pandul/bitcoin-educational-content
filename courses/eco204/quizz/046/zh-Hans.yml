@@ -1,6 +1,6 @@
 question:尼加拉瓜第一科多巴的最大值是多少？
 answer:100万。
-错误answer:
+wrong_answers:
   - 50万
   - 1000万
   - 1亿

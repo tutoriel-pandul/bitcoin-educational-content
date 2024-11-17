@@ -1,6 +1,6 @@
 question:David Chaum的eCash概念是在哪一年实现的？
 answer:1994
-错误answer:
+wrong_answers:
   - 1993
   - 1995
   - 1996

@@ -1,6 +1,6 @@
 question:哪种P2P解决方案使用闪电网络来实现快速交易？
 answer:RoboSat
-错误answer:
+wrong_answers:
   - Bisq
   - Peach
   - HodlHodl

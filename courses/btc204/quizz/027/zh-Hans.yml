@@ -1,6 +1,6 @@
 question:哪种技术有助于防止因KYC引起的跟踪风险？
 answer:Coinjoin交易
-错误answer:
+wrong_answers:
   - 使用VPN
   - 使用完整节点
   - 通过工作证明进行验证

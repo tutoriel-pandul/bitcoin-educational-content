@@ -1,6 +1,6 @@
 question:谁在2011年3月制作了第一个关于比特币的高质量视频？
 answer:Stefan Thomas
-错误answer:
+wrong_answers:
   - Mike Hearn
   - Christian Decker
   - Bruce Wagner

@@ -1,6 +1,6 @@
 question:谁发明了工作量证明的概念？
 answer:Cynthia Dwork 和 Moni Naor
-错误answer:
+wrong_answers:
   - Markus Jakobsson 和 Ari Juels
   - Adam Back
   - Satoshi Nakamoto

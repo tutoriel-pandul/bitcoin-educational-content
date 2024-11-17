@@ -1,6 +1,6 @@
 question:用于生成地址的函数是什么？
 answer:HASH160。
-错误answer:
+wrong_answers:
   - HASH256。
   - HASH512。
   - SHA256。

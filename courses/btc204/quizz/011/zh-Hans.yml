@@ -1,6 +1,6 @@
 question:对于像比特币这样的数字货币来说，最难实现的特性是什么？
 answer:避免双重支付
-错误answer:
+wrong_answers:
   - 完整性
   - 真实性
   - 诚实性

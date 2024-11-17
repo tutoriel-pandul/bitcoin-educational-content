@@ -1,6 +1,6 @@
 question:预测比特币的创造将在哪一年停止？
 answer:2140
-错误answer:
+wrong_answers:
   - 2050
   - 2030
   - 2200

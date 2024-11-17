@@ -2,7 +2,7 @@ question:BIP47操作的核心使用的是哪种加密密钥交换算法？
 
 answer:ECDH
 
-错误answer:
+wrong_answers:
   - RSA
   - ElGamal
   - Diffie-Hellman

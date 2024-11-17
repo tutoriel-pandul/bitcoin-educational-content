@@ -2,7 +2,7 @@ question:标签上应该标明哪些信息？
 
 answer:一个UTXO的来源。
 
-错误answer:
+wrong_answers:
   - 一个UTXO的创建日期。
   - 一个UTXO的大小。
   - 与创建一个UTXO相关的费用金额。

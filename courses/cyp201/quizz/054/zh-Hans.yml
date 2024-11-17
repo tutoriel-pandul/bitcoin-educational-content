@@ -1,6 +1,6 @@
 question:要计算主密钥和主链代码的值，HMAC-SHA512函数的第一个输入是种子。这个函数的第二个输入值是什么，作为一个密钥？
 answer:“Bitcoin seed”。
-错误answer:
+wrong_answers:
   - 助记词组。
   - 密码短语。
   - “Seed”。

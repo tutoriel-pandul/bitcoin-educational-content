@@ -2,7 +2,7 @@ question:当您不使用自己的比特币节点时，可以采取哪种中间�
 
 answer:使用Tor。
 
-错误answer:
+wrong_answers:
   - 使用防火墙。
   - 使用加密钱包。
   - 使用双重钱包。

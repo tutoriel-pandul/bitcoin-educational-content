@@ -2,7 +2,7 @@ question:为什么使用payjoin进行支付通常比较复杂？
 
 answer:它需要接收方在构建中的积极合作
 
-错误answer:
+wrong_answers:
   - 它要求每笔交易有固定金额
   - 它强制双方使用相同类型的软件
   - 它要求支付者拥有至少2个大于支付价值的UTXOs

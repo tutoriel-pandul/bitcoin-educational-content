@@ -1,6 +1,6 @@
 question:SegWit地址的校验和是如何计算的？
 answer:使用BCH码。
-错误answer:
+wrong_answers:
   - 使用HASH160。
   - 使用HASH256。
   - 使用SHA512。

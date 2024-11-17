@@ -1,6 +1,6 @@
 question:由单个输入UTXO和单个输出UTXO组成的模式叫什么名字？
 answer:清扫
-错误answer:
+wrong_answers:
   - 合并
   - Coinjoin
   - 批量支出

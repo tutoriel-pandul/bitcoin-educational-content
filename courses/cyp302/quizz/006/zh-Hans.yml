@@ -1,6 +1,6 @@
 question:哪个概念不是专门与对称或非对称加密方案相关联的？
 answer:哈希函数
-错误answer:
+wrong_answers:
   - 公钥和私钥对
   - 非对称加密
   - 对称加密

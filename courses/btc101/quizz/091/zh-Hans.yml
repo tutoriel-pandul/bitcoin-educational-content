@@ -1,6 +1,6 @@
 question:推荐将离线或冷物理钱包用于什么？
 answer:存储较大金额
-错误answer:
+wrong_answers:
   - 用于日常开销
   - 用于小额
   - 用于短期储蓄

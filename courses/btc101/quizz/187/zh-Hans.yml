@@ -1,6 +1,6 @@
 question:作为商家接受比特币的一个优势是什么？
 answer:抗审查性
-错误answer:
+wrong_answers:
   - 增加的交易费用
   - 防御通货紧缩
   - 财务限制

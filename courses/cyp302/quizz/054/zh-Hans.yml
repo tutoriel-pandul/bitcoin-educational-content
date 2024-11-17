@@ -1,6 +1,6 @@
 question:在密码学中用于有限域的主要代数结构是什么？
 answer:不可约多项式
-错误answer:
+wrong_answers:
   - 方阵
   - 随机向量
   - 立方根

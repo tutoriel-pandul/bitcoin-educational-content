@@ -2,7 +2,7 @@ question:在coinjoin中，使用什么加密方法来防止协调者关联输入
 
 answer:Chaum盲签名。
 
-错误answer:
+wrong_answers:
   - Schnorr签名。
   - P2SH地址。
   - P2TR地址。

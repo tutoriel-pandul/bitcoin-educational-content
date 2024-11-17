@@ -1,6 +1,6 @@
 question:比特币HD钱包中用于派生的算法是什么？
 answer:HMAC/PBKDF2
-错误answer:
+wrong_answers:
   - NMAC/PBKDF1
   - KMAC/Scrypt
   - CMAC/Argon2

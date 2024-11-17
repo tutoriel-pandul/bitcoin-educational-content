@@ -2,7 +2,7 @@ question:比特币钱包的标签是如何存储的？
 
 answer:在钱包软件的本地存储。
 
-错误answer:
+wrong_answers:
   - 在开发者控制的中心化数据库中。
   - 通过一个OP_RETURN在比特币区块链上。
   - 仅在软件执行期间在RAM中存储。

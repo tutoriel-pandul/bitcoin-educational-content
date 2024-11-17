@@ -2,7 +2,7 @@ question:经典的弹跳交易通常执行多少次连续交易？
 
 answer:5
 
-错误answer:
+wrong_answers:
   - 2
   - 8
   - 14

@@ -1,6 +1,6 @@
 question:在比特币白皮书中，中本聪明确提到了哪种电子货币概念？
 answer:b-money (魏岱)
-错误answer:
+wrong_answers:
   - 比特黄金 (Nick Szabo)
   - RPOW (Hal Finney)
   - eCash (David Chaum)

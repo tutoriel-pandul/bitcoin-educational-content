@@ -1,6 +1,6 @@
 question:根据文本，比特币采用的性质是什么？
 answer:病毒式的
-错误answer:
+wrong_answers:
   - 缓慢而稳定
   - 快速且无法控制
   - 零星且不可预测

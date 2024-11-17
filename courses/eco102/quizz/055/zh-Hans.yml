@@ -1,6 +1,6 @@
 question:在这个故事中，谁被认为是蜡烛制造商的“不公平竞争者”？
 answer:太阳
-错误answer:
+wrong_answers:
   - 外国蜡烛制造商
   - 电力
   - 油灯

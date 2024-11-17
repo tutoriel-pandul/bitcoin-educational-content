@@ -1,6 +1,6 @@
 question:什么术语用来指代将一系列链上活动与某种真实身份联系起来的信息？
 answer:入口点。
-错误answer:
+wrong_answers:
   - 链接键。
   - 指纹链接。
   - 分析标记。

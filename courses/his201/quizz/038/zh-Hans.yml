@@ -1,6 +1,6 @@
 question:2010年4月创建的第一个允许在移动设备上简单使用比特币的托管应用程序叫什么名字？
 answer:MyBitcoin
-错误answer:
+wrong_answers:
   - 比特币钱包
   - BTC 2 PSC
   - 隐私鲨鱼

@@ -1,6 +1,6 @@
 question:集合"S"及其二元运算要成为一个群，必须满足哪个基本条件？
 answer:封闭性条件
-错误answer:
+wrong_answers:
   - 交换律条件
   - 对称性条件
   - 分配律条件

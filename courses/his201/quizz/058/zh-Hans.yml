@@ -1,6 +1,6 @@
 question:在2010年下半年，网络的哈希率是以哪个单位测量的？
 answer:以GH/s计
-错误answer:
+wrong_answers:
   - 以MH/s计
   - 以TH/s计
   - 以PH/s计

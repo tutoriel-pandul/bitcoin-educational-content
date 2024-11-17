@@ -2,7 +2,7 @@ question:在Stonewall x2交易中，合作者的角色是什么？
 
 answer:提供比特币以增加疑问
 
-错误answer:
+wrong_answers:
   - 充当交易协调员
   - 接收支付金额
   - 发送支付金额

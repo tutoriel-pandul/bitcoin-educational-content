@@ -1,6 +1,6 @@
 question:在闪电网络(Lightning Network)的背景下，比特币节点的目的是什么？
 answer:帮助理解和探索由闪电网络带来的比特币的新方面。
-错误answer:
+wrong_answers:
   - 挖掘新的比特币。
   - 交易比特币。
   - 存储比特币。

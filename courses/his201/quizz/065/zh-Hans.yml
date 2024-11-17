@@ -1,6 +1,6 @@
 question:谁在2010年11月创建了第一个区块浏览器？
 answer:Michael Marquardt (Theymos)
-错误answer:
+wrong_answers:
   - Jeff Garzik (jgarzik)
   - Nils Schneider (tcatm)
   - Pieter Wuille (sipa)

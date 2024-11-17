@@ -1,6 +1,6 @@
 question:在发现比特币之前，谷歌工程师Mike Hearn对哪个数字货币系统感兴趣？
 answer:Ripple
-错误answer:
+wrong_answers:
   - 自由储备
   - eLD
   - RPOW

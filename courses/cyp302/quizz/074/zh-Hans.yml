@@ -1,6 +1,6 @@
 question:如果使用密钥7来加密单词“CAT”，会发生什么？
 answer:该单词变成了“JHA”
-错误answer:
+wrong_answers:
   - 该单词变成了“JBA”
   - 该单词变成了“JHB”
   - 该单词变成了“ZHA”

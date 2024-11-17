@@ -1,6 +1,6 @@
 question:中本聪总共挖了多少比特币（大约）？
 answer:1,100,000
-错误answer:
+wrong_answers:
   - 11,000,000
   - 110,000
   - 11,000

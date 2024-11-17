@@ -1,6 +1,6 @@
 question:为什么购买非KYC比特币？
 answer:为了确保您的隐私
-错误answer:
+wrong_answers:
   - 为了确保所有比特币用户的注册
   - 以低价购买
   - 以低价出售

@@ -1,6 +1,6 @@
 question:对于大型结构或热情的比特币用户来说，接受比特币的一个解决方案是什么？
 answer:BTCpay Server
-错误answer:
+wrong_answers:
   - 比特币钱包
   - 比特币交易所
   - 比特币挖矿

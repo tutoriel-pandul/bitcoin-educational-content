@@ -1,6 +1,6 @@
 question:2008年8月，中本聪首先联系了谁？
 answer:Adam Back
-错误answer:
+wrong_answers:
   - Wei Dai
   - Hal Finney
   - James A. Donald

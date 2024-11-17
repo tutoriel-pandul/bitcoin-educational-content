@@ -1,6 +1,6 @@
 question:在比特币协议中，两个区块创建之间的平均时间是多少？
 answer:10分钟
-错误answer:
+wrong_answers:
   - 5分钟
   - 15分钟
   - 20分钟

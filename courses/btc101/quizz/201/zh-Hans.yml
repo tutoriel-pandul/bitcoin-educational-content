@@ -1,6 +1,6 @@
 question:KYC法规的目的是什么？
 answer:为了打击恐怖主义融资、逃税和洗钱。
-错误answer:
+wrong_answers:
   - 提高比特币的价格。
   - 控制比特币的供应。
   - 阻止人们购买比特币。

@@ -1,6 +1,6 @@
 question:什么样的群满足交换律条件？
 answer:阿贝尔群
-错误answer:
+wrong_answers:
   - 一个封闭群
   - 一个结合群
   - 一个逆群

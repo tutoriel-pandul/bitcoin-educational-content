@@ -2,7 +2,7 @@ question:使用第三方节点有哪些风险？
 
 answer:审查和监控活动。
 
-错误answer:
+wrong_answers:
   - 比特币的丢失。
   - 交易费用的增加。
   - 比特币的盗窃和追踪。

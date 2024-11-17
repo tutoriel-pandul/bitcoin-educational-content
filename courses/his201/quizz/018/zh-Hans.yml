@@ -1,6 +1,6 @@
 question:与eCash、b-money和bit gold等其他数字货币概念相比，RPOW有什么独特之处？
 answer:它基于一个透明的服务器
-错误answer:
+wrong_answers:
   - 它使用了工作量证明
   - 其账户单位没有任何后盾
   - 用户持有特定面额的数字票据而不是账户

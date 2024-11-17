@@ -1,6 +1,6 @@
 question:一个具有有限数量元素的字段被称为什么？
 answer:伽罗瓦域
-错误answer:
+wrong_answers:
   - 乘法域
   - 对称域
   - 向量域

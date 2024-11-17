@@ -1,6 +1,6 @@
 question:谁在2010年11月建议联系组织WikiLeaks，鼓励他们接受比特币？
 answer:Amir Taaki
-错误answer:
+wrong_answers:
   - Wladimir van der Laan
   - Robert Horning
   - Satoshi Nakamoto

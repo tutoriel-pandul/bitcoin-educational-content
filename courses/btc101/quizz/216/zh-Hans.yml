@@ -1,6 +1,6 @@
 question:一些国家中比特币的状态是什么？
 answer:被禁止和定罪
-错误answer:
+wrong_answers:
   - 完全采纳
   - 部分采纳
   - 未受管制

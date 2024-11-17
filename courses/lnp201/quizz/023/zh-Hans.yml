@@ -1,6 +1,6 @@
 question:为什么Alice和Bob要交换他们之前承诺交易的秘密？
 answer:为了让双方在对方发布旧交易时能够保护自己
-错误answer:
+wrong_answers:
   - 增加通道的容量
   - 阻止对方访问资金
   - 平分资金

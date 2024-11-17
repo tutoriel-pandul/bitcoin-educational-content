@@ -1,6 +1,6 @@
 question:哪一项举措有助于使比特币经济对每个人都更加可访问和便利？
 answer:BTCMap
-错误answer:
+wrong_answers:
   - 比特币交易所
   - 比特币挖矿
   - 比特币彩票

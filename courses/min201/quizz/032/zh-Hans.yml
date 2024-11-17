@@ -1,6 +1,6 @@
 question:比特币网络中矿工的奖励是什么？
 answer:新比特币和交易费。
-错误answer:
+wrong_answers:
   - 仅新比特币。
   - 仅交易费。
   - 矿工没有奖励。

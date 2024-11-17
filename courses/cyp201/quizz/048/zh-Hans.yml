@@ -1,6 +1,6 @@
 question:用于从助记词和密码短语生成种子的函数是什么？
 answer:PBKDF2。
-错误answer:
+wrong_answers:
   - SHA256。
   - HMAC。
   - Argon2。

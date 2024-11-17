@@ -2,7 +2,7 @@ question:在这些选项中，哪一个不是自动选择零件的方法？
 
 answer:静默支付
 
-错误answer:
+wrong_answers:
   - 分支定界法
   - 先进先出
   - 背包问题求解器

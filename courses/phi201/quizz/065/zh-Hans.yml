@@ -1,6 +1,6 @@
 question:宗教战争在哪个历史时期摧毁了欧洲？
 answer:文艺复兴
-错误answer:
+wrong_answers:
   - 中世纪
   - 启蒙时代
   - 法国大革命

@@ -1,6 +1,6 @@
 question:比特币协议中的区块大小是多少？
 answer:1MB
-错误answer:
+wrong_answers:
   - 0.5MB
   - 2MB
   - 3MB

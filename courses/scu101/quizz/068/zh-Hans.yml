@@ -1,6 +1,6 @@
 question:什么是安全漏洞的常见原因？
 answer:人为疏忽。
-错误answer:
+wrong_answers:
   - 电力中断。
   - 网络速度慢。
   - 硬件过时。

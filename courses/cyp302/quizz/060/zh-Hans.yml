@@ -1,6 +1,6 @@
 question:哪个答案代表了密码学的两大主要分支之一？
 answer:对称加密
-错误answer:
+wrong_answers:
   - 密码学
   - 同态加密
   - 密码分析

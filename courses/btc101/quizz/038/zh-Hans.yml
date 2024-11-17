@@ -1,6 +1,6 @@
 question:比特币的最大发行量是多少？
 answer:2100万
-错误answer:
+wrong_answers:
   - 3万亿
   - 1亿
   - 没有限制

@@ -1,6 +1,6 @@
 question:加密货币领域中常见的诈骗特征是什么？
 answer:承诺不切实际的回报。
-错误answer:
+wrong_answers:
   - 承诺实物商品。
   - 承诺软件产品。
   - 承诺法定货币。

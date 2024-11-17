@@ -1,6 +1,6 @@
 question:2010年，谁首次实现了使用图形处理单元（GPU）进行挖矿？
 answer:Laszlo Hanyecz
-错误answer:
+wrong_answers:
   - SmokeTooMuch
   - ArtForz
   - Nils Schneider

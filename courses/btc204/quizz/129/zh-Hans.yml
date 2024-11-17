@@ -2,7 +2,7 @@ question:在币币交换中使用的两种主要智能合约变体是什么？
 
 answer:HTLC 和 PTLC
 
-错误answer:
+wrong_answers:
   - 多重签名和单一签名
   - 智能合约和DApps
   - SegWit 和 Taproot

@@ -1,6 +1,6 @@
 question:哪个前缀或HRP对应于SegWit标准地址？
 answer:"bc"
-错误answer:
+wrong_answers:
   - "1"
   - "0x"
   - "btc"

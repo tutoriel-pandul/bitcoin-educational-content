@@ -1,6 +1,6 @@
 question:汉克-克鲁斯表格记录了多少起超通货膨胀事件？
 answer:56
-错误answer:
+wrong_answers:
   - 46
   - 66
   - 76

@@ -1,6 +1,6 @@
 question:移动钱包的推荐用途是什么？
 answer:用于日常开销
-错误answer:
+wrong_answers:
   - 用于长期储蓄
   - 用于中期储蓄
   - 用于大额资金

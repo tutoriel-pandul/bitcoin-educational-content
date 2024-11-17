@@ -1,6 +1,6 @@
 question:今天比特币网络中矿工主要使用的工具是什么？
 answer:ASICs
-错误answer:
+wrong_answers:
   - CPUs
   - GPUs
   - FPGAs

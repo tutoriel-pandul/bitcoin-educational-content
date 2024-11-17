@@ -2,7 +2,7 @@ question:Chaumian CoinJoin过程中的哪一步涉及在Tor上更改身份以确
 
 answer:输出的注册。
 
-错误answer:
+wrong_answers:
   - 输入的注册。
   - 交易的签名。
   - 交易的广播。

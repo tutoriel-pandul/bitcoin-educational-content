@@ -1,6 +1,6 @@
 question:哪种块密码方法使用初始化向量并创建概率加密？
 answer:CBC（“密码块链接”）
-错误answer:
+wrong_answers:
   - ECB（“电子密码本”）
   - AES-128
   - SHA-256

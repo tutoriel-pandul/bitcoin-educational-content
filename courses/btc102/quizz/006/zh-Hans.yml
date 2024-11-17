@@ -1,6 +1,6 @@
 question:金融投资领域中的常见骗局是什么？
 answer:传销系统。
-错误answer:
+wrong_answers:
   - 销售实物商品。
   - 销售软件产品。
   - 销售法定货币。

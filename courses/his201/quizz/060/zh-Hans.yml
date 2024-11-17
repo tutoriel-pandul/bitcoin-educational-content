@@ -1,6 +1,6 @@
 question:谁建立了第一个挖掘合作社来生产比特币上的区块？
 answer:doublec
-错误answer:
+wrong_answers:
   - slush
   - puddinpop
   - m0mchil

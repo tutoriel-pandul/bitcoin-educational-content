@@ -1,6 +1,6 @@
 question:迈克·赫恩在2011年3月发布了一款软件实现，它实现了简化支付验证（SPV），这款软件的名称是什么？
 answer:BitCoinJ
-错误answer:
+wrong_answers:
   - Spesmilo
   - bcoin
   - Libbitcoin

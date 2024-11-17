@@ -1,6 +1,6 @@
 question:根据该章节，失去比特币的主要原因是什么？
 answer:糟糕的在线安全管理
-错误answer:
+wrong_answers:
   - 加密货币诈骗
   - 金融诈骗
   - 计算机故障

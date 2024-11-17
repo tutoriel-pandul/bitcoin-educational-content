@@ -1,6 +1,6 @@
 question:哪个实体负责发行法定货币？
 answer:中央银行
-错误answer:
+wrong_answers:
   - 商业银行
   - 政府
   - 私人机构

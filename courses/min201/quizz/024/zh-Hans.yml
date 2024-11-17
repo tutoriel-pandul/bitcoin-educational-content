@@ -1,6 +1,6 @@
 question:当挖掘比特币交易的奖励减半时，这个事件叫什么？
 answer:减半
-错误answer:
+wrong_answers:
   - 加倍
   - 四分之一
   - 三倍
