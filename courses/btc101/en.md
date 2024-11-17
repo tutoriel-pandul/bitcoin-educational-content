@@ -193,50 +193,50 @@ On the other hand, Bitcoin presents new possibilities. Its properties, such as a
 ## Fiduciary currencies
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
-"Those who do not learn from history are doomed to repeat the same mistakes," said George Santayana. A truth that resonates particularly when it comes to the current monetary system.
+"Those who cannot remember the past are condemned to repeat it" said George Santayana. A truth that resonates soundly when it comes to the current monetary system.
 
-### Fiduciary = trust
+### Fiduciary = Trust
 
-Today, major currencies such as the euro and the dollar are considered fiduciary. This means that they have no intrinsic value. Their value relies entirely on the trust and belief we place in the institutions that regulate them.
+Today, major currencies such as the Euro and the Dollar are considered fiduciary. This means they lack intrinsic value and depend entirely on the trust and confidence we place in the institutions that govern them.
 
-'A fiduciary currency is a form of currency that is decreed as currency by an institution, such as a nation-state, like China with the Yen, or a politico-economic union, such as the European Union with the Euro. The entity in charge of issuing fiduciary currency is a central bank (For example, we can mention the People's Bank of China, the Federal Reserve of the United States, or the Central Bank of the Republic of Guinea). It is these entities that are in charge of deciding monetary policy and therefore how much money should be put into circulation or printed.
+'A fiduciary currency is a form of money that is decreed as such by an institution, i.e. a state, like China with the Yuan, or a political-economic union, such as the European Union with the Euro. The entity in charge of its issuance is the central bank (For example, we can mention the People's Bank of China, the Federal Reserve of the United States, or the Central Bank of the Republic of Guinea). It is precisely these entities that are in charge of deciding monetary policy and therefore how much money should be put into circulation or printed.
 
 ![image](assets/en/chapter2/1.webp)
 
 ### Monetary devaluation: A strategy as old as the Roman Empire
 
-Since antiquity, gold has served as a monetary reference. However, its rigidity has often led leaders - whether Roman emperors or modern governments - to adopt alternative currencies, often fiduciary.
+Since antiquity, gold has served as a monetary reference, but its rigidity has often led leaders, whether Roman emperors or modern governments, to adopt alternative currencies, often fiduciary.
 
-The mechanism is simple and inspired by practices that have existed since the origins of civilization. Leaders, eager to exert control over wealth, begin by centralizing gold, often by exploiting their power and promising protection and security. With this precious reserve in their hands, they introduce a new currency, equivalent in value to gold, but minted in their effigy. This currency then begins to circulate, and the people quickly become accustomed to its convenience.
+The mechanism is simple and is inspired by practices that have existed since the origins of civilization. Leaders, eager to exert control over wealth, begin by centralizing gold, often by exploiting their power and promising protection and security. With this precious reserve in their hands, they introduce a new currency, equivalent in value to gold, but minted in their effigy. This currency then begins to circulate, and people quickly adapt to the convenience of its simple use.
 
-Gradually, these leaders discreetly devalue the new currency, reducing its value compared to the initial gold by a few percent each year. This silent devaluation is often justified as being in the interest of the people. Thus, those who save in this fiduciary currency see the value of their savings erode, while the state finances its projects through inflation. Furthermore, this devaluation makes debt easier to repay.
+However, these leaders then begin to devalue the new currency in a gradual way, de facto reducing its value by a few percent each year in comparison to the initial gold price. This silent devaluation is often justified as being in the interest of the people. In reality, those who save in this fiduciary currency see the worth of their savings erode, while the state finances its projects through inflation. Furthermore, this devaluation makes debt easier to repay.
 
 ![image](assets/en/chapter2/3.webp)
 
-At a critical moment, the announcement is made: the currency is no longer backed by gold. The public, now accustomed to fiduciary currency and often misinformed about financial matters, accepts this reality. The state then has free rein to manipulate the money supply, printing enormous sums of money at almost no cost.
+At a critical moment, the leader makes the announcement: the currency is no longer backed by gold. The public, now accustomed to the fiduciary currency and often misinformed about financial matters, accepts this reality, allowing the state to freely manipulate the money supply and print enormous sums of money at almost no cost.
 
-This strategy, when well executed, can last for decades. However, a too rapid devaluation or loss of confidence can lead to hyperinflation (see next chapter). History shows that the dollar has lost 98% of its value in 100 years, the euro 30% in 20 years, and the pound sterling 99% since its creation.
+Monetary printing then leads to inflation and gradually impoverishes the population. Besides, the financial system is regulated and restricted to avoid its collapse, since any disruption could provoke a major economic crisis. Contrary to the masses, financial institutions and wealthy individuals highly benefit from this system, which creates a gap of inequality and favores authoritarianism. In this context, they are not incentivized to make radical changes, allowing the system to continue its course until a possible implosion.
 
-In the end, the currency may no longer have any connection to gold, reminiscent of Roman coins at the end of the Empire, or even be reduced to a simple numerical value, disconnected from tangible reality.
+When well executed, this strategy can last for decades. However, it is important to note that a very fast devaluation or loss of confidence can lead to hyperinflation (see next chapter). History shows that the dollar has lost 98% of its value in 100 years, the euro 30% in 20 years, and the pound sterling 99% since its creation.
 
-Today, we are witnessing a historic turning point. The dollar, which has long dominated, seems to be in decline, and gold has lost its central place. We are at the hinge of a new monetary cycle, reminding us that lessons from history are often forgotten.
+In the end, the currency may no longer have any connection to gold, similarly to Roman coins at the end of the Empire, or even be reduced to a simple numerical value, disconnected from tangible reality.
+
+Today, we are witnessing a historic turning point. The dollar, which has long dominated, appears to be in decline, while gold has lost its central role. We stand at the threshold of a new monetary cycle, reminding us that the lessons of history are often forgotten
 
 ![image](assets/en/chapter2/4.webp)
 
-### Is Bitcoin a solution?
+### Is Bitcoin a Solution?
 
-It is in this context that the Bitcoin revolution is gaining momentum. This currency, which requires **no trusted third party**, aims to separate the State from money.
-
-Monetary printing leads to inflation, gradually impoverishing the population. On the other hand, financial institutions and wealthy individuals have benefited from this practice, creating a gap of inequalities and favoring authoritarianism. The current financial system is regulated and restricted to avoid its collapse, and any disruption could provoke a major economic crisis. As political actors benefit from this system, they are not incentivized to make radical changes, allowing the system to continue its course until a possible implosion.
+Because of these premises, the Bitcoin revolution is gaining momentum. Contrary to previous currencies, it requires **no trusted third party** and aims to separate the State from money.
 
 ![image](assets/en/chapter2/2.webp)
 
-In response to these systemic challenges, Bitcoin presents itself as a decentralized solution: a new parallel monetary system. Historically, gold has been favored as a currency due to its resistance to counterfeiting. Similarly, Bitcoin, through its decentralized and cryptographic nature, cannot be falsified and is limited to 21 million units. Bitcoin is a currency that relies on transparency and neutrality, offering an attractive alternative to the current centralized monetary system.
+In fact, Bitcoin presents itself as a response to these systemic challenges by proposing a decentralized solution and a new parallel monetary system. Historically, if gold has been favored as a currency due to its resistance to counterfeiting, Bitcoin similarly cannot be falsified and is limited to 21 million units, thanks to its decentralized and cryptographic nature. Bitcoin is a currency that relies on transparency and neutrality, offering an attractive alternative to the current centralized monetary system.
 
 ![image](assets/en/chapter2/0.webp)
 
-At the same time, the emergence of central bank digital currencies, or CBDCs, seems inevitable. This new form of currency would offer a more centrally planned economy, which could hinder individuals' financial freedom and facilitate authoritarian abuses.
-We can conclude this chapter with the quote from Nobel Prize winner F.A Hayek in 1984: "I do not believe that we will ever find a good currency until we take it out of the hands of the government. However, we cannot violently take it from them; all we can do is introduce something they cannot stop through clever trickery."
+Another reason why Bitcoin has acquired attention is the emergence of central bank digital currencies, or CBDCs, which seems inevitable. This new form of money would develop a more centrally planned economy, and could both hinder individuals' financial freedom and facilitate authoritarian abuses.
+We can conclude this chapter with the quote from the Nobel Prize winner F.A Hayek in 1984: "I don't believe that we should ever have a good money again, before we take the thing out of the hands of the government. If we can't take them violently out of the hands of the government, all we can do is by some sly or roundabout way introduce something they can't stop."
 
 ### Quick recap in a poster!
 
@@ -245,80 +245,85 @@ We can conclude this chapter with the quote from Nobel Prize winner F.A Hayek in
 ## Hyperinflation
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflation is a monetary phenomenon specific to fiat currencies. It is characterized by a complete loss of confidence in a currency and a drastic increase in inflation through monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country to the brink of economic, social, and political collapse.
+Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is charterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
 
 ### Inflation Running Wild!
 
-Let's try to understand the impact of inflation on savings by considering different inflation rates.
+In order to understand the impact of inflation on savings, we need to take different inflation rates into consideration.
 
-- With 2% inflation, you lose 2% of your purchasing power annually, which amounts to 10% over 5 years.
+- With a 2% inflation, you lose 2% of your purchasing power annually, which amounts to 10% over 5 years.
 - With 7%, you lose half of it in 10 years.
 - With 20%, you lose almost half of it in 3 years.
 
-During hyperinflation, we are no longer talking about 20% per year, but rather 20% per month or, at its peak, per DAY. 100% inflation per day over 3 days is a realistic scenario that has happened and continues to happen in our world.
+When hyperinflation occurs, we are no longer talking about 20% per year, but rather 20% per month or, at its peak, even per DAY. Experiencing a 100% inflation per day over three days is a realistic scenario that has occurred and continues to happen in our world.
 
-It is important to understand that hyperinflation does not happen by magic, by chance, by capitalism, or by political opponents. Hyperinflation is the direct consequence of false monetary decisions made by central bankers and politicians. Its consequences affect all citizens and will impact generations. I invite you to spend 5 minutes studying this table to fully realize the real impact of this phenomenon (the ECON204 course will go into detail on this subject)."
+It is crucial to understand that hyperinflation does not happen by chance, by capitalism, or by political attacks from opponents. Hyperinflation is the direct consequence of bad monetary decisions made by central bankers and politicians. Its aftermaths affect every citizen and even impacts next generations. We kindly invite you to spend five minutes reading the following table to fully realize the real impact of this phenomenon (the [ECO204](https://planb.network/en/courses/eco204) course further delves into this subject)." As you can see, no country or currency is potentially safe.
 
 ![image](assets/en/chapter3/1.webp)
 
-### How Does Hyperinflation Occur?
+### What are the Phases of Hyperinflation?
 
 ![image](assets/en/chapter3/3.webp)
 
-Phase 1 - Loss of Confidence
+For hyperinflation to occur, certain events must take place.
 
-- Centralization of monetary power facilitates the creation of money and its abuses. A loss of confidence in a currency can then emerge and trigger hyperinflation. Individuals then begin to question the origin of money and the benefits of mandated monetary policy. This loss of confidence is generally due to external factors such as wars, social measures, or the rise in prices of a key resource, such as wheat or gasoline.
+Phase 1 - Loss of confidence
 
-Phase 2 - Currency collapse & price increase
+- Centralization of monetary power facilitates the creation of money and its abuses. In this context, some external factors can trigger hyperinflation, typically wars, social measures, or the price increase of key resources like wheat or gasoline. Thus, a loss of confidence in a currency can arise, and individuals begin to question the origin of money and the benefits of mandated monetary policy. 
 
-- As governments lose control of trust, individuals begin to exchange their currency for another, more stable one, such as the US dollar in Venezuela. This leads to a rise in prices, creating a vicious circle where goods and services become increasingly expensive. To meet these needs, the state prints more money to correct monetary policy, resulting in exponential inflation.
+Phase 2 - Currency collapse and price increase
+
+- As governments lose control of trust, individuals begin to exchange their currency for a more stable one, like what happened in Venezuela with the US dollar. This circumstance leads to a rise in prices, creating a vicious circle where goods and services become increasingly expensive. To meet these needs and correct monetary policy, the state prints more money, resulting in exponential inflation.
 
 Phase 3 - The vicious circle of money printing
 
-- More and more bills are needed to buy goods, creating a scarcity of paper money. This leads to more bill printing, creating even more inflation.
+- Thus, more and more bills are needed to purchase goods, which results in the scarcity of paper money. In response, governments resort to printing more bills, which fuels inflation even further.
 
 ![image](assets/en/chapter3/4.webp)
 
-Phase 4 - A new currency emerges
+Phase 4 - The emergence of a new currency
 
-- A new currency is then introduced to replace the old one. A notable example of hyperinflation is Germany in the years 1920-1924. To revive the economy, a new currency was created, backed by German, French, and English debt, and guaranteed by German lands.
+- A new currency is then introduced to replace the old one, in order to break the cycle of inflation by implementing stricter controls that were not in place with the previous legal tender.
 
-Resolving a hyperinflation crisis often requires radical changes, such as revolutions, changes in government, changes in central bankers, among others. Loss of confidence, currency collapse, and reconstruction are essential phases to revive a new economy based on fiat currency.
+Resolving a hyperinflation crisis often requires radical changes, such as revolutions, government shifts, central bankers changes, among others. Loss of confidence, currency collapse, and reconstruction are essential phases to revive an economy based on fiat currency.
 
-### 3 notable examples
+### Three notable examples
 
-- Germany, 1922-1923
+- Germany, 1922-1923.
 
   One of the most striking examples of hyperinflation occurred in the German Weimar Republic after World War I.
 
-  Germany had borrowed enormous amounts of money to finance the war effort, and not only did Germany not win the war, but it had to pay billions of dollars in reparations. The month with the highest inflation was October 1923, peaking at 29,500%, or an inflation rate of 20.9% per day. Prices doubled every 3.7 days!
-  It is said that in restaurants, waiters had to announce the menu prices every 30 minutes to account for inflation. The German currency became so useless that some citizens preferred to burn their paper money rather than wood because it was actually cheaper.
+  Germany had borrowed enormous amounts of money to finance war. However, not only did Germany lose it, but it had to pay billions of dollars in reparations. The month with the highest inflation rate was October 1923, peaking at 29,500%, which was equal to an inflation rate of 20.9% per day. Prices doubled every 3.7 days!
+  The German currency became so useless that some citizens preferred to burn their paper money instead of wood because it was actually cheaper. It is even told that in restaurants, waiters had to announce the menu prices every 30 minutes to account for inflation.
+  
+In the end, the authorities created a new currency, backed by the debts of Germany, France, and England, and guaranteed by German land.
 
   ![image](assets/en/chapter3/5.webp)
 
 - Hungary, 1945-1946
 
-  The country that experienced the worst period of hyperinflation in history to date is by far Hungary after World War II.
+  The country that experienced the worst period of hyperinflation to date is by far Hungary after World War II.
 
-  Hungary found itself on the losing side of the conflict and the war had destroyed most of its industrial production capacity. The month with the highest inflation was July 1946, with a price inflation of 41,900,000,000,000,000%, equivalent to 207% per day. Prices doubled every 15 hours!
+  Hungary found itself on the losing side of the conflict, with most of its industrial production capacity destroyed. The month with the highest inflation was July 1946, which saw a staggering price inflation of 41,900,000,000,000,000%, equivalent to 207% per day. Prices doubled every 15 hours!
 
-  The last banknote to be put into circulation was a 100 million billion pengo (100,000,000,000,000,000) banknote in 1946.
+  The last banknote to be put into circulation was a 100 million billion Pengo (100,000,000,000,000,000) in 1946.
 
 ![image](assets/en/chapter3/6.webp)
 
 - Zimbabwe, 2007-2008
-  Until the year 2000, Zimbabwe was self-sufficient for almost all its needs except for oil.
 
-  In 1997, the Zimbabwean dollar collapsed by over 72% after the government agreed to compensate war veterans for an amount equivalent to 450 million US dollars. Since the government did not have such an amount in its coffers, it had to resort to running the printing press. In 2005, inflation reached 586% and in March 2007, monthly inflation reached 50%.
+  Until the year 2000, Zimbabwe was self-sufficient for almost all of its needs except for oil.
 
-  In June 2007, the government reacted by imposing price controls. Stores were literally "looted". Merchants now no longer have the means to restock their shops.
+  In 1997, the Zimbabwean dollar collapsed by over 72% after the government agreed to compensate war veterans for the equivalent amount of 450 million US dollars. Since the government did not have such an amount in its supplies, it resorted to running the printing press. In 2005, inflation reached 586%, but the peak was in mid-November 2008 with a rate estimated at 79,600,000,000% per month.
+
+  In June 2007 the government had already reacted by imposing price controls, but this action did not have any influence on the economy. Stores were literally "looted", and merchants no longer had the means to restock their shops.
 
   In April 2009, the Minister of Finance announced the suspension of the Zimbabwean dollar and authorized the use of different foreign currencies for trade. All bank accounts, pensions, and financial institutions saw their balances evaporate overnight.
 
 ![image](assets/en/chapter3/7.webp)
 
-In conclusion, hyperinflation has the effect of rapidly degrading the value of the currency, leading to erosion of savings and loss of confidence in the monetary system. As Voltaire once suggested, a fiat currency will always eventually lose its intrinsic value and converge towards zero.
-'A currency that relies on a trusted third party like a financial institution is, in practice and in the long term, a defective currency because it is unable to guarantee purchasing power or preserve savings.
+In conclusion, hyperinflation has the effect of rapidly degrading the value of the currency, leading to the erosion of savings and the loss of confidence in the monetary system. As Voltaire once suggested, a fiat currency will always eventually lose its intrinsic value and converge towards zero.
+A currency that relies on a trusted third party like a financial institution is, in practice and in the long term, a defective one, because it is unable to guarantee purchasing power or preserve savings.
 
 ### Quick recap in a poster!
 
