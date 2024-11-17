@@ -1,11 +1,11 @@
-Вопрос: Среди этих 3 протоколов, какой не является реализацией coinjoin?
+question: Среди этих 3 протоколов, какой не является реализацией coinjoin?
 
-Ответ: Chainalysis.
+answer: Chainalysis.
 
-Неверные ответы:
+wrong_answers:
   - JoinMarket.
   - Wabisabi.
   - Whirlpool.
 
-Объяснение: |
+explanation: |
   Chainalysis вообще не является реализацией coinjoin, поскольку это компания, занимающаяся анализом блокчейна.

@@ -1,13 +1,13 @@
-Вопрос: Какая опция позволяет включить или отключить транспорт P2P V2 в файле конфигурации Bitcoin Core?
+question: Какая опция позволяет включить или отключить транспорт P2P V2 в файле конфигурации Bitcoin Core?
 
-Ответ: v2transport=
+answer: v2transport=
 
-Неверные ответы:
+wrong_answers:
   - p2penable=
   - networkv2=
   - enablev2=
 
-Объяснение: |
+explanation: |
   Транспорт P2P V2 может быть изменен с помощью опции v2transport= в файле конфигурации узла Core.
 
-Проверено: false
+reviewed: false
