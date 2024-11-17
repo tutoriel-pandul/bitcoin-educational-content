@@ -1,10 +1,10 @@
-Küsimus: Mis on peamine eelis oma kaevandusseadmete omamisel?
-Vanswer: Värske bitcoinide hankimine.
-Valed vastused:
+question: Mis on peamine eelis oma kaevandusseadmete omamisel?
+answer: Värske bitcoinide hankimine.
+wrong_answers:
   - Vajadusest otse Bitcoini osta mööda hiilimine.
   - Kasumi teenimine seadmete hilisemal müügil.
   - Teiste kaevurite usaldamise vajadusest mööda hiilimine.
-Selgitus: |
+explanation: |
   Oma kaevandusseadmete omamine pakub märkimisväärseid
   eeliseid. Lisaks isiklikule rahulolule aktiivselt panustamisest
   Bitcoini võrgu turvalisusesse ja preemiate nägemisest oma rahakotis,
