@@ -1,11 +1,11 @@
-küsimus: Mis on üks eelis Bitcoini aktsepteerimisel kaupmehena?
-vastus: Tsensuurikindlus
-valed_vastused:
+question: Mis on üks eelis Bitcoini aktsepteerimisel kaupmehena?
+answer: Tsensuurikindlus
+wrong_answers:
   - Suurenenud tehingutasud
   - Kaitse deflatsiooni vastu
   - Finantspiirangud
-selgitus: >-
+explanation: >-
   Bitcoini aktsepteerimisel kaupmehena on mitmeid eeliseid, sealhulgas tsensuurikindlus,
   vähendatud tehingutasud, suurenenud efektiivsus, kaitse inflatsiooni vastu,
   samuti finantsvabadus ja suveräänsus.
-üle vaadatud: false
+reviewed: false

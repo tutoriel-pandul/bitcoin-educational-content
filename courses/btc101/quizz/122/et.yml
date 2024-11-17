@@ -1,9 +1,9 @@
-küsimus: Mis on Bitcoini võrgu rütm?
-vastus: 10 minutit bloki kohta
-valed_vastused:
+question: Mis on Bitcoini võrgu rütm?
+answer: 10 minutit bloki kohta
+wrong_answers:
   - 10 sekundit bloki kohta
   - 10 minutit tehingu kohta
   - 10 sekundit tehingu kohta
-selgitus: |
+explanation: |
   Bitcoini võrgu rütm on 10 minutit bloki kohta. See on nagu Bitcoini rahandussüsteemi südamelöök.
-üle vaadatud: true
+reviewed: true

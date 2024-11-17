@@ -1,9 +1,9 @@
-küsimus: Mis protsessi nimega kinnitatakse tehinguid Bitcoin'i võrgus?
-vastus: Kaevandamine
-valed_vastused:
+question: Mis protsessi nimega kinnitatakse tehinguid Bitcoin'i võrgus?
+answer: Kaevandamine
+wrong_answers:
   - Kaevamine
   - Koristamine
   - Farmimine
-selgitus: |
+explanation: |
   Protsess, mis kinnitab tehinguid Bitcoin'i võrgus, on nimetatud kaevandamiseks. Kaevurid teostavad krüptograafilist ülesannet ja neid premeeritakse uute bitcoinide väljastamisega.
-üle vaadatud: true
+reviewed: true

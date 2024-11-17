@@ -1,9 +1,9 @@
-küsimus: Mis on vabaduse definitsioon, mille on andnud Lord Acton?
-vastus: Võim tegutseda vastavalt oma südametunnistusele isegi enamuse arvamuse vastu
-valed_vastused:
+question: Mis on vabaduse definitsioon, mille on andnud Lord Acton?
+answer: Võim tegutseda vastavalt oma südametunnistusele isegi enamuse arvamuse vastu
+wrong_answers:
   - Võime teha mida iganes soovitakse
   - Igasuguse piirangu puudumine
   - Kaitse väliste invasioonide vastu
-selgitus: |
+explanation: |
   Lord Acton määratleb vabaduse kui võime tegutseda vastavalt oma südametunnistusele, rõhutades üksikisiku võimet teha isiklikke otsuseid, isegi kui need lähevad vastu enamuse arvamusele.
-üle vaadatud: false
+reviewed: false

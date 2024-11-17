@@ -1,10 +1,10 @@
-küsimus: Mis eristab Bitcoini traditsioonilistest valuutadest, mida kontrollivad keskpangad või valitsused?
-vastus: Kõik eelnevad
-valed_vastused:
+question: Mis eristab Bitcoini traditsioonilistest valuutadest, mida kontrollivad keskpangad või valitsused?
+answer: Kõik eelnevad
+wrong_answers:
   - Bitcoin nõuab koostööd kaevurite, sõlmede ja arendajate vahel
   - Bitcoin lubab kõigil võrgus osaleda ja täita võtmerolle
   - Bitcoin toetub detsentraliseeritud konsensuse süsteemile
-selgitus: |
+explanation: |
   Selle, mis eristab Bitcoini traditsioonilistest fiat-valuutadest, teeb see, et see on 
   kolme olulise rolli ja kogukonna vaheline koostöö.
   Sõlmed tagavad võrgu terviklikkuse ja turvalisuse, toimides väravavahtidena.

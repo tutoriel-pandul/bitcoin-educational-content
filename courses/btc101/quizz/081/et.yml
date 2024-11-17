@@ -5,5 +5,5 @@ wrong_answers:
   - Kas rahakott võimaldab bitcoine vastu võtta ja saata?
   - Kas ma saan oma rahakotti teisele isikule jagada?
 explanation: |
-  Bitcoin'i rahakotti valides on keskne küsimus: Kas olete vahendite omanik või jätate oma raha kolmanda osapoole kontrolli alla? See on seetõttu, et privaatvõtme omanik on Bitcoinide omanik.
+  Bitcoin'i rahakotti valides on keskne question: Kas olete vahendite omanik või jätate oma raha kolmanda osapoole kontrolli alla? See on seetõttu, et privaatvõtme omanik on Bitcoinide omanik.
 reviewed: true

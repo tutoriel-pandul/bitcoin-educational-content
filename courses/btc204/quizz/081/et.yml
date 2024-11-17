@@ -1,13 +1,13 @@
-küsimus: Millist krüptograafilist meetodit kasutatakse selleks, et takistada koordinaatoril seostamast sisendeid ja väljundeid coinjoin'is?
+question: Millist krüptograafilist meetodit kasutatakse selleks, et takistada koordinaatoril seostamast sisendeid ja väljundeid coinjoin'is?
 
-vastus: Chaum pimedad allkirjad.
+answer: Chaum pimedad allkirjad.
 
-valed_vastused:
+wrong_answers:
   - Schnorri allkirjad.
   - P2SH aadressid.
   - P2TR aadressid.
 
-selgitus: |
+explanation: |
   Niinimetatud "Chaumiani" coinjoinides kasutatakse Tori ja David Chaumi pimedaid allkirju selleks, et tagada, et koordinaator ei saa teada, milline väljund kuulub millisele kasutajale.
 
-üle vaadatud: false
+reviewed: false

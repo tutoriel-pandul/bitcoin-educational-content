@@ -1,9 +1,9 @@
-küsimus: Kes lõi esimese kaevanduskooperatiivi, et toota plokk Bitcoinis?
-vastus: doublec
-valed_vastused:
+question: Kes lõi esimese kaevanduskooperatiivi, et toota plokk Bitcoinis?
+answer: doublec
+wrong_answers:
   - slush
   - puddinpop
   - m0mchil
-selgitus: |
+explanation: |
   Ta reklaamis seda 1. detsembril. Plokk [leiti](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 4. detsembril 2010. Slushi kooperatiiv seevastu käivitati 16. detsembril.
-üle vaadatud: false
+reviewed: false

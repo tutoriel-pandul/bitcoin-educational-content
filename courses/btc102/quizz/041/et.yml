@@ -1,9 +1,9 @@
-küsimus: Millele on Bitcoin omaseks?
-vastus: Internet
-valed_vastused:
+question: Millele on Bitcoin omaseks?
+answer: Internet
+wrong_answers:
   - Plokiahel
   - Pangandussüsteem
   - Aktsiaturg
-selgitus: |
+explanation: |
   Peatükk väidab, et Bitcoin on omaseks internetile, muutes selle kättesaadavaks kõigile, kellel on internetiühendus.
-üle vaadatud: false
+reviewed: false

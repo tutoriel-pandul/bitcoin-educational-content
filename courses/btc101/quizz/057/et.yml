@@ -1,9 +1,9 @@
-küsimus: Mis oli Zimbabwe inflatsioonimäär november 2008?
-vastus: 79,600,000,000%
-valed_vastused:
+question: Mis oli Zimbabwe inflatsioonimäär november 2008?
+answer: 79,600,000,000%
+wrong_answers:
   - 796%
   - 79,600,000,000,000,000%
   - 100%
-selgitus: |
+explanation: |
   November 2008, Zimbabwe valuuta kuu inflatsioonimäär tõusis 79,600,000,000%-ni, mis viis Zimbabwe dollari väärtuse nullini.
-üle vaadatud: true
+reviewed: true

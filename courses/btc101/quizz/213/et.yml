@@ -1,11 +1,11 @@
-küsimus: Mis on teksti järgi Bitcoini revolutsiooni peamine eesmärk?
-vastus: Luua maailm, kus inimlik suveräänsus on õigus, privaatsust austatakse vaikimisi ja raha ei manipuleerita
-valed_vastused:
+question: Mis on teksti järgi Bitcoini revolutsiooni peamine eesmärk?
+answer: Luua maailm, kus inimlik suveräänsus on õigus, privaatsust austatakse vaikimisi ja raha ei manipuleerita
+wrong_answers:
   - Luua maailm, kus Bitcoin on ainus valuuta
   - Luua maailm, kus valitsustel pole kontrolli
   - Luua maailm, kus füüsiline raha on iganenud
-selgitus: >-
+explanation: >-
   Tekst viitab sellele, et Bitcoini revolutsiooni peamine eesmärk on
   luua maailm, kus inimlik suveräänsus on õigus, privaatsust austatakse vaikimisi
   ja raha ei manipuleerita.
-üle vaadatud: false
+reviewed: false

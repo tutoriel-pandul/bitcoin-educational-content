@@ -1,9 +1,9 @@
-küsimus: Kes on Austria äritsükli teooria peamised pooldajad?
-vastus: Ludwig Von Mises ja Friedrich Hayek
-valed_vastused:
+question: Kes on Austria äritsükli teooria peamised pooldajad?
+answer: Ludwig Von Mises ja Friedrich Hayek
+wrong_answers:
   - John Maynard Keynes ja Milton Friedman
   - Adam Smith ja David Ricardo
   - Karl Marx ja Friedrich Engels
-selgitus: |
+explanation: |
   Austria äritsükli teooria töötasid välja Ludwig Von Mises ja Friedrich Hayek, kes mõlemad olid Austria majanduskoolkonna silmapaistvad liikmed.
-üle vaadatud: false
+reviewed: false

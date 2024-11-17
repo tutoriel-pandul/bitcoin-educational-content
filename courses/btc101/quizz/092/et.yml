@@ -1,12 +1,12 @@
-küsimus: Mis on multisig rahakoti soovitatav kasutusviis?
-vastus: Suurte summade jaoks ettevõtte kasutuses
+question: Mis on multisig rahakoti soovitatav kasutusviis?
+answer: Suurte summade jaoks ettevõtte kasutuses
 vale_vastused:
   - Väikeste summade jaoks isiklikus kasutuses
   - Keskmiste summade jaoks mittetulunduslikus kasutuses
   - Igapäevaste kulutuste jaoks individuaalses kasutuses
-selgitus: |
+explanation: |
   Multisig rahakotti soovitatakse suurte summade ja ettevõtte kasutuse jaoks,
   kuna see nõuab tehingu sooritamiseks mitme allkirja olemasolu. See lisab täiendava
   turvakihi, kuna see tähendab, et üksikisik ei saa tehingut sooritada
   ilma teiste nõusolekuta.
-üle vaadatud: true
+reviewed: true

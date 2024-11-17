@@ -1,10 +1,10 @@
-küsimus: Mis on valuuta arengulugu?
-vastus: Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Plokiahel -> Lightning Network
-valed_vastused:
+question: Mis on valuuta arengulugu?
+answer: Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Plokiahel -> Lightning Network
+wrong_answers:
   - Toores kivi -> Münt -> Pangatäht -> Plokiahel -> Lightning Network
   - Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Lightning Network
   - Toores kivi -> Münt -> Pangatäht -> Pangakaart -> Plokiahel
-selgitus: |
+explanation: |
   Valuuta, nagu iga tehnoloogia, on arenenud toorest kivist
   metallmündiks, seejärel pangatäheks, pangakaardiks ja lõpuks eakaaslastevahelisteks võrgustikeks Bitcoin'i plokiahelaga ja Lightning Network'iga.
-üle vaadatud: true
+reviewed: true

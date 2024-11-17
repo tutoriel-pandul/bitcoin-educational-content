@@ -1,11 +1,11 @@
-küsimus: Mis on veebilehe Have I Been Pwned eesmärk?
-vastus: Kontrollida, kas sinu e-posti aadress on kompromiteeritud ja teavitada tulevastest andmeleketest.
-valed_vastused:
+question: Mis on veebilehe Have I Been Pwned eesmärk?
+answer: Kontrollida, kas sinu e-posti aadress on kompromiteeritud ja teavitada tulevastest andmeleketest.
+wrong_answers:
   - Kontrollida, kas sinu e-posti aadress on kehtiv.
   - Kontrollida, kas sinu e-posti aadress on saadaval.
   - Kontrollida, kas sinu e-posti aadress on blokeeritud.
-selgitus: |
+explanation: |
   Veebileht Have I Been Pwned võimaldab sul kontrollida, kas sinu e-posti aadress
 
   on kompromiteeritud andmelekke käigus ja teavitab sind tulevastest andmeleketest.
-üle vaadatud: false
+reviewed: false

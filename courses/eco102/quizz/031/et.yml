@@ -1,9 +1,9 @@
-küsimus: Mida ütleb Rousseau üksikisiku muutumise kohta kodanikuks?
-vastus: Me hakkame saama inimesteks alles pärast seda, kui oleme olnud kodanikud
-valed_vastused:
+question: Mida ütleb Rousseau üksikisiku muutumise kohta kodanikuks?
+answer: Me hakkame saama inimesteks alles pärast seda, kui oleme olnud kodanikud
+wrong_answers:
   - Me hakkame saama kodanikeks alles lepinguga
   - Me saame kodanikeks alles pärast seda, kui oleme olnud võrdsed
   - Kodanikuks saamine eelneb kodakondsusele
-selgitus: |
+explanation: |
   Rousseau väidab, et üksikisik saab täielikult "inimeseks" läbides etapi olemisest kodanik, seega seob isikliku täitumise sotsiaalse integratsiooniga.
-üle vaadatud: false
+reviewed: false

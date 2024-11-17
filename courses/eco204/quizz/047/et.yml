@@ -1,13 +1,13 @@
-küsimus: Mis oli digitaalse bolívari vahetuskurss Venezuelas 2021. aastal?
-vastus: Üks miljon ühele.
-valed_vastused:
+question: Mis oli digitaalse bolívari vahetuskurss Venezuelas 2021. aastal?
+answer: Üks miljon ühele.
+wrong_answers:
   - Üks tuhat ühele.
   - Kümme tuhat ühele.
   - Sada tuhat ühele.
-selgitus: |
+explanation: |
   2021. aastal asendati Venezuela digitaalne bolívar uue
   
   redenominatsiooniga
   
   üks miljon ühele.
-üle vaadatud: false
+reviewed: false

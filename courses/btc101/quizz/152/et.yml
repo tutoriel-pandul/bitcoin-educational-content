@@ -1,9 +1,9 @@
-küsimus: Mis on HashRate?
-vastus: Koguhulk katseid leida õige number Proof of Work'is.
+question: Mis on HashRate?
+answer: Koguhulk katseid leida õige number Proof of Work'is.
 vale_vastused:
   - Kiirus, millega kaevur saab lahendada Proof of Work'i.
   - Kaevurite koguarv Bitcoin'i võrgustikus.
   - Kaevandatud bitcoinide koguhulk.
-selgitus: >-
+explanation: >-
   HashRate viitab kaevurite poolt sekundis tehtavate katsete koguarvule lahendada Proof of Work. See on mõõdupuu Bitcoin'i võrgustiku arvutusvõimsuse kohta.
 reviewed: false

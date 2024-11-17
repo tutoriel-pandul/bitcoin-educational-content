@@ -1,9 +1,9 @@
-küsimus: Mis on üks lahendus suurtele struktuuridele või kirglikele bitcoinide kasutajatele, et aktsepteerida Bitcoini?
-vastus: BTCpay Server
-valed_vastused:
+question: Mis on üks lahendus suurtele struktuuridele või kirglikele bitcoinide kasutajatele, et aktsepteerida Bitcoini?
+answer: BTCpay Server
+wrong_answers:
   - Bitcoin Wallet
   - Bitcoin Exchange
   - Bitcoin Mining
-selgitus: >
+explanation: >
   BTCpay Server on lahendus suurtele struktuuridele või kirglikele bitcoinide kasutajatele, et aktsepteerida Bitcoini. Teised lahendused hõlmavad OpenNode'i lihtsatele online-ettevõtetele ja Swiss Bitcoin Pay'd amatöörkauplejatele.
-üle vaadatud: false
+reviewed: false
