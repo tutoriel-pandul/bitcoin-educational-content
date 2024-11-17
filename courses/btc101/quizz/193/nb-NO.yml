@@ -1,9 +1,9 @@
-spørsmål: Hva er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle?
-svar: BTCMap
-feil_svar:
+question: Hva er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle?
+answer: BTCMap
+feil_answer:
   - Bitcoin Exchange
   - Bitcoin Mining
   - Bitcoin Lottery
-forklaring: >-
+explanation: >-
   BTCMap er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle. Det er et åpen kildekode- og samarbeidsprosjekt som lister opp alle handelsmenn som aksepterer Bitcoin, samt de forskjellige Bitcoin-samfunnene rundt om i verden.
 reviewed: false

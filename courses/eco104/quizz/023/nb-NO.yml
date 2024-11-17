@@ -1,10 +1,10 @@
-spørsmål: Hvor mange land i verden begrenser kvinner fra å åpne bankkontoer i sitt eget navn?
-svar: 72
-feil_svar:
+question: Hvor mange land i verden begrenser kvinner fra å åpne bankkontoer i sitt eget navn?
+answer: 72
+feil_answer:
   - 36
   - 75
   - 100
-forklaring: |
+explanation: |
   I 72 land rundt om i verden er kvinner ikke tillatt å åpne 
   bankkontoer i sine egne navn.
-gjennomgått: true
+reviewed: true

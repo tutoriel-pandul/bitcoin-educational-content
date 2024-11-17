@@ -1,10 +1,10 @@
-spørsmål: Hva antyder teksten om fremtiden til Bitcoin?
-svar: Den kommer ikke til å forsvinne
-feil_svar:
+question: Hva antyder teksten om fremtiden til Bitcoin?
+answer: Den kommer ikke til å forsvinne
+feil_answer:
   - Den vil bli erstattet av en bedre teknologi
   - Den vil bli forbudt over hele verden
   - Den vil miste sin verdi
-forklaring: >-
+explanation: >-
   Teksten antyder at Bitcoin ikke kommer til å forsvinne. Tvert imot,
   revolusjonen har nettopp begynt.
-gjennomgått: false
+reviewed: false

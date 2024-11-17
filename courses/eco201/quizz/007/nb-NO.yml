@@ -1,9 +1,9 @@
-spørsmål: Hvem blir takket for å ha produsert kurset?
-svar: "Théo Mogenet"
-feil_svar:
+question: Hvem blir takket for å ha produsert kurset?
+answer: "Théo Mogenet"
+feil_answer:
   - Descoupes Bitcoin
   - "Théo Boloré"
   - Ingen av de ovennevnte
-forklaring: |
+explanation: |
   "Kapittelet nevner at Théo blir takket for å ha produsert kurset."
-gjennomgått: false
+reviewed: false
