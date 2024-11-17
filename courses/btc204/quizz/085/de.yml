@@ -1,13 +1,13 @@
-Frage: Welches spezifische Benutzerzuordnungsmodell wird von JoinMarket verwendet?
+question: Welches spezifische Benutzerzuordnungsmodell wird von JoinMarket verwendet?
 
-Antwort: P2P-Markt zwischen Anbietern und Nachfragern.
+answer: P2P-Markt zwischen Anbietern und Nachfragern.
 
 Falsche Antworten:
   - Server, der Teilnehmer zufällig zuordnet.
   - Börsen basierend auf holländischen Auktionen.
   - Vermittlungsdienst, der manuell Teilnehmer auswählt.
 
-Erklärung: |
+explanation: |
   JoinMarket funktioniert auf einem P2P-Tauschmarkt, auf dem einige Benutzer, die "Anbieter", ihre Bitcoins zum Mischen anbieten, während andere, die "Nachfrager", diese Mittel nutzen, um CoinJoins gegen eine Gebühr durchzuführen.
 
 Überprüft: false

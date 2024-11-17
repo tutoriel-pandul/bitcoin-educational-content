@@ -1,11 +1,11 @@
-Frage: Was ist der erste Angriffsvektor für Hacker?
-Antwort: E-Mails
-falsche_Antworten:
+question: Was ist der erste Angriffsvektor für Hacker?
+answer: E-Mails
+wrong_answers:
   - Soziale Medien
   - Online-Shopping-Websites
   - Banken-Websites
-Erklärung: |
+explanation: |
   E-Mails sind der erste Angriffsvektor für Hacker. Sie nutzen
   Phishing-Versuche, um sensible Informationen wie
   Ihre Zugangsdaten und Passwörter zu extrahieren.
-überprüft: false
+reviewed: false

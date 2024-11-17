@@ -1,9 +1,9 @@
-Frage: Was ist einer der Gründe, warum Sie Ihre UTXOs in Ihren Wallets von Zeit zu Zeit konsolidieren sollten?
-Antwort: Um unnötige Gebühren bei Transaktionen zu vermeiden.
-falsche_Antworten:
+question: Was ist einer der Gründe, warum Sie Ihre UTXOs in Ihren Wallets von Zeit zu Zeit konsolidieren sollten?
+answer: Um unnötige Gebühren bei Transaktionen zu vermeiden.
+wrong_answers:
   - Um den Wert Ihrer Bitcoins zu erhöhen.
   - Um zu verhindern, dass Ihre Bitcoins gestohlen werden.
   - Um sicherzustellen, dass Ihre Bitcoins immer verfügbar sind.
-Erklärung: >-
+explanation: >-
   Der Text erwähnt, dass das Konsolidieren Ihrer UTXOs in Ihren Wallets von Zeit zu Zeit wesentlich ist, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
-überprüft: true
+reviewed: true

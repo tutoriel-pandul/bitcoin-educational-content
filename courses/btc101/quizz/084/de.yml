@@ -1,12 +1,12 @@
-Frage: Was sollte die Hauptbesorgnis sein, wenn man Bitcoin besitzt?
-Antwort: Die Sicherheit Ihrer Geldmittel.
-falsche_Antworten:
+question: Was sollte die Hauptbesorgnis sein, wenn man Bitcoin besitzt?
+answer: Die Sicherheit Ihrer Geldmittel.
+wrong_answers:
   - Der Wert von Bitcoin in Dollar.
   - Die Legalität des Besitzes von Bitcoins.
   - Die Erlaubnis, Ihre Geldmittel auszugeben.
-Erklärung: |
+explanation: |
   Wenn man Bitcoins besitzt, ist die primäre Sorge die Sicherheit
   Ihrer Geldmittel. Dies liegt daran, dass Bitcoin, wie jede andere
   Form von Währung, gestohlen oder verloren gehen kann, wenn sie nicht
   ordnungsgemäß gesichert ist.
-überprüft: true
+reviewed: true

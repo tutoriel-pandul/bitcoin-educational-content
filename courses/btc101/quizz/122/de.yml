@@ -1,9 +1,9 @@
-Frage: Wie hoch war die Online-Verfügbarkeit von Bitcoin seit 2009?
-Antwort: 99,988 %.
-falsche_Antworten:
+question: Wie hoch war die Online-Verfügbarkeit von Bitcoin seit 2009?
+answer: 99,988 %.
+wrong_answers:
   - 100 %.
   - 90,009 %.
   - 80,17 %.
-Erklärung: |
+explanation: |
   Die Online-Verfügbarkeit von Bitcoin beträgt seit 2009 99,988 %.
-überprüft: true
+reviewed: true

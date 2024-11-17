@@ -1,9 +1,9 @@
-Frage: Wo werden private Schlüssel gespeichert?
-Antwort: In Bitcoin-Wallets
-falsche_Antworten:
+question: Wo werden private Schlüssel gespeichert?
+answer: In Bitcoin-Wallets
+wrong_answers:
   - Auf der Blockchain
   - Auf Bitcoin-Community-Servern.
   - Im Peer-to-Peer-Netzwerk.
-Erklärung: |
+explanation: |
   Das Wallet enthält die privaten Schlüssel, die notwendig sind, um auf Bitcoins zuzugreifen.
-überprüft: false
+reviewed: false

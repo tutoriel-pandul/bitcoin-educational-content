@@ -1,8 +1,8 @@
-Frage: In welchem religiösen Kontext entstand der Kapitalismus?
-Antwort: Im Kontext des Christentums.
-falsche_Antworten:
+question: In welchem religiösen Kontext entstand der Kapitalismus?
+answer: Im Kontext des Christentums.
+wrong_answers:
   - Im Kontext des Islams.
   - Im Kontext des Judentums.
   - Im Kontext des Heidentums.
-Erklärung: |
+explanation: |
   Der Kapitalismus entstand im Kontext des mittelalterlichen Christentums in Europa, wo sich Handelsstädte und wirtschaftliche Praktiken entwickelten, trotz religiöser Einschränkungen bezüglich zinsbringender Darlehen und Wucher.

@@ -1,9 +1,9 @@
-Frage: Warum könnte ein Verkäufer eine fiktive Zahlung in einem Kanal tätigen?
-Antwort: Um Liquidität auf die gegenüberliegende Seite zu verschieben
-falsche_Antworten:
+question: Warum könnte ein Verkäufer eine fiktive Zahlung in einem Kanal tätigen?
+answer: Um Liquidität auf die gegenüberliegende Seite zu verschieben
+wrong_answers:
   - Um die Routing-Gebühren zu senken
   - Um die Gesamtkapazität ihrer Kanäle zu erhöhen
   - Um Mittel langfristig zu binden
-Erklärung: |
+explanation: |
   Indem ein Verkäufer eine fiktive Zahlung tätigt, verschiebt er Liquidität von seiner Seite auf die gegenüberliegende Seite des Kanals und schafft dadurch eingehende Kapazität, um Zahlungen zu empfangen.
-überprüft: false
+reviewed: false

@@ -1,9 +1,9 @@
-Frage: Im Vergleich zu Fiat-Währungen, wie wird Bitcoin wahrgenommen?
-Antwort: Als eine parallele Wirtschaft.
-falsche_Antworten:
+question: Im Vergleich zu Fiat-Währungen, wie wird Bitcoin wahrgenommen?
+answer: Als eine parallele Wirtschaft.
+wrong_answers:
   - Als eine Ersatzwirtschaft.
   - Als eine Industriewirtschaft.
   - Als eine tertiäre Wirtschaft.
-Erklärung: >-
+explanation: >-
   Bitcoin wird als eine parallele Wirtschaft zu Fiat-Währungen angesehen, was bedeutet, dass es neben traditionellen Wirtschaftssystemen operiert und direkt für Transaktionen verwendet werden kann, ohne dass eine Umwandlung über eine Austauschplattform notwendig ist.
-überprüft: true
+reviewed: true

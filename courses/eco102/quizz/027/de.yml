@@ -1,9 +1,9 @@
-Frage: Welche Philosophie inspirierte Cobdens wirtschaftliche Vision?
-Antwort: Benthams Utilitarismus
-falsche_Antworten:
+question: Welche Philosophie inspirierte Cobdens wirtschaftliche Vision?
+answer: Benthams Utilitarismus
+wrong_answers:
   - Smiths Liberalismus
   - Fouriers Sozialismus
   - Rousseaus Egalitarismus
-Erklärung: |
+explanation: |
   Cobden wurde von Benthams Utilitarismus beeinflusst, der das Wohlergehen der größten Zahl durch freien Handel schätzte.
-überprüft: false
+reviewed: false

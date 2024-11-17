@@ -1,9 +1,9 @@
-Frage: Wie hoch ist die ungefähre Anzahl der weltweit verteilten Knotenpunkte Stand September 2023?
-Antwort: 45.000 Knotenpunkte.
+question: Wie hoch ist die ungefähre Anzahl der weltweit verteilten Knotenpunkte Stand September 2023?
+answer: 45.000 Knotenpunkte.
 Falsche Antworten:
   - 10.000 Knotenpunkte.
   - 100.000 Knotenpunkte.
   - 500.000 Knotenpunkte.
-Erklärung: >-
+explanation: >-
   Stand September 2023 gibt es ungefähr 45.000 weltweit verteilte Knotenpunkte.
 Überprüft: true

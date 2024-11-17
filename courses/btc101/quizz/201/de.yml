@@ -1,12 +1,12 @@
-Frage: Was ist der Zweck von KYC-Regulierungen?
-Antwort: Die Bekämpfung der Finanzierung von Terrorismus, Steuerhinterziehung und Geldwäsche.
-falsche_Antworten:
+question: Was ist der Zweck von KYC-Regulierungen?
+answer: Die Bekämpfung der Finanzierung von Terrorismus, Steuerhinterziehung und Geldwäsche.
+wrong_answers:
   - Den Preis von Bitcoin zu erhöhen und den Nutzer mehr Steuern zahlen zu lassen.
   - Die Versorgung von Bitcoin zu kontrollieren.
   - Zu verhindern, dass Menschen Bitcoin kaufen.
-Erklärung: |
+explanation: |
   Der Kursinhalt erklärt, dass "Know Your Customer" (KYC)
   Regulierungen verlangen, dass Nutzer sich identifizieren, um
   die Finanzierung von Terrorismus, Steuerhinterziehung und
   Geldwäsche zu bekämpfen.
-überprüft: true
+reviewed: true

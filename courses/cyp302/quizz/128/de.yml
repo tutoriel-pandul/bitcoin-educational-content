@@ -1,9 +1,9 @@
-Frage: Welches schwierige Rechenproblem ist mit asymmetrischen Systemen wie RSA verbunden?
-Antwort: Primzahlenfaktorisierung
-falsche_Antworten:
+question: Welches schwierige Rechenproblem ist mit asymmetrischen Systemen wie RSA verbunden?
+answer: Primzahlenfaktorisierung
+wrong_answers:
   - Exponentielle Multiplikation von Ganzzahlen
   - Die Erstellung von langen Zufallszahlen
   - Sicherer Schlüsselaustausch
-Erklärung: |
+explanation: |
   RSA basiert auf der Schwierigkeit der Primzahlenfaktorisierung, einer rechnerisch anspruchsvollen Aufgabe, die das Kryptosystem gegen Angriffe sicher macht.
-überprüft: false
+reviewed: false

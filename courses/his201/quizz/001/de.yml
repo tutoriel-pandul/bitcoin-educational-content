@@ -1,9 +1,9 @@
-Frage: Welche Kryptografen haben das RSA-Kryptosystem im Jahr 1978 entwickelt?
-Antwort: Ronald Rivest, Adi Shamir und Leonard Adleman
-falsche_Antworten:
+question: Welche Kryptografen haben das RSA-Kryptosystem im Jahr 1978 entwickelt?
+answer: Ronald Rivest, Adi Shamir und Leonard Adleman
+wrong_answers:
   - Whitfield Diffie, Martin Hellman und Ralph Merkle
   - Marc Girault, Guillaume Poupard und Jacques Stern
   - Alfred Menezes, Minghua Qu und Scott Vanstone
-Erklärung: |
+explanation: |
   Rivest, Shamir und Adleman benannten den RSA-Algorithmus nach ihren drei Initialen.
-überprüft: false
+reviewed: false

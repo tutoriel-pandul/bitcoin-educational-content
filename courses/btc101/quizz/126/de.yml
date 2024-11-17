@@ -1,12 +1,12 @@
-Frage: Was ist eine Bitcoin-Transaktion?
-Antwort: Eine Übertragung des Eigentums von Bitcoins unter Verwendung von Kryptographie.
-falsche_Antworten:
+question: Was ist eine Bitcoin-Transaktion?
+answer: Eine Übertragung des Eigentums von Bitcoins unter Verwendung von Kryptographie.
+wrong_answers:
   - Ein physischer Austausch von Bitcoins unter Verwendung eines Notars.
   - Eine Übertragung des Eigentums von Bitcoins unter Verwendung einer physischen Adresse.
   - Eine Übertragung des Eigentums von Bitcoins unter Verwendung einer E-Mail-Adresse.
-Erklärung: |
+explanation: |
   Eine Bitcoin-Transaktion ist eine digitale Übertragung des
   Eigentums von Bitcoins, durch die Verwendung einer Bitcoin-Adresse,
   die dank der Elliptischen-Kurven-Kryptographie abgeleitet wird. Diese
   Adresse ist einzigartig für das Wallet der Person, die die Bitcoins erhält.
-überprüft: true
+reviewed: true

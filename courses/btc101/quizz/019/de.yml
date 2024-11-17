@@ -1,12 +1,12 @@
-Frage: Was sind die drei kanonischen Funktionen des Geldes?
-Antwort: Wertaufbewahrungsmittel, Tauschmittel, Recheneinheit.
-falsche_Antworten:
+question: Was sind die drei kanonischen Funktionen des Geldes?
+answer: Wertaufbewahrungsmittel, Tauschmittel, Recheneinheit.
+wrong_answers:
   - Wertaufbewahrungsmittel, Tauschmittel, Produktionsmittel.
   - Wertaufbewahrungsmittel, Produktionsmittel, Recheneinheit.
   - Tauschmittel, Produktionsmittel, Recheneinheit.
-Erklärung: |
+explanation: |
   Nach Aristoteles erfüllt Geld drei Funktionen: Es ist
   ein Wertaufbewahrungsmittel, ein Tauschmittel und eine
   Recheneinheit. Heutzutage wird die Funktion als Tauschmittel
   weitgehend als die Hauptfunktion angesehen, vor den anderen beiden.
-überprüft: true
+reviewed: true

@@ -1,9 +1,9 @@
-Frage: Was sind die zwei Arten der Schlüsselableitung bei einem HD-Wallet?
-Antwort: Normale Ableitung und gehärtete Ableitung.
-falsche_Antworten:
+question: Was sind die zwei Arten der Schlüsselableitung bei einem HD-Wallet?
+answer: Normale Ableitung und gehärtete Ableitung.
+wrong_answers:
   - Einfache Ableitung und komplexe Ableitung.
   - Elliptische Ableitung und Kurvenableitung.
   - Statische Ableitung und dynamische Ableitung.
-Erklärung: |
+explanation: |
   Die zwei Arten der Ableitung sind die normale Ableitung, die den öffentlichen Schlüssel des Elternteils verwendet, und die gehärtete Ableitung, die den privaten Schlüssel des Elternteils verwendet.
-überprüft: false
+reviewed: false

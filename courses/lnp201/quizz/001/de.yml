@@ -1,9 +1,9 @@
-Frage: Was ist die "Kapazität" eines Zahlungskanals?
-Antwort: Der Gesamtbetrag der Mittel, den die beiden Teilnehmer austauschen können
-falsche_Antworten:
+question: Was ist die "Kapazität" eines Zahlungskanals?
+answer: Der Gesamtbetrag der Mittel, den die beiden Teilnehmer austauschen können
+wrong_answers:
   - Die Zeitgrenze, für die der Kanal offen bleiben kann
   - Der maximale Betrag, den ein Teilnehmer in einer einzelnen Transaktion senden kann
   - Die Anzahl der Transaktionen, die ein Kanal pro Tag unterstützen kann
-Erklärung: |
+explanation: |
   Die Kapazität des Kanals entspricht den Gesamtmitteln der beiden Teilnehmer und bleibt festgelegt, um die möglichen Austausche zu bestimmen.
-überprüft: false
+reviewed: false

@@ -1,11 +1,11 @@
-Frage: Welche Lösungen gibt es für die Datenverschlüsselung auf verschiedenen Betriebssystemen?
-Antwort: BitLocker für Windows, LUKS für Linux und die integrierte Option für Mac.
-falsche_Antworten:
+question: Welche Lösungen gibt es für die Datenverschlüsselung auf verschiedenen Betriebssystemen?
+answer: BitLocker für Windows, LUKS für Linux und die integrierte Option für Mac.
+wrong_answers:
   - BitLocker für Linux, LUKS für Mac und die integrierte Option für Windows.
   - BitLocker für Mac, LUKS für Windows und die integrierte Option für Linux.
   - LUKS für alle Betriebssysteme.
-Erklärung: |
+explanation: |
   Verschiedene Betriebssysteme haben unterschiedliche Lösungen für
   die Datenverschlüsselung. BitLocker ist für Windows, LUKS ist für
   Linux und Mac hat eine integrierte Option für die Datenverschlüsselung.
-überprüft: true
+reviewed: true

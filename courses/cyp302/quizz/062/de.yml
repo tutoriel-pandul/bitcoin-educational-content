@@ -1,9 +1,9 @@
-Frage: Welche Art von symmetrischer Verschlüsselung wird hauptsächlich für kontinuierliche Kommunikationen, wie Audio- oder Videostreams, verwendet?
-Antwort: Stream-Verschlüsselung
-falsche_Antworten:
+question: Welche Art von symmetrischer Verschlüsselung wird hauptsächlich für kontinuierliche Kommunikationen, wie Audio- oder Videostreams, verwendet?
+answer: Stream-Verschlüsselung
+wrong_answers:
   - Blockverschlüsselung
   - Verifizierungscode
   - Nachrichten-Hashing
-Erklärung: |
+explanation: |
   Die Stream-Verschlüsselung eignet sich besonders für kontinuierliche Kommunikationen, da sie Daten kontinuierlich verschlüsselt, im Gegensatz zur Blockverschlüsselung, die sie in Blöcke unterteilt.
-überprüft: false
+reviewed: false

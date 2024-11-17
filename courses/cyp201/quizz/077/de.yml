@@ -1,9 +1,9 @@
-Frage: Wie wird die Prüfsumme einer Legacy-Adresse berechnet?
-Antwort: Mit HASH256.
-falsche_Antworten:
+question: Wie wird die Prüfsumme einer Legacy-Adresse berechnet?
+answer: Mit HASH256.
+wrong_answers:
   - Mit HASH160.
   - Mit einem BCH-Code.
   - Mit RIPEMD160.
-Erklärung: |
+explanation: |
   Für Legacy-Adressen wird die Prüfsumme durch eine doppelte Hash-Berechnung mit der SHA256-Funktion (HASH256) ermittelt.
-überprüft: false
+reviewed: false

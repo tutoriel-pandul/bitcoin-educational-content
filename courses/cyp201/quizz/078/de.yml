@@ -1,9 +1,9 @@
-Frage: Hier ist eine Sequenz von Dezimalzahlen (10 25 13 18 02 31). Was ist die korrekte Umwandlung in Bech32?
-Antwort: 2edjzl
+question: Hier ist eine Sequenz von Dezimalzahlen (10 25 13 18 02 31). Was ist die korrekte Umwandlung in Bech32?
+answer: 2edjzl
 Falsche Antworten:
   - 2udjpr
   - 2uaz2c
   - 3bdjsr
-Erklärung: |
+explanation: |
   Die Umwandlung von Dezimalzahlen in Bech32 erfolgt über eine spezifische Korrespondenztabelle, und die Sequenz 10 25 13 18 02 31 entspricht 2edjzl.
 Überprüft: false

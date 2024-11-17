@@ -1,9 +1,9 @@
-Frage: Um die Werte des Master-Schlüssels und des Master-Chain-Codes zu berechnen, ist die erste Eingabe für die HMAC-SHA512-Funktion der Seed. Was ist der zweite Eingabewert dieser Funktion, der als Schlüssel dient?
-Antwort: „Bitcoin seed“.
-falsche_Antworten:
+question: Um die Werte des Master-Schlüssels und des Master-Chain-Codes zu berechnen, ist die erste Eingabe für die HMAC-SHA512-Funktion der Seed. Was ist der zweite Eingabewert dieser Funktion, der als Schlüssel dient?
+answer: „Bitcoin seed“.
+wrong_answers:
   - Die mnemonische Phrase.
   - Das Passwort.
   - „Seed“.
-Erklärung: |
+explanation: |
   Der String „Bitcoin seed“ wird als Schlüssel in HMAC-SHA512 verwendet, um den Master-Schlüssel und den Master-Chain-Code aus dem Seed abzuleiten.
-überprüft: false
+reviewed: false

@@ -1,10 +1,10 @@
-Frage: Welche Programmiersprachen werden in der Cybersicherheit verwendet?
-Antwort: Python, C, Java
-falsche_Antworten:
+question: Welche Programmiersprachen werden in der Cybersicherheit verwendet?
+answer: Python, C, Java
+wrong_answers:
   - HTML, CSS, JavaScript
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
-Erklärung: |
+explanation: |
   Das Kapitel listet Python, C und Java als einige der
   Programmiersprachen auf, die in der Cybersicherheit verwendet werden.
-überprüft: true
+reviewed: true

@@ -1,9 +1,9 @@
-Frage: Was ist die Variable, die es ermöglicht, Geschwister-Schlüsselpaare voneinander zu unterscheiden (die dasselbe Elternpaar haben)?
-Antwort: Der Index.
-falsche_Antworten:
+question: Was ist die Variable, die es ermöglicht, Geschwister-Schlüsselpaare voneinander zu unterscheiden (die dasselbe Elternpaar haben)?
+answer: Der Index.
+wrong_answers:
   - Das kryptografische Salz.
   - Der Vorname.
   - Der Eltern-Chain-Code.
-Erklärung: |
+explanation: |
   Der Index wird verwendet, um Geschwister-Schlüsselpaare, die vom selben Elternpaar in einer HD-Wallet abgeleitet wurden, voneinander zu unterscheiden.
-überprüft: false
+reviewed: false

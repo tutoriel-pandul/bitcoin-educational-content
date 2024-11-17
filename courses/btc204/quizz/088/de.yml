@@ -1,13 +1,13 @@
-Frage: Welche Strategie verwendet Wabisabi, um die Anonymitätsmengen der Teilnehmer zu erhöhen?
+question: Welche Strategie verwendet Wabisabi, um die Anonymitätsmengen der Teilnehmer zu erhöhen?
 
-Antwort: Mit einigen sehr großen Transaktionen.
+answer: Mit einigen sehr großen Transaktionen.
 
 Falsche Antworten:
   - Mit vielen sehr kleinen Transaktionen.
   - Mit einer einzigen kleinen Transaktion.
   - Ohne Transaktionen.
 
-Erklärung: |
+explanation: |
   Um die Anonymitätsmengen der Teilnehmer zu erhöhen, verwendet Wabisabi sehr große CoinJoin-Transaktionen, die Dutzende von Teilnehmern zusammenfassen.
 
 Überprüft: false

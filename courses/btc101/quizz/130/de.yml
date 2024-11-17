@@ -1,11 +1,11 @@
-Frage: Warum ist die Anzahl der Bestätigungen bei einer Bitcoin-Transaktion wichtig?
-Antwort: Je mehr Bestätigungen eine Transaktion hat, desto unveränderlicher wird sie.
-falsche_Antworten:
+question: Warum ist die Anzahl der Bestätigungen bei einer Bitcoin-Transaktion wichtig?
+answer: Je mehr Bestätigungen eine Transaktion hat, desto unveränderlicher wird sie.
+wrong_answers:
   - Je mehr Bestätigungen eine Transaktion hat, desto wertvoller wird sie.
   - Je mehr Bestätigungen eine Transaktion hat, desto schneller wird sie verarbeitet.
   - Je mehr Bestätigungen eine Transaktion hat, desto weniger sicher ist sie.
-Erklärung: >-
+explanation: >-
   Die Anzahl der Bestätigungen bei einer Bitcoin-Transaktion zeigt an, wie viele
   Blöcke auf den Block, der die Transaktion enthält, abgebaut wurden. Je mehr
   Bestätigungen eine Transaktion hat, desto unveränderlicher wird sie.
-überprüft: true
+reviewed: true

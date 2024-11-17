@@ -1,9 +1,9 @@
-Frage: Mit einem erweiterten öffentlichen Schlüssel kann ich ableiten...
-Antwort: ...normale Kind-öffentliche Schlüssel.
-falsche_Antworten:
+question: Mit einem erweiterten öffentlichen Schlüssel kann ich ableiten...
+answer: ...normale Kind-öffentliche Schlüssel.
+wrong_answers:
   - ...gehärtete Kind-öffentliche Schlüssel.
   - ...normale Kind-private Schlüssel.
   - ...gehärtete Kind-private Schlüssel.
-Erklärung: |
+explanation: |
   Ein erweiterter öffentlicher Schlüssel ermöglicht nur die Ableitung von normalen Kind-öffentlichen Schlüsseln, jedoch nicht von privaten Schlüsseln.
-überprüft: false
+reviewed: false

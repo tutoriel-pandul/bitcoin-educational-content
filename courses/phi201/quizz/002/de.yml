@@ -1,9 +1,9 @@
-Frage: Was beinhaltet Freiheit?
-Antwort: Alle anderen Antworten
-falsche_Antworten:
+question: Was beinhaltet Freiheit?
+answer: Alle anderen Antworten
+wrong_answers:
   - Die Macht, zu tun, was man mit dem, was einem gehört, will
   - Die Abwesenheit von äußeren Zwängen
   - Die Fähigkeit, unabhängig zu denken und zu handeln
-Erklärung: |
+explanation: |
   Freiheit umfasst mehrere Dimensionen, einschließlich der Macht, gemäß dem eigenen Willen zu handeln, der Abwesenheit von äußeren Zwängen und der Kapazität für Autonomie im Denken und Handeln, die alle zu einer umfassenden Definition dieses Konzepts beitragen.
-überprüft: false
+reviewed: false

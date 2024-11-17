@@ -1,9 +1,9 @@
-Frage: Wie groß ist ein Bitcoin-Privatschlüssel?
-Antwort: 256 Bits.
-falsche_Antworten:
+question: Wie groß ist ein Bitcoin-Privatschlüssel?
+answer: 256 Bits.
+wrong_answers:
   - 512 Bytes.
   - 520 Bits.
   - 512 Bits.
-Erklärung: |
+explanation: |
   Der Bitcoin-Privatschlüssel hat eine Standardgröße von 256 Bits, entsprechend dem elliptischen Kurvenalgorithmus, der bei Bitcoin verwendet wird.
-überprüft: false
+reviewed: false

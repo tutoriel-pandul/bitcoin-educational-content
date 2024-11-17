@@ -1,9 +1,9 @@
-Frage: Was ist eine der Hauptfolgen von Bitcoin auf das Bankensystem?
-Antwort: Es ermöglicht die Emanzipation vom Bankensystem.
-falsche_Antworten:
+question: Was ist eine der Hauptfolgen von Bitcoin auf das Bankensystem?
+answer: Es ermöglicht die Emanzipation vom Bankensystem.
+wrong_answers:
   - Es ermöglicht die Kontrolle über das Bankensystem.
   - Es ermöglicht die Eliminierung des Bankensystems.
   - Es ermöglicht die Korruption des Bankensystems.
-Erklärung: >-
+explanation: >-
   Der Text erwähnt, dass Bitcoin die Emanzipation vom Bankensystem ermöglicht.
-überprüft: true
+reviewed: true

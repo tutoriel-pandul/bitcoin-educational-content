@@ -1,9 +1,9 @@
-Frage: Was ist eine Empfangsadresse (allgemein)?
-Antwort: Ein Hash eines öffentlichen Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
-falsche_Antworten:
+question: Was ist eine Empfangsadresse (allgemein)?
+answer: Ein Hash eines öffentlichen Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
+wrong_answers:
   - Ein Hash eines privaten Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
   - Ein Hash eines erweiterten Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
   - Ein Hash eines Ketten-Codes mit Metadaten.
-Erklärung: |
+explanation: |
   Eine Empfangsadresse ist im Allgemeinen ein Hash eines öffentlichen Schlüssels, der mit Metadaten verbunden ist und in einem scriptPubKey verwendet wird, um Bedingungen festzulegen.
-überprüft: false
+reviewed: false

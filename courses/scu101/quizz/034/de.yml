@@ -1,11 +1,11 @@
-Frage: Welchen schädlichen Inhalt können E-Mail-Anhänge und Bilder enthalten?
-Antwort: Malware
-falsche_Antworten:
+question: Welchen schädlichen Inhalt können E-Mail-Anhänge und Bilder enthalten?
+answer: Malware
+wrong_answers:
   - Spam
   - Werbung
   - Werbeinhalte
-Erklärung: |
+explanation: |
   E-Mail-Anhänge und Bilder können Malware enthalten.
   Daher sollten Sie keine Anhänge herunterladen oder öffnen,
   die von unbekannten oder verdächtigen Absendern stammen.
-überprüft: true
+reviewed: true

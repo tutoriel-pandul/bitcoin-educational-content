@@ -1,8 +1,8 @@
-Frage: Was ist der Indexbereich, der für normale Kind-Schlüssel in einem HD-Wallet verwendet wird?
-Antwort: Zwischen 0 und 2^31 - 1.
-falsche_Antworten:
+question: Was ist der Indexbereich, der für normale Kind-Schlüssel in einem HD-Wallet verwendet wird?
+answer: Zwischen 0 und 2^31 - 1.
+wrong_answers:
   - Zwischen 0 und 2^32 - 1.
   - Zwischen 0 und 2^31.
   - Zwischen 2^31 und 2^32 - 1.
-Erklärung: |
+explanation: |
   Normale Kind-Schlüssel verwenden einen Indexbereich zwischen 0 und 2^31 - 1, während gehärtete Schlüssel einen Index ab 2^31 haben.

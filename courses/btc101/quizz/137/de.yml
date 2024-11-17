@@ -1,12 +1,12 @@
-Frage: Wie übertragen Benutzer im Bitcoin-Netzwerk das Eigentum an ihrem Geld?
-Antwort: Indem sie Transaktionen mit ihren privaten Schlüsseln digital signieren.
-falsche_Antworten:
+question: Wie übertragen Benutzer im Bitcoin-Netzwerk das Eigentum an ihrem Geld?
+answer: Indem sie Transaktionen mit ihren privaten Schlüsseln digital signieren.
+wrong_answers:
   - Indem sie ihre Bitcoins physisch übergeben.
   - Indem sie eine E-Mail an den Empfänger senden.
   - Indem sie ihre Bitcoin-Adresse dem Empfänger mitteilen.
-Erklärung: |
+explanation: |
   Benutzer im Bitcoin-Netzwerk übertragen das Eigentum an ihrem
   Geld, indem sie Transaktionen mit ihren privaten
   Schlüsseln digital signieren. Dies bestätigt, dass sie die Eigentümer der
   Bitcoins sind, die sie übertragen möchten.
-überprüft: true
+reviewed: true

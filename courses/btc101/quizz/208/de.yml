@@ -1,10 +1,10 @@
-Frage: Was ist eine der möglichen Konsequenzen, wenn man die Vorschriften seines Landes beim Kauf von Bitcoin nicht befolgt?
-Antwort: Sie könnten sich selbst einem Risiko aussetzen.
-falsche_Antworten:
+question: Was ist eine der möglichen Konsequenzen, wenn man die Vorschriften seines Landes beim Kauf von Bitcoin nicht befolgt?
+answer: Sie könnten sich selbst einem Risiko aussetzen.
+wrong_answers:
   - Sie könnten den Preis von Bitcoin erhöhen.
   - Sie könnten die Versorgung mit Bitcoin kontrollieren.
   - Sie könnten verhindern, dass andere Bitcoin kaufen.
-Erklärung: |
+explanation: |
   Im Kursmaterial wird erwähnt, dass das Nichtbefolgen der Vorschriften
   Ihres Landes beim Kauf von Bitcoin Sie einem Risiko aussetzen kann.
-überprüft: true
+reviewed: true

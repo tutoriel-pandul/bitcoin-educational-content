@@ -1,9 +1,9 @@
-Frage: Welches Metall wurde historisch als Standardreferenz für Währungen angesehen?
-Antwort: Gold
-falsche_Antworten:
+question: Welches Metall wurde historisch als Standardreferenz für Währungen angesehen?
+answer: Gold
+wrong_answers:
   - Silber
   - Kupfer
   - Bronze
-Erklärung: |
+explanation: |
   Gold diente historisch als Standard aufgrund seiner Knappheit, Haltbarkeit und universell anerkannten Werts, was es zu einer stabilen Basis für monetäre Systeme machte.
-überprüft: false
+reviewed: false

@@ -1,7 +1,7 @@
-Frage: Richtig oder Falsch? "Wenn man seine Privatsphäre optimieren möchte, sollte man nicht dieselbe Adresse mehrmals verwenden."
-Antwort: Richtig.
-falsche_Antworten:
+question: Richtig oder Falsch? "Wenn man seine Privatsphäre optimieren möchte, sollte man nicht dieselbe Adresse mehrmals verwenden."
+answer: Richtig.
+wrong_answers:
   - Falsch.
-Erklärung: |
+explanation: |
   Die Wiederverwendung derselben Adresse schwächt die Privatsphäre, indem sie die Verbindungen zwischen verschiedenen Transaktionen auf der Blockchain offenlegt.
-überprüft: false
+reviewed: false

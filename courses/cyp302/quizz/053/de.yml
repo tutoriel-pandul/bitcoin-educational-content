@@ -1,8 +1,8 @@
-Frage: Wie wird ein Feld mit einer endlichen Anzahl von Elementen genannt?
-Antwort: Ein Galois-Feld
-falsche_Antworten:
+question: Wie wird ein Feld mit einer endlichen Anzahl von Elementen genannt?
+answer: Ein Galois-Feld
+wrong_answers:
   - Ein multiplikatives Feld
   - Ein symmetrisches Feld
   - Ein Vektorfeld
-Erklärung: |
+explanation: |
   Ein endliches Feld wird auch als Galois-Feld bezeichnet, benannt nach dem Mathematiker Évariste Galois, und es ist wesentlich in der modernen Kryptographie.

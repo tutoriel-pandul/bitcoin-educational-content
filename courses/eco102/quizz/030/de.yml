@@ -1,9 +1,9 @@
-Frage: Bastiat betrachtet Rousseau als Vorläufer welcher politischen Bewegung?
-Antwort: Sozialismus
-falsche_Antworten:
+question: Bastiat betrachtet Rousseau als Vorläufer welcher politischen Bewegung?
+answer: Sozialismus
+wrong_answers:
   - Kommunismus
   - Mutualismus
   - Anarchismus
-Erklärung: |
+explanation: |
   Bastiat sieht in Rousseau einen Vorläufer des Sozialismus, aufgrund seines kollektiven Ansatzes zur Gesellschaft, in der das Individuum dem allgemeinen Willen unterwerfen muss.
-überprüft: false
+reviewed: false

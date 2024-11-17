@@ -1,9 +1,9 @@
-Frage: Was ist der letzte Schritt, um einen Kanal im Lightning-Netzwerk zu öffnen?
-Antwort: Die Einzahlungstransaktion in der Bitcoin-Blockchain veröffentlichen
-falsche_Antworten:
+question: Was ist der letzte Schritt, um einen Kanal im Lightning-Netzwerk zu öffnen?
+answer: Die Einzahlungstransaktion in der Bitcoin-Blockchain veröffentlichen
+wrong_answers:
   - Eine Auszahlungstransaktion signieren, um die Mittel zurückzuerhalten
   - Eine Bestätigungsnachricht über die Öffnung an die andere Partei senden
   - Das Guthaben jedes Teilnehmers überprüfen
-Erklärung: |
+explanation: |
   Der letzte Schritt, um einen Kanal zu öffnen, ist die Veröffentlichung der Einzahlungstransaktion in der Blockchain, was den Kanal offiziell öffnet.
-überprüft: false
+reviewed: false

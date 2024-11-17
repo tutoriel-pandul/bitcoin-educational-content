@@ -1,9 +1,9 @@
-Frage: Was ermöglicht das Lightning-Netzwerk im Vergleich zu traditionellen Transaktionen auf der Bitcoin-Blockchain?
-Antwort: Schnelle Transaktionen mit minimalen Gebühren
-falsche_Antworten:
+question: Was ermöglicht das Lightning-Netzwerk im Vergleich zu traditionellen Transaktionen auf der Bitcoin-Blockchain?
+answer: Schnelle Transaktionen mit minimalen Gebühren
+wrong_answers:
   - Anonyme und nicht nachverfolgbare Transaktionen
   - Transaktionen in großen Mengen ohne Volumenbegrenzungen
   - Transaktionen zwischen verschiedenen Blockchains
-Erklärung: |
+explanation: |
   Das Lightning-Netzwerk ermöglicht schnelle und kostengünstige Transaktionen durch Off-Chain-Zahlungskanäle, was sich von regulären Transaktionen auf der Blockchain unterscheidet.
-überprüft: false
+reviewed: false

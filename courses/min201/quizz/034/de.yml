@@ -1,13 +1,13 @@
-Frage: Was ist das Ziel der Bitcoin-Gemeinschaft in Bezug auf das Netzwerkmanagement?
-Antwort: Die Verteilung zu stärken, die Zensurresistenz und die Anti-Fragilität des Netzwerks zu erhöhen.
-falsche_Antworten:
+question: Was ist das Ziel der Bitcoin-Gemeinschaft in Bezug auf das Netzwerkmanagement?
+answer: Die Verteilung zu stärken, die Zensurresistenz und die Anti-Fragilität des Netzwerks zu erhöhen.
+wrong_answers:
   - Den Preis von Bitcoin zu erhöhen.
   - Transaktionen schneller zu machen.
   - Die Mining-Schwierigkeit zu erhöhen.
-Erklärung: |
+explanation: |
   Die Bitcoin-Gemeinschaft ist ständig bestrebt, die
   Verteilung, die Zensurresistenz und die Anti-Fragilität
   des Netzwerks zu stärken. Dies steht im Einklang mit der
   grundlegenden Mission von Bitcoin, ein zensurresistentes
   Werteaustauschnetzwerk zu sein.
-überprüft: true
+reviewed: true

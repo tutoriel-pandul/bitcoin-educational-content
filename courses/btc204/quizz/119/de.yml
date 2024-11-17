@@ -1,13 +1,13 @@
-Frage: Was ist der Hauptunterschied zwischen einem verbesserten Ricochet und einem klassischen Ricochet?
+question: Was ist der Hauptunterschied zwischen einem verbesserten Ricochet und einem klassischen Ricochet?
 
-Antwort: Die Verteilung der Transaktionen über die Zeit
+answer: Die Verteilung der Transaktionen über die Zeit
 
-falsche_Antworten:
+wrong_answers:
   - Die Anzahl der verwendeten Transaktionen
   - Der Typ der verwendeten Adresse
   - Die Anzahl der Ausgänge in den Transaktionen
 
-Erklärung: |
+explanation: |
   Der verbesserte Ricochet stellt sicher, dass jede Transaktion zu einem unterschiedlichen Zeitpunkt gesendet und in einem anderen Block aufgezeichnet wird, während der klassische Ricochet alle Transaktionen innerhalb eines kurzen Zeitrahmens sendet.
 
-überprüft: false
+reviewed: false

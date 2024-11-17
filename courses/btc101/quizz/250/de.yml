@@ -1,9 +1,9 @@
-Frage: Was könnte ein Hauptanliegen bezüglich des Bankensystems sein?
-Antwort: Die Regeln des Bankenspiels sind nicht transparent und für alle verständlich.
-falsche_Antworten:
+question: Was könnte ein Hauptanliegen bezüglich des Bankensystems sein?
+answer: Die Regeln des Bankenspiels sind nicht transparent und für alle verständlich.
+wrong_answers:
   - Das Bankensystem ist zu leicht zu verstehen.
   - Das Bankensystem ist zu transparent.
   - Das Bankensystem ist zu dezentralisiert.
-Erklärung: >-
+explanation: >-
   Der Text erwähnt, dass die Frage, wer das Bankensystem kontrollieren sollte, entscheidend ist, weil die Regeln des Bankenspiels nicht transparent und für alle verständlich sind.
-überprüft: true
+reviewed: true

@@ -1,8 +1,8 @@
-Frage: Wie hieß das Unternehmen von David Chaum, durch das er sein Konzept der digitalen Währung umsetzte?
-Antwort: DigiCash B.V.
-falsche_Antworten:
+question: Wie hieß das Unternehmen von David Chaum, durch das er sein Konzept der digitalen Währung umsetzte?
+answer: DigiCash B.V.
+wrong_answers:
   - eCash Ltd.
   - CyberCash Inc.
   - First Virtual Holdings Inc.
-Erklärung: |
+explanation: |
   Gegründet im Jahr 1990, war DigiCash B.V. in Amsterdam, Niederlande, ansässig und hielt die Patente für David Chaums Erfindung, eCash.

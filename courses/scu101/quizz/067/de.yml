@@ -1,10 +1,10 @@
-Frage: Was ist die Hauptbedenken bei der Nutzung von Single Sign-On (SSO), das von Internetgiganten angeboten wird?
-Antwort: Es stellt Probleme in Bezug auf Verfügbarkeit und Zensurrisiken dar.
+question: Was ist die Hauptbedenken bei der Nutzung von Single Sign-On (SSO), das von Internetgiganten angeboten wird?
+answer: Es stellt Probleme in Bezug auf Verfügbarkeit und Zensurrisiken dar.
 Falsche Antworten:
   - Es ist schwer zu benutzen.
   - Es benötigt viel Speicherplatz.
   - Es ist nicht mit allen Websites kompatibel.
-Erklärung: |
+explanation: |
   Das von Internetgiganten angebotene Single Sign-On (SSO) stellt
   Probleme in Bezug auf Verfügbarkeit und Zensurrisiken dar.
   Dies liegt daran, dass, wenn der SSO-Anbieter einen Ausfall erlebt

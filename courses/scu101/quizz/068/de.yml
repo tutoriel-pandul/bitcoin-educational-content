@@ -1,12 +1,12 @@
-Frage: Was ist eine häufige Ursache für Sicherheitslücken?
-Antwort: Menschliche Fahrlässigkeit.
-falsche_Antworten:
+question: Was ist eine häufige Ursache für Sicherheitslücken?
+answer: Menschliche Fahrlässigkeit.
+wrong_answers:
   - Stromausfälle.
   - Langsame Internetgeschwindigkeit.
   - Veraltete Hardware.
-Erklärung: |
+explanation: |
   Sicherheitslücken sind oft das Ergebnis menschlicher
   Fahrlässigkeit, wie die Verwendung von Standardpasswörtern oder das Notieren
   von Passwörtern an unsicheren Orten. Komplexe Angriffe sind nicht
   immer notwendig, um die Computersicherheit zu gefährden.
-überprüft: true
+reviewed: true

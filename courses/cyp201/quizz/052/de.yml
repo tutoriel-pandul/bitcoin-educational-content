@@ -1,8 +1,8 @@
-Frage: Welche Pseudozufallsfunktion wird in PBKDF2 verwendet, um den Seed eines Bitcoin HD-Wallets zu berechnen?
-Antwort: HMAC-SHA512.
+question: Welche Pseudozufallsfunktion wird in PBKDF2 verwendet, um den Seed eines Bitcoin HD-Wallets zu berechnen?
+answer: HMAC-SHA512.
 Falsche Antworten:
   - HMAC-SHA256.
   - HMAC-SHA1.
   - SHA3-512.
-Erklärung: |
+explanation: |
   HMAC-SHA512 ist die Pseudozufallsfunktion, die in PBKDF2 verwendet wird, um den Seed eines Bitcoin HD-Wallets zu generieren.

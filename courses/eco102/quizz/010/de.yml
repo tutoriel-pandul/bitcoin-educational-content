@@ -1,9 +1,9 @@
-Frage: Welcher Autor ist hauptsächlich verantwortlich für die Ausbildung von Frédéric Bastiat in der Ökonomie?
-Antwort: Say
-falsche_Antworten:
+question: Welcher Autor ist hauptsächlich verantwortlich für die Ausbildung von Frédéric Bastiat in der Ökonomie?
+answer: Say
+wrong_answers:
   - Turgot
   - Condillac
   - Quesnay
-Erklärung: |
+explanation: |
   Frédéric Bastiat betrachtet Jean-Baptiste Say als einen großen Einfluss, insbesondere für seine Ideen über Wert und Freihandel.
-überprüft: false
+reviewed: false

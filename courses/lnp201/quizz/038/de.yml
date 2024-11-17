@@ -1,9 +1,9 @@
-Frage: Welche Rolle spielt das Timelock bei der Funktionsweise von HTLCs?
-Antwort: Es bietet einen Zeitrahmen, um die Zahlung vor der Stornierung abzuschließen.
-falsche_Antworten:
+question: Welche Rolle spielt das Timelock bei der Funktionsweise von HTLCs?
+answer: Es bietet einen Zeitrahmen, um die Zahlung vor der Stornierung abzuschließen.
+wrong_answers:
   - Es erhöht die Kapazität des genutzten Kanals.
   - Es fügt der Transaktion eine Datenschutzebene hinzu.
   - Es erhebt zusätzliche Gebühren für jeden Zwischenknoten.
-Erklärung: |
+explanation: |
   Das Timelock legt einen Zeitrahmen fest, um ein HTLC abzuschließen, was die Wiederherstellung der Mittel ermöglicht, falls die Transaktion nicht erfolgreich ist, indem die Zahlung nach diesem Zeitraum storniert wird.
-überprüft: false
+reviewed: false

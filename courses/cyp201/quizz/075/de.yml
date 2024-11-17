@@ -1,9 +1,9 @@
-Frage: Wie komprimiert man einen öffentlichen Schlüssel?
-Antwort: Wir behalten den Wert seiner x-Koordinate bei und fügen ein Präfix hinzu, das angibt, welche y-Koordinate ausgewählt werden soll.
-falsche_Antworten:
+question: Wie komprimiert man einen öffentlichen Schlüssel?
+answer: Wir behalten den Wert seiner x-Koordinate bei und fügen ein Präfix hinzu, das angibt, welche y-Koordinate ausgewählt werden soll.
+wrong_answers:
   - Wir behalten den Wert seiner y-Koordinate bei und fügen ein Präfix hinzu, das angibt, welche x-Koordinate ausgewählt werden soll.
   - Wir hashen den öffentlichen Schlüssel, um ihn zu komprimieren.
   - Wir verwenden einen doppelten SHA256-Hash, um den öffentlichen Schlüssel zu komprimieren.
-Erklärung: |
+explanation: |
   Die Komprimierung eines öffentlichen Schlüssels erfolgt, indem man die x-Koordinate behält und ein Präfix 0x02 oder 0x03 hinzufügt, um anzugeben, ob y gerade oder ungerade ist.
-überprüft: false
+reviewed: false

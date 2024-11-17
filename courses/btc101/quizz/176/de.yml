@@ -1,9 +1,9 @@
-Frage: Was ist ein einzigartiges Merkmal des Bitcoin-Protokolls?
-Antwort: Es funktioniert weltweit, 24 Stunden am Tag, 7 Tage die Woche.
-falsche_Antworten:
+question: Was ist ein einzigartiges Merkmal des Bitcoin-Protokolls?
+answer: Es funktioniert weltweit, 24 Stunden am Tag, 7 Tage die Woche.
+wrong_answers:
   - Es funktioniert nur während der Geschäftszeiten.
   - Es wird von einer zentralen Autorität kontrolliert.
   - Es kann leicht gehackt werden.
-Erklärung: >-
+explanation: >-
   Das Bitcoin-Protokoll ist einzigartig, da es weltweit, 24 Stunden am Tag, 7 Tage die Woche funktioniert, was die Regulierung durch Finanzbehörden erschwert.
-überprüft: true
+reviewed: true

@@ -1,8 +1,8 @@
-Frage: In welchem BIP wird die Idee der Wiederherstellungsphrase oder Mnemonik-Phrase (12/24 Wörter) vorgeschlagen?
-Antwort: BIP39.
+question: In welchem BIP wird die Idee der Wiederherstellungsphrase oder Mnemonik-Phrase (12/24 Wörter) vorgeschlagen?
+answer: BIP39.
 Falsche Antworten:
   - BIP16.
   - BIP32.
   - BIP44.
-Erklärung: |
+explanation: |
   BIP39 führte die 24-Wörter-Mnemonik-Wiederherstellungsphrase ein, um das Backup von Schlüsseln für Benutzer von HD-Wallets zu erleichtern.

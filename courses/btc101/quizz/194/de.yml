@@ -1,11 +1,11 @@
-Frage: Was ist ein Werkzeug für große Organisationen oder leidenschaftliche Bitcoin-Enthusiasten, um Bitcoin zu akzeptieren?
+question: Was ist ein Werkzeug für große Organisationen oder leidenschaftliche Bitcoin-Enthusiasten, um Bitcoin zu akzeptieren?
   Bitcoin?
-Antwort: BTCpay Server.
+answer: BTCpay Server.
 Falsche Antworten:
   - Bitcoin Wallet.
   - Bitcoin Exchange.
   - BTCpay Mining.
-Erklärung: |
+explanation: |
   BTCpay Server ist ein Werkzeug, um Bitcoin für große
   Strukturen oder leidenschaftliche Bitcoiner zu akzeptieren. Andere Lösungen
   umfassen OpenNode für einfache Online-Geschäfte und Swiss

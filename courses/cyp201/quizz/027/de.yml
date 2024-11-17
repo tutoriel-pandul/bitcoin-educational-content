@@ -1,9 +1,9 @@
-Frage: Was repräsentiert der Punkt V im Prozess der digitalen Signatur mit ECDSA als Beispiel in diesem Kapitel?
-Antwort: Der Punkt, der aus dem Nonce v und dem Generatorpunkt G berechnet wird (V = v.G).
+question: Was repräsentiert der Punkt V im Prozess der digitalen Signatur mit ECDSA als Beispiel in diesem Kapitel?
+answer: Der Punkt, der aus dem Nonce v und dem Generatorpunkt G berechnet wird (V = v.G).
 Falsche Antworten:
   - Der Punkt, der direkt vom öffentlichen Schlüssel abgeleitet wird.
   - Der Hash der signierten Nachricht.
   - Das Ergebnis der Addition zweier Punkte auf der elliptischen Kurve.
-Erklärung: |
+explanation: |
   V ist das Ergebnis der Berechnung des Nonce multipliziert mit dem Generatorpunkt auf der elliptischen Kurve.
 Überprüft: false

@@ -1,9 +1,9 @@
-Frage: Um diese elliptische Kurve für kryptografische Anwendungen zu nutzen, auf welchem Feld muss sie definiert werden?
-Antwort: Ein endliches Feld positiver Ganzzahlen.
-falsche_Antworten:
+question: Um diese elliptische Kurve für kryptografische Anwendungen zu nutzen, auf welchem Feld muss sie definiert werden?
+answer: Ein endliches Feld positiver Ganzzahlen.
+wrong_answers:
   - Das Feld der reellen Zahlen.
   - Ein endliches Feld reeller Zahlen.
   - Ein komplexes Feld.
-Erklärung: |
+explanation: |
   Bei Bitcoin wird die elliptische Kurve secp256k1 über einem endlichen Feld positiver Ganzzahlen modulo einer Primzahl definiert, um Näherungen zu vermeiden und die Sicherheit zu gewährleisten.
-überprüft: false
+reviewed: false

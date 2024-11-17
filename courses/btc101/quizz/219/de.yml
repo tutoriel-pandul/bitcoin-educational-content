@@ -1,9 +1,9 @@
-Frage: Was legt dieser Kurs über die Zukunft von Bitcoin nahe?
-Antwort: Es wird nicht verschwinden.
-falsche_Antworten:
+question: Was legt dieser Kurs über die Zukunft von Bitcoin nahe?
+answer: Es wird nicht verschwinden.
+wrong_answers:
   - Es wird durch eine bessere Technologie ersetzt werden.
   - Es wird weltweit verboten werden.
   - Es wird seinen Wert verlieren.
-Erklärung: |
+explanation: |
   Der Kurstext legt nahe, dass Bitcoin nicht verschwinden wird. Im Gegenteil, die Revolution hat gerade erst begonnen.
-überprüft: true
+reviewed: true

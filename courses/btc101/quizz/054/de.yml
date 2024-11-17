@@ -1,10 +1,10 @@
-Frage: Was ist die zweite Phase des Hyperinflationsphänomens?
-Antwort: Währungszusammenbruch & Preissteigerung.
-falsche_Antworten:
+question: Was ist die zweite Phase des Hyperinflationsphänomens?
+answer: Währungszusammenbruch & Preissteigerung.
+wrong_answers:
   - Verlust des Vertrauens.
   - Der Teufelskreis des Gelddruckens.
   - Eine neue Währung entsteht.
-Erklärung: |
+explanation: |
   Die zweite Phase der Hyperinflation ist der Währungszusammenbruch &
   Preissteigerung, gleich nach der Phase des Vertrauensverlustes.
-überprüft: true
+reviewed: true

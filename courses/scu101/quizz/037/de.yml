@@ -1,10 +1,10 @@
-Frage: Warum könnte es ratsam sein, eine spezifische E-Mail-Adresse für Bitcoin-Aktivitäten zu erstellen?
-Antwort: Um die verschiedenen Bereiche deines Lebens wirklich voneinander zu trennen.
-falsche_Antworten:
+question: Warum könnte es ratsam sein, eine spezifische E-Mail-Adresse für Bitcoin-Aktivitäten zu erstellen?
+answer: Um die verschiedenen Bereiche deines Lebens wirklich voneinander zu trennen.
+wrong_answers:
   - Um deine Unterstützung für Bitcoin zu zeigen.
   - Um Bitcoin-bezogene Nachrichten und Updates zu erhalten.
   - Um deine Chancen zu erhöhen, bei Bitcoin-Gewinnspielen zu gewinnen.
-Erklärung: |
+explanation: |
   Eine spezifische E-Mail-Adresse für Bitcoin-Aktivitäten zu erstellen,
   ermöglicht es dir, diesen Bereich von anderen in deinem Leben zu trennen,
   was die Sicherheit und Organisation verbessern kann.
@@ -16,4 +16,4 @@ Erklärung: |
   Diesen Bereich von anderen in deinem Leben zu trennen, kann die Sicherheit
 
   und Organisation verbessern.'
-überprüft: true
+reviewed: true

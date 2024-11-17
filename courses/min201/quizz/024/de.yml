@@ -1,9 +1,9 @@
-Frage: Wie wird das Ereignis genannt, bei dem die Belohnung für das Mining von Bitcoin-Transaktionen halbiert wird?
-Antwort: Halving
+question: Wie wird das Ereignis genannt, bei dem die Belohnung für das Mining von Bitcoin-Transaktionen halbiert wird?
+answer: Halving
 Falsche Antworten:
   - Verdopplung
   - Viertelung
   - Verdreifachung
-Erklärung: |
+explanation: |
   Die programmierte Reduzierung der Mining-Belohnungen, die alle vier Jahre halbiert wird, ist ein Ereignis, das als "Halving" bekannt ist.
 Überprüft: true

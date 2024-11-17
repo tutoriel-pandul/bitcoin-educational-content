@@ -1,10 +1,10 @@
-Frage: Welche Art von Netzwerk wird durch das Lightning Network erstellt?
-Antwort: Ein Netzwerk von Zahlungskanälen.
-falsche_Antworten:
+question: Welche Art von Netzwerk wird durch das Lightning Network erstellt?
+answer: Ein Netzwerk von Zahlungskanälen.
+wrong_answers:
   - Ein Netzwerk von Mining-Nodes.
   - Ein Netzwerk von Blockchain-Nodes.
   - Ein Netzwerk von Kryptowährungsbörsen.
-Erklärung: >-
+explanation: >-
   Das Lightning Network fungiert als ein Netzwerk von Zahlungskanälen und ermöglicht
   sofortige Transaktionen mit niedrigen Gebühren für den Sender.
-überprüft: true
+reviewed: true

@@ -1,9 +1,9 @@
-Frage: Warum ist es wichtig, niemals einen Nonce im ECDSA-Algorithmus wiederzuverwenden?
-Antwort: Die Wiederverwendung eines Nonce gefährdet die Sicherheit und kann den privaten Schlüssel preisgeben.
-falsche_Antworten:
+question: Warum ist es wichtig, niemals einen Nonce im ECDSA-Algorithmus wiederzuverwenden?
+answer: Die Wiederverwendung eines Nonce gefährdet die Sicherheit und kann den privaten Schlüssel preisgeben.
+wrong_answers:
   - Die Wiederverwendung eines Nonce verlangsamt die Leistung.
   - Die Wiederverwendung eines Nonce macht die Signaturen länger.
   - Die Wiederverwendung eines Nonce erhöht die Größe des öffentlichen Schlüssels.
-Erklärung: |
+explanation: |
   Die Wiederverwendung eines Nonce in ECDSA kann es einem Angreifer ermöglichen, den privaten Schlüssel zu entdecken, was die Sicherheit gefährdet.
-überprüft: false
+reviewed: false

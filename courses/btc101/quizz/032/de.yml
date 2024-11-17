@@ -1,9 +1,9 @@
-Frage: Wie wird solides Geld geschaffen?
-Antwort: Solides Geld muss natürlich aus dem Markt und dem freiwilligen Konsens entstehen.
-falsche_Antworten:
+question: Wie wird solides Geld geschaffen?
+answer: Solides Geld muss natürlich aus dem Markt und dem freiwilligen Konsens entstehen.
+wrong_answers:
   - Solides Geld muss durch die Regierung durch Erlass von Währungsgesetzen durchgesetzt werden.
   - Solides Geld muss von Unternehmen durch den Einsatz von Gewalt auferlegt werden.
   - Solides Geld kann nicht geschaffen werden.
-Erklärung: |
+explanation: |
   Solides Geld ist ein natürliches soziales Phänomen, das aus dem Markt und dem freiwilligen Konsens entstehen muss. Kein Mensch oder eine Gruppe von Menschen kann Geld erschaffen.
-überprüft: true
+reviewed: true

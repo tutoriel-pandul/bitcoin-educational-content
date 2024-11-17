@@ -1,9 +1,9 @@
-Frage: Was ist das Hauptproblem beim Schlüsselmanagement?
-Antwort: Die Komplexität der Sicherung und Speicherung eines Schlüsselpaares für jeden Kunden
-falsche_Antworten:
+question: Was ist das Hauptproblem beim Schlüsselmanagement?
+answer: Die Komplexität der Sicherung und Speicherung eines Schlüsselpaares für jeden Kunden
+wrong_answers:
   - Die Unmöglichkeit, verlorene Schlüssel der Kunden zu erneuern
   - Die Notwendigkeit, jeden Schlüssel vor der Nutzung durch den Kunden zu entschlüsseln
   - Die Notwendigkeit, Schlüssel für jede Kommunikation zu übertragen
-Erklärung: |
+explanation: |
   Das Problem beim Schlüsselmanagement liegt in der Schwierigkeit, ein Schlüsselpaar für jeden Benutzer zu speichern und zu sichern, besonders wenn die Anzahl der Kunden Millionen erreicht.
-überprüft: false
+reviewed: false

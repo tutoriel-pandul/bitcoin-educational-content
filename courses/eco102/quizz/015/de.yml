@@ -1,9 +1,9 @@
-Frage: Wer wurde von Destutt de Tracy beeinflusst?
-Antwort: Erben der Physiokraten
-falsche_Antworten:
+question: Wer wurde von Destutt de Tracy beeinflusst?
+answer: Erben der Physiokraten
+wrong_answers:
   - Vorläufer von Marx
   - Anhänger der revolutionären Ideologie
   - Jünger von Rousseau
-Erklärung: |
+explanation: |
   Die Ideologen, eine Gruppe, die von Destutt de Tracy beeinflusst wurde, gelten als Erben der Physiokraten und befürworten eine liberale Wirtschaft.
-überprüft: false
+reviewed: false
