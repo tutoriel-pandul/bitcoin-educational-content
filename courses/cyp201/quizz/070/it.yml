@@ -1,9 +1,9 @@
-domanda: Cos'è un indirizzo di ricezione (in generale)?
-risposta: Un hash di una chiave pubblica con metadati inseriti in un formato specifico.
-risposte_errate:
+question: Cos'è un indirizzo di ricezione (in generale)?
+answer: Un hash di una chiave pubblica con metadati inseriti in un formato specifico.
+wrong_answers:
   - Un hash di una chiave privata con metadati inseriti in un formato specifico.
   - Un hash di una chiave estesa con metadati inseriti in un formato specifico.
   - Un hash di un codice catena con metadati.
-spiegazione: |
+explanation: |
   Un indirizzo di ricezione è generalmente un hash di una chiave pubblica associato a metadati, utilizzato in uno scriptPubKey per stabilire delle condizioni.
-revisionato: false
+reviewed: false

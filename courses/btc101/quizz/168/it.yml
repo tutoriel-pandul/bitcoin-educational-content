@@ -1,11 +1,11 @@
-domanda: In che modo Bitcoin può potenzialmente aiutare nella transizione ecologica?
-risposta: Promuove l'uso di energia verde.
-risposte_errate:
+question: In che modo Bitcoin può potenzialmente aiutare nella transizione ecologica?
+answer: Promuove l'uso di energia verde.
+wrong_answers:
   - Riduce la produzione di beni.
   - Regola il consumo di risorse.
   - Limita l'emissione solo di gas serra.
-spiegazione: >-
+explanation: >-
   Bitcoin promuove l'uso di energia verde, il che può potenzialmente aiutare
   nella transizione ecologica. Ad esempio, le fiamme nei pozzi petroliferi, che bruciano
   metano per prevenire l'inquinamento, possono essere spente dai minatori di Bitcoin.
-revisionato: true
+reviewed: true

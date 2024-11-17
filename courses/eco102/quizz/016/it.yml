@@ -1,9 +1,9 @@
-domanda: Secondo Tracy, qual è la forza motrice della società?
-risposta: Il commercio
-risposte_errate:
+question: Secondo Tracy, qual è la forza motrice della società?
+answer: Il commercio
+wrong_answers:
   - La famiglia
   - La politica
   - L'educazione
-spiegazione: |
+explanation: |
   Per Destutt de Tracy, il commercio è la forza civilizzatrice e pacificatrice, fungendo da forza motrice della società.
-revisionato: false
+reviewed: false

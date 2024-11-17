@@ -1,9 +1,9 @@
-domanda: Secondo Bastiat, la responsabilità è un principio di... ?
-risposta: perfezionabilità
-risposte_errate:
+question: Secondo Bastiat, la responsabilità è un principio di... ?
+answer: perfezionabilità
+wrong_answers:
   - perfezione
   - costanza
   - realizzazione perfetta
-spiegazione: |
+explanation: |
   Bastiat considera la responsabilità come un principio di perfezionabilità, intendendo che essa è una fonte di miglioramento e progresso personale attraverso le lezioni dell'esperienza.
-revisionato: false
+reviewed: false

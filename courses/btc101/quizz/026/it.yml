@@ -1,13 +1,13 @@
-domanda: Perché l'oro non riesce a performare bene in un mondo globalizzato e digitale?
-risposta: Perché necessita di un'entità centrale che lo renda divisibile e facilmente scambiabile.
-risposte_errate:
+question: Perché l'oro non riesce a performare bene in un mondo globalizzato e digitale?
+answer: Perché necessita di un'entità centrale che lo renda divisibile e facilmente scambiabile.
+wrong_answers:
   - Perché non è abbastanza prezioso.
   - Perché non è abbastanza raro.
   - Perché si erode nel tempo.
-spiegazione: |
+explanation: |
   L'oro non riesce a tenere il passo in un mondo globalizzato e digitale
   perché necessita di un'entità centrale che lo renda divisibile e
   facilmente scambiabile. Questo lo rende meno pratico da usare in
   un mondo dove le transazioni sono sempre più digitali e
   decentralizzate.
-revisionato: true
+reviewed: true

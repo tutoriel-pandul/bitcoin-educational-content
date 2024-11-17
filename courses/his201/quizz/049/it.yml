@@ -1,9 +1,9 @@
-domanda: Qual è stata la variazione del prezzo del Bitcoin nella settimana successiva alla sua introduzione su Slashdot?
-risposta: Da $0,008 a $0,08
-risposte_errate:
+question: Qual è stata la variazione del prezzo del Bitcoin nella settimana successiva alla sua introduzione su Slashdot?
+answer: Da $0,008 a $0,08
+wrong_answers:
   - Da $0,001 a $0,008
   - Da $0,08 a $0,50
   - Da $0,50 a $1
-spiegazione: |
+explanation: |
   Questa variazione corrispondeva a un aumento decuplicato! Anche il tasso di hash ha sperimentato un'impennata simile.
-revisionato: false
+reviewed: false

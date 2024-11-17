@@ -1,9 +1,9 @@
-domanda: Per Bastiat, cos'è l'economia politica?
-risposta: La teoria dello scambio
-risposte_errate:
+question: Per Bastiat, cos'è l'economia politica?
+answer: La teoria dello scambio
+wrong_answers:
   - La teoria del valore
   - La teoria della ricchezza
   - La teoria del potere d'acquisto
-spiegazione: |
+explanation: |
   Bastiat definisce l'economia politica come la teoria dello scambio.
-revisionato: false
+reviewed: false

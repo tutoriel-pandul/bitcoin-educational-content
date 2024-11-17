@@ -1,11 +1,11 @@
-domanda: Qual è uno degli aspetti da considerare nella scelta di una piattaforma DCA?
-risposta: La disponibilità nel tuo paese.
-risposte_errate:
+question: Qual è uno degli aspetti da considerare nella scelta di una piattaforma DCA?
+answer: La disponibilità nel tuo paese.
+wrong_answers:
   - Il colore del logo della piattaforma.
   - Il numero di utenti sulla piattaforma.
   - L'età della piattaforma.
-spiegazione: |
+explanation: |
   Questo testo del corso menziona che, nella scelta di una
   piattaforma DCA, la decisione giusta dipenderà maggiormente
   dalla sua disponibilità nel tuo paese.
-revisionato: true
+reviewed: true

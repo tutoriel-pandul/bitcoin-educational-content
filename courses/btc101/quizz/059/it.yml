@@ -1,9 +1,9 @@
-domanda: Quale delle seguenti non è una caratteristica di Bitcoin?
-risposta: È facilmente censurabile.
-risposte_errate:
+question: Quale delle seguenti non è una caratteristica di Bitcoin?
+answer: È facilmente censurabile.
+wrong_answers:
   - È istantaneamente trasportabile.
   - Ha costi di verifica trascurabili.
   - Ha una politica monetaria fissa.
-spiegazione: |
+explanation: |
   Bitcoin possiede tutte le caratteristiche necessarie per essere una valuta efficiente e salutare: divisibile, istantaneamente trasportabile, non censurabile, con costi di verifica trascurabili, e con una politica monetaria già stabilita per i secoli a venire con 21 milioni di unità.
-revisionato: vero
+reviewed: vero

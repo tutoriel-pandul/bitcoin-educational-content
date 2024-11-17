@@ -1,9 +1,9 @@
-domanda: Cosa indica il seguente percorso di derivazione? m/84'/0'/1'/0/7
-risposta: Un indirizzo SegwitV0 esterno sulla rete principale.
-risposte_errate:
+question: Cosa indica il seguente percorso di derivazione? m/84'/0'/1'/0/7
+answer: Un indirizzo SegwitV0 esterno sulla rete principale.
+wrong_answers:
   - Un indirizzo SegwitV1 esterno sulla rete principale.
   - Un indirizzo Legacy interno sulla rete di test.
   - Un indirizzo Legacy esterno sulla rete principale.
-spiegazione: |
+explanation: |
   Il percorso di derivazione m/84'/0'/1'/0/7 indica un indirizzo SegwitV0 esterno sulla rete principale (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = esterno
 recensito: false

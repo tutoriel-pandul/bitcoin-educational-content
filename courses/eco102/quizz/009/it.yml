@@ -1,8 +1,8 @@
-domanda: Dove è morto e sepolto Frédéric Bastiat?
-risposta: A Roma
-risposte_errate:
+question: Dove è morto e sepolto Frédéric Bastiat?
+answer: A Roma
+wrong_answers:
   - A Mugron
   - A Parigi
   - A Bayonne
-spiegazione: |
+explanation: |
   Frédéric Bastiat è morto a Roma nel 1850 ed è sepolto nella Chiesa di San Luigi dei Francesi.

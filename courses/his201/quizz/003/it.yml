@@ -1,9 +1,9 @@
-domanda: Qual era il nome della società di David Chaum attraverso la quale ha implementato il suo concetto di valuta digitale?
-risposta: DigiCash B.V.
-risposte_errate:
+question: Qual era il nome della società di David Chaum attraverso la quale ha implementato il suo concetto di valuta digitale?
+answer: DigiCash B.V.
+wrong_answers:
   - eCash Ltd.
   - CyberCash Inc.
   - First Virtual Holdings Inc.
-spiegazione: |
+explanation: |
   Fondata nel 1990, DigiCash B.V. aveva sede ad Amsterdam, Paesi Bassi, e deteneva i brevetti per l'invenzione di David Chaum, eCash.
-revisionato: false
+reviewed: false

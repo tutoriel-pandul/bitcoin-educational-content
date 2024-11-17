@@ -1,9 +1,9 @@
-domanda: Come viene determinata una chiave privata Bitcoin?
-risposta: Viene determinata da un numero casuale o pseudo-casuale.
-risposte_errate:
+question: Come viene determinata una chiave privata Bitcoin?
+answer: Viene determinata da un numero casuale o pseudo-casuale.
+wrong_answers:
   - Viene determinata tramite l'addizione e il raddoppio dei punti sulla curva ellittica dalla sua chiave pubblica.
   - Viene determinata facendo l'hashing della sua chiave pubblica.
   - Viene determinata dall'algoritmo SHA-256.
-spiegazione: |
+explanation: |
   Una chiave privata Bitcoin viene generata in modo casuale o pseudo-casuale, il che ne garantisce l'unicità e la sicurezza.
 recensito: false

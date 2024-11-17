@@ -1,9 +1,9 @@
-domanda: Qual è l'intervallo di indici utilizzato per le chiavi figlio normali in un portafoglio HD?
-risposta: Tra 0 e 2^31 - 1.
-risposte_errate:
+question: Qual è l'intervallo di indici utilizzato per le chiavi figlio normali in un portafoglio HD?
+answer: Tra 0 e 2^31 - 1.
+wrong_answers:
   - Tra 0 e 2^32 - 1.
   - Tra 0 e 2^31.
   - Tra 2^31 e 2^32 - 1.
-spiegazione: |
+explanation: |
   Le chiavi figlio normali utilizzano un intervallo di indici tra 0 e 2^31 - 1, mentre le chiavi rinforzate hanno un indice che inizia da 2^31.
 recensito: false

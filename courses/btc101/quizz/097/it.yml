@@ -1,11 +1,11 @@
-domanda: Cosa succede se la tua chiave privata viene rivelata a un terzo?
-risposta: Il terzo può spendere i tuoi bitcoin.
-risposte_errate:
+question: Cosa succede se la tua chiave privata viene rivelata a un terzo?
+answer: Il terzo può spendere i tuoi bitcoin.
+wrong_answers:
   - Il terzo può solo visualizzare la tua cronologia delle transazioni.
   - Il terzo può cambiare la tua chiave privata.
   - Il terzo può accedere alle tue informazioni personali.
-spiegazione: |
+explanation: |
   Se la tua chiave privata viene rivelata a un terzo, i
   fondi associati non sono più al sicuro, perché la chiave
   privata permette loro di accedere ai tuoi fondi.
-revisionato: true
+reviewed: true

@@ -1,9 +1,9 @@
-domanda: Perché è importante utilizzare una buona fonte di entropia per generare chiavi private?
-risposta: Un'entropia scarsa può rendere le chiavi private prevedibili e vulnerabili agli attacchi.
-risposte_errate:
+question: Perché è importante utilizzare una buona fonte di entropia per generare chiavi private?
+answer: Un'entropia scarsa può rendere le chiavi private prevedibili e vulnerabili agli attacchi.
+wrong_answers:
   - Una buona entropia aiuta a ottimizzare le prestazioni del portafoglio.
   - L'entropia non gioca alcun ruolo nella sicurezza delle chiavi private.
   - Un'entropia scarsa rallenta le transazioni.
-spiegazione: |
+explanation: |
   Se l'entropia utilizzata per generare le chiavi private è bassa, potrebbe permettere a un attaccante di indovinare o calcolare queste chiavi, compromettendo la sicurezza del portafoglio.
 recensito: false

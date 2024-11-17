@@ -1,9 +1,9 @@
-domanda: Qual è la causa principale del malcontento sociale identificata da Bastiat nella sua lettera a Cobden?
-risposta: L'ignoranza economica del pubblico
-risposte_errate:
+question: Qual è la causa principale del malcontento sociale identificata da Bastiat nella sua lettera a Cobden?
+answer: L'ignoranza economica del pubblico
+wrong_answers:
   - La bassa tassazione delle classi agiate
   - L'ascesa delle grandi industrie
   - La lentezza delle riforme sociali
-spiegazione: |
+explanation: |
   Bastiat attribuisce il malcontento sociale all'ignoranza economica, rendendo la popolazione vulnerabile alle idee utopiche del socialismo.
-revisionato: false
+reviewed: false

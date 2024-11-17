@@ -1,10 +1,10 @@
-domanda: Qual è la fase finale del fenomeno dell'iperinflazione?
-risposta: Emerge una nuova valuta.
-risposte_errate:
+question: Qual è la fase finale del fenomeno dell'iperinflazione?
+answer: Emerge una nuova valuta.
+wrong_answers:
   - Perdita di fiducia.
   - Crollo della valuta e aumento dei prezzi.
   - Il circolo vizioso della stampa di denaro.
-spiegazione: |
+explanation: |
   La fase finale dell'iperinflazione si verifica quando viene introdotta una nuova
   valuta per sostituire quella vecchia.
-revisionato: vero
+reviewed: vero

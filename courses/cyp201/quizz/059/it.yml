@@ -1,9 +1,9 @@
-domanda: In quale sistema numerico viene solitamente codificata la chiave estesa per essere presentata all'utente?
-risposta: In Base 58.
-risposte_errate:
+question: In quale sistema numerico viene solitamente codificata la chiave estesa per essere presentata all'utente?
+answer: In Base 58.
+wrong_answers:
   - In bech32.
   - In Base 16.
   - In bech32m.
-spiegazione: |
+explanation: |
   La chiave estesa è generalmente codificata in Base 58 per essere più leggibile per l'utente e per evitare caratteri ambigui.
 recensito: false

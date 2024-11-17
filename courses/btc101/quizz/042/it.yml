@@ -1,10 +1,10 @@
-domanda: Qual è uno svantaggio potenziale delle valute digitali delle banche centrali (CBDC)?
-risposta: Potrebbero limitare la libertà finanziaria degli individui e facilitare abusi autoritari.
-risposte_errate:
+question: Qual è uno svantaggio potenziale delle valute digitali delle banche centrali (CBDC)?
+answer: Potrebbero limitare la libertà finanziaria degli individui e facilitare abusi autoritari.
+wrong_answers:
   - Potrebbero portare a una diminuzione dell'offerta di denaro.
   - Potrebbero portare a una diminuzione del valore del Bitcoin.
   - Potrebbero portare a una diminuzione del valore dell'oro.
-spiegazione: |
+explanation: |
   Le valute digitali delle banche centrali (CBDC) potrebbero potenzialmente
   limitare la libertà finanziaria degli individui e facilitare
   abusi autoritari. Questo perché offrirebbero una

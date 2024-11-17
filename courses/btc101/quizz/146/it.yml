@@ -1,10 +1,10 @@
-domanda: Perché è importante che un nodo Bitcoin rimanga accessibile e conveniente per tutti gli utenti possibili?
-risposta: Perché facilita la decentralizzazione della rete.
-risposte_errate:
+question: Perché è importante che un nodo Bitcoin rimanga accessibile e conveniente per tutti gli utenti possibili?
+answer: Perché facilita la decentralizzazione della rete.
+wrong_answers:
   - Perché aumenta la capacità di transazione della rete.
   - Perché diminuisce la capacità di transazione della rete.
   - Perché aumenta la ricompensa per i minatori.
-spiegazione: |
+explanation: |
   Il costo accessibile e l'accessibilità di un nodo Bitcoin sono
   importanti perché facilitano la decentralizzazione della
   rete.

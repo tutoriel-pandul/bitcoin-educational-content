@@ -1,13 +1,13 @@
-domanda: Qual è il nome dell'account utilizzato per gli UTXO che non possono entrare in un pool di coinjoin Whirlpool?
+question: Qual è il nome dell'account utilizzato per gli UTXO che non possono entrare in un pool di coinjoin Whirlpool?
 
-risposta: Account di cambio doxxic.
+answer: Account di cambio doxxic.
 
-risposte_errate:
+wrong_answers:
   - Account postmix.
   - Account premix.
   - Account di deposito.
 
-spiegazione: |
+explanation: |
   Il cambio che non ha potuto unirsi al pool viene isolato nell'account di "cambio doxxic", per garantire una separazione rigorosa dagli altri UTXO nel portafoglio.
 
-revisionato: false
+reviewed: false

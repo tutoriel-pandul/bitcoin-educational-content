@@ -1,10 +1,10 @@
-domanda: Qual è il principale svantaggio delle valute fiat?
-risposta: Il loro valore è costantemente eroso dall'inflazione monetaria.
-risposte_errate:
+question: Qual è il principale svantaggio delle valute fiat?
+answer: Il loro valore è costantemente eroso dall'inflazione monetaria.
+wrong_answers:
   - Non sono facilmente trasportabili.
   - Il loro valore è costantemente apprezzato dall'inflazione monetaria.
   - Non sono divisibili.
-spiegazione: |
+explanation: |
   Il principale svantaggio delle valute fiat, come il
   dollaro e l'euro, è che il loro valore è costantemente
   eroso dall'inflazione monetaria. Questo è dovuto alla

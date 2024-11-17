@@ -1,9 +1,9 @@
-domanda: Secondo Rousseau, da dove deriva il male nella società?
-risposta: Dalla proprietà
-risposte_errate:
+question: Secondo Rousseau, da dove deriva il male nella società?
+answer: Dalla proprietà
+wrong_answers:
   - Dall'ineguaglianza
   - Dalla servitù
   - Dall'individualismo
-spiegazione: |
+explanation: |
   Rousseau vede la proprietà come una fonte di male sociale perché introduce disuguaglianze e un desiderio di dominazione.
-revisionato: false
+reviewed: false

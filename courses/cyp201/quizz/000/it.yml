@@ -1,9 +1,9 @@
-domanda: Qual è lo scopo del processo di hashing crittografico?
-risposta: Mappare una stringa di bit di lunghezza arbitraria in una stringa di bit di lunghezza fissa.
-risposte_errate:
+question: Qual è lo scopo del processo di hashing crittografico?
+answer: Mappare una stringa di bit di lunghezza arbitraria in una stringa di bit di lunghezza fissa.
+wrong_answers:
   - Crittografare un messaggio.
   - Assicurare che il mittente del messaggio non possa negare di aver inviato il messaggio in futuro.
   - Garantire la riservatezza dei dati.
-spiegazione: |
+explanation: |
   L'hashing trasforma dati di qualsiasi dimensione in un output di dimensione fissa, utile per verificare l'integrità senza necessariamente crittografare o autenticare i dati.
 recensito: false

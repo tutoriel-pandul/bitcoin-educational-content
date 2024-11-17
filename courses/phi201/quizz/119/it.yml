@@ -1,9 +1,9 @@
-domanda: Qual è l'obiettivo principale degli sostenitori del ritorno a un sistema monetario basato sui metalli preziosi?
-risposta: Limitare il potere delle banche centrali
-risposte_errate:
+question: Qual è l'obiettivo principale degli sostenitori del ritorno a un sistema monetario basato sui metalli preziosi?
+answer: Limitare il potere delle banche centrali
+wrong_answers:
   - Aumentare l'inflazione
   - Promuovere il commercio internazionale
   - Controllare i mercati finanziari
-spiegazione: |
+explanation: |
   Gli sostenitori di un sistema basato su un metallo prezioso mirano a limitare il potere delle banche centrali restringendo la capacità di creare denaro senza una riserva tangibile, il che riduce i rischi di inflazione e manipolazione monetaria.
-revisionato: false
+reviewed: false

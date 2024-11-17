@@ -1,10 +1,10 @@
-domanda: Qual è uno degli aspetti della cybersecurity che richiede un monitoraggio regolare?
-risposta: L'evoluzione costante delle minacce
-risposte_errate:
+question: Qual è uno degli aspetti della cybersecurity che richiede un monitoraggio regolare?
+answer: L'evoluzione costante delle minacce
+wrong_answers:
   - Il mercato azionario
   - Il meteo
   - Le notizie
-spiegazione: |
+explanation: |
   Il capitolo menziona che l'evoluzione costante delle minacce
   nella cybersecurity richiede un monitoraggio regolare.
-revisionato: vero
+reviewed: vero

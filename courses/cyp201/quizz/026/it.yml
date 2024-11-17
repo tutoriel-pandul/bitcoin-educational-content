@@ -1,9 +1,9 @@
-domanda: Perché è importante non riutilizzare mai un nonce nell'algoritmo ECDSA?
-risposta: Riutilizzare un nonce compromette la sicurezza e può esporre la chiave privata.
-risposte_errate:
+question: Perché è importante non riutilizzare mai un nonce nell'algoritmo ECDSA?
+answer: Riutilizzare un nonce compromette la sicurezza e può esporre la chiave privata.
+wrong_answers:
   - Riutilizzare un nonce rallenta le prestazioni.
   - Riutilizzare un nonce rende le firme più lunghe.
   - Riutilizzare un nonce aumenta la dimensione della chiave pubblica.
-spiegazione: |
+explanation: |
   Riutilizzare un nonce in ECDSA può permettere a un attaccante di scoprire la chiave privata, compromettendo la sicurezza.
 recensito: false

@@ -1,13 +1,13 @@
-domanda: Cos'è una transazione Stonewall?
+question: Cos'è una transazione Stonewall?
 
-risposta: Una transazione che imita un mini-coinjoin senza esserlo
+answer: Una transazione che imita un mini-coinjoin senza esserlo
 
-risposte_errate:
+wrong_answers:
   - Una transazione di pagamento sotto forma di mini-coinjoin
   - Una transazione collaborativa che coinvolge tre partecipanti
   - Una transazione che coinvolge il destinatario negli input
 
-spiegazione: |
+explanation: |
   Stonewall è una forma specifica di transazione Bitcoin volta ad aumentare la privacy dell'utente durante una spesa, imitando un mini-coinjoin tra due persone, senza però esserlo realmente.
 
-revisionato: false
+reviewed: false

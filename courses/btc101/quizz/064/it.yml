@@ -1,9 +1,9 @@
-domanda: Qual è il comando per verificare la quantità di bitcoin in circolazione su un nodo Bitcoin?
-risposta: bitcoin-cli gettxoutsetinfo.
-risposte_errate:
+question: Qual è il comando per verificare la quantità di bitcoin in circolazione su un nodo Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
   - bitcoin-cli getblockchaininfo.
   - bitcoin-cli getwalletinfo.
   - bitcoin-cli getnetworkinfo.
-spiegazione: |
+explanation: |
   Il comando per verificare la quantità di bitcoin in circolazione su un nodo Bitcoin è bitcoin-cli gettxoutsetinfo. Questo comando fornisce trasparenza e verificabilità, rafforzando la fiducia nel sistema Bitcoin.
-revisionato: true
+reviewed: true

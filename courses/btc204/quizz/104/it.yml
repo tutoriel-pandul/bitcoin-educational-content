@@ -1,13 +1,13 @@
-domanda: Qual è l'entropia massima di una transazione?
+question: Qual è l'entropia massima di una transazione?
 
-risposta: L'entropia più alta che una struttura di transazione può raggiungere.
+answer: L'entropia più alta che una struttura di transazione può raggiungere.
 
-risposte_errate:
+wrong_answers:
   - L'entropia più bassa che una struttura di transazione può raggiungere.
   - L'entropia attuale di una transazione.
   - L'efficienza di una transazione.
 
-spiegazione: |
+explanation: |
   L'entropia massima si riferisce all'entropia più alta che una specifica struttura di transazione può teoricamente raggiungere.
 
-revisionato: false
+reviewed: false

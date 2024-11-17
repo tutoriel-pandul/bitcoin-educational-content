@@ -1,9 +1,9 @@
-domanda: Qual è lo scopo di una catena esterna nel processo di derivazione?
-risposta: Isolare gli indirizzi destinati ad essere pubblici.
-risposte_errate:
+question: Qual è lo scopo di una catena esterna nel processo di derivazione?
+answer: Isolare gli indirizzi destinati ad essere pubblici.
+wrong_answers:
   - Isolare gli indirizzi di resto.
   - Gestire le transazioni in entrata.
   - Separare le chiavi private dalle chiavi pubbliche.
-spiegazione: |
+explanation: |
   La catena esterna viene utilizzata per derivare indirizzi destinati ad essere pubblici, come quelli per ricevere pagamenti.
-revisionato: false
+reviewed: false

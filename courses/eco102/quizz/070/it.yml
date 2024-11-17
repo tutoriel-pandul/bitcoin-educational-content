@@ -1,9 +1,9 @@
-domanda: Qual è la forza motrice dell'organizzazione sociale secondo Bastiat?
-risposta: Il mercato
-risposte_errate:
+question: Qual è la forza motrice dell'organizzazione sociale secondo Bastiat?
+answer: Il mercato
+wrong_answers:
   - Lo Stato
   - La Religione
   - La Tradizione
-spiegazione: |
+explanation: |
   Bastiat ritiene che il libero mercato sia la vera forza motrice dell'organizzazione sociale perché permette una coordinazione spontanea ed efficiente tra gli individui.
 recensito: false

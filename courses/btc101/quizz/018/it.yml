@@ -1,12 +1,12 @@
-domanda: Quali sono state le prime forme di valuta?
-risposta: Beni come grano e bestiame.
-risposte_errate:
+question: Quali sono state le prime forme di valuta?
+answer: Beni come grano e bestiame.
+wrong_answers:
   - Oro e argento.
   - Banconote di carta.
   - Asset digitali.
-spiegazione: |
+explanation: |
   Le prime forme di valuta erano spesso legate a beni essenziali
   come grano, bestiame e altre merci. Tuttavia, questi beni
   avevano grandi svantaggi, come la peribilità, rendendo
   difficile utilizzarli come mezzo di risparmio a lungo termine.
-revisionato: true
+reviewed: true

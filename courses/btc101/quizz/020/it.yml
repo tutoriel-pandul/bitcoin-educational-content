@@ -1,12 +1,12 @@
-domanda: Quali sono le principali caratteristiche di una valuta efficace?
-risposta: Fungibile, Divisibile, Liquida.
-risposte_errate:
+question: Quali sono le principali caratteristiche di una valuta efficace?
+answer: Fungibile, Divisibile, Liquida.
+wrong_answers:
   - Fungibile, Divisibile, Peribile.
   - Fungibile, Indivisibile, Liquida.
   - Non fungibile, Divisibile, Liquida.
-spiegazione: |
+explanation: |
   Una valuta efficace deve essere fungibile (intercambiabile
   senza perdita di valore), divisibile (separabile in piccole
   parti per facilitare transazioni di diversi volumi) e
   liquida (facilmente convertibile in beni o servizi).
-revisionato: true
+reviewed: true

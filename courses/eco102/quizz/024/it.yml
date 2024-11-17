@@ -1,9 +1,9 @@
-domanda: Qual è, secondo Comte e Dunoyer, la soluzione al conflitto tra classi?
-risposta: Impedire allo stato di distribuire e controllare la proprietà
-risposte_errate:
+question: Qual è, secondo Comte e Dunoyer, la soluzione al conflitto tra classi?
+answer: Impedire allo stato di distribuire e controllare la proprietà
+wrong_answers:
   - Eliminare una classe
   - Distribuire le risorse in modo equo
   - Promuovere la lotta di classe
-spiegazione: |
+explanation: |
   Credono che l'unico modo per ridurre lo sfruttamento sia limitare il potere dello stato di distribuire e controllare la proprietà.
-revisionato: false
+reviewed: false

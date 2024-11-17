@@ -1,9 +1,9 @@
-domanda: Quale sviluppatore americano ha individuato un "blocco strano" durante l'incidente di overflow del valore il 15 agosto 2010?
-risposta: Jeff Garzik
-risposte_errate:
+question: Quale sviluppatore americano ha individuato un "blocco strano" durante l'incidente di overflow del valore il 15 agosto 2010?
+answer: Jeff Garzik
+wrong_answers:
   - Gavin Andresen
   - Nils Schneider
   - Christian Decker
-spiegazione: |
+explanation: |
   Questo blocco, sfruttando un difetto, ha creato oltre 184 miliardi di bitcoin.
-revisionato: false
+reviewed: false

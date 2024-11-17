@@ -1,9 +1,9 @@
-domanda: Chi ha proposto l'idea della competizione tra valute private?
-risposta: Friedrich Hayek
-risposte_errate:
+question: Chi ha proposto l'idea della competizione tra valute private?
+answer: Friedrich Hayek
+wrong_answers:
   - John Maynard Keynes
   - Jacques Rueff
   - Satoshi Nakamoto
-spiegazione: |
+explanation: |
   Friedrich Hayek ha proposto l'idea della competizione tra valute private per ridurre l'influenza dei governi sulla moneta e incoraggiare la stabilità monetaria basata sul mercato piuttosto che su politiche centralizzate.
-revisionato: false
+reviewed: false

@@ -1,9 +1,9 @@
-domanda: Quali sono le caratteristiche di un PRNG crittograficamente sicuro?
-risposta: Deve essere imprevedibile, statisticamente casuale e resistente agli attacchi.
-risposte_errate:
+question: Quali sono le caratteristiche di un PRNG crittograficamente sicuro?
+answer: Deve essere imprevedibile, statisticamente casuale e resistente agli attacchi.
+wrong_answers:
   - Deve essere veloce, utilizzabile nel cloud e open source.
   - Deve essere non deterministico, basato su un fenomeno fisico e scalabile.
   - Deve essere basato su hardware, generato da un processore e reversibile.
-spiegazione: |
+explanation: |
   Un PRNG crittograficamente sicuro deve essere imprevedibile, resistente anche se alcuni risultati vengono rivelati, e avere un periodo sufficientemente lungo per evitare la ripetizione di sequenze.
-revisionato: false
+reviewed: false

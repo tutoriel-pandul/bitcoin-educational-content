@@ -1,9 +1,9 @@
-domanda: In un gruppo finito, quale termine si riferisce al numero di elementi nel gruppo?
-risposta: L'ordine del gruppo
-risposte_errate:
+question: In un gruppo finito, quale termine si riferisce al numero di elementi nel gruppo?
+answer: L'ordine del gruppo
+wrong_answers:
   - La capacità del gruppo
   - La lunghezza del gruppo
   - Il grado del gruppo
-spiegazione: |
+explanation: |
   L'ordine di un gruppo è il numero totale di elementi che contiene.
-revisionato: false
+reviewed: false

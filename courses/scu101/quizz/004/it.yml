@@ -1,10 +1,10 @@
-domanda: Perché si raccomanda di cancellare i cookie dopo ogni visita a un sito?
-risposta: Per impedire ai siti di terze parti di tracciare la tua attività online.
-risposte_errate:
+question: Perché si raccomanda di cancellare i cookie dopo ogni visita a un sito?
+answer: Per impedire ai siti di terze parti di tracciare la tua attività online.
+wrong_answers:
   - Per risparmiare spazio di archiviazione sul tuo dispositivo.
   - Per impedire al sito di ricordare le tue informazioni di accesso.
   - Per impedire al sito di mostrarti annunci pubblicitari mirati.
-spiegazione: |
+explanation: |
   I cookie sono file creati dai siti web per memorizzare informazioni
   sul tuo dispositivo. Sebbene alcuni siti richiedano questi cookie per
   funzionare correttamente, possono anche essere sfruttati da

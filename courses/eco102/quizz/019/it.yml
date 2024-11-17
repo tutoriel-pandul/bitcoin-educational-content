@@ -1,9 +1,9 @@
-domanda: Secondo Tracy, qual è la vera alternativa alle guerre?
-risposta: Produzione e commercio
-risposte_errate:
+question: Secondo Tracy, qual è la vera alternativa alle guerre?
+answer: Produzione e commercio
+wrong_answers:
   - Diplomazia
   - Cultura
   - Integrazione politica
-spiegazione: |
+explanation: |
   Destutt de Tracy ritiene che la produzione pacifica e il commercio siano una soluzione sostenibile per evitare conflitti.
-revisionato: false
+reviewed: false

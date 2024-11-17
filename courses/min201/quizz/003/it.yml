@@ -1,12 +1,12 @@
-domanda: Qual è il principale incentivo finanziario per i minatori a partecipare al processo di mining di Bitcoin?
-risposta: La ricompensa del mining
-risposte_errate:
+question: Qual è il principale incentivo finanziario per i minatori a partecipare al processo di mining di Bitcoin?
+answer: La ricompensa del mining
+wrong_answers:
   - La capacità di controllare la rete Bitcoin
   - La capacità di creare nuovi bitcoin a piacimento
   - La capacità di manipolare il prezzo del Bitcoin
-spiegazione: |
+explanation: |
   Il principale incentivo finanziario per i minatori a partecipare
   al processo di mining di Bitcoin è la ricompensa del mining. Questa
   ricompensa funge da potente incentivo per incoraggiare i minatori
   a partecipare al processo di mining nonostante il suo costo energetico.
-revisionato: true
+reviewed: true

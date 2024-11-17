@@ -1,9 +1,9 @@
-domanda: Quale numero di versione del software è stato presentato su Slashdot nel luglio 2010?
-risposta: v0.3
-risposte_errate:
+question: Quale numero di versione del software è stato presentato su Slashdot nel luglio 2010?
+answer: v0.3
+wrong_answers:
   - v0.1
   - v0.2
   - v0.4
-spiegazione: |
+explanation: |
   Il rilascio di questa versione, lungamente preparato da Satoshi e Martti, ha segnato un nuovo sforzo nella comunicazione.
-revisionato: false
+reviewed: false

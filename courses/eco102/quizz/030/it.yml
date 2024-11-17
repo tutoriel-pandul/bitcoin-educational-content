@@ -1,9 +1,9 @@
-domanda: Bastiat considera Rousseau il precursore di quale movimento politico?
-risposta: Socialismo
-risposte_errate:
+question: Bastiat considera Rousseau il precursore di quale movimento politico?
+answer: Socialismo
+wrong_answers:
   - Comunismo
   - Mutualismo
   - Anarchismo
-spiegazione: |
+explanation: |
   Bastiat vede Rousseau come un precursore del socialismo, a causa del suo approccio collettivo alla società, dove l'individuo deve sottomettersi alla volontà generale.
-revisionato: false
+reviewed: false

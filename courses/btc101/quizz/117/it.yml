@@ -1,10 +1,10 @@
-domanda: Quando è scomparso Satoshi Nakamoto?
-risposta: Nel 2010
-risposte_errate:
+question: Quando è scomparso Satoshi Nakamoto?
+answer: Nel 2010
+wrong_answers:
   - Nel 2008
   - Nel 2009
   - Nel 2023
-spiegazione: |
+explanation: |
   Satoshi Nakamoto è scomparso nel 2010, lasciando la sua creazione
   nelle mani della comunità.
-revisionato: vero
+reviewed: vero

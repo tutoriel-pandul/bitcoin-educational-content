@@ -1,10 +1,10 @@
-domanda: Cosa devi fare il backup quando utilizzi un portafoglio con una passphrase?
-risposta: Devi fare il backup sia della lista di 12 o 24 parole sia della tua passphrase.
-risposte_errate:
+question: Cosa devi fare il backup quando utilizzi un portafoglio con una passphrase?
+answer: Devi fare il backup sia della lista di 12 o 24 parole sia della tua passphrase.
+wrong_answers:
   - Devi fare il backup solo della lista di 12 o 24 parole.
   - Devi fare il backup solo della tua passphrase.
   - Non devi fare il backup né della lista di 12 o 24 parole né della tua passphrase.
-spiegazione: |
+explanation: |
   Quando utilizzi un portafoglio con una passphrase, devi fare il backup
   sia della lista di 12 o 24 parole sia della tua passphrase,
   perché sia la lista di parole che la passphrase sono entrambe

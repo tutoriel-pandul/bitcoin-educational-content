@@ -1,12 +1,12 @@
-domanda: Qual è l'uso consigliato di un portafoglio mobile?
-risposta: Conservare le spese quotidiane.
-risposte_errate:
+question: Qual è l'uso consigliato di un portafoglio mobile?
+answer: Conservare le spese quotidiane.
+wrong_answers:
   - Conservare risparmi a lungo termine.
   - Conservare risparmi a medio termine.
   - Conservare grandi quantità.
-spiegazione: |
+explanation: |
   Un portafoglio mobile è consigliato per le spese quotidiane perché
   è facile effettuare transazioni con esso. Tuttavia, non è
   consigliato per conservare grandi quantità o per risparmi a lungo
   termine perché è potenzialmente vulnerabile a minacce online.
-revisionato: true
+reviewed: true

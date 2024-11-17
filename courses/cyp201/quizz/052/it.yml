@@ -1,9 +1,9 @@
-domanda: Qual è la funzione pseudo-casuale utilizzata in PBKDF2 per calcolare il seme di un portafoglio HD Bitcoin?
-risposta: HMAC-SHA512.
-risposte_errate:
+question: Qual è la funzione pseudo-casuale utilizzata in PBKDF2 per calcolare il seme di un portafoglio HD Bitcoin?
+answer: HMAC-SHA512.
+wrong_answers:
   - HMAC-SHA256.
   - HMAC-SHA1.
   - SHA3-512.
-spiegazione: |
+explanation: |
   HMAC-SHA512 è la funzione pseudo-casuale utilizzata in PBKDF2 per generare il seme di un portafoglio HD Bitcoin.
-revisionato: false
+reviewed: false

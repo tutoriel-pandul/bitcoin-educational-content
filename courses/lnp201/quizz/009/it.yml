@@ -1,9 +1,9 @@
-domanda: In una transazione Bitcoin, cosa fa lo script di blocco?
-risposta: Impone condizioni specifiche per spendere i fondi associati
-risposte_errate:
+question: In una transazione Bitcoin, cosa fa lo script di blocco?
+answer: Impone condizioni specifiche per spendere i fondi associati
+wrong_answers:
   - Invia automaticamente i fondi a più indirizzi
   - Determina il valore dell'UTXO da creare
   - Blocca temporaneamente i fondi per prevenire la spesa eccessiva
-spiegazione: |
+explanation: |
   Lo script di blocco impone condizioni, come la firma con una chiave privata, per sbloccare e utilizzare i fondi in una transazione.
-revisionato: false
+reviewed: false

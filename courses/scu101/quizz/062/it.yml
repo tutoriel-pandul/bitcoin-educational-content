@@ -1,11 +1,11 @@
-domanda: Quali sono alcuni degli aspetti della conoscenza di rete necessari nella cybersecurity?
-risposta: TCP/IP, VPN, firewall
-risposte_errate:
+question: Quali sono alcuni degli aspetti della conoscenza di rete necessari nella cybersecurity?
+answer: TCP/IP, VPN, firewall
+wrong_answers:
   - HTTP, FTP, SMTP
   - POP3, IMAP, SSH
   - DHCP, DNS, ARP
-spiegazione: |
+explanation: |
   Il capitolo menziona TCP/IP, VPN e firewall come alcuni degli
   aspetti della conoscenza di rete necessari nella
   cybersecurity.
-revisionato: true
+reviewed: true

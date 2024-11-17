@@ -1,9 +1,9 @@
-domanda: Qual era l'obiettivo iniziale dell'algoritmo di proof of work Hashcash progettato da Adam Back?
-risposta: Combattere lo spam via email
-risposte_errate:
+question: Qual era l'obiettivo iniziale dell'algoritmo di proof of work Hashcash progettato da Adam Back?
+answer: Combattere lo spam via email
+wrong_answers:
   - Garantire il valore di una unità di conto
   - Raggiungere un consenso su una rete peer-to-peer
   - Bollire gli oceani
-spiegazione: |
+explanation: |
   Hashcash richiedeva una prova di lavoro per ogni email ricevuta, il che doveva limitare lo spam.
-revisionato: false
+reviewed: false

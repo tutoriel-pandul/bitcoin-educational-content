@@ -1,9 +1,9 @@
-domanda: In quale anno è stata ufficialmente scoperta la crittografia asimmetrica?
-risposta: 1976
-risposte_errate:
+question: In quale anno è stata ufficialmente scoperta la crittografia asimmetrica?
+answer: 1976
+wrong_answers:
   - 1676
   - 1776
   - 1876
-spiegazione: |
+explanation: |
   È stata introdotta da Whitfield Diffie e Martin Hellman, due crittografi della Stanford University, in un articolo pubblicato nel novembre 1976.
-revisionato: false
+reviewed: false

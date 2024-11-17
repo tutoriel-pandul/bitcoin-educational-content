@@ -1,9 +1,9 @@
-domanda: Cosa dimostra una firma digitale nel sistema Bitcoin tramite lo scriptSig?
-risposta: Il possesso della chiave privata associata a una specifica chiave pubblica.
-risposte_errate:
+question: Cosa dimostra una firma digitale nel sistema Bitcoin tramite lo scriptSig?
+answer: Il possesso della chiave privata associata a una specifica chiave pubblica.
+wrong_answers:
   - Il possesso di un indirizzo Bitcoin.
   - La capacità di minare un blocco Bitcoin.
   - La validità di una transazione Bitcoin.
-spiegazione: |
+explanation: |
   Una firma digitale dimostra che l'utente possiede la chiave privata senza doverla rivelare, garantendo l'autenticità della transazione.
 recensito: false

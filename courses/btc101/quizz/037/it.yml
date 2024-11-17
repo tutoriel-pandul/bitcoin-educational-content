@@ -1,12 +1,12 @@
-domanda: Quali sono le entità incaricate dell'emissione di valute fiduciarie?
-risposta: Banche centrali.
-risposte_errate:
+question: Quali sono le entità incaricate dell'emissione di valute fiduciarie?
+answer: Banche centrali.
+wrong_answers:
   - Banche commerciali.
   - Governi.
   - Istituzioni private.
-spiegazione: |
+explanation: |
   Le banche centrali sono le entità incaricate dell'emissione di
   una valuta fiduciaria. Decidono la politica monetaria e
   determinano quanta moneta debba essere messa in circolazione o
   stampata.
-revisionato: true
+reviewed: true
