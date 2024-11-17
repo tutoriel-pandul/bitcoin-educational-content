@@ -1,4 +1,4 @@
-questão: Qual é o papel principal de uma chave privada no sistema Bitcoin?
+question: Qual é o papel principal de uma chave privada no sistema Bitcoin?
 answer: Assinar transações para satisfazer um script
 wrong_answers:
   - Servir como um identificador para receber bitcoins

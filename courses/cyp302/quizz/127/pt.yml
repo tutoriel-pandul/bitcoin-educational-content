@@ -1,4 +1,4 @@
-questão: Qual conceito matemático está por trás da troca de chaves Diffie-Hellman?
+question: Qual conceito matemático está por trás da troca de chaves Diffie-Hellman?
 answer: Uma função unidirecional com uma porta dos fundos
 wrong_answers:
   - Uma função exponencial inversa

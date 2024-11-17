@@ -1,4 +1,4 @@
-questão: Qual é o principal papel técnico de uma carteira Bitcoin?
+question: Qual é o principal papel técnico de uma carteira Bitcoin?
 answer: Armazenar pares de chaves criptográficas.
 wrong_answers:
   - Armazenar bitcoins.

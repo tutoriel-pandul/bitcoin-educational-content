@@ -1,4 +1,4 @@
-questão: Qual papel o timelock desempenha na operação dos HTLCs?
+question: Qual papel o timelock desempenha na operação dos HTLCs?
 answer: Ele fornece um prazo para completar o pagamento antes do cancelamento
 wrong_answers:
   - Ele aumenta a capacidade do canal utilizado
