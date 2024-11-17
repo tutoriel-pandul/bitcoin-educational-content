@@ -1,13 +1,13 @@
-pregunta: ¿Cuál de las siguientes no es una ventaja de Bitcoin como moneda?
-respuesta: Se utiliza para pagar impuestos.
-respuestas_incorrectas:
+question: ¿Cuál de las siguientes no es una ventaja de Bitcoin como moneda?
+answer: Se utiliza para pagar impuestos.
+wrong_answers:
   - Es divisible.
   - Es transportable.
   - No requiere permisos.
-explicación: |
+explanation: |
   Bitcoin, debido a sus propiedades como su divisibilidad,
   verificabilidad, aspecto sin necesidad de permisos y transportabilidad,
   ofrece un excelente almacenamiento de valor. Además, como una moneda neutral
   de internet, representa un buen medio de intercambio
   que no conoce fronteras.
-revisado: true
+reviewed: true

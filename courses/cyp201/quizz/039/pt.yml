@@ -1,9 +1,9 @@
-pergunta: Quais são as características de um PRNG criptograficamente seguro?
-resposta: Deve ser imprevisível, estatisticamente aleatório e resistente a ataques.
+question: Quais são as características de um PRNG criptograficamente seguro?
+answer: Deve ser imprevisível, estatisticamente aleatório e resistente a ataques.
 wrong_answers:
   - Deve ser rápido, utilizável na nuvem e de código aberto.
   - Deve ser não determinístico, baseado em um fenômeno físico e escalável.
   - Deve ser baseado em hardware, gerado por um processador e reversível.
-explicação: |
+explanation: |
   Um PRNG criptograficamente seguro deve ser imprevisível, resistente mesmo se alguns resultados forem revelados, e ter um período suficientemente longo para evitar a repetição de sequências.
 reviewed: false

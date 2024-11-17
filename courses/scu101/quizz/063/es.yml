@@ -1,9 +1,9 @@
-pregunta: ¿Cuáles son algunos de los aspectos de la criptografía utilizados en la ciberseguridad?
-respuesta: SSL/TLS, cifrado simétrico/asimétrico
-respuestas_incorrectas:
+question: ¿Cuáles son algunos de los aspectos de la criptografía utilizados en la ciberseguridad?
+answer: SSL/TLS, cifrado simétrico/asimétrico
+wrong_answers:
   - RSA, DSA, ECC
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
-explicación: |
+explanation: |
   El capítulo enumera SSL/TLS y el cifrado simétrico/asimétrico como algunos de los aspectos de la criptografía utilizados en la ciberseguridad.
-revisado: true
+reviewed: true

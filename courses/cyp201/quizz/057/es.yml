@@ -1,8 +1,8 @@
-pregunta: Con una clave pública extendida, puedo derivar...
-respuesta: ...claves públicas de hijos normales.
-respuestas_incorrectas:
+question: Con una clave pública extendida, puedo derivar...
+answer: ...claves públicas de hijos normales.
+wrong_answers:
   - ...claves públicas de hijos endurecidos.
   - ...claves privadas de hijos normales.
   - ...claves privadas de hijos endurecidos.
-explicación: |
+explanation: |
   Una clave pública extendida permite la derivación solo de claves públicas de hijos normales, pero no de claves privadas.

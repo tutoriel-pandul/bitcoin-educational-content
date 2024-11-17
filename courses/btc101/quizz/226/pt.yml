@@ -1,10 +1,10 @@
-pergunta: Que tipo de rede a Lightning Network cria?
-resposta: Uma rede de canais de pagamento.
+question: Que tipo de rede a Lightning Network cria?
+answer: Uma rede de canais de pagamento.
 respostas_incorretas:
   - Uma rede de nós de mineração.
   - Uma rede de nós de blockchain.
   - Uma rede de exchanges de criptomoedas.
-explicação: >-
+explanation: >-
   A Lightning Network atua como uma rede de canais de pagamento, possibilitando
   transações instantâneas com taxas baixas para o remetente.
-revisado: true
+reviewed: true

@@ -1,13 +1,13 @@
-pregunta: ¿Cómo mejora P2P transport V2 la privacidad y seguridad de las comunicaciones entre nodos?
+question: ¿Cómo mejora P2P transport V2 la privacidad y seguridad de las comunicaciones entre nodos?
 
-respuesta: Integrando cifrado oportunista
+answer: Integrando cifrado oportunista
 
-respuestas_incorrectas:
+wrong_answers:
   - Integrando autenticación
   - Usando relés adicionales
   - Usando Tor
 
-explicación: |
+explanation: |
   P2P transport V2 incorpora una capa de cifrado oportunista para mejorar la privacidad y seguridad de las comunicaciones entre nodos.
 
-revisado: false
+reviewed: false

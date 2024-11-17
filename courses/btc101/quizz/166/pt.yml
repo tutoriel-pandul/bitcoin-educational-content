@@ -1,12 +1,12 @@
-pergunta: O que os mineradores podem fazer por aquelas usinas de energia que ainda não estão conectadas à rede?
-resposta: Eles podem agir como compradores de último recurso.
-respostas_erradas:
+question: O que os mineradores podem fazer por aquelas usinas de energia que ainda não estão conectadas à rede?
+answer: Eles podem agir como compradores de último recurso.
+wrong_answers:
   - Eles podem fornecer eletricidade para as usinas de energia.
   - Eles podem conectar as usinas de energia à rede.
   - Eles podem regular o preço da eletricidade.
-explicação: |
+explanation: |
   Os mineradores podem agir como compradores de último recurso para usinas de energia que
   ainda não estão conectadas à rede. Isso permite que as usinas de energia
   garantam financiamento mesmo antes de serem conectadas à
   rede elétrica.
-revisado: true
+reviewed: true

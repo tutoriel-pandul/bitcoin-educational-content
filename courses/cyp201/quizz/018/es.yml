@@ -1,9 +1,9 @@
-pregunta: ¿Dónde se almacenan las claves privadas?
-respuesta: En las carteras de Bitcoin
-respuestas_incorrectas:
+question: ¿Dónde se almacenan las claves privadas?
+answer: En las carteras de Bitcoin
+wrong_answers:
   - En la blockchain
   - En los servidores de la comunidad de Bitcoin.
   - En la red peer-to-peer.
-explicación: |
+explanation: |
   La cartera contiene las claves privadas necesarias para acceder a los bitcoins.
-revisado: false
+reviewed: false

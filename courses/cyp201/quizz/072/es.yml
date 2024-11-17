@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es la función utilizada para generar una dirección?
-respuesta: HASH160.
-respuestas_incorrectas:
+question: ¿Cuál es la función utilizada para generar una dirección?
+answer: HASH160.
+wrong_answers:
   - HASH256.
   - HASH512.
   - SHA256.
-explicación: |
+explanation: |
   La función HASH160, que combina SHA256 y RIPEMD-160, se utiliza para generar direcciones de Bitcoin a partir de claves públicas.
-revisado: false
+reviewed: false

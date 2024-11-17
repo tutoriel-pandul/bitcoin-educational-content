@@ -1,8 +1,8 @@
-pergunta: Se eu gerar um número aleatório de 256 bits, qual será o tamanho da minha frase de recuperação em palavras?
-resposta: 24 palavras.
+question: Se eu gerar um número aleatório de 256 bits, qual será o tamanho da minha frase de recuperação em palavras?
+answer: 24 palavras.
 respostas_incorretas:
   - 6 palavras.
   - 8 palavras.
   - 12 palavras.
-explicação: |
+explanation: |
   Um número aleatório de 256 bits corresponde a uma frase mnemônica de 24 palavras de acordo com o padrão BIP39.

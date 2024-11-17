@@ -1,11 +1,11 @@
-pergunta: Qual é o papel da unidade bitcoin no cotidiano?
-resposta: É usada para comprar e vender bens e serviços.
-respostas_erradas:
+question: Qual é o papel da unidade bitcoin no cotidiano?
+answer: É usada para comprar e vender bens e serviços.
+wrong_answers:
   - É usada para minerar novos bitcoins.
   - É usada para regular o preço do Bitcoin.
   - É usada para controlar o protocolo Bitcoin.
-explicação: |
+explanation: |
   No cotidiano, as pessoas usam a unidade Bitcoin para comprar e
   vender bens e serviços. Para ser usada, a unidade
   depende do protocolo Bitcoin.
-revisado: true
+reviewed: true

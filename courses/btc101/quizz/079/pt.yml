@@ -1,11 +1,11 @@
-pergunta: Como você pode fortalecer a segurança padrão da sua carteira Bitcoin?
-resposta: Adicionando uma frase-senha à sua carteira Bitcoin.
-respostas_erradas:
+question: Como você pode fortalecer a segurança padrão da sua carteira Bitcoin?
+answer: Adicionando uma frase-senha à sua carteira Bitcoin.
+wrong_answers:
   - Adicionando uma segunda chave privada à sua carteira Bitcoin.
   - Adicionando uma segunda chave pública à sua carteira Bitcoin.
   - Adicionando uma segunda frase mnemônica à sua carteira Bitcoin.
-explicação: |
+explanation: |
   Se você não está satisfeito com a segurança padrão da sua
   carteira Bitcoin, você sempre pode fortalecê-la adicionando uma
   frase-senha à sua carteira Bitcoin.
-revisado: true
+reviewed: true

@@ -1,9 +1,9 @@
-pergunta: Qual é o intervalo de índice usado para chaves de criança normais em uma carteira HD?
-resposta: Entre 0 e 2^31 - 1.
-respostas_erradas:
+question: Qual é o intervalo de índice usado para chaves de criança normais em uma carteira HD?
+answer: Entre 0 e 2^31 - 1.
+wrong_answers:
   - Entre 0 e 2^32 - 1.
   - Entre 0 e 2^31.
   - Entre 2^31 e 2^32 - 1.
-explicação: |
+explanation: |
   Chaves de criança normais usam um intervalo de índice entre 0 e 2^31 - 1, enquanto chaves endurecidas têm um índice começando de 2^31.
-revisado: false
+reviewed: false

@@ -1,8 +1,8 @@
-pregunta: ¿Cuál es el paso final para crear una dirección Bitcoin Bech32?
-respuesta: Añadir el HRP "bc" y un separador "1".
-respuestas_incorrectas:
+question: ¿Cuál es el paso final para crear una dirección Bitcoin Bech32?
+answer: Añadir el HRP "bc" y un separador "1".
+wrong_answers:
   - Añadir la versión SegWit al principio.
   - Añadir el checksum al principio de la dirección.
   - Añadir un prefijo "1".
-explicación: |
+explanation: |
   El paso final en la construcción de una dirección Bech32 es añadir el HRP (Parte Legible por Humanos), "bc" para Bitcoin, seguido por un separador "1".

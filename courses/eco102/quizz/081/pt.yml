@@ -1,9 +1,9 @@
-pergunta: De acordo com Bastiat, a responsabilidade é um princípio de... ?
-resposta: perfectibilidade
-respostas_erradas:
+question: De acordo com Bastiat, a responsabilidade é um princípio de... ?
+answer: perfectibilidade
+wrong_answers:
   - perfeição
   - constância
   - realização perfeita
-explicação: |
+explanation: |
   Bastiat vê a responsabilidade como um princípio de perfectibilidade, significando que é uma fonte de melhoria e progresso pessoal através das lições da experiência.
-revisado: false
+reviewed: false

@@ -1,11 +1,11 @@
-pergunta: Qual método criptográfico é usado para impedir que o coordenador vincule as entradas e saídas em um coinjoin?
+question: Qual método criptográfico é usado para impedir que o coordenador vincule as entradas e saídas em um coinjoin?
 
-resposta: Assinaturas cegas de Chaum.
+answer: Assinaturas cegas de Chaum.
 
-respostas_erradas:
+wrong_answers:
   - Assinaturas de Schnorr.
   - Endereços P2SH.
   - Endereços P2TR.
 
-explicação: |
+explanation: |
   Nos chamados coinjoins "Chaumianos", o uso do Tor e as assinaturas cegas de David Chaum são combinados para garantir que o coordenador não possa saber qual saída pertence a qual usuário.

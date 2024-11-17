@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es la principal lección que se aprende del ejemplo del lápiz?
-respuesta: El papel de la coordinación espontánea en la economía
-respuestas_incorrectas:
+question: ¿Cuál es la principal lección que se aprende del ejemplo del lápiz?
+answer: El papel de la coordinación espontánea en la economía
+wrong_answers:
   - La complejidad de la producción industrial
   - La importancia de saber escribir
   - La necesidad de una planificación centralizada
-explicación: |
+explanation: |
   El ejemplo del lápiz demuestra que la coordinación de mercado espontánea permite la producción de bienes complejos sin una planificación centralizada.
-revisado: false
+reviewed: false

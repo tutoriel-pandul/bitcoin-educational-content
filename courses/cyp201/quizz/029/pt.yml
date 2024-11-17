@@ -1,8 +1,8 @@
-pergunta: O que uma assinatura digital prova no sistema Bitcoin por meio do scriptSig?
-resposta: A posse da chave privada associada a uma chave pública específica.
-respostas_erradas:
+question: O que uma assinatura digital prova no sistema Bitcoin por meio do scriptSig?
+answer: A posse da chave privada associada a uma chave pública específica.
+wrong_answers:
   - A posse de um endereço Bitcoin.
   - A capacidade de minerar um bloco Bitcoin.
   - A validade de uma transação Bitcoin.
-explicação: |
+explanation: |
   Uma assinatura digital prova que o usuário possui a chave privada sem ter que revelá-la, garantindo a autenticidade da transação.

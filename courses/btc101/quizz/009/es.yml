@@ -1,10 +1,10 @@
-pregunta: ¿Qué tecnologías utiliza el protocolo Bitcoin?
-respuesta: Criptografía, comunicación en red y la blockchain.
-respuestas_incorrectas:
+question: ¿Qué tecnologías utiliza el protocolo Bitcoin?
+answer: Criptografía, comunicación en red y la blockchain.
+wrong_answers:
   - Inteligencia artificial, aprendizaje automático y la blockchain.
   - Computación cuántica, comunicación en red y la blockchain.
   - Criptografía, inteligencia artificial y la blockchain.
-explicación: >-
+explanation: >-
   El protocolo Bitcoin utiliza tecnologías subyacentes como la criptografía,
   la comunicación en red y la blockchain.
-revisado: true
+reviewed: true

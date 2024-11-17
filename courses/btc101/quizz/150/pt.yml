@@ -1,11 +1,11 @@
-pergunta: Qual é o papel dos mineradores na rede Bitcoin?
-resposta: Os mineradores protegem a rede e adicionam transações aos blocos.
-respostas_erradas:
+question: Qual é o papel dos mineradores na rede Bitcoin?
+answer: Os mineradores protegem a rede e adicionam transações aos blocos.
+wrong_answers:
   - Mineradores criam novos bitcoins.
   - Mineradores verificam a identidade dos usuários do Bitcoin.
   - Mineradores definem o preço do Bitcoin.
-explicação: >-
+explanation: >-
   Os mineradores usam seu poder computacional para resolver problemas matemáticos complexos,
   o que lhes permite adicionar novas transações à blockchain. Esse processo protege
   a rede e mantém sua integridade.
-revisado: true
+reviewed: true

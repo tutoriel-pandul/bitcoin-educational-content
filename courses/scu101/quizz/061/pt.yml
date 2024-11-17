@@ -1,10 +1,10 @@
-pergunta: Quais são algumas das linguagens de programação usadas em cibersegurança?
-resposta: Python, C, Java
-respostas_erradas:
+question: Quais são algumas das linguagens de programação usadas em cibersegurança?
+answer: Python, C, Java
+wrong_answers:
   - HTML, CSS, JavaScript
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
-explicação: |
+explanation: |
   O capítulo lista Python, C e Java como algumas das
   linguagens de programação usadas em cibersegurança.
-revisado: true
+reviewed: true

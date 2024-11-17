@@ -1,11 +1,11 @@
-pregunta: ¿Cuál es la principal preocupación respecto al costo ambiental de la minería de Bitcoin?
-respuesta: El consumo de energía.
-respuestas_incorrectas:
+question: ¿Cuál es la principal preocupación respecto al costo ambiental de la minería de Bitcoin?
+answer: El consumo de energía.
+wrong_answers:
   - La producción de ASICs.
   - El reciclaje de ASICs.
   - El costo de la electricidad.
-explicación: >-
+explanation: >-
   La principal preocupación ambiental de la minería de Bitcoin es el consumo de energía.
   Aunque los ASICs están mayormente hechos de aluminio y pueden ser reciclados o reutilizados, la energía
   requerida para alimentar estas máquinas es significativa.
-revisado: true
+reviewed: true

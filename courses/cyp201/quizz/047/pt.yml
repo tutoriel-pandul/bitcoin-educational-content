@@ -1,9 +1,9 @@
-pergunta: Por que usar uma frase-senha fortalece a segurança de uma carteira HD?
-resposta: Ela adiciona uma camada extra de proteção à frase mnemônica.
-respostas_erradas:
+question: Por que usar uma frase-senha fortalece a segurança de uma carteira HD?
+answer: Ela adiciona uma camada extra de proteção à frase mnemônica.
+wrong_answers:
   - Permite a geração de chaves públicas mais fortes.
   - Protege criptograficamente as transações.
   - Dobra o número de bitcoins na carteira.
-explicação: |
+explanation: |
   A frase-senha aumenta a segurança ao adicionar um dado adicional à frase mnemônica, atuando de forma semelhante a um 2FA.
-revisado: false
+reviewed: false

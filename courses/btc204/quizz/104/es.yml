@@ -1,13 +1,13 @@
-pregunta: ¿Cuál es la entropía máxima de una transacción?
+question: ¿Cuál es la entropía máxima de una transacción?
 
-respuesta: La mayor entropía que una estructura de transacción puede alcanzar.
+answer: La mayor entropía que una estructura de transacción puede alcanzar.
 
-respuestas_incorrectas:
+wrong_answers:
   - La menor entropía que una estructura de transacción puede alcanzar.
   - La entropía real de una transacción.
   - La eficiencia de una transacción.
 
-explicación: |
+explanation: |
   La entropía máxima se refiere a la mayor entropía que una estructura de transacción específica puede alcanzar teóricamente.
 
-revisado: false
+reviewed: false

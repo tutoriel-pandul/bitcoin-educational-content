@@ -1,8 +1,8 @@
-pergunta: Qual é a função usada para gerar a semente a partir da frase mnemônica e da senha?
-resposta: PBKDF2.
-respostas_erradas:
+question: Qual é a função usada para gerar a semente a partir da frase mnemônica e da senha?
+answer: PBKDF2.
+wrong_answers:
   - SHA256.
   - HMAC.
   - Argon2.
-explicação: |
+explanation: |
   PBKDF2 (Password-Based Key Derivation Function 2) é usada para derivar a semente a partir da frase mnemônica e da senha em carteiras HD.

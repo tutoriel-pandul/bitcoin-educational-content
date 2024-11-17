@@ -1,9 +1,9 @@
-pregunta: En el contexto del criptosistema RSA, ¿a qué corresponde el producto de dos números primos p y q?
-respuesta: Constituye el entero N utilizado como módulo para operaciones
-respuestas_incorrectas:
+question: En el contexto del criptosistema RSA, ¿a qué corresponde el producto de dos números primos p y q?
+answer: Constituye el entero N utilizado como módulo para operaciones
+wrong_answers:
   - Constituye la clave pública
   - Sirve como clave de descifrado
   - Se utiliza solo para generar el exponente e
-explicación: |
+explanation: |
   En RSA, el entero N es el producto de dos grandes números primos p y q, y se utiliza como módulo para las operaciones de cifrado y descifrado.
-revisado: false
+reviewed: false

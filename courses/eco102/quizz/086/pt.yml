@@ -1,8 +1,8 @@
-pergunta: Qual conceito Bastiat usa para descrever a ideologia da redistribuição forçada e do saque legal?
-resposta: socialismo
-respostas_erradas:
+question: Qual conceito Bastiat usa para descrever a ideologia da redistribuição forçada e do saque legal?
+answer: socialismo
+wrong_answers:
   - republicanismo
   - conservadorismo
   - liberalismo
-explicação: |
+explanation: |
   Bastiat critica o socialismo por sua tendência em usar a lei para impor a redistribuição forçada, o que ele considera uma forma de saque legal.

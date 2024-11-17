@@ -1,13 +1,13 @@
 questão: Qual é a analogia usada neste curso para explicar como você pode receber bitcoins sem
   permitir que o remetente roube seus fundos?
-resposta: Uma caixa de correio.
-respostas_erradas:
+answer: Uma caixa de correio.
+wrong_answers:
   - Uma conta bancária.
   - Um cofre.
   - Uma casa.
-explicação: |
+explanation: |
   A analogia usada para explicar como você pode receber Bitcoins
   sem permitir que o remetente roube seus fundos é uma
   caixa de correio. As pessoas depositam dinheiro nela, mas você é o único
   que pode abri-la.
-revisado: true
+reviewed: true

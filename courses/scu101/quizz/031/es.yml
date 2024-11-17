@@ -1,12 +1,12 @@
-pregunta: ¿Qué debes hacer si detectas un virus en tu computadora?
-respuesta: Desconéctala de internet, realiza un escaneo completo con el antivirus y elimina los archivos infectados.
-respuestas_incorrectas:
+question: ¿Qué debes hacer si detectas un virus en tu computadora?
+answer: Desconéctala de internet, realiza un escaneo completo con el antivirus y elimina los archivos infectados.
+wrong_answers:
   - Continuar usando la computadora con normalidad.
   - Apagar la computadora y dejarla apagada durante unas horas.
   - Eliminar todos los archivos de la computadora.
-explicación: |
+explanation: |
   Si detectas un virus en tu computadora, debes
   desconectarla de internet para prevenir que el virus se
   propague o comunique con el hacker. Luego, realiza un
   escaneo completo con el antivirus y elimina los archivos infectados.
-revisado: true
+reviewed: true

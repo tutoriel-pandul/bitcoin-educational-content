@@ -1,11 +1,11 @@
-pergunta: Quantas transações sucessivas um ricochete clássico geralmente realiza?
+question: Quantas transações sucessivas um ricochete clássico geralmente realiza?
 
-resposta: 5
+answer: 5
 
-respostas_erradas:
+wrong_answers:
   - 2
   - 8
   - 14
 
-explicação: |
+explanation: |
   O método do ricochete tipicamente envolve realizar 4 transações para si mesmo, e uma final para enviar os fundos ao destinatário final.

@@ -1,10 +1,10 @@
-pergunta: Por que você deveria comprar bitcoins sem KYC?
-resposta: Para garantir sua privacidade.
-respostas_erradas:
+question: Por que você deveria comprar bitcoins sem KYC?
+answer: Para garantir sua privacidade.
+wrong_answers:
   - Para garantir o registro de todos os usuários de Bitcoin.
   - Para comprar a um preço baixo.
   - Para vender a um preço baixo.
-explicação: |
+explanation: |
   Comprar bitcoins sem KYC significa adquirir bitcoins sem
   passar pelos procedimentos padrão de verificação "Conheça Seu Cliente"
   (Know Your Customer - KYC) que muitas bolsas e plataformas
@@ -12,4 +12,4 @@ explicação: |
   caminho é para manter sua privacidade, garantindo que seus
   detalhes pessoais e atividades financeiras permaneçam
   não divulgados.
-revisado: true
+reviewed: true

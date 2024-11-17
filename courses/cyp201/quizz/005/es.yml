@@ -1,9 +1,9 @@
-pregunta: ¿Qué tamaño debe tener la entrada de la función SHA256 una vez rellenada?
-respuesta: Un múltiplo de 512 bits.
-respuestas_incorrectas:
+question: ¿Qué tamaño debe tener la entrada de la función SHA256 una vez rellenada?
+answer: Un múltiplo de 512 bits.
+wrong_answers:
   - De 256 bits.
   - De 256 bytes.
   - Un múltiplo de 256 bits.
-explicación: |
+explanation: |
   La función SHA256 requiere que la entrada sea un múltiplo de 512 bits después del relleno para funcionar correctamente.
-revisado: false
+reviewed: false

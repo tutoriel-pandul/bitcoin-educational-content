@@ -1,9 +1,9 @@
-pregunta: ¿Qué función se utiliza para derivar una clave hija de una clave padre en Bitcoin?
-respuesta: HMAC-SHA512.
-respuestas_incorrectas:
+question: ¿Qué función se utiliza para derivar una clave hija de una clave padre en Bitcoin?
+answer: HMAC-SHA512.
+wrong_answers:
   - SHA256.
   - MD5.
   - BLAKE2.
-explicación: |
+explanation: |
   La función HMAC-SHA512 se utiliza para derivar claves hijas de claves padres en las carteras HD de Bitcoin.
-revisado: false
+reviewed: false

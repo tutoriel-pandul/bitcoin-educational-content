@@ -1,8 +1,8 @@
-pregunta: ¿Cómo se llama la construcción de la función hash SHA256?
-respuesta: Construcción de Merkle-Damgard.
-respuestas_incorrectas:
+question: ¿Cómo se llama la construcción de la función hash SHA256?
+answer: Construcción de Merkle-Damgard.
+wrong_answers:
   - Construcción Esponja.
   - Construcción de Funciones Hash Iterativas (HAIFA).
   - Construcción Feistel.
-explicación: |
+explanation: |
   SHA256 utiliza la Construcción de Merkle-Damgard, una estructura comúnmente usada para crear funciones hash seguras.

@@ -1,13 +1,13 @@
-pergunta: O que é um ricochete no contexto do Bitcoin?
+question: O que é um ricochete no contexto do Bitcoin?
 
-resposta: Uma técnica que envolve fazer múltiplas transações para si mesmo
+answer: Uma técnica que envolve fazer múltiplas transações para si mesmo
 
-respostas_erradas:
+wrong_answers:
   - Uma transação colaborativa envolvendo múltiplos participantes
   - Um método de misturar bitcoins para aumentar o anonimato prospectivo
   - Um tipo de coinjoin específico para certas plataformas de troca
 
-explicação: |
+explanation: |
   Um ricochete é uma técnica que envolve fazer várias transações fictícias para si mesmo (varredura).
 
-revisado: false
+reviewed: false

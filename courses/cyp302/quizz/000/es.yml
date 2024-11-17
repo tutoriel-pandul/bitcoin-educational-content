@@ -1,9 +1,9 @@
-pregunta: ¿Quién confió una caja de hierro al posadero Robert Morriss para su custodia?
-respuesta: Thomas J. Beale
-respuestas_incorrectas:
+question: ¿Quién confió una caja de hierro al posadero Robert Morriss para su custodia?
+answer: Thomas J. Beale
+wrong_answers:
   - J.B. Ward
   - Simon Singh
   - Andrew Allen
-explicación: |
+explanation: |
   Fue Thomas J. Beale quien entregó una caja de hierro que contenía documentos cifrados y una nota a Robert Morriss, dándole instrucciones en caso de no regresar.
-revisado: false
+reviewed: false

@@ -1,10 +1,10 @@
-pregunta: ¿Cuánto es la recompensa de BTC después del cuarto halving?
-respuesta: 3.125 BTC.
-respuestas_incorrectas:
+question: ¿Cuánto es la recompensa de BTC después del cuarto halving?
+answer: 3.125 BTC.
+wrong_answers:
   - 1.5625 BTC.
   - 6.25 BTC.
   - 12.5 BTC.
-explicación: |
+explanation: |
   Después del cuarto halving, que ocurre en la altura de bloque
   840,000, la recompensa de BTC por minar es de 3.125 BTC.
-revisado: true
+reviewed: true

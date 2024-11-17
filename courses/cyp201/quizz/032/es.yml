@@ -1,8 +1,8 @@
-pregunta: ¿Cuál es el BIP (Propuesta de Mejora de Bitcoin) que propuso la primera versión de una billetera HD en Bitcoin?
-respuesta: BIP32.
-respuestas_incorrectas:
+question: ¿Cuál es el BIP (Propuesta de Mejora de Bitcoin) que propuso la primera versión de una billetera HD en Bitcoin?
+answer: BIP32.
+wrong_answers:
   - BIP16.
   - BIP39.
   - BIP44.
-explicación: |
+explanation: |
   BIP32, propuesto en 2012, es el primero en introducir el concepto de billeteras deterministas jerárquicas (HD) en Bitcoin.

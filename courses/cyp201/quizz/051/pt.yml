@@ -1,9 +1,9 @@
-pergunta: Qual é a função de derivação de chave usada para derivar uma semente a partir de uma frase mnemônica e uma senha opcional?
-resposta: PBKDF2.
-respostas_erradas:
+question: Qual é a função de derivação de chave usada para derivar uma semente a partir de uma frase mnemônica e uma senha opcional?
+answer: PBKDF2.
+wrong_answers:
   - Lyra2.
   - Argon2d.
   - Scrypt.
-explicação: |
+explanation: |
   A função PBKDF2 é usada para derivar a semente de uma carteira HD a partir da frase mnemônica e uma senha opcional.
-revisado: false
+reviewed: false

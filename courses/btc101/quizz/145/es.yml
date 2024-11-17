@@ -1,11 +1,11 @@
-pregunta: ¿De qué trataba la guerra de bloques en 2017?
-respuesta: Un conflicto sobre si aumentar el tamaño del bloque para expandir la capacidad de transacción.
-respuestas_incorrectas:
+question: ¿De qué trataba la guerra de bloques en 2017?
+answer: Un conflicto sobre si aumentar el tamaño del bloque para expandir la capacidad de transacción.
+wrong_answers:
   - Un conflicto sobre si disminuir el tamaño del bloque para reducir la capacidad de transacción.
   - Un conflicto sobre si aumentar la recompensa por bloque para incentivar a los mineros.
   - Un conflicto sobre si disminuir la recompensa por bloque para desincentivar a los mineros.
-explicación: |
+explanation: |
   La guerra de bloques en 2017 fue un conflicto sobre si
   modificar Bitcoin aumentando el tamaño del bloque para expandir
   la capacidad de transacción.
-revisado: true
+reviewed: true

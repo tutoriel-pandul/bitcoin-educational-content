@@ -1,9 +1,9 @@
-pregunta: ¿Qué es la AMF?
-respuesta: Autorité des Marchés Financiers.
-respuestas_incorrectas:
+question: ¿Qué es la AMF?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
   - Fondo Monetario Americano.
   - Asociación de Instalaciones Mineras.
   - Flujo Automatizado de Dinero.
-explicación: |
+explanation: |
   "La AMF, o Autorité des Marchés Financiers, es una organización francesa que regula plataformas donde se pueden comprar bitcoins."
-revisado: true
+reviewed: true

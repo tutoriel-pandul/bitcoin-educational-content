@@ -1,10 +1,10 @@
-pregunta: ¿Cuál es la versión del primer software de Bitcoin que se lanzó?
-respuesta: Bitcoin-0.1.0.
-respuestas_incorrectas:
+question: ¿Cuál es la versión del primer software de Bitcoin que se lanzó?
+answer: Bitcoin-0.1.0.
+wrong_answers:
   - Bitcoin-0.0.1.
   - Bitcoin-1.0.0.
   - Bitcoin-0.1.1.
-explicación: >-
+explanation: >-
   El primer software de Bitcoin que se lanzó fue Bitcoin-0.1.0. Fue anunciado
   por Satoshi Nakamoto el 8 de enero de 2009.
-revisado: true
+reviewed: true

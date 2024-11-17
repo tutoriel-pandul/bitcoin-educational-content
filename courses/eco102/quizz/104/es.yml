@@ -1,9 +1,9 @@
-pregunta: ¿Qué crítica tiene Bastiat de la intervención estatal más allá de la seguridad y la justicia?
-respuesta: Fomenta privilegios y perjudica a la sociedad civil
-respuestas_incorrectas:
+question: ¿Qué crítica tiene Bastiat de la intervención estatal más allá de la seguridad y la justicia?
+answer: Fomenta privilegios y perjudica a la sociedad civil
+wrong_answers:
   - Permite una mejor distribución de los recursos económicos
   - Establece paz social y limita los conflictos
   - Garantiza una distribución equitativa de la riqueza
-explicación: |
+explanation: |
   Bastiat cree que la intervención estatal excesiva crea privilegios y perjudica a la sociedad civil al limitar las iniciativas privadas.
-revisado: false
+reviewed: false

@@ -1,9 +1,9 @@
-pergunta: Quais são as funções de hash utilizadas no protocolo Bitcoin?
-resposta: SHA-256, RIPEMD-160
-respostas_erradas:
+question: Quais são as funções de hash utilizadas no protocolo Bitcoin?
+answer: SHA-256, RIPEMD-160
+wrong_answers:
   - MD5, SHA3-256
   - Keccak-256, SHA-512
   - SHA-1, Whirlpool
-explicação: |
+explanation: |
   No Bitcoin, são utilizadas SHA-256 e RIPEMD-160.
-revisado: false
+reviewed: false

@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es la principal diferencia entre un PRNG y un TRNG?
-respuesta: Un PRNG es determinista, mientras que un TRNG produce números verdaderamente aleatorios.
-respuestas_incorrectas:
+question: ¿Cuál es la principal diferencia entre un PRNG y un TRNG?
+answer: Un PRNG es determinista, mientras que un TRNG produce números verdaderamente aleatorios.
+wrong_answers:
   - Un TRNG es más rápido que un PRNG.
   - Un TRNG utiliza una semilla, mientras que un PRNG no utiliza ninguna semilla.
   - Un PRNG es hardware, mientras que un TRNG es software.
-explicación: |
+explanation: |
   Un TRNG (Generador de Números Aleatorios Verdaderos) genera números aleatorios a partir de un fenómeno físico aleatorio, a diferencia de un PRNG que es determinista.
-revisado: false
+reviewed: false

@@ -1,11 +1,11 @@
-pregunta: ¿Cómo se denomina frecuentemente la capa base de la red Bitcoin?
-respuesta: La capa de liquidación
-respuestas_incorrectas:
+question: ¿Cómo se denomina frecuentemente la capa base de la red Bitcoin?
+answer: La capa de liquidación
+wrong_answers:
   - La capa de transacción
   - La capa de seguridad
   - La capa de consenso
-explicación: |
+explanation: |
   La capa base de la red Bitcoin, en la cual se apoya la Red
   Lightning para abrir y cerrar canales de pago, se denomina
   frecuentemente como la "capa de liquidación".
-revisado: true
+reviewed: true

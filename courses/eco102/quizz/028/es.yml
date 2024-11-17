@@ -1,9 +1,9 @@
-pregunta: ¿Quién firmó finalmente un tratado de libre comercio con Inglaterra en 1866, marcando una victoria póstuma para Bastiat?
-respuesta: Napoleón III
-respuestas_incorrectas:
+question: ¿Quién firmó finalmente un tratado de libre comercio con Inglaterra en 1866, marcando una victoria póstuma para Bastiat?
+answer: Napoleón III
+wrong_answers:
   - Luis-Felipe
   - Carlos X
   - Jules Ferry
-explicación: |
+explanation: |
   Mucho después de la muerte de Bastiat, Napoleón III firmó un tratado de libre comercio con Inglaterra, realizando el ideal de libre comercio de Bastiat.
-revisado: false
+reviewed: false

@@ -1,10 +1,10 @@
-pergunta: Qual é a fase final do fenômeno da hiperinflação?
-resposta: Surge uma nova moeda.
-respostas_erradas:
+question: Qual é a fase final do fenômeno da hiperinflação?
+answer: Surge uma nova moeda.
+wrong_answers:
   - Perda de Confiança.
   - Colapso da moeda & aumento de preços.
   - O círculo vicioso da impressão de dinheiro.
-explicação: |
+explanation: |
   A fase final da hiperinflação ocorre quando uma nova
   moeda é introduzida para substituir a antiga.
-revisado: true
+reviewed: true

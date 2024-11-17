@@ -1,9 +1,9 @@
-pregunta: ¿Por qué se recomienda limitar el número de extensiones instaladas en tu navegador?
-respuesta: Para evitar posibles problemas de seguridad y rendimiento.
-respuestas_incorrectas:
+question: ¿Por qué se recomienda limitar el número de extensiones instaladas en tu navegador?
+answer: Para evitar posibles problemas de seguridad y rendimiento.
+wrong_answers:
   - Para ahorrar espacio de almacenamiento en tu dispositivo.
   - Para prevenir que el navegador se cuelgue.
   - Para evitar ser rastreado por sitios de terceros.
-explicación: |
+explanation: |
   Aunque las extensiones de navegador pueden proporcionar funcionalidades útiles, también pueden representar riesgos de seguridad ya que pueden acceder a tus datos y actividad de navegación. Adicionalmente, tener demasiadas extensiones puede ralentizar tu navegador y afectar su rendimiento.
-revisado: true
+reviewed: true

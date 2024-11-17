@@ -1,9 +1,9 @@
-pregunta: ¿De cuántas rondas consta la función de compresión SHA256?
-respuesta: 64 rondas.
-respuestas_incorrectas:
+question: ¿De cuántas rondas consta la función de compresión SHA256?
+answer: 64 rondas.
+wrong_answers:
   - 10 rondas.
   - 128 rondas.
   - 150 rondas.
-explicación: |
+explanation: |
   La función de compresión SHA256 realiza 64 rondas para cada bloque de datos procesado.
-revisado: false
+reviewed: false

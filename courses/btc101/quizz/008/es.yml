@@ -1,11 +1,11 @@
-pregunta: ¿Qué significa que Bitcoin sea una moneda neutral?
-respuesta: No está controlada por ninguna entidad o institución.
-respuestas_incorrectas:
+question: ¿Qué significa que Bitcoin sea una moneda neutral?
+answer: No está controlada por ninguna entidad o institución.
+wrong_answers:
   - Está controlada por una única entidad o institución.
   - Está regulada por el gobierno.
   - Solo se utiliza para transacciones grandes.
-explicación: |
+explanation: |
   Bitcoin es una moneda neutral, lo que significa que no está controlada
   por ninguna entidad o institución, así que cada usuario tiene los mismos
   derechos. Este es un aspecto clave de su descentralización.
-revisado: true
+reviewed: true

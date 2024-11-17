@@ -1,10 +1,10 @@
-pergunta: Qual é o número aproximado de nós distribuídos pelo globo até setembro de 2023?
-resposta: 45.000 nós.
-respostas_erradas:
+question: Qual é o número aproximado de nós distribuídos pelo globo até setembro de 2023?
+answer: 45.000 nós.
+wrong_answers:
   - 10.000 nós.
   - 100.000 nós.
   - 500.000 nós.
-explicação: >-
+explanation: >-
   Até setembro de 2023, existem aproximadamente 45.000 nós distribuídos
   pelo globo.
-revisado: true
+reviewed: true

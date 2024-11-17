@@ -1,9 +1,9 @@
-pergunta: Qual é a principal inovação introduzida pelos economistas modernos segundo Bastiat?
-resposta: Eles querem restaurar a capacidade de ação do indivíduo
-respostas_erradas:
+question: Qual é a principal inovação introduzida pelos economistas modernos segundo Bastiat?
+answer: Eles querem restaurar a capacidade de ação do indivíduo
+wrong_answers:
   - Eles querem enriquecer o Estado
   - Eles querem equilibrar a balança comercial
   - Eles querem regular o mercado
-explicação: |
+explanation: |
   Os economistas modernos buscam restaurar a capacidade de ação do indivíduo e promover a liberdade econômica.
-revisado: false
+reviewed: false

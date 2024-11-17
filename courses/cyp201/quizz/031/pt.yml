@@ -1,8 +1,8 @@
-pergunta: Como são determinados os pares de chaves em uma carteira Hierárquica Determinística (HD)?
-resposta: Todos os pares de chaves na carteira são determinados de maneira determinística e hierárquica a partir de uma peça única de informação na base da carteira.
-respostas_erradas:
+question: Como são determinados os pares de chaves em uma carteira Hierárquica Determinística (HD)?
+answer: Todos os pares de chaves na carteira são determinados de maneira determinística e hierárquica a partir de uma peça única de informação na base da carteira.
+wrong_answers:
   - Todos os pares de chaves na carteira são determinados independentemente dos outros, aleatoriamente, por um gerador de números aleatórios.
   - Cada par de chaves na carteira é determinado deterministicamente a partir do par de chaves anterior.
   - Os pares de chaves são todos aleatórios e sem ligação hierárquica.
-explicação: |
+explanation: |
   Em carteiras HD, todas as chaves são derivadas de uma peça única de informação chamada "semente", que permite o gerenciamento hierárquico e determinístico das chaves.

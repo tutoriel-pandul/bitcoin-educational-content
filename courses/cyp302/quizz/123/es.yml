@@ -1,9 +1,9 @@
-pregunta: ¿Qué problema surge si Jim's Sporting Goods usa el mismo par de llaves para todos los clientes?
-respuesta: Cualquier cliente podría acceder a las comunicaciones de otros
-respuestas_incorrectas:
+question: ¿Qué problema surge si Jim's Sporting Goods usa el mismo par de llaves para todos los clientes?
+answer: Cualquier cliente podría acceder a las comunicaciones de otros
+wrong_answers:
   - La llave se volvería demasiado grande
   - Las comunicaciones se ralentizarían
   - Los clientes tendrían que cambiar las llaves con cada compra
-explicación: |
+explanation: |
   Al usar la misma llave para todos, Jim's Sporting Goods comprometería la confidencialidad y la integridad, ya que cada cliente podría potencialmente acceder a los datos de otros clientes.
-revisado: false
+reviewed: false

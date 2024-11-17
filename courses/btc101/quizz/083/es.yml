@@ -1,13 +1,13 @@
-pregunta: ¿Cuál es la analogía utilizada en este curso para explicar cómo puedes recibir bitcoins sin
+question: ¿Cuál es la analogía utilizada en este curso para explicar cómo puedes recibir bitcoins sin
   permitir que el remitente robe tus fondos?
-respuesta: Un buzón de correo.
-respuestas_incorrectas:
+answer: Un buzón de correo.
+wrong_answers:
   - Una cuenta bancaria.
   - Una caja fuerte.
   - Una casa.
-explicación: |
+explanation: |
   La analogía utilizada para explicar cómo puedes recibir Bitcoins
   sin permitir que el remitente robe tus fondos es un
   buzón de correo. La gente deposita dinero en él, pero tú eres el único
   que puede abrirlo.
-revisado: true
+reviewed: true

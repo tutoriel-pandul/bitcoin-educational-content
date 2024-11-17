@@ -1,8 +1,8 @@
-pregunta: ¿Cuál es el objetivo del proceso de hash criptográfico?
-respuesta: Mapear una cadena de bits de longitud arbitraria a una cadena de bits de longitud fija.
-respuestas_incorrectas:
+question: ¿Cuál es el objetivo del proceso de hash criptográfico?
+answer: Mapear una cadena de bits de longitud arbitraria a una cadena de bits de longitud fija.
+wrong_answers:
   - Encriptar un mensaje.
   - Asegurar que el remitente del mensaje no pueda negar haber enviado el mensaje en el futuro.
   - Garantizar la confidencialidad de los datos.
-explicación: |
+explanation: |
   El hashing transforma datos de cualquier tamaño en una salida de tamaño fijo, útil para verificar la integridad sin necesariamente encriptar o autenticar los datos.

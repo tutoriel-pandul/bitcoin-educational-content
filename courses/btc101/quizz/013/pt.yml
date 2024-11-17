@@ -1,10 +1,10 @@
-pergunta: O que é o Manifesto Cypherpunk?
-resposta: Um texto escrito por Eric Hughes afirmando que a privacidade é um direito fundamental.
+question: O que é o Manifesto Cypherpunk?
+answer: Um texto escrito por Eric Hughes afirmando que a privacidade é um direito fundamental.
 wrong_answers:
   - Um livro escrito por Julian Assange sobre o futuro da tecnologia.
   - Um documento que delineia os princípios do Bitcoin.
   - Um manifesto escrito por David Chaum sobre a importância da moeda digital.
-explicação: |
+explanation: |
   O Manifesto Cypherpunk foi escrito por Eric Hughes em 1993
   e afirma que a privacidade é um direito fundamental.
-revisado: true
+reviewed: true

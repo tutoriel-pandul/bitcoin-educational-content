@@ -1,8 +1,8 @@
-pregunta: ¿Qué servicio permite mover liquidez al lado opuesto de un canal mientras se recuperan fondos en la cadena principal?
-respuesta: Loop Out
-respuestas_incorrectas:
+question: ¿Qué servicio permite mover liquidez al lado opuesto de un canal mientras se recuperan fondos en la cadena principal?
+answer: Loop Out
+wrong_answers:
   - Keysend
   - LNURL
   - CoinSwap
-explicación: |
+explanation: |
   El servicio Loop Out de Lightning Labs permite la transferencia de fondos desde un canal de Lightning a la cadena de bloques principal, optimizando así la capacidad de recepción mientras se recuperan bitcoins en la cadena principal.

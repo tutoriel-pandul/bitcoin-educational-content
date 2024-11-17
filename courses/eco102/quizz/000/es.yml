@@ -1,8 +1,8 @@
-pregunta: ¿Cuál libro de Frédéric Bastiat era el favorito de Ronald Reagan?
-respuesta: La Ley
-respuestas_incorrectas:
+question: ¿Cuál libro de Frédéric Bastiat era el favorito de Ronald Reagan?
+answer: La Ley
+wrong_answers:
   - Sofismas Económicos
   - Lo que se ve y lo que no se ve
   - Armonías Económicas
-explicación: |
+explanation: |
   "La Ley" es la obra de Bastiat que influyó profundamente en Ronald Reagan, simbolizando la lucha contra el saqueo legal.

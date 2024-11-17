@@ -1,12 +1,12 @@
-pregunta: ¿Cuál es el principal incentivo financiero para que los mineros participen en el proceso de minería de Bitcoin?
-respuesta: La recompensa por minería
-respuestas_incorrectas:
+question: ¿Cuál es el principal incentivo financiero para que los mineros participen en el proceso de minería de Bitcoin?
+answer: La recompensa por minería
+wrong_answers:
   - La capacidad de controlar la red de Bitcoin
   - La capacidad de crear nuevos bitcoins a voluntad
   - La capacidad de manipular el precio de Bitcoin
-explicación: |
+explanation: |
   El principal incentivo financiero para que los mineros participen en
   el proceso de minería de Bitcoin es la recompensa por minería. Esta
   recompensa sirve como un poderoso incentivo para animar a los mineros
   a participar en el proceso de minería a pesar de su costo energético.
-revisado: true
+reviewed: true

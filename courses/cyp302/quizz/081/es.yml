@@ -1,9 +1,9 @@
-pregunta: ¿Qué operación se utiliza típicamente para combinar el flujo de claves y el mensaje en un cifrado de flujo?
-respuesta: XOR
-respuestas_incorrectas:
+question: ¿Qué operación se utiliza típicamente para combinar el flujo de claves y el mensaje en un cifrado de flujo?
+answer: XOR
+wrong_answers:
   - Multiplicación
   - Desplazamiento modular
   - Sustitución de cada letra
-explicación: |
+explanation: |
   En un cifrado de flujo, la operación XOR se utiliza generalmente para combinar el flujo de claves con el mensaje porque es simple y reversible.
-revisado: false
+reviewed: false

@@ -1,9 +1,9 @@
-pergunta: Que tipo de liquidez um vendedor na Rede Lightning deve gerenciar principalmente para aceitar pagamentos?
-resposta: Liquidez de entrada
-respostas_erradas:
+question: Que tipo de liquidez um vendedor na Rede Lightning deve gerenciar principalmente para aceitar pagamentos?
+answer: Liquidez de entrada
+wrong_answers:
   - Liquidez de saída
   - Uma alta capacidade total do canal
   - Um alto saldo na cadeia
-explicação: |
+explanation: |
   Para receber pagamentos, um vendedor precisa ter liquidez de entrada, o que significa que os fundos devem estar disponíveis no lado oposto do canal para que eles possam aceitar pagamentos.
-revisado: false
+reviewed: false

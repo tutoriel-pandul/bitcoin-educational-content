@@ -1,8 +1,8 @@
-pergunta: Para Bastiat, o direito à propriedade é criado pela legislação ou o precede?
-resposta: precede a legislação
-respostas_erradas:
+question: Para Bastiat, o direito à propriedade é criado pela legislação ou o precede?
+answer: precede a legislação
+wrong_answers:
   - criado pela legislação
   - criado pelo contrato social
   - dependente da vontade geral
-explicação: |
+explanation: |
   Bastiat considera o direito à propriedade como um direito natural que precede a lei, a qual deve apenas assegurar sua defesa.

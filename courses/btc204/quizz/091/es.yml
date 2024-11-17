@@ -1,13 +1,13 @@
-pregunta: ¿Por qué se desaconseja fusionar varios UTXOs después de ciclos de coinjoin?
+question: ¿Por qué se desaconseja fusionar varios UTXOs después de ciclos de coinjoin?
 
-respuesta: Esto podría comprometer la privacidad debido al CIOH.
+answer: Esto podría comprometer la privacidad debido al CIOH.
 
-respuestas_incorrectas:
+wrong_answers:
   - Disminuye la velocidad de las transacciones.
   - Revela actividad sospechosa al coordinador.
   - Esto podría comprometer la privacidad debido a la heurística de pago por ronda.
 
-explicación: |
+explanation: |
   Es importante evitar combinar UTXOs mezclados con UTXOs no mezclados en la misma transacción, pero también mezclar UTXOs entre sí, para evitar la Heurística de Propiedad de Entrada Común (CIOH).
 
-revisado: false
+reviewed: false

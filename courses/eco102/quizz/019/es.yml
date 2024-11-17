@@ -1,9 +1,9 @@
-pregunta: Según Tracy, ¿cuál es la verdadera alternativa a las guerras?
-respuesta: Producción y comercio
-respuestas_incorrectas:
+question: Según Tracy, ¿cuál es la verdadera alternativa a las guerras?
+answer: Producción y comercio
+wrong_answers:
   - Diplomacia
   - Cultura
   - Integración política
-explicación: |
+explanation: |
   Destutt de Tracy cree que la producción pacífica y el comercio son una solución sostenible para evitar conflictos.
-revisado: false
+reviewed: false

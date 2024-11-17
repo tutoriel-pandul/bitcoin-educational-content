@@ -1,8 +1,8 @@
-pregunta: Dentro del protocolo de Bitcoin, ¿qué es un HASH160?
-respuesta: Un hash SHA256 seguido de un hash RIPEMD160.
-respuestas_incorrectas:
+question: Dentro del protocolo de Bitcoin, ¿qué es un HASH160?
+answer: Un hash SHA256 seguido de un hash RIPEMD160.
+wrong_answers:
   - Un doble hash RIPEMD160.
   - Un doble hash SHA256.
   - Un hash MD5 seguido de un hash SHA256.
-explicación: |
+explanation: |
   HASH160 combina un hash SHA256 seguido de RIPEMD160, utilizado especialmente para generar direcciones de Bitcoin.

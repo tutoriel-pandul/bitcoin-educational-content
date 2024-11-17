@@ -1,9 +1,9 @@
-pregunta: ¿Por quiénes fueron influenciados los Ideólogos de Destutt de Tracy?
-respuesta: Herederos de los Fisiócratas
-respuestas_incorrectas:
+question: ¿Por quiénes fueron influenciados los Ideólogos de Destutt de Tracy?
+answer: Herederos de los Fisiócratas
+wrong_answers:
   - Precursores de Marx
   - Seguidores de la ideología revolucionaria
   - Discípulos de Rousseau
-explicación: |
+explanation: |
   Los Ideólogos, un grupo influenciado por Destutt de Tracy, son considerados herederos de los Fisiócratas, abogando por una economía liberal.
-revisado: false
+reviewed: false

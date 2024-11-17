@@ -1,8 +1,8 @@
-pregunta: ¿Qué representa la frase de contraseña dentro de una cartera HD?
-respuesta: Un sal criptográfico opcional de tamaño arbitrario.
-respuestas_incorrectas:
+question: ¿Qué representa la frase de contraseña dentro de una cartera HD?
+answer: Un sal criptográfico opcional de tamaño arbitrario.
+wrong_answers:
   - Una 25ª palabra en la frase mnemotécnica.
   - Un sal criptográfico obligatorio de tamaño fijo.
   - Una segunda semilla.
-explicación: |
+explanation: |
   La frase de contraseña es un sal criptográfico opcional, que mejora la seguridad de la cartera al agregar información adicional a la frase mnemotécnica para determinar la semilla.

@@ -1,9 +1,9 @@
-pregunta: ¿Qué garantiza el sistema de transacción de compromiso a los participantes de un canal Lightning?
-respuesta: Que cada uno puede recuperar sus fondos publicando la última transacción firmada
-respuestas_incorrectas:
+question: ¿Qué garantiza el sistema de transacción de compromiso a los participantes de un canal Lightning?
+answer: Que cada uno puede recuperar sus fondos publicando la última transacción firmada
+wrong_answers:
   - Que las transacciones son visibles en la blockchain de Bitcoin
   - Que la capacidad del canal aumenta con cada transacción
   - Que las comisiones se comparten entre los dos participantes
-explicación: |
+explanation: |
   Las transacciones de compromiso firmadas aseguran que cada participante pueda recuperar sus fondos publicando la última versión en caso de que el canal se cierre.
-revisado: false
+reviewed: false

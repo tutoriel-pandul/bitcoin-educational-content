@@ -1,9 +1,9 @@
-pergunta: Por que Frédéric Bastiat é reconhecido hoje como um pensador influente, apesar de ser relativamente desconhecido?
-resposta: Ele antecipou ideias modernas sobre o mercado político e o saque legal.
-respostas_erradas:
+question: Por que Frédéric Bastiat é reconhecido hoje como um pensador influente, apesar de ser relativamente desconhecido?
+answer: Ele antecipou ideias modernas sobre o mercado político e o saque legal.
+wrong_answers:
   - Ele promoveu a educação pública para todos.
   - Ele escreveu um tratado sobre revoluções modernas.
   - Ele influenciou diretamente a criação da seguridade social na França.
-explicação: |
+explanation: |
   Bastiat é redescoberto por suas ideias sobre liberdade, direitos de propriedade e sua crítica ao saque legal, ressoando com os desafios modernos.
-revisado: false
+reviewed: false

@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es el tamaño del bloque en el protocolo de Bitcoin?
-respuesta: 1MB.
-respuestas_incorrectas:
+question: ¿Cuál es el tamaño del bloque en el protocolo de Bitcoin?
+answer: 1MB.
+wrong_answers:
   - 0.5MB.
   - 2MB.
   - 3MB.
-explicación: >-
+explanation: >-
   El tamaño del bloque en el protocolo de Bitcoin es de 1MB.
-revisado: true
+reviewed: true

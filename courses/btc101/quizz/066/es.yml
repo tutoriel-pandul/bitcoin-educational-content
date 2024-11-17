@@ -1,9 +1,9 @@
-pregunta: ¿En qué año se predice que cesará la creación de bitcoins?
-respuesta: 2140
-respuestas_incorrectas:
+question: ¿En qué año se predice que cesará la creación de bitcoins?
+answer: 2140
+wrong_answers:
   - 2050
   - 2030
   - 2200
-explicación: |
+explanation: |
   Debido al mecanismo de halving, se puede predecir matemáticamente que la creación de bitcoins cesará en 2140, cuando el número total de bitcoins alcance su límite de 21 millones.
-revisado: true
+reviewed: true

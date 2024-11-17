@@ -1,8 +1,8 @@
-pergunta: Em que processo o modelo de dinheiro eletrônico eCash é baseado?
-resposta: Assinaturas cegas
-respostas_erradas:
+question: Em que processo o modelo de dinheiro eletrônico eCash é baseado?
+answer: Assinaturas cegas
+wrong_answers:
   - Assinaturas em grupo
   - Assinaturas em anel
   - Assinaturas de limiar
-explicação: |
+explanation: |
   O eCash é baseado no processo de assinaturas cegas, que permite a um signatário assinar algo sem ver o que está assinando.

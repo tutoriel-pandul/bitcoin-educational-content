@@ -1,11 +1,11 @@
-pergunta: Qual é uma alternativa recomendada para armazenar sua frase mnemônica em vez de usar papel?
-resposta: Gravá-la em uma placa de metal.
-respostas_erradas:
+question: Qual é uma alternativa recomendada para armazenar sua frase mnemônica em vez de usar papel?
+answer: Gravá-la em uma placa de metal.
+wrong_answers:
   - Armazená-la em um arquivo digital.
   - Escrevê-la em um quadro branco.
   - Salvá-la como um contato no seu telefone.
-explicação: |
+explanation: |
   Uma das alternativas recomendadas ao papel para armazenar
   sua frase mnemônica é gravá-la em uma placa de metal. Esta
   solução é mais durável e de longa duração.
-revisado: true
+reviewed: true

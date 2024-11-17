@@ -1,9 +1,9 @@
-pergunta: Como determinar o tamanho do bit da soma de verificação para uma frase de recuperação?
-resposta: Divida o tamanho do número aleatório (entropia) por 32.
+question: Como determinar o tamanho do bit da soma de verificação para uma frase de recuperação?
+answer: Divida o tamanho do número aleatório (entropia) por 32.
 respostas_incorretas:
   - Divida o tamanho do número aleatório (entropia) por 8.
   - Divida o tamanho do número aleatório (entropia) por 16.
   - Multiplique o tamanho do número aleatório (entropia) por 2.
-explicação: |
+explanation: |
   O tamanho da soma de verificação é obtido dividindo-se o tamanho da entropia por 32, de acordo com o BIP39.
-revisado: false
+reviewed: false

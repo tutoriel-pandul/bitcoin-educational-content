@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es una ventaja de aceptar Bitcoin como comerciante?
-respuesta: Resistencia a la censura.
-respuestas_incorrectas:
+question: ¿Cuál es una ventaja de aceptar Bitcoin como comerciante?
+answer: Resistencia a la censura.
+wrong_answers:
   - Aumento de las tarifas de transacción.
   - Protección contra la deflación.
   - Restricción financiera.
-explicación: >-
+explanation: >-
   Aceptar Bitcoin como comerciante tiene varias ventajas, incluyendo resistencia a la censura, reducción de las tarifas de transacción, aumento de la eficiencia, protección contra la inflación, así como libertad financiera y soberanía.
-revisado: true
+reviewed: true

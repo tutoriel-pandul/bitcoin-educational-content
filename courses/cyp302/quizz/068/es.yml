@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es el papel de la clave en los procesos de cifrado y descifrado simétricos?
-respuesta: Se utiliza para cifrar y descifrar el mensaje
-respuestas_incorrectas:
+question: ¿Cuál es el papel de la clave en los procesos de cifrado y descifrado simétricos?
+answer: Se utiliza para cifrar y descifrar el mensaje
+wrong_answers:
   - Solo se utiliza para descifrar el mensaje
   - Se utiliza para crear un código de verificación de integridad del mensaje
   - Se comparte públicamente para generar otras claves
-explicación: |
+explanation: |
   En los esquemas de cifrado simétrico, la misma clave privada se utiliza tanto para cifrar el mensaje al enviarlo como para descifrarlo al recibirlo.
-revisado: false
+reviewed: false

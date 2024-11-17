@@ -1,9 +1,9 @@
-pergunta: Qual é uma possível implicação do avanço das tecnologias de IA?
-resposta: As tecnologias de IA levarão ao desaparecimento de mais de 80% dos empregos atuais.
-respostas_erradas:
+question: Qual é uma possível implicação do avanço das tecnologias de IA?
+answer: As tecnologias de IA levarão ao desaparecimento de mais de 80% dos empregos atuais.
+wrong_answers:
   - As tecnologias de IA destruirão todos os computadores.
   - As tecnologias de IA levarão a uma diminuição da inteligência humana.
   - As tecnologias de IA causarão um colapso econômico global.
-explicação: >-
+explanation: >-
   O texto menciona que uma possível implicação do avanço das tecnologias de IA é que mais de 80% dos empregos desaparecerão devido à IA e automação.
-revisado: true
+reviewed: true

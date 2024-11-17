@@ -1,9 +1,9 @@
-pregunta: ¿Cuál es el rango de índice utilizado para las claves de hijo normales en una cartera HD?
-respuesta: Entre 0 y 2^31 - 1.
-respuestas_incorrectas:
+question: ¿Cuál es el rango de índice utilizado para las claves de hijo normales en una cartera HD?
+answer: Entre 0 y 2^31 - 1.
+wrong_answers:
   - Entre 0 y 2^32 - 1.
   - Entre 0 y 2^31.
   - Entre 2^31 y 2^32 - 1.
-explicación: |
+explanation: |
   Las claves de hijo normales utilizan un rango de índice entre 0 y 2^31 - 1, mientras que las claves endurecidas tienen un índice que comienza desde 2^31.
-revisado: false
+reviewed: false

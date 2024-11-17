@@ -1,9 +1,9 @@
-pergunta: Quem é considerado o "concorrente desleal" dos fabricantes de velas nesta história?
-resposta: O sol
-respostas_erradas:
+question: Quem é considerado o "concorrente desleal" dos fabricantes de velas nesta história?
+answer: O sol
+wrong_answers:
   - Fabricantes de velas estrangeiros
   - Eletricidade
   - Lamparinas a óleo
-explicação: |
+explanation: |
   Em sua sátira, Bastiat refere-se ao sol como o "concorrente desleal", destacando o absurdo das medidas protecionistas ao exagerar as demandas dos fabricantes de velas.
-revisado: false
+reviewed: false

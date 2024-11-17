@@ -1,9 +1,9 @@
-pergunta: Qual condição deve ser atendida para que o destinatário de um HTLC receba os fundos?
-resposta: Eles devem fornecer um segredo (preimagem) para desbloquear o pagamento.
-respostas_erradas:
+question: Qual condição deve ser atendida para que o destinatário de um HTLC receba os fundos?
+answer: Eles devem fornecer um segredo (preimagem) para desbloquear o pagamento.
+wrong_answers:
   - Eles devem aceitar as taxas de roteamento de cada nó intermediário.
   - Eles devem assinar uma nova transação de compromisso.
   - Eles devem esperar o timelock expirar antes de recuperar os fundos.
-explicação: |
+explanation: |
   Para receber os fundos em um HTLC, o destinatário deve fornecer um segredo específico que permite desbloquear o pagamento assegurado pelo hash.
-revisado: false
+reviewed: false

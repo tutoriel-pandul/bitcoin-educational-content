@@ -1,10 +1,10 @@
-pregunta: ¿Qué es la Red Lightning?
-respuesta: Una red de pagos instantáneos de Bitcoin basada en la blockchain de Bitcoin.
-respuestas_incorrectas:
+question: ¿Qué es la Red Lightning?
+answer: Una red de pagos instantáneos de Bitcoin basada en la blockchain de Bitcoin.
+wrong_answers:
   - Una red blockchain separada de la blockchain de Bitcoin.
   - Una red de mineros de Bitcoin.
   - Una red de intercambios de Bitcoin.
-explicación: |
+explanation: |
   La Red Lightning es una red de pagos instantáneos de Bitcoin
   que se basa en la blockchain de Bitcoin.
-revisado: true
+reviewed: true

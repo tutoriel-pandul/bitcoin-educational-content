@@ -1,10 +1,10 @@
-pergunta: Linux e Mac frequentemente precisam de antivírus?
-resposta: Isso é falso
-respostas_erradas:
+question: Linux e Mac frequentemente precisam de antivírus?
+answer: Isso é falso
+wrong_answers:
   - Isso é verdade
   - Apenas Linux precisa de antivírus.
   - Apenas Mac precisa de antivírus.
-explicação: |
+explanation: |
   Linux e Mac, graças ao seu sistema de separação de direitos de usuário,
   muitas vezes não precisam de antivírus.
-revisado: true
+reviewed: true

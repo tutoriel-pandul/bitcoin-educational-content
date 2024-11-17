@@ -1,7 +1,7 @@
-pergunta: Verdadeiro ou Falso? "Pode-se determinar uma chave pública apenas conhecendo seu endereço SegWitv0."
-resposta: Falso.
-respostas_erradas:
+question: Verdadeiro ou Falso? "Pode-se determinar uma chave pública apenas conhecendo seu endereço SegWitv0."
+answer: Falso.
+wrong_answers:
   - Verdadeiro.
-explicação: |
+explanation: |
   Um endereço SegWit v0 é um hash da chave pública, tornando impossível recuperar diretamente a chave pública a partir do endereço sem conhecer a chave privada correspondente.
-revisado: false
+reviewed: false

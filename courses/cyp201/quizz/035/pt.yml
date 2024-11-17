@@ -1,8 +1,8 @@
-pergunta: Qual é a informação primitiva que permite determinar uma boa frase mnemônica para uma carteira HD?
-resposta: Uma entropia externa que permite determinar um número aleatório ou pseudoaleatório.
-respostas_erradas:
+question: Qual é a informação primitiva que permite determinar uma boa frase mnemônica para uma carteira HD?
+answer: Uma entropia externa que permite determinar um número aleatório ou pseudoaleatório.
+wrong_answers:
   - O primeiro nome do proprietário da carteira.
   - Nenhuma informação, escolhemos diretamente as palavras de que gostamos.
   - A data de criação da carteira.
-explicação: |
+explanation: |
   A frase mnemônica é derivada de uma fonte de entropia, significando informação aleatória ou pseudoaleatória, para garantir a segurança das chaves privadas.
