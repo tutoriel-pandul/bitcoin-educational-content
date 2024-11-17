@@ -1,9 +1,9 @@
-kysymys: Mikä on Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse?
-vastaus: 23. huhtikuuta 2011.
-väärät_vastaukset:
+question: Mikä on Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse?
+answer: 23. huhtikuuta 2011.
+wrong_answers:
   - 12. joulukuuta 2010.
   - 8. tammikuuta 2009.
   - 31. lokakuuta 2008.
-selitys: |
+explanation: |
   Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse on 23. huhtikuuta 2011. Viesti lähetettiin kehittäjä Mike Hearnille.
-arvioitu: true
+reviewed: true

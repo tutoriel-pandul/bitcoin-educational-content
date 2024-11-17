@@ -1,9 +1,9 @@
-kysymys: Mikä mahdollistaa paikallisten viestintäyhteyksien kaappaamisen huonosti varustelluille hyökkääjille?
-vastaus: Radiotaajuuksien käyttö langattomissa yhteyksissä
+question: Mikä mahdollistaa paikallisten viestintäyhteyksien kaappaamisen huonosti varustelluille hyökkääjille?
+answer: Radiotaajuuksien käyttö langattomissa yhteyksissä
 vaarat_vastaukset:
   - Kaiken datan reitittäminen satelliittien kautta
   - Käyttämällä vain koaksiaalikaapeleita datan siirtoon
   - Datan lähettäminen ainoastaan optisten kuitujen kautta
-selitys: |
+explanation: |
   Langattomat yhteydet, jotka lähettävät dataa radiotaajuuksien kautta, tekevät kaappaamisen helpommaksi hyökkääjille, koska ne eivät vaadi fyysistä pääsyä verkkoon.
-arvioitu: false
+reviewed: false

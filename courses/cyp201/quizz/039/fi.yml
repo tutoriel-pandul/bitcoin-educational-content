@@ -1,8 +1,8 @@
-kysymys: Mitkä ovat kryptografisesti turvallisen satunnaislukugeneraattorin (PRNG) ominaisuudet?
-vastaus: Sen on oltava ennustamaton, tilastollisesti satunnainen ja hyökkäyksiltä suojattu.
+question: Mitkä ovat kryptografisesti turvallisen satunnaislukugeneraattorin (PRNG) ominaisuudet?
+answer: Sen on oltava ennustamaton, tilastollisesti satunnainen ja hyökkäyksiltä suojattu.
 vaarat_vastaukset:
   - Sen on oltava nopea, pilvessä käytettävä ja avoimen lähdekoodin.
   - Sen on oltava epädeterministinen, perustuttava fyysiseen ilmiöön ja skaalautuva.
   - Sen on oltava laitteistopohjainen, prosessorin tuottama ja peruutettavissa.
-selitys: |
+explanation: |
   Kryptografisesti turvallisen satunnaislukugeneraattorin on oltava ennustamaton, kestettävä hyökkäyksiä, vaikka osa tuloksista paljastuisikin, ja sillä on oltava riittävän pitkä jakso toistuvien sekvenssien välttämiseksi.

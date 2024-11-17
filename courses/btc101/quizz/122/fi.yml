@@ -1,9 +1,9 @@
-kysymys: Mikä on ollut Bitcoinin verkkosaatavuus vuodesta 2009 lähtien?
-vastaus: 99,988 %.
+question: Mikä on ollut Bitcoinin verkkosaatavuus vuodesta 2009 lähtien?
+answer: 99,988 %.
 vaarat_vastaukset:
   - 100 %.
   - 90,009 %.
   - 80,17 %.
-selitys: |
+explanation: |
   Bitcoinin verkkosaatavuus on ollut 99,988 % vuodesta 2009 lähtien.
-arvioitu: true
+reviewed: true

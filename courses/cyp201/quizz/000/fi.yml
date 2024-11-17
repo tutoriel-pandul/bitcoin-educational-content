@@ -1,9 +1,9 @@
-kysymys: Mikä on kryptografisen hajautusprosessin tavoite?
-vastaus: Muuntaa mielivaltaisen pituinen bittijono kiinteän pituiseksi bittijonoksi.
-väärät_vastaukset:
+question: Mikä on kryptografisen hajautusprosessin tavoite?
+answer: Muuntaa mielivaltaisen pituinen bittijono kiinteän pituiseksi bittijonoksi.
+wrong_answers:
   - Viestin salaaminen.
   - Varmistaa, että viestin lähettäjä ei voi kieltää lähettäneensä viestiä tulevaisuudessa.
   - Tietojen luottamuksellisuuden takaaminen.
-selitys: |
+explanation: |
   Hajautus muuntaa minkä tahansa kokoiset tiedot kiinteän kokoiseksi tulosteeksi, mikä on hyödyllistä integriteetin varmistamiseksi ilman, että tietoja välttämättä salataan tai todennetaan.
-arvioitu: false
+reviewed: false

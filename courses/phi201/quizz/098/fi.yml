@@ -1,9 +1,9 @@
-kysymys: Mikä on ihmisen vieraantumisen ensisijainen lähde Marxin mukaan?
-vastaus: Taloudellinen vieraantuminen, joka johtuu kapitalistisesta hyväksikäytöstä.
+question: Mikä on ihmisen vieraantumisen ensisijainen lähde Marxin mukaan?
+answer: Taloudellinen vieraantuminen, joka johtuu kapitalistisesta hyväksikäytöstä.
 vaarat_vastaukset:
   - Poliittinen vieraantuminen, joka estää kansalaisia ilmaisemasta itseään vapaasti.
   - Uskonnollinen vieraantuminen, joka peittää sosiaalisten epäoikeudenmukaisuuksien todellisuuden.
   - Vieraantuminen amerikkalaisesta kulttuurista.
-selitys: |
+explanation: |
   Marxin mukaan ihmisen vieraantuminen juontaa juurensa taloudellisesta vieraantumisesta, jossa työntekijä on riistetty työnsä hedelmistä kapitalismin alla, mikä johtaa kontrollin ja merkityksen menetykseen heidän olemassaolossaan.
-arvioitu: false
+reviewed: false

@@ -1,8 +1,8 @@
-kysymys: Missä suositussa taloustieteellisessä teoksessa Henri Hazlitt käsittelee uudelleen Bastiat'n rikotun ikkunan esimerkkiä?
-vastaus: Taloustiede yhdessä oppitunnissa
-väärät_vastaukset:
+question: Missä suositussa taloustieteellisessä teoksessa Henri Hazlitt käsittelee uudelleen Bastiat'n rikotun ikkunan esimerkkiä?
+answer: Taloustiede yhdessä oppitunnissa
+wrong_answers:
   - 49 oppituntia taloustieteestä
   - Freakonomics
   - Taloustieteen taide
-selitys: |
+explanation: |
   Henri Hazlitt käyttää "Taloustiede yhdessä oppitunnissa" -teoksessa rikotun ikkunan esimerkkiä havainnollistaakseen talouspolitiikan piilotettuja seurauksia.

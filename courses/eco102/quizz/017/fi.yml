@@ -1,9 +1,9 @@
-kysymys: Mikä on Bastiat'n mukaan poliittinen taloustiede?
-vastaus: Vaihdon teoria
+question: Mikä on Bastiat'n mukaan poliittinen taloustiede?
+answer: Vaihdon teoria
 vaarat_vastaukset:
   - Arvon teoria
   - Vaurauden teoria
   - Ostovoiman teoria
-selitys: |
+explanation: |
   Bastiat määrittelee poliittisen taloustieteen vaihdon teoriana.
-arvioitu: false
+reviewed: false

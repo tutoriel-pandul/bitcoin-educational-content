@@ -1,9 +1,9 @@
-kysymys: Ketkä olivat ensimmäiset filosofit, jotka pyrkivät ymmärtämään luontoa järjen avulla?
-vastaus: Esisokraattiset filosofit
+question: Ketkä olivat ensimmäiset filosofit, jotka pyrkivät ymmärtämään luontoa järjen avulla?
+answer: Esisokraattiset filosofit
 vaarat_vastaukset:
   - Kreikkalaiset papit
   - Kreikkalaiset runoilijat
   - Kreikkalaiset matemaatikot
-selitys: |
+explanation: |
   Esisokraattiset filosofit olivat ensimmäisiä, jotka käyttivät järkeä yrittäessään ymmärtää luontoa, etsien rationaalisia ja universaaleja periaatteita selittämään maailmaa, riippumatta mytologisista selityksistä.
-arvioitu: false
+reviewed: false

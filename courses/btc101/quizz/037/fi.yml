@@ -1,12 +1,12 @@
-kysymys: Mitkä tahot ovat vastuussa luottamusvaluuttojen liikkeeseenlaskusta?
-vastaus: Keskuspankit.
-väärät_vastaukset:
+question: Mitkä tahot ovat vastuussa luottamusvaluuttojen liikkeeseenlaskusta?
+answer: Keskuspankit.
+wrong_answers:
   - Kaupalliset pankit.
   - Hallitukset.
   - Yksityiset laitokset.
-selitys: |
+explanation: |
   Keskuspankit ovat tahoja, jotka ovat vastuussa luottamusvaluutan
   liikkeeseenlaskusta. Ne päättävät rahapolitiikasta ja
   määrittävät, kuinka paljon rahaa tulisi laskea liikkeeseen tai
   painaa.
-arvioitu: true
+reviewed: true

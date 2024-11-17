@@ -1,9 +1,9 @@
-kysymys: Mikä on Bitcoinin luomisen päätavoite?
-vastaus: Erottaa valtio rahasta.
-väärät_vastaukset:
+question: Mikä on Bitcoinin luomisen päätavoite?
+answer: Erottaa valtio rahasta.
+wrong_answers:
   - Poistaa kultakanta.
   - Tehdä transaktioista nopeampia ja halvempia.
   - Tehdä kaikista rikkaita.
-selitys: |
+explanation: |
   Bitcoin luotiin tavoitteena erottaa valtio rahasta. Se on vastaus nykyisen rahoitusjärjestelmän systeemisiin haasteisiin, joissa valtiolla on täysi kontrolli rahatarjonnasta ja se voi manipuloida sitä omaksi edukseen.
-arvioitu: true
+reviewed: true

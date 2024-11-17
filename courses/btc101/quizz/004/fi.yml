@@ -1,11 +1,11 @@
-kysymys: Mitkä ovat Bitcoinin kaksi pääominaisuutta?
-vastaus: Bitcoin on sekä tietokoneprotokolla että rahayksikkö.
-väärät_vastaukset:
+question: Mitkä ovat Bitcoinin kaksi pääominaisuutta?
+answer: Bitcoin on sekä tietokoneprotokolla että rahayksikkö.
+wrong_answers:
   - Bitcoin on sekä fyysinen valuutta että digitaalinen lompakko.
   - Bitcoin on sekä tyyppiä osake että tyyppiä obligaatio.
   - Bitcoin on sekä keskitetty että hajautettu valuutta.
-selitys: |
+explanation: |
   Bitcoin on tietokoneprotokolla, joka käyttää teknologioita
   kuten kryptografiaa ja lohkoketjua, ja se on myös rahayksikkö,
   jota käytetään transaktioissa.
-arvioitu: true
+reviewed: true

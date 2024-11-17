@@ -1,9 +1,9 @@
-kysymys: Mitä metatietoja lisätään laajennettuun avaimen lisäksi sen kuormaan?
-vastaus: Versio / syvyys / vanhemman sormenjälki / indeksi / tarkistussumma.
-väärät_vastaukset:
+question: Mitä metatietoja lisätään laajennettuun avaimen lisäksi sen kuormaan?
+answer: Versio / syvyys / vanhemman sormenjälki / indeksi / tarkistussumma.
+wrong_answers:
   - Versio / indeksi.
   - Versio / syvyys / erotin / tarkistussumma.
   - Metatietoja ei lisätä.
-selitys: |
+explanation: |
   Laajennettu avain sisältää useita metatietoja. Siinä on versio, syvyys, vanhemman sormenjälki, indeksi ja tarkistussumma avaimen johdannan helpottamiseksi.
-arvioitu: false
+reviewed: false

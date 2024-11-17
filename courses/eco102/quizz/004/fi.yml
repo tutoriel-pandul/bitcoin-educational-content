@@ -1,9 +1,9 @@
-kysymys: Miksi Frédéric Bastiat tunnustetaan nykyään vaikutusvaltaiseksi ajattelijaksi, vaikka hän on suhteellisen tuntematon?
-vastaus: Hän ennakoi nykyaikaisia ajatuksia poliittisesta markkinasta ja laillisesta ryöstöstä.
-väärät_vastaukset:
+question: Miksi Frédéric Bastiat tunnustetaan nykyään vaikutusvaltaiseksi ajattelijaksi, vaikka hän on suhteellisen tuntematon?
+answer: Hän ennakoi nykyaikaisia ajatuksia poliittisesta markkinasta ja laillisesta ryöstöstä.
+wrong_answers:
   - Hän edisti julkista koulutusta kaikille.
   - Hän kirjoitti tutkielman moderneista vallankumouksista.
   - Hän vaikutti suoraan sosiaaliturvan luomiseen Ranskassa.
-selitys: |
+explanation: |
   Bastiat löydetään uudelleen hänen vapauden, omaisuusoikeuksien ja laillisen ryöstön kritiikin ideoidensa vuoksi, jotka resonoivat nykypäivän haasteiden kanssa.
-arvioitu: false
+reviewed: false

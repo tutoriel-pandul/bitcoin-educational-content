@@ -1,11 +1,11 @@
-kysymys: Miksi on tärkeää päivittää käyttöjärjestelmä ja sovellukset säännöllisesti?
-vastaus: Suojautuakseen uusilta uhkilta ja haavoittuvuuksilta.
-väärät_vastaukset:
+question: Miksi on tärkeää päivittää käyttöjärjestelmä ja sovellukset säännöllisesti?
+answer: Suojautuakseen uusilta uhkilta ja haavoittuvuuksilta.
+wrong_answers:
   - Tehdäkseen koneesta vanhentuneen.
   - Hidastaakseen konetta.
   - Muuttaakseen käyttöliittymää.
-selitys: |
+explanation: |
   Säännölliset päivitykset ovat olennaisen tärkeitä järjestelmän suojaamiseksi
   uusilta uhkilta ja haavoittuvuuksilta. Niiden tarkoitus ei ole
   tehdä koneesta vanhentunutta tai hidasta.
-arvioitu: true
+reviewed: true

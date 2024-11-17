@@ -1,12 +1,12 @@
-kysymys: Miksi kulta ei pärjää globalisoituneessa ja digitaalisessa maailmassa?
-vastaus: Koska sen jakaminen ja vaihtaminen helposti vaatii keskitetyn toimijan.
-väärät_vastaukset:
+question: Miksi kulta ei pärjää globalisoituneessa ja digitaalisessa maailmassa?
+answer: Koska sen jakaminen ja vaihtaminen helposti vaatii keskitetyn toimijan.
+wrong_answers:
   - Koska se ei ole tarpeeksi arvokasta.
   - Koska se ei ole tarpeeksi harvinaista.
   - Koska se kuluttautuu ajan myötä.
-selitys: |
+explanation: |
   Kulta ei pysy mukana globalisoituneessa ja digitaalisessa maailmassa,
   koska sen jakaminen ja vaihtaminen helposti vaatii keskitetyn toimijan.
   Tämä tekee siitä vähemmän käytännöllisen maailmassa, jossa transaktiot
   ovat yhä enemmän digitaalisia ja hajautettuja.
-arvioitu: true
+reviewed: true

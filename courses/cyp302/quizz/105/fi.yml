@@ -1,9 +1,9 @@
-kysymys: Kuinka osapuolet voivat varmistaa viestien oikean järjestyksen turvallisessa istunnossa?
-vastaus: Käyttämällä sekvenssinumeroita jokaisessa viestissä
+question: Kuinka osapuolet voivat varmistaa viestien oikean järjestyksen turvallisessa istunnossa?
+answer: Käyttämällä sekvenssinumeroita jokaisessa viestissä
 vaarat_vastaukset:
   - Vaihtamalla avaimia jokaiselle viestille
   - Lisäämällä viiveitä viestien välille
   - Salaamalla viestit eri algoritmilla
-selitys: |
+explanation: |
   Sekvenssinumerot varmistavat, että viestit vastaanotetaan oikeassa järjestyksessä ja estävät niiden uudelleenjärjestelyn.
-arvioitu: false
+reviewed: false

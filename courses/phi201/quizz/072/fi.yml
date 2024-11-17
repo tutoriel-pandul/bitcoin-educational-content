@@ -1,8 +1,8 @@
-kysymys: Mikä on talousjärjestyksen alkuperä fysiokraattien mukaan?
-vastaus: Markkinoiden luonnonlait.
-väärät_vastaukset:
+question: Mikä on talousjärjestyksen alkuperä fysiokraattien mukaan?
+answer: Markkinoiden luonnonlait.
+wrong_answers:
   - Hallituksen päätökset.
   - Kansainvälinen laki.
   - Aateliston etuoikeudet.
-selitys: |
+explanation: |
   Fysiokraatit uskoivat, että talousjärjestys juontaa juurensa markkinoiden luonnonlaeista, väittäen, että ilman puuttumista, markkinat pyrkivät tasapainoon, joka takaa yleisen vaurauden.

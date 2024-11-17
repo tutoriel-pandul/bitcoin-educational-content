@@ -1,9 +1,9 @@
-kysymys: Mistä laajennetun avaimen kuorma koostuu?
-vastaus: Julkisesta tai yksityisestä avaimesta ja siihen liittyvästä ketjukoodista.
-väärät_vastaukset:
+question: Mistä laajennetun avaimen kuorma koostuu?
+answer: Julkisesta tai yksityisestä avaimesta ja siihen liittyvästä ketjukoodista.
+wrong_answers:
   - Yksityisestä avaimesta ja siihen liittyvästä julkisesta avaimesta.
   - Ketjukoodista, julkisesta avaimesta ja yksityisestä avaimesta.
   - Yksityisestä avaimesta ja johdannaisindeksistä.
-selitys: |
+explanation: |
   Laajennetun avaimen kuorma sisältää joko julkisen tai yksityisen avaimen yhdessä ketjukoodin kanssa, jota käytetään ala-avainten johtamiseen.
-arvioitu: false
+reviewed: false

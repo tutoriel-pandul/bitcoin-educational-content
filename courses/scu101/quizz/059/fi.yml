@@ -1,10 +1,10 @@
-kysymys: Mitä taitoja tarvitaan kyberturvallisuudessa?
-vastaus: Lokianalyysi, incident response
-väärät_vastaukset:
+question: Mitä taitoja tarvitaan kyberturvallisuudessa?
+answer: Lokianalyysi, incident response
+wrong_answers:
   - Graafinen suunnittelu, videon editointi
   - Myynti, markkinointi
   - Kokkaus, leipominen
-selitys: |
+explanation: |
   Luvussa mainitaan lokianalyysi ja incident response
   joitakin kyberturvallisuudessa tarvittavia taitoja.
-arvioitu: true
+reviewed: true

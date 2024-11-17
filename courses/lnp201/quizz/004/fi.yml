@@ -1,9 +1,9 @@
-kysymys: Mitä Lightning-verkko mahdollistaa verrattuna perinteisiin transaktioihin Bitcoin-lohkoketjussa?
-vastaus: Nopeita transaktioita minimaalisin kuluin
-väärät_vastaukset:
+question: Mitä Lightning-verkko mahdollistaa verrattuna perinteisiin transaktioihin Bitcoin-lohkoketjussa?
+answer: Nopeita transaktioita minimaalisin kuluin
+wrong_answers:
   - Anonyymit ja jäljittämättömät transaktiot
   - Transaktiot suurina määrinä ilman volyymirajoituksia
   - Transaktiot eri lohkoketjujen välillä
-selitys: |
+explanation: |
   Lightning-verkko mahdollistaa nopeat ja edulliset transaktiot off-chain maksukanavien kautta, mikä eroaa säännöllisistä transaktioista lohkoketjussa.
-arvioitu: false
+reviewed: false

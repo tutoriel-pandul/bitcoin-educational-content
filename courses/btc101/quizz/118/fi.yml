@@ -1,12 +1,12 @@
-kysymys: Mikä viesti sisältyy Bitcoin-lohkoketjun ensimmäiseen lohkoon?
-vastaus: 03/tammi/2009 Valtiovarainministeri harkitsee toista pelastuspakettia pankeille.
-väärät_vastaukset:
+question: Mikä viesti sisältyy Bitcoin-lohkoketjun ensimmäiseen lohkoon?
+answer: 03/tammi/2009 Valtiovarainministeri harkitsee toista pelastuspakettia pankeille.
+wrong_answers:
   - Voimme voittaa merkittävän taistelun asevarustelussa ja saavuttaa uuden vapauden alueen useiksi vuosiksi.
   - Hallitukset ovat hyviä katkaisemaan keskitetysti ohjattujen verkostojen, kuten Napsterin, päitä, mutta puhtaasti P2P-verkostot, kuten Gnutella ja Tor, näyttävät pitävän puolensa.
   - Mikään yllä olevista.
-selitys: |
+explanation: |
   Bitcoin-lohkoketjun ensimmäinen lohko, joka tunnetaan myös
   alkulohkona, sisältää viestin 03/tammi/2009
   Valtiovarainministeri harkitsee toista pelastuspakettia pankeille, joka on
   Time-lehden otsikko kyseisenä päivänä alkulohkon aikaleimaksi.
-arvioitu: true
+reviewed: true

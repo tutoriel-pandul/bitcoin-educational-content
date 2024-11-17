@@ -1,8 +1,8 @@
-kysymys: Mitä salasana edustaa HD-lompakossa?
-vastaus: Vaihtoehtoisen kryptografisen suolan mielivaltaisessa koossa.
-väärät_vastaukset:
+question: Mitä salasana edustaa HD-lompakossa?
+answer: Vaihtoehtoisen kryptografisen suolan mielivaltaisessa koossa.
+wrong_answers:
   - 25. sana muistilauseessa.
   - Pakollinen kryptografinen suola kiinteässä koossa.
   - Toinen siemen.
-selitys: |
+explanation: |
   Salasana on vaihtoehtoinen kryptografinen suola, joka parantaa lompakon turvallisuutta lisäämällä lisätietoja muistilauseeseen siemenen määrittämiseksi.

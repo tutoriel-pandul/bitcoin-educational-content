@@ -1,13 +1,13 @@
-kysymys: Mikä on pääasiallinen etu louhittaessa neitseellisiä bitcoineja?
-vastaus: Niitä ei ole koskaan käytetty, eikä niihin liity historiaa.
-väärät_vastaukset:
+question: Mikä on pääasiallinen etu louhittaessa neitseellisiä bitcoineja?
+answer: Niitä ei ole koskaan käytetty, eikä niihin liity historiaa.
+wrong_answers:
   - Ne voidaan myydä korkeammalla hinnalla.
   - Niitä voidaan käyttää laittomiin toimintoihin.
   - Ne voidaan säilyttää pitkään menettämättä arvoaan.
-selitys: |
+explanation: |
   Neitseellisten bitcoinien louhimisen pääasiallinen etu on, että
   niitä ei ole koskaan käytetty, eikä niihin liity historiaa.
   Nämä bitcoinit katsotaan usein arvokkaammiksi, koska
   niitä ei ole koskaan "tahrattu", mikä tarjoaa jonkinlaisen takuun
   hylkäämisen estämiseksi sääntelijöiden tai suurten vaihtoalustojen toimesta.
-arvioitu: true
+reviewed: true

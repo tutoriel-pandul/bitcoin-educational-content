@@ -1,12 +1,12 @@
-kysymys: Mikä on tärkein työkalu, jota louhijat käyttävät Bitcoin-verkossa nykyään?
-vastaus: ASICit
-väärät_vastaukset:
+question: Mikä on tärkein työkalu, jota louhijat käyttävät Bitcoin-verkossa nykyään?
+answer: ASICit
+wrong_answers:
   - CPUt
   - GPUt
   - FPGA:t
-selitys: |
+explanation: |
   Nykyään louhijat käyttävät yksinomaan tähän toimintaan
   omistettuja ASICeja, jotka on optimoitu testaamaan suurimman mahdollisen
   määrän yhdistelmiä mahdollisimman pienellä energiankulutuksella
   ja mahdollisimman nopeasti.
-arvioitu: true
+reviewed: true

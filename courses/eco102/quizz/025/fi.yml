@@ -1,9 +1,9 @@
-kysymys: Mikä oli Englannin liigan päätavoite vuonna 1838?
-vastaus: Viljalakien vastustaminen
-väärät_vastaukset:
+question: Mikä oli Englannin liigan päätavoite vuonna 1838?
+answer: Viljalakien vastustaminen
+wrong_answers:
   - Suurten maanomistajien vastustaminen
   - Maataloustyöntekijöiden edistäminen
   - Ulkomaisten kauppiaiden vastustaminen
-selitys: |
+explanation: |
   Englannin liiga, jonka inspiraationa toimi Richard Cobden, pyrki kumoamaan protektionistiset viljalait edistääkseen vapaakauppaa ja vähentääkseen köyhyyttä.
-arvioitu: false
+reviewed: false

@@ -1,11 +1,11 @@
-kysymys: Mitä kaivostyöläiset voivat tehdä niille voimalaitoksille, jotka eivät vielä ole kytketty sähköverkkoon?
-vastaus: He voivat toimia viimeisenä ostajana.
-väärät_vastaukset:
+question: Mitä kaivostyöläiset voivat tehdä niille voimalaitoksille, jotka eivät vielä ole kytketty sähköverkkoon?
+answer: He voivat toimia viimeisenä ostajana.
+wrong_answers:
   - He voivat tarjota voimalaitoksille sähköä.
   - He voivat kytkeä voimalaitokset sähköverkkoon.
   - He voivat säädellä sähkön hintaa.
-selitys: |
+explanation: |
   Kaivostyöläiset voivat toimia viimeisenä ostajana voimalaitoksille,
   jotka eivät vielä ole kytketty sähköverkkoon. Tämä mahdollistaa voimalaitosten
   rahoituksen varmistamisen jo ennen niiden liittämistä sähköverkkoon.
-arvioitu: true
+reviewed: true

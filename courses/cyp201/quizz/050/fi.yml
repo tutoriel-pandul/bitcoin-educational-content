@@ -1,8 +1,8 @@
-kysymys: Jos noudatetaan BIP39-standardia, mikä on HD-lompakon siemenen koko?
-vastaus: 512 bittiä.
+question: Jos noudatetaan BIP39-standardia, mikä on HD-lompakon siemenen koko?
+answer: 512 bittiä.
 vaarat_vastaukset:
   - 32 tavua.
   - 1024 bittiä.
   - 512 tavua.
-selitys: |
+explanation: |
   BIP39-standardin mukaan HD-lompakon siemen on 512 bittiä, joka johdetaan muistisanoista ja salasanasta.

@@ -1,11 +1,11 @@
-kysymys: Mikä on yksi kullan haitoista rahana?
-vastaus: Sitä ei ole helppo jakaa osiin.
-väärät_vastaukset:
+question: Mikä on yksi kullan haitoista rahana?
+answer: Sitä ei ole helppo jakaa osiin.
+wrong_answers:
   - Se ei säilytä arvoaan paikasta toiseen.
   - Se kuluu ajan myötä.
   - Sitä on helppo tuottaa.
-selitys: |
+explanation: |
   Yksi kullan päähaitoista rahana on,
   että sitä on vaikea jakaa pieniin yksiköihin tarpeen mukaan,
   mikä tekee siitä vähemmän käytännöllisen käyttää.
-arvioitu: true
+reviewed: true

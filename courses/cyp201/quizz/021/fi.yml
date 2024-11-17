@@ -1,8 +1,8 @@
-kysymys: Mikä on Bitcoinin yksityisavaimen koko?
-vastaus: 256 bittiä.
-väärät_vastaukset:
+question: Mikä on Bitcoinin yksityisavaimen koko?
+answer: 256 bittiä.
+wrong_answers:
   - 512 tavua.
   - 520 bittiä.
   - 512 bittiä.
-selitys: |
+explanation: |
   Bitcoinin yksityisavaimella on standardikoko, joka on 256 bittiä. Tämä vastaa Bitcoinissa käytettyä elliptisen käyrän algoritmia.

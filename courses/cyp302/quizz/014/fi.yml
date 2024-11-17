@@ -1,8 +1,8 @@
-kysymys: Millainen asenne käyttäjien tulisi omaksua viestintänsä yksityisyyteen nykyaikaisessa ympäristössä?
-vastaus: Oletetaan, että joku kuuntelee aina
-väärät_vastaukset:
+question: Millainen asenne käyttäjien tulisi omaksua viestintänsä yksityisyyteen nykyaikaisessa ympäristössä?
+answer: Oletetaan, että joku kuuntelee aina
+wrong_answers:
   - Luota pelkästään Wi-Fiin
   - Usko, että mobiilidata on täysin turvallista
   - Käytä vain kiinteitä yhteyksiä
-selitys: |
+explanation: |
   Maailmassa, jossa monet viestintäkanavat ovat alttiita salakuuntelulle, on viisasta olettaa, että kolmas osapuoli saattaa kuunnella, mikä tekee kryptografiasta olennaisen.

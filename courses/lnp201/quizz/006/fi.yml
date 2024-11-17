@@ -1,9 +1,9 @@
-kysymys: Mikä on UTXO Bitcoinin kontekstissa?
-vastaus: Käyttämätön bitcoinien osa, joka on yhdistetty skriptiin
-väärät_vastaukset:
+question: Mikä on UTXO Bitcoinin kontekstissa?
+answer: Käyttämätön bitcoinien osa, joka on yhdistetty skriptiin
+wrong_answers:
   - Täysin vahvistettu transaktio lohkoketjussa
   - Julkinen avain, joka luo Bitcoin-osoitteita
   - Bitcoin-määrä jaettuna useisiin osiin
-selitys: |
+explanation: |
   UTXO, eli "Unspent Transaction Output" (käyttämätön transaktiojäännös), on käyttämätön transaktiojäännös, joka edustaa tiettyä määrää bitcoineja, joita haltija voi käyttää.
-arvioitu: false
+reviewed: false

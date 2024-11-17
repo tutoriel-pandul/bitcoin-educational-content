@@ -1,8 +1,8 @@
-kysymys: Miksi reitittimen on ylläpidettävä hyvää likviditeetin jakautumista kanavissaan?
-vastaus: Maksimoidakseen sen kautta reititettävien maksujen määrän
-väärät_vastaukset:
+question: Miksi reitittimen on ylläpidettävä hyvää likviditeetin jakautumista kanavissaan?
+answer: Maksimoidakseen sen kautta reititettävien maksujen määrän
+wrong_answers:
   - Vähentääkseen transaktiomaksuja
   - Välttääkseen uusien kanavien avaamisen
   - Rajoittaakseen Bitcoin-lohkoketjun käyttöä
-selitys: |
+explanation: |
   Reitittimen tavoitteena on reitittää mahdollisimman monta maksua kerätäkseen maksuja, mikä vaatii hyvän likviditeetin jakautumisen molemmille puolille kanavia varmistaakseen reitityskapasiteetin.

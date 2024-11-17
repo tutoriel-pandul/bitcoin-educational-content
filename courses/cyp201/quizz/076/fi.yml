@@ -1,8 +1,8 @@
-kysymys: Miten SegWit-osoitteen tarkistussumma lasketaan?
-vastaus: BCH-koodilla.
-väärät_vastaukset:
+question: Miten SegWit-osoitteen tarkistussumma lasketaan?
+answer: BCH-koodilla.
+wrong_answers:
   - HASH160:lla.
   - HASH256:lla.
   - SHA512:lla.
-selitys: |
+explanation: |
   SegWit-osoitteiden tarkistussumma lasketaan käyttämällä BCH-koodia, mikä mahdollistaa mahdollisten virheiden havaitsemisen osoitteessa.

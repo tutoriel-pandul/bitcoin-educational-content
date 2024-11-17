@@ -1,10 +1,10 @@
-kysymys: Mikä seuraavista ei ole mikromaksujen keskeinen ominaisuus Lightning-verkossa?
-vastaus: Pitkät maksuajat.
-väärät_vastaukset:
+question: Mikä seuraavista ei ole mikromaksujen keskeinen ominaisuus Lightning-verkossa?
+answer: Pitkät maksuajat.
+wrong_answers:
   - Matalat maksut.
   - Välittömät maksut.
   - Skaalautuvuus.
-selitys: |
+explanation: |
   Lightning-verkon mikromaksujen avulla käyttäjät voivat
   nauttia matalista siirtomaksuista, mikä tekee hyvin pienten
   Bitcoin-määrien lähettämisestä taloudellisesti järkevää. He voivat
@@ -12,4 +12,4 @@ selitys: |
   transaktiot. Lopuksi he voivat saavuttaa skaalautuvuuden, mikä
   mahdollistaa suuren määrän transaktioiden käsittelyn samanaikaisesti.
   Näin ollen väärä vastaus on pitkät maksuajat.
-arvioitu: true
+reviewed: true

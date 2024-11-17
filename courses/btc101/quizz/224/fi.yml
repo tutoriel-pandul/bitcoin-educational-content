@@ -1,10 +1,10 @@
-kysymys: Mitä Lightning-verkko mahdollistaa?
-vastaus: Välittömät, edulliset Bitcoin-siirrot.
-väärät_vastaukset:
+question: Mitä Lightning-verkko mahdollistaa?
+answer: Välittömät, edulliset Bitcoin-siirrot.
+wrong_answers:
   - Välittömät, kalliit Bitcoin-siirrot.
   - Viivästetyt, edulliset Bitcoin-siirrot.
   - Viivästetyt, kalliit Bitcoin-siirrot.
-selitys: >-
+explanation: >-
   Lightning-verkko mahdollistaa välittömät, edulliset Bitcoin-siirrot,
   ratkaisten näin Bitcoinin skaalautuvuusongelman.
-arvioitu: true
+reviewed: true

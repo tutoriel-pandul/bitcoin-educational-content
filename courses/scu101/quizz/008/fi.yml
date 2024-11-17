@@ -1,13 +1,13 @@
-kysymys: Mikä on TOR-verkko?
-vastaus: Verkko, joka tarjoaa nimettömyyttä peittämällä käyttäjän IP-osoitteen ja mahdollistamalla pääsyn Darknetiin.
-väärät_vastaukset:
+question: Mikä on TOR-verkko?
+answer: Verkko, joka tarjoaa nimettömyyttä peittämällä käyttäjän IP-osoitteen ja mahdollistamalla pääsyn Darknetiin.
+wrong_answers:
   - Verkko, joka suojaa laitettasi viruksilta ja muulta haittaohjelmistolta.
   - Verkko, joka piilottaa online-toimintasi internet-palveluntarjoajaltasi.
   - Verkko, joka mahdollistaa nopeamman internetin selaamisen.
-selitys: |
+explanation: |
   TOR (The Onion Router) -verkko on verkko, joka tarjoaa
   nimettömyyttä peittämällä käyttäjän IP-osoitteen ja mahdollistamalla
   pääsyn Darknetiin. Sitä käyttävät toimittajat, vapauden
   aktivistit ja muut, jotka haluavat välttää sensuuria
   autoritaarisissa maissa.
-arvioitu: true
+reviewed: true

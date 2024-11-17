@@ -1,9 +1,9 @@
-kysymys: Mikä on komento, jolla voi tarkistaa liikkeessä olevien bitcoinien määrän Bitcoin-noodissa?
-vastaus: bitcoin-cli gettxoutsetinfo.
-väärät_vastaukset:
+question: Mikä on komento, jolla voi tarkistaa liikkeessä olevien bitcoinien määrän Bitcoin-noodissa?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
   - bitcoin-cli getblockchaininfo.
   - bitcoin-cli getwalletinfo.
   - bitcoin-cli getnetworkinfo.
-selitys: |
+explanation: |
   Komento, jolla voi tarkistaa liikkeessä olevien bitcoinien määrän Bitcoin-noodissa, on bitcoin-cli gettxoutsetinfo. Tämä komento tarjoaa läpinäkyvyyttä ja todennettavuutta, vahvistaen luottamusta Bitcoin-järjestelmään.
-arvioitu: true
+reviewed: true

@@ -1,9 +1,9 @@
-kysymys: Mikä on Le Censeur -lehden liberaalien lopullinen tavoite?
-vastaus: Yhteiskunnan depolitisoiminen
+question: Mikä on Le Censeur -lehden liberaalien lopullinen tavoite?
+answer: Yhteiskunnan depolitisoiminen
 vaarat_vastaukset:
   - Luokkasota
   - Rikastuminen
   - Valtion keskittäminen
-selitys: |
+explanation: |
   Comte ja Dunoyer kannattavat yhteiskunnan depolitisoimista, pyrkien rajoittamaan valtion väliintuloa ja asettamaan tuottajien edut etusijalle.
-arvioitu: false
+reviewed: false

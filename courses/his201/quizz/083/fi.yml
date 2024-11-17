@@ -1,9 +1,9 @@
-kysymys: Mikä oli korkein hinta, jonka Bitcoin saavutti kesäkuussa 2011?
-vastaus: 32 dollaria
-väärät_vastaukset:
+question: Mikä oli korkein hinta, jonka Bitcoin saavutti kesäkuussa 2011?
+answer: 32 dollaria
+wrong_answers:
   - 1 dollari
   - 3 dollaria
   - 8 dollaria
-selitys: |
+explanation: |
   8. kesäkuuta Bitcoinin hinta saavutti historiallisen korkean, 32 dollaria Mt. Goxissa. Hinta kuitenkin laski nopeasti sen jälkeen.
-arvioitu: false
+reviewed: false

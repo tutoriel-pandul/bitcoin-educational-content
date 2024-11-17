@@ -1,9 +1,9 @@
-kysymys: Jos generoin 128-bittisen satunnaisluvun, kuinka monta sanaa palautusfraasini tulee olemaan?
-vastaus: 12 sanaa.
-väärät_vastaukset:
+question: Jos generoin 128-bittisen satunnaisluvun, kuinka monta sanaa palautusfraasini tulee olemaan?
+answer: 12 sanaa.
+wrong_answers:
   - 6 sanaa.
   - 8 sanaa.
   - 24 sanaa.
-selitys: |
+explanation: |
   128-bittinen satunnaisluku vastaa 12 sanan muistisanaista fraasia, noudattaen BIP39-standardia.
-arvioitu: false
+reviewed: false

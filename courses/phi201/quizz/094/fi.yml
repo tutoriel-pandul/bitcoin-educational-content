@@ -1,9 +1,9 @@
-kysymys: Mikä on Frédéric Bastiat'n kritiikki sosialistista demokratiaa kohtaan?
-vastaus: Bastiat kritisoi sosialistista demokratiaa, koska se johtaa verotuksen lisääntymiseen, valtion velkaantumiseen ja ryöstelyyn.
-väärät_vastaukset:
+question: Mikä on Frédéric Bastiat'n kritiikki sosialistista demokratiaa kohtaan?
+answer: Bastiat kritisoi sosialistista demokratiaa, koska se johtaa verotuksen lisääntymiseen, valtion velkaantumiseen ja ryöstelyyn.
+wrong_answers:
   - Bastiat kritisoi sosialistista demokratiaa, koska se ei kunnioita vapauden ja tasa-arvon periaatteita.
   - Bastiat kritisoi sosialistista demokratiaa, koska se johtaa pysähtyneisyyteen.
   - Bastiat kritisoi sosialistista demokratiaa, koska se uhkaa perinteisiä perheen ja uskonnon arvoja.
-selitys: |
+explanation: |
   Frédéric Bastiat näkee sosialistisessa demokratiassa taipumuksen käyttää valtiota varallisuuden uudelleenjakoon verojen ja velan kautta, mitä hän pitää yksilön omaisuuden "laillisena ryöstelynä".
-arvioitu: false
+reviewed: false

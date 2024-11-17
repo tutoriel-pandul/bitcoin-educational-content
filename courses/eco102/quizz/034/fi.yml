@@ -1,9 +1,9 @@
-kysymys: Mikä on Bastiat'n näkemys ihmisen luonteesta syntymähetkellä?
-vastaus: Omistaja
+question: Mikä on Bastiat'n näkemys ihmisen luonteesta syntymähetkellä?
+answer: Omistaja
 vaarat_vastaukset:
   - Orja
   - Hyvä
   - Alaistuva
-selitys: |
+explanation: |
   Bastiat väittää, että ihminen syntyy "omistajana", koska hänellä on itsessään oikeus käyttää omia kykyjään tarpeidensa tyydyttämiseen.
-arvioitu: false
+reviewed: false

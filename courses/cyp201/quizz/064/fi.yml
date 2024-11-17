@@ -1,9 +1,9 @@
-kysymys: Mikä on indeksialue, jota käytetään normaaleille lapsiavaimille HD-lompakossa?
-vastaus: Välillä 0 ja 2^31 - 1.
-väärät_vastaukset:
+question: Mikä on indeksialue, jota käytetään normaaleille lapsiavaimille HD-lompakossa?
+answer: Välillä 0 ja 2^31 - 1.
+wrong_answers:
   - Välillä 0 ja 2^32 - 1.
   - Välillä 0 ja 2^31.
   - Välillä 2^31 ja 2^32 - 1.
-selitys: |
+explanation: |
   Normaalit lapsiavaimet käyttävät indeksialuetta välillä 0 ja 2^31 - 1, kun taas kovennetut avaimet aloittavat indeksinsä 2^31:stä.
-arvioitu: false
+reviewed: false

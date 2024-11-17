@@ -1,9 +1,9 @@
-kysymys: Mikä tekee RC4:stä haavoittuvaisen nykyään, huolimatta sen menneestä suosiosta?
-vastaus: Hyvin dokumentoidut heikkoudet avainvirran tuottamisessa
-väärät_vastaukset:
+question: Mikä tekee RC4:stä haavoittuvaisen nykyään, huolimatta sen menneestä suosiosta?
+answer: Hyvin dokumentoidut heikkoudet avainvirran tuottamisessa
+wrong_answers:
   - Avain liian lyhyt takaamaan turvallisuuden
   - Sen kyvyttömyys toimia pitkien tekstien kanssa
   - Julkisen avaimen käytön vaatimus yksityisen avaimen lisäksi
-selitys: |
+explanation: |
   RC4:ssä on merkittäviä heikkouksia avainvirran tuottamisessa, jotka altistavat salauksen hyökkäyksille, minkä vuoksi sitä on vähitellen hylätty nykyaikaisissa turvaprotokollissa.
-arvioitu: false
+reviewed: false

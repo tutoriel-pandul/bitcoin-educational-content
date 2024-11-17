@@ -1,8 +1,8 @@
-kysymys: Mitä tapahtuu, jos kanava, jossa on aktiivinen HTLC, suljetaan väkisin?
-vastaus: HTLC sisällytetään sitoumustapahtumiin tuloksena.
-väärät_vastaukset:
+question: Mitä tapahtuu, jos kanava, jossa on aktiivinen HTLC, suljetaan väkisin?
+answer: HTLC sisällytetään sitoumustapahtumiin tuloksena.
+wrong_answers:
   - HTLC peruutetaan automaattisesti.
   - Varat jaetaan uudelleen edellisille solmuille.
   - Kanavaa ei voida sulkea ennen kuin HTLC on vanhentunut.
-selitys: |
+explanation: |
   Pakotetun sulkemisen aikana vireillä olevat HTLC:t esitetään tuloksina sitoumustapahtumissa, varmistaen näin niiden suorittamisen tai palautuksen määriteltyjen ehtojen mukaisesti.

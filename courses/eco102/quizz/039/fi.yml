@@ -1,9 +1,9 @@
-kysymys: Mikä on juristien periaate Bastiat'n mukaan?
-vastaus: Se on lain etuoikeuden periaate omaisuuteen nähden
-väärät_vastaukset:
+question: Mikä on juristien periaate Bastiat'n mukaan?
+answer: Se on lain etuoikeuden periaate omaisuuteen nähden
+wrong_answers:
   - Se on omaisuuden etuoikeuden periaate lakiin nähden
   - Se on periaate tasa-arvosta lain edessä
   - Se on oikeus omaisuuteen ilman valtion puuttumista
-selitys: |
+explanation: |
   Bastiat'n mukaan juristien periaate, taloustieteilijöiden näkemyksen vastakohtana, asettaa lain omaisuuden edelle, asema, jota hän kritisoi sen mahdollisuuden vuoksi perustaa epäoikeudenmukaisuuksia.
-arvioitu: false
+reviewed: false

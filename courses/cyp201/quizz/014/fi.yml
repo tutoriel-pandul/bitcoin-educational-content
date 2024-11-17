@@ -1,8 +1,8 @@
-kysymys: Mikä funktio käytetään johdettavan lapsiavaimen luomiseen vanhemmasta avaimesta Bitcoinissa?
-vastaus: HMAC-SHA512.
-väärät_vastaukset:
+question: Mikä funktio käytetään johdettavan lapsiavaimen luomiseen vanhemmasta avaimesta Bitcoinissa?
+answer: HMAC-SHA512.
+wrong_answers:
   - SHA256.
   - MD5.
   - BLAKE2.
-selitys: |
+explanation: |
   HMAC-SHA512-funktiota käytetään johdettavien lapsiavainten luomiseen vanhemmista avaimista Bitcoinin HD-lompakoissa.

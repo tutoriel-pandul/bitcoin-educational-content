@@ -1,9 +1,9 @@
-kysymys: Mitä tarkoittaa heittomerkki tai "H" numeron oikealla puolella johdannaispolun merkinnässä? Esimerkki m/84'/0'.
-vastaus: Se osoittaa kovetetun johdannaisen.
-väärät_vastaukset:
+question: Mitä tarkoittaa heittomerkki tai "H" numeron oikealla puolella johdannaispolun merkinnässä? Esimerkki m/84'/0'.
+answer: Se osoittaa kovetetun johdannaisen.
+wrong_answers:
   - Se osoittaa normaalin johdannaisen.
   - Se on siinä koristeena.
   - Se osoittaa muutosavaimen.
-selitys: |
+explanation: |
   Heittomerkki tai "H" johdannaispolussa osoittaa kovetetun johdannaisen, joka käyttää vanhemman yksityisavainta ja vastaavaa indeksialuetta.
-arvioitu: false
+reviewed: false

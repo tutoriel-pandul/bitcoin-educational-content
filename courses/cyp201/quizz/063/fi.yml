@@ -1,9 +1,9 @@
-kysymys: Mitkä ovat kahdenlaiset lapsiavaimen johdannaiset HD-lompakossa?
-vastaus: Normaali johdannainen ja vahvistettu johdannainen.
-väärät_vastaukset:
+question: Mitkä ovat kahdenlaiset lapsiavaimen johdannaiset HD-lompakossa?
+answer: Normaali johdannainen ja vahvistettu johdannainen.
+wrong_answers:
   - Yksinkertainen johdannainen ja monimutkainen johdannainen.
   - Elliptinen johdannainen ja käyrä johdannainen.
   - Staattinen johdannainen ja dynaaminen johdannainen.
-selitys: |
+explanation: |
   Kahdenlaiset johdannaiset ovat normaali johdannainen, joka käyttää vanhemman julkista avainta, ja vahvistettu johdannainen, joka käyttää vanhemman yksityistä avainta.
-arvioitu: false
+reviewed: false

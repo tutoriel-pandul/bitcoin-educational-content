@@ -1,9 +1,9 @@
-kysymys: Kuinka lohkosalaus voidaan muuntaa virtaussalaukseksi?
-vastaus: Käyttämällä tiloja kuten OFB, jotka tuottavat avainvirran lohkosalausmenetelmästä
-väärät_vastaukset:
+question: Kuinka lohkosalaus voidaan muuntaa virtaussalaukseksi?
+answer: Käyttämällä tiloja kuten OFB, jotka tuottavat avainvirran lohkosalausmenetelmästä
+wrong_answers:
   - Jakamalla selkotekstin tavuiksi ja salaamalla ne yksi kerrallaan
   - Soveltamalla täytettä viesteihin ennen salausta
   - Kasvattamalla avaimen pituutta jokaiselle salatulle lohkolle
-selitys: |
+explanation: |
   Tilat, kuten OFB, mahdollistavat lohkosalausmenetelmän toimimisen virtaussalauksena tuottamalla avainvirran, jota sitten käytetään jokaiseen selkotekstin osaan.
-arvioitu: false
+reviewed: false

@@ -1,8 +1,8 @@
-kysymys: Mikä on ihmiskunnan historian avain Comten ja Dunoyerin mukaan?
-vastaus: Ryöstely
-väärät_vastaukset:
+question: Mikä on ihmiskunnan historian avain Comten ja Dunoyerin mukaan?
+answer: Ryöstely
+wrong_answers:
   - Proletariaatti
   - Uskonto
   - Aatelisto
-selitys: |
+explanation: |
   Comte ja Dunoyer pitävät ryöstelyä, tarkoittaen väkivaltaa ja hyväksikäyttöä, ihmiskunnan historian ajavana voimana, joka vaikuttaa luokkien välisiin suhteisiin.

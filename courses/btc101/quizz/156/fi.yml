@@ -1,11 +1,11 @@
-kysymys: Mikä on louhintaltaarien tarkoitus?
-vastaus: Louhintaltaarit mahdollistavat louhijoiden yhdistää laskentatehonsa ja saada pienempiä mutta säännöllisempiä palkkioita.
-väärät_vastaukset:
+question: Mikä on louhintaltaarien tarkoitus?
+answer: Louhintaltaarit mahdollistavat louhijoiden yhdistää laskentatehonsa ja saada pienempiä mutta säännöllisempiä palkkioita.
+wrong_answers:
   - Louhintaltaareja käytetään Bitcoin-verkon kokonais-HashRaten kasvattamiseen.
   - Louhintaltaareja käytetään louhinnan vaikeustason alentamiseen.
   - Louhintaltaareja käytetään louhinnasta saatavan palkkion suurentamiseen.
-selitys: >-
+explanation: >-
   Louhintaltaarit ovat louhijoiden ryhmiä, jotka yhdistävät laskentatehonsa
   kasvattaakseen mahdollisuuksiaan louhia lohko. Yhdistämällä resurssinsa he voivat
   louhia lohkoja useammin ja saada pienempiä mutta säännöllisempiä palkkioita.
-arvioitu: true
+reviewed: true

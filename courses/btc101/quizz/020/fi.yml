@@ -1,12 +1,12 @@
-kysymys: Mitkä ovat tehokkaan valuutan pääominaisuudet?
-vastaus: Vaihdettavissa, Jaettavissa, Likvidi.
-väärät_vastaukset:
+question: Mitkä ovat tehokkaan valuutan pääominaisuudet?
+answer: Vaihdettavissa, Jaettavissa, Likvidi.
+wrong_answers:
   - Vaihdettavissa, Jaettavissa, Pilaantuva.
   - Vaihdettavissa, Jakamaton, Likvidi.
   - Ei-vaihdettavissa, Jaettavissa, Likvidi.
-selitys: |
+explanation: |
   Tehokkaan valuutan on oltava vaihdettavissa (vaihdettavissa
   ilman arvon menetystä), jaettavissa (jaettavissa pieniin
   osiin eri suuruisten transaktioiden helpottamiseksi) ja
   likvidi (helposti muunnettavissa tavaroihin tai palveluihin).
-arvioitu: true
+reviewed: true

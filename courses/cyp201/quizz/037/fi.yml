@@ -1,9 +1,9 @@
-kysymys: Miksi on tärkeää käyttää hyvää entropian lähdettä yksityisten avainten luomiseen?
-vastaus: Huono entropia voi tehdä yksityisistä avaimista ennustettavia ja alttiita hyökkäyksille.
-väärät_vastaukset:
+question: Miksi on tärkeää käyttää hyvää entropian lähdettä yksityisten avainten luomiseen?
+answer: Huono entropia voi tehdä yksityisistä avaimista ennustettavia ja alttiita hyökkäyksille.
+wrong_answers:
   - Hyvä entropia auttaa optimoimaan lompakon suorituskykyä.
   - Entropialla ei ole roolia yksityisten avainten turvallisuudessa.
   - Huono entropia hidastaa transaktioita.
-selitys: |
+explanation: |
   Jos yksityisten avainten luomiseen käytetty entropia on alhainen, se saattaa mahdollistaa hyökkääjän arvata tai laskea nämä avaimet, vaarantaen lompakon turvallisuuden.
-arvioitu: false
+reviewed: false

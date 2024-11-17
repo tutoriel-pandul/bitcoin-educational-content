@@ -1,9 +1,9 @@
-kysymys: Miksi käytännön kokemus on tärkeää kyberturvallisuudessa?
-vastaus: Se mahdollistaa teoreettisen tietämyksen soveltamisen todellisissa tilanteissa
+question: Miksi käytännön kokemus on tärkeää kyberturvallisuudessa?
+answer: Se mahdollistaa teoreettisen tietämyksen soveltamisen todellisissa tilanteissa
 vaarat_vastaukset:
   - Se on vaatimus kaikissa kyberturvallisuuden työpaikoissa
   - Se on tärkeämpää kuin akateeminen tietämys
   - Se on ainoa tapa oppia kyberturvallisuudesta
-selitys: |
+explanation: |
   Luku korostaa käytännön kokemuksen tärkeyttä, sillä se mahdollistaa teoreettisen tietämyksen soveltamisen todellisissa tilanteissa.
-arvioitu: true
+reviewed: true

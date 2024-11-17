@@ -1,9 +1,9 @@
-kysymys: Minä vuonna asymmetrinen kryptografia virallisesti keksittiin?
-vastaus: 1976
+question: Minä vuonna asymmetrinen kryptografia virallisesti keksittiin?
+answer: 1976
 vaarat_vastaukset:
   - 1676
   - 1776
   - 1876
-selitys: |
+explanation: |
   Sen esittelivät Whitfield Diffie ja Martin Hellman, kaksi kryptografiaa Stanfordin yliopistosta, marraskuussa 1976 julkaistussa tutkimuksessa.
-arvioitu: false
+reviewed: false

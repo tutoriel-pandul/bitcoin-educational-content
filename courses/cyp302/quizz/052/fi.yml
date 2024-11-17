@@ -1,8 +1,8 @@
-kysymys: Mikä on redusoitumattoman polynomin rooli äärellisessä kentässä?
-vastaus: Määritellä kentän kertolaskutoimitukset
-väärät_vastaukset:
+question: Mikä on redusoitumattoman polynomin rooli äärellisessä kentässä?
+answer: Määritellä kentän kertolaskutoimitukset
+wrong_answers:
   - Määritellä jokaisen alkion additiivinen inverssi
   - Varmistaa kentän sulkeutuneisuus
   - Määrittää kertolaskullinen identiteetti
-selitys: |
+explanation: |
   Redusoitumattomia polynomeja käytetään rakentamaan kertolasku äärellisissä kentissä, varmistaen, että jokainen alkio pysyy kentässä.

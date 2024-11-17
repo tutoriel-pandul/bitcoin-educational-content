@@ -1,9 +1,9 @@
-kysymys: Mitkä hajautusfunktiot ovat käytössä Bitcoin-protokollassa?
-vastaus: SHA-256, RIPEMD-160
+question: Mitkä hajautusfunktiot ovat käytössä Bitcoin-protokollassa?
+answer: SHA-256, RIPEMD-160
 vaarat_vastaukset:
   - MD5, SHA3-256
   - Keccak-256, SHA-512
   - SHA-1, Whirlpool
-selitys: |
+explanation: |
   Bitcoinissa käytetään SHA-256 ja RIPEMD-160 hajautusfunktioita.
-arvioitu: false
+reviewed: false

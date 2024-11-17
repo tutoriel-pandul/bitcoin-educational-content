@@ -1,10 +1,10 @@
-kysymys: Mikä on yksi kyberturvallisuuden näkökohdista, joka vaatii säännöllistä seurantaa?
-vastaus: Uhkien jatkuva kehittyminen
+question: Mikä on yksi kyberturvallisuuden näkökohdista, joka vaatii säännöllistä seurantaa?
+answer: Uhkien jatkuva kehittyminen
 vaarat_vastaukset:
   - Pörssimarkkinat
   - Sää
   - Uutiset
-selitys: |
+explanation: |
   Luvussa mainitaan, että uhkien jatkuva kehittyminen
   kyberturvallisuudessa vaatii säännöllistä seurantaa.
-arvioitu: true
+reviewed: true

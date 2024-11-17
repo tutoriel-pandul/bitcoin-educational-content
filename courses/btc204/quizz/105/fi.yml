@@ -1,11 +1,11 @@
-kysymys: Mikä on payjoin-transaktion pääetu verrattuna klassiseen maksutransaktioon?
+question: Mikä on payjoin-transaktion pääetu verrattuna klassiseen maksutransaktioon?
 
-vastaus: Se parantaa yksityisyyttä
+answer: Se parantaa yksityisyyttä
 
 vaarat_vastaukset:
   - Se nopeuttaa vahvistusta
   - Se vähentää transaktiomaksuja
   - Se johtaa vastaanottajan harhaan
 
-selitys: |
+explanation: |
   Payjoin-transaktio parantaa osapuolten yksityisyyttä johtamalla ketjuanalyysin harhaan.

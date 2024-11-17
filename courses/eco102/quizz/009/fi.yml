@@ -1,8 +1,8 @@
-kysymys: Missä Frédéric Bastiat kuoli ja haudattiin?
-vastaus: Roomassa
-väärät_vastaukset:
+question: Missä Frédéric Bastiat kuoli ja haudattiin?
+answer: Roomassa
+wrong_answers:
   - Mugronissa
   - Pariisissa
   - Bayonnessa
-selitys: |
+explanation: |
   Frédéric Bastiat kuoli Roomassa vuonna 1850 ja on haudattu Ranskan Pyhän Ludvigin kirkkoon.

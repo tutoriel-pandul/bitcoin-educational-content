@@ -1,9 +1,9 @@
-kysymys: Mikä ohjelmiston versionumero oli esillä Slashdotissa heinäkuussa 2010?
-vastaus: v0.3
+question: Mikä ohjelmiston versionumero oli esillä Slashdotissa heinäkuussa 2010?
+answer: v0.3
 vaarat_vastaukset:
   - v0.1
   - v0.2
   - v0.4
-selitys: |
+explanation: |
   Tämän version julkaisu, jota Satoshi ja Martti olivat pitkään valmistelleet, merkitsi uutta ponnistusta viestinnässä.
-arvioitu: false
+reviewed: false

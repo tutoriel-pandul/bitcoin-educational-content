@@ -1,11 +1,11 @@
-kysymys: Mikä termi kuvaa suojaa, jonka coinjoin tarjoaa kolikon tulevien transaktioiden analysointia vastaan?
+question: Mikä termi kuvaa suojaa, jonka coinjoin tarjoaa kolikon tulevien transaktioiden analysointia vastaan?
 
-vastaus: Tuleva anonset.
+answer: Tuleva anonset.
 
-väärät_vastaukset:
+wrong_answers:
   - Takautuva anonset.
   - Jäljitettävyyden vastustus.
   - Ajallinen yksityisyys.
 
-selitys: |
+explanation: |
   Suoja, joka kohdistuu analyysiin menneisyydestä nykyhetkeen, on sitä, mitä kutsutaan tulevaksi anonsetiksi.

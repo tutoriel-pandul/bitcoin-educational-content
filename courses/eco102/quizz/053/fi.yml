@@ -1,9 +1,9 @@
-kysymys: Mitä taloudellista konseptia Bastiat korostaa tuhon kustannusten analyysissään?
-vastaus: Vaihtoehtoiskustannus
+question: Mitä taloudellista konseptia Bastiat korostaa tuhon kustannusten analyysissään?
+answer: Vaihtoehtoiskustannus
 vaarat_vastaukset:
   - Rajakustannus
   - Rajatuottavuus
   - Tuotantokustannus
-selitys: |
+explanation: |
   Bastiat korostaa vaihtoehtoiskustannuksen merkitystä, havainnollistaen, että tuhon korjaamiseen käytetyt resurssit olisi voitu käyttää vaurauden luomiseen muualla.
-arvioitu: false
+reviewed: false

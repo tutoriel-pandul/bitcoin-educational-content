@@ -1,9 +1,9 @@
-kysymys: Mikä on riski monimutkaistaa liikaa bitcoinien turvallisuutta ja saavutettavuutta?
-vastaus: Voit vahingoittaa itseäsi, jos käsittelet varmuuskopio-lompakoita väärin.
-väärät_vastaukset:
+question: Mikä on riski monimutkaistaa liikaa bitcoinien turvallisuutta ja saavutettavuutta?
+answer: Voit vahingoittaa itseäsi, jos käsittelet varmuuskopio-lompakoita väärin.
+wrong_answers:
   - Voit vahingoittaa itseäsi, jos käsittelet fyysisiä lompakoita väärin.
   - Voit vahingoittaa itseäsi, jos käsittelet digitaalisia lompakoita väärin.
   - Voit vahingoittaa itseäsi, jos käsittelet multisig-lompakoita väärin.
-selitys: |
+explanation: |
   Bitcoinien turvallisuuden ja saavutettavuuden liiallinen monimutkaistaminen voi vahingoittaa sinua, esimerkiksi jos käsittelet lompakkojesi varmuuskopioita väärin. Tämä johtuu siitä, että yksinkertaiset varmuuskopiointimenettelyt ovat ratkaisevan tärkeitä varojen uudelleensaamiseksi, jos menetät puhelimesi tai tietokoneesi.
-arvioitu: true
+reviewed: true

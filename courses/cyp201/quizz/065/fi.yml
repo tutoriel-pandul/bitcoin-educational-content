@@ -1,9 +1,9 @@
-kysymys: HD-lompakon johdannaispoluissa, mihin syvyys 0 vastaa?
-vastaus: Pääavain.
-väärät_vastaukset:
+question: HD-lompakon johdannaispoluissa, mihin syvyys 0 vastaa?
+answer: Pääavain.
+wrong_answers:
   - Laajennettu avain.
   - Vastaanotto-osoitteet.
   - Valuutan tyyppi.
-selitys: |
+explanation: |
   Syvyys 0 johdannaispoluissa vastaa pääavainta, joka on lähtökohta kaikille johdannaisille HD-lompakossa.
-arvioitu: false
+reviewed: false

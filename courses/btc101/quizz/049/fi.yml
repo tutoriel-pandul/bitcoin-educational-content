@@ -1,9 +1,9 @@
-kysymys: Mikä on hyperinflaation ilmiön ensimmäinen vaihe?
-vastaus: Luottamuksen menetys.
+question: Mikä on hyperinflaation ilmiön ensimmäinen vaihe?
+answer: Luottamuksen menetys.
 vaarat_vastaukset:
   - Valuutan romahdus & hinnannousu.
   - Loputon rahanpainamisen kierre.
   - Uuden valuutan synty.
-selitys: |
+explanation: |
   Hyperinflaation ensimmäinen vaihe on luottamuksen menetys valuuttaan.
-arvioitu: true
+reviewed: true

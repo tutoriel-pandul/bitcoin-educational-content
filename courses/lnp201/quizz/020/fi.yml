@@ -1,9 +1,9 @@
-kysymys: Mikä on pääasiallinen riski sitoumustapahtumissa Lightning-verkossa?
-vastaus: Vanhan tapahtuman julkaiseminen enemmän varojen takaisin saamiseksi
-väärät_vastaukset:
+question: Mikä on pääasiallinen riski sitoumustapahtumissa Lightning-verkossa?
+answer: Vanhan tapahtuman julkaiseminen enemmän varojen takaisin saamiseksi
+wrong_answers:
   - Sitoumustapahtuman allekirjoittamisen unohtaminen
   - Varojen vahingossa lähettäminen toiselle kanavalle
   - Tapahtuman estäminen sopimattomalla aikalukolla
-selitys: |
+explanation: |
   Pääasiallinen riski on, että osapuoli saattaa yrittää huijata julkaisemalla vanhan sitoumustapahtuman, mikä voisi mahdollistaa heidän saada takaisin varoja, joita heillä ei enää ole.
-arvioitu: false
+reviewed: false

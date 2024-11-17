@@ -1,14 +1,14 @@
-kysymys: Mikä on Lightning-autentikoinnin tarkoitus?
-vastaus: Se luo eri tunnisteen jokaiselle palvelulle ilman, että tarvitsee
+question: Mikä on Lightning-autentikoinnin tarkoitus?
+answer: Se luo eri tunnisteen jokaiselle palvelulle ilman, että tarvitsee
   antaa sähköpostiosoitetta tai henkilökohtaisia tietoja.
-väärät_vastaukset:
+wrong_answers:
   - Mahdollistaa kenelle tahansa, jopa ilman Lightning-lompakkoa, autentikoinnin ilman sähköpostiosoitetta, jos voimassa oleva henkilötodistus näytetään.
   - Sen avulla voit käyttää samaa salasanaa kaikissa palveluissa.
   - Se lähettää muistutuksia vaihtaa salasanoja joka kuukausi.
-selitys: |
+explanation: |
   Lightning-autentikointi luo eri tunnisteen
   jokaiselle palvelulle ilman, että tarvitsee antaa
   sähköpostiosoitetta tai henkilökohtaisia tietoja. Tämä voi parantaa yksityisyyttä
   ja turvallisuutta vähentämällä henkilökohtaisten tietojen määrää,
   joka jaetaan kunkin palvelun kanssa.
-arvioitu: true
+reviewed: true

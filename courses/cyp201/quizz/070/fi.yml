@@ -1,9 +1,9 @@
-kysymys: Mikä on vastaanotto-osoite (yleisesti)?
-vastaus: Julkisen avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
+question: Mikä on vastaanotto-osoite (yleisesti)?
+answer: Julkisen avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
 vaarat_vastaukset:
   - Yksityisen avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
   - Laajennetun avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
   - Ketjukoodin tiiviste, johon on lisätty metadataa.
-selitys: |
+explanation: |
   Vastaanotto-osoite on yleensä julkisen avaimen tiiviste, johon liittyy metadataa, ja sitä käytetään scriptPubKey:ssä ehtojen määrittämiseen.
-arvioitu: false
+reviewed: false

@@ -1,12 +1,12 @@
-kysymys: Miten tämä kurssi kuvailee Bitcoinia?
-vastaus: Monitieteinen aihe.
-väärät_vastaukset:
+question: Miten tämä kurssi kuvailee Bitcoinia?
+answer: Monitieteinen aihe.
+wrong_answers:
   - Yksinkertainen aihe.
   - Fyysinen aihe.
   - Yksitieteellinen aihe.
-selitys: |
+explanation: |
   Bitcoinia kuvataan monitieteisenä aiheena, koska
   se herättää kysymyksiä liittyen useisiin eri aloihin, mukaan lukien
   kryptografia, peliteoria, taloustiede ja rahapolitiikka,
   tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
-arvioitu: true
+reviewed: true

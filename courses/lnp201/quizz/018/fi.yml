@@ -1,9 +1,9 @@
-kysymys: Miten uusi kanavatila luodaan jokaisen siirron jälkeen?
-vastaus: Luomalla uusi sitoumustapahtuma päivitetyllä jaolla
+question: Miten uusi kanavatila luodaan jokaisen siirron jälkeen?
+answer: Luomalla uusi sitoumustapahtuma päivitetyllä jaolla
 vaarat_vastaukset:
   - Lähettämällä on-chain-tapahtuman jokaisen siirron jälkeen
   - Kasvattamalla kanavan kokonaiskapasiteettia
   - Sulkemalla ja avaamalla kanavan uudelleen jokaisen tapahtuman jälkeen
-selitys: |
+explanation: |
   Jokainen kanavassa tapahtuva siirto päivittää kanavan tilan uudella sitoumustapahtumalla, heijastaen nykyistä varojen jakautumista kahden osallistujan välillä.
-arvioitu: false
+reviewed: false

@@ -1,8 +1,8 @@
-kysymys: Mitä peruutusavain mahdollistaa huijauksen tapauksessa?
-vastaus: Palauttaa kaikki varat rankaisemalla huijaria
-väärät_vastaukset:
+question: Mitä peruutusavain mahdollistaa huijauksen tapauksessa?
+answer: Palauttaa kaikki varat rankaisemalla huijaria
+wrong_answers:
   - Peruuttaa sitoumustapahtuman
   - Tuplata kanavan kapasiteetin
   - Estää kaikki tulevat tapahtumat kanavassa
-selitys: |
+explanation: |
   Peruutusavain mahdollistaa vahingoittuneen osapuolen palauttaa kaikki varat, jos toinen osapuoli yrittää huijata.

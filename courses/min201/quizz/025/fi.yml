@@ -1,11 +1,11 @@
-kysymys: Mikä on Bitcoin-verkon peruskerrosta usein kutsuttu?
-vastaus: Maksujen selvityskerros
+question: Mikä on Bitcoin-verkon peruskerrosta usein kutsuttu?
+answer: Maksujen selvityskerros
 vaarat_vastaukset:
   - Transaktiokerros
   - Turvallisuuskerros
   - Konsensuskerros
-selitys: |
+explanation: |
   Bitcoin-verkon peruskerros, johon Lightning
   Network tukeutuu avatessaan ja sulkiessaan maksukanavia,
   on usein kutsuttu "maksujen selvityskerrokseksi".
-arvioitu: true
+reviewed: true

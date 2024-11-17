@@ -1,13 +1,13 @@
-kysymys: Mikä on "post-mix" lompakon rooli Zerolink-protokollassa?
+question: Mikä on "post-mix" lompakon rooli Zerolink-protokollassa?
 
-vastaus: Säilyttää UTXO:t sekoittamisen jälkeen.
+answer: Säilyttää UTXO:t sekoittamisen jälkeen.
 
-väärät_vastaukset:
+wrong_answers:
   - Säilyttää UTXO:t ennen sekoittamista.
   - Säilyttää vaihtorahan UTXO:t.
   - Säilyttää yhdistämisen UTXO:t.
 
-selitys: |
+explanation: |
   "Post-mix" lompakko on varattu kolikoille, jotka on sekoitettu.
 
-arvioitu: false
+reviewed: false

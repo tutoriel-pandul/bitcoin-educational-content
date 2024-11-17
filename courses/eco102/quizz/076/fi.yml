@@ -1,8 +1,8 @@
-kysymys: Mitä Bastiatin mukaan valtiokeskeisyys vähentää yksilöiltä?
-vastaus: Heidän tekojensa seuraukset
-väärät_vastaukset:
+question: Mitä Bastiatin mukaan valtiokeskeisyys vähentää yksilöiltä?
+answer: Heidän tekojensa seuraukset
+wrong_answers:
   - Heidän perheistään
   - Vapaan kokeilun iloista
   - Heidän ystävistään
-selitys: |
+explanation: |
   Bastiatin mukaan liiallinen valtion puuttuminen vähentää yksilön vastuuta poistamalla suorat seuraukset yksilöiden teoista, edistäen näin vastuuttomuutta.

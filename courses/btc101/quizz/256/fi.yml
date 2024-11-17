@@ -1,9 +1,9 @@
-kysymys: Mikä on yksi Bitcoinin päävaikutuksista pankkijärjestelmään?
-vastaus: Se mahdollistaa vapautumisen pankkijärjestelmästä.
+question: Mikä on yksi Bitcoinin päävaikutuksista pankkijärjestelmään?
+answer: Se mahdollistaa vapautumisen pankkijärjestelmästä.
 vaarat_vastaukset:
   - Se mahdollistaa pankkijärjestelmän hallinnan.
   - Se mahdollistaa pankkijärjestelmän poistamisen.
   - Se mahdollistaa pankkijärjestelmän korruptoinnin.
-selitys: >-
+explanation: >-
   Tekstissä mainitaan, että Bitcoin mahdollistaa vapautumisen pankkijärjestelmästä.
-arvioitu: true
+reviewed: true

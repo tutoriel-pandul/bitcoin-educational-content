@@ -1,13 +1,13 @@
-kysymys: Mikä on nykyinen louhintapalkkio Bitcoin-verkossa?
-vastaus: Uusien bitcoinien luominen ja siirtomaksut
+question: Mikä on nykyinen louhintapalkkio Bitcoin-verkossa?
+answer: Uusien bitcoinien luominen ja siirtomaksut
 vaarat_vastaukset:
   - Vain uusien bitcoinien luominen
   - Vain siirtomaksut
   - Uusien bitcoinien luominen, siirtomaksut ja bonus nopeimmalle louhijalle
-selitys: |
+explanation: |
   Nykyinen louhintapalkkio Bitcoin-verkossa on
   kaksiosainen. Se sisältää uusien bitcoinien luomisen, joka
   on vähentynyt alun perin 50 bitcoinista joka kymmenes minuutti
   nykyiseen 6,25 bitcoiniin (2023). Se sisältää myös siirtomaksut eli louhintamaksut,
   joita louhija päättää sisällyttää lohkoon.
-arvioitu: true
+reviewed: true

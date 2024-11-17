@@ -1,8 +1,8 @@
-kysymys: Mikä on Hayekin ehdottama ratkaisu orjuuden välttämiseksi?
-vastaus: Puolustaa yksityisomaisuutta ja markkinoiden spontaania järjestystä tyrannian muureina.
-väärät_vastaukset:
+question: Mikä on Hayekin ehdottama ratkaisu orjuuden välttämiseksi?
+answer: Puolustaa yksityisomaisuutta ja markkinoiden spontaania järjestystä tyrannian muureina.
+wrong_answers:
   - Hän kannattaa verotuksen lisäämistä köyhien auttamiseksi.
   - Hän vaatii paluuta feodaalityyppiseen talousjärjestelmään.
   - Yleisön kouluttaminen tieliikennesäännöistä.
-selitys: |
+explanation: |
   Hayek uskoo, että yksilön vapaus säilyy suojelemalla yksityisomaisuutta ja sallimalla markkinoiden itse-säätelyn, näin estäen autoritaarisen suuntauksen ja vallan keskittymisen.

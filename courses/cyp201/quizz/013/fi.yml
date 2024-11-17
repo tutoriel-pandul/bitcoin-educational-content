@@ -1,9 +1,9 @@
-kysymys: Mitä etuliite "0x" tarkoittaa?
-vastaus: Tätä etuliitettä seuraava numero ilmaistaan 16-järjestelmässä (heksadesimaali).
+question: Mitä etuliite "0x" tarkoittaa?
+answer: Tätä etuliitettä seuraava numero ilmaistaan 16-järjestelmässä (heksadesimaali).
 vaarat_vastaukset:
   - Tätä etuliitettä seuraava numero ilmaistaan 2-järjestelmässä (binääri).
   - Tätä etuliitettä seuraava numero ilmaistaan 10-järjestelmässä (desimaali).
   - Tätä etuliitettä seuraava numero ilmaistaan 8-järjestelmässä (oktaali).
-selitys: |
+explanation: |
   Etuliite "0x" osoittaa, että sitä seuraava numero ilmaistaan 16-järjestelmässä (heksadesimaali).
-arvioitu: false
+reviewed: false

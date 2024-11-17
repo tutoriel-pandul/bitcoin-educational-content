@@ -1,8 +1,8 @@
-kysymys: Missä numerojärjestelmässä laajennettu avain yleensä koodataan esitettäväksi käyttäjälle?
-vastaus: Base 58:ssa.
-väärät_vastaukset:
+question: Missä numerojärjestelmässä laajennettu avain yleensä koodataan esitettäväksi käyttäjälle?
+answer: Base 58:ssa.
+wrong_answers:
   - bech32:ssa.
   - Base 16:ssa.
   - bech32m:ssä.
-selitys: |
+explanation: |
   Laajennettu avain koodataan yleensä Base 58:aan, jotta se olisi käyttäjälle luettavampi ja vältettäisiin epäselvät merkit.

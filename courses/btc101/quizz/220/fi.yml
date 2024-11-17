@@ -1,11 +1,11 @@
-kysymys: Mitä tämä kurssi ehdottaa Bitcoinin oppimisen tahdista?
-vastaus: Kaiken omaksuminen kerralla on monimutkaista, joten ota aikasi.
-väärät_vastaukset:
+question: Mitä tämä kurssi ehdottaa Bitcoinin oppimisen tahdista?
+answer: Kaiken omaksuminen kerralla on monimutkaista, joten ota aikasi.
+wrong_answers:
   - Kaiken oppiminen kerralla on helppoa.
   - Kaiken Bitcoinista oppiminen on mahdotonta.
   - Kaiken Bitcoinista oppiminen on tarpeetonta.
-selitys: |
+explanation: |
   Kurssi ehdottaa, että Bitcoinin parissa on niin paljon tutkittavaa,
   että kaiken omaksuminen kerralla on monimutkaista, joten
   kannattaa ottaa aikaa. 
-arvioitu: true
+reviewed: true

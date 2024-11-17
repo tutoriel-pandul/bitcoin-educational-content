@@ -1,12 +1,12 @@
-kysymys: Mikä on yleinen syy tietoturva-aukkoihin?
-vastaus: Ihmisen huolimattomuus.
+question: Mikä on yleinen syy tietoturva-aukkoihin?
+answer: Ihmisen huolimattomuus.
 vaarat_vastaukset:
   - Sähkökatkot.
   - Hidas internetyhteys.
   - Vanhentunut laitteisto.
-selitys: |
+explanation: |
   Tietoturva-aukot johtuvat usein ihmisen huolimattomuudesta,
   kuten oletussalasanojen käytöstä tai salasanojen kirjoittamisesta
   turvattomiin paikkoihin. Monimutkaiset hyökkäykset eivät
   aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi.
-arvioitu: true
+reviewed: true

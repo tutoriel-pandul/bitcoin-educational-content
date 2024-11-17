@@ -1,8 +1,8 @@
-kysymys: Mikä on Marxin ehdottama historian visio?
-vastaus: Historia on sosiaaliluokkien välisen kamppailun tulos
-väärät_vastaukset:
+question: Mikä on Marxin ehdottama historian visio?
+answer: Historia on sosiaaliluokkien välisen kamppailun tulos
+wrong_answers:
   - Historia on lineaarista edistystä kohti porvarillista yhteiskuntaa
   - Historia on toistuvien jaksojen sykli, jossa vapauden kaudet seuraavat tyrannian kausia
   - Historia määräytyy ilmastollisten tekijöiden perusteella
-selitys: |
+explanation: |
   Marx näkee historian sosiaaliluokkien välisen konfliktin tuotteena, väittäen, että sortavien ja sorrettujen luokkien väliset jännitteet ovat sosiaalisen ja taloudellisen muutoksen ajavia voimia läpi aikojen.

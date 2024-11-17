@@ -1,9 +1,9 @@
-kysymys: Kuinka rakentaa palautuslause (mnemoninen) binäärinä?
-vastaus: Yhdistä satunnaisluku ja sen tarkistussumma lopussa.
-väärät_vastaukset:
+question: Kuinka rakentaa palautuslause (mnemoninen) binäärinä?
+answer: Yhdistä satunnaisluku ja sen tarkistussumma lopussa.
+wrong_answers:
   - Yhdistä satunnaisluku ja sen tarkistussumma alussa.
   - Yhdistä satunnaisluku siemenen kanssa.
   - Jaa satunnaisluku kahteen osaan ja lisää tarkistussumma keskelle.
-selitys: |
+explanation: |
   Binäärin muotoisen mnemonisen lauseen luomiseksi, yhdistä tarkistussumma satunnaisluvun loppuun ennen muuntamista sanoiksi.
-arvioitu: false
+reviewed: false

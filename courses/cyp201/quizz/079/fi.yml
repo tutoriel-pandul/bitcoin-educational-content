@@ -1,8 +1,8 @@
-kysymys: Mikä on viimeinen vaihe Bech32 Bitcoin-osoitteen luomisessa?
-vastaus: Lisää HRP "bc" ja erotin "1".
+question: Mikä on viimeinen vaihe Bech32 Bitcoin-osoitteen luomisessa?
+answer: Lisää HRP "bc" ja erotin "1".
 vaarat_vastaukset:
   - Lisää SegWit-versio osoitteen alkuun.
   - Lisää tarkistussumma osoitteen alkuun.
   - Lisää etuliite "1".
-selitys: |
+explanation: |
   Viimeinen vaihe Bech32-osoitteen rakentamisessa on lisätä HRP (Human Readable Part), "bc" Bitcoinille, jonka jälkeen seuraa erotin "1".

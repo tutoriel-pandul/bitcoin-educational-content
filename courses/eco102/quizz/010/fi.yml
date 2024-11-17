@@ -1,9 +1,9 @@
-kysymys: Kuka kirjailija on ensisijaisesti vastuussa Frédéric Bastiat'n taloustieteen koulutuksesta?
-vastaus: Say
+question: Kuka kirjailija on ensisijaisesti vastuussa Frédéric Bastiat'n taloustieteen koulutuksesta?
+answer: Say
 vaarat_vastaukset:
   - Turgot
   - Condillac
   - Quesnay
-selitys: |
+explanation: |
   Frédéric Bastiat pitää Jean-Baptiste Sayta merkittävänä vaikuttajana, erityisesti hänen arvoa ja vapaakauppaa koskevien ideoidensa osalta.
-arvioitu: false
+reviewed: false

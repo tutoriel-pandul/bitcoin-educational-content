@@ -1,8 +1,8 @@
-kysymys: Mihin prosessiin eCash elektronisen rahan malli perustuu?
-vastaus: Sokeat allekirjoitukset
+question: Mihin prosessiin eCash elektronisen rahan malli perustuu?
+answer: Sokeat allekirjoitukset
 vaarat_vastaukset:
   - Ryhmäallekirjoitukset
   - Rengasallekirjoitukset
   - Kynnysallekirjoitukset
-selitys: |
+explanation: |
   eCash perustuu sokeiden allekirjoitusten prosessiin, joka mahdollistaa allekirjoittajan allekirjoittaa jotakin näkemättä, mitä he ovat allekirjoittamassa.

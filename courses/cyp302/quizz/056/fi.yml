@@ -1,9 +1,9 @@
-kysymys: Mikä algebrallinen rakenne on abstraktin algebran perusta?
-vastaus: Ryhmä
+question: Mikä algebrallinen rakenne on abstraktin algebran perusta?
+answer: Ryhmä
 vaarat_vastaukset:
   - Kenttä
   - Rengas
   - Matriisi
-selitys: |
+explanation: |
   Ryhmä on perustava algebrallinen rakenne, jolle abstrakti algebra perustuu, määritelty joukkona elementtejä ja binäärioperaationa, joka noudattaa tiettyjä ominaisuuksia.
-arvioitu: false
+reviewed: false

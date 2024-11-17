@@ -1,9 +1,9 @@
-kysymys: Mikä on pääopetus, jonka voi oppia lyijykynäesimerkistä?
-vastaus: Spontaani koordinointi taloudessa
-väärät_vastaukset:
+question: Mikä on pääopetus, jonka voi oppia lyijykynäesimerkistä?
+answer: Spontaani koordinointi taloudessa
+wrong_answers:
   - Teollisen tuotannon monimutkaisuus
   - Kirjoittamisen taidon tärkeys
   - Keskusjohtoisen suunnittelun välttämättömyys
-selitys: |
+explanation: |
   Lyijykynäesimerkki osoittaa, että spontaani markkinakoordinointi mahdollistaa monimutkaisten hyödykkeiden tuotannon ilman keskusjohtoista suunnittelua.
-arvioitu: false
+reviewed: false

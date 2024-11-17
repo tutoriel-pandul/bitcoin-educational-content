@@ -1,10 +1,10 @@
-kysymys: Milloin lohkokoon sota tapahtui?
-vastaus: Vuonna 2017.
-väärät_vastaukset:
+question: Milloin lohkokoon sota tapahtui?
+answer: Vuonna 2017.
+wrong_answers:
   - Vuonna 2008.
   - Vuonna 2010.
   - Vuonna 2019.
-selitys: >-
+explanation: >-
   Lohkokoon sota tapahtui vuonna 2017. Tässä konfliktissa vastakkain olivat toimijat, jotka halusivat muokata Bitcoinia kasvattamalla lohkon kokoa lisätäkseen transaktiokapasiteettia,
 ja ne, jotka pyrkivät säilyttämään käyttäjien itsenäisyyden ja vallan pitämällä koon 1 MB:ssä.
-arvioitu: true
+reviewed: true

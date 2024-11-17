@@ -1,9 +1,9 @@
-kysymys: Kuinka monta bittiä on varattu täytteelle koon mukaan SHA256-funktiossa?
-vastaus: 64 bittiä.
-väärät_vastaukset:
+question: Kuinka monta bittiä on varattu täytteelle koon mukaan SHA256-funktiossa?
+answer: 64 bittiä.
+wrong_answers:
   - 128 bittiä.
   - 256 bittiä.
   - 512 bittiä.
-selitys: |
+explanation: |
   SHA256 varaa 64 bittiä täytteelle, mikä edustaa viestin alkuperäistä kokoa ennen täyttämistä.
-arvioitu: false
+reviewed: false

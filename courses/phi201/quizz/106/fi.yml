@@ -1,9 +1,9 @@
-kysymys: Mikä erottaa liberalismi ja sosialismi toisistaan Hayekin mukaan?
-vastaus: Käytetyt keinot näiden päämäärien saavuttamiseksi.
-väärät_vastaukset:
+question: Mikä erottaa liberalismi ja sosialismi toisistaan Hayekin mukaan?
+answer: Käytetyt keinot näiden päämäärien saavuttamiseksi.
+wrong_answers:
   - Tavoitellut päämäärät.
   - Älymystön rooli.
   - Kaikki yllä mainitut.
-selitys: |
+explanation: |
   Hayekin mukaan liberalismi ja sosialismi eroavat toisistaan perustavanlaatuisesti keinojen osalta: liberalismi edistää yksilön vapautta ja vapaata markkinataloutta, kun taas sosialismi sisältää valtion interventioita ja suunnittelua.
-arvioitu: false
+reviewed: false

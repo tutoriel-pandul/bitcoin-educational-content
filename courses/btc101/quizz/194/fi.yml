@@ -1,12 +1,12 @@
-kysymys: Mikä on yksi työkalu Bitcoinin vastaanottamiseen suurille organisaatioille tai intohimoisille Bitcoin-harrastajille?
-vastaus: BTCpay Server.
-väärät_vastaukset:
+question: Mikä on yksi työkalu Bitcoinin vastaanottamiseen suurille organisaatioille tai intohimoisille Bitcoin-harrastajille?
+answer: BTCpay Server.
+wrong_answers:
   - Bitcoin Lompakko.
   - Bitcoin Vaihto.
   - BTCpay Louhinta.
-selitys: |
+explanation: |
   BTCpay Server on työkalu Bitcoinin vastaanottamiseen suurille
   rakenteille tai intohimoisille bitcoinisteille. Muita ratkaisuja
   sisältävät OpenNode yksinkertaisille verkkoliiketoiminnoille ja Swiss
   Bitcoin Pay amatöörikauppiaille.
-arvioitu: true
+reviewed: true

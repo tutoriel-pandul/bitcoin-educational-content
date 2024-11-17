@@ -1,9 +1,9 @@
-kysymys: Mikä muuttuja mahdollistaa sisaravainparien erottamisen toisistaan (kun ne ovat peräisin samasta vanhempainparista)?
-vastaus: Indeksi.
+question: Mikä muuttuja mahdollistaa sisaravainparien erottamisen toisistaan (kun ne ovat peräisin samasta vanhempainparista)?
+answer: Indeksi.
 vaarat_vastaukset:
   - Kryptografinen suola.
   - Etunimi.
   - Vanhempainketjun koodi.
-selitys: |
+explanation: |
   Indeksiä käytetään erottamaan sisaravainparit, jotka on johdettu samasta vanhempainparista HD-lompakossa.
-arvioitu: false
+reviewed: false

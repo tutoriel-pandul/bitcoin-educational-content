@@ -1,8 +1,8 @@
-kysymys: Mitkä algoritmit ovat käytössä johdannaisissa Bitcoin HD-lompakoissa?
-vastaus: HMAC/PBKDF2
-väärät_vastaukset:
+question: Mitkä algoritmit ovat käytössä johdannaisissa Bitcoin HD-lompakoissa?
+answer: HMAC/PBKDF2
+wrong_answers:
   - NMAC/PBKDF1
   - KMAC/Scrypt
   - CMAC/Argon2
-selitys: |
+explanation: |
   Bitcoin HD-lompakot käyttävät HMACia (Hash-pohjainen viestin autentikointikoodi) avainjohdannaisiin ja PBKDF2:ta (salasanaan perustuva avainjohdannaisfunktio 2) siemenjohdannaisiin.

@@ -1,8 +1,8 @@
-kysymys: Milloin Frédéric Bastiat löysi kutsumuksensa taloustieteilijänä?
-vastaus: Matkalla Englantiin
-väärät_vastaukset:
+question: Milloin Frédéric Bastiat löysi kutsumuksensa taloustieteilijänä?
+answer: Matkalla Englantiin
+wrong_answers:
   - Opiskellessaan Sorèzen kollegiossa
   - Työskennellessään tilallaan Landesissa
   - Keskustelun aikana Pariisissa
-selitys: |
+explanation: |
   Bastiat löysi kutsumuksensa taloustieteilijänä Englannissa, vaikutteita saaden yhteyksistään Anti-Corn Law Leagueen.

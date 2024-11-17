@@ -1,9 +1,9 @@
-kysymys: Mikä on siemenen päätehtävä pseudosatunnaisketjujen kontekstissa?
-vastaus: Toimia lähtökohtana pidemmän ketjun generoimiselle
-väärät_vastaukset:
+question: Mikä on siemenen päätehtävä pseudosatunnaisketjujen kontekstissa?
+answer: Toimia lähtökohtana pidemmän ketjun generoimiselle
+wrong_answers:
   - Määrittää pseudosatunnaisketjun kiinteä pituus
   - Varmistaa pseudosatunnaisketjun eheyden
   - Lisätä yhtenäinen jakautuminen ketjun arvoihin
-selitys: |
+explanation: |
   Siemen on lyhyempi merkkijono, jota käytetään lähtökohtana laajennusalgoritmille pidemmän pseudosatunnaisketjun generoimiseksi.
-arvioitu: false
+reviewed: false
