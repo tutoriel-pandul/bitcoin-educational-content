@@ -1,11 +1,11 @@
-pertanyaan: Apa yang unik tentang remix di Whirlpool dibandingkan dengan implementasi coinjoin lainnya?
+question: Apa yang unik tentang remix di Whirlpool dibandingkan dengan implementasi coinjoin lainnya?
 
-jawaban: Mereka sepenuhnya gratis.
+answer: Mereka sepenuhnya gratis.
 
-jawaban_salah:
+wrong_answers:
   - Hanya memerlukan pembayaran biaya penambangan.
   - Terbatas hanya untuk satu pengguna.
   - Hanya memerlukan pembayaran biaya layanan.
 
-penjelasan: |
+explanation: |
   Remix di Whirlpool 100% gratis: tidak diperlukan biaya layanan tambahan atau biaya penambangan.

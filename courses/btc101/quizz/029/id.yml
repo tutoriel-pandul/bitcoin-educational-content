@@ -1,9 +1,9 @@
-pertanyaan: Apa keuntungan utama emas dibandingkan bentuk mata uang lainnya?
-jawaban: Kelangkaan alaminya membuatnya berharga, sementara sifat kimianya memungkinkan untuk tidak terkikis seiring waktu
-jawaban_salah:
+question: Apa keuntungan utama emas dibandingkan bentuk mata uang lainnya?
+answer: Kelangkaan alaminya membuatnya berharga, sementara sifat kimianya memungkinkan untuk tidak terkikis seiring waktu
+wrong_answers:
   - Mudah dibagi dan diangkut
   - Tunduk pada inflasi moneter
   - Diterima secara luas dalam perdagangan
-penjelasan: |
+explanation: |
   Keuntungan utama emas dibandingkan bentuk mata uang lainnya adalah kelangkaan alaminya, yang membuatnya berharga, dan sifat kimianya, yang memungkinkan untuk tidak terkikis seiring waktu.
-ditinjau: true
+reviewed: true

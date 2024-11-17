@@ -1,9 +1,9 @@
-pertanyaan: Layanan pertukaran apa yang dibuat pada Maret 2010 merupakan yang paling populer sebelum munculnya Mt. Gox pada Juli?
-jawaban: Bitcoin Market
-jawaban_salah:
+question: Layanan pertukaran apa yang dibuat pada Maret 2010 merupakan yang paling populer sebelum munculnya Mt. Gox pada Juli?
+answer: Bitcoin Market
+wrong_answers:
   - BitcoinFX
   - BitcoinExchange
   - MyBitcoin
-penjelasan: |
+explanation: |
   Ini adalah pasar peer-to-peer yang menggunakan PayPal yang diluncurkan pada 16 Maret 2010, oleh seseorang yang dikenal sebagai dwdollar dan merupakan platform utama sebelum Mt. Gox.
-ditinjau: false
+reviewed: false

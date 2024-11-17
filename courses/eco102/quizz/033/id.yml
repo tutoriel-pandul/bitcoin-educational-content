@@ -1,8 +1,8 @@
-pertanyaan: Menurut Rousseau, dari mana asal kejahatan dalam masyarakat?
-jawaban: Dari kepemilikan
-jawaban_salah:
+question: Menurut Rousseau, dari mana asal kejahatan dalam masyarakat?
+answer: Dari kepemilikan
+wrong_answers:
   - Dari ketidaksetaraan
   - Dari perbudakan
   - Dari individualisme
-penjelasan: |
+explanation: |
   Rousseau melihat kepemilikan sebagai sumber kejahatan sosial karena hal itu memperkenalkan ketidaksetaraan dan keinginan untuk mendominasi.

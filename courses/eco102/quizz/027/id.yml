@@ -1,8 +1,8 @@
-pertanyaan: Apa filosofi yang menginspirasi visi ekonomi Cobden?
-jawaban: Utilitarianisme Bentham
-jawaban_salah:
+question: Apa filosofi yang menginspirasi visi ekonomi Cobden?
+answer: Utilitarianisme Bentham
+wrong_answers:
   - Liberalisme Smith
   - Sosialisme Fourier
   - Egalitarianisme Rousseau
-penjelasan: |
+explanation: |
   Cobden dipengaruhi oleh utilitarianisme Bentham, yang menghargai kesejahteraan untuk jumlah terbesar melalui perdagangan bebas.

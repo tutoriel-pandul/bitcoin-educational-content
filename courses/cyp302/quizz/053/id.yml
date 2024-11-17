@@ -1,9 +1,9 @@
-pertanyaan: Apa nama bidang yang memiliki jumlah elemen terbatas?
-jawaban: Sebuah lapangan Galois
-jawaban_salah:
+question: Apa nama bidang yang memiliki jumlah elemen terbatas?
+answer: Sebuah lapangan Galois
+wrong_answers:
   - Sebuah lapangan perkalian
   - Sebuah lapangan simetris
   - Sebuah lapangan vektor
-penjelasan: |
+explanation: |
   Sebuah lapangan terbatas juga dikenal sebagai lapangan Galois, dinamai menurut matematikawan Évariste Galois, dan ini sangat penting dalam kriptografi modern.
-ditinjau: false
+reviewed: false

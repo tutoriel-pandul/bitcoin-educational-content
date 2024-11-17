@@ -1,11 +1,11 @@
-pertanyaan: Manakah di antara ini yang bukan keuntungan dari Bitcoin sebagai mata uang?
-jawaban: Digunakan untuk membayar pajak
-jawaban_salah:
+question: Manakah di antara ini yang bukan keuntungan dari Bitcoin sebagai mata uang?
+answer: Digunakan untuk membayar pajak
+wrong_answers:
   - Dapat dibagi
   - Dapat diangkut
   - Merupakan uang tanpa izin
-penjelasan: >-
+explanation: >-
   Bitcoin, karena sifat-sifatnya seperti kemampuan dibagi, dapat diverifikasi, aspek tanpa izin, dan kemampuan diangkut, menawarkan
   nilai penyimpanan yang sangat baik. Selain itu, sebagai mata uang internet netral, ini mewakili
   media pertukaran yang baik yang tidak mengenal batas.
-ditinjau: true
+reviewed: true

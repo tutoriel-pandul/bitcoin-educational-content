@@ -1,10 +1,10 @@
-pertanyaan: Apa yang disarankan teks tentang masa depan Bitcoin?
-jawaban: Tidak akan menghilang
-jawaban_salah:
+question: Apa yang disarankan teks tentang masa depan Bitcoin?
+answer: Tidak akan menghilang
+wrong_answers:
   - Akan digantikan oleh teknologi yang lebih baik
   - Akan dilarang di seluruh dunia
   - Akan kehilangan nilainya
-penjelasan: >-
+explanation: >-
   Teks menyarankan bahwa Bitcoin tidak akan menghilang. Sebaliknya,
   revolusi baru saja dimulai.
-ditinjau: false
+reviewed: false

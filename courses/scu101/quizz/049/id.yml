@@ -1,10 +1,10 @@
-pertanyaan: Mengapa SMS tidak dianggap sebagai opsi terbaik untuk 2FA?
-jawaban: Ini hanya memberikan bukti kepemilikan nomor telepon.
-jawaban_salah:
+question: Mengapa SMS tidak dianggap sebagai opsi terbaik untuk 2FA?
+answer: Ini hanya memberikan bukti kepemilikan nomor telepon.
+wrong_answers:
   - Terlalu mahal
   - Terlalu lambat
   - Terlalu rumit untuk diatur
-penjelasan: |
+explanation: |
   SMS tidak dianggap sebagai opsi terbaik untuk 2FA karena hanya memberikan
   bukti kepemilikan nomor telepon, bukan bukti identitas.
-ditinjau: false
+reviewed: false

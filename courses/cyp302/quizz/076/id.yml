@@ -1,9 +1,9 @@
-pertanyaan: Ukuran kunci apa yang dianggap aman terhadap serangan brute force untuk enkripsi modern?
-jawaban: 128 bit
-jawaban_salah:
+question: Ukuran kunci apa yang dianggap aman terhadap serangan brute force untuk enkripsi modern?
+answer: 128 bit
+wrong_answers:
   - 16 bit
   - 64 bit
   - 100 bit
-penjelasan: |
+explanation: |
   Dengan kunci setidaknya 128 bit, enkripsi modern saat ini dianggap aman terhadap serangan brute force, karena jumlah percobaan yang diperlukan akan tidak realistis.
-ditinjau: false
+reviewed: false

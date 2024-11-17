@@ -1,9 +1,9 @@
-pertanyaan: Dalam karya ekonomi populer mana Henri Hazlitt mengunjungi kembali contoh jendela pecah dari Bastiat?
-jawaban: Ekonomi dalam Satu Pelajaran
-jawaban_salah:
+question: Dalam karya ekonomi populer mana Henri Hazlitt mengunjungi kembali contoh jendela pecah dari Bastiat?
+answer: Ekonomi dalam Satu Pelajaran
+wrong_answers:
   - 49 Pelajaran dalam Ekonomi
   - Freakonomics
   - Seni Ekonomi
-penjelasan: |
+explanation: |
   Henri Hazlitt, dalam "Ekonomi dalam Satu Pelajaran," menggunakan contoh jendela pecah untuk mengilustrasikan konsekuensi tersembunyi dari kebijakan ekonomi.
-ditinjau: false
+reviewed: false

@@ -1,9 +1,9 @@
-pertanyaan: Apa salah satu manfaat potensial dari menerima teknologi baru seperti Bitcoin?
-jawaban: Ini bisa menghasilkan ekonomi skala besar secara global.
-jawaban_salah:
+question: Apa salah satu manfaat potensial dari menerima teknologi baru seperti Bitcoin?
+answer: Ini bisa menghasilkan ekonomi skala besar secara global.
+wrong_answers:
   - Ini bisa menyebabkan kolaps ekonomi global.
   - Ini bisa menyebabkan penurunan kecerdasan manusia.
   - Ini bisa menyebabkan penghapusan semua pekerjaan.
-penjelasan: >-
+explanation: >-
   Teks menyarankan bahwa menerima teknologi baru ini bisa menghasilkan ekonomi skala besar secara global.
-ditinjau: false
+reviewed: false

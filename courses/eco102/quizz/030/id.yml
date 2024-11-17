@@ -1,8 +1,8 @@
-pertanyaan: Bastiat menganggap Rousseau sebagai pendahulu dari gerakan politik apa?
-jawaban: Sosialisme
-jawaban_salah:
+question: Bastiat menganggap Rousseau sebagai pendahulu dari gerakan politik apa?
+answer: Sosialisme
+wrong_answers:
   - Komunisme
   - Mutualisme
   - Anarkisme
-penjelasan: |
+explanation: |
   Bastiat memandang Rousseau sebagai pendahulu untuk sosialisme, karena pendekatannya yang kolektif terhadap masyarakat, di mana individu harus tunduk pada kehendak umum.

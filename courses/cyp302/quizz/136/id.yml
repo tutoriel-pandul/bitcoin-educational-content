@@ -1,8 +1,8 @@
-pertanyaan: Bagaimana sebuah layanan online memverifikasi sebuah kata sandi tanpa menyimpannya secara langsung?
-jawaban: Dengan membandingkan hash dari kata sandi yang dimasukkan dengan yang ada di dalam basis data
-jawaban_salah:
+question: Bagaimana sebuah layanan online memverifikasi sebuah kata sandi tanpa menyimpannya secara langsung?
+answer: Dengan membandingkan hash dari kata sandi yang dimasukkan dengan yang ada di dalam basis data
+wrong_answers:
   - Dengan mendekripsi kata sandi yang tersimpan untuk memverifikasinya
   - Dengan menggunakan kunci publik untuk memverifikasi identitas
   - Dengan membandingkan kata sandi secara langsung dengan kata sandi pengguna lain
-penjelasan: |
+explanation: |
   Layanan tersebut menghasilkan hash dari kata sandi yang dimasukkan dan membandingkannya dengan yang tersimpan, tanpa pernah menyimpan kata sandi secara langsung, sehingga memastikan peningkatan keamanan.

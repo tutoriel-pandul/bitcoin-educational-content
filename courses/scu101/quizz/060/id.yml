@@ -1,10 +1,10 @@
-pertanyaan: Apa salah satu aspek dari keamanan siber yang memerlukan pemantauan secara rutin?
-jawaban: Evolusi ancaman yang terus-menerus
-jawaban_salah:
+question: Apa salah satu aspek dari keamanan siber yang memerlukan pemantauan secara rutin?
+answer: Evolusi ancaman yang terus-menerus
+wrong_answers:
   - Pasar saham
   - Cuaca
   - Berita
-penjelasan: |
+explanation: |
   Bab tersebut menyebutkan bahwa evolusi ancaman yang terus-menerus dalam keamanan siber
 
 

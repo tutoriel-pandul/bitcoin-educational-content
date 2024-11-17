@@ -1,10 +1,10 @@
-pertanyaan: Apa salah satu faktor yang dapat menyebabkan harga Bitcoin berfluktuasi?
-jawaban: Variasi pasar dan fase pasar bullish dan bearish.
-jawaban_salah:
+question: Apa salah satu faktor yang dapat menyebabkan harga Bitcoin berfluktuasi?
+answer: Variasi pasar dan fase pasar bullish dan bearish.
+wrong_answers:
   - Jumlah orang yang menggunakan internet.
   - Cuaca.
   - Harga emas.
-penjelasan: >-
+explanation: >-
   Harga Bitcoin sering kali ditandai dengan volatilitas yang signifikan,
   yang dapat dipengaruhi oleh variasi pasar dan fase pasar bullish dan bearish.
-ditinjau: false
+reviewed: false

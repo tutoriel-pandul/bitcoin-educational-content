@@ -1,8 +1,8 @@
-pertanyaan: Berapa ukuran input dari fungsi SHA256 setelah dipadankan?
-jawaban: Kelipatan dari 512 bit.
-jawaban_salah:
+question: Berapa ukuran input dari fungsi SHA256 setelah dipadankan?
+answer: Kelipatan dari 512 bit.
+wrong_answers:
   - Sebesar 256 bit.
   - Sebesar 256 byte.
   - Kelipatan dari 256 bit.
-penjelasan: |
+explanation: |
   Fungsi SHA256 memerlukan agar inputnya merupakan kelipatan dari 512 bit setelah dipadankan agar dapat berfungsi dengan benar.

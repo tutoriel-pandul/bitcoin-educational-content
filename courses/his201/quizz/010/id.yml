@@ -1,8 +1,8 @@
-pertanyaan: Siapa tokoh utama di balik penciptaan PayPal?
-jawaban: Peter Thiel
-jawaban_salah:
+question: Siapa tokoh utama di balik penciptaan PayPal?
+answer: Peter Thiel
+wrong_answers:
   - Elon Musk
   - Marc Andreessen
   - Mark Zuckerberg
-penjelasan: |
+explanation: |
   Produk PayPal dikembangkan pada tahun 1999 oleh Confinity Inc., yang didirikan bersama pada Desember 1998 di San Francisco oleh Peter Thiel dan Max Levchin.

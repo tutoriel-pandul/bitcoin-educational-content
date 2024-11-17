@@ -1,8 +1,8 @@
-pertanyaan: Apa persamaan antara proteksionis dan sosialis menurut Bastiat?
-jawaban: Keduanya ingin memihak pada eksploitasi sebagian populasi
-jawaban_salah:
+question: Apa persamaan antara proteksionis dan sosialis menurut Bastiat?
+answer: Keduanya ingin memihak pada eksploitasi sebagian populasi
+wrong_answers:
   - Keduanya membela kebebasan ekonomi
   - Keduanya menginginkan kesetaraan sosial yang lebih besar
   - Keduanya menentang intervensi negara dalam ekonomi
-penjelasan: |
+explanation: |
   Bastiat mengkritik kedua ideologi tersebut karena kecenderungan mereka untuk memihak pada eksploitasi satu kelas oleh kelas lain, yang merugikan kepentingan umum.

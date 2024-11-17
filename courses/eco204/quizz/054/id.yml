@@ -1,10 +1,10 @@
-pertanyaan: Apa ambang batas resmi bagi sebuah negara untuk dianggap mengalami hiperinflasi?
-jawaban: 50% per bulan
-jawaban_salah:
+question: Apa ambang batas resmi bagi sebuah negara untuk dianggap mengalami hiperinflasi?
+answer: 50% per bulan
+wrong_answers:
   - 10% per bulan
   - 25% per bulan
   - 75% per bulan
-penjelasan: |
+explanation: |
   Pada tahun 2007, tingkat inflasi Zimbabwe mencapai ambang batas 50% per bulan,
   secara resmi menandai negara tersebut sedang mengalami hiperinflasi.
-ditinjau: false
+reviewed: false

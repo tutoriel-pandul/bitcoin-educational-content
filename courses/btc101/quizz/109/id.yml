@@ -1,9 +1,9 @@
-pertanyaan: Apa pentingnya tanggung jawab individu dalam Bitcoin?
-jawaban: Sangat penting karena Anda bertanggung jawab atas cadangan
-jawaban_salah:
+question: Apa pentingnya tanggung jawab individu dalam Bitcoin?
+answer: Sangat penting karena Anda bertanggung jawab atas cadangan
+wrong_answers:
   - Sangat penting karena Anda harus menambang bitcoin
   - Sangat penting untuk membeli bitcoin
   - Sangat penting karena Anda bertanggung jawab atas tema dompet
-penjelasan: |
+explanation: |
   Dalam Bitcoin, kedaulatan finansial berjalan beriringan dengan tanggung jawab individu, karena Anda harus menjaga dana Anda sendiri dengan mengikuti prosedur cadangan yang direkomendasikan.
-ditinjau: true
+reviewed: true

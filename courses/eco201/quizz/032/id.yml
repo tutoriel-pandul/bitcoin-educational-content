@@ -1,10 +1,10 @@
-pertanyaan: Apa tujuan utama dari aktivitas ekonomi menurut Carl Menger?
-jawaban: Tujuan utama dari aktivitas ekonomi adalah konsumsi.
-jawaban_salah:
+question: Apa tujuan utama dari aktivitas ekonomi menurut Carl Menger?
+answer: Tujuan utama dari aktivitas ekonomi adalah konsumsi.
+wrong_answers:
   - Tujuan utama dari aktivitas ekonomi adalah produksi.
   - Tujuan utama dari aktivitas ekonomi adalah tabungan.
   - Tujuan utama dari aktivitas ekonomi adalah investasi.
-penjelasan: |
+explanation: |
   Menurut Carl Menger, barang hanya dianggap sebagai barang ekonomi (bernilai)
   karena mereka berfungsi sebagai sarana untuk mencapai tujuan yang dipilih dan
   dihargai oleh individu. Oleh karena itu, bagi Menger, titik awal analisis ekonomi

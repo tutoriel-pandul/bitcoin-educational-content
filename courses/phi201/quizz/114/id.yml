@@ -1,9 +1,9 @@
-pertanyaan: Apa argumen utama Jacques Rueff mengenai mata uang?
-jawaban: Uang kertas berbahaya dan mengarah ke dirigisme
-jawaban_salah:
+question: Apa argumen utama Jacques Rueff mengenai mata uang?
+answer: Uang kertas berbahaya dan mengarah ke dirigisme
+wrong_answers:
   - Uang kertas stabil dan dapat diprediksi
   - Uang kertas diperlukan untuk pengembangan ekonomi
   - Uang kertas harus didukung oleh aset fisik
-penjelasan: |
+explanation: |
   Jacques Rueff percaya bahwa uang kertas, dengan memfasilitasi kontrol ekonomi oleh otoritas, mendukung dirigisme dan menimbulkan risiko terhadap stabilitas moneter.
-ditinjau: false
+reviewed: false

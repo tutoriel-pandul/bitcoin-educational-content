@@ -1,10 +1,10 @@
-pertanyaan: Mengapa disarankan untuk menghindari browser Google Chrome?
-jawaban: Karena pelacaknya.
-jawaban_salah:
+question: Mengapa disarankan untuk menghindari browser Google Chrome?
+answer: Karena pelacaknya.
+wrong_answers:
   - Karena tidak aman.
   - Karena tidak ramah pengguna.
   - Karena tidak mendukung ekstensi.
-penjelasan: |
+explanation: |
   Browser Google Chrome dikenal dengan pelacaknya, yang dapat mengumpulkan data
   tentang aktivitas online Anda. Ini bisa menjadi kekhawatiran privasi bagi beberapa pengguna.
-ditinjau: false
+reviewed: false

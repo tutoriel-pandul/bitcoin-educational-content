@@ -1,10 +1,10 @@
-pertanyaan: Mengapa pengalaman praktis penting dalam keamanan siber?
-jawaban: Ini memungkinkan Anda untuk menerapkan pengetahuan teoritis Anda dalam situasi dunia nyata
-jawaban_salah:
+question: Mengapa pengalaman praktis penting dalam keamanan siber?
+answer: Ini memungkinkan Anda untuk menerapkan pengetahuan teoritis Anda dalam situasi dunia nyata
+wrong_answers:
   - Ini adalah syarat untuk semua pekerjaan keamanan siber
   - Ini lebih penting daripada pengetahuan akademik
   - Ini adalah satu-satunya cara untuk belajar tentang keamanan siber
-penjelasan: |
+explanation: |
   Bab ini menekankan pentingnya pengalaman praktis karena
 
   memungkinkan

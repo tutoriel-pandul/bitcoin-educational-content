@@ -1,9 +1,9 @@
-pertanyaan: Apa nama pola yang terdiri dari satu UTXO di input dan satu UTXO di output?
-jawaban: Sweeping
-jawaban_salah:
+question: Apa nama pola yang terdiri dari satu UTXO di input dan satu UTXO di output?
+answer: Sweeping
+wrong_answers:
   - Konsolidasi
   - Coinjoin
   - Pengeluaran Batch
-penjelasan: |
+explanation: |
   Interpretasi dari struktur ini adalah bahwa kita berada dalam keadaan sweeping, yang berarti transfer bitcoin kepada diri sendiri.
-ditinjau: false
+reviewed: false

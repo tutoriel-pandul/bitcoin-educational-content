@@ -1,8 +1,8 @@
-pertanyaan: Menurut Laffer, apa yang terjadi pada pendapatan pajak ketika tarif pajak dinaikkan secara berlebihan?
-jawaban: Mereka menurun
-jawaban_salah:
+question: Menurut Laffer, apa yang terjadi pada pendapatan pajak ketika tarif pajak dinaikkan secara berlebihan?
+answer: Mereka menurun
+wrong_answers:
   - Mereka meningkat
   - Mereka tetap stabil
   - Mereka berfluktuasi secara tidak terduga
-penjelasan: |
+explanation: |
   Menurut kurva Laffer, peningkatan tarif pajak yang berlebihan menyebabkan penurunan pendapatan pajak karena hal ini menghambat kerja, investasi, dan produksi.

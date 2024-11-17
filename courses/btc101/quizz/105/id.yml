@@ -1,10 +1,10 @@
-pertanyaan: Mengapa privasi penting dalam konteks Bitcoin?
-jawaban: Untuk meminimalkan risiko pelacakan dana Anda
-jawaban_salah:
+question: Mengapa privasi penting dalam konteks Bitcoin?
+answer: Untuk meminimalkan risiko pelacakan dana Anda
+wrong_answers:
   - Untuk menurunkan nilai bitcoin Anda
   - Untuk mencegah bitcoin Anda dicuri
   - Untuk membayar pajak atas bitcoin Anda
-penjelasan: |
+explanation: |
   Privasi penting dalam konteks Bitcoin untuk meminimalkan risiko
   pelacakan dana Anda yang dapat menyebabkan pengawasan.
-ditinjau: benar
+reviewed: benar

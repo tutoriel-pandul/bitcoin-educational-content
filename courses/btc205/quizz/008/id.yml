@@ -1,10 +1,10 @@
-pertanyaan: Apa itu pembuat dan pengambil dalam konteks buku pesanan?
-jawaban: Pembuat adalah penyedia pesanan dan pengambil adalah pengambil pesanan.
-jawaban_salah:
+question: Apa itu pembuat dan pengambil dalam konteks buku pesanan?
+answer: Pembuat adalah penyedia pesanan dan pengambil adalah pengambil pesanan.
+wrong_answers:
   - Pembuat adalah pengambil pesanan dan pengambil adalah penyedia pesanan.
   - Pembuat adalah pembuat pesanan dan pengambil adalah pengambil pesanan.
   - Pembuat adalah pengambil pesanan dan pengambil adalah pembuat pesanan.
-penjelasan: |
+explanation: |
   Dalam konteks buku pesanan, pembuat adalah mereka yang menyediakan pesanan dan
 
 

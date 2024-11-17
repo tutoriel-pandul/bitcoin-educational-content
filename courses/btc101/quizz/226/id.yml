@@ -1,9 +1,9 @@
-pertanyaan: Apa fungsi dari Lightning Network?
-jawaban: Sebuah jaringan dari saluran pembayaran.
-jawaban_salah:
+question: Apa fungsi dari Lightning Network?
+answer: Sebuah jaringan dari saluran pembayaran.
+wrong_answers:
   - Sebuah jaringan dari node penambangan.
   - Sebuah jaringan dari node blockchain.
   - Sebuah jaringan dari bursa kripto.
-penjelasan: >-
+explanation: >-
   Lightning Network berfungsi sebagai jaringan dari saluran pembayaran, memungkinkan transaksi instan dengan biaya rendah untuk pengirim.
-ditinjau: false
+reviewed: false

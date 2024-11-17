@@ -1,13 +1,13 @@
-pertanyaan: Heuristik apa yang dapat digunakan untuk menghubungkan semua input dari sebuah konsolidasi?
+question: Heuristik apa yang dapat digunakan untuk menghubungkan semua input dari sebuah konsolidasi?
 
-jawaban: CIOH.
+answer: CIOH.
 
-jawaban_salah:
+wrong_answers:
   - Penggunaan ulang alamat.
   - Output terbesar.
   - Pembayaran bulat.
 
-penjelasan: |
+explanation: |
   Seorang pengamat eksternal dapat menerapkan CIOH untuk menghipotesiskan bahwa semua input dari sebuah konsolidasi milik entitas yang sama.
 
-ditinjau: false
+reviewed: false

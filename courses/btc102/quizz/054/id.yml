@@ -1,8 +1,8 @@
-pertanyaan: Siapa yang memperkenalkan ide "Jalan Raya Bitcoin"?
-jawaban: Andreas Antonopoulos
-jawaban_salah:
+question: Siapa yang memperkenalkan ide "Jalan Raya Bitcoin"?
+answer: Andreas Antonopoulos
+wrong_answers:
   - Satoshi Nakamoto
   - Elon Musk
   - Vitalik Buterin
-penjelasan: |
+explanation: |
   Andreas Antonopoulos, seorang pendukung dan pendidik Bitcoin yang terkenal, memperkenalkan ide "Jalan Raya Bitcoin".

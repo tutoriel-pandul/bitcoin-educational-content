@@ -1,9 +1,9 @@
-pertanyaan: Saat mencari pola, bagian transaksi mana yang akan kita pelajari?
-jawaban: Strukturnya
-jawaban_salah:
+question: Saat mencari pola, bagian transaksi mana yang akan kita pelajari?
+answer: Strukturnya
+wrong_answers:
   - Metadatanya
   - Skripnya
   - Tandatangannya
-penjelasan: |
+explanation: |
   Pola transaksi hanyalah sebuah model atau struktur keseluruhan dari transaksi tipikal yang dapat ditemukan di blockchain, yang interpretasi kemungkinannya diketahui.
-ditinjau: false
+reviewed: false

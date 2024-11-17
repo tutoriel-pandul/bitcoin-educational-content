@@ -1,10 +1,10 @@
-pertanyaan: Apa salah satu cara untuk memastikan bahwa Anda berada di situs yang ingin Anda kunjungi?
-jawaban: Periksa URL dan gembok kecil di bilah alamat.
-jawaban_salah:
+question: Apa salah satu cara untuk memastikan bahwa Anda berada di situs yang ingin Anda kunjungi?
+answer: Periksa URL dan gembok kecil di bilah alamat.
+wrong_answers:
   - Periksa jumlah iklan di situs tersebut.
   - Periksa kecepatan situs.
   - Periksa skema warna situs.
-penjelasan: |
+explanation: |
   Memeriksa URL dan gembok kecil di bilah alamat adalah salah satu cara
   untuk memastikan bahwa Anda berada di situs yang ingin Anda kunjungi. Gembok tersebut menunjukkan bahwa
   situs menggunakan protokol HTTPS, yang mengenkripsi data untuk pertukaran yang aman.

@@ -1,11 +1,11 @@
-pertanyaan: Berapa batas maksimum bitcoin yang akan ada?
-jawaban: 21 juta
-jawaban_salah:
+question: Berapa batas maksimum bitcoin yang akan ada?
+answer: 21 juta
+wrong_answers:
   - 100 juta
   - 1 miliar
   - Tidak ada batas
-penjelasan: |
+explanation: |
   Bab tersebut menyatakan bahwa tidak akan pernah ada lebih dari 21 juta bitcoin.
   Batas ini ditetapkan dalam protokol Bitcoin oleh Satoshi dan tidak dapat diubah
   saat ini.
-ditinjau: false
+reviewed: false

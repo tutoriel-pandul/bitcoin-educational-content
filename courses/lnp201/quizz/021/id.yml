@@ -1,8 +1,8 @@
-pertanyaan: Bagaimana cara timelock melindungi dari kecurangan dalam transaksi komitmen?
-jawaban: Ini mencegah pihak yang melakukan pelanggaran untuk segera mengambil dana mereka
-jawaban_salah:
+question: Bagaimana cara timelock melindungi dari kecurangan dalam transaksi komitmen?
+answer: Ini mencegah pihak yang melakukan pelanggaran untuk segera mengambil dana mereka
+wrong_answers:
   - Ini secara otomatis mengembalikan dana kepada penipu
   - Ini membatalkan transaksi dalam kasus percobaan kecurangan
   - Ini memblokir penggunaan kunci pembatalan
-penjelasan: |
+explanation: |
   Timelock memberlakukan penundaan selama mana penipu tidak dapat mengambil dana mereka, sehingga memberikan kesempatan kepada pihak lain untuk merespons.

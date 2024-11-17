@@ -1,9 +1,9 @@
-pertanyaan: Mengapa Frédéric Bastiat diakui hari ini sebagai pemikir yang berpengaruh, meskipun relatif tidak dikenal?
-jawaban: Ia mengantisipasi ide-ide modern tentang pasar politik dan penjarahan hukum.
-jawaban_salah:
+question: Mengapa Frédéric Bastiat diakui hari ini sebagai pemikir yang berpengaruh, meskipun relatif tidak dikenal?
+answer: Ia mengantisipasi ide-ide modern tentang pasar politik dan penjarahan hukum.
+wrong_answers:
   - Ia mempromosikan pendidikan publik untuk semua.
   - Ia menulis sebuah risalah tentang revolusi modern.
   - Ia secara langsung mempengaruhi penciptaan jaminan sosial di Prancis.
-penjelasan: |
+explanation: |
   Bastiat ditemukan kembali karena ide-idenya tentang kebebasan, hak milik, dan kritiknya terhadap penjarahan hukum, yang resonan dengan tantangan modern.
-ditinjau: false
+reviewed: false

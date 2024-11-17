@@ -1,9 +1,9 @@
-pertanyaan: Apa kelemahan utama emas sebagai bentuk uang?
-jawaban: Tidak mudah dibagi atau diangkut ke jarak jauh
-jawaban_salah:
+question: Apa kelemahan utama emas sebagai bentuk uang?
+answer: Tidak mudah dibagi atau diangkut ke jarak jauh
+wrong_answers:
   - Tidak mempertahankan nilainya di berbagai tempat
   - Terkikis seiring waktu
   - Mudah diproduksi
-penjelasan: |
+explanation: |
   Kelemahan utama emas sebagai bentuk uang adalah tidak mudah dibagi atau diangkut ke jarak jauh. Hal ini membuatnya kurang praktis dalam dunia yang sudah globalisasi dan digital.
-ditinjau: true
+reviewed: true

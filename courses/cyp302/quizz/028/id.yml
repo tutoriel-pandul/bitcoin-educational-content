@@ -1,9 +1,9 @@
-pertanyaan: Apa hasil dari 0 XOR 1?
-jawaban: 1
-jawaban_salah:
+question: Apa hasil dari 0 XOR 1?
+answer: 1
+wrong_answers:
   - 0
   - 2
   - -1
-penjelasan: |
+explanation: |
   Dengan XOR, 0 XOR 1 menghasilkan 1 karena bitnya berbeda.
-ditinjau: false
+reviewed: false

@@ -1,8 +1,8 @@
-pertanyaan: Apa istilah matematika untuk perhitungan yang melibatkan operasi modulo?
-jawaban: Aritmetika modular
-jawaban_salah:
+question: Apa istilah matematika untuk perhitungan yang melibatkan operasi modulo?
+answer: Aritmetika modular
+wrong_answers:
   - Aljabar linear
   - Trigonometri
   - Geometri diskrit
-penjelasan: |
+explanation: |
   Aritmetika modular adalah cabang matematika yang menangani operasi pada angka dalam kerangka kerja terbatas, menggunakan operasi modulo.

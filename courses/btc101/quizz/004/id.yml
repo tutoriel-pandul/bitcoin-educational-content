@@ -1,11 +1,11 @@
-pertanyaan: Apa dua aspek utama dari Bitcoin?
-jawaban: Bitcoin adalah baik protokol komputer maupun unit moneter.
-jawaban_salah:
+question: Apa dua aspek utama dari Bitcoin?
+answer: Bitcoin adalah baik protokol komputer maupun unit moneter.
+wrong_answers:
   - Bitcoin adalah baik mata uang fisik maupun dompet digital.
   - Bitcoin adalah baik jenis saham maupun jenis obligasi.
   - Bitcoin adalah baik mata uang terpusat maupun terdesentralisasi.
-penjelasan: |
+explanation: |
   Bitcoin memiliki dua aspek utama, yaitu sebagai protokol komputer yang menggunakan teknologi
   seperti kriptografi dan blockchain, dan sebagai unit moneter yang digunakan untuk
   transaksi.
-ditinjau: true
+reviewed: true

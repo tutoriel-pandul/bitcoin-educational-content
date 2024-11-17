@@ -1,10 +1,10 @@
-pertanyaan: Apa risiko yang terkait dengan penerapan KYC?
-jawaban: Sentralisasi basis data sensitif yang berisi informasi pribadi pengguna.
-jawaban_salah:
+question: Apa risiko yang terkait dengan penerapan KYC?
+answer: Sentralisasi basis data sensitif yang berisi informasi pribadi pengguna.
+wrong_answers:
   - Desentralisasi basis data sensitif yang berisi informasi pribadi pengguna.
   - Sentralisasi basis data tidak sensitif yang berisi informasi pribadi pengguna.
   - Desentralisasi basis data tidak sensitif yang berisi informasi pribadi pengguna.
-penjelasan: |
+explanation: |
   Penerapan KYC mengarah pada sentralisasi basis data yang sangat sensitif
 
 

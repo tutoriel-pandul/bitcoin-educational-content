@@ -1,13 +1,13 @@
-pertanyaan: Algoritma pertukaran kunci kriptografi apa yang menjadi inti operasi BIP47?
+question: Algoritma pertukaran kunci kriptografi apa yang menjadi inti operasi BIP47?
 
-jawaban: ECDH
+answer: ECDH
 
-jawaban_salah:
+wrong_answers:
   - RSA
   - ElGamal
   - Diffie-Hellman
 
-penjelasan: |
+explanation: |
   Algoritma yang digunakan adalah ECDH (Elliptic Curve Diffie-Hellman). Ini adalah varian dari algoritma Diffie-Hellman klasik yang menggunakan kurva eliptik.
 
-ditinjau: false
+reviewed: false

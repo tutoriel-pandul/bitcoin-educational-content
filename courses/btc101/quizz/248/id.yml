@@ -1,10 +1,10 @@
-pertanyaan: Apa salah satu karakteristik utama dari Bitcoin?
-jawaban: Dapat ditukarkan di mana saja di dunia tanpa perlu otorisasi dari entitas manapun.
-jawaban_salah:
+question: Apa salah satu karakteristik utama dari Bitcoin?
+answer: Dapat ditukarkan di mana saja di dunia tanpa perlu otorisasi dari entitas manapun.
+wrong_answers:
   - Hanya dapat digunakan oleh sekelompok orang tertentu.
   - Memerlukan otorisasi dari otoritas pusat untuk digunakan.
   - Hanya dapat digunakan di negara-negara tertentu.
-penjelasan: >-
+explanation: >-
   Teks menyebutkan bahwa Bitcoin bersifat pseudonim dan dapat ditukarkan di mana saja
   di dunia tanpa perlu otorisasi dari entitas manapun.
-ditinjau: false
+reviewed: false

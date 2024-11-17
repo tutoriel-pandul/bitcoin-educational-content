@@ -1,10 +1,10 @@
-pertanyaan: Apa fase akhir dari hiperinflasi?
-jawaban: Mata uang baru muncul
-jawaban_salah:
+question: Apa fase akhir dari hiperinflasi?
+answer: Mata uang baru muncul
+wrong_answers:
   - Kehilangan Kepercayaan
   - Kolaps Mata Uang & kenaikan harga
   - Lingkaran setan pencetakan uang
-penjelasan: |
+explanation: |
   Fase akhir dari hiperinflasi adalah ketika mata uang baru diperkenalkan
   untuk menggantikan yang lama.
-ditinjau: true
+reviewed: true

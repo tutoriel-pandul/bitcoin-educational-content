@@ -1,11 +1,11 @@
-pertanyaan: Apa peran dari dompet "post-mix" dalam protokol Zerolink?
+question: Apa peran dari dompet "post-mix" dalam protokol Zerolink?
 
-jawaban: Untuk menyimpan UTXO setelah pencampuran.
+answer: Untuk menyimpan UTXO setelah pencampuran.
 
-jawaban_salah:
+wrong_answers:
   - Untuk menyimpan UTXO sebelum pencampuran.
   - Untuk menyimpan UTXO kembalian.
   - Untuk menyimpan UTXO konsolidasi.
 
-penjelasan: |
+explanation: |
   Dompet "post-mix" diperuntukkan bagi koin yang telah dicampur.

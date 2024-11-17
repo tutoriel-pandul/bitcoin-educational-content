@@ -1,10 +1,10 @@
-pertanyaan: Apa kritik utama terhadap definisi hiperinflasi oleh Cagan?
-jawaban: Ambang batas 50% bersifat sembarangan dan mengecualikan beberapa episode inflasi tinggi
-jawaban_salah:
+question: Apa kritik utama terhadap definisi hiperinflasi oleh Cagan?
+answer: Ambang batas 50% bersifat sembarangan dan mengecualikan beberapa episode inflasi tinggi
+wrong_answers:
   - Definisi tersebut terlalu luas dan mencakup terlalu banyak episode inflasi
   - Definisi tersebut sudah usang dan tidak berlaku untuk ekonomi modern
   - Definisi tersebut tidak mempertimbangkan dampak inflasi terhadap ekonomi
-penjelasan: |
+explanation: |
   Kritikus definisi Cagan, seperti Bernholz, berargumen bahwa ambang batas 50%
   adalah sembarangan dan mengecualikan beberapa episode inflasi tinggi yang memiliki
   karakteristik kualitatif yang sama dengan episode hiperinflasi.

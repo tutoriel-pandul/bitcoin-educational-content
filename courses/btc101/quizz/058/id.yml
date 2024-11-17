@@ -1,9 +1,9 @@
-pertanyaan: Apa yang terjadi pada dolar Zimbabwe pada April 2009?
-jawaban: Menteri Keuangan mengumumkan penangguhan dolar Zimbabwe dan mengizinkan penggunaan berbagai mata uang asing untuk perdagangan.
-jawaban_salah:
+question: Apa yang terjadi pada dolar Zimbabwe pada April 2009?
+answer: Menteri Keuangan mengumumkan penangguhan dolar Zimbabwe dan mengizinkan penggunaan berbagai mata uang asing untuk perdagangan.
+wrong_answers:
   - Dolar Zimbabwe anjlok lebih dari 72%.
   - Pemerintah setuju untuk memberikan kompensasi kepada veteran perang sejumlah setara dengan 450 juta dolar AS.
   - Pemerintah harus beralih ke menjalankan mesin cetak.
-penjelasan: |
+explanation: |
   Pada April 2009, Menteri Keuangan mengumumkan penangguhan dolar Zimbabwe dan mengizinkan penggunaan berbagai mata uang asing untuk perdagangan.
-ditinjau: true
+reviewed: true

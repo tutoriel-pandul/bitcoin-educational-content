@@ -1,9 +1,9 @@
-pertanyaan: Apa kerentanan yang dilaporkan oleh ArtForz pada 28 Juli 2010, yang memungkinkan pengeluaran bitcoin dari alamat mana pun menggunakan skrip tertentu?
-jawaban: Bug 1 RETURN
-jawaban_salah:
+question: Apa kerentanan yang dilaporkan oleh ArtForz pada 28 Juli 2010, yang memungkinkan pengeluaran bitcoin dari alamat mana pun menggunakan skrip tertentu?
+answer: Bug 1 RETURN
+wrong_answers:
   - Bug overflow nilai
   - Bug OP_NOP
   - Bug LSHIFT
-penjelasan: |
+explanation: |
   Kerentanan ini tidak dimanfaatkan. Satoshi dengan cepat memasukkan perbaikan dalam perangkat lunak dan merekomendasikan semua pengguna untuk memperbarui.
-ditinjau: false
+reviewed: false

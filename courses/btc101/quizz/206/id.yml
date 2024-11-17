@@ -1,10 +1,10 @@
-pertanyaan: Apa itu FOMO dan FUD?
-jawaban: Emosi yang dapat menyebabkan pengambilan keputusan impulsif dan berpotensi merugikan.
-jawaban_salah:
+question: Apa itu FOMO dan FUD?
+answer: Emosi yang dapat menyebabkan pengambilan keputusan impulsif dan berpotensi merugikan.
+wrong_answers:
   - Jenis dompet Bitcoin.
   - Strategi untuk membeli Bitcoin.
   - Regulasi terkait Bitcoin.
-penjelasan: >-
+explanation: >-
   Teks menjelaskan bahwa FOMO (Fear of Missing Out) dan FUD (Fear, Uncertainty, Doubt) adalah emosi yang dapat menyebabkan pengambilan keputusan impulsif dan berpotensi merugikan
   ketika membeli Bitcoin.
-ditinjau: false
+reviewed: false

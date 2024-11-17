@@ -1,8 +1,8 @@
-pertanyaan: Aliran pemikiran abad ke-20 mana yang diprediksi oleh Bastiat?
-jawaban: Teori pilihan publik
-jawaban_salah:
+question: Aliran pemikiran abad ke-20 mana yang diprediksi oleh Bastiat?
+answer: Teori pilihan publik
+wrong_answers:
   - Teori pertumbuhan endogen
   - Teori disequilibrium
   - Aliran ekonomi neoklasik
-penjelasan: |
+explanation: |
   Bastiat mengantisipasi ide-ide Teori Pilihan Publik, menunjukkan bagaimana kelompok kepentingan mempengaruhi negara untuk mendapatkan hak istimewa dengan mengorbankan orang lain.

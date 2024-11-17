@@ -1,8 +1,8 @@
-pertanyaan: Apa peran teorema Bayes dalam probabilitas?
-jawaban: Ini memungkinkan perhitungan probabilitas bersyarat dengan membalikkan kejadian.
-jawaban_salah:
+question: Apa peran teorema Bayes dalam probabilitas?
+answer: Ini memungkinkan perhitungan probabilitas bersyarat dengan membalikkan kejadian.
+wrong_answers:
   - Ini menyediakan probabilitas terjadinya satu kejadian.
   - Ini mendefinisikan total probabilitas dari semua kejadian yang mungkin.
   - Ini hanya berlaku untuk variabel kontinu.
-penjelasan: |
+explanation: |
   Teorema Bayes memungkinkan perhitungan probabilitas suatu kejadian A diketahui B dengan membalikkan probabilitas dan sangat penting dalam teori probabilitas.

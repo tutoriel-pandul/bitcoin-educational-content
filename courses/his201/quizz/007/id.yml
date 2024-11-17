@@ -1,8 +1,8 @@
-pertanyaan: Mata uang apa yang berbasis emas dan perak yang diciptakan oleh Bernard von NotHaus pada tahun 1998?
-jawaban: The Liberty Dollar
-jawaban_salah:
+question: Mata uang apa yang berbasis emas dan perak yang diciptakan oleh Bernard von NotHaus pada tahun 1998?
+answer: The Liberty Dollar
+wrong_answers:
   - Liberty Reserve
   - e-gold
   - GoldMoney
-penjelasan: |
+explanation: |
   Mata uang ini tersedia dalam bentuk koin perak dan catatan perwakilan, dan kemudian dalam bentuk digital mulai dari tahun 2003.

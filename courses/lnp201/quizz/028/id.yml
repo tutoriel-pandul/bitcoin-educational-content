@@ -1,8 +1,8 @@
-pertanyaan: Apa yang dapat dilakukan Bob jika ia mendeteksi upaya oleh Alice untuk berbuat curang saat penutupan saluran?
-jawaban: Menggunakan kunci pembatalan untuk mengambil kembali semua dana
-jawaban_salah:
+question: Apa yang dapat dilakukan Bob jika ia mendeteksi upaya oleh Alice untuk berbuat curang saat penutupan saluran?
+answer: Menggunakan kunci pembatalan untuk mengambil kembali semua dana
+wrong_answers:
   - Membatalkan transaksi komitmen Alice
   - Menutup saluran secara permanen tanpa opsi untuk membukanya kembali
   - Mengklaim hanya setengah dari dana yang tersedia
-penjelasan: |
+explanation: |
   Dalam kejadian kecurangan, Bob dapat menggunakan kunci pembatalan untuk mengambil kembali semua dana dari saluran, dengan demikian menghukum Alice atas upayanya.

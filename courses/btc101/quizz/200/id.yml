@@ -1,10 +1,10 @@
-pertanyaan: Apa itu pembelian spontan?
-jawaban: Membeli Bitcoin segera untuk mendapatkan eksposur.
-jawaban_salah:
+question: Apa itu pembelian spontan?
+answer: Membeli Bitcoin segera untuk mendapatkan eksposur.
+wrong_answers:
   - Membeli Bitcoin pada interval reguler.
   - Membeli Bitcoin hanya ketika harga turun.
   - Membeli Bitcoin hanya ketika harga naik.
-penjelasan: >-
+explanation: >-
   Teks menjelaskan bahwa pembelian spontan digunakan untuk segera
   mendapatkan eksposur terhadap Bitcoin. Ini bisa berarti membeli saat terjadi crash atau memanfaatkan bonus.
-ditinjau: false
+reviewed: false

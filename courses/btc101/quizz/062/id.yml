@@ -1,9 +1,9 @@
-pertanyaan: Apa mekanisme yang memastikan blok baru ditambahkan ke blockchain setiap sepuluh menit?
-jawaban: Penyesuaian kesulitan
-jawaban_salah:
+question: Apa mekanisme yang memastikan blok baru ditambahkan ke blockchain setiap sepuluh menit?
+answer: Penyesuaian kesulitan
+wrong_answers:
   - Penyesuaian kecepatan
   - Penyesuaian waktu
   - Penyesuaian blok
-penjelasan: |
+explanation: |
   Mekanisme yang memastikan blok baru ditambahkan ke blockchain setiap sepuluh menit adalah penyesuaian kesulitan. Penyesuaian ini terjadi setiap 2016 blok, atau sekitar dua minggu.
-ditinjau: true
+reviewed: true

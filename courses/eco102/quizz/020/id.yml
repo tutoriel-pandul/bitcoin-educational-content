@@ -1,9 +1,9 @@
-pertanyaan: Apa kunci sejarah manusia menurut Comte dan Dunoyer?
-jawaban: Penjarahan
-jawaban_salah:
+question: Apa kunci sejarah manusia menurut Comte dan Dunoyer?
+answer: Penjarahan
+wrong_answers:
   - Proletariat
   - Agama
   - Bangsawan
-penjelasan: |
+explanation: |
   Comte dan Dunoyer melihat penjarahan, yang berarti kekerasan dan eksploitasi, sebagai kekuatan pendorong sejarah manusia, mempengaruhi hubungan antar kelas.
-ditinjau: false
+reviewed: false

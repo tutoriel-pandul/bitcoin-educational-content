@@ -1,8 +1,8 @@
-pertanyaan: Dalam sebuah lapangan hingga, apa peran dari polinomial tak tereduksi?
-jawaban: Mendefinisikan operasi perkalian dalam lapangan
-jawaban_salah:
+question: Dalam sebuah lapangan hingga, apa peran dari polinomial tak tereduksi?
+answer: Mendefinisikan operasi perkalian dalam lapangan
+wrong_answers:
   - Mendefinisikan invers aditif dari setiap elemen
   - Menjamin penutupan dari lapangan
   - Menentukan identitas perkalian
-penjelasan: |
+explanation: |
   Polinomial tak tereduksi digunakan untuk mengstrukturkan perkalian dalam lapangan hingga, memastikan bahwa setiap elemen tetap berada dalam lapangan.

@@ -1,10 +1,10 @@
-pertanyaan: Apa itu pengelola kata sandi?
-jawaban: Sebuah alat yang memungkinkan Anda untuk menyimpan, menghasilkan, dan mengelola kata sandi Anda untuk berbagai akun online.
-jawaban_salah:
+question: Apa itu pengelola kata sandi?
+answer: Sebuah alat yang memungkinkan Anda untuk menyimpan, menghasilkan, dan mengelola kata sandi Anda untuk berbagai akun online.
+wrong_answers:
   - Sebuah alat yang membantu Anda mengingat semua kata sandi Anda.
   - Sebuah alat yang secara otomatis masuk ke dalam akun online Anda.
   - Sebuah alat yang melindungi komputer Anda dari virus.
-penjelasan: |
+explanation: |
   Pengelola kata sandi adalah sebuah alat yang memungkinkan Anda untuk menyimpan, menghasilkan, dan
 
   mengelola kata sandi Anda untuk berbagai akun online. Ini membantu Anda membuat kata sandi

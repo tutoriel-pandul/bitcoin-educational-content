@@ -1,10 +1,10 @@
-pertanyaan: Bagaimana reaksi Bank of England terhadap panik bank tahun 1796?
-jawaban: Bank tersebut menangguhkan konversi banknotnya menjadi emas
-jawaban_salah:
+question: Bagaimana reaksi Bank of England terhadap panik bank tahun 1796?
+answer: Bank tersebut menangguhkan konversi banknotnya menjadi emas
+wrong_answers:
   - Bank tersebut menerbitkan lebih banyak banknot
   - Bank tersebut ditutup
   - Bank tersebut meningkatkan nilai banknotnya
-penjelasan: |
+explanation: |
   Menyusul panik bank tahun 1796, Bank of England menangguhkan
 
   konversi

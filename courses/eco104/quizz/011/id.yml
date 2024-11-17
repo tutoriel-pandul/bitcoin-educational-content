@@ -1,10 +1,10 @@
-pertanyaan: Apa yang membedakan Bitcoin dari mata uang tradisional yang dikontrol oleh bank sentral atau pemerintah?
-jawaban: Semuanya
-jawaban_salah:
+question: Apa yang membedakan Bitcoin dari mata uang tradisional yang dikontrol oleh bank sentral atau pemerintah?
+answer: Semuanya
+wrong_answers:
   - Bitcoin memerlukan kolaborasi antara penambang, node, dan pengembang
   - Bitcoin memungkinkan siapa saja untuk berpartisipasi dalam jaringan dan menjalankan peran kunci
   - Bitcoin mengandalkan sistem konsensus yang terdesentralisasi
-penjelasan: |
+explanation: |
   Yang membedakan Bitcoin dari mata uang fiat tradisional adalah bahwa ini adalah 
   upaya kolaboratif antara tiga peran penting dan komunitas.
   Node memastikan integritas dan keamanan jaringan dengan bertindak sebagai penjaga gerbang.
@@ -16,4 +16,4 @@ penjelasan: |
   mata uang digital. Dengan mempercayakan tugas-tugas penting ini kepada pemain kunci, Bitcoin dapat 
   beroperasi sebagai medium pertukaran yang terdesentralisasi, aman, transparan, dan dapat dipertanggungjawabkan untuk 
   semua pengguna, membuatnya secara signifikan berbeda dari mata uang terpusat yang kita gunakan hari ini.
-ditinjau: true
+reviewed: true

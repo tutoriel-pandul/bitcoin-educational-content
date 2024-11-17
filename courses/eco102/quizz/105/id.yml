@@ -1,9 +1,9 @@
-pertanyaan: Siapa penulis "I, Pencil" dan juga yang menerjemahkan "The Law" karya Bastiat ke dalam bahasa Inggris?
-jawaban: Leonard Read
-jawaban_salah:
+question: Siapa penulis "I, Pencil" dan juga yang menerjemahkan "The Law" karya Bastiat ke dalam bahasa Inggris?
+answer: Leonard Read
+wrong_answers:
   - Leonard Nimoy
   - Leonard Cohen
   - Milton Friedman
-penjelasan: |
+explanation: |
   Leonard Read dikenal karena menerjemahkan "The Law" karya Bastiat ke dalam bahasa Inggris dan mempopulerkan karyanya melalui Foundation for Economic Education.
-ditinjau: false
+reviewed: false

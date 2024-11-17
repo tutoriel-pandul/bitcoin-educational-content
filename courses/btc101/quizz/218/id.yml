@@ -1,8 +1,8 @@
-pertanyaan: Apa sifat adopsi Bitcoin menurut teks?
-jawaban: Viral
-jawaban_salah:
+question: Apa sifat adopsi Bitcoin menurut teks?
+answer: Viral
+wrong_answers:
   - Lambat dan stabil
   - Cepat dan tak terkendali
   - Sporadis dan tak terduga
-penjelasan: >-
+explanation: >-
   Teks tersebut menggambarkan adopsi Bitcoin sebagai viral, mengindikasikan bahwa penyebarannya cepat dan luas dari satu orang ke orang lain, mirip seperti virus.

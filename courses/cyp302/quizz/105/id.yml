@@ -1,9 +1,9 @@
-pertanyaan: Bagaimana cara pihak-pihak memastikan urutan pesan yang benar dalam sesi yang aman?
-jawaban: Dengan menggunakan nomor urut pada setiap pesan
-jawaban_salah:
+question: Bagaimana cara pihak-pihak memastikan urutan pesan yang benar dalam sesi yang aman?
+answer: Dengan menggunakan nomor urut pada setiap pesan
+wrong_answers:
   - Dengan bertukar kunci untuk setiap pesan
   - Dengan menambahkan jeda antar pesan
   - Dengan mengenkripsi pesan dengan algoritma yang berbeda
-penjelasan: |
+explanation: |
   Nomor urut memastikan bahwa pesan diterima dalam urutan yang benar dan mencegah pengurutan ulang pesan.
-ditinjau: false
+reviewed: false

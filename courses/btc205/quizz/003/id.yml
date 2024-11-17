@@ -1,10 +1,10 @@
-pertanyaan: Apa peran AMF di Prancis?
-jawaban: Ia mengatur pasar keuangan.
-jawaban_salah:
+question: Apa peran AMF di Prancis?
+answer: Ia mengatur pasar keuangan.
+wrong_answers:
   - Ia mengatur sistem pendidikan.
   - Ia mengatur sistem kesehatan.
   - Ia mengatur sistem transportasi.
-penjelasan: |
+explanation: |
   "AMF (Autorité des marchés financiers) adalah badan pengatur pasar
 
 

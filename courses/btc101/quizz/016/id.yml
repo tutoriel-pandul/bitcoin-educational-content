@@ -1,10 +1,10 @@
-pertanyaan: Apa itu b-money milik Wei Dai?
-jawaban: Sebuah ide tentang mata uang digital anonim di mana deteksi penipuan dilakukan oleh komunitas evaluator daripada otoritas pusat.
-jawaban_salah:
+question: Apa itu b-money milik Wei Dai?
+answer: Sebuah ide tentang mata uang digital anonim di mana deteksi penipuan dilakukan oleh komunitas evaluator daripada otoritas pusat.
+wrong_answers:
   - Sebuah mata uang digital yang banyak digunakan sebelum Bitcoin.
   - Bentuk uang digital yang diciptakan oleh CIA.
   - Sebuah mata uang digital yang diciptakan oleh Wei Dai sebagai pesaing Bitcoin.
-penjelasan: |
+explanation: |
   b-money milik Wei Dai adalah ide tentang mata uang digital anonim tanpa entitas pusat,
   yang sangat menginspirasi Bitcoin sebagaimana dikutip dalam whitepaper Bitcoin.
-ditinjau: true
+reviewed: true

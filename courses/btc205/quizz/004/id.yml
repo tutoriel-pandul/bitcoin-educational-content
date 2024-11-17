@@ -1,10 +1,10 @@
-pertanyaan: Berapa batas transaksi tanpa identifikasi di ATM di Prancis?
-jawaban: 500 euro
-jawaban_salah:
+question: Berapa batas transaksi tanpa identifikasi di ATM di Prancis?
+answer: 500 euro
+wrong_answers:
   - 1000 euro
   - 2000 euro
   - 3000 euro
-penjelasan: |
+explanation: |
   ATM di Prancis diatur dan memerlukan identifikasi untuk transaksi
 
 

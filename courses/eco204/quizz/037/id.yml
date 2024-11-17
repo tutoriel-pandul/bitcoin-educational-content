@@ -1,8 +1,8 @@
-pertanyaan: Apa istilah untuk uang darurat yang digunakan di Jerman selama krisis ekonomi?
-jawaban: Notgeld
-jawaban_salah:
+question: Apa istilah untuk uang darurat yang digunakan di Jerman selama krisis ekonomi?
+answer: Notgeld
+wrong_answers:
   - Reichsmark
   - Euro
   - Deutsche Mark
-penjelasan: |
+explanation: |
   Selama krisis ekonomi di Jerman, "Notgeld" (uang darurat) digunakan untuk mengatasi kekurangan mata uang umum.

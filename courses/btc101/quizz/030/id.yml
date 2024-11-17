@@ -1,10 +1,10 @@
-pertanyaan: Apa keuntungan utama dari mata uang fiat?
-jawaban: Mereka mudah dibagi
-jawaban_salah:
+question: Apa keuntungan utama dari mata uang fiat?
+answer: Mereka mudah dibagi
+wrong_answers:
   - Mereka dikendalikan oleh pihak pusat
   - Mereka tidak mudah dibawa
   - Mereka efektif untuk menjaga nilai sepanjang waktu
-penjelasan: |
+explanation: |
   Mata uang fiat, seperti dolar dan euro, sangat likuid dan
   mudah dibawa karena sekarang sebagian besar digital. Namun, nilai mereka terus
   terkikis oleh inflasi moneter.

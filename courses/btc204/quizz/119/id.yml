@@ -1,11 +1,11 @@
-pertanyaan: Apa perbedaan utama antara ricochet yang ditingkatkan dan ricochet klasik?
+question: Apa perbedaan utama antara ricochet yang ditingkatkan dan ricochet klasik?
 
-jawaban: Distribusi transaksi seiring waktu
+answer: Distribusi transaksi seiring waktu
 
-jawaban_salah:
+wrong_answers:
   - Jumlah transaksi yang digunakan
   - Tipe alamat yang digunakan
   - Jumlah output dalam transaksi
 
-penjelasan: |
+explanation: |
   Ricochet yang ditingkatkan memastikan bahwa setiap transaksi disiarkan pada waktu yang berbeda dan dicatat dalam blok yang berbeda, sedangkan ricochet klasik menyiarkan semua transaksi dalam jangka waktu yang singkat.

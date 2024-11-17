@@ -1,10 +1,10 @@
-pertanyaan: Apa risiko jika Anda tidak memiliki kunci privat dari dompet Bitcoin Anda?
-jawaban: Bitcoin Anda berisiko terhadap peretasan, penyitaan, regulasi, atau kebangkrutan
-jawaban_salah:
+question: Apa risiko jika Anda tidak memiliki kunci privat dari dompet Bitcoin Anda?
+answer: Bitcoin Anda berisiko terhadap peretasan, penyitaan, regulasi, atau kebangkrutan
+wrong_answers:
   - Bitcoin Anda akan secara otomatis dikonversi ke cryptocurrency lain
   - Bitcoin Anda akan kehilangan nilainya
   - Bitcoin Anda akan ditransfer ke dompet lain
-penjelasan: |
+explanation: |
   Jika Anda tidak memiliki kunci privat dari dompet Bitcoin Anda, Bitcoin Anda
   berisiko terhadap peretasan, penyitaan, regulasi, atau kebangkrutan.
-ditinjau: false
+reviewed: false

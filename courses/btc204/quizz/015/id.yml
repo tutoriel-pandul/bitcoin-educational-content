@@ -1,8 +1,8 @@
-pertanyaan: Apa 3 langkah utama dari analisis blockchain?
-jawaban: Mengamati blockchain, mengidentifikasi karakteristik, dan menyimpulkan hipotesis.
-jawaban_salah:
+question: Apa 3 langkah utama dari analisis blockchain?
+answer: Mengamati blockchain, mengidentifikasi karakteristik, dan menyimpulkan hipotesis.
+wrong_answers:
   - Pengumpulan data, penyimpanan aman, dan pelaporan.
   - Mengidentifikasi pengguna, mengatur pertukaran, dan melindungi dari penipuan.
   - Pengumpulan data, seleksi acak, dan pengaduan.
-penjelasan: |
+explanation: |
   Analisis blockchain pertama-tama melibatkan akses ke data blockchain Bitcoin, kemudian mencoba untuk mengidentifikasi karakteristik dalam data ini, dan akhirnya membuat interpretasi yang masuk akal.

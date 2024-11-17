@@ -1,8 +1,8 @@
-pertanyaan: Apa nama perusahaan David Chaum yang melalui perusahaan itu ia menerapkan konsep mata uang digitalnya?
-jawaban: DigiCash B.V.
-jawaban_salah:
+question: Apa nama perusahaan David Chaum yang melalui perusahaan itu ia menerapkan konsep mata uang digitalnya?
+answer: DigiCash B.V.
+wrong_answers:
   - eCash Ltd.
   - CyberCash Inc.
   - First Virtual Holdings Inc.
-penjelasan: |
+explanation: |
   Didirikan pada tahun 1990, DigiCash B.V. berbasis di Amsterdam, Belanda, dan memegang paten untuk penemuan David Chaum, eCash.

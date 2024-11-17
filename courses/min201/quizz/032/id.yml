@@ -1,11 +1,11 @@
-pertanyaan: Apa hadiah untuk penambang di jaringan Bitcoin?
-jawaban: Bitcoin baru dan biaya transaksi.
-jawaban_salah:
+question: Apa hadiah untuk penambang di jaringan Bitcoin?
+answer: Bitcoin baru dan biaya transaksi.
+wrong_answers:
   - Hanya bitcoin baru.
   - Hanya biaya transaksi.
   - Tidak ada hadiah untuk penambang.
-penjelasan: |
+explanation: |
   Penambang di jaringan Bitcoin diberi hadiah berupa bitcoin
   baru dan biaya transaksi untuk pekerjaan mereka dalam memvalidasi
   dan membuat blok.
-ditinjau: true
+reviewed: true

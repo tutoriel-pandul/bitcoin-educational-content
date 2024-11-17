@@ -1,8 +1,8 @@
-pertanyaan: Apa motto dari jurnal Le Censeur yang didirikan oleh Comte dan Dunoyer?
-jawaban: Perdamaian dan kebebasan
-jawaban_salah:
+question: Apa motto dari jurnal Le Censeur yang didirikan oleh Comte dan Dunoyer?
+answer: Perdamaian dan kebebasan
+wrong_answers:
   - Kepemilikan dan kebebasan
   - Ketertiban dan kemajuan
   - Kebebasan dan kesetaraan
-penjelasan: |
+explanation: |
   Jurnal Le Censeur, yang didirikan oleh Comte dan Dunoyer, mengusung motto "Perdamaian dan kebebasan", yang melambangkan penentangan mereka terhadap sewenang-wenang kekuasaan.

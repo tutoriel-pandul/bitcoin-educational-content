@@ -1,10 +1,10 @@
-pertanyaan: Apa itu BTCMap?
-jawaban: Sebuah platform yang mencantumkan semua pedagang yang menerima Bitcoin
-jawaban_salah:
+question: Apa itu BTCMap?
+answer: Sebuah platform yang mencantumkan semua pedagang yang menerima Bitcoin
+wrong_answers:
   - Sebuah peta dari semua tambang Bitcoin di dunia
   - Sebuah peta dari semua bursa Bitcoin di dunia
   - Sebuah peta dari semua pengguna Bitcoin di dunia
-penjelasan: >-
+explanation: >-
   BTCMap adalah proyek sumber terbuka dan kolaboratif yang mencantumkan semua
   pedagang yang menerima Bitcoin serta berbagai komunitas Bitcoin di
   seluruh dunia.

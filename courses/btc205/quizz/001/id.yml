@@ -1,10 +1,10 @@
-pertanyaan: Apa alternatif untuk KYC penuh di Swiss?
-jawaban: KYC light
-jawaban_salah:
+question: Apa alternatif untuk KYC penuh di Swiss?
+answer: KYC light
+wrong_answers:
   - KYC heavy
   - KYC medium
   - KYC dark
-penjelasan: |
+explanation: |
   Di Swiss, alternatif untuk KYC penuh adalah "KYC light" yang memungkinkan
 
 

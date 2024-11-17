@@ -1,10 +1,10 @@
-pertanyaan: Apa tiga dimensi dari masalah "kesesuaian keinginan ganda"?
-jawaban: Spasial, temporal, dan interpersonal.
-jawaban_salah:
+question: Apa tiga dimensi dari masalah "kesesuaian keinginan ganda"?
+answer: Spasial, temporal, dan interpersonal.
+wrong_answers:
   - Spasial, temporal, dan intrapersonal.
   - Spasial, intertemporal, dan interpersonal.
   - Interspasial, temporal, dan interpersonal.
-penjelasan: |
+explanation: |
   Masalah "kesesuaian keinginan ganda" merujuk pada kesulitan dalam
   barter di mana kedua pihak perlu memiliki sesuatu yang diinginkan oleh pihak lain pada
   waktu dan tempat yang sama. Masalah ini memiliki tiga dimensi; spasial (tempat yang sama), temporal

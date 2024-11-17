@@ -1,9 +1,9 @@
-pertanyaan: Prinsip ekonomi apa yang sejalan dengan Bitcoin?
-jawaban: Prinsip ekonomi Austria
-jawaban_salah:
+question: Prinsip ekonomi apa yang sejalan dengan Bitcoin?
+answer: Prinsip ekonomi Austria
+wrong_answers:
   - Prinsip ekonomi Keynesian
   - Prinsip ekonomi Marxisme
   - Prinsip ekonomi Neoklasik
-penjelasan: |
+explanation: |
   Bitcoin sejalan dengan prinsip ekonomi Austria. Kuantitasnya yang terbatas dan ketiadaan entitas pusat melindunginya dari risiko inflasi yang melekat pada mata uang tradisional.
-ditinjau: true
+reviewed: true

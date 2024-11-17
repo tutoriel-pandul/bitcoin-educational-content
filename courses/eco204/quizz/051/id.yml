@@ -1,9 +1,9 @@
-pertanyaan: Apa solusi yang diadopsi oleh Jerman untuk mengatasi inflasi setelah Perang Dunia I?
-jawaban: Penciptaan mata uang baru, Rentenmark
-jawaban_salah:
+question: Apa solusi yang diadopsi oleh Jerman untuk mengatasi inflasi setelah Perang Dunia I?
+answer: Penciptaan mata uang baru, Rentenmark
+wrong_answers:
   - Dolarisasi
   - Mencetak lebih banyak uang
   - Mengurangi jumlah uang beredar
-penjelasan: |
+explanation: |
   Jerman menciptakan mata uang baru, Rentenmark, untuk mengatasi inflasi setelah Perang Dunia I. Mata uang ini didukung oleh aset teritorial Reich, dan strategi ini terbukti efektif.
-ditinjau: false
+reviewed: false

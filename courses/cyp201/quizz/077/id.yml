@@ -1,8 +1,8 @@
-pertanyaan: Bagaimana checksum dari alamat Legacy dihitung?
-jawaban: Dengan HASH256.
-jawaban_salah:
+question: Bagaimana checksum dari alamat Legacy dihitung?
+answer: Dengan HASH256.
+wrong_answers:
   - Dengan HASH160.
   - Dengan kode BCH.
   - Dengan RIPEMD160.
-penjelasan: |
+explanation: |
   Untuk alamat Legacy, checksum diperoleh dengan melakukan hash ganda dengan fungsi SHA256 (HASH256).

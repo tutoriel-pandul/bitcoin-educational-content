@@ -1,10 +1,10 @@
-pertanyaan: Apa ciri-ciri dari kata sandi yang baik?
-jawaban: Panjang, kompleks, unik, dan tidak berdasarkan informasi pribadi.
-jawaban_salah:
+question: Apa ciri-ciri dari kata sandi yang baik?
+answer: Panjang, kompleks, unik, dan tidak berdasarkan informasi pribadi.
+wrong_answers:
   - Pendek, sederhana, dan mudah diingat.
   - Berdasarkan informasi pribadi seperti tanggal lahir dan nama.
   - Kata sandi yang sama untuk semua akun.
-penjelasan: |
+explanation: |
   Kata sandi yang baik adalah panjang (setidaknya 12 karakter), kompleks (campuran
 
   huruf besar dan kecil, angka, dan simbol), unik (tidak digunakan ulang untuk

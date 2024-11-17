@@ -1,8 +1,8 @@
-pertanyaan: Apa dua cara untuk mencerahkan penilaian warga menurut Bastiat?
-jawaban: Moralitas filosofis dan moralitas ekonomi
-jawaban_salah:
+question: Apa dua cara untuk mencerahkan penilaian warga menurut Bastiat?
+answer: Moralitas filosofis dan moralitas ekonomi
+wrong_answers:
   - Hukum dan pendidikan
   - Agama dan ilmu pengetahuan
   - Pengalaman pribadi dan buku
-penjelasan: |
+explanation: |
   Bastiat membedakan antara moralitas filosofis, yang menyentuh hati, dan moralitas ekonomi, yang mencerahkan intelek dengan menunjukkan konsekuensi dari tindakan.

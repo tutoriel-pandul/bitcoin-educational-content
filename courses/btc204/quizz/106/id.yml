@@ -1,11 +1,11 @@
-pertanyaan: Berapa banyak peserta yang terlibat dalam input dalam transaksi payjoin?
+question: Berapa banyak peserta yang terlibat dalam input dalam transaksi payjoin?
 
-jawaban: 2
+answer: 2
 
-jawaban_salah:
+wrong_answers:
   - 1
   - 3
   - 0
 
-penjelasan: |
+explanation: |
   Terdapat 2 peserta: pembayar dan penerima pembayaran.

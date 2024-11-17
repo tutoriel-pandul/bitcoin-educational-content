@@ -1,8 +1,8 @@
-pertanyaan: Penulis mana yang paling bertanggung jawab atas pendidikan ekonomi Frédéric Bastiat?
-jawaban: Say
-jawaban_salah:
+question: Penulis mana yang paling bertanggung jawab atas pendidikan ekonomi Frédéric Bastiat?
+answer: Say
+wrong_answers:
   - Turgot
   - Condillac
   - Quesnay
-penjelasan: |
+explanation: |
   Frédéric Bastiat menganggap Jean-Baptiste Say sebagai pengaruh besar, terutama untuk ide-idenya tentang nilai dan perdagangan bebas.

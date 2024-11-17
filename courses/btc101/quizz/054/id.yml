@@ -1,10 +1,10 @@
-pertanyaan: Apa fase kedua dari hiperinflasi?
-jawaban: Runtuhnya mata uang & kenaikan harga.
-jawaban_salah:
+question: Apa fase kedua dari hiperinflasi?
+answer: Runtuhnya mata uang & kenaikan harga.
+wrong_answers:
   - Kehilangan Kepercayaan.
   - Lingkaran setan pencetakan uang.
   - Munculnya mata uang baru.
-penjelasan: |
+explanation: |
   Fase kedua dari hiperinflasi adalah runtuhnya mata uang & kenaikan harga,
   tepat setelah Fase Kehilangan Kepercayaan.
-ditinjau: true
+reviewed: true

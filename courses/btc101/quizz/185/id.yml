@@ -1,9 +1,9 @@
-pertanyaan: Bagaimana Bitcoin dilihat jika dibandingkan dengan mata uang fiat?
-jawaban: Sebagai ekonomi paralel
-jawaban_salah:
+question: Bagaimana Bitcoin dilihat jika dibandingkan dengan mata uang fiat?
+answer: Sebagai ekonomi paralel
+wrong_answers:
   - Sebagai ekonomi pengganti
   - Sebagai ekonomi sekunder
   - Sebagai ekonomi tersier
-penjelasan: >-
+explanation: >-
   Bitcoin dilihat sebagai ekonomi paralel terhadap mata uang fiat, yang berarti ia beroperasi bersamaan dengan ekonomi tradisional dan dapat digunakan untuk transaksi secara langsung,
   tanpa perlu melalui platform pertukaran.

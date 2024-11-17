@@ -1,9 +1,9 @@
-pertanyaan: Apa salah satu solusi alternatif yang direkomendasikan untuk menyimpan frasa mnemonik Anda selain menggunakan kertas?
-jawaban: Mengukirnya pada sebuah pelat logam
-jawaban_salah:
+question: Apa salah satu solusi alternatif yang direkomendasikan untuk menyimpan frasa mnemonik Anda selain menggunakan kertas?
+answer: Mengukirnya pada sebuah pelat logam
+wrong_answers:
   - Menyimpannya dalam sebuah file digital
   - Menuliskannya pada papan tulis
   - Menyimpannya sebagai kontak di telepon Anda
-penjelasan: |
+explanation: |
   Salah satu solusi alternatif untuk menyimpan frasa mnemonik Anda selain menggunakan kertas adalah dengan mengukirnya pada sebuah pelat logam. Ini dapat menyediakan solusi yang lebih tahan lama dan awet.
-ditinjau: true
+reviewed: true

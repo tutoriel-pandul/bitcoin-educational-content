@@ -1,10 +1,10 @@
-pertanyaan: Apa tujuan dari regulasi KYC?
-jawaban: Untuk memerangi pendanaan terorisme, penghindaran pajak, dan pencucian uang.
-jawaban_salah:
+question: Apa tujuan dari regulasi KYC?
+answer: Untuk memerangi pendanaan terorisme, penghindaran pajak, dan pencucian uang.
+wrong_answers:
   - Untuk meningkatkan harga Bitcoin.
   - Untuk mengontrol suplai Bitcoin.
   - Untuk mencegah orang membeli Bitcoin.
-penjelasan: >-
+explanation: >-
   Teks menjelaskan bahwa regulasi Know Your Customer (KYC) mengharuskan pengguna
   untuk menyediakan identifikasi guna memerangi pendanaan terorisme, penghindaran pajak, dan pencucian
   uang.
