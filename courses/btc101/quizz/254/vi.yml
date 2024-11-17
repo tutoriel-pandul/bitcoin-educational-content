@@ -1,11 +1,11 @@
-câu hỏi: Cách thực tế để có được Bitcoin là gì?
-câu trả lời: Mua chúng qua các nền tảng được quản lý hoặc không được quản lý.
-câu trả lời sai:
+question: Cách thực tế để có được Bitcoin là gì?
+answer: Mua chúng qua các nền tảng được quản lý hoặc không được quản lý.
+wrong_answers:
   - Đào chúng bằng laptop.
   - Tìm thấy chúng trong thế giới thực.
   - Tạo ra chúng bằng phần mềm đặc biệt.
-giải thích: |
+explanation: |
   Văn bản đề cập rằng người dùng có thể có được Bitcoin bằng
   cách chấp nhận chúng để trao đổi hoặc mua chúng qua
   các nền tảng được quản lý hoặc không được quản lý.
-đã xem xét: true
+reviewed: true

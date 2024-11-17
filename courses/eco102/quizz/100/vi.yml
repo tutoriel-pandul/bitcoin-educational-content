@@ -1,9 +1,9 @@
-câu hỏi: Theo Bastiat, ai là người duy trì sinh kế của nhà nước?
-câu trả lời: Chính là công dân duy trì nhà nước
-câu trả lời sai:
+question: Theo Bastiat, ai là người duy trì sinh kế của nhà nước?
+answer: Chính là công dân duy trì nhà nước
+wrong_answers:
   - Chính là công dân sống nhờ vào nhà nước
   - Chính là nhà nước duy trì quốc gia
   - Chính là các nhóm lợi ích duy trì nhà nước
-giải thích: |
+explanation: |
   Bastiat khẳng định rằng chính công dân hỗ trợ nhà nước thông qua việc tạo ra của cải và không phải ngược lại.
-đã xem xét: false
+reviewed: false

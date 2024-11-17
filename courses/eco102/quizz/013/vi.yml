@@ -1,8 +1,8 @@
-câu hỏi: Cơ sở của giá trị theo Frédéric Bastiat là gì?
-câu trả lời: Tính hữu ích
-câu trả lời sai:
+question: Cơ sở của giá trị theo Frédéric Bastiat là gì?
+answer: Tính hữu ích
+wrong_answers:
   - Lao động
   - Khan hiếm
   - Nhu cầu
-giải thích: |
+explanation: |
   Bastiat chấp nhận ý tưởng của Say rằng tính hữu ích là cơ sở của giá trị, trái ngược với các lý thuyết dựa trên lao động hoặc khan hiếm.

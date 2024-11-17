@@ -1,9 +1,9 @@
-câu hỏi: Đơn vị của Bitcoin được sử dụng trong Lightning Network là gì?
-câu trả lời: Sats.
-câu trả lời sai:
+question: Đơn vị của Bitcoin được sử dụng trong Lightning Network là gì?
+answer: Sats.
+wrong_answers:
   - Block.
   - Ether.
   - Litecoin.
-giải thích: |
+explanation: |
   Lightning Network sử dụng satoshis (còn gọi là sats), đơn vị nhỏ nhất của bitcoin, để hoạt động.
-đã xem xét: true
+reviewed: true

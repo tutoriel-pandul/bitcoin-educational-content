@@ -1,9 +1,9 @@
-câu hỏi: Kích thước đầu vào của hàm SHA256 phải là bao nhiêu sau khi đã được thêm padding?
-câu trả lời: Một bội số của 512 bit.
-câu trả lời sai:
+question: Kích thước đầu vào của hàm SHA256 phải là bao nhiêu sau khi đã được thêm padding?
+answer: Một bội số của 512 bit.
+wrong_answers:
   - Của 256 bit.
   - Của 256 byte.
   - Một bội số của 256 bit.
-giải thích: |
+explanation: |
   Hàm SHA256 yêu cầu đầu vào phải là một bội số của 512 bit sau khi đã thêm padding để hoạt động chính xác.
-đã xem xét: false
+reviewed: false

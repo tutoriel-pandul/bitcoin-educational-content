@@ -1,9 +1,9 @@
-câu hỏi: Hàm nén SHA256 bao gồm bao nhiêu vòng?
-câu trả lời: 64 vòng.
-câu trả lời sai:
+question: Hàm nén SHA256 bao gồm bao nhiêu vòng?
+answer: 64 vòng.
+wrong_answers:
   - 10 vòng.
   - 128 vòng.
   - 150 vòng.
-giải thích: |
+explanation: |
   Hàm nén SHA256 thực hiện 64 vòng cho mỗi khối dữ liệu được xử lý.
-đã xem xét: false
+reviewed: false

@@ -1,10 +1,10 @@
-câu hỏi: Đâu là phương tiện tấn công đầu tiên của hacker?
-câu trả lời: Emails
-câu trả lời sai:
+question: Đâu là phương tiện tấn công đầu tiên của hacker?
+answer: Emails
+wrong_answers:
   - Mạng xã hội
   - Các trang web mua sắm trực tuyến
   - Các trang web ngân hàng
-giải thích: |
+explanation: |
   Emails là phương tiện tấn công đầu tiên của hacker. Họ sử dụng
   các nỗ lực phishing để trích xuất thông tin nhạy cảm như
   thông tin đăng nhập và mật khẩu của bạn.

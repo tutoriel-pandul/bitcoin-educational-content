@@ -1,9 +1,9 @@
-câu hỏi: Giai đoạn nào của mã hóa AES sử dụng Trường Galois?
-câu trả lời: Trong thay thế byte và thao tác MixColumns
-câu trả lời sai:
+question: Giai đoạn nào của mã hóa AES sử dụng Trường Galois?
+answer: Trong thay thế byte và thao tác MixColumns
+wrong_answers:
   - Trong việc tạo khóa riêng tư
   - Khi chia văn bản thành các khối 128-bit
   - Ở mọi giai đoạn của thao tác XOR
-giải thích: |
+explanation: |
   Trường Galois được sử dụng trong thay thế byte để tính nghịch đảo nhân và trong thao tác MixColumns để thực hiện phép nhân modulo một đa thức bất khả quy.
-đã xem xét: false
+reviewed: false

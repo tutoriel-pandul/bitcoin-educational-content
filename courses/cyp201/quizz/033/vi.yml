@@ -1,8 +1,8 @@
-câu hỏi: Ý tưởng về cụm từ khôi phục, hay cụm từ ghi nhớ (12/24 từ), được đề xuất trong BIP nào?
-câu trả lời: BIP39.
-câu trả lời sai:
+question: Ý tưởng về cụm từ khôi phục, hay cụm từ ghi nhớ (12/24 từ), được đề xuất trong BIP nào?
+answer: BIP39.
+wrong_answers:
   - BIP16.
   - BIP32.
   - BIP44.
-giải thích: |
+explanation: |
   BIP39 đã giới thiệu cụm từ ghi nhớ 24 từ để hỗ trợ việc sao lưu khóa cho người dùng của ví HD.

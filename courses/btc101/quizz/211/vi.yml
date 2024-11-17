@@ -1,12 +1,12 @@
-câu hỏi: Bitcoin buộc các công ty, trường đại học, cơ quan quản lý và cá nhân phải thực hiện hành động gì?
+question: Bitcoin buộc các công ty, trường đại học, cơ quan quản lý và cá nhân phải thực hiện hành động gì?
   phải làm gì?
-câu trả lời: Phải xem xét nó.
-câu trả lời sai:
+answer: Phải xem xét nó.
+wrong_answers:
   - Bỏ qua nó.
   - Cấm nó.
   - Hình sự hóa nó.
-giải thích: >-
+explanation: >-
   Sự phát triển của Bitcoin buộc các công ty, trường đại học, cơ quan quản lý và cá nhân
   phải xem xét công nghệ mới này. Cần phải tạo ra các công cụ mới, dịch vụ
   cần được điều chỉnh, và đổi mới phải tiếp tục để đảm bảo sự tồn tại của họ.
-đã xem xét: true
+reviewed: true

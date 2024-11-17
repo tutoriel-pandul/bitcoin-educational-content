@@ -1,13 +1,13 @@
-câu hỏi: Phân tích heuristic nào của chuỗi được giao dịch payjoin sử dụng để hoạt động như một sự lừa dối cho phân tích?
+question: Phân tích heuristic nào của chuỗi được giao dịch payjoin sử dụng để hoạt động như một sự lừa dối cho phân tích?
 
-câu trả lời: CIOH
+answer: CIOH
 
-câu trả lời sai:
+wrong_answers:
   - Tái sử dụng địa chỉ
   - Dấu vân tay ví
   - Tái sử dụng phiên bản
 
-giải thích: |
+explanation: |
   Khi một nhà phân tích xem xét một giao dịch payjoin, họ được dẫn dắt tin rằng tất cả các input đều đến từ cùng một người do CIOH. Tuy nhiên, quan niệm này là không chính xác, vì người nhận thanh toán cũng đóng góp vào các input cùng với người thanh toán thực sự. Do đó, phân tích chuỗi được chuyển hướng về một giải thích hóa ra là sai lầm.
 
-đã xem xét: false
+reviewed: false

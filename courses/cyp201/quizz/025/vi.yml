@@ -1,9 +1,9 @@
-câu hỏi: "Nonce" trong mật mã học là gì?
-câu trả lời: Một số được dùng với mục đích sử dụng một lần.
-câu trả lời sai:
+question: "Nonce" trong mật mã học là gì?
+answer: Một số được dùng với mục đích sử dụng một lần.
+wrong_answers:
   - Một số chẵn.
   - Chữ ký số.
   - Một số có thể tái sử dụng.
-giải thích: |
+explanation: |
   Nonce là một số được sử dụng một lần cho các hoạt động mật mã, đảm bảo tính duy nhất của một số giá trị trong các thuật toán.
-đã xem xét: false
+reviewed: false

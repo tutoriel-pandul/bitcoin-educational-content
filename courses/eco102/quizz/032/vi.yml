@@ -1,9 +1,9 @@
-câu hỏi: Theo Rousseau, mục tiêu của việc hạn chế cá nhân là gì?
-câu trả lời: Để dẫn dắt họ đến tự do
-câu trả lời sai:
+question: Theo Rousseau, mục tiêu của việc hạn chế cá nhân là gì?
+answer: Để dẫn dắt họ đến tự do
+wrong_answers:
   - Để làm nô lệ họ
   - Để làm cho họ bình đẳng
   - Để thống nhất họ trong sự nô dịch
-giải thích: |
+explanation: |
   Rousseau tin rằng sự hạn chế có thể hướng dẫn cá nhân đến tự do, bằng cách dẫn dắt họ đến một lý tưởng tập thể mà họ sẽ theo đuổi nếu họ được khai sáng.
-đã xem xét: false
+reviewed: false

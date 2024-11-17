@@ -1,11 +1,11 @@
-câu hỏi: Vai trò của người hợp tác trong giao dịch Stonewall x2 là gì?
+question: Vai trò của người hợp tác trong giao dịch Stonewall x2 là gì?
 
-câu trả lời: Cung cấp bitcoin để tăng sự nghi ngờ
+answer: Cung cấp bitcoin để tăng sự nghi ngờ
 
-câu trả lời sai:
+wrong_answers:
   - Đóng vai trò là điều phối viên giao dịch
   - Nhận số tiền thanh toán
   - Gửi số tiền thanh toán
 
-giải thích: |
+explanation: |
   Người hợp tác trong giao dịch Stonewall x2 cung cấp bitcoin để tăng sự nghi ngờ cho việc phân tích giao dịch, trong khi vẫn hoàn toàn thu hồi được số tiền của họ vào cuối (một hành động trung lập đối với họ, trừ phí khai thác).

@@ -1,11 +1,11 @@
-câu hỏi: Vai trò của các thợ mỏ trong mạng lưới Bitcoin là gì?
-câu trả lời: Thợ mỏ đóng một vai trò thiết yếu trong việc xác thực và tạo ra các khối.
-câu trả lời sai:
+question: Vai trò của các thợ mỏ trong mạng lưới Bitcoin là gì?
+answer: Thợ mỏ đóng một vai trò thiết yếu trong việc xác thực và tạo ra các khối.
+wrong_answers:
   - Thợ mỏ chỉ xác thực các giao dịch.
   - Thợ mỏ kiểm soát giá của Bitcoin.
   - Thợ mỏ không có vai trò nào trong mạng lưới Bitcoin.
-giải thích: |
+explanation: |
   Thợ mỏ đóng một vai trò thiết yếu trong mạng lưới Bitcoin bằng cách
   xác thực và tạo ra các khối. Họ tăng cường khả năng chống kiểm duyệt của mạng
   bằng cách sử dụng điện để tính toán bằng chứng công việc cho Bitcoin.
-đã xem xét: true
+reviewed: true

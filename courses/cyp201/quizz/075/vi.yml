@@ -1,9 +1,9 @@
-câu hỏi: Làm thế nào để nén một khóa công khai?
-câu trả lời: Chúng ta giữ giá trị của tọa độ x và thêm một tiền tố chỉ ra tọa độ y nào được chọn.
-câu trả lời sai:
+question: Làm thế nào để nén một khóa công khai?
+answer: Chúng ta giữ giá trị của tọa độ x và thêm một tiền tố chỉ ra tọa độ y nào được chọn.
+wrong_answers:
   - Chúng ta giữ giá trị của tọa độ y và thêm một tiền tố chỉ ra tọa độ x nào được chọn.
   - Chúng ta băm khóa công khai để nén nó.
   - Chúng ta sử dụng băm SHA256 kép để nén khóa công khai.
-giải thích: |
+explanation: |
   Việc nén một khóa công khai được thực hiện bằng cách giữ tọa độ x và thêm tiền tố 0x02 hoặc 0x03 để chỉ ra liệu y là chẵn hay lẻ.
-đã xem xét: false
+reviewed: false

@@ -1,8 +1,8 @@
-câu hỏi: Tại sao việc sử dụng một cụm mật khẩu lại tăng cường bảo mật cho ví HD?
-câu trả lời: Nó thêm một lớp bảo vệ bổ sung cho cụm từ ghi nhớ.
-câu trả lời sai:
+question: Tại sao việc sử dụng một cụm mật khẩu lại tăng cường bảo mật cho ví HD?
+answer: Nó thêm một lớp bảo vệ bổ sung cho cụm từ ghi nhớ.
+wrong_answers:
   - Nó cho phép tạo ra các khóa công khai mạnh mẽ hơn.
   - Nó bảo vệ các giao dịch bằng cách mã hóa.
   - Nó nhân đôi số lượng bitcoin trong ví.
-giải thích: |
+explanation: |
   Cụm mật khẩu tăng cường bảo mật bằng cách thêm một phần dữ liệu bổ sung vào cụm từ ghi nhớ, hoạt động tương tự như một hình thức xác thực hai yếu tố (2FA).

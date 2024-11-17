@@ -1,9 +1,9 @@
-câu hỏi: Cấu trúc của hàm băm SHA256 được gọi là gì?
-câu trả lời: Merkle-Damgard Construction.
-câu trả lời sai:
+question: Cấu trúc của hàm băm SHA256 được gọi là gì?
+answer: Merkle-Damgard Construction.
+wrong_answers:
   - Sponge Construction.
   - Iterative Hash Functions Construction (HAIFA).
   - Feistel Construction.
-giải thích: |
+explanation: |
   SHA256 sử dụng Merkle-Damgard Construction, một cấu trúc thường được sử dụng để tạo ra các hàm băm an toàn.
-đã xem xét: false
+reviewed: false

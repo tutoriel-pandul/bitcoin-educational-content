@@ -1,9 +1,9 @@
-câu hỏi: Kết quả của "cuộc chiến block" vào năm 2017 là gì?
-câu trả lời: Người dùng và các nút đã từ chối thay đổi đề xuất nhằm tăng kích thước block, và đã kích hoạt một bản cập nhật gọi là SegWit.
-câu trả lời sai:
+question: Kết quả của "cuộc chiến block" vào năm 2017 là gì?
+answer: Người dùng và các nút đã từ chối thay đổi đề xuất nhằm tăng kích thước block, và đã kích hoạt một bản cập nhật gọi là SegWit.
+wrong_answers:
   - Người dùng và các nút đã chấp nhận thay đổi đề xuất nhằm tăng kích thước block, và đã kích hoạt một bản cập nhật gọi là SegWit.
   - Người dùng và các nút đã từ chối thay đổi đề xuất nhằm tăng kích thước block, và không kích hoạt bất kỳ bản cập nhật nào.
   - Người dùng và các nút đã chấp nhận thay đổi đề xuất nhằm tăng kích thước block, và không kích hoạt bất kỳ bản cập nhật nào.
-giải thích: >-
+explanation: >-
   Trong "cuộc chiến block" vào năm 2017, người dùng và các nút đã giành chiến thắng bằng cách từ chối thay đổi đề xuất nhằm tăng kích thước block, và đã kích hoạt một bản cập nhật gọi là SegWit.
-đã xem xét: true
+reviewed: true

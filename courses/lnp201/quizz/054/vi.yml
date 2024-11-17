@@ -1,9 +1,9 @@
-câu hỏi: Loại thanh khoản nào mà một người bán trên Mạng Lưới Lightning cần quản lý chủ yếu để chấp nhận thanh toán?
-câu trả lời: Thanh khoản đến
-câu trả lời sai:
+question: Loại thanh khoản nào mà một người bán trên Mạng Lưới Lightning cần quản lý chủ yếu để chấp nhận thanh toán?
+answer: Thanh khoản đến
+wrong_answers:
   - Thanh khoản đi
   - Một tổng dung lượng kênh cao
   - Một số dư trên chuỗi cao
-giải thích: |
+explanation: |
   Để nhận thanh toán, người bán cần phải có thanh khoản đến, nghĩa là phải có nguồn vốn sẵn có ở phía đối diện của kênh để họ có thể chấp nhận thanh toán.
-đã xem xét: false
+reviewed: false
