@@ -1,9 +1,9 @@
-Câu hỏi: Bước cuối cùng để mở một kênh trên Lightning Network là gì?
-Câu trả lời: Công bố giao dịch tiền gửi trên blockchain Bitcoin
-Câu trả lời sai:
+question: Bước cuối cùng để mở một kênh trên Lightning Network là gì?
+answer: Công bố giao dịch tiền gửi trên blockchain Bitcoin
+wrong_answers:
   - Ký một giao dịch rút tiền để lấy lại quỹ
   - Gửi một tin nhắn xác nhận việc mở kênh cho bên kia
   - Xác minh số dư quỹ của mỗi bên tham gia
-Giải thích: |
+explanation: |
   Bước cuối cùng để mở một kênh là công bố giao dịch tiền gửi trên blockchain, điều này chính thức mở kênh.
-Đã xem xét: false
+reviewed: false

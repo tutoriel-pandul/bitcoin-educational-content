@@ -1,8 +1,8 @@
-Câu hỏi: Phạm vi chỉ số nào được sử dụng cho các khóa con bình thường trong một ví HD?
-Câu trả lời: Giữa 0 và 2^31 - 1.
-Câu trả lời sai:
+question: Phạm vi chỉ số nào được sử dụng cho các khóa con bình thường trong một ví HD?
+answer: Giữa 0 và 2^31 - 1.
+wrong_answers:
   - Giữa 0 và 2^32 - 1.
   - Giữa 0 và 2^31.
   - Giữa 2^31 và 2^32 - 1.
-Giải thích: |
+explanation: |
   Các khóa con bình thường sử dụng phạm vi chỉ số từ 0 đến 2^31 - 1, trong khi các khóa cứng có chỉ số bắt đầu từ 2^31.

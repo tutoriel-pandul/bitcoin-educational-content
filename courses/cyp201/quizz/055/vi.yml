@@ -1,11 +1,11 @@
-Câu hỏi: Payload của một khóa mở rộng bao gồm những gì?
+question: Payload của một khóa mở rộng bao gồm những gì?
 
-Câu trả lời: Một khóa công khai hoặc khóa riêng tư, và mã chuỗi liên kết tương ứng.
+answer: Một khóa công khai hoặc khóa riêng tư, và mã chuỗi liên kết tương ứng.
 
-Câu trả lời sai:
+wrong_answers:
   - Một khóa riêng tư và khóa công khai tương ứng.
   - Một mã chuỗi, một khóa công khai, và một khóa riêng tư.
   - Một khóa riêng tư và chỉ số phái sinh.
 
-Giải thích:
+explanation:
   Payload của một khóa mở rộng bao gồm một khóa công khai hoặc khóa riêng tư, cùng với một mã chuỗi được sử dụng để phái sinh các khóa con.

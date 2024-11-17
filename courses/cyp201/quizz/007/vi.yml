@@ -1,11 +1,11 @@
-Câu hỏi: Các giá trị của 8 vector khởi tạo của hàm SHA256 tương ứng với cái gì?
+question: Các giá trị của 8 vector khởi tạo của hàm SHA256 tương ứng với cái gì?
 
-Câu trả lời: 64 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên.
+answer: 64 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên.
 
-Câu trả lời sai:
+wrong_answers:
   - Các số thập phân của Pi.
   - 32 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên.
   - 64 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên.
 
-Giải thích:
+explanation:
   Các vector khởi tạo của SHA256 dựa trên 64 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên.

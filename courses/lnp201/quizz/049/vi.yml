@@ -1,9 +1,9 @@
-Câu hỏi: Chức năng chính của một hóa đơn Lightning là gì?
-Câu trả lời: Yêu cầu một khoản thanh toán từ nút gửi
-Câu trả lời sai:
+question: Chức năng chính của một hóa đơn Lightning là gì?
+answer: Yêu cầu một khoản thanh toán từ nút gửi
+wrong_answers:
   - Gửi tiền mà không cần giao dịch trên chuỗi
   - Kích hoạt HTLCs trên một kênh
   - Mở một kênh Lightning mới
-Giải thích: |
+explanation: |
   Một hóa đơn Lightning là một yêu cầu thanh toán, được truyền bởi nút nhận đến nút gửi để khởi tạo một khoản thanh toán trên Mạng Lưới Lightning.
-Đã xem xét: false
+reviewed: false

@@ -1,8 +1,8 @@
-Câu hỏi: Hàm nào được sử dụng để tạo ra một cặp khóa con từ một cặp khóa cha mẹ trong một ví HD?
-Câu trả lời: HMAC-SHA512.
-Câu trả lời sai:
+question: Hàm nào được sử dụng để tạo ra một cặp khóa con từ một cặp khóa cha mẹ trong một ví HD?
+answer: HMAC-SHA512.
+wrong_answers:
   - SHA256.
   - Argon2d.
   - PBKDF2.
-Giải thích: |
+explanation: |
   HMAC-SHA512 được sử dụng để tạo ra một cặp khóa con từ một cặp khóa cha mẹ trong một ví HD.

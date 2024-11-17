@@ -1,13 +1,13 @@
-Câu hỏi: Kênh Lightning chính thức mở khi nào?
+question: Kênh Lightning chính thức mở khi nào?
 
-Câu trả lời: Khi giao dịch nạp tiền được xác nhận trên blockchain của Bitcoin
+answer: Khi giao dịch nạp tiền được xác nhận trên blockchain của Bitcoin
 
-Câu trả lời sai:
+wrong_answers:
   - Ngay khi các khóa công khai được trao đổi giữa các bên tham gia
   - Khi giao dịch rút tiền được cả hai bên ký
   - Ngay khi địa chỉ đa chữ ký 2/2 được tạo
 
-Giải thích: |
+explanation: |
   Kênh được coi là đã mở một khi giao dịch nạp tiền đã được đưa vào một khối Bitcoin và đã đạt được một số lượng xác nhận nhất định.
 
-Đã xem xét: false
+reviewed: false

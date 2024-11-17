@@ -1,9 +1,9 @@
-Câu hỏi: Giai đoạn thứ hai của hiện tượng lạm phát cực đoan là gì?
-Câu trả lời: Sụp đổ của tiền tệ & tăng giá.
-Câu trả lời sai:
+question: Giai đoạn thứ hai của hiện tượng lạm phát cực đoan là gì?
+answer: Sụp đổ của tiền tệ & tăng giá.
+wrong_answers:
   - Mất niềm tin.
   - Vòng luẩn quẩn của việc in tiền.
   - Một loại tiền tệ mới xuất hiện.
-Giải thích: |
+explanation: |
   Giai đoạn thứ hai của lạm phát cực đoan là sụp đổ của tiền tệ & tăng giá, ngay sau Giai đoạn Mất niềm tin.
-Đã xem xét: true
+reviewed: true
