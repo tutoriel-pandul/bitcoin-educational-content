@@ -1,21 +1,19 @@
 ---
 name: The Bitcoin Journey
-goal: Discover Bitcoin and its fundamentals, including its monetary value proposition, miners, transactions, and wallets.
+goal: Discover Bitcoin fundamentals, including its monetary value proposition, miners, transactions, and wallets.
 objectives:
-  - Gain a general understanding of Bitcoin technology
+  - Gain a general understanding of the Bitcoin technology
   - Understand how to buy and secure bitcoins
-  - Have a general understanding of Blockchain technology
-  - Familiarize yourself with the concept of the Lightning Network
+  - Have a general understanding of the Blockchain technology
+  - Familiarize with the concept of Lightning Network
   - Realize the geopolitical and social impact of Bitcoin
 ---
 
 # Your First Bitcoin Adventure
 
-In this course, I will explain Bitcoin in 25 chapters so that you can understand this technology in a simple and effective way. The course is accessible to everyone and explores the industry as a whole: miners, wallets, buying/selling platforms, etc...
+In this course, I will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Explanatory posters and additional resources will be available throughout the journey.
 
-The course should take approximately 15 hours. Throughout the journey, explanatory posters and additional resources are available.
-
-You don't need any specific knowledge to get started, the course is accessible to everyone!
+You don't need any specific knowledge to get started. In fact, the course is accessible to students of all levels, and it should take approximately 15 hours to finish. 
 
 +++
 
@@ -27,17 +25,17 @@ You don't need any specific knowledge to get started, the course is accessible t
 
 ### Welcome to a new monetary and technological paradigm.
 
-Bitcoin is a significant innovation that goes beyond a simple "internet currency". It is a revolution both in technology and in money, capable of questioning our relationship with currency and society. Bitcoin is a so-called **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is a significant innovation that goes beyond a mere currency. In order to understand this famous bitcoin, it is important to understand that bitcoin (referred to as BTC) is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
+Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
-The protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit is the currency necessary for the proper functioning of this same protocol. In everyday life, Salvadorans or bitcoiners around the world use bitcoin currency to buy and sell goods and services, with the currency relying on the Bitcoin protocol to function.
+The protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorans and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
 ### A comprehensive yet accessible curriculum
 
-In this course, we will discuss the monetary aspects of Bitcoin, including how to buy and sell bitcoins, securely store them in digital wallets, and use them for transactions. We will also examine the role of miners, who are essential for creating new bitcoins and securing the Bitcoin network. Additionally, we will explore the future of Bitcoin and how the Lightning Network technology can improve Bitcoin transactions.
+In this course, we will discuss some monetary aspects of Bitcoin, including how to buy and sell bitcoins, securely store them in digital wallets, and use them for transactions. We will also examine the role of miners, who are essential for creating new bitcoins and securing the Bitcoin network. Finally, we will explore the future of Bitcoin and how the Lightning Network technology can improve Bitcoin transactions.
 
 ![image](assets/en/chapter0/4.webp)
 
-It is essential to understand that Bitcoin is a new monetary system that revolutionizes our relationship with money. Learning to use Bitcoin is an essential skill for anyone who wants to be in control of their own money.
+It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money. Learning how to use Bitcoin is a necessary skill for anyone who wants to be in control of their own money.
 
 **Section 1 - Money**
 
@@ -51,11 +49,11 @@ It is essential to understand that Bitcoin is a new monetary system that revolut
 - Chapter 5 - How do Bitcoin wallets work?
 - Chapter 6 - Choosing your security
 - Chapter 7 - Setting up your wallet
-- Chapter 8 - Protecting against time
+- Chapter 8 - Safeguarding against time
 
-**Section 3 - Technical aspects of Bitcoin**
+**Section 3 - Technical features of Bitcoin**
 
-- Chapter 9 - Explanation of a transaction
+- Chapter 9 - What is a transaction?
 - Chapter 10 - Bitcoin nodes
 - Chapter 11 - Miners
 - Chapter 12 - Miners and ecology
@@ -63,65 +61,67 @@ It is essential to understand that Bitcoin is a new monetary system that revolut
 **Section 4 - Saving in Bitcoin**
 
 - Chapter 13 - Bitcoin price
-- Chapter 14 - How to buy Bitcoin
-- Chapter 15 - Working for Bitcoins
+- Chapter 14 - How do you buy Bitcoin?
+- Chapter 15 - Working for Bitcoin
 - Chapter 16 - Hyper-bitcoinization
 
-**Section 5 - The Lightning Network**
+**Section 5 - Lightning Network**
 
 - Chapter 17 - Introduction to the Lightning Network
 - Chapter 18 - Use cases for the Lightning Network
 
-Before discussing the definition and functioning of money in society (Chapter 1), we start with the genesis of Bitcoin. Bitcoin is a relatively new technology, launched in 2009, that is unlike anything else. It is therefore normal not to understand everything at once. In fact, just like when learning to use the Internet or a car, you don't need to know all the technical details to use Bitcoin (receive, pay, secure your funds).
+Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology that is different to anything else. It is therefore normal not to understand everything about it all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
 ![image](assets/en/chapter0/3.webp)
 
-The importance here is mainly to understand this new technology in a general way. We hope that this training will please you and provide you with the necessary foundation to understand and perhaps continue to progress in this new global monetary paradigm.
+The important point here is to understand this new technology in a general way, so we hope you enjoy this training and continue to make progress in this new global monetary paradigm.
 
 ## The Prehistory of Bitcoin
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Before the term "Bitcoin" became synonymous with digital currency and financial transformation, a series of ideas, innovations, and social movements laid the groundwork for its creation. One of the fundamental elements of this prehistory of Bitcoin is the cypherpunk movement.
+Before the term "Bitcoin" became synonymous with digital currency and financial transformation, the groundwork for its creation was laid by a series of ideas, innovations, and social movements. Among these, the cypherpunk movement stands out as a key element in the prehistory of Bitcoin."
 
 ### Cypherpunks: Visionaries of the Digital World
 
 ![image](assets/en/chapter0/0.webp)
-In the heart of the technological evolution of the 1980s and 1990s, a group of people began to deeply question the role of privacy and freedom in the digital age. These individuals, who would later become known as "cypherpunks," firmly believed that cryptography could serve as a tool to protect individual rights against interference from governments and large corporations.
+In the heart of the technological evolution of the 1980s and 1990s, a group of people began to deeply question the role of privacy and freedom in the digital age. These individuals, who would later be known as "cypherpunks", firmly believed that cryptography could serve as a tool to protect individual rights against the interference from governments and large corporations.
 
-Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum contributed to defining the philosophy and vision of cypherpunks. These thinkers shared their ideas in an influential mailing list, where participants from around the world debated the best way to use technology to ensure greater individual freedom.
+Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum played a pivotal role in shaping the philosophy and vision of the movement. These thinkers shared their ideas on an influential mailing list, where participants from around the globe engaged in debates about the best ways to leverage technology for greater individual freedom.
 
-### The Three Pillar Texts of Cypherpunks
+### The Three Fundamental Papers of the Cypherpunks
 
 ![image](assets/en/chapter0/2.webp)
 
-The cypherpunk movement, with its deep roots in digital activism and cryptography, relied on several fundamental texts to express its principles and vision of the future. Among these writings, three stand out in particular:
+The cypherpunk movement, deeply rooted in digital activism and cryptography, drew upon several foundational texts to articulate its principles and vision for the future. Among these writings, three stand out in particular:
 
 - The "Cypherpunk Manifesto":
-  Written by Eric Hughes in 1993, the "Cypherpunk Manifesto" asserts that privacy is a fundamental right. Hughes argued that the ability to communicate freely and confidentially was essential for a free society. The manifesto states, "We cannot expect institutions, corporations, or other impersonal entities to grant us privacy... We must defend it ourselves."
+  Written by Eric Hughes in 1993, the "Cypherpunk Manifesto" asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
 
 - The "Crypto-Anarchist Manifesto":
-  Written by Timothy C. May in 1992, this manifesto explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where information, money, and messages could be exchanged without the intervention of a third party, and anonymously.
+  Written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
 
 - The "Declaration of the Independence of Cyberspace":
-  Although not exclusively cypherpunk, this text reflects the sentiments of many actors in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. It states, "We have no elected government, and we cannot be governed."
+  Although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
 
-### Predecessors of Bitcoin
+### The Predecessors of Bitcoin
 
-Before the emergence of Bitcoin, several attempts had been made to create a digital currency. For example, David Chaum introduced the concept of "anonymous electronic money" with his project "DigiCash" in the 1980s. Unfortunately, due to various constraints, DigiCash never really took off.
+Before the emergence of Bitcoin, there had been several attempts to create a digital currency. For example, David Chaum introduced the concept of "anonymous electronic money" with his project "DigiCash" in the 1980s. Unfortunately, due to various constraints, DigiCash never boomed.
 
-Another important precursor is Wei Dai's "b-money". Although it was never implemented, it presented the idea of an anonymous digital currency where fraud detection was performed by a community of evaluators rather than a central authority.
+Another important precursor is Wei Dai's "B-money". Although it was never implemented, it presented the idea of an anonymous digital currency where fraud detection was performed by a community of evaluators rather than a central authority.
 
 ![image](assets/en/chapter0/1.webp)
 
-It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. He combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
+It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
-Bitcoin was more than just a digital currency; it represented an achievement of cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
+Bitcoin was more than just a digital currency: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
 
 ### Conclusion
 
-The prehistory of Bitcoin is deeply rooted in the cypherpunk movement and a collective quest for greater freedom in the digital age. By combining the principles of cryptography, decentralization, and integrity, Bitcoin has become much more than a currency; it is the product of a philosophical and technological revolution that continues to reshape our world.
+The prehistory of Bitcoin is deeply rooted in the cypherpunk movement and the collective quest for greater freedom in the digital age. By combining the principles of cryptography, decentralization, and integrity, Bitcoin has become much more than a currency. In fact, it is the product of a philosophical and technological revolution that continues to reshape our world.
 
-Therefore, Bitcoin is a protocol that spans long periods of time and encourages us to question our relationship with energy, time, and money. But is Bitcoin a "real" currency? What is money? Does it exist in multiple forms? We will explore these questions in the next chapter.
+Therefore, Bitcoin is a protocol that stretches over long periods of time, and encourages us to question our relationship with energy, time, and money. 
+
+However, is Bitcoin a "real" currency? To understand this, we first need to understand the concept of money and its various forms, which we will explore in the next chapter.
 
 ![The Prehistory of Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
@@ -131,28 +131,28 @@ Therefore, Bitcoin is a protocol that spans long periods of time and encourages 
 ## Money Throughout History
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
-The evolution of money is a fascinating aspect of human history, reflecting the ingenuity of civilizations throughout the ages in meeting constantly evolving economic needs.
+The evolution of money is a fascinating aspect of human history that reflects the ingenuity of civilizations throughout the ages in meeting constantly evolving economic needs.
 
 ![image](assets/en/chapter1/2.webp)
 
-### From Shells to Bank Accounts'
+### From Shells to Bank Accounts
 
-'Originally, currency was tangible, often linked to essential goods such as grain, livestock, and other commodities. However, these goods had major drawbacks, such as perishability, making it difficult to use them as a long-term savings medium. For example, a failed harvest or illness could wipe out an individual's wealth overnight.
-As civilizations advanced and trade expanded to new regions, there was a need for a universal medium of exchange. Objects such as shells and gemstones were experimented with, but they were not perfect. Gold eventually became the standard due to its rarity, durability, and divisibility. It was, and remains to this day, a symbol of wealth and power.
+Originally, currency was a tangible asset, such as grain, livestock, or another commodity. However, these goods had the major disadvantage of being perishable, making it difficult to use them as a long-term savings medium. For example, poor harvests or animal illness could destroy an individual's wealth overnight.
+Thus, as civilizations advanced and trade expanded to new regions, the need for a universal medium of exchange arised. Individuals first experimented with objects such as shells and gemstones, but they were not as durable or scarse as they believed. Eventually, gold became the standard, due to its rarity, durability, and divisibility. It was, and remains to this day, a symbol of wealth and power.
 
 ![image](assets/en/chapter1/1.webp)
 
-### What is the role of money?
+### What is the Role of Money?
 
 Money is a highly sophisticated communication tool:
 
-- It allows communication between the present and the future. We transform our time and energy into an asset that can be reused in the future without the risk of devaluation.
+- It allows communication between the present and the future, because it transforms our time and energy into an asset that can be reused in the future without the risk of devaluation.
 
-- It allows communication in a universal common language. Without knowing each other, without speaking the same language, two strangers can exchange, trade, and agree on the value of things.
+- It facilitates communication in a universal language: without knowing each other or speaking the same tongue, two strangers can exchange, trade, and agree on the value of things.
 
-Its function in our world is difficult to artificially replicate. No human or group of humans can create money; it is a natural social phenomenon that must emerge from the market and voluntary consensus. Prices are signals, information, that help society choose how resources will be allocated.
+Its function in our world is difficult to artificially replicate. In fact, no individual or group can create money, as it is a natural phenomenon that must emerge from the market and voluntary consensus. Prices serve as signals and pieces of information that guide society in allocating resources.
 
-Gold as money is the choice of 4,000 years of monetary Darwinism based on 3 functions:
+For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on three key functions:
 
 - Store of value
 - Medium of exchange
@@ -162,29 +162,29 @@ Gold as money is the choice of 4,000 years of monetary Darwinism based on 3 func
 ![image](assets/en/chapter1/4.webp)
 ![image](assets/en/chapter1/5.webp)
 
-### The characteristics of money
+### The Characteristics of Money
 
-Gold ideally meets the criteria of an efficient currency: its natural rarity makes it valuable, while its chemical properties allow it to not erode over time. However, this form of money is not easily divisible or transportable over long distances. In a globalized and digital world, gold cannot keep up and needs a central entity to make it divisible and easily exchangeable (minted coin).
+Gold ideally meets the criteria of an efficient currency: its natural rarity makes it valuable, while its chemical properties ensure it does not erode over time. These features have made gold a great store of value, but not a common currency, because this form of money is not easily divisible or transportable over long distances. In a globalized and digital world, gold struggles to keep pace and requires a central entity to make it divisible and easily exchangeable (i.e. through minted coins).
 
-These flaws have made gold a store of value, but not a common currency, to the detriment of state fiduciary currencies (fiat) that are easily usable but constantly devalued by the entities that control them (king, central bank, emperor, dictator).
+On the opposite, state fiduciary currencies (fiat) are easily usable, but are constantly devalued by the entities that control them (kings, central banks, emperors, dictators).
 
-The criteria for an effective currency are multiple. A good currency must be:
+To explain this concept better, we shall explore the characteristics of an effective currency:
 
 ![image](assets/en/chapter1/6.webp)
 
-- **Fungible**, meaning interchangeable without loss of value
-- **Divisible**, in order to facilitate transactions of different volumes
-- **Liquid**, meaning easily convertible into goods or services.
+- **Fungibility**, meaning that it is interchangeable with another unit of the same kind without loss of value;
+- **Divisibility**, as it can be divided into smaller units to facilitate transactions of varying volumes;
+- **Liquidity**, which means it is easily convertible into goods or services.
 
-In order to meet these criteria, currency evolves step by step:
+In order to meet these criteria, currency has historically evolved by taking different steps:
 
 - Raw stone -> Coin
 - Banknote -> Bank card
 - Blockchain -> Lightning Network
 
-Today, currencies are still evolving, adapting their forms to meet different uses. For example, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, however their value is constantly eroded by monetary inflation.
+Currencies are still evolving to this day, adapting their forms to meet different use cases. For example, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, but their value is constantly lowered by monetary inflation.
 
-Bitcoin, on the other hand, presents new possibilities. Due to its properties, such as its strictly limited supply, it offers an excellent store of value. Moreover, as a neutral internet currency, it represents a good means of exchange that knows no borders. However, it is still not widely accepted in commerce today, despite [constant adoption](https://btcmap.org/map).
+On the other hand, Bitcoin presents new possibilities. Its properties, such as a strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable means of exchange that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
 
 ### Quick recap in a poster!
 
