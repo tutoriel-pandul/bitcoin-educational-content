@@ -338,15 +338,15 @@ Bitcoin is a decentralized digital currency with a pre-defined maximum quantity 
 
 ![image](assets/en/chapter4/0.webp)
 
-Regarding its monetary issuance, it can be illustrated by an S-curve that represents the quantity of bitcoins created over time. For example, in 2022, approximately 18.5 million bitcoins were in circulation. Forecasts indicate that by 2025, there will be around 19.5 million bitcoins, representing ~93% of the total supply, and by 2037, this figure will reach 20.4 million.
+Its monetary issuance can be illustrated by a curve that represents the quantity of bitcoins created over time. For example, in 2022, approximately 18.5 million bitcoins were in circulation. Forecasts indicate that by 2025, there will be around 19.5 million bitcoins, representing around the 93% of the total supply, and by 2037, this figure will reach 20.4 million.
 
-### How to Create New Bitcoins?
+### How are New Bitcoins Created?
 
-The creation of new bitcoins is the result of the mining process, a procedure for verifying transactions on the Bitcoin network.
+The creation of new bitcoins is the result of the mining process. In a nutshell, miners use powerful computers that solve complex mathematical problems, which validate and secure transactions. Once a problem is solved, the miner adds a new block of transactions to the blockchain, a decentralized and distributed ledger that records all transactions made on the network. The blockchain ensures transparency and security, as each block is linked to the previous one, making it nearly impossible to alter past data without consensus from the network.
 
 ![image](assets/en/chapter4/1.webp)
 
-Miners, who perform this task, are rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years, an event known as "halving" -- giving the monetary issuance curve a stair-like shape. Due to this halving mechanism, it can be mathematically predicted that the creation of bitcoins will cease in 2140, when the total number of bitcoins reaches its limit of 21 million.
+After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "halving"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -371,29 +371,31 @@ Miners, who perform this task, are rewarded with the issuance of new bitcoins ev
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-We'll come back to miners in detail in the mining chapter.
+We will revisit the concept of mining in more details in the [miner chapter](https://planb.network/en/courses/btc101/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Guaranteeing digital scarcity
 
-Bitcoin's scarcity is guaranteed by two key mechanisms: the adjustment of mining difficulty and game theory:
+The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by two key mechanisms: the adjustment of mining difficulty and the game theory.
 
-- Mining difficulty adjustment is a mechanism that takes place every 2016 blocks, or around two weeks, to ensure that, on average, a new block is added to the blockchain every ten minutes. This frequency of block creation and the total quantity of bitcoins are fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
+- The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
 
 ![image](assets/en/chapter4/2.webp)
 
-> Did you know? Miners are incentivized to mine a block to earn the new bitcoins (block subsidy) and transaction fees associated with the transactions they include in their block. As the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block subsidy.'
+> Did you know that miners are incentivized to mine a block in order to earn new bitcoins through the block subsidy, as well as transaction fees from the transactions they include in that block?
 
-- Game theory is a mathematical concept that relies on human rationality. Here, in Bitcoin, it is the users who vote for protocol changes. Yes, you read that right: any modification to the Bitcoin protocol would require the agreement of the entire community of users, which is highly complex. So, if someone wanted to create a 22nd million bitcoin, they would have to convince all users to voluntarily devalue their own savings, which is unlikely to happen because Bitcoin is global and not governed by a central group.
+Thus, as the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block subsidy.
+
+- Game theory is a mathematical concept that relies on human rationality. It assumes that individuals act logically, seeking to maximize their own benefits while considering the potential decisions of others. In Bitcoin, game theory helps to ensure that the majority of miners and users will act in the best interest of the network. In fact, since protocol changes are voted by the users, any modification to the Bitcoin protocol would require the agreement of the entire community of users, which is highly complex. So, if someone wanted to create a 22nd million bitcoin, they would have to convince all users to voluntarily devalue their own savings, which is unlikely to happen because Bitcoin is global and is not governed by a central group.
 
 ![image](assets/en/chapter4/3.webp)
 
-The idea of devaluing the currency goes against the fundamental philosophy of Bitcoin, so changing this limit is highly unlikely.
+The idea of devaluing the currency goes against the fundamental philosophy of Bitcoin, so a change in its overall quantity is highly unlikely to happen.
 
-### An auditable monetary policy every second from the beginning and forever!
+### An Auditable Monetary Policy: Every Second, from the Beginning and Forever!
 
 The scarcity of Bitcoin is a major asset, and the maximum quantity of 21 million bitcoins in circulation is public and verifiable by anyone.
 
-In fact, anyone can verify the quantity of bitcoins in circulation by entering a simple command on a Bitcoin node: `bitcoin-cli gettxoutsetinfo`. This transparency and verifiability strengthen trust in the Bitcoin system, which is not based on centralized institutions or individuals, but on a mathematical and cryptographic guarantee inherent in its protocol. (You will learn how to do this easily in LN201)
+In fact, anyone can do this through a Bitcoin node (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
 
 ```json
 {
@@ -408,9 +410,9 @@ In fact, anyone can verify the quantity of bitcoins in circulation by entering a
 }
 ```
 
-Bitcoin, by its design, guarantees sound monetary management by limiting its creation and protecting users' savings, distinguishing it from other currencies. Aligned with the principles of Austrian economics (details in ECON201), its controlled quantity and predictable distribution protect it from the inherent risks of inflation in traditional currencies.
+Bitcoin guarantees a sound monetary management by limiting its creation by design, which makes it very different from other currencies because it can protect users' savings. Aligned with the principles of Austrian economics, its stable quantity and predictable distribution protect it from the inherent risks of inflation that traditional currencies have to face (see [ECO201](https://planb.network/en/courses/eco201) to know more).
 
-In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that is not only useful and verifiable but also preserves the value of users' savings by strictly limiting its supply.
+In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that not only is useful and verifiable, but also preserves the value of users' savings by strictly limiting its supply.
 
 ### Quick recap in a poster!
 
