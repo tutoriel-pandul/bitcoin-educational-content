@@ -2,7 +2,7 @@ question: Was ist der grundlegende Unterschied zwischen den Theorien von Turgot 
 
 answer: Turgot glaubte, dass der Wert durch Arbeit bestimmt wird, während Smith der Meinung war, er werde durch den Nutzen bestimmt.
 
-Falsche Antworten:
+wrong_answers:
   - Turgot war der Ansicht, dass Freihandel die beste Wirtschaftspolitik sei, während Smith an Protektionismus glaubte.
   - Turgot meinte, dass die Rolle des Staates darin bestehen sollte, den Markt frei zu lassen, während Smith glaubte, dass die Regierung in die Wirtschaft eingreifen sollte.
   - Es gibt keinen grundlegenden Unterschied zwischen den Theorien von Turgot und denen von Smith bezüglich des Wertes.
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation:
   Turgot betrachtete Arbeit als den Hauptbestimmungsfaktor für Wert, während Adam Smith eine Vorstellung von Wert einführte, die durch Nutzen und Nachfrage beeinflusst wurde und die subjektive Ökonomie vorwegnahm.
 
-Überprüft: false
+reviewed: false

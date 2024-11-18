@@ -1,6 +1,6 @@
 question: Was ist der Hauptvorteil von Bitcoin für Personen, die unter finanzieller Unterdrückung oder diktatorischen Regimen leben?
 answer: Die Möglichkeit, Zensur und Bankbeschränkungen zu entkommen.
-Falsche Antworten:
+wrong_answers:
   - Eine stabile Währung zu nutzen, die einen festen Wert hat.
   - Anonyme Transaktionen zu ermöglichen.
   - Hohe Renditen bei Investitionen zu erzielen.
@@ -8,4 +8,4 @@ explanation: >-
   Bitcoin bietet eine Form der finanziellen Freiheit, indem es ermöglicht, Zensur und
   Bankbeschränkungen zu entkommen. Dies ist besonders vorteilhaft für Personen, die unter
   finanzieller Unterdrückung oder einem diktatorischen Regime leben.
-Überprüft: true
+reviewed: true

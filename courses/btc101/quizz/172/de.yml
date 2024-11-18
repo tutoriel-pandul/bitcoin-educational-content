@@ -2,7 +2,7 @@ question: Was ist der Hauptunterschied zwischen der keynesianischen Wirtschaftsl
 
 answer: Die keynesianische Wirtschaftslehre berücksichtigt nicht die zeitlichen und dynamischen Aspekte von Situationen und Ressourcen.
 
-Falsche Antworten:
+wrong_answers:
   - Die keynesianische Wirtschaftslehre fördert den übermäßigen Verbrauch von Währungen.
   - Die keynesianische Wirtschaftslehre erkennt die Knappheit von Situationen und Ressourcen an.
   - Die keynesianische Wirtschaftslehre fördert die Inflation.
@@ -14,4 +14,4 @@ explanation: >-
   Mit anderen Worten, eine unbegrenzte Währung kann die begrenzten Ressourcen
   unseres Planeten nicht effektiv widerspiegeln.
 
-Überprüft: true
+reviewed: true

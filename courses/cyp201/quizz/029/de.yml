@@ -1,6 +1,6 @@
 question: Was beweist eine digitale Signatur im Bitcoin-System über das scriptSig?
 answer: Den Besitz des privaten Schlüssels, der einem bestimmten öffentlichen Schlüssel zugeordnet ist.
-Falsche Antworten:
+wrong_answers:
   - Den Besitz einer Bitcoin-Adresse.
   - Die Fähigkeit, einen Bitcoin-Block zu minen.
   - Die Gültigkeit einer Bitcoin-Transaktion.

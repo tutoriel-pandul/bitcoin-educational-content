@@ -2,7 +2,7 @@ question: Welcher Schritt des Chaumian CoinJoin-Verfahrens beinhaltet das Änder
 
 answer: Die Registrierung der Ausgänge.
 
-Falsche Antworten:
+wrong_answers:
   - Die Registrierung der Eingänge.
   - Die Signierung der Transaktion.
   - Die Übertragung der Transaktion.
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Um zu verhindern, dass der Koordinator einen spezifischen Ausgang mit einem Eingang verknüpfen kann, ändern die Benutzer ihre Tor-Identität, bevor sie ihre Klartext-Empfangsadressen an den Koordinator senden.
 
-Überprüft: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Was ist die bekannteste elliptische Kurve, die in kryptografischen Systemen verwendet wird?
 answer: secp256r1.
-Falsche Antworten:
+wrong_answers:
   - secp256k1.
   - secp160r1.
   - ed25519.

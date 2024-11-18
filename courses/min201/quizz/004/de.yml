@@ -1,6 +1,6 @@
 question: Was ist das Hauptwerkzeug, das von Minern im Bitcoin-Netzwerk heute verwendet wird?
 answer: ASICs
-Falsche Antworten:
+wrong_answers:
   - CPUs
   - GPUs
   - FPGAs
@@ -9,4 +9,4 @@ explanation: |
   Operation dedizierte ASICs, die optimiert sind, um die maximale Anzahl
   von Kombinationen mit dem geringstmöglichen Energieverbrauch
   und so schnell wie möglich zu testen.
-Überprüft: true
+reviewed: true

@@ -2,7 +2,7 @@ question: Welche heuristische Analyse der Kette wird von der Payjoin-Transaktion
 
 answer: Die CIOH
 
-Falsche Antworten:
+wrong_answers:
   - Adressenwiederverwendung
   - Wallet-Fingerprinting
   - Versionierungswiederverwendung

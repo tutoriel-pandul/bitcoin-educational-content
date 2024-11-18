@@ -1,6 +1,6 @@
 question: Welche Funktion wird verwendet, um eine Adresse zu generieren?
 answer: HASH160.
-Falsche Antworten:
+wrong_answers:
   - HASH256.
   - HASH512.
   - SHA256.

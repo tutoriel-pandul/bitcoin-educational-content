@@ -2,7 +2,7 @@ question: Was ist die Hauptrolle der Transaktion "Tx0" im Whirlpool?
 
 answer: Die UTXOs zu vereinheitlichen.
 
-Falsche Antworten:
+wrong_answers:
   - Den ersten Mix durchzuführen.
   - Die UTXOs aus dem Pool zu entfernen.
   - Die gemischten UTXOs auszugeben.

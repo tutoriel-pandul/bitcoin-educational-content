@@ -1,7 +1,7 @@
 question: Was ist der Hauptunterschied zwischen einem CPU und einem ASIC im Kontext des Bitcoin-Minings?
 answer: Ein CPU kann eine Vielzahl verschiedener Arten von Berechnungen durchführen, ohne besonders für eine Art von Berechnung optimiert zu sein, während ein ASIC nur eine Art von Berechnung durchführen kann, dies aber sehr effizient.
 
-Falsche Antworten:
+wrong_answers:
   - Ein CPU ist energieeffizienter als ein ASIC.
   - Ein ASIC ist vielseitiger als ein CPU.
   - Ein CPU kann nur eine Art von Berechnung durchführen, während ein ASIC eine Vielzahl verschiedener Arten von Berechnungen durchführen kann.
@@ -15,4 +15,4 @@ explanation: |
   ein ASIC in der Lage sein wird, nur eine Art von
   Berechnung durchzuführen, dies aber sehr effizient.
 
-Überprüft: true
+reviewed: true

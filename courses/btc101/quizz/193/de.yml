@@ -1,6 +1,6 @@
 question: Was ist eine der Initiativen, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen?
 answer: BTCMap.
-Falsche Antworten:
+wrong_answers:
   - Bitcoin Exchange.
   - Bitcoin Mining.
   - BTCLottery.

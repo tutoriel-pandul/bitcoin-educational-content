@@ -1,6 +1,6 @@
 question: Welche zwei Formen des Plünderns beschreibt Bastiat?
 answer: Legales Plündern und illegales Plündern
-Falsche Antworten:
+wrong_answers:
   - Moralisch Plündern und unmoralisch Plündern
   - Internes Plündern und externes Plündern
   - Plündern von Gütern und Plündern von Dienstleistungen

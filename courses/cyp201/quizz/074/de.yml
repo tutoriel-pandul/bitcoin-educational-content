@@ -1,6 +1,6 @@
 question: Welches Präfix oder HRP entspricht einer SegWit-Standardadresse?
 answer: "bc"
-Falsche Antworten:
+wrong_answers:
   - "1"
   - "0x"
   - "btc"

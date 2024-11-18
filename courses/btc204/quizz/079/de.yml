@@ -2,7 +2,7 @@ question: Welcher Begriff beschreibt den Schutz, den ein Coinjoin gegen die Anal
 
 answer: Prospective anonset.
 
-Falsche Antworten:
+wrong_answers:
   - Retrospective anonset.
   - Rückverfolgbarkeitsresistenz.
   - Zeitliche Privatsphäre.
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Der Schutz gegen Analysen von der Vergangenheit bis zur Gegenwart wird als prospective anonset bezeichnet.
 
-Überprüft: false
+reviewed: false

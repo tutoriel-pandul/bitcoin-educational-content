@@ -2,7 +2,7 @@ question: Was war der Zweck der von den römischen Kaisern organisierten "Brot u
 
 answer: Die Menschen zu unterhalten und ihre Aufmerksamkeit von politischen Problemen abzulenken
 
-Falsche Antworten:
+wrong_answers:
   - Die römische Kultur und Kunst zu fördern
   - Soldaten auszubilden und Bürger auf den Krieg vorzubereiten
   - Die Wirtschaft anzukurbeln und Arbeitsplätze zu schaffen

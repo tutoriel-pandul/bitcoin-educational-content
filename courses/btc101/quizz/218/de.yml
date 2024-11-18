@@ -1,6 +1,6 @@
 question: Wie wird die Art der Bitcoin-Adoption in diesem Kurs beschrieben?
 answer: Viral.
-Falsche Antworten:
+wrong_answers:
   - Langsam und stetig.
   - Schnell und unkontrollierbar.
   - Sporadisch und unvorhersehbar.
@@ -8,4 +8,4 @@ explanation: |
   Der Kurstext beschreibt die Adoption von Bitcoin als viral,
   was darauf hindeutet, dass sie sich schnell und weit von einer
   Person zur anderen verbreitet, ähnlich wie ein Virus, aber ein guter. 
-Überprüft: true
+reviewed: true

@@ -2,7 +2,7 @@ question: Was ist die Hauptquelle der Verwirrung zwischen den Begriffen "Blockch
 
 answer: Blockchiffren werden manchmal ausschließlich als Algorithmen verstanden, die Blockmodi wie ECB oder CBC verwenden.
 
-Falsche Antworten:
+wrong_answers:
   - Stromchiffren sind immer weniger sicher als Blockchiffren.
   - Blockchiffren arbeiten jeweils mit einem Bit.
   - Stromchiffren benötigen immer eine Auffüllung.
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Die Verwirrung entsteht dadurch, dass einige Blockchiffren nur als Algorithmen betrachten, die spezifische Blockmodi verwenden, wohingegen sie in Wirklichkeit Verschlüsselungsschemata wie den OFB-Modus einschließen können.
 
-Überprüft: false
+reviewed: false

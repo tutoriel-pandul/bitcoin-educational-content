@@ -2,7 +2,7 @@ question: Wie viele aufeinanderfolgende Transaktionen führt ein klassisches Ric
 
 answer: 5
 
-Falsche Antworten:
+wrong_answers:
   - 2
   - 8
   - 14
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Die Ricochet-Methode beinhaltet typischerweise das Durchführen von 4 Transaktionen an sich selbst und eine finale, um die Mittel an den endgültigen Empfänger zu senden.
 
-Überprüft: false
+reviewed: false

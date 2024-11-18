@@ -2,7 +2,7 @@ question: Warum kann der Koordinator die CoinJoin-Transaktion nicht ändern, nac
 
 answer: Das Ändern würde die Transaktion ungültig machen.
 
-Falsche Antworten:
+wrong_answers:
   - Sie haben keinen Zugang zu den Empfangsadressen der Teilnehmer.
   - Die Unterschriften sind verschlüsselt.
   - Die Transaktion wurde bereits im Bitcoin-Netzwerk übertragen.

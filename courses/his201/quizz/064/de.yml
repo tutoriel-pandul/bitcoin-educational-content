@@ -1,6 +1,6 @@
 question: Wer war der Autor des ersten Artikels, der Bitcoin auf Französisch vorstellte?
 answer: Lucien Grondin (grondilu)
-Falsche Antworten:
+wrong_answers:
   - Lionel Dricot (Ploum)
   - Amaury Séchet (deadalnix)
   - David François (davout)

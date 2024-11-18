@@ -2,7 +2,7 @@ question: Was ist eine Stonewall x2 Transaktion?
 
 answer: Eine Zahlungstransaktion in Form eines Mini-Coinjoin
 
-Falsche Antworten:
+wrong_answers:
   - Eine Transaktion, die einen Mini-Coinjoin imitiert, ohne einer zu sein
   - Eine einfache Zahlungstransaktion
   - Eine Transaktion, die den Empfänger in den Inputs einbezieht

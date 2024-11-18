@@ -2,7 +2,7 @@ question: Welche kryptografische Methode wird verwendet, um zu verhindern, dass 
 
 answer: Chaum-Blindsignaturen.
 
-Falsche Antworten:
+wrong_answers:
   - Schnorr-Signaturen.
   - P2SH-Adressen.
   - P2TR-Adressen.
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Bei sogenannten "Chaumian" Coinjoins wird die Nutzung von Tor und David Chaums Blindsignaturen kombiniert, um sicherzustellen, dass der Koordinator nicht wissen kann, welcher Ausgang zu welchem Benutzer gehört.
 
-Überprüft: false
+reviewed: false

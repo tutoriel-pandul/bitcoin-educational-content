@@ -2,7 +2,7 @@ question: Warum wendet der Analyst COINJOIN nicht bei einer Stonewall-Transaktio
 
 answer: Weil es 2 Ausgänge mit denselben Beträgen gibt
 
-Falsche Antworten:
+wrong_answers:
   - Weil es nur 2 Eingänge gibt
   - Weil sie mit diesem Muster nicht vertraut sind
   - Weil es mehr Ausgänge als Eingänge gibt
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Die Analyse einer Stonewall-Transaktion von außen führt nicht zur Anwendung von COINJOIN, da das Vorhandensein von zwei Ausgängen mit demselben Betrag ein Coinjoin-Muster nahelegt. Aus einer externen Perspektive ist COINJOIN daher in diesem spezifischen Fall nicht anwendbar.
 
-Überprüft: false
+reviewed: false

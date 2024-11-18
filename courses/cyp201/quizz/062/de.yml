@@ -2,7 +2,7 @@ question: Um eine Ableitung eines normalen Kind-Schlüsselpaares durchzuführen,
 
 answer: Elterlicher öffentlicher Schlüssel || Index, Elterlicher Ketten-Code.
 
-Falsche Antworten:
+wrong_answers:
   - Elterlicher privater Schlüssel || Index, Elterlicher Ketten-Code.
   - Elterlicher privater Schlüssel, Elterlicher Ketten-Code.
   - Elterlicher privater Schlüssel || Index.

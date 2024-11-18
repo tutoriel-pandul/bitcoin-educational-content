@@ -1,9 +1,9 @@
 question: Welche Algorithmen werden für die Ableitung in Bitcoin HD-Wallets verwendet?
 answer: HMAC/PBKDF2
-Falsche Antworten:
+wrong_answers:
   - NMAC/PBKDF1
   - KMAC/Scrypt
   - CMAC/Argon2
 explanation: |
   Bitcoin HD-Wallets verwenden HMAC (Hash-basierter Nachrichtenauthentifizierungscode) für die Schlüsselableitung und PBKDF2 (Password-Based Key Derivation Function 2) für die Seed-Ableitung.
-Überprüft: false
+reviewed: false

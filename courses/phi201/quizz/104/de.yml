@@ -1,6 +1,6 @@
 question: Warum behaupten Österreicher, dass Sozialismus unerreichbar ist?
 answer: Sie behaupten, dass Sozialismus wirtschaftlich ineffizient, aber moralisch gerecht ist.
-Falsche Antworten:
+wrong_answers:
   - Sozialismus widerspricht der Natur.
   - Sozialismus ist wirtschaftlich effizient, aber unmoralisch.
   - Österreicher kritisieren den Sozialismus, weil er Innovation und Wohlstandsschaffung nicht zulässt.

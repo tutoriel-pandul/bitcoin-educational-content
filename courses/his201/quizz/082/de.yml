@@ -1,6 +1,6 @@
 question: Wie lautet der Name des Gründers der schwedischen Piratenpartei, der Bitcoin im Mai 2011 als "das Napster des Bankwesens" beschrieb?
 answer: Rick Falkvinge
-Falsche Antworten:
+wrong_answers:
   - Smári McCarthy
   - Edward Snowden
   - Florian Hufsky

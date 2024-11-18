@@ -1,6 +1,6 @@
 question: In welcher Einheit wurde die Hashrate des Netzwerks im zweiten Halbjahr 2010 gemessen?
 answer: In GH/s
-Falsche Antworten:
+wrong_answers:
   - In MH/s
   - In TH/s
   - In PH/s

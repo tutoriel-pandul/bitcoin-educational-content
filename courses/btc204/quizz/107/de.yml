@@ -2,7 +2,7 @@ question: Wie kann eine Payjoin-Transaktion als eine steganografische Transaktio
 
 answer: Sie verbirgt den tatsächlichen Zahlungsbetrag vor externen Beobachtern.
 
-Falsche Antworten:
+wrong_answers:
   - Sie verschlüsselt den tatsächlichen Zahlungsbetrag für externe Beobachter.
   - Sie verbirgt den tatsächlichen Zahlungsbetrag vor dem Empfänger.
   - Sie verschlüsselt den tatsächlichen Zahlungsbetrag für den Empfänger.
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Die Payjoin-Transaktion fällt unter den Bereich der Steganografie, weil sie den realen Betrag einer Transaktion innerhalb einer Scheintransaktion verbirgt, die als Täuschung für externe Beobachter dient.
 
-Überprüft: false
+reviewed: false

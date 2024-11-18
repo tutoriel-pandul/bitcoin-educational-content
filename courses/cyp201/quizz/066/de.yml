@@ -2,7 +2,7 @@ question: Was bedeutet das Apostroph oder das "H", das rechts von der Zahl in ei
 
 answer: Es zeigt eine gehärtete Ableitung an.
 
-Falsche Antworten:
+wrong_answers:
   - Es zeigt eine normale Ableitung an.
   - Es ist nur zur Dekoration da.
   - Es zeigt einen Änderungsschlüssel an.

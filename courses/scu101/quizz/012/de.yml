@@ -2,7 +2,7 @@ question: Warum ist es wichtig, den öffentlichen Schlüssel der Website mithilf
 
 answer: Um die Authentizität der Website zu bestätigen.
 
-Falsche Antworten:
+wrong_answers:
   - Um sicherzustellen, dass kein Betrug passieren kann, aber nur bei Verbindung über ein öffentliches WLAN-Netzwerk.
   - Um Online-Werbung teilweise zu blockieren.
   - Um sicherzustellen, dass keine bösartige Entität die Website imitiert.
@@ -12,4 +12,4 @@ explanation: |
   ist wichtig, um die Authentizität der Website zu bestätigen. Dies
   hilft, sich gegen bösartige Personen zu schützen, die die Website imitieren und Daten im Klartext übertragen.
 
-Überprüft: true
+reviewed: true

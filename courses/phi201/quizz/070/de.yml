@@ -2,7 +2,7 @@ question: Was ist laut dem Text der grundlegende Unterschied zwischen "Vertragst
 
 answer: Vertragstheorien streben soziale Harmonie durch staatlichen Zwang an, während Markttheorien es den individuellen Interessen ermöglichen, sich eigenständig zu harmonisieren.
 
-Falsche Antworten:
+wrong_answers:
   - Vertragstheorien gelten für primitive Gesellschaften, während Markttheorien für moderne Gesellschaften gelten.
   - Vertragstheorien betreffen die Verteilung von Reichtum, während Markttheorien die Produktion von Gütern und Dienstleistungen betreffen.
   - Vertragstheorien werden von den Physiokraten verteidigt, während Markttheorien von den Merkantilisten verteidigt werden.

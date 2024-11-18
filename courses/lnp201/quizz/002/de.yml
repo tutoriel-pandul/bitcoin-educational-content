@@ -2,7 +2,7 @@ question: Wenn Alice 40.000 Satoshis an Bob über einen Zahlungskanal sendet, in
 
 answer: 60.000 Satoshis
 
-Falsche Antworten:
+wrong_answers:
   - 30.000 Satoshis
   - 40.000 Satoshis
   - 140.000 Satoshis
@@ -10,4 +10,4 @@ Falsche Antworten:
 explanation: |
   Nachdem Alice 40.000 Satoshis gesendet hat, beträgt ihr Guthaben im Kanal 60.000 Satoshis.
 
-Überprüft: false
+reviewed: false

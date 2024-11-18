@@ -1,6 +1,6 @@
 question: Was ist das BIP (Bitcoin Improvement Proposal), das die erste Version eines HD-Wallets bei Bitcoin vorgeschlagen hat?
 answer: BIP32.
-Falsche Antworten:
+wrong_answers:
   - BIP16.
   - BIP39.
   - BIP44.

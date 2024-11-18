@@ -1,6 +1,6 @@
 question: In welchem BIP wird die Idee der Wiederherstellungsphrase oder Mnemonik-Phrase (12/24 Wörter) vorgeschlagen?
 answer: BIP39.
-Falsche Antworten:
+wrong_answers:
   - BIP16.
   - BIP32.
   - BIP44.

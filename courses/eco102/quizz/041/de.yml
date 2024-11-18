@@ -2,7 +2,7 @@ question: Welches Problem identifiziert Bastiat mit dem Argument des "Arbeitssch
 
 answer: Alle diese Antworten sind korrekt
 
-Falsche Antworten:
+wrong_answers:
   - Es ist zu simpel und berücksichtigt nicht die langfristigen Konsequenzen
   - Es basiert auf einer falschen Vorstellung von wirtschaftlichem Wettbewerb
   - Es wird verwendet, um protektionistische Maßnahmen zu rechtfertigen, die den Verbrauchern schaden

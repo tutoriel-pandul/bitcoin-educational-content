@@ -1,6 +1,6 @@
 question: Welche Schlagzeile einer britischen Zeitung wurde im Januar 2009 im Genesis-Block von Bitcoin aufgenommen?
 answer: The Times
-Falsche Antworten:
+wrong_answers:
   - The Guardian
   - The Independent
   - The Telegraph

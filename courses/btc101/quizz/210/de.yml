@@ -1,9 +1,9 @@
 question: Welches Land hat Bitcoin als gesetzliches Zahlungsmittel anerkannt?
 answer: El Salvador.
-Falsche Antworten:
+wrong_answers:
   - Vereinigte Staaten.
   - China.
   - Indien.
 explanation: >-
   El Salvador hat den mutigen Schritt unternommen, Bitcoin vollständig zu adoptieren und es als gesetzliches Zahlungsmittel zu deklarieren.
-Überprüft: true
+reviewed: true
