@@ -1,6 +1,6 @@
 question: Mikä on päähuoli Bitcoin-louhinnan ympäristökustannuksista?
 answer: Energiankulutus.
-vaarat_vastaukset:
+wrong_answers:
   - ASICien tuotanto.
   - ASICien kierrätys.
   - Sähkön hinta.

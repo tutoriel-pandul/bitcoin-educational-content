@@ -6,4 +6,4 @@ wrong_answers:
   - Použijeme dvojitý SHA256 hash pro kompresi veřejného klíče.
 explanation: |
   Kompresi veřejného klíče provádíme tak, že zachováme x-ovou souřadnici a přidáme prefix 0x02 nebo 0x03, aby bylo indikováno, zda je y sudé nebo liché.
-recenzováno: false
+reviewed: false

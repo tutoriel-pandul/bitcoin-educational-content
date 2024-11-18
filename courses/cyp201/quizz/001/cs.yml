@@ -1,9 +1,9 @@
 question: Jaká je velikost výstupu hašovací funkce SHA256?
 answer: 256 bitů.
-nesprávné_odpovědi:
+wrong_answers:
   - 256 bajtů.
   - 512 bitů.
   - 512 bajtů.
 explanation: |
   SHA-256 produkuje pevný výstup 256 bitů, bez ohledu na velikost vstupních dat.
-recenzováno: false
+reviewed: false

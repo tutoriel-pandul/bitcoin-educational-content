@@ -6,4 +6,4 @@ wrong_answers:
   - Integrativní kryptografie
 explanation: |
   Asymetrická kryptografie je založena na použití páru klíčů, veřejného a soukromého, což umožňuje šifrování bez sdílení tajného klíče.
-recenzováno: false
+reviewed: false

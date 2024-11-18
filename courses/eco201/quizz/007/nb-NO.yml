@@ -1,6 +1,6 @@
 question: Hvem blir takket for å ha produsert kurset?
 answer: "Théo Mogenet"
-feil_answer:
+wrong_answers:
   - Descoupes Bitcoin
   - "Théo Boloré"
   - Ingen av de ovennevnte

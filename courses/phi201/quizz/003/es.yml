@@ -1,6 +1,6 @@
 question: ¿Cuál es la relación entre la libertad y la responsabilidad?
 answer: La responsabilidad surge de la libertad de las elecciones individuales
-respuestas_erróneas:
+wrong_answers:
   - La libertad está limitada por la responsabilidad de otros
   - La libertad y la responsabilidad son dos conceptos independientes
   - La responsabilidad es un obstáculo para la libertad

@@ -1,6 +1,6 @@
 question: Hvilket av følgende er IKKE en av de tre essensielle funksjonene til penger?
 answer: Kilde til Energi
-feil_answer:
+wrong_answers:
   - Verdioppbevaring
   - Byttemiddel
   - Regnskapsenhet

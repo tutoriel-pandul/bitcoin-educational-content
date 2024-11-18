@@ -6,4 +6,4 @@ wrong_answers:
   - Pouze prostřednictvím soukromých a veřejných klíčů.
 explanation: >-
   Transakce na Lightning Network jsou zabezpečeny prostřednictvím kryptografie a nepřímo prostřednictvím energie spotřebované těžaři na Bitcoinu.
-recenzováno: true
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Poplatky za směrování stanovené každým uzlem
 explanation: |
   Maximální částka, kterou může nepřímá platba převést, závisí na nejnižší dostupné likviditě v použitých kanálech, protože každý kanál musí upravit finanční prostředky na každé straně.
-recenzováno: false
+reviewed: false

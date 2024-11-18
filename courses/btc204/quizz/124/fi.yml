@@ -2,7 +2,7 @@ question: Mikä vaihtoehto mahdollistaa P2P-siirron V2: n ottamisen käyttöön 
 
 answer: v2transport=
 
-vaarat_vastaukset:
+wrong_answers:
   - p2penable=
   - networkv2=
   - enablev2=

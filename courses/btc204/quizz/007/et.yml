@@ -1,6 +1,6 @@
 question: Mis on "ühendamine" tehingus?
 answer: See on mitme UTXO kasutamine sisenditena.
-valevastused:
+wrong_answers:
   - See on mitme UTXO loomine väljunditena.
   - See on mitme aadressi ühendamine üheks.
   - See on mitme ploki ühendamine plokiahelas.

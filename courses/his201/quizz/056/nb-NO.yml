@@ -1,6 +1,6 @@
 question: Hvilke standard skriptutdata-mønstre ble gjenkjent av programvaren i september 2010?
 answer: Mottakelse ved en offentlig nøkkel (P2PK) og mottakelse ved en adresse (P2PKH)
-feil_answer:
+wrong_answers:
   - Mottakelse ved en adresse (P2PKH) og mottakelse ved et multisignatur signaturskript (P2MS)
   - Mottakelse ved en adresse (P2PKH) og mottakelse ved et skript (P2SH)
   - Mottakelse ved en offentlig nøkkel (P2PK) og mottakelse ved et skript (P2SH)

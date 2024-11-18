@@ -6,4 +6,4 @@ wrong_answers:
   - Odečítání dvou operandů.
 explanation: |
   Konkatenace zahrnuje umístění dvou operandů jeden za druhým bez jejich modifikace, široce používané v kryptografii.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Umožnit Alici šifrovat zprávu pro ověření její integrity
 explanation: |
   V asymetrické kryptografii umožňuje Alicin veřejný klíč Bobovi poslat šifrovanou zprávu, kterou může dešifrovat pouze ona, čímž je zajištěna důvěrnost zprávy.
-recenzováno: false
+reviewed: false

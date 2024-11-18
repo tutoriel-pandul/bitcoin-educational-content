@@ -8,4 +8,4 @@ explanation: >-
   Při inicializaci Bitcoinové peněženky je generován tajný seznam slov, nazývaný mnemonické semínko. 
   Tento seznam pro obnovu je velmi důležitý, protože představuje vlastnictví
   Bitcoinů a tedy právo je odesílat.
-recenzováno: true
+reviewed: true

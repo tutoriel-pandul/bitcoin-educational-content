@@ -6,4 +6,4 @@ wrong_answers:
   - a musí být prvočíslo
 explanation: |
   Celé číslo a má inverzi modulo N právě tehdy, pokud jsou nesoudělná, což znamená, že jejich největší společný dělitel je 1.
-recenzováno: false
+reviewed: false

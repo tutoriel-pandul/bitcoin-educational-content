@@ -1,6 +1,6 @@
 question: Mikä on ongelman nimi, jossa tuloksen laskeminen yhteen suuntaan on helppoa, mutta lähes mahdotonta kääntää?
 answer: Yksisuuntainen funktio
-vaarat_vastaukset:
+wrong_answers:
   - Lineaarinen funktio
   - Eksponentiaalifunktio
   - Käänteinen funktio

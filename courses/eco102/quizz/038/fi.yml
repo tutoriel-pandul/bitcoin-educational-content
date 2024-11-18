@@ -1,6 +1,6 @@
 question: Miten Bastiat pitää hyvänä omaisuuden määritelmänä?
 answer: Sen täytyy ottaa huomioon syyt
-vaarat_vastaukset:
+wrong_answers:
   - Sen täytyy ottaa huomioon seuraukset
   - Sen täytyy ottaa huomioon laki
   - Sen täytyy perustua sosiaaliseen tunnustukseen

@@ -6,4 +6,4 @@ wrong_answers:
   - Automaticky vypočítat nejkratší cestu
 explanation: |
   Poplatky za směrování se používají k odměně prostředníkových uzlů, které přeposílají platby tím, že nabízejí svou likviditu pro umožnění přenosu finančních prostředků napříč sítí.
-recenzováno: false
+reviewed: false

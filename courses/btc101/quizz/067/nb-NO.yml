@@ -1,6 +1,6 @@
 question: Hva er frekvensen for justering av vanskelighetsgraden?
 answer: Hver 2016 blokker
-feil_answer:
+wrong_answers:
   - Hver 1048 blokker
   - Hver 512 blokker
   - Hver 4032 blokker

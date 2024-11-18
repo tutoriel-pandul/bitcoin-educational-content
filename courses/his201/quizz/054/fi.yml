@@ -1,6 +1,6 @@
 question: Mikä amerikkalainen kehittäjä havaitsi "oudon lohkon" arvon ylivuototapauksessa 15. elokuuta 2010?
 answer: Jeff Garzik
-vaarat_vastaukset:
+wrong_answers:
   - Gavin Andresen
   - Nils Schneider
   - Christian Decker

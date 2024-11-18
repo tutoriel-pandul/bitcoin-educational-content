@@ -1,6 +1,6 @@
 question: Mikä on kenttä, jolla on rajallinen määrä alkiota?
 answer: Galois'n kenttä
-vaarat_vastaukset:
+wrong_answers:
   - Kertolaskullinen kenttä
   - Symmetrinen kenttä
   - Vektorikenttä

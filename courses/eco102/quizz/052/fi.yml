@@ -1,6 +1,6 @@
 question: Mihin johtopäätökseen Bastiat tulee tuhon vaikutuksesta talouteen?
 answer: Se on haitallista taloudelle
-vaarat_vastaukset:
+wrong_answers:
   - Se on hyödyllistä taloudelle
   - Se on neutraalia taloudelle
   - Se riippuu taloudellisesta tilanteesta

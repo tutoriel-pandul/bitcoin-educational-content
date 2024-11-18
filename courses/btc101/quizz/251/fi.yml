@@ -1,6 +1,6 @@
 question: Mikä on yksi pääongelmista liittyen sensuuriin?
 answer: Se voi tuhota ilmaisunvapauden ja kokoontumisvapauden.
-vaarat_vastaukset:
+wrong_answers:
   - Se voi johtaa ilmaisunvapauden valvontaan.
   - Se voi johtaa suurempaan tukeen kokoontumisvapaudelle.
   - Se voi johtaa innovaation vähenemiseen.

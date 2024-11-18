@@ -6,4 +6,4 @@ wrong_answers:
   - Mohu získat zpět své bitcoiny použitím peněženky bez hesla.
 explanation: |
   Pokud je heslo ztraceno, přístup k bitcoinům je trvale ztracen, jelikož je nezbytné pro odvození soukromých klíčů.
-recenzováno: false
+reviewed: false

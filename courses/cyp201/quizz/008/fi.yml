@@ -1,6 +1,6 @@
 question: Kuinka monta kierrosta SHA256-tiivistysfunktio suorittaa?
 answer: 64 kierrosta.
-vaarat_vastaukset:
+wrong_answers:
   - 10 kierrosta.
   - 128 kierrosta.
   - 150 kierrosta.

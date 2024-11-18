@@ -1,6 +1,6 @@
 question: Jaký je vestavěný antivirový program ve Windows?
 answer: Windows Defender
-nesprávné_odpovědi:
+wrong_answers:
   - Kaspersky
   - Norton
   - McAfee

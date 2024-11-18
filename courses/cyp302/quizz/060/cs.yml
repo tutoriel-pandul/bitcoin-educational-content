@@ -6,4 +6,4 @@ wrong_answers:
   - Kryptoanalýza
 explanation: |
   Symetrická kryptografie je hlavní větev kryptografie, zahrnující šifrovací schémata, kde se pro šifrování a dešifrování zpráv používá jediný klíč.
-recenzováno: false
+reviewed: false

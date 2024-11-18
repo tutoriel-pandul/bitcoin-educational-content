@@ -1,6 +1,6 @@
 question: Mikä elementti puuttui Bitcoinin suunnittelusta 31. lokakuuta 2008?
 answer: Rajallinen määrä yksiköitä
-vaarat_vastaukset:
+wrong_answers:
   - Proof of work
   - Yksinkertaistettu maksuvahvistus
   - Lohkoketju

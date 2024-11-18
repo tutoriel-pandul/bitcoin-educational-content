@@ -1,6 +1,6 @@
 question: Mikä on XOR-operaation vaihdannaisominaisuus?
 answer: Operandien järjestys ei vaikuta operaation tulokseen
-vaarat_vastaukset:
+wrong_answers:
   - XOR toimii vain parillisten lukujen kanssa
   - XOR vaatii samanpituiset operandit
   - Operandien bittien sijainti ei vaikuta operaation tulokseen

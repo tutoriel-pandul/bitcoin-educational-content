@@ -1,6 +1,6 @@
 question: Mikä nimi on annettu konsensusongelmalle hajautetussa verkossa?
 answer: Bysanttilaisten kenraalien ongelma
-vaarat_vastaukset:
+wrong_answers:
   - Roomalaisten sentuurioitten ongelma
   - Albanialaisten everstien ongelma
   - Japanilaisten taishojen ongelma

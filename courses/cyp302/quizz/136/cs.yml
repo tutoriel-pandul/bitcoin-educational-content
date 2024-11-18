@@ -6,4 +6,4 @@ wrong_answers:
   - Přímým porovnáním hesla s hesly ostatních uživatelů
 explanation: |
   Služba generuje hash zadaného hesla a porovnává jej s uloženým, aniž by heslo přímo ukládala, čímž zajišťuje zvýšenou bezpečnost.
-recenzováno: false
+reviewed: false

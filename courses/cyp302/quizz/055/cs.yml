@@ -6,4 +6,4 @@ wrong_answers:
   - Používají se k přímému hašování zpráv za účelem zachování jejich integrity
 explanation: |
   V kryptografii jsou cyklické skupiny, mající generátory, zásadní pro stanovení základů pro šifrovací klíče, zejména v systémech s veřejným klíčem.
-recenzováno: false
+reviewed: false

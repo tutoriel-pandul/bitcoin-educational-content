@@ -6,4 +6,4 @@ wrong_answers:
   - Žádné slovo není delší než šest písmen.
 explanation: |
   Tato vlastnost pomáhá vyhnout se jakékoli nejednoznačnosti při zadávání slov, čímž zajišťuje jedinečnost každého slova v seznamu, a zároveň snižuje potřebný úložný prostor.
-recenzováno: false
+reviewed: false

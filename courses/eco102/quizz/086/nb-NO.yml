@@ -1,6 +1,6 @@
 question: Hvilket konsept bruker Bastiat for å beskrive ideologien om tvungen omfordeling og lovlig plyndring?
 answer: sosialisme
-feil_answer:
+wrong_answers:
   - republikanisme
   - konservatisme
   - liberalisme

@@ -1,6 +1,6 @@
 question: Kuinka monta bitcoinia (suunnilleen) Satoshi Nakamoto louhi yhteensä?
 answer: 1,100,000
-vaarat_vastaukset:
+wrong_answers:
   - 11,000,000
   - 110,000
   - 11,000

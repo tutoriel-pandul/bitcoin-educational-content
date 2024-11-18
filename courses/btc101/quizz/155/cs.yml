@@ -6,4 +6,4 @@ wrong_answers:
   - Transakce provedená těžařem po obdržení odměny.
 explanation: >-
   Coinbase transakce je vždy první transakce bloku. Zahrnuje odměnu pro těžaře za vykonání práce validátora.
-recenzováno: true
+reviewed: true

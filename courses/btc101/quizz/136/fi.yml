@@ -1,6 +1,6 @@
 question: Kuinka Bitcoin-verkko varmistaa, että sen protokollan sisällä pahantahtoisesti toimiminen on liian kallista?
 answer: Protokollasääntöjen ja taloudellisten kannustimien kautta.
-vaarat_vastaukset:
+wrong_answers:
   - Tiukan sääntelyn ja valvonnan kautta.
   - Käyttämällä edistyneitä turvatoimia.
   - Uhkaamalla oikeustoimilla.

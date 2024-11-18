@@ -1,6 +1,6 @@
 question: I hvilken situasjon brukes en tvungen lukking av en kanal?
 answer: Når en av partene ikke lenger svarer
-feil_answer:
+wrong_answers:
   - Når kapasiteten til kanalen trenger å økes
   - Når tidsbegrensningen er utilstrekkelig
   - Når transaksjonsgebyrene er for høye

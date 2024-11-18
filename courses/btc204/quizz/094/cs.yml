@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Je doporučeno se vyhnout slučování doxxic UTXO dohromady, protože to umožňuje vytvoření spojení mezi různými záznamy uživatele ve Whirlpoolu.
 
-recenzováno: false
+reviewed: false

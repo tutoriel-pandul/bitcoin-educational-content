@@ -6,4 +6,4 @@ wrong_answers:
   - Vyvíjet algoritmy symetrického šifrování
 explanation: |
   Teorie čísel se zaměřuje na vlastnosti celých čísel a funkce aplikované na celá čísla, často pro aplikace v kryptografii, zejména v kontextu kryptografie s veřejným klíčem.
-recenzováno: false
+reviewed: false

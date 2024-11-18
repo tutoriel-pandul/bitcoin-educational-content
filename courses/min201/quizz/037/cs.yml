@@ -6,4 +6,4 @@ wrong_answers:
   - Může vést ke snížení počtu aktivních uzlů v síti
 explanation: |
   Těžba za účelem zisku může vést k centralizaci výpočetního výkonu, pokud si pouze několik velkých společností může dovolit investovat do špičkového těžebního zařízení. Navíc spotřeba energie při těžbě za účelem zisku může mít významný dopad na životní prostředí v závislosti na zdroji energie.
-recenzováno: true
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - a mod N
 explanation: |
   Eulerova věta uvádí, že pro dvě celá čísla a a N, která jsou nesoudělná, je výsledek umocňování a^ϕ(N) mod N vždy roven 1 mod N, což je vlastnost využívaná v kryptografii.
-recenzováno: false
+reviewed: false

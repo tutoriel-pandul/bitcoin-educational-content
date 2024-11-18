@@ -1,6 +1,6 @@
 question: Mida sümboliseerib Bitcoin oma tehnoloogiast kaugemal?
 answer: Revolutsiooni traditsiooniliste finantssüsteemide vastu ja alternatiivi, mis põhineb läbipaistvusel, detsentraliseeritusel ja individuaalse suveräänsuse.
-vale_vastused:
+wrong_answers:
   - Uut tüüpi digitaalne valuuta, mis on efektiivsem kui traditsioonilised valuutad.
   - Viisi, kuidas inimesed saavad raha teenida kaevandamise kaudu.
   - Vahendit kurjategijatele ebaseaduslike tehingute sooritamiseks.

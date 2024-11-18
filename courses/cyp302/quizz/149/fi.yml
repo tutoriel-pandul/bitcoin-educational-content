@@ -1,6 +1,6 @@
 question: Mikä on määritelmä kokonaisluvulle, joka on keskenään suhteellinen toiseen kokonaislukuun nähden?
 answer: Kokonaisluku, jolla on suurin yhteinen jakaja 1 kyseisen toisen kokonaisluvun kanssa
-vaarat_vastaukset:
+wrong_answers:
   - Kokonaisluku, joka on jaollinen toisella kokonaisluvulla ilman jakojäännöstä
   - Kokonaisluku, joka on alkuluku
   - Kokonaisluku, joka on suurempi kuin toinen

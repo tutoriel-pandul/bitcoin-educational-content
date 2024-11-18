@@ -6,4 +6,4 @@ wrong_answers:
   - Pozice bitů v operandezích neovlivňuje výsledek operace
 explanation: |
   XOR je komutativní, což znamená, že a XOR b je rovno b XOR a.
-recenzováno: false
+reviewed: false

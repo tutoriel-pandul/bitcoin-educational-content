@@ -1,6 +1,6 @@
 question: Minkä tyyppinen salaus käyttää kiinteän kokoisia datalohkoja?
 answer: Lohkosalaus
-vaarat_vastaukset:
+wrong_answers:
   - Virtasalaus
   - Viestin autentikointikoodi
   - Julkinen avain

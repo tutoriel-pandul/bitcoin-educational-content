@@ -6,4 +6,4 @@ wrong_answers:
   - Inverzní skupina
 explanation: |
   Abelova, nebo komutativní, skupina je skupina, ve které pořadí prvků v binární operaci neovlivňuje výsledek. To znamená, že pro libovolné a a b platí a ∘ b = b ∘ a.
-recenzováno: false
+reviewed: false

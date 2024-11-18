@@ -1,6 +1,6 @@
 question: Mikä algebrallinen rakenne on abstraktin algebran perusta?
 answer: Ryhmä
-vaarat_vastaukset:
+wrong_answers:
   - Kenttä
   - Rengas
   - Matriisi

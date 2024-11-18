@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Jakmile účastníci podepíší celkovou transakci, po ověření, že je vše správně, koordinátor již nemůže tuto transakci, včetně výstupů, upravit bez jejího zneplatnění, protože podpis pokrývá celou transakci.
 
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Kuinka eksponentti "e" valitaan RSA-kryptosysteemissä?
 answer: Sen täytyy olla kokonaisluku, joka on suurempi kuin 2 ja keskenään jaoton φ(N) kanssa
-vaarat_vastaukset:
+wrong_answers:
   - Sen täytyy olla alkuluku, joka on pienempi kuin N
   - Se valitaan satunnaisesti ilman rajoituksia
   - Sen täytyy olla yhtä suuri kuin φ(N)

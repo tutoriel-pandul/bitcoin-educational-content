@@ -2,7 +2,7 @@ question: Mikä on pääasiallinen ero parannellun kimpoamisen ja klassisen kimp
 
 answer: Transaktioiden jakautuminen ajallisesti
 
-vaarat_vastaukset:
+wrong_answers:
   - Käytettyjen transaktioiden määrä
   - Käytetyn osoitteen tyyppi
   - Transaktioiden outputtien määrä

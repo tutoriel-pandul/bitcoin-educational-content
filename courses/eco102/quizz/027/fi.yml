@@ -1,6 +1,6 @@
 question: Mikä filosofia inspiroi Cobdenin taloudellista visiota?
 answer: Benthamin utilitarismi
-vaarat_vastaukset:
+wrong_answers:
   - Smithin liberalismi
   - Fourierin sosialismi
   - Rousseaun egalitarismi

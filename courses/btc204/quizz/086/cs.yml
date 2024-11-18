@@ -2,7 +2,7 @@ question: Mezi těmito 3 protokoly, který z nich není implementací coinjoin?
 
 answer: Chainalysis.
 
-nesprávné_odpovědi:
+wrong_answers:
   - JoinMarket.
   - Wabisabi.
   - Whirlpool.
@@ -10,4 +10,4 @@ nesprávné_odpovědi:
 explanation: |
   Chainalysis vůbec není implementací coinjoin, jelikož se jedná o společnost zabývající se analýzou blockchainu.
 
-recenzováno: false
+reviewed: false

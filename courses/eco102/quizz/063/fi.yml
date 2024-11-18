@@ -1,6 +1,6 @@
 question: Mikä on Margaret Thatcherin keskeinen ajatus Lafferin käyrästä?
 answer: Verotusta tulisi alentaa talouden elvyttämiseksi
-vaarat_vastaukset:
+wrong_answers:
   - Vauraiden verotusta tulisi korottaa
   - Korkeita verokantoja tulisi ylläpitää julkisten palveluiden rahoittamiseksi
   - Kaikkia veroja tulisi ylläpitää

@@ -1,6 +1,6 @@
 question: Kenelle Satoshi luovutti ohjelmistokehityksen vastuut lähtiessään?
 answer: Gavin Andresen
-vaarat_vastaukset:
+wrong_answers:
   - Martti Malmi
   - Jeff Garzik
   - Mike Hearn

@@ -1,6 +1,6 @@
 question: Mikä on merkittävin innovaatio, jonka nykyaikaiset taloustieteilijät ovat Bastiatin mukaan esitelleet?
 answer: He haluavat palauttaa yksilön toimintakyvyn
-vaarat_vastaukset:
+wrong_answers:
   - He haluavat rikastuttaa valtiota
   - He haluavat tasapainottaa kauppatasetta
   - He haluavat säädellä markkinoita

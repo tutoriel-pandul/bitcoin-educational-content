@@ -6,4 +6,4 @@ wrong_answers:
   - Požádá prostředníkovy uzly o zvýšení jejich likvidity
 explanation: |
   Když trasa selže, odesílající uzel zkouší jiné alternativní trasy, dokud nenajde funkční cestu, nebo dokud nejsou vyčerpány všechny možnosti.
-recenzováno: false
+reviewed: false

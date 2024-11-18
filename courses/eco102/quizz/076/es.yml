@@ -1,6 +1,6 @@
 question: Según Bastiat, ¿de qué resta el estatismo a los individuos?
 answer: Las consecuencias de sus acciones
-respuestas_erróneas:
+wrong_answers:
   - De sus familias
   - De las alegrías de la experimentación libre
   - De sus amigos

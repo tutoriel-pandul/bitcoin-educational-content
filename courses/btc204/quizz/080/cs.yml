@@ -2,7 +2,7 @@ question: Jaká je role koordinátora coinjoin?
 
 answer: Spojit účastníky a sestavit transakci.
 
-nesprávné_odpovědi:
+wrong_answers:
   - Šifrovat data účastníků pro důvěrnost transakce.
   - Uchovávat záznamy o předchozích coinjoinech pro bezpečnostní audity.
   - Přijímat bitcoiny od účastníků pro jejich smíchání.
@@ -10,4 +10,4 @@ nesprávné_odpovědi:
 explanation: |
   Role koordinátorů je spojit různé uživatele a poté sestavit a rozeslat společnou transakci.
 
-recenzováno: false
+reviewed: false

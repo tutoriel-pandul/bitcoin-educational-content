@@ -1,6 +1,6 @@
 question: Mikä on XOR: n vastine modulo-operaatiolle?
 answer: XOR vastaa modulo 2 -operaatiota bitteihin
-vaarat_vastaukset:
+wrong_answers:
   - XOR vastaa klassista vähennys modulo 3 -operaatiota
   - XOR vastaa modulo 7 -operaatiota bitteihin
   - XOR on lisäyksen käänteisoperaatio

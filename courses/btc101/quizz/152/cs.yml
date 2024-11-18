@@ -8,4 +8,4 @@ explanation: >-
   HashRate odkazuje na celkový počet pokusů, které těžaři dělají
   za sekundu pro vyřešení Proof of Work. Jedná se o míru výpočetního výkonu
   sítě Bitcoin.
-recenzováno: true
+reviewed: true

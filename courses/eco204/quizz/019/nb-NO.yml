@@ -1,6 +1,6 @@
 question: Hvor mange episoder med hyperinflasjon er dokumentert i Hanke-Krus-tabellen?
 answer: 56
-feil_answer:
+wrong_answers:
   - 46
   - 66
   - 76

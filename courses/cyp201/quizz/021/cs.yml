@@ -1,9 +1,9 @@
 question: Jaká je velikost soukromého klíče Bitcoinu?
 answer: 256 bitů.
-nesprávné_odpovědi:
+wrong_answers:
   - 512 bajtů.
   - 520 bitů.
   - 512 bitů.
 explanation: |
   Soukromý klíč Bitcoinu má standardní velikost 256 bitů, což odpovídá algoritmu eliptické křivky používanému v Bitcoinu.
-recenzováno: false
+reviewed: false

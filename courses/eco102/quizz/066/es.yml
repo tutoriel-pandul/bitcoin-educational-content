@@ -1,6 +1,6 @@
 question: ¿Cuáles son las dos maneras de iluminar el juicio de los ciudadanos según Bastiat?
 answer: Moralidad filosófica y moralidad económica
-respuestas_erróneas:
+wrong_answers:
   - La ley y la educación
   - Religión y ciencia
   - Experiencia personal y libros

@@ -6,4 +6,4 @@ wrong_answers:
   - Silné udeření do počítače, aby byl nucen vydát tajný klíč
 explanation: |
   Útok hrubou silou zahrnuje systematické testování všech možných klíčů k dešifrování zašifrované zprávy.
-recenzováno: false
+reviewed: false

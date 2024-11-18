@@ -1,6 +1,6 @@
 question: Minkä tyyppinen ryhmä käyttää pääasiassa kryptografiaa?
 answer: Kokonaislukuja tai kokonaisluvuilla kuvattuja elementtejä sisältävät ryhmät
-vaarat_vastaukset:
+wrong_answers:
   - Kompleksilukuja tai kompleksiluvuilla kuvattuja elementtejä sisältävät ryhmät
   - Geometrisia muunnoksia tai geometrisilla muunnoksilla kuvattuja elementtejä sisältävät ryhmät
   - Rationaalilukuja tai rationaaliluvuilla kuvattuja elementtejä sisältävät ryhmät

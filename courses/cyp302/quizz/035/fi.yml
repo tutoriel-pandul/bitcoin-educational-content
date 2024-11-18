@@ -1,6 +1,6 @@
 question: Mikä on lukuteorian päätavoite?
 answer: Tutkia kokonaislukujen ominaisuuksia ja niiden kanssa toimivia funktioita
-vaarat_vastaukset:
+wrong_answers:
   - Geometristen muunnosten analysointi
   - Satunnaisten geometristen kuvioiden rakenteen tutkiminen äärellisessä ryhmässä
   - Symmetristen salausalgoritmien kehittäminen

@@ -1,6 +1,6 @@
 question: Miksi pakotettu sulkeminen on vähemmän toivottavaa?
 answer: Se on hitaampaa ja maksut voivat olla sopimattomia
-vaarat_vastaukset:
+wrong_answers:
   - Se vaatii luvan Satoshi Nakamotolta
   - Se pakottaa kanavan uudelleenluomiseen myöhemmin
   - Se estää peruutusavaimen käytön

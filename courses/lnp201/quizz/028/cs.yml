@@ -6,4 +6,4 @@ wrong_answers:
   - Nárokovat pouze polovinu dostupných prostředků
 explanation: |
   V případě podvodu může Bob použít revokační klíč k získání všech prostředků z kanálu, čímž potrestá Alice za její pokus.
-recenzováno: false
+reviewed: false

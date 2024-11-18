@@ -1,6 +1,6 @@
 question: Mikä on yksi tapa välttää huijaukset verkossa?
 answer: Varmista selaamasi sivuston identiteetti, erityisesti tarkistamalla sen laajennus ja verkkotunnus.
-vaarat_vastaukset:
+wrong_answers:
   - Käytä julkisia Wi-Fi-verkkoja.
   - Käytä sivustoja, jotka eivät käytä HTTPS-protokollaa.
   - Käytä sivustoja, joilla ei näy lukon kuvaketta.

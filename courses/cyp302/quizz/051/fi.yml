@@ -1,6 +1,6 @@
 question: Mitä termi "champ premier" tai "corps premier" tarkoittaa?
 answer: Kenttä, jossa on alkuluvun verran alkiota
-vaarat_vastaukset:
+wrong_answers:
   - Kenttä, joka sisältää vain alkulukuja
   - Kenttä, joka määritellään pelkästään alkulukujen summalla
   - Kenttä, joka käyttää satunnaisvektoreita

@@ -6,4 +6,4 @@ wrong_answers:
   - Mezi 2^31 a 2^32 - 1.
 explanation: |
   Normální dětské klíče používají rozsah indexů mezi 0 a 2^31 - 1, zatímco zpevněné klíče mají index začínající od 2^31.
-recenzováno: false
+reviewed: false

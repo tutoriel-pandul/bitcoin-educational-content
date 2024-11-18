@@ -1,6 +1,6 @@
 question: Hva er enheten for Bitcoin som brukes i Lightning Network?
 answer: Sats
-feil_answer:
+wrong_answers:
   - Bitcoin
   - Ether
   - Litecoin

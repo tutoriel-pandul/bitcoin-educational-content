@@ -6,4 +6,4 @@ wrong_answers:
   - Protože "d" je vypočítáno nezávisle na φ(N)
 explanation: |
   Najít "d" je obtížné, protože to závisí na znalosti φ(N), která zase závisí na hodnotách p a q, prvočíselných dělitelích N.
-recenzováno: false
+reviewed: false

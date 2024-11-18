@@ -1,6 +1,6 @@
 question: Mikä oli Salamancan koulukunnan kanta intiaanien käännyttämiseen?
 answer: Sen tulisi tapahtua suostuttelun kautta.
-vaarat_vastaukset:
+wrong_answers:
   - Sen piti tapahtua väkisin.
   - Sitä ei pitäisi tehdä lainkaan.
   - He eivät ottaneet kantaa tähän asiaan.

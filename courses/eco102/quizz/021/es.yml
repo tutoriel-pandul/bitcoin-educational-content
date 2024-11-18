@@ -1,6 +1,6 @@
 question: ¿Cuál era el lema del periódico Le Censeur fundado por Comte y Dunoyer?
 answer: Paz y libertad
-respuestas_erróneas:
+wrong_answers:
   - Propiedad y libertad
   - Orden y progreso
   - Libertad e igualdad

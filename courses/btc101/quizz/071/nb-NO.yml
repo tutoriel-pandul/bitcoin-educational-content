@@ -1,6 +1,6 @@
 question: Hvilket år vil det 7. halvering skje?
 answer: 2036
-feil_answer:
+wrong_answers:
   - 2032
   - 2028
   - 2048

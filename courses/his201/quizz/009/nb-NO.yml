@@ -1,6 +1,6 @@
 question: I hvilket år ble Liberty Reserve-systemet stengt av de amerikanske myndighetene?
 answer: 2013
-feil_answer:
+wrong_answers:
   - 2007
   - 2009
   - 2011

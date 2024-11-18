@@ -1,6 +1,6 @@
 question: ¿Quién es el individuo que reaccionó positivamente a la publicación del documento técnico en noviembre de 2008?
 answer: Hal Finney
-respuestas_erróneas:
+wrong_answers:
   - James A. Donald
   - John R. Levine
   - Ray Dillinger

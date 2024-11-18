@@ -6,4 +6,4 @@ wrong_answers:
   - Bezpečná výměna klíčů
 explanation: |
   RSA je založeno na obtížnosti faktorizace prvočísel, výpočetně náročném úkolu, který zabezpečuje kryptosystém proti útokům.
-recenzováno: false
+reviewed: false

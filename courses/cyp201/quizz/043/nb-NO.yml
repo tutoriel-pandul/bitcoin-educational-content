@@ -1,6 +1,6 @@
 question: Hvordan bestemme bitstørrelsen på sjekksummen for en gjenopprettingsfrase?
 answer: Del størrelsen på det tilfeldige tallet (entropi) med 32.
-feil_answer:
+wrong_answers:
   - Del størrelsen på det tilfeldige tallet (entropi) med 8.
   - Del størrelsen på det tilfeldige tallet (entropi) med 16.
   - Multipliser størrelsen på det tilfeldige tallet (entropi) med 2.

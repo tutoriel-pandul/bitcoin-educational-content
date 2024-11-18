@@ -6,4 +6,4 @@ wrong_answers:
   - Zřídit přímá spojení mezi všemi uzly sítě s jejich důvěrou
 explanation: |
   HTLC (Hashed Time-Locked Contracts) zajišťují, že každý zprostředkující uzel převede platbu bez zadržení finančních prostředků, jelikož je může odemknout pouze dokončením transakce až k finálnímu příjemci.
-recenzováno: false
+reviewed: false

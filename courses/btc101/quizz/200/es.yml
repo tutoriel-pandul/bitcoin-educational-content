@@ -1,6 +1,6 @@
 question: ¿Qué es una compra espontánea?
 answer: Comprar Bitcoin inmediatamente para obtener exposición.
-respuestas_erróneas:
+wrong_answers:
   - Comprar Bitcoin a intervalos regulares.
   - Comprar Bitcoin solo cuando el precio baja.
   - Comprar Bitcoin solo cuando el precio sube.

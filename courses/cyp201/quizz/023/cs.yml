@@ -6,4 +6,4 @@ wrong_answers:
   - 512 bitů.
 explanation: |
   Nekomprimovaný veřejný klíč Bitcoinu s jeho prefixem je 520 bitů, což zahrnuje x a y souřadnice bodu na eliptické křivce.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Brání využití klíče pro zrušení
 explanation: |
   Nucené uzavření je méně žádoucí, protože zahrnuje časový zámek, který proces zpomaluje, a poplatky mohou být nevhodné, jelikož byly nastaveny v době vytvoření kanálu.
-recenzováno: false
+reviewed: false

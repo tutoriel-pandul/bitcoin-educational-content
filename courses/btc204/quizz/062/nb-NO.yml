@@ -2,7 +2,7 @@ question: Blant disse alternativene, hvilket er ikke en metode for automatisk va
 
 answer: Silent Payments
 
-feil_answer:
+wrong_answers:
   - Branch-and-Bound
   - FIFO
   - Knapsack Solver

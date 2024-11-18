@@ -6,4 +6,4 @@ wrong_answers:
   - Zabránit jakýmkoliv dalším transakcím v kanálu
 explanation: |
   Revokační klíč umožňuje poškozené straně získat zpět všechny prostředky v případě pokusu o podvod ze strany druhé strany.
-recenzováno: false
+reviewed: false

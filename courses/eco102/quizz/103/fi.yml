@@ -1,6 +1,6 @@
 question: Mikä 1900-luvun ajatuskoulu ennakoitiin Bastiat'n toimesta?
 answer: Julkisen valinnan teoria
-vaarat_vastaukset:
+wrong_answers:
   - Endogeenisen kasvun teoria
   - Epätasapainoteoria
   - Uusklassinen taloustiede

@@ -6,4 +6,4 @@ wrong_answers:
   - Standardní formát transakce
 explanation: |
   Jednalo se o no-op instrukce, které neskript neinvalidovaly, pokud byly provedeny. Umožnily přidání OP_CHECKLOCKTIMEVERIFY a OP_CHECKSEQUENCEVERIFY do protokolu v letech 2015/2016.
-recenzováno: false
+reviewed: false

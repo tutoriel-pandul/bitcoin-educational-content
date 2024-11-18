@@ -1,6 +1,6 @@
 question: Miksi Bastiat kritisoi progressiivisen uudelleenjaon verotuksen käsitettä?
 answer: Koska se mahdollistaa laillistetun ryöstelyn enemmistön toimesta vähemmistön kustannuksella
-vaarat_vastaukset:
+wrong_answers:
   - Koska se on tehoton verotulojen tuottamisessa
   - Koska se hyödyttää vain työväenluokkaa
   - Koska se hyödyttää ensisijaisesti yksityisiä yrityksiä

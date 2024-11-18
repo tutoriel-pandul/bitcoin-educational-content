@@ -6,4 +6,4 @@ wrong_answers:
   - Faktura je zaplacena prostřednictvím on-chain transakce na Bitcoinu.
 explanation: |
   Když Bob pošle Aleně fakturu, ona vytvoří a podepíše novou závaznou transakci pro úpravu rozdělení prostředků, čímž převede 30 000 satoshi v kanálu.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Podmínku distributivity
 explanation: |
   Množina "S" s binární operací musí splňovat několik podmínek, aby tvořila grupu, a první z nich je podmínka uzavřenosti: operace mezi dvěma prvky "S" musí výsledkem dát prvek "S".
-recenzováno: false
+reviewed: false

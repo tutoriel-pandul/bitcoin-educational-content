@@ -6,4 +6,4 @@ wrong_answers:
   - Blokuje použití klíče pro zrušení
 explanation: |
   Timelock ukládá zpoždění, během kterého nemůže podvodník získat své prostředky, čímž dává druhé straně příležitost reagovat.
-recenzováno: false
+reviewed: false

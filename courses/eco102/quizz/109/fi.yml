@@ -1,6 +1,6 @@
 question: Mitkä keskeiset ideat Reagan omaksui Bastiat'lta yhteiskuntanäkemyksessään?
 answer: Siviiliyhteiskunnan ensisijaisuus ja yksilön vastuun tärkeys
-vaarat_vastaukset:
+wrong_answers:
   - Valtion väliintulon tärkeys varallisuuden luomisessa
   - Julkisten menojen olennainen rooli talouskasvussa
   - Kaikkien sektoreiden sääntelyn välttämättömyys kaaoksen estämiseksi

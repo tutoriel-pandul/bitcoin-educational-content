@@ -1,6 +1,6 @@
 question: Mikä on vastaanotto-osoite (yleisesti)?
 answer: Julkisen avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
-vaarat_vastaukset:
+wrong_answers:
   - Yksityisen avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
   - Laajennetun avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
   - Ketjukoodin tiiviste, johon on lisätty metadataa.

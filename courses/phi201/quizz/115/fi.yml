@@ -1,6 +1,6 @@
 question: Mikä metalli on historiallisesti pidetty valuutan standardiviitteenä?
 answer: Kulta
-vaarat_vastaukset:
+wrong_answers:
   - Hopea
   - Kupari
   - Pronssi

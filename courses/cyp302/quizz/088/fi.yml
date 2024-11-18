@@ -1,6 +1,6 @@
 question: Mikä lohkosalausalgoritmi on hyväksytty AES-standardiksi?
 answer: Rijndael-salakirjoitus
-vaarat_vastaukset:
+wrong_answers:
   - DES
   - RSA
   - Diffie-Hellman

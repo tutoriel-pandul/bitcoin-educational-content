@@ -6,4 +6,4 @@ wrong_answers:
   - Délka klíče nemá na Salsa20 žádný vliv.
 explanation: |
   V symetrickém šifrovacím schématu Salsa20 délka klíče (128 nebo 256 bitů) ovlivňuje počet kol v algoritmu, aniž by měnila jádro samotného algoritmu.
-recenzováno: false
+reviewed: false

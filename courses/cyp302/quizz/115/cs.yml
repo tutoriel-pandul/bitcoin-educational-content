@@ -6,4 +6,4 @@ wrong_answers:
   - Citlivé informace jsou zamíchány v každém bloku šifrovaného textu
 explanation: |
   Difúze znamená, že malá změna v otevřeném textu vede k významné změně v šifrovaném textu, což ztěžuje útočníkovi odvození otevřeného textu.
-recenzováno: false
+reviewed: false

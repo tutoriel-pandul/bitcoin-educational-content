@@ -1,6 +1,6 @@
 question: Mikä on suoranainen seuraus keskuspankkien harjoittamasta matalan korkotason politiikasta Bastiat'n mukaan?
 answer: Riskialttiiden investointien lisääntyminen ja rahoitusvakaudesta heikkeneminen
-vaarat_vastaukset:
+wrong_answers:
   - Työväenluokan ostovoiman kasvu
   - Kulutustavaroiden kustannusten lasku
   - Sosiaalisten eroavaisuuksien vähentyminen

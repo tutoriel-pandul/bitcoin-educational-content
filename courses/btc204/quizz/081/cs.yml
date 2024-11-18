@@ -2,7 +2,7 @@ question: Jaká kryptografická metoda se používá k zamezení propojení vstu
 
 answer: Chaumovy slepé podpisy.
 
-nesprávné_odpovědi:
+wrong_answers:
   - Schnorr podpisy.
   - P2SH adresy.
   - P2TR adresy.
@@ -10,4 +10,4 @@ nesprávné_odpovědi:
 explanation: |
   V takzvaných "Chaumian" coinjoinech je kombinováno použití Tor a Davidovy Chaumovy slepé podpisy, aby se zajistilo, že koordinátor nemůže vědět, který výstup patří kterému uživateli.
 
-recenzováno: false
+reviewed: false

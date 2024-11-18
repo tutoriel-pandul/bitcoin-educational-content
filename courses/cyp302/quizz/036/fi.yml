@@ -1,6 +1,6 @@
 question: Mitä tarkoittaa, että kaksi lukua ovat "keskenään jaottomia"?
 answer: Niiden suurin yhteinen tekijä on yhtä suuri kuin 1
-vaarat_vastaukset:
+wrong_answers:
   - Niiden summa on parillinen luku
   - Molemmat luvut ovat parillisia
   - Niillä ei ole muita yhteisiä tekijöitä kuin 1 ja ne itse

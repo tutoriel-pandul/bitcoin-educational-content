@@ -6,4 +6,4 @@ wrong_answers:
   - Algoritmus, který generuje předvídatelná čísla.
 explanation: |
   PRNG generuje pseudo-náhodná čísla z počáteční hodnoty, ale na rozdíl od TRNG, nejsou skutečně náhodná.
-recenzováno: false
+reviewed: false

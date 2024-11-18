@@ -1,6 +1,6 @@
 question: Millä perusteella Salamancan koulukunnan oppineet väittivät, että alkuperäiskansoilla oli oikeuksia maa-alueisiinsa?
 answer: Luonnonoikeus.
-vaarat_vastaukset:
+wrong_answers:
   - Jumalallinen oikeus.
   - Valloittajien oikeus.
   - Kansainvälinen oikeus.

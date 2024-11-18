@@ -6,4 +6,4 @@ wrong_answers:
   - RSA kryptografie.
 explanation: |
   K utracení Bitcoinů je potřeba, aby vlastník použil Eliptickou křivkovou digitální podpisovou algoritmu (ECDSA) k vytvoření podpisu pro propagaci Bitcoinové transakce.
-recenzováno: true
+reviewed: true

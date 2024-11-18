@@ -6,4 +6,4 @@ wrong_answers:
   - Nahrazuje fyzické kabely bezpečnou komunikací.
 explanation: |
   V otevřeném komunikačním prostředí, kde mohou být kanály monitorovány, kryptografie zajišťuje bezpečnost ochranou vyměňovaných dat, i v přítomnosti potenciálních útoků.
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Mikä oli jakelun ja avainhallinnan ongelmien vaikutus ennen 1970-lukua?
 answer: Ne rajoittivat suurimittaisen viestinnän turvallisuutta ja tehokkuutta
-vaarat_vastaukset:
+wrong_answers:
   - Ne estivät salattujen viestien lähettämisen julkisissa verkoissa
   - Ne vaativat julkisen avaimen jokaiselle viestille
   - Ne edellyttivät homomorfisen kryptografian käyttöä

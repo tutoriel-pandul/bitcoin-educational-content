@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Na rozdíl od Wasabi 1.0, kde byla změna přímo spojena s vstupy uživatelů, Wabisabi si klade za cíl rozdělit změnu na několik malých částek, distribuovaných v rovných nominálních hodnotách mezi všechny účastníky.
 
-recenzováno: false
+reviewed: false

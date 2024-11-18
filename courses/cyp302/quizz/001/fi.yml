@@ -1,6 +1,6 @@
 question: Mitä rautalaatikossa oli, kun se annettiin Robert Morrissille?
 answer: Kolme salakirjoitettua tekstiä ja viesti
-vaarat_vastaukset:
+wrong_answers:
   - Kartta ja vihjeitä
   - Ainutlaatuinen salausavain
   - Yksi nimilista

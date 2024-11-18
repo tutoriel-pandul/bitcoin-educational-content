@@ -1,6 +1,6 @@
 question: Mikä oli DigiCash-projekti?
 answer: Yritys luoda anonyymiä elektronista rahaa David Chaumin toimesta.
-vaarat_vastaukset:
+wrong_answers:
   - Projekti digitaalisen lompakon luomiseksi Bitcoinille.
   - Yritys digitalisoida kaikki fyysinen käteinen Yhdysvaltain keskuspankin toimesta.
   - Projekti luoda kryptovaluutta Bitcoinin pohjalta.

@@ -1,6 +1,6 @@
 question: Mis oli füsiokraatide panus liberaalsesse mõttesse?
 answer: Kõik ülaltoodud vastused on õiged.
-valevastused:
+wrong_answers:
   - Nad pooldasid individuaalset vabadust ja eraomandit.
   - Nad töötasid välja vaba turu teooria.
   - Nad kritiseerisid merkantilismi ja riiklikku sekkumist.

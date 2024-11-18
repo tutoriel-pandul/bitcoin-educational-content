@@ -6,4 +6,4 @@ wrong_answers:
   - Digitální kopie ručně psaného podpisu
 explanation: |
   Digitální podpis je kryptografická technika, která dokazuje, že zpráva byla skutečně vytvořena vlastníkem odpovídajícího soukromého klíče, čímž zajišťuje její pravost.
-recenzováno: false
+reviewed: false

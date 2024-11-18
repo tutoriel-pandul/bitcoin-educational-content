@@ -6,4 +6,4 @@ wrong_answers:
   - Zdvojnásobuje počet bitcoinů v peněžence.
 explanation: |
   Heslová fráze zvyšuje bezpečnost přidáním dodatečného kusu dat k mnemonické frázi, působí podobně jako 2FA.
-recenzováno: false
+reviewed: false

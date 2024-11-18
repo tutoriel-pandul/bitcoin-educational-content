@@ -1,9 +1,9 @@
 question: Který kov byl historicky považován za standardní referenci pro měnu?
 answer: Zlato
-nesprávné_odpovědi:
+wrong_answers:
   - Stříbro
   - Měď
   - Bronz
 explanation: |
   Zlato bylo historicky považováno za standard díky své vzácnosti, trvanlivosti a univerzálně uznávané hodnotě, což z něj činí stabilní základ pro měnové systémy.
-recenzováno: false
+reviewed: false

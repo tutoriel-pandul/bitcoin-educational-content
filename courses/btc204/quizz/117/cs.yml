@@ -2,7 +2,7 @@ question: Kolik po sobě jdoucích transakcí obvykle provede klasický ricochet
 
 answer: 5
 
-nesprávné_odpovědi:
+wrong_answers:
   - 2
   - 8
   - 14

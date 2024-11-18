@@ -1,6 +1,6 @@
 question: Kuinka määrittää palautuslauseen tarkistussumman bittikoko?
 answer: Jaa satunnaisluvun (entropia) koko 32: lla.
-vaarat_vastaukset:
+wrong_answers:
   - Jaa satunnaisluvun (entropia) koko 8: lla.
   - Jaa satunnaisluvun (entropia) koko 16: lla.
   - Kerro satunnaisluvun (entropia) koko 2: lla.

@@ -1,6 +1,6 @@
 question: Jaká je role Bitcoinového uzlu v Bitcoinové síti?
 answer: Ověřuje nové bloky a zahrnuté transakce.
-nesprávné_odpovědi:
+wrong_answers:
   - Vytváří nové Bitcoiny a vkládá je do bloků.
   - Reguluje cenu Bitcoinu.
   - Spravuje Bitcoinovou síť.

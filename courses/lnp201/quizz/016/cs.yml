@@ -6,4 +6,4 @@ wrong_answers:
   - Když jsou dostupné prostředky vyčerpány
 explanation: |
   Transakce závazků jsou sestaveny a podepsány pro každou změnu alokace, ale jsou publikovány na blockchainu pouze nakonec v případě uzavření kanálu.
-recenzováno: false
+reviewed: false

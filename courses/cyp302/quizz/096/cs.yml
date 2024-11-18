@@ -6,4 +6,4 @@ wrong_answers:
   - Hašování zpráv, šifrování tagu, distribuce tagu
 explanation: |
   MAC schéma se skládá ze tří hlavních kroků: generování tajného klíče, vytváření tagu pro zprávu a ověřování, že přijatá zpráva a její tag odpovídají.
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Mitä Lafferin mukaan tapahtuu verotuloille, kun verokantoja nostetaan liikaa?
 answer: Ne vähenevät
-vaarat_vastaukset:
+wrong_answers:
   - Ne kasvavat
   - Ne pysyvät vakaina
   - Ne vaihtelevat ennustamattomasti

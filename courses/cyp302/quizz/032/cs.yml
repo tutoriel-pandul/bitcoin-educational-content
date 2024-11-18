@@ -6,4 +6,4 @@ wrong_answers:
   - Protože je generován výhradně z přírodních událostí
 explanation: |
   Pseudonáhodný řetězec je navržen tak, aby co nejvíce připomínal opravdu náhodný řetězec, což činí rozlišení nemožným bez přístupu k seedu nebo použitému algoritmu.
-recenzováno: false
+reviewed: false

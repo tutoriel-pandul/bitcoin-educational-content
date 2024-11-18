@@ -6,4 +6,4 @@ wrong_answers:
   - S RIPEMD160.
 explanation: |
   U Legacy adres se kontrolní součet získá provedením dvojitého hashování funkcí SHA256 (HASH256).
-recenzováno: false
+reviewed: false

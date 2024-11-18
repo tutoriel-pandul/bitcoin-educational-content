@@ -2,7 +2,7 @@ question: Jaká heuristická analýza řetězce je používána transakcí payjo
 
 answer: CIOH
 
-nesprávné_odpovědi:
+wrong_answers:
   - Opakované použití adresy
   - Identifikace peněženky
   - Opakované použití verze

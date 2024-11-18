@@ -6,4 +6,4 @@ wrong_answers:
   - Oddělit soukromé klíče od veřejných klíčů.
 explanation: |
   Externí řetězec se používá k derivaci adres určených k veřejnému použití, jako jsou ty pro přijímání plateb.
-recenzováno: false
+reviewed: false

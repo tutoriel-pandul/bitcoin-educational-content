@@ -1,6 +1,6 @@
 question: Mikä on Bitcoin-siirto?
 answer: Omistajuuden siirto bitcoineista käyttäen kryptografiaa.
-vaarat_vastaukset:
+wrong_answers:
   - Fyysinen vaihto bitcoineista, käyttäen notaaria.
   - Omistajuuden siirto bitcoineista, käyttäen fyysistä osoitetta.
   - Omistajuuden siirto bitcoineista, käyttäen sähköpostiosoitetta.

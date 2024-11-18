@@ -2,7 +2,7 @@ question: Jaká je hlavní role transakce "Tx0" ve Whirlpool?
 
 answer: Vyrovnaní UTXO.
 
-špatné odpovědi:
+wrong_answers:
   - Provedení prvního míchání.
   - Odstranění UTXO z poolu.
   - Utracení smíchaných UTXO.
@@ -10,4 +10,4 @@ answer: Vyrovnaní UTXO.
 explanation: |
   Tx0 má za cíl připravit a vyrovnat UTXO pro coinjoin tím, že je rozdělí na jednotky odpovídající množství vybraného poolu, aby se zajistila homogenita míchání.
 
-recenzováno: false
+reviewed: false

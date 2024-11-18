@@ -1,6 +1,6 @@
 question: Hva er en nøkkelfaktor i suksessen eller fiaskoen til en pengepolitisk reform ifølge Bernold?
 answer: Tilliten befolkningen har til den
-gale_answer:
+wrong_answers:
   - Mengden penger i omløp
   - Valutaens verdi
   - Regjeringens økonomiske politikk

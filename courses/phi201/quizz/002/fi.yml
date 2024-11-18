@@ -1,6 +1,6 @@
 question: Mitä vapaus pitää sisällään?
 answer: Kaikki muut vastaukset
-vaarat_vastaukset:
+wrong_answers:
   - Valta tehdä mitä haluaa omistamiensa asioiden kanssa
   - Ulkoisten rajoitteiden puuttuminen
   - Kyky ajatella ja toimia itsenäisesti

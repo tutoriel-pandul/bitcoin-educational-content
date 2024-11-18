@@ -1,4 +1,4 @@
 question: Missä yksityiset avaimet säilytetään?
 answer: Bitcoin-lompakoissa
-vaarat_vastaukset:
+wrong_answers:
   - Lo

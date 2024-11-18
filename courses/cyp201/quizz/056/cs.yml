@@ -6,4 +6,4 @@ wrong_answers:
   - Shromáždit mnemonickou frázi a heslo do jediného formátu.
 explanation: |
   Rozšířený klíč umožňuje obsahovat všechny nezbytné informace pro odvození dětských klíčů, čímž zjednodušuje správu účtů v HD peněžence.
-recenzováno: false
+reviewed: false

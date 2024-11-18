@@ -6,4 +6,4 @@ wrong_answers:
   - Ověřit zůstatek prostředků každého účastníka
 explanation: |
   Posledním krokem pro otevření kanálu je publikování transakce vkladu na blockchain, což oficiálně otevírá kanál.
-recenzováno: false
+reviewed: false

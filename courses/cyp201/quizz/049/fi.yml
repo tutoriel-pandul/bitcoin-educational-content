@@ -1,6 +1,6 @@
 question: Miten tehokas salalause tulisi valita?
 answer: Sen tulisi olla pitkä, monipuolinen ja satunnainen, ilman yhteyttä käyttäjään.
-vaarat_vastaukset:
+wrong_answers:
   - Sen tulisi olla helppo muistaa ja liittyä käyttäjän ympäristöön.
   - Sen tulisi olla lyhyt, mutta sisältää numeroita.
   - Sen tulisi sisältää vähintään 10 numeroa.

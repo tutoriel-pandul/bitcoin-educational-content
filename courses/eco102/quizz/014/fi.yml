@@ -1,6 +1,6 @@
 question: Miten Sayn laki on muotoiltu Jean-Baptiste Sayn ja Bastiatin mukaan?
 answer: Hyödykkeitä ja palveluita vaihdetaan hyödykkeisiin ja palveluihin
-vaarat_vastaukset:
+wrong_answers:
   - Tarjonta luo oman kysyntänsä
   - Mitä enemmän hyödykkeitä tuotetaan, sitä enemmän niitä kulutetaan
   - Kysyntä määrittää tarjonnan

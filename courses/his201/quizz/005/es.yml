@@ -1,6 +1,6 @@
 question: ¿Qué economista afirmó en 1999 que "lo único que falta, pero que pronto se desarrollará, es el efectivo electrónico confiable"?
 answer: Milton Friedman
-respuestas_erróneas:
+wrong_answers:
   - Friedrich Hayek
   - Murray Rothbard
   - Paul Krugman

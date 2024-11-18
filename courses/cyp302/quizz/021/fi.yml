@@ -1,6 +1,6 @@
 question: Mikä on matemaattinen termi laskutoimituksille, jotka sisältävät modulo-operaatioita?
 answer: Modulaariaritmetiikka
-vaarat_vastaukset:
+wrong_answers:
   - Lineaarialgebra
   - Trigonometria
   - Diskreetti geometria

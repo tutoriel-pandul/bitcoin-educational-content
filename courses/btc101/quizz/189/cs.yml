@@ -11,4 +11,4 @@ v síti, kde některé uzly mohou být chybné nebo
 záludné. Bitcoin tento problém řeší prostřednictvím využití
 blockchainu založeného na Důkazu práce, což zajišťuje, že všechny
 uzly souhlasí se stavem historie transakcí.
-recenzováno: true
+reviewed: true

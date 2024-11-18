@@ -1,6 +1,6 @@
 question: Kui omand on institutsioon, mille on loonud üldine tahe, nagu Rousseau usub, mis on selle tagajärg?
 answer: Seadusandja võib korraldada, muuta või isegi kaotada omandi
-valevastused:
+wrong_answers:
   - Seadusandja on siis selle kokkuleppega seotud ja ei tohi omandit puutuda
   - Üldine tahe ei taha kunagi omandit puudutada
   - Seadusandja on kohustatud kaitsma omandit eranditult

@@ -6,4 +6,4 @@ wrong_answers:
   - Povinnost měnit klíče při každé komunikaci
 explanation: |
   Problém distribuce klíčů se týká výzvy bezpečně přenášet klíče, což je nutnost, která se stala klíčovou v digitálních komunikacích, kde fyzická výměna není praktická.
-recenzováno: false
+reviewed: false

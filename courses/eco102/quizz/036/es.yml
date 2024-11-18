@@ -1,6 +1,6 @@
 question: ¿Por qué los romanos consideraban la propiedad como puramente convencional?
 answer: Porque tenían esclavos
-respuestas_erróneas:
+wrong_answers:
   - Porque eran legalistas
   - Porque cultivaban la tierra
   - Porque priorizaban la jerarquía social

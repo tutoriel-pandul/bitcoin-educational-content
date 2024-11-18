@@ -1,6 +1,6 @@
 question: Mikä on sosiaalisen järjestämisen ajuri Bastiat'n mukaan?
 answer: Markkinat
-vaarat_vastaukset:
+wrong_answers:
   - Valtio
   - Uskonto
   - Perinne

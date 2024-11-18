@@ -6,4 +6,4 @@ wrong_answers:
   - Spravují transakce mezi uživateli.
 explanation: |
   Těžaři v protokolu Bitcoinu zajišťují bezpečnost jak současné, tak historické sítě. Neregulují cenu Bitcoinu, nekontrolují jeho nabídku ani nespravují transakce mezi uživateli.
-recenzováno: true
+reviewed: true

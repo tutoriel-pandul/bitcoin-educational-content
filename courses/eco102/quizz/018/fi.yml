@@ -1,6 +1,6 @@
 question: Mikä sosiaalisen järjestämisen muoto katsotaan olevan ihmisen päämäärän mukainen Tracyn mukaan?
 answer: Omaisuus
-vaarat_vastaukset:
+wrong_answers:
   - Demokratia
   - Palkkatyö
   - Tasavalta

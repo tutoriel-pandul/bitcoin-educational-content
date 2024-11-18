@@ -1,6 +1,6 @@
 question: Mitä sinun tulisi tehdä ostaessasi Bitcoinia vaihtoalustalta?
 answer: Nosta bitcoinit ja lähetä ne lompakkoosi.
-vaarat_vastaukset:
+wrong_answers:
   - Jätä bitcoinit alustalle.
   - Myy bitcoinit välittömästi.
   - Siirrä bitcoinit toiselle vaihtoalustalle.

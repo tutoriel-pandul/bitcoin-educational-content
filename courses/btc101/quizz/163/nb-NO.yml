@@ -1,6 +1,6 @@
 question: Hva er den gjennomsnittlige tiden mellom opprettelsen av to blokker i Bitcoin-protokollen?
 answer: 10 minutter
-feil_answer:
+wrong_answers:
   - 5 minutter
   - 15 minutter
   - 20 minutter

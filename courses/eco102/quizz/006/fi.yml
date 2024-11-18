@@ -1,6 +1,6 @@
 question: Mikä yhdistyksen perusti Bastiat Ranskassa edistämään vapaakauppaa?
 answer: Vapaakaupan Yhdistys
-vaarat_vastaukset:
+wrong_answers:
   - Keinumisen Yhdistys
   - Vapaan Markkinan Yhdistys
   - Vapaan Kilpailun Liiga

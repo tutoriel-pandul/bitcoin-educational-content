@@ -6,4 +6,4 @@ wrong_answers:
   - Protože závisí na násobení a ne na dělení.
 explanation: |
   Faktorizace obrovského čísla, součinu dvou velkých prvočísel, vyžaduje výpočetní výkony, které přesahují kapacitu současných počítačů, což tento úkol činí prakticky neuskutečnitelným.
-recenzováno: false
+reviewed: false

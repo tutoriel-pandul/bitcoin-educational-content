@@ -1,6 +1,6 @@
 question: Mikä on termi alkiolle syklisessä ryhmässä, joka voi tuottaa kaikki muut alkiot eksponentiaation kautta?
 answer: Generaattori
-vaarat_vastaukset:
+wrong_answers:
   - Kerroin
   - Suhteellinen alkio
   - Käänteisalkio

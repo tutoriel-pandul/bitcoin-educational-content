@@ -6,4 +6,4 @@ wrong_answers:
   - Aplikuje se pouze na spojité proměnné.
 explanation: |
   Bayesův teorém umožňuje výpočet pravděpodobnosti události A za předpokladu B obrácením pravděpodobností a je zásadní v teorii pravděpodobnosti.
-recenzováno: false
+reviewed: false

@@ -2,7 +2,7 @@ question: Jaký je hlavní cíl transakce coinjoin?
 
 answer: Přerušit historii mince.
 
-nesprávné_odpovědi:
+wrong_answers:
   - Snížit poplatky za transakce.
   - Udělat bitcoiny nedetekovatelnými.
   - Zvýšit rychlost potvrzení.

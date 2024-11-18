@@ -6,4 +6,4 @@ wrong_answers:
   - Argon2.
 explanation: |
   PBKDF2 (Password-Based Key Derivation Function 2) se používá k odvození seedu z mnemonické fráze a hesla v HD peněženkách.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Že poplatky jsou sdíleny mezi oběma účastníky
 explanation: |
   Podepsané transakce s pevným závazkem zajišťují, že každý účastník může obnovit své prostředky zveřejněním nejnovější verze v případě, že se kanál uzavře.
-recenzováno: false
+reviewed: false

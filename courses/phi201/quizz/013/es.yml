@@ -1,6 +1,6 @@
 question: ¿Cuál es la definición de libertad según Lord Acton?
 answer: El poder de actuar de acuerdo con la propia conciencia incluso en contra de la opinión de la mayoría
-respuestas_erróneas:
+wrong_answers:
   - La capacidad de hacer lo que uno quiera
   - La ausencia de cualquier restricción
   - Protección contra invasiones externas

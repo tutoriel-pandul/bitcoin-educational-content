@@ -1,6 +1,6 @@
 question: Mikä on Jacques Rueffin pääargumentti valuutasta?
 answer: Paperiraha on vaarallista ja johtaa dirigismiin
-vaarat_vastaukset:
+wrong_answers:
   - Paperiraha on vakaa ja ennustettavissa
   - Paperiraha on välttämätön talouskehitykselle
   - Paperirahan tulee olla tuettuna fyysisillä varoilla

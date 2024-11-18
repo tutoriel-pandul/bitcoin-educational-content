@@ -6,4 +6,4 @@ wrong_answers:
   - Diskrétní proměnné ve moderní kryptografii neexistují, používají se pouze spojité proměnné.
 explanation: |
   Diskrétní proměnné mají konečnou množinu výsledků, zatímco spojité proměnné mohou nabývat jakékoli hodnoty v intervalu, jako jsou reálná čísla mezi 0 a 1.
-recenzováno: false
+reviewed: false

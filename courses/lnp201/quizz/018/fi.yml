@@ -1,6 +1,6 @@
 question: Miten uusi kanavatila luodaan jokaisen siirron jälkeen?
 answer: Luomalla uusi sitoumustapahtuma päivitetyllä jaolla
-vaarat_vastaukset:
+wrong_answers:
   - Lähettämällä on-chain-tapahtuman jokaisen siirron jälkeen
   - Kasvattamalla kanavan kokonaiskapasiteettia
   - Sulkemalla ja avaamalla kanavan uudelleen jokaisen tapahtuman jälkeen

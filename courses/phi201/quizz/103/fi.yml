@@ -1,6 +1,6 @@
 question: Mikä on itävaltalainen kritiikki Marxin voittoteoriaa kohtaan?
 answer: Voitto on välttämätön palkkio yrittäjille, jotka ottavat riskejä ja investoivat.
-vaarat_vastaukset:
+wrong_answers:
   - Itävaltalaiset väittävät, että voitto on työntekijöiden hyväksikäytön muoto.
   - Itävaltalaiset kritisoivat Marxin teoriaa, koska se ei ota huomioon ansion roolia.
   - Marxin voittoteoria palvelee luokan etuja.

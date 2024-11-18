@@ -1,6 +1,6 @@
 question: Kolik iterací používáme u funkce PBKDF2 v Bitcoinu?
 answer: 2048.
-nesprávné_odpovědi:
+wrong_answers:
   - 512.
   - 1000.
   - 21000.

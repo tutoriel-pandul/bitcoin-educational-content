@@ -6,4 +6,4 @@ wrong_answers:
   - Převod zprávy do binární podoby
 explanation: |
   Kód pro ověření zprávy (MAC) se používá k zajištění, že zpráva nebyla změněna a že skutečně pochází od předpokládaného odesílatele.
-recenzováno: false
+reviewed: false

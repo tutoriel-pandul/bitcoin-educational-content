@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Coinswap využívá chytré kontrakty k umožnění převodu vlastnictví bitcoinů mezi dvěma uživateli, bez nutnosti důvěry a bez toho, aby byl tento převod explicitně viditelný na blockchainu.
 
-recenzováno: false
+reviewed: false

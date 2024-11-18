@@ -1,6 +1,6 @@
 question: Bastiatin mukaan mikä on pahin ryöstön muoto?
 answer: Verot ja monopolit
-vaarat_vastaukset:
+wrong_answers:
   - Yksilön toiseen yksilöön kohdistama varkaus
   - Sodat ja valloitukset
   - Kaikki ryöstön muodot ovat yhtä pahoja

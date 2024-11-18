@@ -6,4 +6,4 @@ wrong_answers:
   - Skupiny komplexních čísel
 explanation: |
   V kryptografii jsou cyklické skupiny nezbytné, protože umožňují generování všech prvků skupiny použitím exponentiace jediného prvku, nazývaného generátor.
-recenzováno: false
+reviewed: false

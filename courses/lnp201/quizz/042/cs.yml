@@ -6,4 +6,4 @@ wrong_answers:
   - Počet plateb provedených cílovým uzlem
 explanation: |
   Celková kapacita kanálů může naznačovat vyšší pravděpodobnost úspěchu, protože naznačuje větší dostupnost likvidity pro transakce.
-recenzováno: false
+reviewed: false

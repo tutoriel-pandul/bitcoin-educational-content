@@ -6,4 +6,4 @@ wrong_answers:
   - Ověřením IP adresy odesílatele
 explanation: |
   Alice používá sdílený tajný klíč k vygenerování tagu z přijaté zprávy. Pokud se tento tag shoduje s tím, který poslal Bob, ví, že zpráva je autentická a nezměněná.
-recenzováno: false
+reviewed: false

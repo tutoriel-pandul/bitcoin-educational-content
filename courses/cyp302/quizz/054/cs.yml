@@ -6,4 +6,4 @@ wrong_answers:
   - Kubické kořeny
 explanation: |
   V kryptografii se pro konečná tělesa řádu 2^m často používají nerozložitelné polynomy, aby se zajistilo, že těleso je dobře definované a že jsou možné všechny operace.
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Mikä on tuloksena sanalle "DOG", kun käytetään siirtoavainta 17?
 answer: UFX
-vaarat_vastaukset:
+wrong_answers:
   - ZKH
   - TPG
   - UVW

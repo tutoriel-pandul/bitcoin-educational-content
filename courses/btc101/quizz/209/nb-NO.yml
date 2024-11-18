@@ -1,6 +1,6 @@
 question: Hva ligner adopsjonskurven til Bitcoin på?
 answer: En S-kurve
-feil_answer:
+wrong_answers:
   - En U-kurve
   - En V-kurve
   - En W-kurve

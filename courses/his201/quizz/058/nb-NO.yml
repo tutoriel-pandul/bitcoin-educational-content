@@ -1,6 +1,6 @@
 question: I hvilken enhet måles nettverkets hash rate i løpet av andre halvdel av året 2010?
 answer: I GH/s
-feil_answer:
+wrong_answers:
   - I MH/s
   - I TH/s
   - I PH/s

@@ -1,6 +1,6 @@
 question: Kuinka suuren osan ajasta Bitcoin-verkko on ollut toiminnassa sen luomisesta lähtien?
 answer: 99,988 %.
-vaarat_vastaukset:
+wrong_answers:
   - 100 %.
   - 90,009 %.
   - 80,17 %.

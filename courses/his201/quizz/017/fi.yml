@@ -1,6 +1,6 @@
 question: Missä Nick Szabo ensimmäisen kerran esitteli bit gold -konseptinsa vuonna 1998?
 answer: libtech-l postituslistalla
-vaarat_vastaukset:
+wrong_answers:
   - cypherpunks postituslistalla
   - Kryptografia postituslistalla
   - extropians postituslistalla

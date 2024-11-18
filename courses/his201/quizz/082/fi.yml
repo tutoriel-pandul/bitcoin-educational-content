@@ -1,6 +1,6 @@
 question: Mikä on Ruotsalaisen Pirate Party -puolueen perustajan nimi, joka kuvasi Bitcoinia "pankkitoiminnan Napsteriksi" toukokuussa 2011?
 answer: Rick Falkvinge
-vaarat_vastaukset:
+wrong_answers:
   - Smári McCarthy
   - Edward Snowden
   - Florian Hufsky

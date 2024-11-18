@@ -2,7 +2,7 @@ question: Jakou strategii používá Wabisabi pro zvýšení anonsetů účastn�
 
 answer: S několika velmi velkými transakcemi.
 
-nesprávné_odpovědi:
+wrong_answers:
   - S mnoha velmi malými transakcemi.
   - S jednou malou transakcí.
   - Bez transakcí.

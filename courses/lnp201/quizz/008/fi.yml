@@ -1,6 +1,6 @@
 question: Kuinka 2/2 moniallekirjoitusosoite toimii Bitcoinissa?
 answer: Se vaatii kaksi allekirjoitusta varojen lukituksen avaamiseen ja käyttämiseen.
-vaarat_vastaukset:
+wrong_answers:
   - Se mahdollistaa varojen käyttämisen vain yhdellä kahdesta avaimesta.
   - Se valtuuttaa tapahtumat vain tietyissä lukitustapauksissa.
   - Sitä käytetään vain varojen lähettämiseen julkisiin osoitteisiin.

@@ -1,6 +1,6 @@
 question: Mikä on Rousseau'n mukaan yksilöiden rajoittamisen tavoite?
 answer: Johtaa heidät vapauteen
-vaarat_vastaukset:
+wrong_answers:
   - Orjuuttaa heidät
   - Tehdä heidät tasa-arvoisiksi
   - Yhdistää heidät palvelukseen

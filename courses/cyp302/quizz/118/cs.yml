@@ -6,4 +6,4 @@ wrong_answers:
   - Dělí otevřený text na 128-bitové bloky
 explanation: |
   Operace substituce bytů (S-Box) v AES zavádí zmatek nahrazením každého bytu jinou hodnotou podle tabulky, což činí šifrovaný text obtížněji analyzovatelným.
-recenzováno: false
+reviewed: false

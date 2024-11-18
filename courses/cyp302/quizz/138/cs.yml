@@ -6,4 +6,4 @@ wrong_answers:
   - Generovatelnost v reálném čase
 explanation: |
   Odolnost vůči kolizím zajišťuje, že je prakticky nemožné najít dva různé vstupy produkující stejný hash, což je důležité pro ověření, že software nebyl pozměněn.
-recenzováno: false
+reviewed: false

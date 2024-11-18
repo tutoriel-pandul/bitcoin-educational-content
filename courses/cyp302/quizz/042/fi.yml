@@ -1,6 +1,6 @@
 question: Mikä ryhmä täyttää kommutatiivisuusehdon?
 answer: Abelin ryhmä
-vaarat_vastaukset:
+wrong_answers:
   - Suljettu ryhmä
   - Assosiatiivinen ryhmä
   - Käänteisryhmä

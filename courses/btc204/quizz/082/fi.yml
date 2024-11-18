@@ -2,7 +2,7 @@ question: Mikä Chaumian CoinJoin -prosessin vaihe sisältää identiteetin vaih
 
 answer: Ulostulojen rekisteröinti.
 
-vaarat_vastaukset:
+wrong_answers:
   - Sisääntulojen rekisteröinti.
   - Transaktion allekirjoittaminen.
   - Transaktion lähettäminen.

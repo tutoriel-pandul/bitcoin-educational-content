@@ -1,6 +1,6 @@
 question: Mikä oli omaisuuden määritelmä latinaksi roomalaisten mukaan?
 answer: Jus utendi et abutendi
-vaarat_vastaukset:
+wrong_answers:
   - Lex specialis derogat legi generali
   - Utilitas publica praeferenda est privatorum contractibus
   - Res publica et privatus separanda est

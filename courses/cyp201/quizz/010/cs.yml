@@ -1,6 +1,6 @@
 question: Jaké algoritmy se používají pro derivaci v Bitcoin HD peněženkách?
 answer: HMAC/PBKDF2
-nesprávné_odpovědi:
+wrong_answers:
   - NMAC/PBKDF1
   - KMAC/Scrypt
   - CMAC/Argon2

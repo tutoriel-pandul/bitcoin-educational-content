@@ -6,4 +6,4 @@ wrong_answers:
   - Šifrování, které segmentuje zprávu do datových bloků
 explanation: |
   "Stream cipher" je symetrické šifrování, ve kterém je proud klíčů stejné délky jako zpráva kombinován s posledně jmenovanou, aby se vytvořil zašifrovaný text.
-recenzováno: false
+reviewed: false

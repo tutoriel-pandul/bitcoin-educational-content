@@ -8,4 +8,4 @@ explanation: >-
   Důkaz práce je konsensus algoritmus používaný v síti Bitcoin
   k ověření transakcí a vytváření nových bloků. Vyžaduje od těžařů řešení složitých
   matematických problémů, čímž zajišťuje bezpečnost a integritu sítě.
-recenzováno: true
+reviewed: true

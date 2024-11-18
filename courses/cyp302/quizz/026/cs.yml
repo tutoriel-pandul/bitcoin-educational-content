@@ -6,4 +6,4 @@ wrong_answers:
   - XOR je inverzí sčítání
 explanation: |
   Operace XOR lze chápat jako sčítání bitů s modulo 2, což dělá výsledky identickými.
-recenzováno: false
+reviewed: false

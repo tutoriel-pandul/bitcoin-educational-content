@@ -1,6 +1,6 @@
 question: Mikä on tyypillinen lohkokoko lohkosalausmenetelmässä?
 answer: 64, 128, 192 tai 256 bittiä
-vaarat_vastaukset:
+wrong_answers:
   - 8, 16, 32 tai 64 bittiä
   - 4, 8, 16 tai 32 bittiä
   - 256, 512, 1024 tai 2048 bittiä

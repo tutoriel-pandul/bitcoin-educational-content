@@ -1,6 +1,6 @@
 question: ¿Qué es la "polis" griega?
 answer: El mercado
-respuestas_erróneas:
+wrong_answers:
   - La ley de la naturaleza
   - La ley humana
   - El templo dedicado a los dioses

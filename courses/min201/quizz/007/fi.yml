@@ -1,6 +1,6 @@
 question: Mitä tapahtuu louhinnan palkkiolle Bitcoin-verkossa suunnilleen joka neljäs vuosi?
 answer: Se puolittuu
-vaarat_vastaukset:
+wrong_answers:
   - Se kaksinkertaistuu
   - Se kolminkertaistuu
   - Se pysyy samana

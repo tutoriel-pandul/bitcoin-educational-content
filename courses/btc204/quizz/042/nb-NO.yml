@@ -1,6 +1,6 @@
 question: Blant disse risikoene, hvilken er ikke assosiert med kontant P2P-utvekslinger?
 answer: Risiko for datalekkasje.
-feil_answer:
+wrong_answers:
   - Risiko for personlig sikkerhet.
   - Risiko for tyveri.
   - Juridisk risiko.

@@ -6,4 +6,4 @@ wrong_answers:
   - Vařit oceány
 explanation: |
   Hashcash vyžadoval důkaz práce pro každý přijatý email, což mělo omezit spam.
-recenzováno: false
+reviewed: false

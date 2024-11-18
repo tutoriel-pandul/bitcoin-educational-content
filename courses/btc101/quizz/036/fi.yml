@@ -1,6 +1,6 @@
 question: Mitä termi 'fiduciary' tarkoittaa valuuttojen yhteydessä?
 answer: Se viittaa valuuttoihin, jotka ovat arvokkaita vain luottamuksen vuoksi keskuslaitokseen, joka niitä säätelee.
-vaarat_vastaukset:
+wrong_answers:
   - Se viittaa valuuttoihin, jotka ovat kultavarannon tukemia ja joita pienet kaupalliset pankit laskevat liikkeelle.
   - Se viittaa valuuttoihin, jotka ovat arvokkaita vain fidusiaaristen transaktioiden yhteydessä.
   - Se viittaa valuuttoihin, joita käytetään vain tietyn laitoksen sisällä.

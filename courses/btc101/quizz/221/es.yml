@@ -1,6 +1,6 @@
 question: ¿Qué es la Lightning Network?
 answer: Una red de pagos que utiliza el protocolo de Bitcoin para habilitar transacciones a la velocidad del rayo.
-respuestas_erróneas:
+wrong_answers:
   - Un nuevo tipo de criptomoneda.
   - Una nueva tecnología de blockchain que reemplazará a Bitcoin en el futuro.
   - Un método para minar Bitcoin.

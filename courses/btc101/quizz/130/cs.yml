@@ -6,4 +6,4 @@ wrong_answers:
   - Čím více potvrzení transakce má, tím je méně bezpečná.
 explanation: >-
   Počet potvrzení u Bitcoinové transakce ukazuje, kolik bloků bylo vytěženo na vrcholu bloku obsahujícího transakci. Čím více potvrzení transakce má, tím je neměnnější.
-recenzováno: true
+reviewed: true

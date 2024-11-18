@@ -9,4 +9,4 @@ explanation: |
   generují unikátní soukromý klíč pro každý web a ověřují
   URL před povolením připojení. To značně ztěžuje hackerům
   získání neautorizovaného přístupu.
-recenzováno: true
+reviewed: true

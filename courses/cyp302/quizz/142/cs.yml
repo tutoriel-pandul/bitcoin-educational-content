@@ -6,4 +6,4 @@ wrong_answers:
   - Reverzibilní funkce
 explanation: |
   Jednosměrné funkce umožňují rychlý výpočet v jednom směru, ale činí obrácené řešení prakticky nemožným, což vysvětluje jejich užitečnost v kryptografii.
-recenzováno: false
+reviewed: false

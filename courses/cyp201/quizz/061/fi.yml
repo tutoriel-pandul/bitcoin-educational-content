@@ -1,6 +1,6 @@
 question: Mikä muuttuja mahdollistaa sisaravainparien erottamisen toisistaan (kun ne ovat peräisin samasta vanhempainparista)?
 answer: Indeksi.
-vaarat_vastaukset:
+wrong_answers:
   - Kryptografinen suola.
   - Etunimi.
   - Vanhempainketjun koodi.

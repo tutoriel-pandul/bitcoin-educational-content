@@ -1,6 +1,6 @@
 question: Mikä on ECB-menetelmän pääasiallinen puute lohkosalausmenetelmässä?
 answer: Se on deterministinen ja voi paljastaa kuvioita tiedoissa
-vaarat_vastaukset:
+wrong_answers:
   - Se vaatii muuttuvan pituisia avaimia
   - Se ei toimi yli 128 bitin viestien kanssa
   - Se ei toimi yli 256 bitin viestien kanssa

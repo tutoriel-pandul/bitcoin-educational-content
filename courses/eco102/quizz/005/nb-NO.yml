@@ -1,6 +1,6 @@
 question: Når oppdaget Frédéric Bastiat sitt kall som økonom?
 answer: Under en tur til England
-feil_answer:
+wrong_answers:
   - Under studiene ved Sorèze-colleget
   - Mens han jobbet på eiendommen sin i Landes
   - Under en debatt i Paris

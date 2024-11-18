@@ -1,6 +1,6 @@
 question: Mitä tietoja lähettävän solmun on tiedettävä suorittaakseen sipulireititysmaksun?
 answer: Verkon topologia ja täydellinen reitti vastaanottajalle
-vaarat_vastaukset:
+wrong_answers:
   - Vain seuraava välisolmu
   - Kunkin kanavan kapasiteetti
   - Kunkin polulla olevan solmun kryptografinen allekirjoitus

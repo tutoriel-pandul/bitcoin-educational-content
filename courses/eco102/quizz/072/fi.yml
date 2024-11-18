@@ -1,6 +1,6 @@
 question: Mikä esimerkki Leonard Read käyttää havainnollistaakseen näkymätöntä yhteistyötä?
 answer: Lyijykynän valmistus
-vaarat_vastaukset:
+wrong_answers:
   - Talon rakentaminen
   - Auton tuotanto
   - Kaupungin organisointi

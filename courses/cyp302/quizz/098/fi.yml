@@ -1,6 +1,6 @@
 question: Kuinka MAC auttaa estämään viestien muuntelun hyökkääjän toimesta?
 answer: Sallimalla varmistaa, että vastaanotettua viestiä ei ole muutettu
-vaarat_vastaukset:
+wrong_answers:
   - Estämällä voimakkaan yrityksen tyypin hyökkäykset
   - Peittämällä viestin sisällön
   - Estämällä automaattisesti epäilyttävät viestit

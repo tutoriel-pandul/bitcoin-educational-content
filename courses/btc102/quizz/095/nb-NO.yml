@@ -1,6 +1,6 @@
 question: Hva er noen av kjennetegnene til en paranoid Bitcoiner?
 answer: Årvåkenhet, uavhengighet, mistenksomhet, kunnskap og pragmatisme
-feil_answer:
+wrong_answers:
   - Tillit, avhengighet, uvitenhet og upraktiskhet
   - Latskap, avhengighet, tillit og uvitenhet
   - Tillit, avhengighet, mangel på kunnskap og upraktiskhet

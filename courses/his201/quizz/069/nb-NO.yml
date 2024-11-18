@@ -1,6 +1,6 @@
 question: Hvor møtes Bitcoin-utviklere for å ha mer uformelle tekniske diskusjoner?
 answer: På IRC-kanalen \#bitcoin-dev
-feil_answer:
+wrong_answers:
   - På en spesiell del av forumet
   - På bitcoin-utviklings e-postlisten
   - På subreddit-en r/Bitcoin

@@ -1,6 +1,6 @@
 question: Kuka keksi työn todistamisen konseptin?
 answer: Cynthia Dwork ja Moni Naor
-vaarat_vastaukset:
+wrong_answers:
   - Markus Jakobsson ja Ari Juels
   - Adam Back
   - Satoshi Nakamoto

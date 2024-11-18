@@ -1,6 +1,6 @@
 question: ¿Cuándo tuvo lugar el primer intercambio entre bitcoin y el dólar?
 answer: 12 de octubre de 2009
-respuestas_erróneas:
+wrong_answers:
   - 8 de mayo de 2009
   - 30 de diciembre de 2009
   - 11 de marzo de 2010

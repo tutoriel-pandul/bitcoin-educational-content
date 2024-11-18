@@ -6,4 +6,4 @@ wrong_answers:
   - Maže písmena po písmenu "Z"
 explanation: |
   Operace modulo 26 umožňuje písmenům vrátit se po "Z" zpět, aby se zajistilo, že každé zašifrované písmeno zůstane v rámci 26 písmen abecedy.
-recenzováno: false
+reviewed: false

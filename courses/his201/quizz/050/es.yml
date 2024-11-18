@@ -1,6 +1,6 @@
 question: ¿Quién creó la plataforma de intercambio Mt. Gox el 18 de julio de 2010, una semana después del "gran slashdotting" de Bitcoin?
 answer: Jed McCaleb
-respuestas_erróneas:
+wrong_answers:
   - Mark Karpelès
   - Martti Malmi
   - Gavin Andresen

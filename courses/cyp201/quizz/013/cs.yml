@@ -6,4 +6,4 @@ wrong_answers:
   - Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 8 (oktální).
 explanation: |
   Prefix "0x" naznačuje, že číslo následující po něm je vyjádřeno v soustavě se základem 16 (hexadecimální).
-recenzováno: false
+reviewed: false

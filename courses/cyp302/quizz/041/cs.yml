@@ -6,4 +6,4 @@ wrong_answers:
   - Asociativní prvek
 explanation: |
   Neutrální prvek grupy je unikátní prvek, který, když je aplikován na jiný prvek, jej nechá nezměněný. Například v grupě celých čísel pod sčítáním je neutrálním prvkem 0.
-recenzováno: false
+reviewed: false

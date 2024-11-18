@@ -1,6 +1,6 @@
 question: Hva skiller Bitcoin fra tradisjonelle valutaer kontrollert av sentralbanker eller regjeringer?
 answer: Alle sammen
-feil_answer:
+wrong_answers:
   - Bitcoin krever samarbeid mellom gruvearbeidere, noder og utviklere
   - Bitcoin tillater hvem som helst å delta i nettverket og utføre nøkkelroller
   - Bitcoin er avhengig av et desentralisert system for konsensus

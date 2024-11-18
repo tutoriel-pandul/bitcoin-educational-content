@@ -1,6 +1,6 @@
 question: Miten Bitcoinin yksityisavain määritetään?
 answer: Se määritetään satunnaisesta tai pseudosatunnaisesta numerosta.
-vaarat_vastaukset:
+wrong_answers:
   - Se määritetään lisäämällä ja kaksinkertaistamalla pisteitä elliptisellä käyrällä sen julkisesta avaimesta.
   - Se määritetään hashaamalla sen julkinen avain.
   - Se määritetään SHA-256 algoritmilla.

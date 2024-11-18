@@ -6,4 +6,4 @@ wrong_answers:
   - Autentizační kód zprávy založený na Diffie-Hellman
 explanation: |
   HMAC je autentizační kód zprávy, který používá hašovací funkci, jako je SHA-256, k vytvoření značky, která ověřuje integritu a autentičnost zprávy.
-recenzováno: false
+reviewed: false

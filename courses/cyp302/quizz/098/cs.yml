@@ -6,4 +6,4 @@ wrong_answers:
   - Automatickým blokováním podezřelých zpráv
 explanation: |
   MAC umožňuje příjemci ověřit, že zpráva nebyla upravena prostřednictvím tagu generovaného sdíleným tajným klíčem, což omezuje možnosti manipulace.
-recenzováno: false
+reviewed: false

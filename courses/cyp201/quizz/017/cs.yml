@@ -6,4 +6,4 @@ wrong_answers:
   - Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní peněženku.
 explanation: |
   Digitální podpisy v Bitcoinu umožňují dokázat, že uživatel vlastní soukromý klíč spojený s veřejným klíčem, aniž by tento soukromý klíč odhalil.
-recenzováno: false
+reviewed: false

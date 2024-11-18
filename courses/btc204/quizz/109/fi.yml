@@ -2,7 +2,7 @@ question: Miksi payjoinin käyttäminen maksamiseen on usein monimutkaista?
 
 answer: Se vaatii vastaanottajan aktiivista yhteistyötä rakenteen luomisessa
 
-vaarat_vastaukset:
+wrong_answers:
   - Se vaatii kiinteät summat jokaiselle transaktiolle
   - Se pakottaa molemmat osapuolet käyttämään samaa ohjelmistotyyppiä
   - Se vaatii maksajalta vähintään 2 UTXOa, jotka ovat suurempia kuin maksun arvo

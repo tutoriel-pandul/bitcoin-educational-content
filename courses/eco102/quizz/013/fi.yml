@@ -1,6 +1,6 @@
 question: Mikä on arvon perusta Frédéric Bastiat'n mukaan?
 answer: Hyödyllisyys
-vaarat_vastaukset:
+wrong_answers:
   - Työ
   - Niukkuus
   - Kysyntä

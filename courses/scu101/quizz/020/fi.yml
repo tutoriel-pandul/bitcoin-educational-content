@@ -1,6 +1,6 @@
 question: Mikä on Windowsin sisäänrakennettu virustorjunta?
 answer: Windows Defender
-vaarat_vastaukset:
+wrong_answers:
   - Kaspersky
   - Norton
   - McAfee

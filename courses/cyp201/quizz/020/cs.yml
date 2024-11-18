@@ -6,4 +6,4 @@ wrong_answers:
   - Je určen algoritmem SHA-256.
 explanation: |
   Soukromý klíč Bitcoinu je generován náhodným nebo pseudonáhodným způsobem, což zajišťuje jeho jedinečnost a bezpečnost.
-recenzováno: false
+reviewed: false

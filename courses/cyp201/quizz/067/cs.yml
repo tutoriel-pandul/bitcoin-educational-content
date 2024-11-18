@@ -6,4 +6,4 @@ wrong_answers:
   - Externí Legacy adresa na hlavní síti.
 explanation: |
   Odvozovací cesta m/84'/0'/1'/0/7 označuje externí adresu SegwitV0 na hlavní síti (mainnet). 84' = SegWit v0, 0' = hlavní síť, 1 = externí
-recenzováno: false
+reviewed: false

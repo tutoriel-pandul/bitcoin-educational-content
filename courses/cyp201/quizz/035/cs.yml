@@ -6,4 +6,4 @@ wrong_answers:
   - Datum vytvoření peněženky.
 explanation: |
   Mnemonická fráze je odvozena ze zdroje entropie, což znamená náhodné nebo pseudonáhodné informace, aby byla zajištěna bezpečnost soukromých klíčů.
-recenzováno: false
+reviewed: false

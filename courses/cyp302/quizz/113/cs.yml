@@ -6,4 +6,4 @@ wrong_answers:
   - Slouží pouze jako dočasné úložiště dat až do konce procesu
 explanation: |
   Pole K se používá k transformaci pole S v procesu plánování klíče, což umožňuje generování pseudonáhodného klíčového proudu pro šifrování otevřeného textu.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Protože zprávy nelze ověřit bez digitálního podpisu.
 explanation: |
   Důvěrnost chrání obsah zpráv, ale bez MAC může útočník stále zachytit a změnit zprávu, aniž by ji rozuměl, čímž ohrožuje integritu komunikace.
-recenzováno: false
+reviewed: false

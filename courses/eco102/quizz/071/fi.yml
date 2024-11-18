@@ -1,6 +1,6 @@
 question: Mikä on "näkymätön käsi" Adam Smithin mukaan?
 answer: Mekanismi, jonka kautta yksilöiden edut palvelevat yleistä etua
-vaarat_vastaukset:
+wrong_answers:
   - Yliluonnollinen voima, joka ohjaa taloutta
   - Rikkaiden salaliitto köyhien hyväksikäyttämiseksi
   - Metafora valtion roolista taloudessa

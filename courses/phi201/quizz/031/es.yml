@@ -1,6 +1,6 @@
 question: ¿Cuál es el nombre de la primera codificación escrita de la ley romana?
 answer: La Ley de las Doce Tablas
-respuestas_erróneas:
+wrong_answers:
   - El Código de Hammurabi
   - El Digesto
   - Los Edictos de Justiniano

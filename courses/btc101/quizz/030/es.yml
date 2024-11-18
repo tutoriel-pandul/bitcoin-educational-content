@@ -1,6 +1,6 @@
 question: ¿Cuál es la principal ventaja de las monedas fiduciarias?
 answer: Son fácilmente divisibles.
-respuestas_erróneas:
+wrong_answers:
   - Están controladas por una parte central.
   - No son fácilmente transportables.
   - Son efectivas para mantener su valor a lo largo del tiempo.

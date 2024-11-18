@@ -1,6 +1,6 @@
 question: Mikä on yleinen syy tietoturva-aukkoihin?
 answer: Ihmisen huolimattomuus.
-vaarat_vastaukset:
+wrong_answers:
   - Sähkökatkot.
   - Hidas internetyhteys.
   - Vanhentunut laitteisto.

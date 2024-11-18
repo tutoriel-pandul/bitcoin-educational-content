@@ -1,6 +1,6 @@
 question: Mikä on standardimenetelmä lompakkosi palauttamiseen?
 answer: Mnemonisen fraasin syöttäminen mihin tahansa lompakko-ohjelmistoon.
-vaarat_vastaukset:
+wrong_answers:
   - Mnemonisen fraasin tallentaminen digitaaliseen tiedostoon.
   - Mnemonisen fraasin kirjoittaminen valkotaululle.
   - Mnemonisen fraasin jakaminen luotetun ystävän kanssa.

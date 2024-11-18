@@ -1,6 +1,6 @@
 question: Mikä on Bastiat'n näkemys ihmisen luonteesta syntymähetkellä?
 answer: Omistaja
-vaarat_vastaukset:
+wrong_answers:
   - Orja
   - Hyvä
   - Alaistuva

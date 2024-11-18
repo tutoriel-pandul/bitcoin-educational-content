@@ -2,7 +2,7 @@ question: Co naznačuje velký anonset o soukromí UTXO?
 
 answer: Zlepšené soukromí.
 
-nesprávné_odpovědi:
+wrong_answers:
   - Snížené soukromí.
   - Zlepšená sledovatelnost.
   - Rychlejší rychlosti transakcí coinjoin.
@@ -10,4 +10,4 @@ nesprávné_odpovědi:
 explanation: |
   Velký anonset naznačuje vysokou úroveň anonymity, protože se stává obtížným rozlišit konkrétní UTXO v homogenním souboru.
 
-recenzováno: false
+reviewed: false

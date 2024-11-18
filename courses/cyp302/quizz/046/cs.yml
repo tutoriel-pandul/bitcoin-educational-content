@@ -6,4 +6,4 @@ wrong_answers:
   - Dirichletova funkce Beta
 explanation: |
   Eulerova funkce Phi určuje počet celých čísel menších než N, které jsou nesoudělné s N, což je klíčový koncept v teorémech kryptografie založených na prvočíslech.
-recenzováno: false
+reviewed: false

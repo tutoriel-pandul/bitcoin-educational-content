@@ -1,6 +1,6 @@
 question: ¿Cuál era el nombre del blog administrado por Jon Matonis que cubría monedas digitales (incluyendo Bitcoin desde marzo de 2010)?
 answer: The Monetary Future
-respuestas_erróneas:
+wrong_answers:
   - Estudios Económicos Clásicos
   - Regreso al Efectivo
   - El Instituto Nakamoto

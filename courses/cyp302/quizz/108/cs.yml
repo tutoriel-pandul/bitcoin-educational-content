@@ -6,4 +6,4 @@ wrong_answers:
   - Neumožňuje autentizaci odesílatele v době seance.
 explanation: |
   Autentizovaný šifrovací systém nechrání před útoky jako jsou opakování, přeuspořádání a odraz bez přidání ukazatelů jako identifikátory a pořadová čísla.
-recenzováno: false
+reviewed: false

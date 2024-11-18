@@ -1,6 +1,6 @@
 question: Keiden vaikutuksesta Ideologit olivat Destutt de Tracyn?
 answer: Fysiokraattien perilliset
-vaarat_vastaukset:
+wrong_answers:
   - Marxin edeltäjät
   - Vallankumouksellisen ideologian seuraajat
   - Rousseaun oppilaat

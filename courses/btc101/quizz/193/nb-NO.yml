@@ -1,6 +1,6 @@
 question: Hva er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle?
 answer: BTCMap
-feil_answer:
+wrong_answers:
   - Bitcoin Exchange
   - Bitcoin Mining
   - Bitcoin Lottery

@@ -1,6 +1,6 @@
 question: Mikä on Bastiat'n näkemys kynttilävalmistajien vaatimuksesta?
 answer: Hän hylkää sen, koska se on vastoin yleistä etua
-vaarat_vastaukset:
+wrong_answers:
   - Hän tukee sitä, koska työpaikkojen suojeleminen on tärkeää
   - Hän on neutraali tässä asiassa
   - Hän uskoo, että kynttilävalmistajat ovat oikeassa

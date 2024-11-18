@@ -6,4 +6,4 @@ wrong_answers:
   - Jako řetězec proměnné délky vzniklý šifrovacím procesem
 explanation: |
   Náhodný řetězec je definován jako výběr z rovnoměrné distribuce mezi všemi možnými řetězci stejné délky.
-recenzováno: false
+reviewed: false

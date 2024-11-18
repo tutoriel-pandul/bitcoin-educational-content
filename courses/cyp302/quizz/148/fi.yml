@@ -1,6 +1,6 @@
 question: Mikä funktio käytetään laskemaan kokonaislukuun N koprimien lukumäärä?
 answer: Eulerin Phi-funktio
-vaarat_vastaukset:
+wrong_answers:
   - Logaritminen funktio
   - Eulerin Gamma-funktio
   - Gaussin funktio

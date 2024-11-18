@@ -1,6 +1,6 @@
 question: Mitä pyyntöä kynttilänvalmistajat esittävät kansanedustajille?
 answer: Kieltää auringon käytön valonlähteenä
-vaarat_vastaukset:
+wrong_answers:
   - Lisätä veroja kynttilöille
   - Sulkea ulkomaiset kynttilätehtaat
   - Tukea kynttiläntuotantoa

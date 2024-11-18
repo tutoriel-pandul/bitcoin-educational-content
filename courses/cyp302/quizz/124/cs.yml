@@ -6,4 +6,4 @@ wrong_answers:
   - Brání opětovnému použití klíčů pro opakované transakce
 explanation: |
   Osobní výměna klíčů je nákladná a neefektivní, zejména ve velkém měřítku, protože zpomaluje transakce a ukládá významné logistické náklady pro každého nového klienta.
-recenzováno: false
+reviewed: false

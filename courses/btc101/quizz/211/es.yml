@@ -1,6 +1,6 @@
 question: ¿Qué acción fuerza Bitcoin a realizar a empresas, universidades, reguladores e individuos?
 answer: Tomarlo en cuenta.
-respuestas_erróneas:
+wrong_answers:
   - Ignorarlo.
   - Prohibirlo.
   - Criminalizarlo.

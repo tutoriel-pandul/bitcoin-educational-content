@@ -6,4 +6,4 @@ wrong_answers:
   - Podpisový kód soukromého klíče.
 explanation: |
   Z seedu je pomocí HMAC-SHA512 odvozen hlavní klíč a hlavní řetězový kód, které jsou základem pro generování klíčů.
-recenzováno: false
+reviewed: false

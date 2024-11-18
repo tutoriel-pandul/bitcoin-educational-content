@@ -1,6 +1,6 @@
 question: Mikä oli Satoshi Nakamoton pääinspiraationa Bitcoinin alkuperäisessä suunnittelussa?
 answer: eCash (David Chaum)
-vaarat_vastaukset:
+wrong_answers:
   - b-money (Wei Dai)
   - bit gold (Nick Szabo)
   - RPOW (Hal Finney)

@@ -6,4 +6,4 @@ wrong_answers:
   - 256 bitů celkem
 explanation: |
   V moderních kryptosystémech jako je RSA jsou typicky vybírána prvočísla o velikosti 1024 bitů, což činí faktorizaci extrémně obtížnou a zvyšuje bezpečnost.
-recenzováno: false
+reviewed: false

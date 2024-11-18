@@ -6,4 +6,4 @@ wrong_answers:
   - Konsenzuální vrstva
 explanation: |
   Základní vrstva sítě Bitcoin, na které síť Lightning spoléhá pro otevírání a zavírání platebních kanálů, se často označuje jako "vyrovnávací vrstva".
-recenzováno: true
+reviewed: true

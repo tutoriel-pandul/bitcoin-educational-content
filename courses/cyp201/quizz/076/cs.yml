@@ -6,4 +6,4 @@ wrong_answers:
   - Pomocí SHA512.
 explanation: |
   Pro adresy SegWit se kontrolní součet počítá pomocí BCH kódu, což umožňuje detekci možných chyb v adrese.
-recenzováno: false
+reviewed: false

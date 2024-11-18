@@ -1,6 +1,6 @@
 question: Mikä on Murray Rothbardin mukaan historian liikkeellepaneva voima?
 answer: Sosiaalisen voiman ja valtion voiman välinen konflikti
-vaarat_vastaukset:
+wrong_answers:
   - Taistelu sosiaalisten luokkien välillä
   - Tieteellinen ja teknologinen kehitys
   - Kaikki muut vastaukset ovat oikein.

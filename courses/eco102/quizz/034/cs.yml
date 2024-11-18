@@ -1,6 +1,6 @@
 question: Jaký je Bastiatův pohled na povahu člověka při narození?
 answer: Vlastník
-nesprávné_odpovědi:
+wrong_answers:
   - Otrok
   - Dobrý
   - Poddajný

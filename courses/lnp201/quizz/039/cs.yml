@@ -6,4 +6,4 @@ wrong_answers:
   - Kanál nemůže být uzavřen, dokud HTLC nevyprší.
 explanation: |
   Při nuceném uzavření jsou nevyřízené HTLC reprezentovány jako výstupy v transakcích závazku, čímž je zajištěno jejich provedení nebo vrácení podle definovaných podmínek.
-recenzováno: false
+reviewed: false

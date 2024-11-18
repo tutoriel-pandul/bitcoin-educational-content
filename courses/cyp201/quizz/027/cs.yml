@@ -6,4 +6,4 @@ wrong_answers:
   - Výsledek sčítání dvou bodů na eliptické křivce.
 explanation: |
   V je výsledek výpočtu nonce vynásobeného generátorovým bodem na eliptické křivce.
-recenzováno: false
+reviewed: false

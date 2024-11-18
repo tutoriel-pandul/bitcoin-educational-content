@@ -1,6 +1,6 @@
 question: Mikä kryptografian haara käyttää julkisen ja yksityisen avaimen paria?
 answer: Asymmetrinen kryptografia
-vaarat_vastaukset:
+wrong_answers:
   - Symmetrinen kryptografia
   - Mono-algoritmikryptografia
   - Integroiva kryptografia

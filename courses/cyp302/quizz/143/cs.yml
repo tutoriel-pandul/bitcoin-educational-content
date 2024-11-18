@@ -6,4 +6,4 @@ wrong_answers:
   - Několik desetiletí pro farmu těžící Bitcoin
 explanation: |
   Složitost faktorizace 2048bitových čísel je taková, že by bylo prakticky nemožné ji vyřešit, i kdyby se využily všechny existující výpočetní zdroje po dobu přesahující věk vesmíru.
-recenzováno: false
+reviewed: false

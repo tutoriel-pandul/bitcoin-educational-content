@@ -1,6 +1,6 @@
 question: Mikä oli Jon Matonisin ylläpitämän blogin nimi, joka käsitteli digitaalisia valuuttoja (mukaan lukien Bitcoin maaliskuusta 2010)?
 answer: The Monetary Future
-vaarat_vastaukset:
+wrong_answers:
   - Classic Economic Studies
   - Return to Cash
   - The Nakamoto Institute

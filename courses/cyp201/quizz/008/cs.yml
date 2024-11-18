@@ -6,4 +6,4 @@ wrong_answers:
   - 150 kol.
 explanation: |
   Kompresní funkce SHA256 provádí 64 kol pro každý zpracovávaný blok dat.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Otevření nového platebního kanálu
 explanation: |
   Transakce závazku představuje aktuální rozdělení prostředků v kanálu po každé transakci Lightning, ale není publikována na blockchainu, dokud zůstává kanál otevřený.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Nemají žádné společné dělitele kromě 1 a sami sebe
 explanation: |
   Dvě čísla jsou nesoudělná, pokud je jejich největší společný dělitel 1, což znamená, že nemají žádné společné prvočinitele, což je důležitá vlastnost v kryptografii.
-recenzováno: false
+reviewed: false

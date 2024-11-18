@@ -6,4 +6,4 @@ wrong_answers:
   - Diffie-Hellman
 explanation: |
   Šifra Rijndael byla přijata jako standard symetrického šifrování (AES) organizací NIST, díky své vysoké výkonnosti a bezpečnosti.
-recenzováno: false
+reviewed: false

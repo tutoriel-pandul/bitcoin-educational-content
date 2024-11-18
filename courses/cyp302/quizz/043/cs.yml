@@ -6,4 +6,4 @@ wrong_answers:
   - Skupiny racionálních čísel nebo elementy popsané racionálními čísly
 explanation: |
   Kryptografie využívá skupiny založené na celých číslech, nebo elementy popsané celými čísly, jako jsou body na eliptické křivce, pro operace šifrování a podepisování.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Proměnná, která je vždy definována v kontextu konkrétního fyzikálního experimentu
 explanation: |
   Náhodná proměnná může nabývat dvou nebo více hodnot, každá s kladnou pravděpodobností, a často je definována abstraktně v kontextu kryptografie.
-recenzováno: false
+reviewed: false

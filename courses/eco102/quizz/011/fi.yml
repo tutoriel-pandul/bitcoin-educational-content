@@ -1,6 +1,6 @@
 question: Miksi Adam Smithin mukaan markkinat toimivat?
 answer: Koska ne perustuvat itsekkyyteen
-vaarat_vastaukset:
+wrong_answers:
   - Koska ne ovat säänneltyjä
   - Koska ne ovat hyveellisiä
   - Koska valtio valvoo niitä

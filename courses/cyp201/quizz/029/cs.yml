@@ -6,4 +6,4 @@ wrong_answers:
   - Platnost Bitcoinové transakce.
 explanation: |
   Digitální podpis dokazuje, že uživatel má soukromý klíč, aniž by ho musel odhalit, čímž zajišťuje autentičnost transakce.
-recenzováno: false
+reviewed: false

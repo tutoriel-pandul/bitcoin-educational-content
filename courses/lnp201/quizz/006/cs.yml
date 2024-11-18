@@ -1,6 +1,6 @@
 question: Co je UTXO v kontextu Bitcoinu?
 answer: Kus nevyužitých bitcoinů spojených se skriptem
-nesprávné_odpovědi:
+wrong_answers:
   - Plně potvrzená transakce na blockchainu
   - Veřejný klíč, který generuje adresy Bitcoinu
   - Částka bitcoinu rozdělená do několika částí

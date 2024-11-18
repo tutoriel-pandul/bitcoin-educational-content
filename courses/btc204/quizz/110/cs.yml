@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Stonewall je specifický druh Bitcoinové transakce, která má za cíl zvýšit soukromí uživatele při platbě tím, že napodobuje mini-coinjoin mezi dvěma lidmi, aniž by to ve skutečnosti byl.
 
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Mikä on kreikkalainen "polis"?
 answer: Tori
-vaarat_vastaukset:
+wrong_answers:
   - Luonnonlaki
   - Ihmisen laki
   - Jumalille omistettu temppeli

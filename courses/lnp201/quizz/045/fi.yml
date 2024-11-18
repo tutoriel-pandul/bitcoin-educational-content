@@ -1,6 +1,6 @@
 question: Mitä "LNURL-withdraw" -ominaisuus mahdollistaa käyttäjille?
 answer: Varojen nostaminen palvelusta skannaamalla QR-koodi
-vaarat_vastaukset:
+wrong_answers:
   - Suoran maksun tekeminen ilman välityspalkkioita
   - Lightning-lompakon yhdistäminen ilman salasanaa
   - Varojen lähettäminen ilman vastaanottajan vahvistusta

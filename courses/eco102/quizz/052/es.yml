@@ -1,6 +1,6 @@
 question: ¿Qué conclusión saca Bastiat del impacto de la destrucción en la economía?
 answer: Es perjudicial para la economía
-respuestas_erróneas:
+wrong_answers:
   - Es beneficioso para la economía
   - Es neutral para la economía
   - Depende de la situación económica

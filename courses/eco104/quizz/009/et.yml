@@ -1,6 +1,6 @@
 question: Mis tähtsus on tsitaadil "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" esimeses Bitcoin'i blokis?
 answer: See toob esile meie finantssüsteemi võime kaotusi ühiskondlikustada.
-valevastused:
+wrong_answers:
   - See tähistab Satoshi hinnangut The Times ajalehele
   - See annab suurepärase näite, kuidas päästepaketid on meie ühiskonnale kasu toonud
   - See näitab meile Bitcoin'i võimet salvestada sõnumeid plokiahelasse

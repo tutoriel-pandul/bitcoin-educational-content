@@ -2,7 +2,7 @@ question: Mikä on suurin haittapuoli kolikoidenvaihdoissa ja atomiswapeissa yks
 
 answer: Ne eivät katkaise vaihdettujen kolikoiden historiaa
 
-vaarat_vastaukset:
+wrong_answers:
   - Ne ovat erittäin kalliita siirtomaksujen suhteen
   - Ne vaativat henkilökohtaisten tietojen vaihtoa osapuolten välillä
   - Ne voivat olla vaihtoalustojen analysoinnin kohteena

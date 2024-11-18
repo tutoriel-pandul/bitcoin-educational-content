@@ -1,6 +1,6 @@
 question: Mikä rooli valtion tulisi Keynesin mukaan näytellä taloudessa?
 answer: Aktiivinen rooli kysynnän stimuloimiseksi talouden elvyttämiseksi
-vaarat_vastaukset:
+wrong_answers:
   - Minimaalinen rooli antaen markkinoiden säädellä taloutta
   - Neutraali rooli puuttumatta markkinamekanismeihin
   - Pääasiassa fiskaalinen rooli budjetin tasapainottamiseksi

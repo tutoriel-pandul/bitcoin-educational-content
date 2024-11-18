@@ -6,4 +6,4 @@ wrong_answers:
   - Zprávu bude nemožné dešifrovat
 explanation: |
   V zjednodušeném RSA, šifrování zprávy vícekrát vždy produkuje stejný výsledek, což činí šifrování zranitelným vůči útokům.
-recenzováno: false
+reviewed: false

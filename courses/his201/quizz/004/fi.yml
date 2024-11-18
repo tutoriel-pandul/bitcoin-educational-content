@@ -1,6 +1,6 @@
 question: Minä vuonna David Chaumin eCash-konsepti toteutettiin?
 answer: 1994
-vaarat_vastaukset:
+wrong_answers:
   - 1993
   - 1995
   - 1996

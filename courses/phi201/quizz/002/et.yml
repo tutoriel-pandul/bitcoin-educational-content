@@ -1,6 +1,6 @@
 question: Mida tähendab vabadus?
 answer: Kõik teised vastused
-valevastused:
+wrong_answers:
   - Võim teha, mida iganes soovitakse oma valdustega
   - Väliste piirangute puudumine
   - Võime mõelda ja tegutseda iseseisvalt

@@ -6,4 +6,4 @@ wrong_answers:
   - Automaticky vypočítat poplatky za transakci
 explanation: |
   LNURL je komunikační protokol navržený k zjednodušení interakcí, jako jsou výběry a platby, mezi uzly a aplikacemi Lightning.
-recenzováno: false
+reviewed: false

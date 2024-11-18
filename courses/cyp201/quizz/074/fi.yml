@@ -1,6 +1,6 @@
 question: Mikä etuliite tai HRP vastaa SegWit-standardin osoitetta?
 answer: "bc"
-vaarat_vastaukset:
+wrong_answers:
   - "1"
   - "0x"
   - "btc"

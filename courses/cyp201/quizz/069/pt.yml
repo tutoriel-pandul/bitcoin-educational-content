@@ -1,6 +1,6 @@
 question: O que o seguinte caminho de derivação indica? m/44'/0'/0'/0/0
 answer: Um endereço Legacy externo na rede principal.
-respostas_incorretas:
+wrong_answers:
   - Um endereço SegwitV1 externo na rede principal.
   - Um endereço Legacy interno na rede de teste.
   - Um endereço SegwitV0 externo na rede principal.

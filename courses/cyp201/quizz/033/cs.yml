@@ -6,4 +6,4 @@ wrong_answers:
   - BIP44.
 explanation: |
   BIP39 zavedl 24-slovnou mnemonickou obnovovací frázi, aby usnadnil zálohování klíčů pro uživatele HD peněženek.
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Kuinka aikalukko suojaa huijaamiselta sitoumusmaksuissa?
 answer: Se estää syyllisen osapuolen pääsyn varoihinsa välittömästi
-vaarat_vastaukset:
+wrong_answers:
   - Se palauttaa automaattisesti varat huijarille
   - Se peruuttaa tapahtuman, jos huijausyritys tapahtuu
   - Se estää peruutusavaimen käytön

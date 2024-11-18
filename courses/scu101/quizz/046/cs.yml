@@ -6,4 +6,4 @@ wrong_answers:
   - Není tak bezpečný jako služby třetích stran.
 explanation: |
   Vlastní správce hesel vyžaduje více technických znalostí k použití, protože je potřeba nastavit a spravovat vlastní server. Nicméně, může nabídnout více kontroly a bezpečnosti.
-recenzováno: true
+reviewed: true

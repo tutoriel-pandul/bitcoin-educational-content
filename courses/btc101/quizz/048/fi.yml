@@ -1,6 +1,6 @@
 question: Mikä on hyperinflaation seuraus?
 answer: Valuutan arvon jyrkkä lasku.
-vaarat_vastaukset:
+wrong_answers:
   - Valuutan arvon pieni lasku.
   - Valuutan arvon jyrkkä nousu.
   - Valuutan arvon pieni nousu.

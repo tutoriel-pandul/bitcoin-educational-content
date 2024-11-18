@@ -6,4 +6,4 @@ wrong_answers:
   - Útočník použije starou zprávu k vytvoření nové
 explanation: |
   V případě reflexního útoku útočník zachytí zprávu od Alice k Bobovi a pošle stejnou zprávu zpět Alici, což způsobí zmatek v seanci.
-recenzováno: false
+reviewed: false

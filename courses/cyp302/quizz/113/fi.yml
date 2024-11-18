@@ -1,6 +1,6 @@
 question: Mikä on K-taulukon rooli RC4-salauksessa?
 answer: Se alustaa ja muuntaa S-taulukon avainvirran tuottamiseksi
-vaarat_vastaukset:
+wrong_answers:
   - Se salaa suoraan selkotekstin
   - Se tallentaa salatun tekstin
   - Se toimii vain väliaikaisena datan säilytyspaikkana prosessin loppuun asti

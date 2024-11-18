@@ -6,4 +6,4 @@ wrong_answers:
   - Prostředky jsou trvale zablokovány
 explanation: |
   Pokud HTLC vyprší bez odhalení tajemství, platba je zrušena a prostředky se vrátí odesílateli, čímž se zabrání jakémukoli prostředníkujícímu uzlu v ponechání si prostředků.
-recenzováno: false
+reviewed: false

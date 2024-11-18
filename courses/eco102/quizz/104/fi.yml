@@ -1,6 +1,6 @@
 question: Mitä kritiikkiä Bastiat esittää valtion puuttumisesta turvallisuuden ja oikeudenmukaisuuden ulkopuolelle?
 answer: Se edistää etuoikeuksia ja vahingoittaa kansalaisyhteiskuntaa
-vaarat_vastaukset:
+wrong_answers:
   - Se mahdollistaa taloudellisten resurssien paremman jakautumisen
   - Se luo sosiaalista rauhaa ja rajoittaa konflikteja
   - Se takaa varallisuuden oikeudenmukaisen jakautumisen

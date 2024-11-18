@@ -1,6 +1,6 @@
 question: Mikä on klassisen kryptografian päämäärä, joka on edelleen läsnä nykyaikaisessa kryptografiassa?
 answer: Viestien luottamuksellisuus
-vaarat_vastaukset:
+wrong_answers:
   - Viestien yksinkertaistaminen
   - Viestien toistaminen
   - Viestien automaattinen lähettäminen

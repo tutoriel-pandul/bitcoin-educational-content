@@ -1,6 +1,6 @@
 question: ¿Cuál debería ser el propósito de la Ley según Bastiat?
 answer: Poner fin a todo saqueo.
-respuestas_erróneas:
+wrong_answers:
   - Reequilibrar las relaciones de poder.
   - Generar lazos sociales.
   - Promover la igualdad a través de derechos redistributivos.

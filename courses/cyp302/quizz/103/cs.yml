@@ -6,4 +6,4 @@ wrong_answers:
   - Protože šifruje pouze zprávu bez tagu
 explanation: |
   Schéma autentizovaného šifrování je navrženo tak, aby detekovalo úpravy šifrotextu, což v případě pokusů o manipulaci zneplatní tag a zajišťuje odolnost vůči útokům s vybraným šifrotextem.
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Hvilket år er det forutsagt at skapingen av bitcoins vil opphøre?
 answer: 2140
-feil_answer:
+wrong_answers:
   - 2050
   - 2030
   - 2200

@@ -1,6 +1,6 @@
 question: Mikä on valtion puuttumisen päärajoite Bastiat'n mukaan?
 answer: Ne, jotka tekevät "julkisia" päätöksiä, eivät ole niitä, jotka kärsivät seurauksista
-vaarat_vastaukset:
+wrong_answers:
   - Ne, jotka tekevät "julkisia" päätöksiä, rakastavat rahaa liikaa
   - Ne, jotka tekevät "julkisia" päätöksiä, eivät ole tarpeeksi älykkäitä
   - Ne, jotka tekevät "julkisia" päätöksiä, puuttuvat rohkeutta

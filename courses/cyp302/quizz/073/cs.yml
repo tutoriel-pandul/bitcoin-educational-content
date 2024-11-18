@@ -6,4 +6,4 @@ wrong_answers:
   - Číslo od 1 do 26
 explanation: |
   V šifrování posunem je klíč číslo mezi 0 a 25, které odpovídá počtu pozic posunu aplikovaných na každé písmeno zprávy v abecedě s 26 písmeny.
-recenzováno: false
+reviewed: false

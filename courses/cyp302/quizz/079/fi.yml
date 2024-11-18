@@ -1,6 +1,6 @@
 question: Miksi siirtoenkoodaus on altis murtamisyrityksille?
 answer: Koska sillä on vain 26 mahdollista avainta
-vaarat_vastaukset:
+wrong_answers:
   - Koska se käyttää julkista avainta
   - Koska se perustuu symmetriseen salaukseen
   - Koska se käyttää satunnaislukuja

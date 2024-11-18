@@ -2,7 +2,7 @@ question: Hvilken strategi bruker Wabisabi for å øke anonsettene til deltakern
 
 answer: Med noen få veldig store transaksjoner.
 
-feil_answer:
+wrong_answers:
   - Med mange veldig små transaksjoner.
   - Med en enkelt liten transaksjon.
   - Uten transaksjoner.

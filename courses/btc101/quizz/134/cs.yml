@@ -6,4 +6,4 @@ wrong_answers:
   - Unikátní identifikátor pro těžaře, který blok vytěžil.
 explanation: |
   V kontextu těžby bloků v síti Bitcoin je platný "hash" unikátní otisk spojený s blokem, skládající se z 256 znaků. Platnost tohoto hash závisí na obtížnosti sítě Bitcoin.
-recenzováno: true
+reviewed: true

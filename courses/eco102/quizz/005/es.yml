@@ -1,6 +1,6 @@
 question: ¿Cuándo descubrió Frédéric Bastiat su vocación como economista?
 answer: Durante un viaje a Inglaterra
-respuestas_erróneas:
+wrong_answers:
   - Durante sus estudios en el colegio de Sorèze
   - Mientras trabajaba en su finca en las Landas
   - Durante un debate en París

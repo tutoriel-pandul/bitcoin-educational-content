@@ -6,4 +6,4 @@ wrong_answers:
   - Podepsat transakci pro výběr před výměnou veřejných klíčů
 explanation: |
   Otevření kanálu začíná výměnou zpráv mezi oběma stranami, kde sdílejí částky, které chtějí zavázat, a své veřejné klíče.
-recenzováno: false
+reviewed: false

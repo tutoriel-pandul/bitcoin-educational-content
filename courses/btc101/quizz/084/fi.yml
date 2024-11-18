@@ -1,6 +1,6 @@
 question: Mikä tulisi olla päätavoite omistaessasi bitcoineja?
 answer: Varojesi turvallisuus.
-vaarat_vastaukset:
+wrong_answers:
   - Bitcoinin arvo dollareissa.
   - Bitcoinien omistamisen laillisuus.
   - Lupa käyttää varojasi.

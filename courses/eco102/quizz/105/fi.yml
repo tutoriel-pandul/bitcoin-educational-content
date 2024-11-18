@@ -1,6 +1,6 @@
 question: Kuka on "Minä, Kynä" kirjoittaja ja kuka myös käänsi Bastiat'n "Laki" teoksen englanniksi?
 answer: Leonard Read
-vaarat_vastaukset:
+wrong_answers:
   - Leonard Nimoy
   - Leonard Cohen
   - Milton Friedman

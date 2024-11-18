@@ -6,4 +6,4 @@ wrong_answers:
   - Hash řetězového kódu s metadaty.
 explanation: |
   Přijímací adresa je obecně hash veřejného klíče spojený s metadaty, používaný ve scriptPubKey k určení podmínek.
-recenzováno: false
+reviewed: false

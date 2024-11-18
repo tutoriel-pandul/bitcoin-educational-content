@@ -6,4 +6,4 @@ wrong_answers:
   - Určuje počet bitcoinů, které lze v regionu těžit.
 explanation: |
   Geografické rozložení uzlů Bitcoinu dělá prakticky nemožným zničit všechny kopie blockchainu. Jelikož jsou uzly rozprostřeny, je těžké je všechny fyzicky zajistit.
-recenzováno: true
+reviewed: true

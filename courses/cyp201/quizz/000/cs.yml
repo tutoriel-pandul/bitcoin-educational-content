@@ -6,4 +6,4 @@ wrong_answers:
   - Zaručit důvěrnost dat.
 explanation: |
   Hašování transformuje data jakékoli velikosti na výstup pevné velikosti, což je užitečné pro ověření integrity bez nutnosti šifrování nebo autentizace dat.
-recenzováno: false
+reviewed: false

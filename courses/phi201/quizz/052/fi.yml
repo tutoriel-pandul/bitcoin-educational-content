@@ -1,6 +1,6 @@
 question: Mikä oli Pyhän Augustinuksen kanta hengellisen vallan ja maallisen vallan suhteeseen?
 answer: Maallisen vallan tulee olla alisteinen hengelliselle vallalle.
-vaarat_vastaukset:
+wrong_answers:
   - Hengellisen vallan tulee olla alisteinen maalliselle vallalle.
   - Kaksi valtaa ovat toisistaan riippumattomia ja niiden tulee elää rauhanomaisesti rinnakkain.
   - Maallisella vallalla ei ole legitiimiyttä ja se tulee lakkauttaa hengellisen vallan hyväksi.

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Lightning Network používá satoshi (také nazývané sats), což jsou
   desetinná místa bitcoinu, pro svou funkci.
-recenzováno: true
+reviewed: true

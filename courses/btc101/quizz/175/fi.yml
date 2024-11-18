@@ -1,6 +1,6 @@
 question: Mikä on yksi tapa lieventää Bitcoinin volatiliteettia?
 answer: Taloudelliset suojaukset (stablecoin).
-vaarat_vastaukset:
+wrong_answers:
   - Sijoittamalla kaikki rahasi Bitcoiniin.
   - Markkinatrendien huomiotta jättäminen.
   - Lisää Bitcoinin ostaminen, kun hinta laskee.

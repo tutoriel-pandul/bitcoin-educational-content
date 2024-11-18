@@ -1,6 +1,6 @@
 question: ¿Cuál es el nombre del fundador del Partido Pirata Sueco que describió a Bitcoin como "el Napster de la banca" en mayo de 2011?
 answer: Rick Falkvinge
-respuestas_erróneas:
+wrong_answers:
   - Smári McCarthy
   - Edward Snowden
   - Florian Hufsky

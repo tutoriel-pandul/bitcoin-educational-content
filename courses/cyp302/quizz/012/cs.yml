@@ -6,4 +6,4 @@ wrong_answers:
   - Považovat, že data mohou odposlouchávat pouze národní agentury
 explanation: |
   Je omyl myslet si, že pouhá fyzická ochrana kanálu je dostatečná pro zajištění důvěrnosti, jelikož existuje mnoho přístupových bodů pro odposlech, zejména u bezdrátových komunikací.
-recenzováno: false
+reviewed: false

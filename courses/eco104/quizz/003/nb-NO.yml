@@ -1,6 +1,6 @@
 question: Hva var en fordel med metallmynter sammenlignet med varepenger?
 answer: De var mer holdbare
-feil_answer:
+wrong_answers:
   - De hadde en høyere iboende verdi
   - De var lettere å transportere
   - De var ikke utsatt for forfalskning

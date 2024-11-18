@@ -2,7 +2,7 @@ question: Qual é o papel da carteira "post-mix" no protocolo Zerolink?
 
 answer: Armazenar os UTXOs após a mistura.
 
-respostas_incorretas:
+wrong_answers:
   - Armazenar os UTXOs antes da mistura.
   - Armazenar os UTXOs de troco.
   - Armazenar os UTXOs de consolidação.

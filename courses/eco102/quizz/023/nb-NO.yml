@@ -1,6 +1,6 @@
 question: Hvilke klasser er i konflikt ifølge Comte og Dunoyer?
 answer: De som betaler skatter og de som lever av dem
-feil_answer:
+wrong_answers:
   - Arbeiderne og arbeidsgiverne
   - Borgerskapet og proletarene
   - Handelsmennene og håndverkerne

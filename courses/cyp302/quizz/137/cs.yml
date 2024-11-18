@@ -6,4 +6,4 @@ wrong_answers:
   - Aby se umožnilo uživatelům přihlásit bez hesla
 explanation: |
   Ukládáním hashů hesel, dokonce i v případě úniku dat, nemohou být skutečná hesla přímo přečtena, čímž se zvyšuje bezpečnost.
-recenzováno: false
+reviewed: false

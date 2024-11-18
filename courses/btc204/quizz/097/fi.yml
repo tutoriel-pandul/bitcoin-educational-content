@@ -2,7 +2,7 @@ question: Mitä suuri anonset kertoo UTXO: n yksityisyydestä?
 
 answer: Parantunut yksityisyys.
 
-vaarat_vastaukset:
+wrong_answers:
   - Heikentynyt yksityisyys.
   - Parantunut jäljitettävyys.
   - Nopeammat coinjoin-siirtonopeudet.

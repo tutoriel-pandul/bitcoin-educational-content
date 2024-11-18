@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Retrospektivní anonset indikuje počet možných zdrojů pro danou minci, s ohledem na UTXO na konci cyklu.
 
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: Miksi roomalaiset pitivät omaisuutta puhtaasti sopimuksenvaraisena?
 answer: Koska heillä oli orjia
-vaarat_vastaukset:
+wrong_answers:
   - Koska he olivat lainkuuliaisia
   - Koska he viljelivät maata
   - Koska he asettivat sosiaalisen hierarkian etusijalle

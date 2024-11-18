@@ -1,6 +1,6 @@
 question: Mis on HashRate?
 answer: Koguhulk katseid leida õige number Proof of Work'is.
-vale_vastused:
+wrong_answers:
   - Kiirus, millega kaevur saab lahendada Proof of Work'i.
   - Kaevurite koguarv Bitcoin'i võrgustikus.
   - Kaevandatud bitcoinide koguhulk.

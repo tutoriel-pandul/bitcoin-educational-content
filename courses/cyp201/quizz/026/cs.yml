@@ -6,4 +6,4 @@ wrong_answers:
   - Opakované použití nonce zvyšuje velikost veřejného klíče.
 explanation: |
   Opakované použití nonce v ECDSA může umožnit útočníkovi odhalit soukromý klíč, čímž ohrožuje bezpečnost.
-recenzováno: false
+reviewed: false

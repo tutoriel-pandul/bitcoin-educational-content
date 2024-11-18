@@ -6,4 +6,4 @@ wrong_answers:
   - 24 slov.
 explanation: |
   128bitové náhodné číslo odpovídá 12slovní mnemonické frázi, podle standardu BIP39.
-recenzováno: false
+reviewed: false

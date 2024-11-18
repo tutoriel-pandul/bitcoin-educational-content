@@ -1,6 +1,6 @@
 question: Kuinka osapuolet voivat varmistaa viestien oikean järjestyksen turvallisessa istunnossa?
 answer: Käyttämällä sekvenssinumeroita jokaisessa viestissä
-vaarat_vastaukset:
+wrong_answers:
   - Vaihtamalla avaimia jokaiselle viestille
   - Lisäämällä viiveitä viestien välille
   - Salaamalla viestit eri algoritmilla

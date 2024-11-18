@@ -6,4 +6,4 @@ wrong_answers:
   - Kryptografický podpis každého uzlu na cestě
 explanation: |
   Odesílající uzel musí znát topologii sítě, aby mohl vypočítat trasu k příjemci, což mu umožní vybrat nejlepší cestu.
-recenzováno: false
+reviewed: false

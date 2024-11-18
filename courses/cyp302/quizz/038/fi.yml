@@ -1,6 +1,6 @@
 question: Mikä matematiikan ala tarjoaa nykyaikaiset työkalut lukuteorialle?
 answer: Abstrakti algebra
-vaarat_vastaukset:
+wrong_answers:
   - Geometria
   - Tilastotiede
   - Kompleksianalyysi

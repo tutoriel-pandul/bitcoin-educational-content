@@ -1,6 +1,6 @@
 question: Mikä on keskeinen avainhallinnan ongelma?
 answer: Avainparin turvaaminen ja tallentaminen jokaiselle asiakkaalle
-vaarat_vastaukset:
+wrong_answers:
   - Asiakkaiden menettämien avainten uusimisen mahdottomuus
   - Jokaisen avaimen salauksen purkaminen ennen käyttöä asiakkaan toimesta
   - Avainten lähettämisen tarve jokaisen viestinnän yhteydessä

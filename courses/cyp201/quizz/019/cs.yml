@@ -1,9 +1,9 @@
 question: Jaká je nejznámější eliptická křivka používaná v kryptografických systémech?
 answer: secp256r1.
-nesprávné_odpovědi:
+wrong_answers:
   - secp256k1.
   - secp160r1.
   - ed25519.
 explanation: |
   Eliptická křivka secp256r1 je široce používána v mnoha kryptografických systémech, ale Bitcoin používá křivku secp256k1.
-recenzováno: false
+reviewed: false

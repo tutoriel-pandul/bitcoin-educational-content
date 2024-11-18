@@ -1,6 +1,6 @@
 question: Mikä on Tocquevillen ehdottama ratkaisu tasa-arvoistumisen vaarojen välttämiseksi?
 answer: Kehittää kansalaisyhdistyksiä ja paikallisdemokratiaa.
-vaarat_vastaukset:
+wrong_answers:
   - Vahvistaa valtion keskusvaltaa.
   - Vähentää taloudellisia ja sosiaalisia eriarvoisuuksia.
   - Kaikki muut vastaukset ovat oikein.

@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Mechanismus, který zajišťuje přidání nového bloku do blockchainu každých deset minut, je úprava obtížnosti.
   Tato úprava probíhá každých 2016 bloků, což je přibližně každé dva týdny.
-recenzováno: true
+reviewed: true

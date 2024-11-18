@@ -6,4 +6,4 @@ wrong_answers:
   - Hašování zpráv brání získání soukromého klíče.
 explanation: |
   Operace na eliptických křivkách jsou nevratné, což zajišťuje, že soukromý klíč nemůže být odvozen z podpisu.
-recenzováno: false
+reviewed: false

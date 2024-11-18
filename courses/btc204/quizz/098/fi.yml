@@ -2,7 +2,7 @@ question: Mitä eteenpäin suuntautuva anonymiteetti mittaa?
 
 answer: Yksityisyyden vastustuskykyä menneisyydestä nykyhetkeen suuntautuvaa analyysiä vastaan.
 
-vaarat_vastaukset:
+wrong_answers:
   - Yksityisyyden vastustuskykyä nykyhetkestä menneisyyteen suuntautuvaa analyysiä vastaan.
   - Yksityisyyden vastustuskykyä tulevaisuudesta nykyhetkeen suuntautuvaa analyysiä vastaan.
   - Yksityisyyden vastustuskykyä tulevaisuudesta menneisyyteen suuntautuvaa analyysiä vastaan.

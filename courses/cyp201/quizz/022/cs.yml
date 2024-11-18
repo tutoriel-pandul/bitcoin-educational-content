@@ -6,4 +6,4 @@ wrong_answers:
   - Určuje se hašováním jeho seedu.
 explanation: |
   Veřejný klíč je generován z soukromého klíče prostřednictvím operací na eliptické křivce, začínajíc od generátorového bodu.
-recenzováno: false
+reviewed: false

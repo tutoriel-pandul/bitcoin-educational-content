@@ -1,6 +1,6 @@
 question: Mikä on Bastiat'n mukaan poliittinen taloustiede?
 answer: Vaihdon teoria
-vaarat_vastaukset:
+wrong_answers:
   - Arvon teoria
   - Vaurauden teoria
   - Ostovoiman teoria

@@ -1,6 +1,6 @@
 question: Mikä on LNURL: n rooli Lightning-siirroissa?
 answer: Yksinkertaistaa vuorovaikutusta solmujen ja Lightning-sovellusten välillä
-vaarat_vastaukset:
+wrong_answers:
   - Helpottaa kanavien luomista jokaiselle maksulle
   - Varmistaa maksutietojen luottamuksellisuuden
   - Laskee automaattisesti siirtomaksut

@@ -1,6 +1,6 @@
 question: Mikä oli Bitcoinin hinnan vaihtelu viikolla sen jälkeen, kun se esiteltiin Slashdotissa?
 answer: $0.008: sta $0.08: een
-vaarat_vastaukset:
+wrong_answers:
   - $0.001: stä $0.008: aan
   - $0.08: sta $0.50: een
   - $0.50: sta $1: een

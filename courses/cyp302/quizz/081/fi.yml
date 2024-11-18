@@ -1,6 +1,6 @@
 question: Mikä operaatio on tyypillisesti käytössä yhdistämään avainvirran ja viestin virtasalauksessa?
 answer: XOR
-vaarat_vastaukset:
+wrong_answers:
   - Kertolasku
   - Modulaarinen siirto
   - Kirjaimen korvaaminen

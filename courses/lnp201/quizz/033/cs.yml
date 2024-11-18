@@ -6,4 +6,4 @@ wrong_answers:
   - Poslat prostředky všem uzlům na cestě současně
 explanation: |
   Onion routing znamená, že každý mezilehlý uzel zná pouze předchozí a následující uzel, čímž se zachovává důvěrnost konečného příjemce.
-recenzováno: false
+reviewed: false

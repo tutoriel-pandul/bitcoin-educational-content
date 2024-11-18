@@ -1,6 +1,6 @@
 question: Mikä on heijastushyökkäys viestintäistunnossa?
 answer: Hyökkääjä lähettää Alicelle takaisin viestin, jonka hän on kaapannut Alicen ja Bobin välillä
-vaarat_vastaukset:
+wrong_answers:
   - Hyökkääjä kääntää viestien järjestyksen viestinnässä
   - Hyökkääjä lähettää muokatun viestin ilman tagia
   - Hyökkääjä käyttää vanhaa viestiä luodakseen uuden

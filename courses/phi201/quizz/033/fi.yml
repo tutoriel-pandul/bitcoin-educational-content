@@ -1,6 +1,6 @@
 question: Mitä onnellisuus koostuu roomalaisen filosofi Senecan mukaan?
 answer: Hyveen harjoittamisesta
-vaarat_vastaukset:
+wrong_answers:
   - Rikkaus
   - Nautinto
   - Kaikki yllä mainitut

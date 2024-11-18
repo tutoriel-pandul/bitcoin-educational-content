@@ -1,6 +1,6 @@
 question: Hva er det estimerte antallet bitcoins i omløp etter den første halveringen?
 answer: 10,500,000 BTC
-feil_answer:
+wrong_answers:
   - 5,250,000 BTC
   - 15,750,000 BTC
   - 21,000,000 BTC

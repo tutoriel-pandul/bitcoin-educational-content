@@ -6,4 +6,4 @@ wrong_answers:
   - Jakmile je vytvořena 2/2 multisignature adresa
 explanation: |
   Kanál je považován za otevřený, jakmile byla transakce s vkladem zařazena do bloku Bitcoinu a dosáhla určitého počtu potvrzení.
-recenzováno: false
+reviewed: false

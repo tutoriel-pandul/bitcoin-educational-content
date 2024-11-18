@@ -6,4 +6,4 @@ wrong_answers:
   - Naznačuje to, že peněženka je automaticky zálohována vaším zařízením.
 explanation: |
   Absence seznamu 12 nebo 24 slov, což je mnemonická fráze, v peněžence by vás měla upozornit na to, že peněženka není bezpečná, protože nedodržuje standardní postupy zálohování.
-recenzováno: true
+reviewed: true

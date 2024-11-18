@@ -6,4 +6,4 @@ wrong_answers:
   - Když jsou transakční poplatky příliš vysoké
 explanation: |
   Vynucené uzavření se používá jako poslední možnost, pokud jedna ze stran, například kvůli technickému problému, již neodpovídá na zprávy druhé strany.
-recenzováno: false
+reviewed: false

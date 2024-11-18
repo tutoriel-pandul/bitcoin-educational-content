@@ -6,4 +6,4 @@ wrong_answers:
   - Vytvořit značku, poté ji zašifrovat veřejným klíčem
 explanation: |
   Pro zajištění bezpečnosti musí autentizované šifrování nejprve zašifrovat zprávu a poté na zašifrovaném textu vygenerovat značku. Jiná pořadí operací jsou potenciálně zranitelná.
-recenzováno: false
+reviewed: false

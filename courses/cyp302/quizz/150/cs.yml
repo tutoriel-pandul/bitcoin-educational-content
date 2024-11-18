@@ -6,4 +6,4 @@ wrong_answers:
   - Používá se pouze pro generování exponentu e
 explanation: |
   V RSA je celé číslo N součinem dvou velkých prvočísel p a q a používá se jako modul pro operace šifrování a dešifrování.
-recenzováno: false
+reviewed: false

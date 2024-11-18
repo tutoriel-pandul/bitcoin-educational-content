@@ -1,6 +1,6 @@
 question: Jaká předpona nebo HRP odpovídá standardní adrese SegWit?
 answer: "bc"
-nesprávné_odpovědi:
+wrong_answers:
   - "1"
   - "0x"
   - "btc"

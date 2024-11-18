@@ -6,4 +6,4 @@ wrong_answers:
   - Externí SegwitV0 adresa na hlavní síti.
 explanation: |
   Odvozovací cesta m/44'/0'/0'/0/0 značí externí Legacy adresu na hlavní síti (mainnet). 44' = Legacy, 0' = hlavní síť (mainnet), 0 = externí
-recenzováno: false
+reviewed: false

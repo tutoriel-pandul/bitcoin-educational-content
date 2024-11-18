@@ -2,7 +2,7 @@ question: Mikä on transaktion "Tx0" päärooli Whirlpoolissa?
 
 answer: Tasapainottaa UTXO: t.
 
-vaarat_vastaukset:
+wrong_answers:
   - Suorittaa ensimmäisen sekoituksen.
   - Poistaa UTXO: t altaasta.
   - Käyttää sekoitetut UTXO: t.

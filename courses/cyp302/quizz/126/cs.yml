@@ -6,4 +6,4 @@ wrong_answers:
   - Umožňuje výměnu elektronické měny.
 explanation: |
   Protokol Diffie-Hellman umožňuje dvěma stranám veřejně sdílet informace a zároveň zajistit, že pouze ony mohou generovat společný klíč pro zabezpečení jejich budoucích výměn.
-recenzováno: false
+reviewed: false

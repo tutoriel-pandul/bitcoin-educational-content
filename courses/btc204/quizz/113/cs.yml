@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Z vnějšího pohledu je vzor transakcí přesně stejný. Bez dalších kontextových informací je proto nemožné rozlišit transakci Stonewall od transakce Stonewall x2, protože obě adoptují stejný vzor.
 
-recenzováno: false
+reviewed: false

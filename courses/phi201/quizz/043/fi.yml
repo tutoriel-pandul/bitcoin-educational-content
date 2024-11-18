@@ -1,6 +1,6 @@
 question: Mikä on luonnonlain ja ihmisen lain välinen suhde Tuomas Akvinolaisen mukaan?
 answer: Ihmisen laki täytyy olla sopusoinnussa luonnonlain kanssa ollakseen oikeudenmukainen ja legitiimi.
-vaarat_vastaukset:
+wrong_answers:
   - Ihmisen laki on ylempänä kuin luonnonlaki, koska sen säätävät legitiimit auktoriteetit.
   - Luonnonlaki on yhtä suuri kuin ihmisen laki.
   - Ihmisen laki pätee vain osittain.

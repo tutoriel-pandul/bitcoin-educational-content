@@ -2,7 +2,7 @@ question: Kuinka P2P-siirto V2 parantaa yksityisyyttä ja turvallisuutta solmuje
 
 answer: Integroimalla tilaisuuskohtaisen salauksen
 
-vaarat_vastaukset:
+wrong_answers:
   - Integroimalla autentikoinnin
   - Käyttämällä lisäviestejä
   - Käyttämällä Toria

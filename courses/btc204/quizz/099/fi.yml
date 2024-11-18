@@ -2,7 +2,7 @@ question: Mitä retrospektiivinen anonset mittaa?
 
 answer: Yksityisyyden vastustuskykyä nykyhetkestä menneisyyteen suuntautuvaa analyysia vastaan.
 
-vaarat_vastaukset:
+wrong_answers:
   - Yksityisyyden vastustuskykyä menneisyydestä tulevaisuuteen suuntautuvaa analyysia vastaan.
   - Yksityisyyden vastustuskykyä nykyhetkestä tulevaisuuteen suuntautuvaa analyysia vastaan.
   - Yksityisyyden vastustuskykyä menneisyydestä nykyhetkeen suuntautuvaa analyysia vastaan.

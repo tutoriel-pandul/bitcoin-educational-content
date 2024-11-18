@@ -1,6 +1,6 @@
 question: Mikä on operaation 0110 XOR 1101 tulos?
 answer: 1011
-vaarat_vastaukset:
+wrong_answers:
   - 0111
   - 0000
   - 1101

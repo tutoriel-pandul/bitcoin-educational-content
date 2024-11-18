@@ -6,4 +6,4 @@ wrong_answers:
   - Není kompatibilní s moderními komunikačními protokoly
 explanation: |
   Asymetrická kryptografie, ačkoli je výkonná pro autentizaci a počáteční šifrování, vyžaduje více zdrojů, což činí její použití neefektivním pro přenosy významných objemů dat.
-recenzováno: false
+reviewed: false

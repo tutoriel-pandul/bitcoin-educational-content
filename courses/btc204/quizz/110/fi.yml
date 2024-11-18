@@ -2,7 +2,7 @@ question: Mikä on Stonewall-siirto?
 
 answer: Siirto, joka jäljittelee mini-coinjoinia olematta sellainen
 
-vaarat_vastaukset:
+wrong_answers:
   - Maksusiirto mini-coinjoinin muodossa
   - Kolmen osallistujan yhteistyössä toteutettu siirto
   - Siirto, joka sisältää vastaanottajan syötteissä

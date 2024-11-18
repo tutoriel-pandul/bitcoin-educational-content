@@ -2,7 +2,7 @@ question: Hvilket uttrykk beskriver beskyttelsen som tilbys av en coinjoin mot a
 
 answer: Retrospektiv anonset.
 
-feil_answer:
+wrong_answers:
   - Prospektiv anonset.
   - Sporbarhetsmotstand.
   - Tidsmessig personvern.

@@ -1,6 +1,6 @@
 question: Mikä on louhijoiden päätehtävä Bitcoin-verkossa?
 answer: Ratkaista digitaalinen pulma ja vahvistaa uusi lohko
-vaarat_vastaukset:
+wrong_answers:
   - Luoda uusia bitcoineja
   - Hallita Bitcoinin hintaa
   - Tarkistaa Bitcoin-käyttäjien identiteetti

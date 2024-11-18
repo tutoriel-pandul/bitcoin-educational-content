@@ -6,4 +6,4 @@ wrong_answers:
   - Soukromý klíč a index derivace.
 explanation: |
   Payload rozšířeného klíče zahrnuje buď veřejný nebo soukromý klíč spolu s řetězovým kódem používaným pro derivaci dceřiných klíčů.
-recenzováno: false
+reviewed: false

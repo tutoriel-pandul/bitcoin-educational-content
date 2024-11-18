@@ -6,4 +6,4 @@ wrong_answers:
   - Nils Schneider
 explanation: |
   Tento systém byl modelován podle Python Enhancement Proposals (PEP) specifických pro programovací jazyk Python.
-recenzováno: false
+reviewed: false

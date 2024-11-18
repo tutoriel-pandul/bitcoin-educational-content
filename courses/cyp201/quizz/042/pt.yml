@@ -1,6 +1,6 @@
 question: Se eu gerar um número aleatório de 256 bits, qual será o tamanho da minha frase de recuperação em palavras?
 answer: 24 palavras.
-respostas_incorretas:
+wrong_answers:
   - 6 palavras.
   - 8 palavras.
   - 12 palavras.

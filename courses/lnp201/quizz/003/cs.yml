@@ -6,4 +6,4 @@ wrong_answers:
   - Mohou si půjčit finanční prostředky od druhého účastníka kanálu, pokud je to potřeba.
 explanation: |
   Každý účastník je omezen množstvím satoshi, které drží v kanálu pro své transakce, což zajišťuje, že finanční prostředky jsou vždy kryty.
-recenzováno: false
+reviewed: false

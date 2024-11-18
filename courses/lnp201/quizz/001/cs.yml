@@ -6,4 +6,4 @@ wrong_answers:
   - Počet transakcí, které kanál může podporovat za den
 explanation: |
   Kapacita kanálu odpovídá celkovým finančním prostředkům obou účastníků a zůstává pevně stanovena, aby určila možné výměny.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Otevřít nový Lightning kanál
 explanation: |
   Lightning faktura je žádost o platbu, kterou přijímající uzel přenáší odesílajícímu uzlu, aby inicioval platbu na Lightning Network.
-recenzováno: false
+reviewed: false

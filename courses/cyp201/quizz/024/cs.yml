@@ -6,4 +6,4 @@ wrong_answers:
   - Gx = A12345F9... Gy = 3B76EBC1...
 explanation: |
   Generátorový bod G je předem definovaný bod na eliptické křivce secp256k1, používaný k generování veřejných klíčů z privátních klíčů v Bitcoinu.
-recenzováno: false
+reviewed: false

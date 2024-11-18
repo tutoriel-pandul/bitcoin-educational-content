@@ -1,6 +1,6 @@
 question: Který německý těžař držel několik měsíců v roce 2010 20% hash rate sítě Bitcoin?
 answer: ArtForz
-nesprávné_odpovědi:
+wrong_answers:
   - tcatm
   - m0mchil
   - knightmb

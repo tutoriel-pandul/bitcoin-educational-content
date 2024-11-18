@@ -6,4 +6,4 @@ wrong_answers:
   - Můžete obnovit svou peněženku a utratit své bitcoiny pomocí mnemonické fráze.
 explanation: |
   Ztráta zařízení, na kterém máte svou peněženku, nutně neznamená ztrátu vašich Bitcoinů. To, co vám umožňuje obnovit vaši peněženku a utratit vaše bitcoiny, je mnemonická fráze.
-recenzováno: true
+reviewed: true

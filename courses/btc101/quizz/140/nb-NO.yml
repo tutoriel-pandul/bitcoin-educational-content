@@ -1,6 +1,6 @@
 question: Hva er størrelsen på Bitcoin-blockchainen?
 answer: Omtrent 500GB
-feil_answer:
+wrong_answers:
   - Omtrent 100GB
   - Omtrent 1TB
   - Omtrent 2TB

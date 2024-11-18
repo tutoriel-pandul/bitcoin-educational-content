@@ -6,4 +6,4 @@ wrong_answers:
   - -1
 explanation: |
   S operací XOR, 0 XOR 1 dává výsledek 1, protože bity jsou různé.
-recenzováno: false
+reviewed: false

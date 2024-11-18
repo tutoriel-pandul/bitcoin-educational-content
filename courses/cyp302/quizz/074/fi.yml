@@ -1,6 +1,6 @@
 question: Mitä tapahtuu, jos avaimena käytetään lukua 7 salatakseen sanan "CAT"?
 answer: Sana muuttuu muotoon "JHA"
-vaarat_vastaukset:
+wrong_answers:
   - Sana muuttuu muotoon "JBA"
   - Sana muuttuu muotoon "JHB"
   - Sana muuttuu muotoon "ZHA"

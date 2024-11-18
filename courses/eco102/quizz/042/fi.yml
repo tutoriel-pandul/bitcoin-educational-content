@@ -1,6 +1,6 @@
 question: Mikä on protektionismin päävaikutus kuluttajiin?
 answer: Se nostaa heidän ostamiensa tuotteiden hintaa
-vaarat_vastaukset:
+wrong_answers:
   - Se mahdollistaa heidän ostaa korkealaatuisempia tuotteita
   - Se tarjoaa heille laajemman valikoiman tuotteita
   - Sillä ei ole vaikutusta heidän ostovoimaansa

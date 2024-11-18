@@ -1,6 +1,6 @@
 question: Mikä oli David Chaumin yrityksen nimi, jonka kautta hän toteutti digitaalisen valuuttansa konseptin?
 answer: DigiCash B.V.
-vaarat_vastaukset:
+wrong_answers:
   - eCash Ltd.
   - CyberCash Inc.
   - First Virtual Holdings Inc.

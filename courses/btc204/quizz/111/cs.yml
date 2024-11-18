@@ -2,7 +2,7 @@ question: Co je transakce Stonewall x2?
 
 answer: Platební transakce ve formě mini-coinjoin
 
-špatné odpovědi:
+wrong_answers:
   - Transakce, která napodobuje mini-coinjoin, aniž by jím byla
   - Jednoduchá platební transakce
   - Transakce, která zahrnuje příjemce mezi vstupy

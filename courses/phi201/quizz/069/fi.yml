@@ -1,6 +1,6 @@
 question: Mikä oli Turgot'n suhtautuminen uskonnolliseen totuuteen?
 answer: Uskonnollinen totuus on yksilön omantunnon asia eikä sitä voi määrätä mikään auktoriteetti.
-vaarat_vastaukset:
+wrong_answers:
   - Uskonnollinen totuus on suhteellista ja riippuu kulttuurista ja aikakaudesta, jossa elää.
   - Uskonnollinen totuus on ihmiselle saavuttamaton eikä siitä voi olla mitään varmuutta.
   - Uskonnollisen totuuden on määrättävä poliittinen valta ja se on pakotettava kaikille kansalaisille.

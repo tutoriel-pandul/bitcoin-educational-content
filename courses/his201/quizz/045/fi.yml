@@ -1,6 +1,6 @@
 question: Mikä on verkkosivuston nimi, joka merkittävästi auttoi tekemään Bitcoinista tunnetun heinäkuussa 2010?
 answer: Slashdot
-vaarat_vastaukset:
+wrong_answers:
   - Hackernews
   - Stack Overflow
   - Reddit

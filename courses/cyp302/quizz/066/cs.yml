@@ -6,4 +6,4 @@ wrong_answers:
   - Šifruje zprávu
 explanation: |
   V symetrickém šifrovacím schématu algoritmus pro generování klíčů produkuje soukromý klíč, který bude poté použit pro šifrování a dešifrování zpráv.
-recenzováno: false
+reviewed: false

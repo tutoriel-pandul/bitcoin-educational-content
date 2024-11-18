@@ -6,4 +6,4 @@ wrong_answers:
   - Prvních 64 bitů desetinných částí druhých odmocnin prvních 8 prvočísel.
 explanation: |
   Inicializační vektory SHA256 jsou založeny na prvních 64 bitech desetinných částí třetích odmocnin prvních 8 prvočísel.
-recenzováno: false
+reviewed: false

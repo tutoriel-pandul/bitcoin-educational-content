@@ -1,6 +1,6 @@
 question: Hva var fornavnet til telekommunikasjonsingeniøren fra Temple City som feilaktig ble identifisert av en journalist fra Newsweek som Satoshi Nakamoto i mars 2014?
 answer: Dorian
-gale_answer:
+wrong_answers:
   - Prentice
   - Satoshi
   - Patoshi

@@ -1,6 +1,6 @@
 question: Mikä on yhteiskunnan liikkeelle paneva voima Tracyn mukaan?
 answer: Kaupankäynti
-vaarat_vastaukset:
+wrong_answers:
   - Perhe
   - Politiikka
   - Koulutus

@@ -1,6 +1,6 @@
 question: Mikä on prosessin nimi, joka varmentaa transaktioita Bitcoin-verkossa?
 answer: Louhinta
-vaarat_vastaukset:
+wrong_answers:
   - Kaivaminen
   - Korjuu
   - Viljely

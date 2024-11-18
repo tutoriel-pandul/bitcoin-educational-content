@@ -1,6 +1,6 @@
 question: Hva er de to måtene å opplyse borgernes dømmekraft ifølge Bastiat?
 answer: Filosofisk moral og økonomisk moral
-feil_answer:
+wrong_answers:
   - Loven og utdanning
   - Religion og vitenskap
   - Personlig erfaring og bøker

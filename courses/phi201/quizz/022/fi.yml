@@ -1,6 +1,6 @@
 question: Miten Rothbard luonnehtii valtiota?
 answer: Loisena, joka elää tuottavan yhteiskunnan kustannuksella ja estää edistystä
-vaarat_vastaukset:
+wrong_answers:
   - Välttämättömänä välineenä yksilön oikeuksien ja vapauksien suojelemiseksi
   - Tarpeellisena pahana järjestyksen ja sosiaalisen vakauden takaamiseksi
   - Neutraalina voimana, jota voidaan käyttää hyvään tai pahaan olosuhteista riippuen

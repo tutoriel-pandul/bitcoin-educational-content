@@ -1,6 +1,6 @@
 question: Miten satunnainen merkkijono määritellään tässä luvussa?
 answer: Merkkijonona, joka on valittu tasaisesti kaikkien saman pituisten merkkijonojen joukosta
-vaarat_vastaukset:
+wrong_answers:
   - Merkkijonona, joka on luotu vain bitteillä 0 ja 1
   - Merkkijonona, joka on saatu manuaalisella valinnalla
   - Muuttuvapituisena merkkijonona, joka on seurausta salausprosessista

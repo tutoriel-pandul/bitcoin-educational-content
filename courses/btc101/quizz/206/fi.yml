@@ -1,6 +1,6 @@
 question: Mitä ovat FOMO ja FUD?
 answer: Tunteita, jotka voivat johtaa impulsiiviseen ja mahdollisesti haitalliseen päätöksentekoon.
-vaarat_vastaukset:
+wrong_answers:
   - Bitcoin-lompakoiden tyyppejä.
   - Strategioita Bitcoinin ostamiseen.
   - Bitcoinia koskevia säädöksiä.

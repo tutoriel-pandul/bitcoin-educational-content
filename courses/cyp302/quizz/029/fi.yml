@@ -1,6 +1,6 @@
 question: Mitä XOR-operaatio tarkoittaa, kun sitä sovelletaan kahden bitin välillä?
 answer: Se palauttaa 1, jos bitit ovat erilaiset, muussa tapauksessa se palauttaa 0
-vaarat_vastaukset:
+wrong_answers:
   - Se palauttaa 1 vain, jos molemmat bitit ovat 1
   - Se lisää bitit ja palauttaa summan
   - Se palauttaa aina 0 riippumatta tuloksesta

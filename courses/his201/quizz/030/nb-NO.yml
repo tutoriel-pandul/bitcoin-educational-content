@@ -1,6 +1,6 @@
 question: Hvilken fødselsdato ble oppgitt av Satoshi Nakamoto på P2P Foundation forumet?
 answer: 5. april 1975
-feil_answer:
+wrong_answers:
   - 3. april 1973
   - 5. april 1973
   - 3. april 1975

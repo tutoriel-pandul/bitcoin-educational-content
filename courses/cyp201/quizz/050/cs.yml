@@ -1,6 +1,6 @@
 question: Jaká je velikost seedu HD peněženky, pokud je dodržen BIP39?
 answer: 512 bitů.
-nesprávné_odpovědi:
+wrong_answers:
   - 32 bajtů.
   - 1024 bitů.
   - 512 bajtů.

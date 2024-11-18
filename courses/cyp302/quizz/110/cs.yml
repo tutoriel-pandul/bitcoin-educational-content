@@ -6,4 +6,4 @@ wrong_answers:
   - Požadavek na použití veřejného klíče vedle soukromého klíče
 explanation: |
   RC4 má významné slabiny ve generování klíčového proudu, které vystavují šifrování útokům, a proto je postupně opouštěn v moderních bezpečnostních protokolech.
-recenzováno: false
+reviewed: false

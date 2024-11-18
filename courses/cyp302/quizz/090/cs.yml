@@ -6,4 +6,4 @@ wrong_answers:
   - Protože proudové šifry jsou vždy pomalejší
 explanation: |
   Proudové šifry jsou navrženy k kontinuálnímu šifrování dat (bit po bitu nebo byte po bytu), což komplikuje jejich použití v blokovém módu, který vyžaduje zpracování ve fixně velkých blocích.
-recenzováno: false
+reviewed: false

@@ -1,6 +1,6 @@
 question: ¿Cuál es una de las desventajas del oro como forma de dinero?
 answer: No es fácilmente divisible.
-respuestas_erróneas:
+wrong_answers:
   - No mantiene su valor en diferentes lugares.
   - Se erosiona con el tiempo.
   - Es fácil de producir.

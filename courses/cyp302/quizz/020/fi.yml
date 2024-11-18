@@ -1,6 +1,6 @@
 question: Mitä "modulo"-operaatio edustaa matematiikassa?
 answer: Jaon jäännös
-vaarat_vastaukset:
+wrong_answers:
   - Jaon osamäärä
   - Kahdesti alkuluku
   - Luku, joka jakaa ilman jäännöstä

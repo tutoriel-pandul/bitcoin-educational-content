@@ -1,6 +1,6 @@
 question: Mikä on JBOK-lompakko Bitcoinin kontekstissa?
 answer: Lompakko, joka ryhmittää yhteen satunnaisesti määritetyt yksityiset avaimet, ilman linkkiä niiden välillä.
-vaarat_vastaukset:
+wrong_answers:
   - Lompakko, joka johtaa avaimet hierarkkisesti yhdestä siemenestä.
   - Lompakko, joka johtaa avaimet edellisistä avaimista.
   - Lompakko, joka käyttää vain muistisanaista fraasia avainten johtamiseen.

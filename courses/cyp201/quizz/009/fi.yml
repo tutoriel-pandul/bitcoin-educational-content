@@ -1,6 +1,6 @@
 question: Mikä on SHA256-tiivistefunktion rakenteen nimi?
 answer: Merkle-Damgårdin rakenne.
-vaarat_vastaukset:
+wrong_answers:
   - Sponge-rakenne.
   - Iteratiivisten tiivistefunktioiden rakenne (HAIFA).
   - Feistel-rakenne.

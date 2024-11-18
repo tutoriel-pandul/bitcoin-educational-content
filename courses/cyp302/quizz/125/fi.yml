@@ -1,6 +1,6 @@
 question: Mikä merkittävä ongelma oli kryptografien Diffie, Hellman ja Merkle ratkaistavana 1970-luvulla?
 answer: Avainten jakelun ja hallinnan ongelmat
-vaarat_vastaukset:
+wrong_answers:
   - Post-kvanttikryptografian kehittäminen
   - Sotilasviestinnän turvaaminen
   - Symmetristen salausmenetelmien parantaminen

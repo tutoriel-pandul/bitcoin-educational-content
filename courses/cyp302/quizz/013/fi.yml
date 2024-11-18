@@ -1,6 +1,6 @@
 question: Mikä muodostaa suurimman osan kehittyneen maailman viestinnän fyysisen perustan?
 answer: Kuituoptiset kaapeliverkot
-vaarat_vastaukset:
+wrong_answers:
   - Satelliitit jokaiseen yhteyteen
   - Vain koaksiaalikaapelit
   - Vain kuparikaapelit

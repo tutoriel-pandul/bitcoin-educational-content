@@ -1,6 +1,6 @@
 question: Mikä vastaus edustaa yhtä kahdesta päähaaraa kryptografiassa?
 answer: Symmetrinen kryptografia
-vaarat_vastaukset:
+wrong_answers:
   - Kryptologia
   - Homomorfinen salaus
   - Kryptoanalyysi

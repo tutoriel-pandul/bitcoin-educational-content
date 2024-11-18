@@ -1,6 +1,6 @@
 question: Kuka henkilö reagoi positiivisesti valkoisen kirjan julkaisuun marraskuussa 2008?
 answer: Hal Finney
-vaarat_vastaukset:
+wrong_answers:
   - James A. Donald
   - John R. Levine
   - Ray Dillinger

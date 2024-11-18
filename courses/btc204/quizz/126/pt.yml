@@ -2,7 +2,7 @@ question: Qual método criptográfico pode ser usado em trocas de moedas para ga
 
 answer: Assinaturas Adaptadoras
 
-respostas_incorretas:
+wrong_answers:
   - Criptografia simétrica
   - ECDH
   - Criptografia assimétrica

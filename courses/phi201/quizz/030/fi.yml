@@ -1,6 +1,6 @@
 question: Mikä oli Rooman valtakunnan ainutlaatuinen piirre, joka mahdollisti monimutkaisen oikeusjärjestelmän kehittymisen?
 answer: Sen laajuus ja kulttuurinen sekä kielellinen monimuotoisuus
-vaarat_vastaukset:
+wrong_answers:
   - Sen järjestäytyminen itsenäisiksi kaupunkivaltioiksi
   - Sen absoluuttinen monarkkinen poliittinen järjestelmä
   - Sen kiinnittyminen uskonnollisiin perinteisiin

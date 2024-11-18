@@ -1,6 +1,6 @@
 question: Milloin ensimmäinen vaihto bitcoinin ja dollarin välillä tapahtui?
 answer: 12. lokakuuta 2009
-vaarat_vastaukset:
+wrong_answers:
   - 8. toukokuuta 2009
   - 30. joulukuuta 2009
   - 11. maaliskuuta 2010

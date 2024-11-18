@@ -6,4 +6,4 @@ wrong_answers:
   - Generování soukromých klíčů pro každou komunikaci
 explanation: |
   MAC je kryptografické schéma, které umožňuje ověření, že zpráva skutečně pochází od legitimního odesílatele a nebyla změněna, čímž zajišťuje autentičnost a integritu.
-recenzováno: false
+reviewed: false

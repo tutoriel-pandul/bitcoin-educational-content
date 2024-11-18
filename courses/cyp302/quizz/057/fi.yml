@@ -1,6 +1,6 @@
 question: Mikä on abelin ryhmä?
 answer: Ryhmä, jossa operaatio on vaihdannainen
-vaarat_vastaukset:
+wrong_answers:
   - Ryhmä, jolla on yksilöllinen generaattori
   - Ryhmä, joka rajoittuu kokonaislukuihin
   - Ryhmä ilman neutraalia alkiota

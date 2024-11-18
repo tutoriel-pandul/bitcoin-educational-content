@@ -1,6 +1,6 @@
 question: Kuka pidetään "epäreiluna kilpailijana" kynttiläntekijöiden kannalta tässä tarinassa?
 answer: Aurinko
-vaarat_vastaukset:
+wrong_answers:
   - Ulkomaiset kynttiläntekijät
   - Sähkö
   - Öljylamput

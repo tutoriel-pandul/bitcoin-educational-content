@@ -1,6 +1,6 @@
 question: Hva er den typiske blokkstørrelsen for blokk-kryptering?
 answer: 64, 128, 192 eller 256 bits
-feil_answer:
+wrong_answers:
   - 8, 16, 32 eller 64 bits
   - 4, 8, 16 eller 32 bits
   - 256, 512, 1024 eller 2048 bits

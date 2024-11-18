@@ -1,6 +1,6 @@
 question: Mikä ranskalainen matemaatikko esitteli ryhmien käsitteen 1800-luvulla?
 answer: Évariste Galois
-vaarat_vastaukset:
+wrong_answers:
   - Henri Poincaré
   - Pierre-Simon Laplace
   - Joseph Fourier

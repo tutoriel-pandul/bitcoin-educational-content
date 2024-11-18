@@ -6,4 +6,4 @@ wrong_answers:
   - Přidání extra klíče do každé zprávy
 explanation: |
   Přidání unikátního identifikátoru pro každého účastníka v šifrované zprávě brání útokům odrazu, jelikož umožňuje rozlišit původ zpráv.
-recenzováno: false
+reviewed: false

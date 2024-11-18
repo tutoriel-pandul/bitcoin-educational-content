@@ -6,4 +6,4 @@ wrong_answers:
   - Bob automaticky obdrží prostředky v kanálu
 explanation: |
   Bez Bobova podpisu na transakci výběru nemůže Alice zajistit obnovení svých prostředků v případě problému, což představuje riziko ztráty.
-recenzováno: false
+reviewed: false

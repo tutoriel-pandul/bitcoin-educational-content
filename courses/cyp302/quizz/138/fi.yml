@@ -1,6 +1,6 @@
 question: Mikä ominaisuus hajautusfunktiolla täytyy olla, jotta se voi taata turvallisuuden ohjelmiston varmennuksen aikana?
 answer: Kolarinkestävyys
-vaarat_vastaukset:
+wrong_answers:
   - Palautuvuus
   - Toimivuus epäsymmetristen avainten kanssa
   - Reaaliaikainen generoitavuus

@@ -6,4 +6,4 @@ wrong_answers:
   - Gaussova funkce
 explanation: |
   Eulerova funkce Phi (neboli totientní funkce) se používá k výpočtu počtu nesoudělných čísel s celým číslem N, zejména pro necelá čísla.
-recenzováno: false
+reviewed: false

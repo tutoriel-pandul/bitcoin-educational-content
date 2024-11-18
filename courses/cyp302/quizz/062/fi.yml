@@ -1,6 +1,6 @@
 question: Minkä tyyppistä symmetristä salausta käytetään ensisijaisesti jatkuvissa viestinnöissä, kuten audio- tai videovirroissa?
 answer: Virtaussalaus
-vaarat_vastaukset:
+wrong_answers:
   - Lohkosalaus
   - Varmennuskoodi
   - Viestin hajautus

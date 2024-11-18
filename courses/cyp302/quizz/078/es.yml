@@ -1,6 +1,6 @@
 question: ¿Qué significa un ataque de fuerza bruta?
 answer: Probar todas las claves posibles hasta encontrar la correcta
-respuestas_erróneas:
+wrong_answers:
   - Cambiar el texto para hacerlo incomprensible
   - Usar una clave pública para descifrar el mensaje
   - Golpear muy fuerte el ordenador para forzarlo a revelar la clave secreta

@@ -1,6 +1,6 @@
 question: Mikä on yksikertakäyttöisen salasanan (one-time pad) pääasiallinen käytännön rajoite?
 answer: Avaimen on oltava yhtä pitkä kuin viesti eikä sitä saa koskaan käyttää uudelleen
-vaarat_vastaukset:
+wrong_answers:
   - Avainta on vaihdettava joka päivä
   - Avaimen on oltava kolme kertaa pidempi kuin viesti
   - Avain on välttämättä säilytettävä ranskalaisessa Minitelissa

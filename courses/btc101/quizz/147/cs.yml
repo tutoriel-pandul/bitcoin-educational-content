@@ -6,4 +6,4 @@ wrong_answers:
   - Odměna za blok pro těžaře by se zvýšila.
 explanation: |
   Pokud by bloky byly 100krát těžší, provozování Bitcoinového uzlu by vyžadovalo 50TB pevný disk, přenosovou kapacitu přes 500GB/měsíc a hardware schopný validovat stovky tisíc transakcí za méně než 10 minut. To by učinilo provozování Bitcoinového uzlu nedostupným pro průměrnou osobu, což by ohrozilo decentralizaci protokolu a neměnnost transakcí a pravidel konsensu.
-recenzováno: true
+reviewed: true

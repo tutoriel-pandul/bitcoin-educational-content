@@ -6,4 +6,4 @@ wrong_answers:
   - 140 000 satoshi
 explanation: |
   Po odeslání 40 000 satoshi je zůstatek Alice v kanálu 60 000 satoshi.
-recenzováno: false
+reviewed: false

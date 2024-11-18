@@ -1,6 +1,6 @@
 question: Hvor mange bitcoins (cirka) minet Satoshi Nakamoto totalt?
 answer: 1,100,000
-feil_answer:
+wrong_answers:
   - 11,000,000
   - 110,000
   - 11,000

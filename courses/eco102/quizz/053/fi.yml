@@ -1,6 +1,6 @@
 question: Mitä taloudellista konseptia Bastiat korostaa tuhon kustannusten analyysissään?
 answer: Vaihtoehtoiskustannus
-vaarat_vastaukset:
+wrong_answers:
   - Rajakustannus
   - Rajatuottavuus
   - Tuotantokustannus

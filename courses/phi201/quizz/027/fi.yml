@@ -1,6 +1,6 @@
 question: Mikä on ero "phusis" ja "nomos" välillä?
 answer: Phusis on luonnon laki, nomos on ihmisen laki.
-vaarat_vastaukset:
+wrong_answers:
   - Phusis on jumalten laki, nomos on ihmisten laki.
   - Phusis on heikkojen laki, nomos on vahvojen laki.
   - Phusis on muinaisuuden laki, nomos on nykyaikojen laki.

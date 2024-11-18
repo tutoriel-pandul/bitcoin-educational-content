@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Vylepšený ricochet zajišťuje, že každá transakce je vysílána v odlišném čase a zaznamenána v jiném bloku, zatímco klasický ricochet vysílá všechny transakce v krátkém časovém rámci.
 
-recenzováno: false
+reviewed: false

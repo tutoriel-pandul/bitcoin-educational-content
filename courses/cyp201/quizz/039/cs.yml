@@ -6,4 +6,4 @@ wrong_answers:
   - Musí být založený na hardwaru, generovaný procesorem a reverzibilní.
 explanation: |
   Kryptograficky bezpečný PRNG musí být nepředvídatelný, odolný i v případě, že jsou některé výsledky odhaleny, a mít dostatečně dlouhé období, aby se zabránilo opakování sekvencí.
-recenzováno: false
+reviewed: false

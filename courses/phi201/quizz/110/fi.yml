@@ -1,6 +1,6 @@
 question: Mikä on Keynesin suosittelema pääasiallinen taloudellinen keino talouden elvyttämiseksi?
 answer: Julkisten menojen lisääminen
-vaarat_vastaukset:
+wrong_answers:
   - Veronleikkaukset
   - Markkinoiden vapauttaminen
   - Vientien lisääminen

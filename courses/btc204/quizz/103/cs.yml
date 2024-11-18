@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Efektivita transakce se počítá odečtením maximální entropie od skutečné entropie analyzované transakce.
 
-recenzováno: false
+reviewed: false

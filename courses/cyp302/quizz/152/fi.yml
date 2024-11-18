@@ -1,6 +1,6 @@
 question: Mikä on yksityisen avaimen "d" tehtävä RSA-salakirjoitusjärjestelmässä?
 answer: Sitä käytetään viestien purkamiseen modulo N avulla
-vaarat_vastaukset:
+wrong_answers:
   - Sitä käytetään vain viestien salaamiseen
   - Sitä käytetään bitcoinien avaamiseen
   - Sitä käytetään laskemaan φ(N)

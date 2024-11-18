@@ -1,6 +1,6 @@
 question: Mikä on sortamisen lähde Bastiat'n mukaan?
 answer: Vallanhalu
-vaarat_vastaukset:
+wrong_answers:
   - Ihmisten luontainen pahuus
   - Valtavallan puute
   - Taloudelliset eriarvoisuudet

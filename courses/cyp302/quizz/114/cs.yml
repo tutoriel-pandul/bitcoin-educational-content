@@ -6,4 +6,4 @@ wrong_answers:
   - Ve standardním RC4 není pro S stanovena pevná délka
 explanation: |
   Ve standardním RC4 obsahuje pole S 256 bajtů, což výrazně zvyšuje složitost výpočtů a zlepšuje bezpečnost ve srovnání se zjednodušenou verzí, která má pouze 8 bajtů.
-recenzováno: false
+reviewed: false

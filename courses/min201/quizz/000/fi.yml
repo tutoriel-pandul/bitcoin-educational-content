@@ -1,6 +1,6 @@
 question: Mikä on nykyinen louhintapalkkio Bitcoin-verkossa?
 answer: Uusien bitcoinien luominen ja siirtomaksut
-vaarat_vastaukset:
+wrong_answers:
   - Vain uusien bitcoinien luominen
   - Vain siirtomaksut
   - Uusien bitcoinien luominen, siirtomaksut ja bonus nopeimmalle louhijalle

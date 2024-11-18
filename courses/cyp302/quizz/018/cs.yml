@@ -6,4 +6,4 @@ wrong_answers:
   - Jejich kombinovaná pravděpodobnost je rovna nejvyšší pravděpodobnosti z obou
 explanation: |
   Dvě události jsou nezávislé, pokud pravděpodobnost jedné nezmění pravděpodobnost druhé, jako například losování loterie nemá vliv na počasí následujícího dne.
-recenzováno: false
+reviewed: false

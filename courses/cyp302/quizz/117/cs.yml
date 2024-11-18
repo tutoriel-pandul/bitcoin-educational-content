@@ -1,6 +1,6 @@
 question: V které fázi šifrování AES jsou používána Galoisova pole?
 answer: Při substituci bytů a operaci MixColumns
-nesprávné_odpovědi:
+wrong_answers:
   - Při generování soukromého klíče
   - Při dělení textu na 128bitové bloky
   - V každé fázi operace XOR

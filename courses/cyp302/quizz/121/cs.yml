@@ -6,4 +6,4 @@ wrong_answers:
   - Nutnost přenášet klíče pro každou komunikaci
 explanation: |
   Problém správy klíčů spočívá v obtížnosti ukládání a zabezpečení páru klíčů pro každého uživatele, zejména když počet klientů dosahuje milionů.
-recenzováno: false
+reviewed: false

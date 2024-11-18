@@ -6,4 +6,4 @@ wrong_answers:
   - Matematické dokázání bezpečnosti
 explanation: |
   Důkaz bezpečnosti v moderní kryptografii se zaměřuje na cíle a matematické předpoklady, vylučuje aspekty jako je uživatelské rozhraní, které není relevantní pro kryptografickou bezpečnost.
-recenzováno: false
+reviewed: false

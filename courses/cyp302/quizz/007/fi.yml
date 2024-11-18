@@ -1,6 +1,6 @@
 question: Mikä erottaa modernin kryptografian yksinkertaisesta salausjärjestelmästä?
 answer: Viestin eheyden ja aitouden varmistaminen
-vaarat_vastaukset:
+wrong_answers:
   - Yksittäisen salaisen avaimen käyttö
   - Avaimen hajauttaminen
   - Viestien anonymisointi

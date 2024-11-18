@@ -2,7 +2,7 @@ question: Hvilket alternativ tillater å aktivere eller deaktivere P2P transport
 
 answer: v2transport=
 
-feil_answer:
+wrong_answers:
   - p2penable=
   - networkv2=
   - enablev2=

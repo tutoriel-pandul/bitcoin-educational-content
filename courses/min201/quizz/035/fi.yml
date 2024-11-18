@@ -1,6 +1,6 @@
 question: Mitä hashrate mittaa Bitcoin-verkossa?
 answer: Laskutoimituksia sekunnissa
-vaarat_vastaukset:
+wrong_answers:
   - Transaktioiden määrä sekunnissa
   - Aktiivisten solmujen määrä
   - Verkon kuluttama sähkön määrä

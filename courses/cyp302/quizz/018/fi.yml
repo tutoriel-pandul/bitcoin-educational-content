@@ -1,6 +1,6 @@
 question: Missä tapauksessa voimme sanoa, että kaksi tapahtumaa ovat riippumattomia?
 answer: Toinen ei vaikuta toisen todennäköisyyteen
-vaarat_vastaukset:
+wrong_answers:
   - Kaksi tapahtumaa tapahtuvat aina samanaikaisesti
   - Ne ovat toisiaan poissulkevia
   - Niiden yhdistetty todennäköisyys on yhtä suuri kuin kahdesta suurin todennäköisyys

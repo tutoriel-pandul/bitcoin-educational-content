@@ -6,4 +6,4 @@ wrong_answers:
   - Značí to změnový klíč.
 explanation: |
   Apostrof nebo "H" v cestě derivace značí zpevněnou derivaci, která využívá rodičovský soukromý klíč a odpovídající rozsah indexů.
-recenzováno: false
+reviewed: false

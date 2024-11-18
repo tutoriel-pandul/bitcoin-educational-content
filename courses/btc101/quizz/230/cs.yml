@@ -6,4 +6,4 @@ wrong_answers:
   - Zřizovat přímá kanálová spojení, která jsou omezena pouze na velké transakce.
 explanation: |
   Lightning Network umožňuje provádět transakce mezi jednotlivci, kteří nemají přímé kanálové spojení.
-recenzováno: true
+reviewed: true

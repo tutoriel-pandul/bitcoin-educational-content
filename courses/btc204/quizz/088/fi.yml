@@ -2,7 +2,7 @@ question: Mitä strategiaa Wabisabi käyttää osallistujien anonsettien lisää
 
 answer: Muutamalla erittäin suurella transaktiolla.
 
-vaarat_vastaukset:
+wrong_answers:
   - Monilla erittäin pienillä transaktioilla.
   - Yhdellä pienellä transaktiolla.
   - Ilman transaktioita.

@@ -1,6 +1,6 @@
 question: Mikä on selitys "Euroopan ihmeelle"?
 answer: Euroopan poliittinen pirstoutuminen ja hegemonisen keskusvallan puuttuminen
-vaarat_vastaukset:
+wrong_answers:
   - Eurooppalaisen kulttuurin ylivoimaisuus
   - Siirtomaiden ja luonnonvarojen hyväksikäyttö muusta maailmasta
   - Tieteen ja teknologian edistyminen

@@ -6,4 +6,4 @@ wrong_answers:
   - MD5 hash následovaný SHA256 hashem.
 explanation: |
   HASH160 kombinuje SHA256 hash následovaný RIPEMD160, používá se zejména pro generování Bitcoinových adres.
-recenzováno: false
+reviewed: false

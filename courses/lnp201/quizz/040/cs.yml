@@ -6,4 +6,4 @@ wrong_answers:
   - Komunikovat přímo se všemi zprostředkujícími uzly
 explanation: |
   Odesílající uzel je zodpovědný za výpočet celé trasy k příjemci, protože zprostředkující uzly znají pouze svého bezprostředního souseda.
-recenzováno: false
+reviewed: false

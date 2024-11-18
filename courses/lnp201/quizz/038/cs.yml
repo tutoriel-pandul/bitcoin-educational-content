@@ -6,4 +6,4 @@ wrong_answers:
   - Ukládá dodatečné poplatky za každý prostřednický uzel
 explanation: |
   Časový zámek stanovuje časový rámec pro dokončení HTLC, což umožňuje obnovu finančních prostředků, pokud transakce neuspěje, zrušením platby po tomto období.
-recenzováno: false
+reviewed: false

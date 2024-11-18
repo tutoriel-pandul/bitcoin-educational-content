@@ -1,6 +1,6 @@
 question: Mitä käsitettä Bastiat käyttää kuvaamaan pakotetun uudelleenjaon ja laillisen ryöstelyn ideologiaa?
 answer: sosialismi
-vaarat_vastaukset:
+wrong_answers:
   - tasavaltalaisuus
   - konservatismi
   - liberalismi

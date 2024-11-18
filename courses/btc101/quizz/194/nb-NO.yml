@@ -1,6 +1,6 @@
 question: Hva er én løsning for store strukturer eller lidenskapelige bitcoinere for å akseptere Bitcoin?
 answer: BTCpay Server
-feil_answer:
+wrong_answers:
   - Bitcoin Wallet
   - Bitcoin Exchange
   - Bitcoin Mining

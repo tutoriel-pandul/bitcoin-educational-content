@@ -2,7 +2,7 @@ question: Hvor mange etterfølgende transaksjoner utfører en klassisk ricochet 
 
 answer: 5
 
-feil_answer:
+wrong_answers:
   - 2
   - 8
   - 14

@@ -1,6 +1,6 @@
 question: Mihin yksityiseen valuuttajärjestelmään Satoshi Nakamoto viittasi nimenomaisesti kirjoituksissaan?
 answer: Liberty Reserve
-vaarat_vastaukset:
+wrong_answers:
   - e-gold
   - Liberty Dollar
   - e-Bullion

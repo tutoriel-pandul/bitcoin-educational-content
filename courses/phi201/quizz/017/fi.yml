@@ -1,6 +1,6 @@
 question: Mikä on Marxin analyysin päätavoitekritiikki?
 answer: Kaikki yllä mainitut
-vaarat_vastaukset:
+wrong_answers:
   - Marx ei ota huomioon poliittisten instituutioiden roolia historiassa
   - Marx aliarvioi innovaation ja teknisen edistyksen merkitystä
   - Marxilla on virheellinen käsitys voiton ja hyväksikäytön luonteesta

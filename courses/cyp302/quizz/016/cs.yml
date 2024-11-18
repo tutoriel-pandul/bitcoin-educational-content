@@ -6,4 +6,4 @@ wrong_answers:
   - Pouze dvě hodnoty mohou nastat se stejnými pravděpodobnostmi
 explanation: |
   Rovnoměrná proměnná je náhodná proměnná, kde všechny možné hodnoty mají stejnou pravděpodobnost výskytu.
-recenzováno: false
+reviewed: false

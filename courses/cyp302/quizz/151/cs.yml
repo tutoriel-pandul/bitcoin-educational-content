@@ -6,4 +6,4 @@ wrong_answers:
   - Musí být rovno φ(N)
 explanation: |
   V RSA je exponent "e" vybrán tak, aby byl větší než 2 a nesoudělný s φ(N), což zajišťuje bezpečnost operací.
-recenzováno: false
+reviewed: false

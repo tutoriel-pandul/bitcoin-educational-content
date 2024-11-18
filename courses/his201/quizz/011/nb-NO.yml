@@ -1,6 +1,6 @@
 question: Hvilket privat valutasystem refererte Satoshi Nakamoto eksplisitt til i sine skrifter?
 answer: Liberty Reserve
-feil_answer:
+wrong_answers:
   - e-gold
   - The Liberty Dollar
   - e-Bullion

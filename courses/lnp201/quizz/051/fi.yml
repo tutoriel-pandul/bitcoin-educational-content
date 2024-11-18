@@ -1,6 +1,6 @@
 question: Mitä kolmion avaamistekniikka mahdollistaa osallistuvien solmujen saavuttavan?
 answer: Sisääntulevan ja ulostulevan likviditeetin kussakin kanavassa
-vaarat_vastaukset:
+wrong_answers:
   - Vähentyneet reititysmaksut
   - Rajaton määrä transaktioita ilman vahvistusta
   - Suora yhteys jokaiseen muuhun verkon solmuun

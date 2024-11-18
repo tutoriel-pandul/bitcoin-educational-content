@@ -6,4 +6,4 @@ wrong_answers:
   - Rozdělte náhodné číslo na dvě části a vložte kontrolní součet do prostředka.
 explanation: |
   Pro generování binární mnemonické fráze připojte kontrolní součet na konec náhodného čísla před jeho převedením do slov.
-recenzováno: false
+reviewed: false

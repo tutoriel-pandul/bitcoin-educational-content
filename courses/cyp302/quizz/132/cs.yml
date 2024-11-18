@@ -6,4 +6,4 @@ wrong_answers:
   - Kódy pro ověření zpráv (MAC)
 explanation: |
   Digitální podpisy v Bitcoinu dokazují vlastnictví prostředků podepsáním transakcí soukromým klíčem za účelem odemknutí skriptu, který zabezpečuje UTXO.
-recenzováno: false
+reviewed: false

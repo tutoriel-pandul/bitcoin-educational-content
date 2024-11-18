@@ -1,9 +1,9 @@
 question: Pokud vygeneruji 256bitové náhodné číslo, jaká bude velikost mé obnovovací fráze ve slovech?
 answer: 24 slov.
-nesprávné_odpovědi:
+wrong_answers:
   - 6 slov.
   - 8 slov.
   - 12 slov.
 explanation: |
   256bitové náhodné číslo odpovídá 24slovní mnemonické frázi podle standardu BIP39.
-recenzováno: false
+reviewed: false

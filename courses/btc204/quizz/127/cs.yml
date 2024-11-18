@@ -2,7 +2,7 @@ question: Jaký je hlavní nedostatek coinswapů a atomických swapů z hlediska
 
 answer: Nezakrývají historii vyměněných mincí
 
-špatné odpovědi:
+wrong_answers:
   - Jsou velmi nákladné na transakční poplatky
   - Vyžadují výměnu osobních informací mezi stranami
   - Mohou být předmětem analýzy burzovními platformami

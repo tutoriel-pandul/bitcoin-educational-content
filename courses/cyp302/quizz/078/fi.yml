@@ -1,6 +1,6 @@
 question: Mitä murtovoimahyökkäys tarkoittaa?
 answer: Kaikkien mahdollisten avainten kokeilemista kunnes oikea löytyy
-vaarat_vastaukset:
+wrong_answers:
   - Tekstin muuttaminen käsittämättömäksi
   - Julkisen avaimen käyttäminen viestin purkamiseen
   - Tietokoneen kovakourainen hakkaaminen pakottaakseen sen luovuttamaan salaisen avaimen

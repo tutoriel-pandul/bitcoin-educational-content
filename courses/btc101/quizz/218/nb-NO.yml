@@ -1,6 +1,6 @@
 question: Hva er naturen til Bitcoins adopsjon ifølge teksten?
 answer: Viral
-feil_answer:
+wrong_answers:
   - Langsom og stabil
   - Rask og ukontrollerbar
   - Sporadisk og uforutsigbar

@@ -6,4 +6,4 @@ wrong_answers:
   - rodičovský soukromý klíč || index.
 explanation: |
   Pro odvození normálního dětského klíče se používá rodičovský veřejný klíč spolu s indexem a řetězovým kódem ve funkci HMAC-SHA512.
-recenzováno: false
+reviewed: false

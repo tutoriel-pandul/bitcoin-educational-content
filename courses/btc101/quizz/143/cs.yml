@@ -8,4 +8,4 @@ explanation: |
   Pokud by uživatel uzlu rozhodl následovat jiná pravidla,
   která by invalidovala současná pravidla konsensu, pak by tento uzel
   již nebyl součástí Bitcoinové sítě.
-recenzováno: true
+reviewed: true

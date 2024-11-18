@@ -1,6 +1,6 @@
 question: ¿Cuál es la visión de la historia propuesta por Marx?
 answer: La historia es el resultado de la lucha entre clases sociales
-respuestas_erróneas:
+wrong_answers:
   - La historia es un progreso lineal hacia una sociedad burguesa
   - La historia es un ciclo de repetición con períodos de libertad seguidos por períodos de tiranía
   - La historia está determinada por factores climáticos

@@ -1,6 +1,6 @@
 question: Mikä on harhaluulo viestintäkanavien turvallisuudesta nykymaailmassa?
 answer: Usko siihen, että kanavan fyysinen suojaaminen estää tietojen salakuuntelun
-vaarat_vastaukset:
+wrong_answers:
   - Ajattelu, että langattomat verkot ovat tehottomia
   - Usko siihen, että kryptografia ei ole tarpeellista paikallisessa viestinnässä
   - Käsitys siitä, että vain kansalliset virastot voivat salakuunnella tietoja

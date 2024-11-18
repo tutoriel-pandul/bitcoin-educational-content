@@ -1,6 +1,6 @@
 question: Mitä sitoumustapahtuma Lightning-kanavassa heijastaa?
 answer: Uusi varojen jakautuminen kahden osapuolen välillä
-vaarat_vastaukset:
+wrong_answers:
   - Tehdyn transaktioiden kokonaismäärä
   - Transaktiosta maksettavien maksujen määrä
   - Uuden maksukanavan avaaminen

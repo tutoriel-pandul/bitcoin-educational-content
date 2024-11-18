@@ -6,4 +6,4 @@ wrong_answers:
   - Ve trezoru Federální rezervy.
 explanation: |
   Ačkoliv vaše soukromé klíče jsou uloženy ve vaší peněžence, samotné bitcoiny jsou ve skutečnosti uloženy v Bitcoin blockchainu, což je veřejná distribuovaná kniha v rámci peer-to-peer sítě Bitcoin.
-recenzováno: true
+reviewed: true

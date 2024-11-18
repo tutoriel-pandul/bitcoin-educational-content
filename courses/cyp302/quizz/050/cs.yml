@@ -6,4 +6,4 @@ wrong_answers:
   - Omezují rozsah možností snížením počtu prvků.
 explanation: |
   Rozšiřující pole s bází 2 jsou výhodná, protože jejich prvky lze chápat jako binární řetězce, což usnadňuje provádění operací s digitálními daty na binární úrovni v systémech.
-recenzováno: false
+reviewed: false

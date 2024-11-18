@@ -1,6 +1,6 @@
 question: Mitä termi 'hodl' tarkoittaa?
 answer: "Hodl" on slangi-ilmaisu kryptovaluuttayhteisössä, joka tarkoittaa sijoitusten pitämistä myymättä niitä, erityisesti markkinoiden volatiliteetin aikana.
-vaarat_vastaukset:
+wrong_answers:
   - "'Hodl' viittaa erityyppiseen kryptovaluuttaan, jota käytetään vain kaupankäyntiin."
   - "'Hodl' on termi, joka tarkoittaa kaikkien kryptovaluuttojesi myymistä korkeaan hintaan."
   - "'Hodl' on päiväkaupankäynnin strategia, joka sisältää usein ostamisen ja myymisen."

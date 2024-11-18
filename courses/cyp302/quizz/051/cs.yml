@@ -6,4 +6,4 @@ wrong_answers:
   - Pole využívající náhodné vektory
 explanation: |
   Prvočíselné pole obsahuje počet prvků rovný prvočíslu, což jej činí základním polem pro kryptografické operace.
-recenzováno: false
+reviewed: false

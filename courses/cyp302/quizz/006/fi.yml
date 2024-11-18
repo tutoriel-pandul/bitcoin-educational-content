@@ -1,6 +1,6 @@
 question: Mikä käsite ei liity yksinomaan symmetriseen tai asymmetriseen salausjärjestelmään?
 answer: Hahmofunktiot
-vaarat_vastaukset:
+wrong_answers:
   - Julkiset ja yksityiset avainparit
   - Asymmetrinen salaus
   - Symmetrinen salaus

@@ -1,6 +1,6 @@
 question: Mikä lisäys kesällä 2010 mahdollisti pehmeät haarautumiset Bitcoinissa myöhemmin?
 answer: OP_NOP toimintakoodit
-vaarat_vastaukset:
+wrong_answers:
   - Hälytysjärjestelmä
   - Lohkon koko raja
   - Vakio siirtomuoto

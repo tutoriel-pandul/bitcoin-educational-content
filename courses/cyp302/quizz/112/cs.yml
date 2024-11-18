@@ -6,4 +6,4 @@ wrong_answers:
   - Používá klíčový proud založený výhradně na otevřeném textu
 explanation: |
   RC4 je synchronní proudová šifra, protože její klíčový proud závisí pouze na počátečním klíči a ne na otevřeném textu nebo šifrovaném textu, což zajišťuje nezávislost tohoto proudu na zprávách.
-recenzováno: false
+reviewed: false

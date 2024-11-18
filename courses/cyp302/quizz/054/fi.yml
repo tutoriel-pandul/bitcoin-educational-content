@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen algebraallinen rakenne, jota käytetään äärellisissä kentissä kryptografiassa?
 answer: Redusoimattomat polynomit
-vaarat_vastaukset:
+wrong_answers:
   - Neliömatriisit
   - Satunnaisvektorit
   - Kuutiolliset juuret

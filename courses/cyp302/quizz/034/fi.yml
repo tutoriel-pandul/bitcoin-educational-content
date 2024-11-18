@@ -1,6 +1,6 @@
 question: Mikä on pseudosatunnainen merkkijono?
 answer: Merkkijono, joka vaikuttaa tulevan tasaisesti jakautuneesta muuttujasta, mutta on tuotettu laajennusalgoritmilla
-vaarat_vastaukset:
+wrong_answers:
   - Merkkijono, joka on luotu samalla todennäköisyydellä jokaiselle merkille
   - Kiinteän pituinen merkkijono luonnollisesta satunnaisesta tapahtumasta
   - Satunnainen merkkijono, joka on valittu vain binääriarvoista 0 ja 1

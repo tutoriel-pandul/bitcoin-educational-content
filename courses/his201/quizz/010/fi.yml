@@ -1,6 +1,6 @@
 question: Kuka oli päähenkilö PayPalin luomisen takana?
 answer: Peter Thiel
-vaarat_vastaukset:
+wrong_answers:
   - Elon Musk
   - Marc Andreessen
   - Mark Zuckerberg

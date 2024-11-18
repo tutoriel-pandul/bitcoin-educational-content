@@ -1,6 +1,6 @@
 question: ¿Cuál es la principal falacia denunciada por Bastiat en "Lo que se ve y lo que no se ve"?
 answer: La destrucción estimula la economía
-respuestas_erróneas:
+wrong_answers:
   - La destrucción es una desgracia
   - Solo los vidrieros se benefician de las ventanas rotas
   - Los accidentes deben evitarse

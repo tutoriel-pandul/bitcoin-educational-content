@@ -1,6 +1,6 @@
 question: Mikä kriteeri voi auttaa solmua valitsemaan tehokkaan maksureitin?
 answer: Menestymisen todennäköisyys perustuen kanavien kokonaiskapasiteettiin
-vaarat_vastaukset:
+wrong_answers:
   - Solmujen välinen maantieteellinen etäisyys
   - Solmujen läsnäolo, joilla on matala maksutaso
   - Kohdesolmun suorittamien maksujen määrä

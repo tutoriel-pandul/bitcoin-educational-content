@@ -1,6 +1,6 @@
 question: Kuka ehdotti yksityisten valuuttojen välisen kilpailun ideaa?
 answer: Friedrich Hayek
-vaarat_vastaukset:
+wrong_answers:
   - John Maynard Keynes
   - Jacques Rueff
   - Satoshi Nakamoto

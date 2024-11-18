@@ -6,4 +6,4 @@ wrong_answers:
   - Prostředky jsou připsány přímo bez dalšího zabezpečení
 explanation: |
   Keysend umožňuje odesílateli generovat tajemství vložené do HTLCs, což umožňuje příjemci odemknout prostředky bez vystavení faktury.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Blokování transakce nevhodným časovým zámkem
 explanation: |
   Hlavním rizikem je, že strana může pokusit podvádět publikováním staré transakce závazku, což by jim mohlo umožnit získat zpět prostředky, které již nemají.
-recenzováno: false
+reviewed: false

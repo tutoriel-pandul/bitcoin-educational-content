@@ -6,4 +6,4 @@ wrong_answers:
   - 3bdjsr
 explanation: |
   Převod desítkových čísel na Bech32 se provádí pomocí specifické korespondenční tabulky, a posloupnost 10 25 13 18 02 31 odpovídá 2edjzl.
-recenzováno: false
+reviewed: false

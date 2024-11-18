@@ -6,4 +6,4 @@ wrong_answers:
   - PRNG je hardware, zatímco TRNG je software.
 explanation: |
   TRNG (True Random Number Generator) generuje náhodná čísla z fyzikálního náhodného jevu, na rozdíl od PRNG, který je deterministický.
-recenzováno: false
+reviewed: false

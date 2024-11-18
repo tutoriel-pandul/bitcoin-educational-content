@@ -1,6 +1,6 @@
 question: Miksi itävaltalaiset väittävät, että sosialismi on mahdotonta saavuttaa?
 answer: He väittävät, että sosialismi on taloudellisesti tehotonta mutta moraalisesti oikeudenmukaista.
-vaarat_vastaukset:
+wrong_answers:
   - Sosialismi on vastoin luontoa.
   - Sosialismi on taloudellisesti tehokasta mutta moraalitonta.
   - Itävaltalaiset kritisoivat sosialismia, koska se ei salli innovaatiota ja vaurauden luomista.

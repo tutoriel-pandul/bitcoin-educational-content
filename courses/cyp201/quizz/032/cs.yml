@@ -6,4 +6,4 @@ wrong_answers:
   - BIP44.
 explanation: |
   BIP32, navržený v roce 2012, je první, který představil koncept hierarchických deterministických (HD) peněženek v Bitcoinu.
-recenzováno: false
+reviewed: false

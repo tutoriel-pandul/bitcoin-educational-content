@@ -1,6 +1,6 @@
 question: Kuka kirjailija on ensisijaisesti vastuussa Frédéric Bastiat'n taloustieteen koulutuksesta?
 answer: Say
-vaarat_vastaukset:
+wrong_answers:
   - Turgot
   - Condillac
   - Quesnay

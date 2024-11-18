@@ -6,4 +6,4 @@ wrong_answers:
   - Dočasně uzamkne prostředky, aby zabránil nadměrným výdajům
 explanation: |
   Uzamykací skript ukládá podmínky, jako je podepsání soukromým klíčem, aby bylo možné prostředky v transakci odemknout a použít.
-recenzováno: false
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Zvyšují bezpečnost sítě.
 explanation: >-
   Specializované stroje SHA256, neboli ASICy, zvyšují hash rate na joule při těžbě Bitcoinu. To znamená počet pokusů za sekundu a na spotřebovanou energii.
-recenzováno: true
+reviewed: true

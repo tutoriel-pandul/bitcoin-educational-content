@@ -6,4 +6,4 @@ wrong_answers:
   - Slabá entropie zpomaluje transakce.
 explanation: |
   Pokud je entropie použitá pro generování soukromých klíčů nízká, může to umožnit útočníkovi uhodnout nebo vypočítat tyto klíče, čímž je ohrožena bezpečnost peněženky.
-recenzováno: false
+reviewed: false

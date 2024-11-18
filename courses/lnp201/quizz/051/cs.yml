@@ -6,4 +6,4 @@ wrong_answers:
   - Přímé spojení s každým dalším uzlem sítě
 explanation: |
   Technika otevírání trojúhelníku umožňuje každému uzlu dosáhnout vyvážené likvidity, jak příchozí, tak odchozí, formováním smyčky kanálů mezi několika účastníky.
-recenzováno: false
+reviewed: false

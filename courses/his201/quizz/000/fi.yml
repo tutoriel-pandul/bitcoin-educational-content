@@ -1,6 +1,6 @@
 question: Minä vuonna asymmetrinen kryptografia virallisesti keksittiin?
 answer: 1976
-vaarat_vastaukset:
+wrong_answers:
   - 1676
   - 1776
   - 1876

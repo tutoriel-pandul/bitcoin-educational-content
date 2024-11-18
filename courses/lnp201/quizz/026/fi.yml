@@ -1,6 +1,6 @@
 question: Mikä kanavan sulkemismenetelmä on taloudellisin ja nopein?
 answer: Yhteistyöllinen sulkeminen
-vaarat_vastaukset:
+wrong_answers:
   - Pakotettu sulkeminen
   - Huijaamalla sulkeminen
   - Mikään ei ole taloudellisempi ja nopeampi

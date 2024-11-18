@@ -6,4 +6,4 @@ wrong_answers:
   - Zjednodušit výměny mezi různými kryptoměnami
 explanation: |
   Lightning Network si klade za cíl zlepšit škálovatelnost Bitcoinu tím, že umožní rychlé a levné transakce prostřednictvím platebních kanálů mimo hlavní blockchain.
-recenzováno: false
+reviewed: false

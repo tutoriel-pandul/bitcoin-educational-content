@@ -6,4 +6,4 @@ wrong_answers:
   - Přidat další vrstvu šifrování
 explanation: |
   V autentizačním šifrovacím schématu se "nonce" používá k zajištění, že každá zpráva má unikátní značku, čímž se zvyšuje bezpečnost tím, že se zabrání opakování.
-recenzováno: false
+reviewed: false

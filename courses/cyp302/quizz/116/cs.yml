@@ -6,4 +6,4 @@ wrong_answers:
   - Zavést dodatečnou záměnu substitucí bajtů
 explanation: |
   Operace "shift rows" v AES přeuspořádá bajty v tabulce stavu, aby rozšířila informace, čímž zvyšuje difuzi.
-recenzováno: false
+reviewed: false

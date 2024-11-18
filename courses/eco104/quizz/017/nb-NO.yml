@@ -1,6 +1,6 @@
 question: Hva er de viktigste typene stablecoins nevnt i teksten?
 answer: Fiat-støttede, vare-støttede og algoritmiske stablecoins.
-gale_answer:
+wrong_answers:
   - Digitale og fysiske stablecoins
   - Sentraliserte og desentraliserte stablecoins
   - Stablecoins støttet av banker og stablecoins støttet av enkeltpersoner

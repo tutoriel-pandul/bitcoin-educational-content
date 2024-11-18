@@ -6,4 +6,4 @@ wrong_answers:
   - Posílat prostředky bez potvrzení příjemce
 explanation: |
   LNURL-withdraw umožňuje uživatelům vybrat prostředky ze služby skenováním QR kódu, čímž zjednodušuje proces výběru.
-recenzováno: false
+reviewed: false

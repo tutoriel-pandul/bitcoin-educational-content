@@ -6,4 +6,4 @@ wrong_answers:
   - Statické odvození a dynamické odvození.
 explanation: |
   Dva typy odvození jsou normální odvození, které používá veřejný klíč rodiče, a zpevněné odvození, které používá soukromý klíč rodiče.
-recenzováno: false
+reviewed: false

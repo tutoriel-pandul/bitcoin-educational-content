@@ -1,6 +1,6 @@
 question: Mis juhtub Bitcoin võrgu kaevandamise tasuga umbes iga nelja aasta tagant?
 answer: See väheneb poole võrra
-vale_vastused:
+wrong_answers:
   - See kahekordistub
   - See kolmekordistub
   - See jääb samaks

@@ -6,4 +6,4 @@ wrong_answers:
   - Udělá kód algoritmu vizuálně přitažlivější pro lidi.
 explanation: |
   Použitím náhodného nonce pro každou relaci zajistí metody CBC a OFB, že každé šifrování je unikátní, což brání útokům využívajícím identická data.
-recenzováno: false
+reviewed: false

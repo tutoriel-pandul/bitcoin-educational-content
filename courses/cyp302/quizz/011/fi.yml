@@ -1,6 +1,6 @@
 question: Mikä mahdollistaa paikallisten viestintäyhteyksien kaappaamisen huonosti varustelluille hyökkääjille?
 answer: Radiotaajuuksien käyttö langattomissa yhteyksissä
-vaarat_vastaukset:
+wrong_answers:
   - Kaiken datan reitittäminen satelliittien kautta
   - Käyttämällä vain koaksiaalikaapeleita datan siirtoon
   - Datan lähettäminen ainoastaan optisten kuitujen kautta

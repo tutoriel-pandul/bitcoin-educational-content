@@ -6,4 +6,4 @@ wrong_answers:
   - Velikost náhodného čísla (entropie) vynásobte 2.
 explanation: |
   Velikost kontrolního součtu se získá vydělením velikosti entropie 32, v souladu s BIP39.
-recenzováno: false
+reviewed: false

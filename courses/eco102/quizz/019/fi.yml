@@ -1,6 +1,6 @@
 question: Mikä on Tracyn mukaan todellinen vaihtoehto sodille?
 answer: Tuotanto ja kauppa
-vaarat_vastaukset:
+wrong_answers:
   - Diplomatia
   - Kulttuuri
   - Poliittinen integraatio

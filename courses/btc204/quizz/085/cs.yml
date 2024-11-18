@@ -10,4 +10,4 @@ nesprávné odpovědi:
 explanation: |
   JoinMarket funguje na principu P2P výměnného trhu, kde někteří uživatelé, tzv. "poskytovatelé", nabízejí své bitcoiny k mixování, zatímco ostatní, tzv. "přijímatelé", tyto prostředky využívají k provádění coinjoinů výměnou za poplatek.
 
-recenzováno: false
+reviewed: false

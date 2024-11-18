@@ -1,6 +1,6 @@
 question: Hva er online tilgjengeligheten til Bitcoin?
 answer: 99.988%
-feil_answer:
+wrong_answers:
   - 100%
   - 90.009%
   - 80.17%

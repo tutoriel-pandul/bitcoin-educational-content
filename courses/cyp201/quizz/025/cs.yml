@@ -6,4 +6,4 @@ wrong_answers:
   - Číslo, které lze znovu použít.
 explanation: |
   Nonce je číslo použité jednou pro kryptografické operace, zajišťující jedinečnost určitých hodnot v algoritmech.
-recenzováno: false
+reviewed: false

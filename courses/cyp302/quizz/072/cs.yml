@@ -6,4 +6,4 @@ wrong_answers:
   - Protože klíč se mění s každým šifrováním
 explanation: |
   Šifrování posunem je považováno za symetrické šifrování, protože používá stejný klíč pro šifrování i dešifrování zprávy, čímž zajišťuje důvěrnost mezi stranami sdílejícími tento klíč.
-recenzováno: false
+reviewed: false

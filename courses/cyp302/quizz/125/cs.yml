@@ -6,4 +6,4 @@ wrong_answers:
   - Zlepšení technik symetrického šifrování
 explanation: |
   Diffie, Hellman a Merkle byli motivováni praktickými obtížemi distribuce a správy klíčů pro zabezpečení komunikace, což jsou klíčové výzvy ve světě přecházejícím k digitální komunikaci.
-recenzováno: false
+reviewed: false

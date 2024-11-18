@@ -1,6 +1,6 @@
 question: ¿Cuál es el remedio para el mal en la sociedad según Bastiat?
 answer: En la libertad misma
-respuestas_erróneas:
+wrong_answers:
   - En la voluntad de poder
   - En el castigo por un sistema judicial represivo e intransigente
   - En la búsqueda de una igualdad perfecta

@@ -1,6 +1,6 @@
 question: Mikä oli lehden Le Censeur motto, jonka perustivat Comte ja Dunoyer?
 answer: Rauha ja vapaus
-vaarat_vastaukset:
+wrong_answers:
   - Omaisuus ja vapaus
   - Järjestys ja edistyminen
   - Vapaus ja tasa-arvo

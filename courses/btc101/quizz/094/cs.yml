@@ -10,4 +10,4 @@ explanation: |
   že multisig vyžaduje pro provedení transakce více podpisů, takže
   je potřeba určitý počet peněženek. Uložení každé části na jiném místě
   přidává další vrstvu zabezpečení.
-recenzováno: true
+reviewed: true

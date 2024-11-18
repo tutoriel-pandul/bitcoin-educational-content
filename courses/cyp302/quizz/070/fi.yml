@@ -1,6 +1,6 @@
 question: Mikä tyyppinen salaus on siirrossalaus?
 answer: Monoalfabeettinen substituutiosalaus
-vaarat_vastaukset:
+wrong_answers:
   - Sanapermutaatio salaus
   - Polyalfabeettinen substituutiosalaus
   - Epäsymmetrinen salaus

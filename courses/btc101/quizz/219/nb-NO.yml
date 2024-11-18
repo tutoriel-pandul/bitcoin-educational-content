@@ -1,6 +1,6 @@
 question: Hva antyder teksten om fremtiden til Bitcoin?
 answer: Den kommer ikke til å forsvinne
-feil_answer:
+wrong_answers:
   - Den vil bli erstattet av en bedre teknologi
   - Den vil bli forbudt over hele verden
   - Den vil miste sin verdi

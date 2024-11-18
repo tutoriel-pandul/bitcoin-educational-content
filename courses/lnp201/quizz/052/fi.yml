@@ -1,6 +1,6 @@
 question: Mikä palvelu mahdollistaa likviditeetin siirtämisen kanavan vastakkaiselle puolelle samalla kun varoja noudetaan on-chain?
 answer: Loop Out
-vaarat_vastaukset:
+wrong_answers:
   - Keysend
   - LNURL
   - CoinSwap

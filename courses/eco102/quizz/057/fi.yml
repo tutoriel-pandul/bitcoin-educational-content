@@ -1,6 +1,6 @@
 question: Mikä on kynttilänvalmistajien esittämä pääargumentti heidän pyyntönsä tueksi?
 answer: Tarve tukea kansallista teollisuutta
-vaarat_vastaukset:
+wrong_answers:
   - Silmien suojaus
   - Kynttilöiden ylivoimainen laatu verrattuna aurinkoon
   - Kynttilöiden korkea tuotantokustannus

@@ -1,6 +1,6 @@
 question: Mikä on yksinkertainen ratkaisu suojata tietosi lunnasohjelmahyökkäyksiltä?
 answer: Varmuuskopioi säännöllisesti tärkeät tietosi ulkoiselle tallennuslaitteelle tai turvalliseen verkkotallennuspalveluun.
-vaarat_vastaukset:
+wrong_answers:
   - Asenna useita virustorjuntaohjelmistoja tietokoneellesi ja suorita säännöllisiä tarkistuksia.
   - Vaihda säännöllisesti tietokoneesi tai asenna käyttöjärjestelmäsi (OS) uudelleen.
   - Voit käyttää julkista Wi-Fi-verkkoa, jos laitteellasi ei ole mitään salattavaa.
