@@ -1,4 +1,9 @@
 question: Missä yksityiset avaimet säilytetään?
 answer: Bitcoin-lompakoissa
 wrong_answers:
-  - Lo
+  - Lohkoketjussa
+  - Bitcoin-yhteisön palvelimilla
+  - Vertaisverkossa
+explanation: |
+  Lompakko sisältää yksityiset avaimet, jotka ovat välttämättömiä bitcoinien käyttämiseen.
+reviewed: false
