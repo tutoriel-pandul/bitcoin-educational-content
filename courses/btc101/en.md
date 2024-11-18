@@ -420,65 +420,67 @@ In summary, Bitcoin, with its decentralized nature, programmed scarcity, and tra
 
 ### Conclusion of section 1!
 
-# Wallets Bitcoin
+# Bitcoin Wallets
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
 ## What are Bitcoin wallets?
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-In this section 2, we will explore the storage and security of Bitcoins within wallets. This will allow you to better understand where these famous bitcoins are located and how to interact with them!
+In section 2, we are going to explore the storage and security of Bitcoin through the use of wallets, in order to understand where these famous bitcoins are located and how to interact with them!
 
 ### Demystifying Bitcoin wallets
 
-In this industry, we use wallets to interact with the Bitcoin network, which has 3 functions:
+We use wallets to interact with the Bitcoin network in three main ways:
 
-- Allow receiving bitcoins
-- Allow sending bitcoins
-- Secure them against hacking and theft attempts
+- To receive bitcoins
+- To send bitcoins
+- To secure them against hacking and theft attempts
 
-A wallet can be software on your computer, an application on your smartphone, a physical device like a USB key, or even a piece of paper. These different types of Bitcoin wallets each serve different use cases. Some are used for large amounts with an emphasis on security, others for privacy, or even for daily payment of small amounts.
+A Bitcoin wallet can have many shapes and forms: a software on your computer, an application on your smartphone, a physical device like a USB key, or even a piece of paper. Each of them serves different use cases. In fact, some are designed for large transactions with an emphasis on security, while others prioritize privacy, or they are intended for daily payments of small amounts.
 
-Portfolios are therefore divided into large families of use, always with a central question: Are you the owner of the funds or do you leave control of your money to a third party? We will come back to this topic in detail in the next chapter, but the idea is simple: Is the money in your pocket or in your banker's pocket!
+Portfolios can thus be categorized into broad families of use, always centered around a key question: are you the owner of the funds or are you leaving control of your money to a third party? We will explore this topic in detail in the next chapter, but the question remains straightforward: is the money in your pocket or in your banker's pocket?
 
 ![image](assets/en/chapter5/3.webp)
 
-### How does a Bitcoin wallet work
+### How does a Bitcoin Wallet Work?
 
-Whether it's your Bitcoin "banker" or yourself, in general, the vast majority of Bitcoin wallets work with similar technology, that of asymmetric cryptography, and therefore a system of key pairs: a private key to spend and a public key to receive.
+Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wallets work with a similar technology based on asymmetric cryptography, which involves a system of key pairs: a private key for spending and a public key for receiving.
 
 - Private key
-  When initializing a wallet, a secret recovery phrase (private key) is generated and given to you in the form of 24 words.
 
-  The private key is very important because it represents ownership of the bitcoins and therefore the right to use or send them. The holder of the private key is the owner of the Bitcoins.
+  When initializing a wallet, a secret recovery phrase (private key) is generated and presented to you in the form of 12 or 24 words.
 
-  This key must be kept secret and well preserved, as it is the key that unlocks your fortune!
+  The private key is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins.
+
+  This key must be kept secret and well protected, as it unlocks your fortune!
 
 - Public key & address
-  The public key is created with the private key and therefore linked to it. The public key is used to generate Bitcoin addresses and thus receive money. Sharing the public key involves risks to privacy, but not to security.
+  
+  The public key is generated from the private key and it is linked to it. Sharing the public key poses risks to privacy (because other users can see your balance) but not to security (because they cannot spend your funds without possessing the private key). In turn, the public key is used to create Bitcoin addresses, and thus receive money. 
 
-  These addresses are created by your wallet and can be shared securely. It is advisable to use them only once to maximize your privacy.
+  These addresses are automatically created by your wallet and can be shared securely. To maximize your privacy, it is advisable to use them only once.
 
-It is therefore important to understand that thanks to this technology, we can easily receive Bitcoins without allowing the sender to steal our funds! Think of it like a mailbox: people deposit money in it, but you are the only one who can open it.
+In a summary, this technology empowers us to receive bitcoins without enabling the receiver to steal our funds! A mailbox could be a fitting metaphor: people can deposit money into it, but you are the only one who can open it.
 
 ![image](assets/en/chapter5/4.webp)
 
-### Are the Bitcoins in the wallet then?
+### Are Bitcoins in the Wallet?
 
-Although your keys are stored in your wallet, the bitcoins themselves are actually "stored" in the Bitcoin blockchain, which is a public distributed ledger within the Bitcoin peer-to-peer network (we will look at this in section 3). That is why losing the device on which you have your wallet does not necessarily mean the loss of your bitcoins. What allows you to recreate your wallet and spend your bitcoin is the private key. It is therefore crucial to secure it properly.
+Although your keys are stored in your wallet, the bitcoins themselves are actually "stored" in the Bitcoin blockchain, which is a public distributed ledger within the Bitcoin peer-to-peer network (we will delve into it in section 3). This means that losing the device containing your wallet does not necessarily result in the loss of your bitcoins. What allows you to recreate your wallet and spend your bitcoin is actually the private key, so always remember to secure it properly!
 
 ![image](assets/en/chapter5/1.webp)
 
-Fortunately for us, since 2017, this private key can be encoded in a simple list of 12 or 24 words, called the mnemonic phrase. This phrase is a backup of your Bitcoin wallet, it is what allows you to recreate your wallet with any Bitcoin wallet software/app. Therefore, anyone who has access to this list of words has access to your bitcoins.
+Fortunately, since 2017, the private key can be represented by a simple list of 12 or 24 words, known as 'mnemonic phrase, which are quite easy to save. This phrase serves as a backup for your funds and allows you to recreate your wallet using any Bitcoin wallet software or app. Therefore, anyone who finds this list of words can access your bitcoins.
 
 ### What about hackers?
 
-One might ask: what if someone accidentally guesses our list of 12 or 24 words? The short answer is that thanks to the cryptography used to create the wallet, it is highly unlikely. To put it into perspective, accidentally finding access to your wallet is like finding the "right" number between 1 and $2^256$, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always strengthen it by adding a passphrase to your Bitcoin wallet.
+What if someone accidentally guesses our list of 12 or 24 words? The short answer is that it is highly unlikely, thanks to the cryptography used to create the wallet. To put it into perspective, accidentally discovering your same mnemonic phrase is akin to finding the "right" number between 1 and $2^256$, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always enhance it by adding a passphrase (an extra word) to your Bitcoin wallet.
 
 ![image](assets/en/chapter5/5.webp)
 
-Thus, the probability of hacking your Bitcoin wallet is astronomically low if you follow good security practices. Practices that we detail in the next section.
+Thus, the probability of hacking your Bitcoin wallet is astronomically low if you follow the good security practices that we will detail in the next section.
 
-Choose a wallet that suits your needs and usage. Detailed tutorials on the use and securing of different wallets are available in the [tutorial section of our university](https://planb.network/tutorials/wallet).
+Keep in mind to choose the right wallet for your needs and usage: detailed tutorials on managing and securing different wallets are available in the [tutorial section of our university](https://planb.network/tutorials/wallet).
 
 ### Quick recap in a poster!
 
