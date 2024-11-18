@@ -5,4 +5,4 @@ wrong_answers:
   - Se sekoittaa sarakkeita lisätäkseen diffuusiota
   - Se jakaa selkotekstin 128-bittisiin lohkoihin
 explanation: |
-  Tavun korvausoperaatio (S-Box) AES:ssä tuo sekaannusta korvaamalla jokaisen tavun eri arvolla taulukon mukaan, mikä tekee salatusta tekstistä vaikeammin analysoitavaa.
+  Tavun korvausoperaatio (S-Box) AES: ssä tuo sekaannusta korvaamalla jokaisen tavun eri arvolla taulukon mukaan, mikä tekee salatusta tekstistä vaikeammin analysoitavaa.

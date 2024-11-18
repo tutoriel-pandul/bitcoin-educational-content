@@ -1,5 +1,5 @@
-question:为什么密码学示例经常使用字符Alice和Bob？
-answer:为了以简化的方式说明密码学原理
+question: 为什么密码学示例经常使用字符Alice和Bob？
+answer: 为了以简化的方式说明密码学原理
 wrong_answers:
   - 因为Alice和Bob是密码学中的技术术语
   - 因为它们是世界上最常见的名字

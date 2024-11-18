@@ -1,5 +1,5 @@
-question:在密码学中用于有限域的主要代数结构是什么？
-answer:不可约多项式
+question: 在密码学中用于有限域的主要代数结构是什么？
+answer: 不可约多项式
 wrong_answers:
   - 方阵
   - 随机向量

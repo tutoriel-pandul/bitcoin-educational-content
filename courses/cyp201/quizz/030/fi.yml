@@ -2,7 +2,7 @@ question: Mikä on Bitcoin-lompakon pääasiallinen tekninen rooli?
 answer: Tallentaa kryptografisia avainpareja.
 wrong_answers:
   - Tallentaa bitcoineja.
-  - Tallentaa UTXO:ja.
+  - Tallentaa UTXO: ja.
   - Tallentaa transaktioita.
 explanation: |
-  Bitcoin-lompakko ei suoraan tallenna bitcoineja, vaan kryptografisia avainpareja, joita käytetään UTXO:jen hallintaan ja käyttämiseen.
+  Bitcoin-lompakko ei suoraan tallenna bitcoineja, vaan kryptografisia avainpareja, joita käytetään UTXO: jen hallintaan ja käyttämiseen.

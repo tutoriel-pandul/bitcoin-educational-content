@@ -9,5 +9,5 @@ explanation: |
   aiheuttaa ongelmia saatavuuden ja sensuurin riskien suhteen.
   Tämä johtuu siitä, että jos SSO-palveluntarjoaja kokee katkoksen
   tai päättää estää käyttäjän, käyttäjä saattaa menettää pääsyn
-  kaikkiin palveluihin, jotka käyttävät kyseistä SSO:ta autentikointiin.
+  kaikkiin palveluihin, jotka käyttävät kyseistä SSO: ta autentikointiin.
 reviewed: true

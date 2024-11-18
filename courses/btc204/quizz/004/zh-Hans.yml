@@ -1,5 +1,5 @@
-question:是什么保护了比特币上的UTXO？
-answer:通过定义消费条件的脚本。
+question: 是什么保护了比特币上的UTXO？
+answer: 通过定义消费条件的脚本。
 wrong_answers:
   - 通过矿工的定期验证。
   - 通过一个中心化数据库。

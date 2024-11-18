@@ -1,6 +1,6 @@
-question:在以下答案中，哪一项不是推荐的管理个人doxxic变更的做法？
+question: 在以下答案中，哪一项不是推荐的管理个人doxxic变更的做法？
 
-answer:合并doxxic UTXOs。
+answer: 合并doxxic UTXOs。
 
 wrong_answers:
   - 在较小的池中混合doxxic UTXOs。

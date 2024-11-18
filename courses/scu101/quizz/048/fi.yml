@@ -6,6 +6,6 @@ wrong_answers:
   - Kirje lähetettynä tilin haltijan kotiosoitteeseen
 explanation: |
   Kaksivaiheisen tunnistautumisen toinen vaihe voi olla väliaikainen koodi, joka lähetetään
-  SMS:nä, sähköpostilla, sovelluksen generoimana koodina tai fyysisenä turva-avaimena. Kuitenkaan kaikki nämä menetelmät
+  SMS: nä, sähköpostilla, sovelluksen generoimana koodina tai fyysisenä turva-avaimena. Kuitenkaan kaikki nämä menetelmät
   eivät mahdollista saman turvallisuustason ylläpitämistä.
 reviewed: true

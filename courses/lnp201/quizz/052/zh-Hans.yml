@@ -1,5 +1,5 @@
-question:哪项服务允许将流动性移动到通道的另一侧，同时在链上检索资金？
-answer:Loop Out
+question: 哪项服务允许将流动性移动到通道的另一侧，同时在链上检索资金？
+answer: Loop Out
 wrong_answers:
   - Keysend
   - LNURL

@@ -1,5 +1,5 @@
-question:为什么不推荐在安全使用中使用ECB模式的AES加密？
-answer:它导致确定性加密
+question: 为什么不推荐在安全使用中使用ECB模式的AES加密？
+answer: 它导致确定性加密
 wrong_answers:
   - 它需要超过128位的密钥
   - 对于大多数现代应用来说，它太慢了

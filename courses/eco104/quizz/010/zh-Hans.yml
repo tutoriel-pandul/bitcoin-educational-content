@@ -1,5 +1,5 @@
-question:比特币网络中节点的目的是什么？
-answer:维护和保护区块链
+question: 比特币网络中节点的目的是什么？
+answer: 维护和保护区块链
 wrong_answers:
   - 处理交易
   - 提出并实施对比特币代码库的更改

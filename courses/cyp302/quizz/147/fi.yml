@@ -1,9 +1,9 @@
-question: Jos kokonaisluku N on kahden alkuluvun p ja q tulo, kuinka N:n järjestys lasketaan?
+question: Jos kokonaisluku N on kahden alkuluvun p ja q tulo, kuinka N: n järjestys lasketaan?
 answer: (p - 1) * (q - 1)
 vaarat_vastaukset:
   - (p * q) - 1
   - p + q
   - (p - 1) + (q - 1)
 explanation: |
-  Kun N on kahden alkuluvun p ja q tulo, N:n järjestys lasketaan kaavalla (p - 1) * (q - 1).
+  Kun N on kahden alkuluvun p ja q tulo, N: n järjestys lasketaan kaavalla (p - 1) * (q - 1).
 reviewed: false

@@ -1,6 +1,6 @@
-question:BIP47操作的核心使用的是哪种加密密钥交换算法？
+question: BIP47操作的核心使用的是哪种加密密钥交换算法？
 
-answer:ECDH
+answer: ECDH
 
 wrong_answers:
   - RSA

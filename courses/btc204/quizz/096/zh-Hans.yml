@@ -1,6 +1,6 @@
-question:回顾性匿名集指的是什么？
+question: 回顾性匿名集指的是什么？
 
-answer:在周期结束时，一个UTXO的可能来源数量。
+answer: 在周期结束时，一个UTXO的可能来源数量。
 
 wrong_answers:
   - 在周期结束时，不可区分UTXO群体的大小。

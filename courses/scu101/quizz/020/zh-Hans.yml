@@ -1,5 +1,5 @@
-question:Windows中内置的杀毒软件是什么？
-answer:Windows Defender
+question: Windows中内置的杀毒软件是什么？
+answer: Windows Defender
 wrong_answers:
   - 卡巴斯基
   - 诺顿

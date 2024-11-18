@@ -1,5 +1,5 @@
-question:MAC方案中的三个基本步骤是什么？
-answer:密钥生成、标签生成、验证
+question: MAC方案中的三个基本步骤是什么？
+answer: 密钥生成、标签生成、验证
 wrong_answers:
   - 加密、解密、传输
   - 公钥生成、私钥加密、验证

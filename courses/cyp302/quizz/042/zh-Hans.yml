@@ -1,5 +1,5 @@
-question:什么样的群满足交换律条件？
-answer:阿贝尔群
+question: 什么样的群满足交换律条件？
+answer: 阿贝尔群
 wrong_answers:
   - 一个封闭群
   - 一个结合群

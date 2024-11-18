@@ -1,5 +1,5 @@
-question:用于计算小于N的与N互质的整数数量的函数是哪一个？
-answer:欧拉Phi函数
+question: 用于计算小于N的与N互质的整数数量的函数是哪一个？
+answer: 欧拉Phi函数
 wrong_answers:
   - 欧拉Gamma函数
   - 欧拉Sigma函数

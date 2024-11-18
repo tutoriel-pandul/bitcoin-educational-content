@@ -1,5 +1,5 @@
-question:SHA256压缩函数由多少轮组成？
-answer:64轮。
+question: SHA256压缩函数由多少轮组成？
+answer: 64轮。
 wrong_answers:
   - 10轮。
   - 128轮。

@@ -1,6 +1,6 @@
-question:为什么使用payjoin进行支付通常比较复杂？
+question: 为什么使用payjoin进行支付通常比较复杂？
 
-answer:它需要接收方在构建中的积极合作
+answer: 它需要接收方在构建中的积极合作
 
 wrong_answers:
   - 它要求每笔交易有固定金额

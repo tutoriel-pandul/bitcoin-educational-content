@@ -5,4 +5,4 @@ wrong_answers:
   - Se suojaa transaktioita kryptografisesti.
   - Se kaksinkertaistaa lompakossa olevien bitcoinien määrän.
 explanation: |
-  Salalause parantaa turvallisuutta lisäämällä ylimääräisen tieto-osan muistisanaan, toimien ikään kuin 2FA:n tavoin.
+  Salalause parantaa turvallisuutta lisäämällä ylimääräisen tieto-osan muistisanaan, toimien ikään kuin 2FA: n tavoin.

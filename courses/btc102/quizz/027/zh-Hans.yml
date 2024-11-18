@@ -1,5 +1,5 @@
-question:比特币区块链的不可变性意味着什么？
-answer:它随时间无法被更改
+question: 比特币区块链的不可变性意味着什么？
+answer: 它随时间无法被更改
 wrong_answers:
   - 它无法被黑客攻击
   - 它无法被复制

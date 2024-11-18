@@ -1,5 +1,5 @@
-question:42 mod 2的值是多少？
-answer:0
+question: 42 mod 2的值是多少？
+answer: 0
 wrong_answers:
   - 1
   - 2

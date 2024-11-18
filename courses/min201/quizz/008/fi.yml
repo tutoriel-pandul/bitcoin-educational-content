@@ -2,8 +2,8 @@ question: Mikä on ASICien pääetu Bitcoin-louhinnassa?
 answer: Ne voivat suorittaa yhtä tiettyä laskentatyyppiä erittäin tehokkaasti
 wrong_answers:
   - Ne voivat suorittaa monenlaisia erilaisia laskentatyyppejä
-  - Ne kuluttavat vähemmän sähköä kuin CPU:t
-  - Ne ovat halvempia kuin CPU:t
+  - Ne kuluttavat vähemmän sähköä kuin CPU: t
+  - Ne ovat halvempia kuin CPU: t
 explanation: |
   ASICit ovat piirejä, verrattavissa CPU-piiriin, mutta ne
   on kehitetty suorittamaan vain yhtä tiettyä laskentatyyppiä

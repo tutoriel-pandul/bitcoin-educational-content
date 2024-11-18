@@ -1,6 +1,6 @@
-question:哪种启发式方法可以用来链接一次整合的所有输入？
+question: 哪种启发式方法可以用来链接一次整合的所有输入？
 
-answer:CIOH。
+answer: CIOH。
 
 wrong_answers:
   - 地址重用。

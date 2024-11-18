@@ -5,5 +5,5 @@ wrong_answers:
   - Noin 10GB kuukaudessa.
   - Noin 20GB kuukaudessa.
 explanation: >-
-  Ottaen huomioon, että joka 10. minuutti syntyy 1MB:n lohko, Bitcoin-noodin pyörittäminen vaatii noin 5GB kaistanleveyttä kuukaudessa.
+  Ottaen huomioon, että joka 10. minuutti syntyy 1MB: n lohko, Bitcoin-noodin pyörittäminen vaatii noin 5GB kaistanleveyttä kuukaudessa.
 reviewed: true

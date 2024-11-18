@@ -1,6 +1,6 @@
-question:支付加密交易使用哪种链上启发式分析作为欺骗分析的手段？
+question: 支付加密交易使用哪种链上启发式分析作为欺骗分析的手段？
 
-answer:CIOH
+answer: CIOH
 
 wrong_answers:
   - 地址重用

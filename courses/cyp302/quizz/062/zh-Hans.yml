@@ -1,5 +1,5 @@
-question:哪种对称加密主要用于连续通信，如音频或视频流？
-answer:流加密
+question: 哪种对称加密主要用于连续通信，如音频或视频流？
+answer: 流加密
 wrong_answers:
   - 块加密
   - 验证码

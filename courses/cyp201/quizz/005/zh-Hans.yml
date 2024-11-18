@@ -1,5 +1,5 @@
-question:SHA256函数的输入在填充后必须是多大的尺寸？
-answer:512位的倍数。
+question: SHA256函数的输入在填充后必须是多大的尺寸？
+answer: 512位的倍数。
 wrong_answers:
   - 256位。
   - 256字节。

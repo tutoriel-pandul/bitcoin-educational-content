@@ -1,5 +1,5 @@
-question:PBKDF2在计算比特币HD钱包的种子时使用的伪随机函数是什么？
-answer:HMAC-SHA512。
+question: PBKDF2在计算比特币HD钱包的种子时使用的伪随机函数是什么？
+answer: HMAC-SHA512。
 wrong_answers:
   - HMAC-SHA256。
   - HMAC-SHA1。

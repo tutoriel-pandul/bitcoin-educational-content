@@ -1,9 +1,9 @@
-question: Mikä on pseudo-satunnaisfunktio, jota käytetään PBKDF2:ssa laskemaan Bitcoin HD -lompakon siemen?
+question: Mikä on pseudo-satunnaisfunktio, jota käytetään PBKDF2: ssa laskemaan Bitcoin HD -lompakon siemen?
 answer: HMAC-SHA512.
 vaarat_vastaukset:
   - HMAC-SHA256.
   - HMAC-SHA1.
   - SHA3-512.
 explanation: |
-  HMAC-SHA512 on pseudo-satunnaisfunktio, jota käytetään PBKDF2:ssa generoimaan Bitcoin HD -lompakon siemen.
+  HMAC-SHA512 on pseudo-satunnaisfunktio, jota käytetään PBKDF2: ssa generoimaan Bitcoin HD -lompakon siemen.
 reviewed: false

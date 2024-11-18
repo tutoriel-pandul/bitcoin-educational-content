@@ -5,5 +5,5 @@ vaarat_vastaukset:
   - Se valitaan satunnaisesti ilman rajoituksia
   - Sen täytyy olla yhtä suuri kuin φ(N)
 explanation: |
-  RSA:ssa eksponentti "e" valitaan siten, että se on suurempi kuin 2 ja keskenään jaoton φ(N) kanssa, mikä varmistaa toimintojen turvallisuuden.
+  RSA: ssa eksponentti "e" valitaan siten, että se on suurempi kuin 2 ja keskenään jaoton φ(N) kanssa, mikä varmistaa toimintojen turvallisuuden.
 reviewed: false

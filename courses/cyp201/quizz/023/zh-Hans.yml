@@ -1,5 +1,5 @@
-question:未压缩的比特币公钥包括其前缀的大小是多少？
-answer:520比特。
+question: 未压缩的比特币公钥包括其前缀的大小是多少？
+answer: 520比特。
 wrong_answers:
   - 512字节。
   - 256比特。

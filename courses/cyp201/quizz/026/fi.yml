@@ -5,5 +5,5 @@ wrong_answers:
   - Nonce-arvon uudelleenkäyttö pidentää allekirjoituksia.
   - Nonce-arvon uudelleenkäyttö kasvattaa julkisen avaimen kokoa.
 explanation: |
-  Nonce-arvon uudelleenkäyttö ECDSA:ssa voi mahdollistaa hyökkääjän yksityisen avaimen löytämisen, vaarantaen turvallisuuden.
+  Nonce-arvon uudelleenkäyttö ECDSA: ssa voi mahdollistaa hyökkääjän yksityisen avaimen löytämisen, vaarantaen turvallisuuden.
 reviewed: false

@@ -5,4 +5,4 @@ wrong_answers:
   - Koska yksityiset avaimet voi arvata helposti.
   - Koska viestejä ei voida todentaa ilman digitaalista allekirjoitusta.
 explanation: |
-  Luottamuksellisuus suojaa viestien sisältöä, mutta ilman MAC:ia hyökkääjä voisi silti välittää ja muuttaa viestiä ymmärtämättä sitä, mikä vaarantaa viestinnän eheyden.
+  Luottamuksellisuus suojaa viestien sisältöä, mutta ilman MAC: ia hyökkääjä voisi silti välittää ja muuttaa viestiä ymmärtämättä sitä, mikä vaarantaa viestinnän eheyden.

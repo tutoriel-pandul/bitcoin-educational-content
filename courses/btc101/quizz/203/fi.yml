@@ -6,6 +6,6 @@ vaarat_vastaukset:
   - Siirrä bitcoinit toiselle vaihtoalustalle.
 explanation: |
   Kurssiteksti neuvoo, että Bitcoinin ostamisen jälkeen tulee
-  välittömästi nostaa UTXO:t vaihtoalustoilta
+  välittömästi nostaa UTXO: t vaihtoalustoilta
   minimoidakseen hakkeroinnin ja varojen jäädyttämisen riskit.
 reviewed: true

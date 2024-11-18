@@ -1,5 +1,5 @@
-question:在现代加密方案的安全证明中，哪一步不包括？
-answer:设置用户界面
+question: 在现代加密方案的安全证明中，哪一步不包括？
+answer: 设置用户界面
 wrong_answers:
   - 陈述安全定义
   - 数学复杂性假设

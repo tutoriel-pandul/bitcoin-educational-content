@@ -1,5 +1,5 @@
-question:比特币数字签名算法中使用的椭圆曲线名字是什么？
-answer:secp256k1。
+question: 比特币数字签名算法中使用的椭圆曲线名字是什么？
+answer: secp256k1。
 wrong_answers:
   - secp256r1。
   - secp160k1。

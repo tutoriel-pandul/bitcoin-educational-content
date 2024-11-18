@@ -5,5 +5,5 @@ wrong_answers:
   - Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä.
   - Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 64 bittiä.
 explanation: |
-  SHA256:n alustusvektorit perustuvat ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäisiin 64 bittiin.
+  SHA256: n alustusvektorit perustuvat ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäisiin 64 bittiin.
 reviewed: false

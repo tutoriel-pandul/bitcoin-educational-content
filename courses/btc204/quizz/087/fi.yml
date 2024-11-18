@@ -1,4 +1,4 @@
-question: Miten Wabisabi hallitsee muutosta verrattuna Wasabi 1.0:aan?
+question: Miten Wabisabi hallitsee muutosta verrattuna Wasabi 1.0: aan?
 
 answer: Se jakaa sen useisiin pieniin määriin, jotka jaetaan tasasuuruisina erinä.
 
@@ -8,4 +8,4 @@ wrong_answers:
   - Se siirtää sen automaattisesti varasäilölompakkoon.
 
 explanation: |
-  Toisin kuin Wasabi 1.0:ssa, jossa vaihtoraha oli suoraan yhdistetty käyttäjien sisääntuloihin, Wabisabi pyrkii jakamaan vaihtorahan useisiin pieniin määriin, jotka jaetaan tasasuuruisina erinä kaikille osallistujille.
+  Toisin kuin Wasabi 1.0: ssa, jossa vaihtoraha oli suoraan yhdistetty käyttäjien sisääntuloihin, Wabisabi pyrkii jakamaan vaihtorahan useisiin pieniin määriin, jotka jaetaan tasasuuruisina erinä kaikille osallistujille.

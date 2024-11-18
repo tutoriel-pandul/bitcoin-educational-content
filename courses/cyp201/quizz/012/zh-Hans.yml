@@ -1,5 +1,5 @@
-question:在比特币中，我们在PBKDF2函数中使用多少次迭代？
-answer:2048。
+question: 在比特币中，我们在PBKDF2函数中使用多少次迭代？
+answer: 2048。
 wrong_answers:
   - 512。
   - 1000。

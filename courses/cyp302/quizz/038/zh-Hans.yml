@@ -1,5 +1,5 @@
-question:哪个数学领域为数论提供了现代工具？
-answer:抽象代数
+question: 哪个数学领域为数论提供了现代工具？
+answer: 抽象代数
 wrong_answers:
   - 几何学
   - 统计学

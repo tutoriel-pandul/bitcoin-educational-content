@@ -1,5 +1,5 @@
-question:在本章以ECDSA为例的数字签名过程中，点V代表什么？
-answer:由随机数v和生成点G计算出的点（V = v.G）。
+question: 在本章以ECDSA为例的数字签名过程中，点V代表什么？
+answer: 由随机数v和生成点G计算出的点（V = v.G）。
 wrong_answers:
   - 直接从公钥派生的点。
   - 已签名消息的哈希值。

@@ -1,5 +1,5 @@
-question:如果遵循BIP39，HD钱包的种子大小是多少？
-answer:512比特。
+question: 如果遵循BIP39，HD钱包的种子大小是多少？
+answer: 512比特。
 wrong_answers:
   - 32字节。
   - 1024比特。

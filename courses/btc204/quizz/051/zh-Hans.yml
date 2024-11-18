@@ -1,6 +1,6 @@
-question:与BIP47相比，静默支付的缺点是什么？
+question: 与BIP47相比，静默支付的缺点是什么？
 
-answer:接收者必须扫描几乎整个区块链。
+answer: 接收者必须扫描几乎整个区块链。
 
 wrong_answers:
   - 它们会为发送者产生更高的交易费用。

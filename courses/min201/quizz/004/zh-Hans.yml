@@ -1,5 +1,5 @@
-question:今天比特币网络中矿工主要使用的工具是什么？
-answer:ASICs
+question: 今天比特币网络中矿工主要使用的工具是什么？
+answer: ASICs
 wrong_answers:
   - CPUs
   - GPUs

@@ -5,5 +5,5 @@ wrong_answers:
   - Salasana.
   - "Siemen".
 explanation: |
-  Merkkijono "Bitcoin seed" käytetään avaimena HMAC-SHA512:ssa johdettakseen mestariavain ja mestariketjukoodi siemenestä.
+  Merkkijono "Bitcoin seed" käytetään avaimena HMAC-SHA512: ssa johdettakseen mestariavain ja mestariketjukoodi siemenestä.
 reviewed: false

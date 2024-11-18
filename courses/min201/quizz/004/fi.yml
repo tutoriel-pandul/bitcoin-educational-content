@@ -3,7 +3,7 @@ answer: ASICit
 wrong_answers:
   - CPUt
   - GPUt
-  - FPGA:t
+  - FPGA: t
 explanation: |
   Nykyään louhijat käyttävät yksinomaan tähän toimintaan
   omistettuja ASICeja, jotka on optimoitu testaamaan suurimman mahdollisen

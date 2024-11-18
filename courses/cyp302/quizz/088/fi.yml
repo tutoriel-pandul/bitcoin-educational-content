@@ -5,5 +5,5 @@ vaarat_vastaukset:
   - RSA
   - Diffie-Hellman
 explanation: |
-  Rijndael-salakirjoitus hyväksyttiin symmetriseksi salausalgoritmiksi (AES) NIST:n toimesta sen korkean suorituskyvyn ja turvallisuuden vuoksi.
+  Rijndael-salakirjoitus hyväksyttiin symmetriseksi salausalgoritmiksi (AES) NIST: n toimesta sen korkean suorituskyvyn ja turvallisuuden vuoksi.
 reviewed: false

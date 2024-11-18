@@ -5,5 +5,5 @@ wrong_answers:
   - Argon2d.
   - PBKDF2.
 explanation: |
-  HMAC-SHA512:tä käytetään lapsiavainparin johdattamiseen vanhemmasta avainparista HD-lompakossa.
+  HMAC-SHA512: tä käytetään lapsiavainparin johdattamiseen vanhemmasta avainparista HD-lompakossa.
 reviewed: false

@@ -1,5 +1,5 @@
-question:扩展密钥通常使用哪种数字系统编码以呈现给用户？
-answer:在Base 58中。
+question: 扩展密钥通常使用哪种数字系统编码以呈现给用户？
+answer: 在Base 58中。
 wrong_answers:
   - 在bech32中。
   - 在Base 16中。

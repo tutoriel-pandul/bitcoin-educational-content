@@ -5,5 +5,5 @@ vaarat_vastaukset:
   - Viesti käännetään ympäri
   - Viestistä tulee mahdotonta purkaa
 explanation: |
-  Yksinkertaistetussa RSA:ssa viestin salaaminen useita kertoja tuottaa aina saman tuloksen, mikä tekee salauksesta haavoittuvaisen hyökkäyksille.
+  Yksinkertaistetussa RSA: ssa viestin salaaminen useita kertoja tuottaa aina saman tuloksen, mikä tekee salauksesta haavoittuvaisen hyökkäyksille.
 reviewed: false

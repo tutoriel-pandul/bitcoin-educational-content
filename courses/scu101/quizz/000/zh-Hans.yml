@@ -1,5 +1,5 @@
-question:私人浏览和使用TOR网络的主要区别是什么？
-answer:Tor掩盖了用户的IP地址，而私人浏览则没有。
+question: 私人浏览和使用TOR网络的主要区别是什么？
+answer: Tor掩盖了用户的IP地址，而私人浏览则没有。
 wrong_answers:
   - 私人浏览和TOR是同一回事。
   - 私人浏览掩盖了用户的IP地址，而TOR没有。

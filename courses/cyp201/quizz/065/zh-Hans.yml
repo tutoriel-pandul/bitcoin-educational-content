@@ -1,5 +1,5 @@
-question:在HD钱包派生路径中，深度0对应于什么？
-answer:主密钥。
+question: 在HD钱包派生路径中，深度0对应于什么？
+answer: 主密钥。
 wrong_answers:
   - 扩展密钥。
   - 接收地址。

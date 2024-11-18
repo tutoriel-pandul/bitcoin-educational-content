@@ -1,5 +1,5 @@
-question:在移位加密中，使用密钥17对单词"DOG"加密的结果是什么？
-answer:UFX
+question: 在移位加密中，使用密钥17对单词"DOG"加密的结果是什么？
+answer: UFX
 wrong_answers:
   - ZKH
   - TPG

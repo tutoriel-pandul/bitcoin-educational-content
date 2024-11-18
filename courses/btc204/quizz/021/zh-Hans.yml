@@ -1,5 +1,5 @@
-question:比特币简化支付的模式是什么？
-answer:输入中有1个或多个UTXO，输出中有2个UTXO。
+question: 比特币简化支付的模式是什么？
+answer: 输入中有1个或多个UTXO，输出中有2个UTXO。
 wrong_answers:
   - 输入中有1个UTXO，输出中有1个UTXO
   - 输入中有几个UTXO，输出中有1个UTXO

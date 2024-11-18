@@ -5,5 +5,5 @@ vaarat_vastaukset:
   - Se lisää yksityisyyden tasoa transaktioon
   - Se lisää lisämaksuja jokaiselle välittäjäsolmulle
 explanation: |
-  Aikakatkaisu asettaa aikarajan HTLC:n suorittamiselle, mikä mahdollistaa varojen palautuksen, jos transaktio ei onnistu, peruuttamalla maksun tämän ajanjakson jälkeen.
+  Aikakatkaisu asettaa aikarajan HTLC: n suorittamiselle, mikä mahdollistaa varojen palautuksen, jos transaktio ei onnistu, peruuttamalla maksun tämän ajanjakson jälkeen.
 reviewed: false

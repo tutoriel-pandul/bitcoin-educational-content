@@ -1,6 +1,6 @@
-question:P2P传输V2如何提高节点间通信的隐私性和安全性？
+question: P2P传输V2如何提高节点间通信的隐私性和安全性？
 
-answer:通过集成机会加密
+answer: 通过集成机会加密
 
 wrong_answers:
   - 通过集成认证

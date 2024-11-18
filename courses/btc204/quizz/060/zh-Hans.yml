@@ -1,6 +1,6 @@
-question:标签上应该标明哪些信息？
+question: 标签上应该标明哪些信息？
 
-answer:一个UTXO的来源。
+answer: 一个UTXO的来源。
 
 wrong_answers:
   - 一个UTXO的创建日期。

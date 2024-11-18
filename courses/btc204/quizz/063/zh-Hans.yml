@@ -1,6 +1,6 @@
-question:选择硬币时有哪两个隐私风险？
+question: 选择硬币时有哪两个隐私风险？
 
-answer:CIOH和收款人将输入/身份关联起来的风险。
+answer: CIOH和收款人将输入/身份关联起来的风险。
 
 wrong_answers:
   - IP地址追踪和活动关联。

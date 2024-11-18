@@ -1,6 +1,6 @@
-question:Chaumian CoinJoin过程中的哪一步涉及在Tor上更改身份以确保匿名性？
+question: Chaumian CoinJoin过程中的哪一步涉及在Tor上更改身份以确保匿名性？
 
-answer:输出的注册。
+answer: 输出的注册。
 
 wrong_answers:
   - 输入的注册。

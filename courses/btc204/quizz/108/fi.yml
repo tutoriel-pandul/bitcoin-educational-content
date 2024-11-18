@@ -8,6 +8,6 @@ wrong_answers:
   - Version uudelleenkäyttö
 
 explanation: |
-  Kun analyytikko tutkii payjoin-siirtoa, hän uskoo kaikkien syötteiden tulevan samalta henkilöltä CIOH:n vuoksi. Tämä käsitys on kuitenkin väärä, sillä maksun vastaanottaja myös osallistuu syötteisiin yhdessä varsinaisen maksajan kanssa. Näin ollen ketjuanalyysi ohjautuu tulkintaan, joka osoittautuu vääräksi.
+  Kun analyytikko tutkii payjoin-siirtoa, hän uskoo kaikkien syötteiden tulevan samalta henkilöltä CIOH: n vuoksi. Tämä käsitys on kuitenkin väärä, sillä maksun vastaanottaja myös osallistuu syötteisiin yhdessä varsinaisen maksajan kanssa. Näin ollen ketjuanalyysi ohjautuu tulkintaan, joka osoittautuu vääräksi.
 
 reviewed: false

@@ -1,5 +1,5 @@
-question:哪种交易模型使得CIOH的使用变得无效？
-answer:协作交易。
+question: 哪种交易模型使得CIOH的使用变得无效？
+answer: 协作交易。
 wrong_answers:
   - 简单支付。
   - 合并。

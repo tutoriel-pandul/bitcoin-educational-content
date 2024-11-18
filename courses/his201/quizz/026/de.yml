@@ -5,5 +5,5 @@ wrong_answers:
   - Vereinfachte Zahlungsverifikation
   - Die Blockchain
 explanation: |
-  Die ursprüngliche Geldpolitik entsprach einer konstanten Ausgabe (X BTC/Block), wie durch die erste Version des Whitepapers und Satoshis [Austausch](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) mit Ray Dillinger angegeben.
+  Die ursprüngliche Geldpolitik entsprach einer konstanten Ausgabe (X BTC/Block), wie durch die erste Version des Whitepapers und Satoshis [Austausch](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) mit Ray Dillinger angegeben.
 reviewed: false

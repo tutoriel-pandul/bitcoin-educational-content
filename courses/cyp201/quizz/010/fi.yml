@@ -5,4 +5,4 @@ wrong_answers:
   - KMAC/Scrypt
   - CMAC/Argon2
 explanation: |
-  Bitcoin HD-lompakot käyttävät HMACia (Hash-pohjainen viestin autentikointikoodi) avainjohdannaisiin ja PBKDF2:ta (salasanaan perustuva avainjohdannaisfunktio 2) siemenjohdannaisiin.
+  Bitcoin HD-lompakot käyttävät HMACia (Hash-pohjainen viestin autentikointikoodi) avainjohdannaisiin ja PBKDF2: ta (salasanaan perustuva avainjohdannaisfunktio 2) siemenjohdannaisiin.

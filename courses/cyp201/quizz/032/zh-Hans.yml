@@ -1,5 +1,5 @@
-question:是哪一个比特币改进提案（BIP）首次提出了比特币上的HD钱包（分层确定性钱包）的第一个版本？
-answer:BIP32。
+question: 是哪一个比特币改进提案（BIP）首次提出了比特币上的HD钱包（分层确定性钱包）的第一个版本？
+answer: BIP32。
 wrong_answers:
   - BIP16。
   - BIP39。

@@ -1,5 +1,5 @@
-question:SHA256函数中为大小填充保留了多少位？
-answer:64位。
+question: SHA256函数中为大小填充保留了多少位？
+answer: 64位。
 wrong_answers:
   - 128位。
   - 256位。

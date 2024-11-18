@@ -1,5 +1,5 @@
-question:用于计算与整数N互质的整数数量的函数是哪一个？
-answer:欧拉Phi函数
+question: 用于计算与整数N互质的整数数量的函数是哪一个？
+answer: 欧拉Phi函数
 wrong_answers:
   - 对数函数
   - 欧拉Gamma函数

@@ -1,5 +1,5 @@
-question:在移位加密中，密钥如何定义？
-answer:一个从0到25的数字
+question: 在移位加密中，密钥如何定义？
+answer: 一个从0到25的数字
 wrong_answers:
   - 一个随机单词
   - 一个没有限制的任意随机数字

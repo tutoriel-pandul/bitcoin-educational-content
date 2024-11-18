@@ -1,5 +1,5 @@
-question:在HD钱包中，哪个变量允许区分具有相同父对的兄弟密钥对？
-answer:索引。
+question: 在HD钱包中，哪个变量允许区分具有相同父对的兄弟密钥对？
+answer: 索引。
 wrong_answers:
   - 加密盐。
   - 名字。

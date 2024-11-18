@@ -1,5 +1,5 @@
-question:对于一个Hodler来说，推荐的初始钱包是什么？
-answer:像Bitbox02、Trezor或Ledger这样的冷钱包。
+question: 对于一个Hodler来说，推荐的初始钱包是什么？
+answer: 像Bitbox02、Trezor或Ledger这样的冷钱包。
 wrong_answers:
   - 一个热钱包移动应用程序。
   - 一个实体钱包。

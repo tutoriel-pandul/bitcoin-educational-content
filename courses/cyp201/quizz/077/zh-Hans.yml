@@ -1,5 +1,5 @@
-question:如何计算传统地址的校验和？
-answer:使用HASH256。
+question: 如何计算传统地址的校验和？
+answer: 使用HASH256。
 wrong_answers:
   - 使用HASH160。
   - 使用BCH代码。

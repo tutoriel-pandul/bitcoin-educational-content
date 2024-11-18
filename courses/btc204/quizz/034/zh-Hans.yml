@@ -1,5 +1,5 @@
-question:在一个简单的支付交易中，输入为500,000 sats，分成一个输出为47,500 sats，另一个为451,000 sats，哪个UTXO可能是找零？
-answer:451,000 sats的那个。
+question: 在一个简单的支付交易中，输入为500,000 sats，分成一个输出为47,500 sats，另一个为451,000 sats，哪个UTXO可能是找零？
+answer: 451,000 sats的那个。
 wrong_answers:
   - 500,000 sats的那个。
   - 47,500 sats的那个。
