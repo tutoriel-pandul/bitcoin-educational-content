@@ -2,7 +2,7 @@ question: Jaká kryptografická metoda může být použita při coinswapu k zaj
 
 answer: Adaptor Signatures
 
-nesprávné odpovědi:
+wrong_answers:
   - Symetrické šifrování
   - ECDH
   - Asymetrické šifrování

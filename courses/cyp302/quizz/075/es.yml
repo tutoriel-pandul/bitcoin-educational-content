@@ -1,6 +1,6 @@
 question: ¿Cómo facilita el principio de Kerckhoff la seguridad de sistemas abiertos como Linux?
 answer: Permite la verificación pública de posibles vulnerabilidades
-respuestas_erroneas:
+wrong_answers:
   - Hace invisibles los algoritmos de cifrado
   - Limita el número de usuarios potenciales
   - Asegura el uso de claves únicas

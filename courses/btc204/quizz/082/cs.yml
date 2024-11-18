@@ -2,7 +2,7 @@ question: Který krok procesu Chaumian CoinJoin zahrnuje změnu identity na Toru
 
 answer: Registrace výstupů.
 
-nesprávné odpovědi:
+wrong_answers:
   - Registrace vstupů.
   - Podepisování transakce.
   - Vysílání transakce.

@@ -2,7 +2,7 @@ question: Jaká je hlavní výhoda transakce payjoin ve srovnání s klasickou p
 
 answer: Zlepšuje soukromí
 
-nesprávné odpovědi:
+wrong_answers:
   - Zvyšuje rychlost potvrzení
   - Sníží poplatky za transakci
   - Klame příjemce

@@ -2,7 +2,7 @@ question: Jaký termín popisuje ochranu, kterou nabízí coinjoin proti analýz
 
 answer: Retrospektivní anonset.
 
-nesprávné odpovědi:
+wrong_answers:
   - Perspektivní anonset.
   - Odolnost vůči trasování.
   - Časové soukromí.
