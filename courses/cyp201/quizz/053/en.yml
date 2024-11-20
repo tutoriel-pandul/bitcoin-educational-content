@@ -1,9 +1,0 @@
-question: What information is calculated from the seed by applying HMAC-SHA512?
-answer: The master key and the master chain code of the wallet.
-wrong_answers:
-  - The extended key of the wallet.
-  - The xpub and xprv of the wallet.
-  - The private key signature code.
-explanation: |
-  From the seed, HMAC-SHA512 derives the master key and the master chain code, which are the basis for key generation.
-reviewed: false

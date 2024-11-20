@@ -1,9 +1,0 @@
-question: What does the concatenation operation consist of?
-answer: Putting two operands end to end.
-wrong_answers:
-  - Adding two operands.
-  - Dividing two operands.
-  - Subtracting two operands.
-explanation: |
-  Concatenation involves placing two operands one after the other without modifying them, widely used in cryptography.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Was ist das einzigartige Merkmal der Liste von 2048 Wörtern, das die mnemonische Kodierung ermöglicht?
-answer: Kein Wort hat die gleichen ersten vier Buchstaben in derselben Reihenfolge.
-wrong_answers:
-  - Kein Wort hat die gleichen letzten drei Buchstaben.
-  - Kein Wort beginnt mit dem Buchstaben „J“.
-  - Kein Wort ist länger als sechs Buchstaben.
-explanation: |
-  Dieses Merkmal hilft, jegliche Mehrdeutigkeit bei der Eingabe der Wörter zu vermeiden, und gewährleistet so die Einzigartigkeit jedes Wortes in der Liste, während es gleichzeitig den notwendigen Speicherplatz reduziert.
-reviewed: false

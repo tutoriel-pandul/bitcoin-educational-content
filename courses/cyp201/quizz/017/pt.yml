@@ -1,9 +1,0 @@
-question: Qual é o objetivo de usar assinaturas digitais no Bitcoin?
-answer: Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma chave privada, sem revelar essa chave privada.
-wrong_answers:
-  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma chave pública, sem revelar essa chave pública.
-  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de um endereço de recebimento, sem revelar esse endereço de recebimento.
-  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma carteira.
-explanation: |
-  As assinaturas digitais no Bitcoin permitem provar que um usuário possui a chave privada associada a uma chave pública sem revelar essa chave privada.
-reviewed: false

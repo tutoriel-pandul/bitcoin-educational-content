@@ -1,9 +1,0 @@
-question: A que correspondem os valores dos 8 vetores de inicialização da função SHA256?
-answer: Os primeiros 64 bits das partes decimais das raízes cúbicas dos primeiros 8 números primos.
-wrong_answers:
-  - Os decimais de Pi.
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos.
-  - Os primeiros 64 bits das partes decimais das raízes quadradas dos primeiros 8 números primos.
-explanation: |
-  Os vetores de inicialização do SHA256 são baseados nos primeiros 64 bits das partes decimais das raízes cúbicas dos primeiros 8 números primos.
-reviewed: false

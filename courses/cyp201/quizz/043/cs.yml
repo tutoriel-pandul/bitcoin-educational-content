@@ -1,9 +1,0 @@
-question: Jak určit velikost bitu kontrolního součtu pro obnovovací frázi?
-answer: Velikost náhodného čísla (entropie) vydělte 32.
-wrong_answers:
-  - Velikost náhodného čísla (entropie) vydělte 8.
-  - Velikost náhodného čísla (entropie) vydělte 16.
-  - Velikost náhodného čísla (entropie) vynásobte 2.
-explanation: |
-  Velikost kontrolního součtu se získá vydělením velikosti entropie 32, v souladu s BIP39.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Mikä avainjohdannaisfunktio käytetään johdattamaan siemen mnemonisesta fraasista ja valinnaisesta salasanasta?
-answer: PBKDF2.
-wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
-explanation: |
-  PBKDF2-funktiota käytetään johdattamaan HD-lompakon siemen mnemonisesta fraasista ja valinnaisesta salasanasta.
-reviewed: false

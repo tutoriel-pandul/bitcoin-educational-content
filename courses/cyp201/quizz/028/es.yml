@@ -1,9 +1,0 @@
-question: ¿Por qué es imposible recuperar la clave privada a partir de una firma digital válida?
-answer: La firma se basa en operaciones matemáticas irreversibles sobre una curva elíptica.
-wrong_answers:
-  - La clave privada se encripta antes de usarse.
-  - La semilla protege la clave privada.
-  - El hasheo de mensajes impide que se recupere la clave privada.
-explanation: |
-  Las operaciones sobre curvas elípticas son irreversibles, asegurando que la clave privada no pueda ser deducida a partir de la firma.
-reviewed: false

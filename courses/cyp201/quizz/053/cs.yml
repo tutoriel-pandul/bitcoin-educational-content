@@ -1,9 +1,0 @@
-question: Jaké informace jsou vypočítány z seedu aplikací HMAC-SHA512?
-answer: Hlavní klíč a hlavní řetězový kód peněženky.
-wrong_answers:
-  - Rozšířený klíč peněženky.
-  - Xpub a xprv peněženky.
-  - Podpisový kód soukromého klíče.
-explanation: |
-  Z seedu je pomocí HMAC-SHA512 odvozen hlavní klíč a hlavní řetězový kód, které jsou základem pro generování klíčů.
-reviewed: false

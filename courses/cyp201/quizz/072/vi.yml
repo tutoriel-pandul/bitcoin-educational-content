@@ -1,9 +1,0 @@
-question: Hàm nào được sử dụng để tạo ra một địa chỉ?
-answer: HASH160.
-wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
-explanation: |
-  Hàm HASH160, kết hợp SHA256 và RIPEMD-160, được sử dụng để tạo ra địa chỉ Bitcoin từ khóa công khai.
-reviewed: false

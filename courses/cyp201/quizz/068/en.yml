@@ -1,9 +1,0 @@
-question: What is the purpose of an external chain in the derivation process?
-answer: To isolate addresses intended to be public.
-wrong_answers:
-  - To isolate change addresses.
-  - To manage incoming transactions.
-  - To separate private keys from public keys.
-explanation: |
-  The external chain is used to derive addresses intended to be public, such as those for receiving payments.
-reviewed: false

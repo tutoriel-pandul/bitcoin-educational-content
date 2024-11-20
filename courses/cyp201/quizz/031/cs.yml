@@ -1,8 +1,0 @@
-question: Jak jsou určeny klíčové páry v Hierarchické Deterministické (HD) peněžence?
-answer: Všechny klíčové páry v peněžence jsou určeny deterministickým a hierarchickým způsobem z jedinečného kusu informace, který se nachází na základě peněženky.
-wrong_answers:
-  - Všechny klíčové páry v peněžence jsou určeny nezávisle na ostatních, náhodně, pomocí generátoru náhodných čísel.
-  - Každý klíčový pár v peněžence je určen deterministicky z předchozího klíčového páru.
-  - Všechny klíčové páry jsou náhodné a bez hierarchického propojení.
-explanation: |
-  V HD peněženkách jsou všechny klíče odvozeny z jedinečného kusu informace nazývaného seed (semeno), což umožňuje hierarchické a deterministické řízení klíčů.

@@ -1,9 +1,0 @@
-question: Wenn ich eine 256-Bit Zufallszahl generiere, wie groß wird meine Wiederherstellungsphrase in Wörtern sein?
-answer: 24 Wörter.
-wrong_answers:
-  - 6 Wörter.
-  - 8 Wörter.
-  - 12 Wörter.
-explanation: |
-  Eine 256-Bit Zufallszahl entspricht einer 24-Wort-Mnemonik-Phrase gemäß dem BIP39-Standard.
-reviewed: false

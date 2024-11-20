@@ -1,9 +1,0 @@
-question: If BIP39 is followed, what is the size of an HD wallet's seed?
-answer: 512 bits.
-wrong_answers:
-  - 32 bytes.
-  - 1024 bits.
-  - 512 bytes.
-explanation: |
-  According to BIP39, the seed of an HD wallet is 512 bits, derived from the mnemonic phrase and the passphrase.
-reviewed: false

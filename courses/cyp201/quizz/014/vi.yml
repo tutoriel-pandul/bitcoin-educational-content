@@ -1,9 +1,0 @@
-question: Hàm nào được sử dụng để tạo ra khóa con từ khóa cha trong Bitcoin?
-answer: HMAC-SHA512.
-wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
-explanation: |
-  Hàm HMAC-SHA512 được sử dụng trong việc tạo ra khóa con từ khóa cha trong ví HD Bitcoin.
-reviewed: false

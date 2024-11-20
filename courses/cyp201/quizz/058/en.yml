@@ -1,9 +1,0 @@
-question: What metadata is added to the extended key in addition to its payload?
-answer: Version / depth / parent fingerprint / index / checksum.
-wrong_answers:
-  - Version / index.
-  - Version / depth / separator / checksum.
-  - No metadata is added.
-explanation: |
-  The extended key includes several pieces of metadata. There is the version, depth, parent fingerprint, index, and checksum to facilitate key derivation.
-reviewed: false

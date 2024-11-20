@@ -1,9 +1,0 @@
-question: Quale funzione viene utilizzata per derivare una chiave figlia da una chiave genitore in Bitcoin?
-answer: HMAC-SHA512.
-wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
-explanation: |
-  La funzione HMAC-SHA512 viene utilizzata per derivare chiavi figlie da chiavi genitore nei portafogli HD di Bitcoin.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è la dimensione di una chiave pubblica Bitcoin non compressa, inclusa la sua prefisso?
-answer: 520 bit.
-wrong_answers:
-  - 512 byte.
-  - 256 bit.
-  - 512 bit.
-explanation: |
-  Una chiave pubblica Bitcoin non compressa con il suo prefisso è di 520 bit, comprendendo le coordinate x e y del punto sulla curva ellittica.
-reviewed: false

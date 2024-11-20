@@ -1,8 +1,0 @@
-question: ¿Cuál es la variable que permite diferenciar pares de claves hermanos entre sí (que tienen el mismo par padre)?
-answer: El índice.
-wrong_answers:
-  - La sal criptográfica.
-  - El primer nombre.
-  - El código de cadena padre.
-explanation: |
-  El índice se utiliza para diferenciar pares de claves hermanos derivados del mismo par padre en una cartera HD.

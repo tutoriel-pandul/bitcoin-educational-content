@@ -1,9 +1,0 @@
-question: Mihin SHA256-funktion 8 alustusvektorin arvot vastaavat?
-answer: Ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 64 bittiä.
-wrong_answers:
-  - Piin desimaalit.
-  - Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä.
-  - Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 64 bittiä.
-explanation: |
-  SHA256: n alustusvektorit perustuvat ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäisiin 64 bittiin.
-reviewed: false

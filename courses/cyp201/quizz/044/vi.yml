@@ -1,9 +1,0 @@
-question: Làm thế nào để tạo cụm từ khôi phục (mnemonic) dưới dạng nhị phân?
-answer: Nối số ngẫu nhiên với mã kiểm tra ở cuối.
-wrong_answers:
-  - Nối số ngẫu nhiên với mã kiểm tra ở đầu.
-  - Nối số ngẫu nhiên với một hạt giống.
-  - Chia số ngẫu nhiên thành hai phần và chèn mã kiểm tra vào giữa.
-explanation: |
-  Để tạo một cụm từ mnemonic dưới dạng nhị phân, hãy nối mã kiểm tra vào cuối số ngẫu nhiên trước khi chuyển đổi thành từ.
-reviewed: false

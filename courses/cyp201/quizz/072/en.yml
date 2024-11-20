@@ -1,9 +1,0 @@
-question: What is the function used to generate an address?
-answer: HASH160.
-wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
-explanation: |
-  The HASH160 function, which combines SHA256 and RIPEMD-160, is used to generate Bitcoin addresses from public keys.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Který BIP (Bitcoin Improvement Proposal) navrhl první verzi HD peněženky na Bitcoinu?
-answer: BIP32.
-wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
-explanation: |
-  BIP32, navržený v roce 2012, je první, který představil koncept hierarchických deterministických (HD) peněženek v Bitcoinu.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Co je PRNG?
-answer: Algoritmus, který generuje náhodná čísla z počáteční hodnoty a transformační funkce.
-wrong_answers:
-  - Hardwarové zařízení, které generuje skutečně náhodná čísla.
-  - Generátor, který produkuje náhodná čísla bez jakékoli počáteční hodnoty.
-  - Algoritmus, který generuje předvídatelná čísla.
-explanation: |
-  PRNG generuje pseudo-náhodná čísla z počáteční hodnoty, ale na rozdíl od TRNG, nejsou skutečně náhodná.
-reviewed: false

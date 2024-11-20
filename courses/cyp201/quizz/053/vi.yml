@@ -1,8 +1,0 @@
-question: Thông tin nào được tính toán từ seed bằng cách áp dụng HMAC-SHA512?
-answer: Khóa chính và mã chuỗi chính của ví.
-wrong_answers:
-  - Khóa mở rộng của ví.
-  - Xpub và xprv của ví.
-  - Mã chữ ký khóa riêng.
-explanation: |
-  Từ seed, HMAC-SHA512 tạo ra khóa chính và mã chuỗi chính, đây là cơ sở cho việc tạo khóa.

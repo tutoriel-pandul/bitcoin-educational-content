@@ -1,9 +1,0 @@
-question: レガシーアドレスのチェックサムはどのように計算されますか？
-answer: HASH256を使用して。
-wrong_answers:
-  - HASH160を使用して。
-  - BCHコードを使用して。
-  - RIPEMD160を使用して。
-explanation: |
-  レガシーアドレスの場合、チェックサムはSHA256関数（HASH256）を用いて二重ハッシュを行うことで得られます。
-reviewed: false

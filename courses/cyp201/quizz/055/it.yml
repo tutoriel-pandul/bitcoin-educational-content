@@ -1,9 +1,0 @@
-question: Di cosa è composto il payload di una chiave estesa?
-answer: Una chiave pubblica o privata e il codice catena associato.
-wrong_answers:
-  - Una chiave privata e la relativa chiave pubblica.
-  - Un codice catena, una chiave pubblica e una chiave privata.
-  - Una chiave privata e un indice di derivazione.
-explanation: |
-  Il payload di una chiave estesa include una chiave pubblica o privata, insieme a un codice catena utilizzato per derivare chiavi figlie.
-reviewed: false

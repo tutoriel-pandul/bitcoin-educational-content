@@ -1,9 +1,0 @@
-question: Por que é importante usar uma boa fonte de entropia para gerar chaves privadas?
-answer: Uma entropia fraca pode tornar as chaves privadas previsíveis e vulneráveis a ataques.
-wrong_answers:
-  - Uma boa entropia ajuda a otimizar o desempenho da carteira.
-  - A entropia não desempenha nenhum papel na segurança das chaves privadas.
-  - Entropia fraca desacelera as transações.
-explanation: |
-  Se a entropia usada para gerar chaves privadas for baixa, isso poderia permitir que um atacante adivinhasse ou calculasse essas chaves, comprometendo a segurança da carteira.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Khóa công khai Bitcoin được xác định như thế nào?
-answer: Nó được xác định bằng cách cộng và nhân đôi các điểm trên đường cong elliptic từ điểm sinh ra sử dụng khóa riêng.
-wrong_answers:
-  - Nó được xác định từ một số ngẫu nhiên hoặc giả ngẫu nhiên.
-  - Nó được xác định bằng cách băm khóa riêng của nó.
-  - Nó được xác định bằng cách băm hạt giống của nó.
-explanation: |
-  Khóa công khai được tạo ra từ khóa riêng thông qua các phép toán trên đường cong elliptic, bắt đầu từ điểm sinh ra.
-reviewed: false

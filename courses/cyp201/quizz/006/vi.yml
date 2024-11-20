@@ -1,9 +1,0 @@
-question: Bao nhiêu bit được dành riêng cho việc đệm theo kích thước trong hàm SHA256?
-answer: 64 bit.
-wrong_answers:
-  - 128 bit.
-  - 256 bit.
-  - 512 bit.
-explanation: |
-  SHA256 dành riêng 64 bit cho việc đệm, đại diện cho kích thước ban đầu của thông điệp trước khi được đệm.
-reviewed: false

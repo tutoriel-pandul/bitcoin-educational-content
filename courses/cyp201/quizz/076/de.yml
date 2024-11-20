@@ -1,9 +1,0 @@
-question: Wie wird die Prüfsumme einer SegWit-Adresse berechnet?
-answer: Mit einem BCH-Code.
-wrong_answers:
-  - Mit HASH160.
-  - Mit HASH256.
-  - Mit SHA512.
-explanation: |
-  Für SegWit-Adressen wird die Prüfsumme mit dem BCH-Code berechnet, was die Erkennung möglicher Fehler in der Adresse ermöglicht.
-reviewed: false

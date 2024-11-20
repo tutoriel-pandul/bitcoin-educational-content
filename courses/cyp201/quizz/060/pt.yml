@@ -1,8 +1,0 @@
-question: Qual é a função usada para derivar um par de chaves filho de um par de chaves pai dentro de uma carteira HD?
-answer: HMAC-SHA512.
-wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
-explanation: |
-  HMAC-SHA512 é usado para derivar um par de chaves filho de um par de chaves pai em uma carteira HD.

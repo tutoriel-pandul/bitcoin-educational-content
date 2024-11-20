@@ -1,8 +1,0 @@
-question: En las rutas de derivación de carteras HD, ¿a qué corresponde la profundidad 0?
-answer: La llave maestra.
-wrong_answers:
-  - La llave extendida.
-  - Las direcciones de recepción.
-  - El tipo de moneda.
-explanation: |
-  La profundidad 0 en las rutas de derivación corresponde a la llave maestra, que es el punto de partida para todas las derivaciones en una cartera HD.

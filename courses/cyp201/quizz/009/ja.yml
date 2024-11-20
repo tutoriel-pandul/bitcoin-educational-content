@@ -1,8 +1,0 @@
-question: SHA256ハッシュ関数の構造は何と呼ばれていますか？
-answer: Merkle-Damgard Construction.
-wrong_answers:
-  - Sponge Construction.
-  - Iterative Hash Functions Construction (HAIFA).
-  - Feistel Construction.
-explanation: |
-  SHA256は、安全なハッシュ関数を作成するために一般的に使用されるMerkle-Damgard Constructionという構造を使用しています。

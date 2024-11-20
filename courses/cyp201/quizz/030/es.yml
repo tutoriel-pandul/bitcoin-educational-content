@@ -1,8 +1,0 @@
-question: ¿Cuál es el principal rol técnico de un monedero de Bitcoin?
-answer: Almacenar pares de claves criptográficas.
-wrong_answers:
-  - Almacenar bitcoins.
-  - Almacenar UTXOs.
-  - Almacenar transacciones.
-explanation: |
-  Un monedero de Bitcoin no almacena directamente bitcoins, sino pares de claves criptográficas que se utilizan para gestionar y gastar UTXOs.

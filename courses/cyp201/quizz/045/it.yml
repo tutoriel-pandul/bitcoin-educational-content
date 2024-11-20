@@ -1,9 +1,0 @@
-question: Cosa rappresenta la passphrase all'interno di un portafoglio HD?
-answer: Un sale crittografico opzionale di dimensione arbitraria.
-wrong_answers:
-  - Una 25esima parola nella frase mnemonica.
-  - Un sale crittografico obbligatorio di dimensione fissa.
-  - Un secondo seed.
-explanation: |
-  La passphrase è un sale crittografico opzionale, che aumenta la sicurezza del portafoglio aggiungendo informazioni aggiuntive alla frase mnemonica per determinare il seed.
-reviewed: false

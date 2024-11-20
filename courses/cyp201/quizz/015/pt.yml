@@ -1,9 +1,0 @@
-question: Qual é o nome da curva elíptica usada para algoritmos de assinatura digital no Bitcoin?
-answer: secp256k1.
-wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
-explanation: |
-  A curva secp256k1 é usada no protocolo Bitcoin para assinaturas digitais.
-reviewed: false

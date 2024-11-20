@@ -1,9 +1,0 @@
-question: Why is it impossible to retrieve the private key from a valid digital signature?
-answer: The signature is based on irreversible mathematical operations on an elliptic curve.
-wrong_answers:
-  - The private key is encrypted before use.
-  - The seed protects the private key.
-  - Hashing messages prevents the private key from being retrieved.
-explanation: |
-  Operations on elliptic curves are irreversible, ensuring that the private key cannot be deduced from the signature.
-reviewed: false

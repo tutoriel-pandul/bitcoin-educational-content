@@ -1,8 +1,0 @@
-question: Se eu gerar um número aleatório de 128 bits, qual será o tamanho da minha frase de recuperação em palavras?
-answer: 12 palavras.
-wrong_answers:
-  - 6 palavras.
-  - 8 palavras.
-  - 24 palavras.
-explanation: |
-  Um número aleatório de 128 bits corresponde a uma frase mnemônica de 12 palavras, seguindo o padrão BIP39.

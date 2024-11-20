@@ -1,9 +1,0 @@
-question: Co v procesu digitálního podepisování s příkladem ECDSA v této kapitole představuje bod V?
-answer: Bod vypočítaný z nonce v a generátorového bodu G (V = v.G).
-wrong_answers:
-  - Bod odvozený přímo z veřejného klíče.
-  - Hash podepsané zprávy.
-  - Výsledek sčítání dvou bodů na eliptické křivce.
-explanation: |
-  V je výsledek výpočtu nonce vynásobeného generátorovým bodem na eliptické křivce.
-reviewed: false

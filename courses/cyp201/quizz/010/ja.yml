@@ -1,8 +1,0 @@
-question: Bitcoin HDウォレットでの導出に使用されるアルゴリズムは何ですか？
-answer: HMAC/PBKDF2
-wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
-explanation: |
-  Bitcoin HDウォレットでは、キー導出にHMAC（ハッシュベースのメッセージ認証コード）を、シード導出にはPBKDF2（パスワードベースのキー導出関数2）を使用します。

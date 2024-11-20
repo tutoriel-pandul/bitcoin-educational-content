@@ -1,9 +1,0 @@
-question: Quantas rodadas a função de compressão SHA256 consiste?
-answer: 64 rodadas.
-wrong_answers:
-  - 10 rodadas.
-  - 128 rodadas.
-  - 150 rodadas.
-explanation: |
-  A função de compressão SHA256 realiza 64 rodadas para cada bloco de dados processado.
-reviewed: false

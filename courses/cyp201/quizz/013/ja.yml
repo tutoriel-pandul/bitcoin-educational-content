@@ -1,9 +1,0 @@
-question: プレフィックス「0x」の意味は何ですか？
-answer: このプレフィックスの後に続く数は、16進数（hexadecimal）で表されます。
-wrong_answers:
-  - このプレフィックスの後に続く数は、2進数（binary）で表されます。
-  - このプレフィックスの後に続く数は、10進数（decimal）で表されます。
-  - このプレフィックスの後に続く数は、8進数（octal）で表されます。
-explanation: |
-  プレフィックス「0x」は、それに続く数が16進数（hexadecimal）で表されることを示しています。
-reviewed: false

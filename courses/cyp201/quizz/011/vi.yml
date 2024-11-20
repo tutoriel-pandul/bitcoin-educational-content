@@ -1,9 +1,0 @@
-question: Thao tác nối chuỗi bao gồm những gì?
-answer: Đặt hai toán hạng liền kề nhau.
-wrong_answers:
-  - Cộng hai toán hạng.
-  - Chia hai toán hạng.
-  - Trừ hai toán hạng.
-explanation: |
-  Thao tác nối chuỗi bao gồm việc đặt hai toán hạng cạnh nhau mà không thay đổi chúng, được sử dụng rộng rãi trong mật mã học.
-reviewed: false

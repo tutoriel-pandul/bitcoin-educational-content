@@ -1,9 +1,0 @@
-question: Dove vengono conservate le chiavi private?
-answer: Nei portafogli Bitcoin
-wrong_answers:
-  - Sulla blockchain
-  - Sui server della comunità Bitcoin.
-  - Sulla rete peer-to-peer.
-explanation: |
-  Il portafoglio contiene le chiavi private necessarie per accedere ai bitcoin.
-reviewed: false

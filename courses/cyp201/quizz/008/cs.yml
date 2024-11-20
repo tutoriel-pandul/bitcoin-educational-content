@@ -1,9 +1,0 @@
-question: Kolik kol má kompresní funkce SHA256?
-answer: 64 kol.
-wrong_answers:
-  - 10 kol.
-  - 128 kol.
-  - 150 kol.
-explanation: |
-  Kompresní funkce SHA256 provádí 64 kol pro každý zpracovávaný blok dat.
-reviewed: false

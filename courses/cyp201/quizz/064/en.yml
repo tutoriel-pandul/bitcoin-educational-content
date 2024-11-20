@@ -1,9 +1,0 @@
-question: What is the index range used for normal child keys in an HD wallet?
-answer: Between 0 and 2^31 - 1.
-wrong_answers:
-  - Between 0 and 2^32 - 1.
-  - Between 0 and 2^31.
-  - Between 2^31 and 2^32 - 1.
-explanation: |
-  Normal child keys use an index range between 0 and 2^31 - 1, while hardened keys have an index starting from 2^31.
-reviewed: false

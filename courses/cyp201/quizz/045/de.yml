@@ -1,9 +1,0 @@
-question: Was stellt die Passphrase innerhalb eines HD-Wallets dar?
-answer: Ein optionales kryptografisches Salt beliebiger Größe.
-wrong_answers:
-  - Ein 25. Wort der mnemonischen Phrase.
-  - Ein obligatorisches kryptografisches Salt fester Größe.
-  - Ein zweiter Seed.
-explanation: |
-  Die Passphrase ist ein optionales kryptografisches Salt, das die Sicherheit des Wallets erhöht, indem es zusätzliche Informationen zur mnemonischen Phrase hinzufügt, um den Seed zu bestimmen.
-reviewed: false

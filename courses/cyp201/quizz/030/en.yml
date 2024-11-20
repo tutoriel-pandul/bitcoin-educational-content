@@ -1,8 +1,0 @@
-question: What is the main technical role of a Bitcoin wallet?
-answer: To store cryptographic key pairs.
-wrong_answers:
-  - To store bitcoins.
-  - To store UTXOs.
-  - To store transactions.
-explanation: |
-  A Bitcoin wallet does not directly store bitcoins, but cryptographic key pairs that are used to manage and spend UTXOs.

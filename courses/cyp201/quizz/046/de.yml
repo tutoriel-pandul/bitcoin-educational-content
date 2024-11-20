@@ -1,9 +1,0 @@
-question: Was passiert, wenn ich ein HD-Wallet mit einem Passwort verwende und dieses Passwort verliere?
-answer: Meine Bitcoins sind für immer verloren.
-wrong_answers:
-  - Es ist kein Problem, ich kann immer noch auf meine Bitcoins zugreifen, nur mit meiner mnemonischen Phrase.
-  - Ich kann das Passwort mit meinem privaten Schlüssel zurücksetzen.
-  - Ich kann meine Bitcoins wiederherstellen, indem ich ein Wallet ohne Passwort verwende.
-explanation: |
-  Wenn das Passwort verloren geht, ist der Zugang zu den Bitcoins dauerhaft verloren, da es notwendig ist, um die privaten Schlüssel abzuleiten.
-reviewed: false

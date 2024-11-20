@@ -1,9 +1,0 @@
-question: Jaká proměnná umožňuje odlišit mezi sebou sourozenecké klíčové páry (které mají stejný rodičovský pár)?
-answer: Index.
-wrong_answers:
-  - Kryptografická sůl.
-  - Křestní jméno.
-  - Rodičovský řetězec kódu.
-explanation: |
-  Index se používá k odlišení sourozeneckých klíčových párů odvozených od stejného rodičovského páru v HD peněžence.
-reviewed: false

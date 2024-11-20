@@ -1,9 +1,0 @@
-question: Quanti bit sono riservati per il padding in base alla dimensione nella funzione SHA256?
-answer: 64 bit.
-wrong_answers:
-  - 128 bit.
-  - 256 bit.
-  - 512 bit.
-explanation: |
-  SHA256 riserva 64 bit per il padding, che rappresenta la dimensione iniziale del messaggio prima del padding.
-reviewed: false

@@ -1,9 +1,0 @@
-question: In welchem Zahlensystem wird der erweiterte Schlüssel normalerweise kodiert, um dem Benutzer präsentiert zu werden?
-answer: In Base 58.
-wrong_answers:
-  - In bech32.
-  - In Base 16.
-  - In bech32m.
-explanation: |
-  Der erweiterte Schlüssel wird allgemein in Base 58 kodiert, um für den Benutzer lesbarer zu sein und um mehrdeutige Zeichen zu vermeiden.
-reviewed: false

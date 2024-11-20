@@ -1,9 +1,0 @@
-question: In which numeral system is the extended key usually encoded to be presented to the user?
-answer: In Base 58.
-wrong_answers:
-  - In bech32.
-  - In Base 16.
-  - In bech32m.
-explanation: |
-  The extended key is generally encoded in Base 58 to be more readable for the user and to avoid ambiguous characters.
-reviewed: false

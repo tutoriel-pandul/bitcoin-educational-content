@@ -1,8 +1,0 @@
-question: How are key pairs determined in a Hierarchical Deterministic (HD) wallet?
-answer: All key pairs in the wallet are determined in a deterministic and hierarchical manner from a unique piece of information at the base of the wallet.
-wrong_answers:
-  - All key pairs in the wallet are determined independently of others, randomly, by a random number generator.
-  - Each key pair in the wallet is determined deterministically from the previous key pair.
-  - The key pairs are all random and without hierarchical linkage.
-explanation: |
-  In HD wallets, all keys are derived from a unique piece of information called a seed, which allows for hierarchical and deterministic management of keys.

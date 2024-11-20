@@ -1,9 +1,0 @@
-question: ¿Cómo comprimir una clave pública?
-answer: Conservamos el valor de su coordenada x y añadimos un prefijo que indica qué coordenada y elegir.
-wrong_answers:
-  - Conservamos el valor de su coordenada y y añadimos un prefijo que indica qué coordenada x elegir.
-  - Hacemos hash de la clave pública para comprimirla.
-  - Usamos un doble hash SHA256 para comprimir la clave pública.
-explanation: |
-  La compresión de una clave pública se realiza conservando la coordenada x y añadiendo un prefijo 0x02 o 0x03 para indicar si y es par o impar.
-reviewed: false

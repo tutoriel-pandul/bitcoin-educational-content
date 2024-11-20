@@ -1,9 +1,0 @@
-question: Here is a sequence of decimal numbers (10 25 13 18 02 31). What is the correct conversion to Bech32?
-answer: 2edjzl
-wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
-explanation: |
-  The conversion of decimal numbers to Bech32 is done through a specific correspondence table, and the sequence 10 25 13 18 02 31 corresponds to 2edjzl.
-reviewed: false

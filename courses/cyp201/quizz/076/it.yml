@@ -1,9 +1,0 @@
-question: Come viene calcolato il checksum di un indirizzo SegWit?
-answer: Con un codice BCH.
-wrong_answers:
-  - Con HASH160.
-  - Con HASH256.
-  - Con SHA512.
-explanation: |
-  Per gli indirizzi SegWit, il checksum viene calcolato utilizzando il codice BCH, che consente di rilevare possibili errori nell'indirizzo.
-reviewed: false

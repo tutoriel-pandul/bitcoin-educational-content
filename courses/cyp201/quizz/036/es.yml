@@ -1,9 +1,0 @@
-question: ¿Qué es un PRNG?
-answer: Un algoritmo que genera números aleatorios a partir de una semilla y una función de transformación.
-wrong_answers:
-  - Un dispositivo de hardware que genera números verdaderamente aleatorios.
-  - Un generador que produce números aleatorios sin ninguna semilla.
-  - Un algoritmo que genera números predecibles.
-explanation: |
-  Un PRNG genera números pseudoaleatorios a partir de una semilla, pero a diferencia de un TRNG, no es verdaderamente aleatorio.
-reviewed: false

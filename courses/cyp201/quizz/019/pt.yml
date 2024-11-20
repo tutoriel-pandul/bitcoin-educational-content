@@ -1,8 +1,0 @@
-question: Qual é a curva elíptica mais conhecida usada em sistemas criptográficos?
-answer: secp256r1.
-wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
-explanation: |
-  A curva elíptica secp256r1 é amplamente utilizada em muitos sistemas criptográficos, mas o Bitcoin utiliza a curva secp256k1.

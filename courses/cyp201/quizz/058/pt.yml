@@ -1,9 +1,0 @@
-question: Quais metadados são adicionados à chave estendida além do seu payload?
-answer: Versão / profundidade / impressão digital do pai / índice / checksum.
-wrong_answers:
-  - Versão / índice.
-  - Versão / profundidade / separador / checksum.
-  - Nenhum metadado é adicionado.
-explanation: |
-  A chave estendida inclui várias peças de metadados. Há a versão, profundidade, impressão digital do pai, índice e checksum para facilitar a derivação de chaves.
-reviewed: false

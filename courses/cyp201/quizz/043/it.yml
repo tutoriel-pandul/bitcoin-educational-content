@@ -1,9 +1,0 @@
-question: Come determinare la dimensione in bit del checksum per una frase di recupero?
-answer: Dividere la dimensione del numero casuale (entropia) per 32.
-wrong_answers:
-  - Dividere la dimensione del numero casuale (entropia) per 8.
-  - Dividere la dimensione del numero casuale (entropia) per 16.
-  - Moltiplicare la dimensione del numero casuale (entropia) per 2.
-explanation: |
-  La dimensione del checksum si ottiene dividendo la dimensione dell'entropia per 32, in conformità con BIP39.
-reviewed: false

@@ -1,8 +1,0 @@
-question: Qual é a variável que permite diferenciar pares de chaves irmãs entre si (que têm o mesmo par pai)?
-answer: O índice.
-wrong_answers:
-  - O sal criptográfico.
-  - O primeiro nome.
-  - O código da cadeia pai.
-explanation: |
-  O índice é usado para diferenciar pares de chaves irmãs derivados do mesmo par pai em uma carteira HD.

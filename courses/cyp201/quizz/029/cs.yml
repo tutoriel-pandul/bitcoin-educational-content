@@ -1,9 +1,0 @@
-question: Co v systému Bitcoin dokazuje digitální podpis prostřednictvím scriptSig?
-answer: Vlastnictví soukromého klíče spojeného s konkrétním veřejným klíčem.
-wrong_answers:
-  - Vlastnictví Bitcoinové adresy.
-  - Schopnost těžit Bitcoinový blok.
-  - Platnost Bitcoinové transakce.
-explanation: |
-  Digitální podpis dokazuje, že uživatel má soukromý klíč, aniž by ho musel odhalit, čímž zajišťuje autentičnost transakce.
-reviewed: false

@@ -1,8 +1,0 @@
-question: Mitä digitaalinen allekirjoitus todistaa Bitcoin-järjestelmässä scriptSig; n kautta?
-answer: Yksityisen avaimen hallussapidon, joka liittyy tiettyyn julkiseen avaimen.
-wrong_answers:
-  - Bitcoin-osoitteen hallussapidon.
-  - Kyvyn louhia Bitcoin-lohkon.
-  - Bitcoin-siirron pätevyyden.
-explanation: |
-  Digitaalinen allekirjoitus todistaa, että käyttäjällä on yksityinen avain paljastamatta sitä, varmistaen siirron aitouden.

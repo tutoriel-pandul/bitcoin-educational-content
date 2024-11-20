@@ -1,8 +1,0 @@
-question: Mikä on ulkoisen ketjun tarkoitus johdannaisprosessissa?
-answer: Eristää julkiseen käyttöön tarkoitetut osoitteet.
-wrong_answers:
-  - Eristää vaihto-osoitteet.
-  - Hallita saapuvia transaktioita.
-  - Eristää yksityiset avaimet julkisista avaimista.
-explanation: |
-  Ulkoista ketjua käytetään johdettavien osoitteiden eristämiseen julkiseen käyttöön, kuten maksujen vastaanottamiseen tarkoitetut osoitteet.

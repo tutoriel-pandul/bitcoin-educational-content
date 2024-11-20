@@ -1,9 +1,0 @@
-question: Jaký je účel rozšířeného klíče?
-answer: Shromáždit všechny nezbytné informace pro odvození dětských klíčů do jediného řetězce.
-wrong_answers:
-  - Shromáždit všechny nezbytné informace pro rekonstrukci celé HD peněženky do jediného řetězce.
-  - Shromáždit informace o UTXO v peněžence.
-  - Shromáždit mnemonickou frázi a heslo do jediného formátu.
-explanation: |
-  Rozšířený klíč umožňuje obsahovat všechny nezbytné informace pro odvození dětských klíčů, čímž zjednodušuje správu účtů v HD peněžence.
-reviewed: false

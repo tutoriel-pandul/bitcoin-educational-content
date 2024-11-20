@@ -1,9 +1,0 @@
-question: Jaké jsou charakteristiky kryptograficky bezpečného PRNG?
-answer: Musí být nepředvídatelný, statisticky náhodný a odolný vůči útokům.
-wrong_answers:
-  - Musí být rychlý, použitelný v cloudu a open source.
-  - Musí být nedeterministický, založený na fyzikálním jevu a škálovatelný.
-  - Musí být založený na hardwaru, generovaný procesorem a reverzibilní.
-explanation: |
-  Kryptograficky bezpečný PRNG musí být nepředvídatelný, odolný i v případě, že jsou některé výsledky odhaleny, a mít dostatečně dlouhé období, aby se zabránilo opakování sekvencí.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Wie konstruiert man die Wiederherstellungsphrase (Mnemonik) in Binärform?
-answer: Füge die Zufallszahl am Ende mit ihrer Prüfsumme zusammen.
-wrong_answers:
-  - Füge die Zufallszahl am Anfang mit ihrer Prüfsumme zusammen.
-  - Füge die Zufallszahl mit einem Seed zusammen.
-  - Teile die Zufallszahl in zwei Teile und füge die Prüfsumme in der Mitte ein.
-explanation: |
-  Um eine binäre mnemonische Phrase zu generieren, füge die Prüfsumme am Ende der Zufallszahl hinzu, bevor sie in Wörter umgewandelt wird.
-reviewed: false

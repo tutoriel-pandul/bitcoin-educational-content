@@ -1,9 +1,0 @@
-question: Qual è la dimensione dell'output della funzione hash SHA256?
-answer: 256 bit.
-wrong_answers:
-  - 256 byte.
-  - 512 bit.
-  - 512 byte.
-explanation: |
-  SHA-256 produce un output fisso di 256 bit, indipendentemente dalla dimensione dei dati di input.
-reviewed: false

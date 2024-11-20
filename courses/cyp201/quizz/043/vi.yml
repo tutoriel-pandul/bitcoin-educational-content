@@ -1,9 +1,0 @@
-question: Làm thế nào để xác định kích thước bit của checksum cho một cụm từ khôi phục?
-answer: Chia kích thước của số ngẫu nhiên (entropy) cho 32.
-wrong_answers:
-  - Chia kích thước của số ngẫu nhiên (entropy) cho 8.
-  - Chia kích thước của số ngẫu nhiên (entropy) cho 16.
-  - Nhân kích thước của số ngẫu nhiên (entropy) với 2.
-explanation: |
-  Kích thước của checksum được thu được bằng cách chia kích thước của entropy cho 32, theo BIP39.
-reviewed: false

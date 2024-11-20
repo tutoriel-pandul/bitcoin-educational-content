@@ -1,9 +1,0 @@
-question: Was zeigt der folgende Ableitungspfad an? m/84'/0'/1'/0/7
-answer: Eine externe SegwitV0-Adresse im Hauptnetz.
-wrong_answers:
-  - Eine externe SegwitV1-Adresse im Hauptnetz.
-  - Eine interne Legacy-Adresse im Testnetz.
-  - Eine externe Legacy-Adresse im Hauptnetz.
-explanation: |
-  Der Ableitungspfad m/84'/0'/1'/0/7 zeigt eine externe SegwitV0-Adresse im Hauptnetzwerk (mainnet) an. 84' = SegWit v0, 0' = Hauptnetz, 1 = extern
-reviewed: false

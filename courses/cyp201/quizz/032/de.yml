@@ -1,8 +1,0 @@
-question: Was ist das BIP (Bitcoin Improvement Proposal), das die erste Version eines HD-Wallets bei Bitcoin vorgeschlagen hat?
-answer: BIP32.
-wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
-explanation: |
-  BIP32, vorgeschlagen im Jahr 2012, ist das erste, das das Konzept von hierarchisch deterministischen (HD) Wallets in Bitcoin eingeführt hat.

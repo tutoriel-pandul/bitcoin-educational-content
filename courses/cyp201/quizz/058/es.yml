@@ -1,8 +1,0 @@
-question: ¿Qué metadatos se añaden a la clave extendida además de su carga útil?
-answer: Versión / profundidad / huella digital del padre / índice / suma de verificación.
-wrong_answers:
-  - Versión / índice.
-  - Versión / profundidad / separador / suma de verificación.
-  - No se añaden metadatos.
-explanation: |
-  La clave extendida incluye varios fragmentos de metadatos. Está la versión, profundidad, huella digital del padre, índice y suma de verificación para facilitar la derivación de la clave.

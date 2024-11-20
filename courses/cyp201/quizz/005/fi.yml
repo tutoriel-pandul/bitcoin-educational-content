@@ -1,8 +1,0 @@
-question: Mikä koon tulee olla SHA256-funktion syötteen, kun se on täytetty?
-answer: 512 bitin monikerta.
-wrong_answers:
-  - 256 bitin.
-  - 256 tavun.
-  - 256 bitin monikerta.
-explanation: |
-  SHA256-funktio vaatii, että syötteen on oltava 512 bitin monikerta täytteen jälkeen toimiakseen oikein.

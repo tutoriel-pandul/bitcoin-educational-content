@@ -1,9 +1,0 @@
-question: Wofür steht die Tiefe 0 in Ableitungspfaden von HD-Wallets?
-answer: Der Master-Schlüssel.
-wrong_answers:
-  - Der erweiterte Schlüssel.
-  - Die Empfangsadressen.
-  - Die Art der Währung.
-explanation: |
-  Die Tiefe 0 in Ableitungspfaden entspricht dem Master-Schlüssel, der der Ausgangspunkt für alle Ableitungen in einem HD-Wallet ist.
-reviewed: false

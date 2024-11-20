@@ -1,9 +1,0 @@
-question: Qual é o propósito de uma cadeia externa no processo de derivação?
-answer: Isolar endereços destinados a serem públicos.
-wrong_answers:
-  - Isolar endereços de troco.
-  - Gerenciar transações de entrada.
-  - Separar chaves privadas de chaves públicas.
-explanation: |
-  A cadeia externa é usada para derivar endereços destinados a serem públicos, como aqueles para receber pagamentos.
-reviewed: false

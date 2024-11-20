@@ -1,9 +1,0 @@
-question: Wenn ich eine 128-Bit-Zufallszahl generiere, wie groß wird meine Wiederherstellungsphrase in Wörtern sein?
-answer: 12 Wörter.
-wrong_answers:
-  - 6 Wörter.
-  - 8 Wörter.
-  - 24 Wörter.
-explanation: |
-  Eine 128-Bit-Zufallszahl entspricht einer 12-Wort-Mnemonik-Phrase, gemäß dem BIP39-Standard.
-reviewed: false

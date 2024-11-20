@@ -1,9 +1,0 @@
-question: Địa chỉ nhận (nói chung) là gì?
-answer: Một băm của khóa công khai kèm theo metadata được đặt vào một định dạng cụ thể.
-wrong_answers:
-  - Một băm của khóa riêng kèm theo metadata được đặt vào một định dạng cụ thể.
-  - Một băm của khóa mở rộng kèm theo metadata được đặt vào một định dạng cụ thể.
-  - Một băm của mã chuỗi kèm theo metadata.
-explanation: |
-  Một địa chỉ nhận nói chung là một băm của khóa công khai kèm theo metadata, được sử dụng trong scriptPubKey để thiết lập các điều kiện.
-reviewed: false

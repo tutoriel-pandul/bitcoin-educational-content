@@ -1,8 +1,0 @@
-question: BitcoinのPBKDF2関数内で使用する反復回数はいくつですか？
-answer: 2048。
-wrong_answers:
-  - 512。
-  - 1000。
-  - 21000。
-explanation: |
-  Bitcoinは、シードのセキュリティを強化するためにPBKDF2関数で2048回の反復を使用します。

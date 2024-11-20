@@ -1,9 +1,0 @@
-question: Mikä on primitiivinen tieto, joka mahdollistaa hyvän muistisäännön määrittämisen HD-lompakolle?
-answer: Ulkoinen entropia, joka mahdollistaa satunnaisen tai pseudosatunnaisen numeron määrittämisen.
-wrong_answers:
-  - Lompakon omistajan etunimi.
-  - Ei mitään tietoa, valitsemme suoraan haluamamme sanat.
-  - Lompakon luontipäivämäärä.
-explanation: |
-  Muistisääntö johdetaan entropian lähteestä, tarkoittaen satunnaista tai pseudosatunnaista tietoa, jotta yksityisten avainten turvallisuus voidaan varmistaa.
-reviewed: false

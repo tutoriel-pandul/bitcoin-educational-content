@@ -1,9 +1,0 @@
-question: PRNG là gì?
-answer: Một thuật toán tạo ra các số ngẫu nhiên từ một hạt giống và một hàm biến đổi.
-wrong_answers:
-  - Một thiết bị phần cứng tạo ra các số ngẫu nhiên thực sự.
-  - Một bộ phát sinh số ngẫu nhiên mà không cần hạt giống.
-  - Một thuật toán tạo ra các số dự đoán được.
-explanation: |
-  Một PRNG tạo ra các số ngẫu nhiên giả từ một hạt giống, nhưng không giống như một TRNG, nó không thực sự ngẫu nhiên.
-reviewed: false

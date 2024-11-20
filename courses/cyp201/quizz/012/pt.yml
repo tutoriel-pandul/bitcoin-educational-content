@@ -1,9 +1,0 @@
-question: Quantas iterações são usadas na função PBKDF2 no Bitcoin?
-answer: 2048.
-wrong_answers:
-  - 512.
-  - 1000.
-  - 21000.
-explanation: |
-  O Bitcoin utiliza 2048 iterações na função PBKDF2 para aumentar a segurança da semente.
-reviewed: false

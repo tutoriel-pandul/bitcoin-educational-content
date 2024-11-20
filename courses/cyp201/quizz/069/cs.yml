@@ -1,9 +1,0 @@
-question: Co značí následující odvozovací cesta? m/44'/0'/0'/0/0
-answer: Externí Legacy adresa na hlavní síti (mainnet).
-wrong_answers:
-  - Externí SegwitV1 adresa na hlavní síti.
-  - Interní Legacy adresa na testovací síti.
-  - Externí SegwitV0 adresa na hlavní síti.
-explanation: |
-  Odvozovací cesta m/44'/0'/0'/0/0 značí externí Legacy adresu na hlavní síti (mainnet). 44' = Legacy, 0' = hlavní síť (mainnet), 0 = externí
-reviewed: false

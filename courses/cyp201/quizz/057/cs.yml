@@ -1,9 +1,0 @@
-question: S rozšířeným veřejným klíčem mohu odvodit...
-answer: ...normální dětské veřejné klíče.
-wrong_answers:
-  - ...zpevněné dětské veřejné klíče.
-  - ...normální dětské soukromé klíče.
-  - ...zpevněné dětské soukromé klíče.
-explanation: |
-  Rozšířený veřejný klíč umožňuje odvození pouze normálních dětských veřejných klíčů, ale nikoli soukromých klíčů.
-reviewed: false

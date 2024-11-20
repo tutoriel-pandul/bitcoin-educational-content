@@ -1,9 +1,0 @@
-question: Qual è la funzione di derivazione chiave utilizzata per derivare un seed da una frase mnemonica e una passphrase opzionale?
-answer: PBKDF2.
-wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
-explanation: |
-  La funzione PBKDF2 è utilizzata per derivare il seed di un portafoglio HD dalla frase mnemonica e da una passphrase opzionale.
-reviewed: false

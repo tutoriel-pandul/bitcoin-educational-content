@@ -1,9 +1,0 @@
-question: How many rounds does the SHA256 compression function consist of?
-answer: 64 rounds.
-wrong_answers:
-  - 10 rounds.
-  - 128 rounds.
-  - 150 rounds.
-explanation: |
-  The SHA256 compression function performs 64 rounds for each block of data processed.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Wie viele Runden umfasst die SHA256-Kompressionsfunktion?
-answer: 64 Runden.
-wrong_answers:
-  - 10 Runden.
-  - 128 Runden.
-  - 150 Runden.
-explanation: |
-  Die SHA256-Kompressionsfunktion führt 64 Runden für jeden verarbeiteten Datenblock durch.
-reviewed: false

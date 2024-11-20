@@ -1,9 +1,0 @@
-question: What is the variable that allows differentiating sibling key pairs from each other (which have the same parent pair)?
-answer: The index.
-wrong_answers:
-  - The cryptographic salt.
-  - The first name.
-  - The parent chain code.
-explanation: |
-  The index is used to differentiate sibling key pairs derived from the same parent pair in an HD wallet.
-reviewed: false

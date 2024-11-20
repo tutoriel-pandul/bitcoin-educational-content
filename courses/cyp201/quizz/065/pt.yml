@@ -1,8 +1,0 @@
-question: Nos caminhos de derivação de carteiras HD, a que corresponde a profundidade 0?
-answer: A chave mestra.
-wrong_answers:
-  - A chave estendida.
-  - Os endereços de recebimento.
-  - O tipo de moeda.
-explanation: |
-  A profundidade 0 nos caminhos de derivação corresponde à chave mestra, que é o ponto de partida para todas as derivações em uma carteira HD.

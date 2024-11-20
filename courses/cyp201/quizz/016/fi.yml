@@ -1,9 +1,0 @@
-question: Jotta tätä elliptistä käyrää voitaisiin käyttää kryptografisissa tarkoituksissa, minkä kentän on määriteltävä se?
-answer: Positiivisten kokonaislukujen äärellinen kenttä.
-wrong_answers:
-  - Reaalilukujen kenttä.
-  - Reaalilukujen äärellinen kenttä.
-  - Kompleksilukujen kenttä.
-explanation: |
-  Bitcoinissa elliptinen käyrä secp256k1 määritellään positiivisten kokonaislukujen äärellisen kentän yli moduloituna alkuluvulla välttääkseen likiarvoja ja varmistaakseen turvallisuuden.
-reviewed: false

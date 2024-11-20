@@ -1,9 +1,0 @@
-question: Perché è impossibile recuperare la chiave privata da una firma digitale valida?
-answer: La firma si basa su operazioni matematiche irreversibili su una curva ellittica.
-wrong_answers:
-  - La chiave privata viene criptata prima dell'uso.
-  - Il seed protegge la chiave privata.
-  - L'hashing dei messaggi impedisce il recupero della chiave privata.
-explanation: |
-  Le operazioni sulle curve ellittiche sono irreversibili, garantendo che la chiave privata non possa essere dedotta dalla firma.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Cụm từ bí mật trong ví HD đại diện cho cái gì?
-answer: Một loại muối mật mã tùy chọn có kích thước tùy ý.
-wrong_answers:
-  - Một từ thứ 25 trong cụm từ ghi nhớ.
-  - Một loại muối mật mã bắt buộc có kích thước cố định.
-  - Một hạt giống thứ hai.
-explanation: |
-  Cụm từ bí mật là một loại muối mật mã tùy chọn, giúp tăng cường bảo mật cho ví bằng cách thêm thông tin bổ sung vào cụm từ ghi nhớ để xác định hạt giống.
-reviewed: false

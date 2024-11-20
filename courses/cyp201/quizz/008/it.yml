@@ -1,9 +1,0 @@
-question: Quante iterazioni comprende la funzione di compressione SHA256?
-answer: 64 iterazioni.
-wrong_answers:
-  - 10 iterazioni.
-  - 128 iterazioni.
-  - 150 iterazioni.
-explanation: |
-  La funzione di compressione SHA256 esegue 64 iterazioni per ogni blocco di dati elaborato.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Mikä on HASH160 Bitcoin-protokollassa?
-answer: SHA256-tiivisteen jälkeen seuraa RIPEMD160-tiiviste.
-wrong_answers:
-  - Kahden RIPEMD160-tiivisteen yhdistelmä.
-  - Kahden SHA256-tiivisteen yhdistelmä.
-  - MD5-tiivisteen jälkeen seuraa SHA256-tiiviste.
-explanation: |
-  HASH160 yhdistää SHA256-tiivisteen, jonka jälkeen tulee RIPEMD160. Sitä käytetään erityisesti Bitcoin-osoitteiden generoimiseen.
-reviewed: false

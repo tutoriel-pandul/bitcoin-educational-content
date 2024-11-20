@@ -1,8 +1,0 @@
-question: Kích thước của một khóa công khai Bitcoin không nén bao gồm tiền tố là bao nhiêu?
-answer: 520 bit.
-wrong_answers:
-  - 512 byte.
-  - 256 bit.
-  - 512 bit.
-explanation: |
-  Một khóa công khai Bitcoin không nén cùng với tiền tố của nó là 520 bit, bao gồm tọa độ x và y của điểm trên đường cong elliptic.

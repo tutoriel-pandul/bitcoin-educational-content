@@ -1,9 +1,0 @@
-question: ¿De qué consta la carga útil de una clave extendida?
-answer: Una clave pública o privada, y el código de cadena asociado.
-wrong_answers:
-  - Una clave privada y la clave pública asociada.
-  - Un código de cadena, una clave pública y una clave privada.
-  - Una clave privada y un índice de derivación.
-explanation: |
-  La carga útil de una clave extendida incluye ya sea una clave pública o privada, junto con un código de cadena utilizado para derivar claves secundarias.
-reviewed: false

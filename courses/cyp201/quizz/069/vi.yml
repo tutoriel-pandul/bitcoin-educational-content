@@ -1,9 +1,0 @@
-question: Con đường dẫn sau đây chỉ ra điều gì? m/44'/0'/0'/0/0
-answer: Một địa chỉ Legacy bên ngoài trên mainnet.
-wrong_answers:
-  - Một địa chỉ SegwitV1 bên ngoài trên mainnet.
-  - Một địa chỉ Legacy bên trong trên testnet.
-  - Một địa chỉ SegwitV0 bên ngoài trên mainnet.
-explanation: |
-  Con đường dẫn m/44'/0'/0'/0/0 chỉ ra một địa chỉ Legacy bên ngoài trên mạng chính (mainnet). 44' = Legacy, 0' = mainnet, 0 = bên ngoài
-reviewed: false

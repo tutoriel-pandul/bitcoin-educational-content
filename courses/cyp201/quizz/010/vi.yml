@@ -1,8 +1,0 @@
-question: Các thuật toán nào được sử dụng để sinh khóa trong ví HD Bitcoin?
-answer: HMAC/PBKDF2
-wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
-explanation: |
-  Ví HD Bitcoin sử dụng HMAC (Hash-based Message Authentication Code) để sinh khóa và PBKDF2 (Password-Based Key Derivation Function 2) để sinh seed.

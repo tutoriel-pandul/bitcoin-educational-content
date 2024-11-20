@@ -1,9 +1,0 @@
-question: Qual é o BIP (Proposta de Melhoria do Bitcoin) que propôs a primeira versão de uma carteira HD no Bitcoin?
-answer: BIP32.
-wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
-explanation: |
-  BIP32, proposto em 2012, é o primeiro a introduzir o conceito de carteiras determinísticas hierárquicas (HD) no Bitcoin.
-reviewed: false

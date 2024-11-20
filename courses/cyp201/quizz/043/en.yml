@@ -1,9 +1,0 @@
-question: How to determine the bit size of the checksum for a recovery phrase?
-answer: Divide the size of the random number (entropy) by 32.
-wrong_answers:
-  - Divide the size of the random number (entropy) by 8.
-  - Divide the size of the random number (entropy) by 16.
-  - Multiply the size of the random number (entropy) by 2.
-explanation: |
-  The size of the checksum is obtained by dividing the size of the entropy by 32, in accordance with BIP39.
-reviewed: false

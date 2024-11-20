@@ -1,8 +1,0 @@
-question: Kích thước đầu ra của hàm băm SHA256 là bao nhiêu?
-answer: 256 bit.
-wrong_answers:
-  - 256 byte.
-  - 512 bit.
-  - 512 byte.
-explanation: |
-  SHA-256 tạo ra một đầu ra cố định 256 bit, bất kể kích thước dữ liệu đầu vào.

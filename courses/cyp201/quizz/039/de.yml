@@ -1,9 +1,0 @@
-question: Was sind die Merkmale eines kryptographisch sicheren PRNGs?
-answer: Er muss unvorhersehbar, statistisch zufällig und widerstandsfähig gegen Angriffe sein.
-wrong_answers:
-  - Er muss schnell sein, in der Cloud nutzbar und Open Source.
-  - Er muss nicht-deterministisch sein, auf einem physischen Phänomen basieren und skalierbar sein.
-  - Er muss hardwarebasiert sein, von einem Prozessor erzeugt und umkehrbar sein.
-explanation: |
-  Ein kryptographisch sicherer PRNG muss unvorhersehbar sein, widerstandsfähig, selbst wenn einige Ergebnisse enthüllt werden, und eine ausreichend lange Periode haben, um die Wiederholung von Sequenzen zu vermeiden.
-reviewed: false

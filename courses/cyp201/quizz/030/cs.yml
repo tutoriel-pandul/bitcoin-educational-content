@@ -1,8 +1,0 @@
-question: Jaká je hlavní technická role Bitcoinové peněženky?
-answer: Uchovávat kryptografické klíčové páry.
-wrong_answers:
-  - Uchovávat bitcoiny.
-  - Uchovávat UTXO.
-  - Uchovávat transakce.
-explanation: |
-  Bitcoinová peněženka přímo neuchoává bitcoiny, ale kryptografické klíčové páry, které se používají k správě a utrácení UTXO.

@@ -1,9 +1,0 @@
-question: Onde são armazenadas as chaves privadas?
-answer: Em carteiras de Bitcoin
-wrong_answers:
-  - No blockchain
-  - Nos servidores da comunidade Bitcoin.
-  - Na rede peer-to-peer.
-explanation: |
-  A carteira contém as chaves privadas necessárias para acessar os bitcoins.
-reviewed: false

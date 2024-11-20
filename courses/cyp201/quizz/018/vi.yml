@@ -1,8 +1,0 @@
-question: Khóa riêng được lưu trữ ở đâu?
-answer: Trong ví Bitcoin
-wrong_answers:
-  - Trên blockchain
-  - Trên máy chủ của cộng đồng Bitcoin.
-  - Trên mạng ngang hàng.
-explanation: |
-  Ví chứa các khóa riêng cần thiết để truy cập vào bitcoin.

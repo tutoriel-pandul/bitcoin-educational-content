@@ -1,9 +1,0 @@
-question: PRNGとTRNGの主な違いは何ですか？
-answer: PRNGは決定論的であるのに対し、TRNGは真にランダムな数を生成します。
-wrong_answers:
-  - TRNGはPRNGよりも速い。
-  - TRNGはシードを使用するが、PRNGはシードを使用しない。
-  - PRNGはハードウェアであり、TRNGはソフトウェアである。
-explanation: |
-  TRNG（True Random Number Generator）は、決定論的なPRNGとは異なり、物理的なランダム現象からランダムな数を生成します。
-reviewed: false

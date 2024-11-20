@@ -1,9 +1,0 @@
-question: What is the size of a Bitcoin private key?
-answer: 256 bits.
-wrong_answers:
-  - 512 bytes.
-  - 520 bits.
-  - 512 bits.
-explanation: |
-  The Bitcoin private key has a standard size of 256 bits, corresponding to the elliptic curve algorithm used in Bitcoin.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Trong giao thức Bitcoin, HASH160 là gì?
-answer: Một băm SHA256 theo sau là một băm RIPEMD160.
-wrong_answers:
-  - Một băm RIPEMD160 kép.
-  - Một băm SHA256 kép.
-  - Một băm MD5 theo sau là một băm SHA256.
-explanation: |
-  HASH160 kết hợp một băm SHA256 theo sau là RIPEMD160, được sử dụng đặc biệt để tạo ra địa chỉ Bitcoin.
-reviewed: false

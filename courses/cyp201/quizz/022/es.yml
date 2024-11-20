@@ -1,9 +1,0 @@
-question: ¿Cómo se determina una clave pública de Bitcoin?
-answer: Se determina sumando y duplicando puntos en la curva elíptica desde el punto generador usando la clave privada.
-wrong_answers:
-  - Se determina a partir de un número aleatorio o pseudoaleatorio.
-  - Se determina haciendo hash de su clave privada.
-  - Se determina haciendo hash de su semilla.
-explanation: |
-  La clave pública se genera a partir de la clave privada mediante operaciones en la curva elíptica, comenzando desde el punto generador.
-reviewed: false

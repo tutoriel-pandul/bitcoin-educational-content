@@ -1,9 +1,0 @@
-question: Která funkce se používá k odvození dětského klíče od rodičovského klíče v Bitcoinu?
-answer: HMAC-SHA512.
-wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
-explanation: |
-  Funkce HMAC-SHA512 se používá k odvození dětských klíčů od rodičovských klíčů v Bitcoin HD peněženkách.
-reviewed: false

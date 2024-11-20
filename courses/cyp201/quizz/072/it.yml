@@ -1,9 +1,0 @@
-question: Qual è la funzione utilizzata per generare un indirizzo?
-answer: HASH160.
-wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
-explanation: |
-  La funzione HASH160, che combina SHA256 e RIPEMD-160, è utilizzata per generare indirizzi Bitcoin a partire dalle chiavi pubbliche.
-reviewed: false

@@ -1,8 +1,0 @@
-question: 助記符フレーズとオプションのパスフレーズからシードを導出するために使用される鍵導出関数は何ですか？
-answer: PBKDF2。
-wrong_answers:
-  - Lyra2。
-  - Argon2d。
-  - Scrypt。
-explanation: |
-  PBKDF2関数は、助記符フレーズとオプションのパスフレーズからHDウォレットのシードを導出するために使用されます。

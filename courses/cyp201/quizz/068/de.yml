@@ -1,9 +1,0 @@
-question: Was ist der Zweck einer externen Kette im Ableitungsprozess?
-answer: Adressen zu isolieren, die öffentlich sein sollen.
-wrong_answers:
-  - Adressen für Wechselgeld zu isolieren.
-  - Eingehende Transaktionen zu verwalten.
-  - Private Schlüssel von öffentlichen Schlüsseln zu trennen.
-explanation: |
-  Die externe Kette wird verwendet, um Adressen abzuleiten, die öffentlich sein sollen, wie zum Beispiel solche für den Zahlungsempfang.
-reviewed: false

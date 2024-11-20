@@ -1,9 +1,0 @@
-question: Mistä yhdistämisoperaatio koostuu?
-answer: Kahden operandin asettamisesta peräkkäin.
-wrong_answers:
-  - Kahden operandin yhteenlaskeminen.
-  - Kahden operandin jakaminen.
-  - Kahden operandin vähentäminen.
-explanation: |
-  Yhdistäminen tarkoittaa kahden operandin asettamista toistensa jälkeen muuttamatta niitä, ja sitä käytetään laajalti kryptografiassa.
-reviewed: false

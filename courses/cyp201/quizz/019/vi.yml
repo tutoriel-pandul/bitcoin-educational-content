@@ -1,9 +1,0 @@
-question: Đường cong elliptic nào là nổi tiếng nhất được sử dụng trong các hệ thống mật mã?
-answer: secp256r1.
-wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
-explanation: |
-  Đường cong elliptic secp256r1 được sử dụng rộng rãi trong nhiều hệ thống mật mã, nhưng Bitcoin sử dụng đường cong secp256k1.
-reviewed: false

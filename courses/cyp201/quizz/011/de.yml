@@ -1,9 +1,0 @@
-question: Woraus besteht die Verkettungsoperation?
-answer: Zwei Operanden werden aneinandergereiht.
-wrong_answers:
-  - Zwei Operanden addieren.
-  - Zwei Operanden teilen.
-  - Zwei Operanden subtrahieren.
-explanation: |
-  Die Verkettung beinhaltet das Aneinanderreihen von zwei Operanden, ohne sie zu verändern, was in der Kryptographie weit verbreitet ist.
-reviewed: false

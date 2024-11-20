@@ -1,8 +1,0 @@
-question: Vai trò kỹ thuật chính của một ví Bitcoin là gì?
-answer: Để lưu trữ các cặp khóa mật mã.
-wrong_answers:
-  - Để lưu trữ bitcoin.
-  - Để lưu trữ UTXOs.
-  - Để lưu trữ giao dịch.
-explanation: |
-  Một ví Bitcoin không trực tiếp lưu trữ bitcoin, mà là lưu trữ các cặp khóa mật mã được sử dụng để quản lý và chi tiêu UTXOs.

@@ -1,8 +1,0 @@
-question: Como é calculado o checksum de um endereço Legacy?
-answer: Com HASH256.
-wrong_answers:
-  - Com HASH160.
-  - Com um código BCH.
-  - Com RIPEMD160.
-explanation: |
-  Para endereços Legacy, o checksum é obtido realizando uma dupla hash com a função SHA256 (HASH256).

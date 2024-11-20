@@ -1,9 +1,0 @@
-question: Como construir a frase de recuperação (mnemônica) em binário?
-answer: Concatene o número aleatório com seu checksum no final.
-wrong_answers:
-  - Concatene o número aleatório com seu checksum no início.
-  - Concatene o número aleatório com uma semente.
-  - Divida o número aleatório em duas partes e insira o checksum no meio.
-explanation: |
-  Para gerar uma frase mnemônica binária, concatene o checksum ao final do número aleatório antes de converter em palavras.
-reviewed: false

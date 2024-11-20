@@ -1,8 +1,0 @@
-question: Miksi salalauseen käyttäminen vahvistaa HD-lompakon turvallisuutta?
-answer: Se lisää ylimääräisen suojakerroksen muistisanaan.
-wrong_answers:
-  - Se mahdollistaa vahvempien julkisten avainten luomisen.
-  - Se suojaa transaktioita kryptografisesti.
-  - Se kaksinkertaistaa lompakossa olevien bitcoinien määrän.
-explanation: |
-  Salalause parantaa turvallisuutta lisäämällä ylimääräisen tieto-osan muistisanaan, toimien ikään kuin 2FA: n tavoin.

@@ -1,8 +1,0 @@
-question: Miten Legacy-osoitteen tarkistussumma lasketaan?
-answer: HASH256; n avulla.
-wrong_answers:
-  - HASH160: n avulla.
-  - BCH-koodin avulla.
-  - RIPEMD160: n avulla.
-explanation: |
-  Legacy-osoitteiden kohdalla tarkistussumma saadaan suorittamalla kaksinkertainen hajautus SHA256-funktiolla (HASH256).

@@ -1,8 +1,0 @@
-question: Để tính toán giá trị của khóa chính và mã chuỗi chính, đầu vào đầu tiên cho hàm HMAC-SHA512 là hạt giống. Giá trị đầu vào thứ hai của hàm này, đóng vai trò như một khóa, là gì?
-answer: “Bitcoin seed”.
-wrong_answers:
-  - Cụm từ ghi nhớ.
-  - Cụm từ bí mật.
-  - “Seed”.
-explanation: |
-  Chuỗi Bitcoin seed được sử dụng như một khóa trong HMAC-SHA512 để suy ra khóa chính và mã chuỗi chính từ hạt giống.

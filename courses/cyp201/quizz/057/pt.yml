@@ -1,8 +1,0 @@
-question: Com uma chave pública estendida, eu posso derivar...
-answer: ...chaves públicas filhas normais.
-wrong_answers:
-  - ...chaves públicas filhas endurecidas.
-  - ...chaves privadas filhas normais.
-  - ...chaves privadas filhas endurecidas.
-explanation: |
-  Uma chave pública estendida permite a derivação apenas de chaves públicas filhas normais, mas não de chaves privadas.

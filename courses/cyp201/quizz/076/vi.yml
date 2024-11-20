@@ -1,8 +1,0 @@
-question: Checksum của địa chỉ SegWit được tính toán như thế nào?
-answer: Bằng mã BCH.
-wrong_answers:
-  - Bằng HASH160.
-  - Bằng HASH256.
-  - Bằng SHA512.
-explanation: |
-  Đối với địa chỉ SegWit, checksum được tính toán sử dụng mã BCH, cho phép phát hiện các lỗi có thể có trong địa chỉ.

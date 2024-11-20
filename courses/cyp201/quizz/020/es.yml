@@ -1,9 +1,0 @@
-question: ¿Cómo se determina una clave privada de Bitcoin?
-answer: Se determina a partir de un número aleatorio o pseudoaleatorio.
-wrong_answers:
-  - Se determina mediante la adición y duplicación de puntos en la curva elíptica a partir de su clave pública.
-  - Se determina mediante el hash de su clave pública.
-  - Se determina por el algoritmo SHA-256.
-explanation: |
-  Una clave privada de Bitcoin se genera de manera aleatoria o pseudoaleatoria, lo que asegura su unicidad y seguridad.
-reviewed: false

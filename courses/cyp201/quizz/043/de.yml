@@ -1,9 +1,0 @@
-question: Wie bestimmt man die Bitgröße der Prüfsumme für eine Wiederherstellungsphrase?
-answer: Teile die Größe der Zufallszahl (Entropie) durch 32.
-wrong_answers:
-  - Teile die Größe der Zufallszahl (Entropie) durch 8.
-  - Teile die Größe der Zufallszahl (Entropie) durch 16.
-  - Multipliziere die Größe der Zufallszahl (Entropie) mit 2.
-explanation: |
-  Die Größe der Prüfsumme wird ermittelt, indem die Größe der Entropie durch 32 geteilt wird, in Übereinstimmung mit BIP39.
-reviewed: false

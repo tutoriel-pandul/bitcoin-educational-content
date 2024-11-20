@@ -1,9 +1,0 @@
-question: Trong giao thức Bitcoin, HASH256 là gì?
-answer: Một băm SHA256 kép.
-wrong_answers:
-  - Một băm Keccak-256 kép.
-  - Một băm SHA256 theo sau là một băm RIPEMD160.
-  - Một băm SHA256 đơn.
-explanation: |
-  Một HASH256 là một băm SHA256 kép, nghĩa là hàm SHA256 được áp dụng một lần cho một mảnh dữ liệu, sau đó một lần nữa áp dụng cho kết quả của lần đầu.
-reviewed: false

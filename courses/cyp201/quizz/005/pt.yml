@@ -1,8 +1,0 @@
-question: Qual deve ser o tamanho da entrada da função SHA256 uma vez que seja feito o padding?
-answer: Um múltiplo de 512 bits.
-wrong_answers:
-  - De 256 bits.
-  - De 256 bytes.
-  - Um múltiplo de 256 bits.
-explanation: |
-  A função SHA256 requer que a entrada seja um múltiplo de 512 bits após o padding para funcionar corretamente.

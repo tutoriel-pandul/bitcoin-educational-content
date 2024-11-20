@@ -1,9 +1,0 @@
-question: Jak se počítá kontrolní součet adresy SegWit?
-answer: Pomocí BCH kódu.
-wrong_answers:
-  - Pomocí HASH160.
-  - Pomocí HASH256.
-  - Pomocí SHA512.
-explanation: |
-  Pro adresy SegWit se kontrolní součet počítá pomocí BCH kódu, což umožňuje detekci možných chyb v adrese.
-reviewed: false
