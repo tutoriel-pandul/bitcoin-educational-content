@@ -482,7 +482,7 @@ Ces nouvelles valeurs de $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$ serviront de 
 Après avoir traité tous les blocs du message, nous concaténons les valeurs finales des variables $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$ pour former le hash final de 256 bits de notre fonction de hachage :
 
 $$
-\text{Hash} = A \| B \| C \| D \| E \| F \| G \| H
+\text{Hash} = A \Vert B \Vert C \Vert D \Vert E \Vert F \Vert G \Vert H
 $$
 
 Chaque variable est un entier de 32 bits, donc leur concaténation donne bien toujours un résultat de 256 bits, et ce, quelle que soit la taille de notre message en input de la fonction de hachage.
@@ -974,7 +974,7 @@ En plus du message, on va également passer dans la fonction étiquetée l'absci
 Le résultat de ce hachage noté $e$ s'appelle le "challenge" :
 
 $$
-e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
+e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
 $$
 
 Ici, $\text{HASH}$ est la fonction de hachage SHA256, et $\text{``BIP0340/challenge''}$ est le tag spécifique pour le hachage.
@@ -988,7 +988,7 @@ $$
 La signature est ensuite simplement le couple $Rx$ et $s$. 
 
 $$
-\text{SIG} = R_x || s
+\text{SIG} = R_x \Vert s
 $$
 
 ### Vérification de la signature Schnorr
@@ -1000,10 +1000,10 @@ Tout d'abord, on vérifie que $K_x$ est un entier valide et inférieur à $p$. S
 Ensuite, on calcule le challenge $e$ de la même manière que l'a fait l'émetteur de la signature :
 
 $$
-e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
+e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
 $$
 
-Et enfin, on calcule un point de référence sur la courbe de cette façon :
+Puis, on calcule un point de référence sur la courbe de cette façon :
 
 $$
 R' = s \cdot G - e \cdot K
@@ -1219,7 +1219,7 @@ $$
 \text{CS} = \frac{256}{32} = 8 \text{ bits}
 $$
 
-Une fois la checksum calculée, on la concatène avec l’entropie pour obtenir une séquence étendue de bits notée $\text{ENT} \, || \, \text{CS}$. "Concaténer" signifie mettre bout-à-bout.
+Une fois la checksum calculée, on la concatène avec l’entropie pour obtenir une séquence étendue de bits notée $\text{ENT} \Vert \text{CS}$ ("concaténer" signifie mettre bout-à-bout).
 
 ![CYP201](assets/fr/036.webp)
 
@@ -1233,7 +1233,7 @@ Le nombre de mots dans la phrase mnémonique dépend de la taille de l’entropi
 $$
 \begin{array}{|c|c|c|c|}
 \hline
-ENT & CS & ENT \, || \ CS & w \\
+ENT & CS & ENT \Vert CS & w \\
 \hline
 128 & 4 & 132 & 12 \\
 160 & 5 & 165 & 15 \\
@@ -1244,7 +1244,7 @@ ENT & CS & ENT \, || \ CS & w \\
 \end{array}
 $$
 
-Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \, || \, \text{CS}$ fait 264 bits et donne une phrase mnémonique de 24 mots.
+Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \Vert \text{CS}$ fait 264 bits et donne une phrase mnémonique de 24 mots.
 
 ### Conversion de la séquence binaire en une phrase mnémonique
 
