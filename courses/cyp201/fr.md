@@ -2227,7 +2227,7 @@ En revanche, si vous souhaitez ajouter des scripts alternatifs en complément de
 
 Une fois les différents scripts alternatifs écrits, vous devez les passer individuellement dans une fonction de hachage taguée `TapLeaf`, accompagnée de quelques métadonnées :
 
-$$\text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}}(v \Vert sz \Vert S)$$
+$$ \text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S) $$
 
 Avec :
 - $v$ : le numéro de version du script (par défaut **`0xC0`** pour Taproot) ;
