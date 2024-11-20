@@ -2227,16 +2227,20 @@ En revanche, si vous souhaitez ajouter des scripts alternatifs en complément de
 
 Une fois les différents scripts alternatifs écrits, vous devez les passer individuellement dans une fonction de hachage taguée `TapLeaf`, accompagnée de quelques métadonnées :
 
-$$ \text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S) $$
+$$
+\text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S)
+$$
 
 Avec :
-- $v$ : le numéro de version du script (par défaut **`0xC0`** pour Taproot) ;
+- $v$ : le numéro de version du script (par défaut `0xC0` pour Taproot) ;
 - $sz$ : la taille du script encodée en format *CompactSize* ;
 - $S$ : le script.
 
 Les différents hash de script ($\text{h}_{\text{leaf}}$) sont d’abord triés dans l’ordre lexicographique. Ensuite, ils sont concaténés par paires et passés dans une fonction de hachage taguée `TapBranch`. Ce processus est répété de manière itérative pour construire, étape par étape, l’arbre de Merkle :
 
-$$\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} || \text{h}_{\text{leaf2}})$$
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 On poursuit ensuite en concaténant les résultats deux par deux, en les passant à chaque étape dans la fonction de hachage taguée `TapBranch`, jusqu’à obtenir la racine de l’arbre de Merkle :
 
@@ -2244,7 +2248,9 @@ On poursuit ensuite en concaténant les résultats deux par deux, en les passant
 
 Une fois la racine de Merkle $h_{\text{root}}$ calculée, on va pouvoir calculer le tweak. Pour cela, on concatène la clé publique interne du portefeuille $P$ avec la racine $h_{\text{root}}$, puis on passe l’ensemble dans la fonction de hachage taguée `TapTweak` :
 
-$$t = \text{H}_{\text{TapTweak}}(P || h_{\text{root}})$$
+$$
+t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
+$$
 
 Enfin, comme précédemment, la clé publique Taproot $Q$ est obtenue en ajoutant la clé publique interne $P$ au produit du tweak $t$ par le point générateur $G$ :
 
