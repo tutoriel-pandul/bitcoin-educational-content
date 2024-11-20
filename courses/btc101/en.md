@@ -486,53 +486,53 @@ Keep in mind to choose the right wallet for your needs and usage: detailed tutor
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
-## Security and Bitcoin Wallets
+## Bitcoin Wallets and Security 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
-### Asking the right questions before starting
+### Asking the Right Questions before Starting
 
-When you own bitcoins, the security of your funds is a major concern. The best way to define security that is suitable for your situation is to ask (and answer) a series of questions; your security model will depend on your answers. Let's start:
+When you own bitcoins, the security of your funds is a major concern. The best way to define a security level that is suitable for your situation is to ask yourself a series of questions:
 
-- Who can access my funds? In other words, are you the only one who has access to your bitcoins, or does a third party, such as a company, allow you to access your funds?
-- A second question could be: what are the uses you plan to have with your bitcoins? Is it a sum that you use regularly? Is it medium-term savings? Long-term savings?
+- Who can access your funds? In other words, do you have sole access to your bitcoins, or does a third party (such as a company) grant you access to your funds?
+- How do you plan to use the bitcoins in that particular wallet? Regularly? For medium-term, or long-term savings?
 - What are your technical skills?
 - What is your security budget?
 
-Keep in mind that there is no universal solution. So take the time to answer these questions, as it will help tailor your security measures.
+There is actually no universal answer or solution, so take the time to answer these questions, as it will help tailor your security measures to your needs.
 
 ![image](assets/en/chapter6/0.webp)
 
-### Thinking about Bitcoin wallets in terms of complexity
+### Thinking about Bitcoin Wallets in Terms of Complexity
 
-Let's try to establish several levels of security for your bitcoins:
+Here below, we will define several levels of security:
 
-- **Level 0**, you use a so-called custodial service where you are not the sole holder of your bitcoins. Be aware that this trusted third party can restrict your access to your funds at any time, and you have the same level of financial sovereignty as with the traditional banking system through a bank account.
+- **Level 0**, you use a so-called "custodial service" where you are not the sole holder of your bitcoins. Be aware that this trusted third party can restrict your access to your funds at any time. In this case, your level of financial sovereignty is similar to that of a traditional banking system with a bank account.
 
 ![image](assets/en/chapter6/2.webp)
 
-- **Level 1**, you use a Bitcoin wallet on your phone or computer where you are the sole holder of your bitcoins. You can easily carry out your transactions. However, it is crucial to backup the mnemonic phrase to regain access to your funds in case of loss of your phone or computer. It is often referred to as a "hot wallet" because the private key is stored on a device with internet access.
+- **Level 1**, you use a Bitcoin wallet on your phone or computer, where you are the sole holder of your bitcoins and you can easily carry out your transactions. The afore-mentioned tool is referred to as "hot wallet", because the private key is stored on a device with internet access. In this case, it is crucial to back up your mnemonic phrase to regain access to your funds in the event of losing your phone or computer.
 
-- **Level 2**, you use a physical wallet, and you have secured your list of 12 or 24 words. To perform a transaction, you will always need to sign with your device. This makes your funds less accessible on a daily basis. It is often referred to as a "Cold Wallet" because your keys are stored on a device that is not connected to the internet.
+- **Level 2**, you use a physical wallet, and you have secured your list of 12/24 words. It is often referred to as "cold Wallet" because your keys are stored on a device that is not connected to the internet. In this case, you will always need to sign every transaction with your device, which makes your funds less accessible on a daily basis.
 
 ![image](assets/en/chapter6/4.webp)
 
-- **Level 3**, you use a level 1 or 2 wallet but with an additional passphrase. Be aware that you now need to backup both the list of 12 or 24 words **and** your passphrase. Ideally, these two pieces of information are stored in two different places.
+- **Level 3**, you use a level 1 or 2 wallet, but you added an additional passphrase. In this case, be aware that you need to backup both the list of 12/24 words **and** your passphrase. Ideally, these two pieces of information are stored in two different places.
 
 ![image](assets/en/chapter6/5.webp)
 
-- **Level 4**, you use a set of wallets to create a "multisig" wallet, which means it requires multiple signatures to perform a transaction. Be aware that each part of the multisig should be stored in different locations. This is often considered an advanced use of Bitcoin, mainly used for large amounts and corporate use.
+- **Level 4**, you use a set of wallets to create a "multisig" wallet, which means that multiple signatures are required to conduct a transaction. In this case, be aware that each part of the multisig should be stored in different locations. This approach is often considered an advanced use of Bitcoin, primarily for managing large amounts and for corporate purposes.
 
 ![image](assets/en/chapter6/3.webp)
 
-Of course, we can have multiple use cases, and in such cases, it is recommended to use multiple Bitcoin wallets. There is no one-size-fits-all solution.
+Of course, different use cases also require different Bitcoin wallets, and there is no one-size-fits-all solution.
 
-### Security must adapt
+### Security Must be Adapted
 
-The amount one is willing to leave on a specific security level depends on each individual. For some, leaving 1 BTC on a hot wallet is reasonable, while for others, it is absolutely not. In any case, avoid spending a lot on security by buying a physical wallet when you want to secure a small amount. Also, keep in mind that overcomplicating the security and accessibility of your bitcoins can harm you if, for example, you mishandle the backups of your wallets.
+The amount one is willing to leave on a specific security level depends on each individual. For some, leaving 1 BTC on a hot wallet is reasonable, while, for others, it is the oppsosite. In any case, when you want to secure a small amount, we advise not to spend too much on security by buying a physical wallet. Besides, keep in mind that overcomplicating the security and accessibility of your bitcoins can be detrimental, especially if you mishandle the backups of your wallets.
 
-In conclusion, direct ownership of one's bitcoins is an essential element to ensure financial sovereignty. It is recommended to use a mobile wallet for daily expenses and an offline, or "cold," physical wallet to store larger amounts. Businesses, on the other hand, should consider using multi-signature systems, or "multisig," for increased and shared security. It is also essential to avoid custodial services, which can replicate some vulnerabilities of the traditional financial system as much as possible.
+In conclusion, direct ownership of one's bitcoins is an essential element to ensure financial sovereignty. It is recommended to use a mobile wallet for daily expenses and an offline, or "cold," physical wallet to store larger amounts. Businesses, on the other hand, should consider using multi-signature systems, or "multisig," for increased and shared security. It is also essential to avoid custodial services, which can replicate some vulnerabilities of the traditional financial system.
 
-Now that we have this in mind, let's move on to the next section to see the steps to create a Bitcoin wallet. However, if you wish to further explore the topic of security, you can read this [article by DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+With this in mind, we can now move to the next section where we describe how to create a Bitcoin wallet. However, if you wish to further explore the topic of security, you can read this [article by DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ### Quick recap in a poster!
 
