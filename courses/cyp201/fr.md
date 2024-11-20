@@ -177,7 +177,7 @@ Nous avons vu précédemment que les fonctions de hachage possèdent des caract�
 
 Les fonctions SHA256 et SHA512 appartiennent à la même famille des SHA2. Leur mécanisme est basé sur une construction spécifique appelée **construction de Merkle-Damgård**. RIPEMD160 utilise également ce même type de construction.
 
-Pour rappel, nous avons donc un message taille arbitraire en entrée de SHA256, et nous allons le passer dans la fonction pour obtenir un hash de 256 bits en sortie.
+Pour rappel, nous avons donc un message de taille arbitraire en entrée de SHA256, et nous allons le passer dans la fonction pour obtenir un hash de 256 bits en sortie.
 
 ### Pré-traitement de l'input
 
@@ -189,7 +189,7 @@ $$
 L \equiv 448 \mod 512
 $$
 
-"$\text{mod}$", pour modulo, est une opération mathématique qui, entre deux nombres entiers, renvoie le reste de la division euclidienne du premier par le second. Par exemple : $16 \mod 5 = 1$. C'est une opération très utilisée en cryptographie.
+$\text{mod}$, pour modulo, est une opération mathématique qui, entre deux nombres entiers, renvoie le reste de la division euclidienne du premier par le second. Par exemple : $16 \mod 5 = 1$. C'est une opération très utilisée en cryptographie.
 
 Ici, l'étape du rembourrage garantit que, après l'ajout des 64 bits de l'étape suivante, la longueur totale du message égalisé sera un multiple de 512 bits. Si le message initial a une longueur de $M$ bits, le nombre ($N$) de bits `0` à ajouter est donc :
 
@@ -235,7 +235,7 @@ Si l'on reprend notre exemple avec un message initial de 950 bits, on va convert
 Ce rembourrage de la taille est ajouté à la suite du rembourrage des bits. Le message après notre pré-traitement se compose donc de trois parties :
 1. Le message original $M$ ;
 2. Un bit `1` suivi de plusieurs bits `0` pour former le rembourrage des bits ;
-3. Une représentation de 64 bits de la longueur de $M$ pour former de le rembourrage avec la taille.
+3. Une représentation de 64 bits de la longueur de $M$ pour former le rembourrage avec la taille.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -400,21 +400,25 @@ Pour chaque tour $i$ de 0 à 63, nous avons donc 3 types d'inputs différents. D
 Nous effectuons donc les opérations suivantes sur nos inputs :
 
 - **Fonction $\Sigma_0$ :**
+
 $$
 \Sigma_0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)
 $$
 
 - **Fonction $\Sigma_1$ :**
+
 $$
 \Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
 - **Fonction $Ch$ ("*Choose*") :**
+
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
 - **Fonction $Maj$ ("*Majority*") :**
+
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
 $$
@@ -422,11 +426,13 @@ $$
 Nous calculons ensuite 2 variables temporaires :
 
 - $temp1$ :
+
 $$
 temp1 = H + \Sigma_1(E) + Ch(E, F, G) + K_i + W_i \mod 2^{32}
 $$
 
 - $temp2$ :
+
 $$
 temp2 = \Sigma_0(A) + Maj(A, B, C) \mod 2^{32}
 $$
@@ -476,7 +482,7 @@ Ces nouvelles valeurs de $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$ serviront de 
 Après avoir traité tous les blocs du message, nous concaténons les valeurs finales des variables $A$, $B$, $C$, $D$, $E$, $F$, $G$, et $H$ pour former le hash final de 256 bits de notre fonction de hachage :
 
 $$
-\text{Hash} = A \, || \, B \, || \, C \, || \, D \, || \, E \, || \, F \, || \, G \, || \, H
+\text{Hash} = A \| B \| C \| D \| E \| F \| G \| H
 $$
 
 Chaque variable est un entier de 32 bits, donc leur concaténation donne bien toujours un résultat de 256 bits, et ce, quelle que soit la taille de notre message en input de la fonction de hachage.
@@ -554,15 +560,16 @@ Voici son schéma de fonctionnement général avec $m$ le message en entrée et 
 - $K'$ : la clé $K$ ajustée à la taille $B$ des blocs de la fonction de hachage (1024 bits pour SHA512, soit 128 octets) ;
 - $\text{SHA512}$ : la fonction de hachage SHA512 ;
 - $\oplus$ : l'opération XOR (ou exclusif) ;
-- $\|$ : l’opérateur de concaténation, reliant les chaînes de bits bout-à-bout ;
+- $\Vert$ : l’opérateur de concaténation, reliant les chaînes de bits bout-à-bout ;
 - $\text{opad}$ : constante composée de l’octet $0x5c$ répété 128 fois
 - $\text{ipad}$ : constante composée de l’octet $0x36$ répété 128 fois
 
 Avant de calculer le HMAC, il est nécessaire d'égaliser la clé et les constantes selon la taille du bloc $B$. Par exemple, si la clé $K$ est plus courte que 128 octets, on la complète avec des zéros pour obtenir la taille $B$. Si $K$ est plus longue que 128 octets, on la compresse avec SHA512, puis on ajoute des zéros jusqu'à atteindre 128 octets. De cette manière on obtient une clé égalisée nommée $K'$.
 
 Les valeurs de $\text{opad}$ et $\text{ipad}$ sont obtenues en répétant leur octet de base ($0x5c$ pour $\text{opad}$, $0x36$ pour $\text{ipad}$ ) jusqu'à atteindre la taille $B$. Ainsi, avec $B = 128$ octets, on a :
+
 $$
-\text{opad} = 0x5c5c\ldots5c \quad (\text{*128})
+\text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{bytes}}
 $$
 
 Une fois le prétraitement réalisé, l'algorithme HMAC-SHA512 est défini par l'équation suivante :
@@ -592,9 +599,9 @@ PBKDF2 (*Password-Based Key Derivation Function 2*) est un algorithme de dériva
 Dans Bitcoin, PBKDF2 est utilisé pour générer la graine d'un portefeuille HD à partir d’une phrase mnémonique et d'une passphrase (mais nous en parlerons plus en détail dans les prochains chapitres).
 
 Le processus de PBKDF2 est le suivant, avec :
-- $m$ : la phrase de récupération de l'utilisateur
-- $s$ : la passphrase optionnelle pour augmenter la sécurité (champs vide si pas de passphrase)
-- $n$ : le nombre d'itérations de la fonction, dans notre cas c'est 2048
+- $m$ : la phrase mnémonique de l'utilisateur ;
+- $s$ : la passphrase optionnelle pour augmenter la sécurité (champs vide si pas de passphrase) ;
+- $n$ : le nombre d'itérations de la fonction, dans notre cas c'est 2048.
 
 La fonction PBKDF2 est définie de manière itérative. Chaque itération prend en entrée le résultat de la précédente, le passe dans HMAC-SHA512, et combine les résultats successifs pour produire la clé finale :
 
@@ -621,9 +628,7 @@ La deuxième méthode cryptographique utilisée dans Bitcoin concerne les algori
 
 Le terme "*wallet*" sur Bitcoin est assez déroutant pour les débutants. En effet, ce que l'on appelle un portefeuille Bitcoin est un logiciel qui ne conserve pas directement vos bitcoins, contrairement à un portefeuille physique qui permet de conserver des pièces ou des billets. Les bitcoins sont simplement des unités de compte. Cette unité de compte est représentée par des **UTXO** (*Unspent Transaction Outputs*), qui sont des sorties de transactions non dépensées. Si ces sorties ne sont pas dépensées, cela signifie qu'elles appartiennent à un utilisateur. Les UTXOs sont donc en quelque sorte des morceaux de bitcoins, d'une taille variable, appartenant à un utilisateur.
 
-Le protocole Bitcoin est distribué et fonctionne sans autorité centrale. On ne peut donc pas faire comme dans les registres bancaires traditionnels, où les euros qui vous appartiennent sont simplement associés à votre identité personnelle. 
-
-Sur Bitcoin, vos UTXOs vous appartiennent car ils sont protégés par des conditions de dépense spécifiées dans le langage Script. Pour simplifier, il existe deux types de scripts : le script de verrouillage (*scriptPubKey*), qui protège un UTXO, et le script de déverrouillage (*scriptSig*), qui permet de déverrouiller un UTXO et ainsi de dépenser les unités de bitcoins qu'il représente.
+Le protocole Bitcoin est distribué et fonctionne sans autorité centrale. On ne peut donc pas faire comme dans les registres bancaires traditionnels, où les euros qui vous appartiennent sont simplement associés à votre identité personnelle. Sur Bitcoin, vos UTXOs vous appartiennent car ils sont protégés par des conditions de dépense spécifiées dans le langage Script. Pour simplifier, il existe deux types de scripts : le script de verrouillage (*scriptPubKey*), qui protège un UTXO, et le script de déverrouillage (*scriptSig*), qui permet de déverrouiller un UTXO et ainsi de dépenser les unités de bitcoins qu'il représente.
 
 Le fonctionnement initial de Bitcoin avec les scripts P2PK consiste à utiliser une clé publique pour verrouiller les fonds, en spécifiant dans un *scriptPubKey* que la personne souhaitant dépenser cet UTXO doit fournir une signature valide avec la clé privée correspondant à cette clé publique. Pour déverrouiller cet UTXO, il est donc nécessaire de fournir une signature valide dans le *scriptSig*. Comme leurs noms l'indiquent, la clé publique est connue de tous puisqu'elle est diffusée sur la blockchain, tandis que la clé privée est uniquement connue du propriétaire légitime des fonds.
 
@@ -680,11 +685,13 @@ p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 ```
 
 En notation décimale, cela correspond à :
+
 $$
 p = 2^{256} - 2^{32} - 977
 $$
 
 Ainsi, l'équation de notre courbe elliptique est en réalité :
+
 $$
 y^2 \equiv x^3 + 7 \mod p
 $$
@@ -693,13 +700,13 @@ $$
 
 ![CYP201](assets/fr/016.webp)
 
-Dans cet exemple, nous avons intentionnellement limité le corps fini à $p = 17$ pour des raisons pédagogiques, mais il faut imaginer que celui utilisé dans Bitcoin est immensément plus grand, presque $2^{256}$.
+Dans cet exemple, j'ai intentionnellement limité le corps fini à $p = 17$ pour des raisons pédagogiques, mais il faut imaginer que celui utilisé dans Bitcoin est immensément plus grand, presque $2^{256}$.
 
 Nous utilisons un corps fini d'entiers modulo $p$ afin d'assurer la précision des opérations sur la courbe. En effet, les courbes elliptiques sur le corps des réels sont sujettes à des imprécisions dues aux erreurs d'arrondi lors des calculs informatiques. Si l'on effectue de nombreuses opérations sur la courbe, ces erreurs s'accumulent et le résultat final peut être incorrect ou difficilement reproductible. L'utilisation exclusive d'entiers positifs permet d'assurer une précision parfaite des calculs et donc une reproductibilité du résultat.
 
 Les mathématiques des courbes elliptiques sur les corps finis sont analogues à celles sur le corps des réels, avec l'adaptation que toutes les opérations sont effectuées modulo $p$. Pour simplifier les explications, nous continuerons dans les prochains chapitres à illustrer les concepts en utilisant une courbe définie sur les nombres réels, tout en gardant à l'esprit que, dans la pratique, la courbe est définie sur un corps fini.
 
-Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur PlanB Network :
+Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan B Network :
 
 https://planb.network/courses/cyp302
 
@@ -791,9 +798,11 @@ Graphiquement, cela correspond à effectuer une série d'additions et de doublem
 Si l’on souhaite, par exemple, calculer le point $3G$, nous devons d’abord calculer le point $2G$ en doublant le point $G$, puis additionner $G$ et $2G$. Pour additionner $G$ et $2G$, il suffit de tracer la droite reliant ces deux points, de récupérer le point unique $-3G$ à l’intersection entre cette droite et la courbe elliptique, puis de déterminer $3G$ comme l’opposé de $-3G$.
 
 Nous aurons donc :
+
 $$
 G + G = 2G
 $$
+
 $$
 2G + G = 3G
 $$
@@ -877,6 +886,7 @@ L'algorithme ECDSA permet à un utilisateur de signer un message en utilisant sa
 Voici les étapes pour générer une signature ECDSA :
 
 Tout d'abord on va calculer le hash ($e$) du message qui doit être signé. Le message $m$ est donc passé dans une fonction de hachage cryptographique, généralement SHA256 ou double SHA256 dans le cas de Bitcoin :
+
 $$
 e = \text{HASH}(m)
 $$
@@ -884,11 +894,13 @@ $$
 Ensuite, on va calculer un nonce. En cryptographie, un nonce est simplement un nombre généré de manière aléatoire ou pseudo-aléatoire qui est utilisé une seule fois. C'est-à-dire qu'à chaque fois que l'on réalise une nouvelle signature numérique avec cette paire de clés, il sera très important d'utiliser un nonce différent, sinon cela compromettra la sécurité de la clé privée. Il suffit donc de déterminer un entier aléatoire et unique $r$ tel que $1 \leq r \leq n-1$, où $n$ est l'ordre du point générateur $G$ de la courbe elliptique.
 
 Puis, nous allons calculer le point $R$ sur la courbe elliptique avec les coordonnées $(x_R, y_R)$ tel que :
+
 $$
 R = r \cdot G
 $$
 
 On extrait la valeur de l'abscisse du point $R$ ($x_R$). Cette valeur représente la première partie de la signature. Et enfin, on calcule la seconde partie de la signature $s$ de cette manière :
+
 $$
 s = r^{-1} \left( e + k \cdot x_R \right) \mod n
 $$
@@ -899,9 +911,10 @@ où :
 - $e$ est le hash du message ;
 - $n$ est l'ordre du point générateur $G$ de la courbe elliptique.
 
-La signature est alors simplement la concaténation $x_R$ et de $s$ :
+La signature est alors simplement la concaténation de $x_R$ et de $s$ :
+
 $$
-\text {SIG} = x_R \| s
+\text {SIG} = x_R \Vert s
 $$
 
 ### Vérification de la signature ECDSA
@@ -911,16 +924,19 @@ Pour vérifier une signature $(x_R, s)$, toute personne connaissant la clé publ
 Tout d'abord, on vérifie que $x_R$ et $s$ sont bien dans l'intervalle $[1, n-1]$. Cela garantit que la signature respecte les contraintes mathématiques du groupe elliptique. Si ce n’est pas le cas, le vérificateur rejette immédiatement la signature comme invalide.
 
 Puis, on calcule le hash du message :
+
 $$
 e = \text{HASH}(m)
 $$
 
 On calcule l'inverse modulaire de $s$ modulo $n$ :
+
 $$
 s^{-1} \mod n
 $$
 
 On calcule deux valeurs scalaires $u_1$ et $u_2$ de cette manière :
+
 $$
 \begin{align*}
 u_1 &= e \cdot s^{-1} \mod n \\
@@ -1710,7 +1726,7 @@ Enfin, la profondeur 5 représente la dernière étape de dérivation dans le po
 
 ### Notation des chemins de dérivation
 
-Le chemin de dérivation s’écrit en séparant chaque niveau par une barre oblique ($/$). Chaque barre oblique indique ainsi une dérivation d'une paire de clés parent ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) vers une paire de clés enfant ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Le nombre noté à chaque profondeur correspond à l'index utilisé pour dériver cette clé à partir de ses parents. L’apostrophe ($'$) située parfois à droite de l'index indique une dérivation endurcie ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Parfois, cette apostrophe est remplacée par un "$h$". En l'absence d'apostrophe ou de "$h$", il s'agit donc d'une dérivation normale ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
+Le chemin de dérivation s’écrit en séparant chaque niveau par une barre oblique ($/$). Chaque barre oblique indique ainsi une dérivation d'une paire de clés parent ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) vers une paire de clés enfant ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Le nombre noté à chaque profondeur correspond à l'index utilisé pour dériver cette clé à partir de ses parents. L’apostrophe ($'$) située parfois à droite de l'index indique une dérivation endurcie ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Parfois, cette apostrophe est remplacée par un $h$. En l'absence d'apostrophe ou de $h$, il s'agit donc d'une dérivation normale ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 
 Comme nous l’avons vu dans les chapitres précédents, les index des clés endurcies commencent à partir de $2^{31}$, soit `0x80000000` en hexadécimal. Par conséquent, lorsqu'un index est accompagné d'une apostrophe dans un chemin de dérivation, il faut ajouter $2^{31}$ au nombre indiqué pour obtenir la valeur réelle utilisée dans la fonction HMAC-SHA512. Par exemple, si le chemin de dérivation spécifie $/44'/$, l’index réel sera :
 $$
