@@ -945,6 +945,7 @@ u_2 &= x_R \cdot s^{-1} \mod n
 $$
 
 Et enfin, on calcule le point $V$ sur la courbe elliptique tel que :
+
 $$
 V = u_1 \cdot G + u_2 \cdot K
 $$
@@ -959,6 +960,7 @@ Le schéma de signature de Schnorr est une alternative à ECDSA qui offre de nom
 Dans le cas de Schnorr on utilise exactement la même courbe que ECDSA avec les mêmes paramètres. En revanche, les clés publiques sont représentées légèrement différemment par rapport à ECDSA. En effet, on les désigne uniquement par la coordonnée $x$ du point sur la courbe elliptique. Contrairement à ECDSA, où les clés publiques compressées sont représentées par 33 octets (avec l'octet de préfixe indiquant la parité de $y$), Schnorr utilise des clés publiques de 32 octets, correspondant uniquement à la coordonnée $x$ du point $K$, et on considère que $y$ est pair par défaut. Cette représentation simplifiée permet de réduire la taille des signatures et facilite certaines optimisations dans les algorithmes de vérification.
 
 La clé publique est alors la coordonnée $x$ du point $K$ :
+
 $$
 \text{pk} = K_x
 $$
@@ -970,6 +972,7 @@ La première étape pour générer une signature est de hacher le message. Mais 
 En plus du message, on va également passer dans la fonction étiquetée l'abscisse de la clé publique $K_x$, ainsi qu'un point $R$ calculé à partir du nonce $r$ ($R=r \cdot G$) qui est lui-même un entier unique pour chaque signature, calculé de manière déterministe à partir de la clé privée et du message pour éviter les vulnérabilités liées à la réutilisation du nonce. De la même manière que pour la clé publique, seule l'abscisse du point du nonce $R_x$ est conservée pour décrire le point.
 
 Le résultat de ce hachage noté $e$ s'appelle le "challenge" :
+
 $$
 e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
 $$
@@ -977,11 +980,13 @@ $$
 Ici, $\text{HASH}$ est la fonction de hachage SHA256, et $\text{``BIP0340/challenge''}$ est le tag spécifique pour le hachage.
 
 Et enfin, on calcule le paramètre $s$ de cette manière à partir de la clé privée $k$, du nonce $r$ et du challenge $e$ :
+
 $$
 s = (r + e \cdot k) \mod n
 $$
 
 La signature est ensuite simplement le couple $Rx$ et $s$. 
+
 $$
 \text{SIG} = R_x || s
 $$
@@ -993,11 +998,13 @@ La vérification d'une signature Schnorr est plus simple que celle d'une signatu
 Tout d'abord, on vérifie que $K_x$ est un entier valide et inférieur à $p$. Si c'est le cas, on récupère le point correspondant sur la courbe avec $K_y$ pair. On va également extraire $R_x$ et $s$ en séparant la signature $\text{SIG}$. Puis, nous vérifions que $R_x < p$ et $s < n$ (l'ordre de la courbe).
 
 Ensuite, on calcule le challenge $e$ de la même manière que l'a fait l'émetteur de la signature :
+
 $$
 e = \text{HASH}(\text{``BIP0340/challenge''}, R_x || K_x || m) \mod n
 $$
 
 Et enfin, on calcule un point de référence sur la courbe de cette façon :
+
 $$
 R' = s \cdot G - e \cdot K
 $$
@@ -1007,16 +1014,19 @@ Enfin, on vérifie que $R'_x = R_x$. Si les deux abscisses correspondent, alors 
 ### Pourquoi cela fonctionne-t-il ?
 
 Le signataire a calculé $s = r + e \cdot k \mod n$, donc $R' = s \cdot G - e \cdot K$ devrait être égal au point $R$ original, car :
+
 $$
 s \cdot G = (r + e \cdot k) \cdot G = r \cdot G + e \cdot k \cdot G
 $$
 
 Puisque $K = k \cdot G$, on a $e \cdot k \cdot G = e \cdot K$. Ainsi :
+
 $$
 R' = r \cdot G = R
 $$
 
 On a donc bien : 
+
 $$
 R'_x = R_x
 $$
@@ -1196,6 +1206,7 @@ Découvrons ensemble comment passer d'une entropie à une phrase mnémonique.
 Pour transformer une entropie en phrase mnémonique, il faut d’abord ajouter une checksum (ou "somme de contrôle") à la fin de l’entropie. Cette checksum est une courte séquence de bits qui assure l’intégrité des données en vérifiant qu’aucune modification accidentelle n’a été introduite.
 
 Pour calculer la checksum, on applique la fonction de hachage SHA256 à l’entropie (une seule fois ; c'est d'ailleurs l'un des rares cas dans Bitcoin où l'on utilise un SHA256 simple au lieu d'un double hachage). Cette opération produit un hash de 256 bits. La checksum est constituée des premiers bits de ce hash, et sa longueur dépend de celle de l’entropie, selon la formule suivante :
+
 $$
 \text{CS} = \frac{\text{ENT}}{32}
 $$
@@ -1203,6 +1214,7 @@ $$
 où $\text{ENT}$ représente la longueur de l’entropie en bits, et $\text{CS}$ la longueur de la checksum en bits.
 
 Par exemple, pour une entropie de 256 bits, on va prendre les 8 premiers bits du hash pour former la checksum :
+
 $$
 \text{CS} = \frac{256}{32} = 8 \text{ bits}
 $$
@@ -1265,6 +1277,7 @@ Pour déterminer la longueur optimale de sa phrase mnémonique, il faut considé
 Cependant, cette différence de sécurité au niveau de la phrase n’améliore pas la sécurité globale d’un portefeuille Bitcoin, car les clés privées dérivées depuis cette phrase ne bénéficient que de 128 bits de sécurité. En effet, comme nous l’avons vu précédemment, les clés privées Bitcoin sont générées à partir de nombres aléatoires (ou dérivés d’une source aléatoire) compris entre $1$ et $n-1$, où $n$ représente l’ordre du point générateur $G$ de la courbe secp256k1, un nombre légèrement inférieur à $2^{256}$. On pourrait donc penser que ces clés privées offrent une sécurité de 256 bits. Cependant, leur sécurité réside dans la difficulté à retrouver une clé privée depuis sa clé publique associée, une difficulté établie par le problème mathématique du logarithme discret sur les courbes elliptiques (*ECDLP*). À ce jour, le meilleur algorithme connu pour résoudre ce problème est l’algorithme rho de Pollard, qui diminue le nombre d’opérations nécessaires pour casser une clé à la racine carrée de sa taille.
 
 Pour des clés de 256 bits, comme celles utilisées sur Bitcoin, l’algorithme rho de Pollard réduit donc la complexité à $2^{128}$ opérations :
+
 $$
 O(\sqrt{2^{256}}) = O(2^{128})
 $$
@@ -1369,6 +1382,7 @@ La sortie de cette fonction est donc de 512 bits. Elle est ensuite divisée en 2
 - Les 256 bits de droite forment le **code de chaîne maître**.
 
 Mathématiquement, on peut noter ces deux valeurs comme suit avec $k_M$ la clé privée maîtresse et $C_M$ le code de chaîne maître :
+
 $$
 k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 $$
@@ -1544,6 +1558,7 @@ Dans tous nos calculs, je noterai $hash$ l'output de la fonction HMAC-SHA512.
 Pour dériver une clé privée enfant $k_{\text{CHD}}$ à partir d’une clé privée parent $k_{\text{PAR}}$, deux scénarios sont possibles en fonction de si l'on veut avoir une clé endurcie ou normale.
 
 Pour une **clé enfant normale** ($i < 2^{31}$), le calcul de $\text{hash}$ est le suivant :
+
 $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \| i)
 $$
@@ -1551,9 +1566,11 @@ $$
 Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique associée à la clé privée parent. La clé publique parent est utilisée ici car nous cherchons à dériver une clé enfant normale, et non endurcie.
 
 On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
+
 $$
 \text{hash} = h_1 \| h_2
 $$
+
 $$
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
 $$
@@ -1569,6 +1586,7 @@ Dans ce calcul, l’opération $\text{parse256}(h_1)$ consiste à interpréter l
 À partir de cette clé privée enfant, il est possible de dériver la clé publique correspondante en appliquant ECDSA ou Schnorr. Nous obtiendrons ainsi une paire de clés complète.
 
 Ensuite, on interprète simplement la seconde partie du $\text{hash}$ comme étant le code chaîne pour la paire de clés enfants que l'on vient de dériver :
+
 $$
 C_{\text{CHD}} = h_2
 $$
@@ -1578,6 +1596,7 @@ Voici une représentation schématique de la dérivation globale :
 ![CYP201](assets/fr/050.webp)
 
 Pour une **clé enfant endurcie** ($i \geq 2^{31}$), le calcul de $\text{hash}$ est le suivant :
+
 $$
 hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \|k_{\text{PAR}} \| i)
 $$
@@ -1585,19 +1604,23 @@ $$
 Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé privée parent. La clé privée parent est utilisée ici car nous cherchons à dériver une clé enfant endurcie. De plus, un octet égal à `0x00` est ajouté au début de la clé. Cette opération permet d'égaliser sa longueur pour correspondre à celle d'une clé publique compressée.
 
 On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
+
 $$
 \text{hash} = h_1 \| h_2
 $$
+
 $$
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
 $$
 
 La clé privée enfant $k_{\text{CHD}}^h$ est alors calculée comme cela :
+
 $$
 k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 $$
 
 Ensuite, on interprète simplement la seconde partie de $\text{hash}$ comme étant le code chaîne pour la paire de clés enfants que l'on vient de dériver :
+
 $$
 C_{\text{CHD}} = h_2
 $$
@@ -1613,6 +1636,7 @@ On peut donc constater que la dérivation normale et la dérivation endurcie fon
 Si l'on n'a connaissance que de la clé publique parent $K_{\text{PAR}}$ et du code de chaîne associé $C_{\text{PAR}}$, c'est-à-dire une clé publique étendue, il est possible de dériver des clés publiques enfant $K_{\text{CHD}}^n$, mais seulement pour des clés enfants normales (non endurcies). Ce principe permet notamment de pouvoir surveiller les mouvements d'un compte dans un portefeuille Bitcoin à partir de la `xpub` (*watch-only*).
 
 Pour réaliser ce calcul, on va calculer le $\text{hash}$ avec un index $i < 2^{31}$ (dérivation normale) :
+
 $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \| i)
 $$
@@ -1620,14 +1644,17 @@ $$
 Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique parent.
 
 On a donc maintenant un $hash$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
+
 $$
 \text{hash} = h_1 \| h_2
 $$
+
 $$
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
 $$
 
 La clé publique enfant $K_{\text{CHD}}^n$ est alors calculée comme cela :
+
 $$
 K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
@@ -1637,6 +1664,7 @@ Si $\text{parse256}(h_1) \geq n$ (ordre de la courbe elliptique) ou si $K_{\text
 Dans ce calcul, l’opération $\text{parse256}(h_1)$ consiste à interpréter les 32 premiers octets du $\text{hash}$ comme un entier de 256 bits. On utilise ce nombre pour calculer un point sur la courbe elliptique par addition et doublement depuis le point générateur $G$. Ce point est ensuite additionné à la clé publique parent pour obtenir la clé publique enfant normale. Ainsi, pour dériver une clé publique enfant normale, seules la clé publique parent et le code de chaîne parent sont nécessaires ; la clé privée parent n'intervient jamais dans ce processus, contrairement au calcul de la clé privée enfant que nous avons vu précédemment.
 
 Ensuite, le code de chaîne enfant est simplement :
+
 $$
 C_{\text{CHD}} = h_2
 $$
@@ -1729,6 +1757,7 @@ Enfin, la profondeur 5 représente la dernière étape de dérivation dans le po
 Le chemin de dérivation s’écrit en séparant chaque niveau par une barre oblique ($/$). Chaque barre oblique indique ainsi une dérivation d'une paire de clés parent ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) vers une paire de clés enfant ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Le nombre noté à chaque profondeur correspond à l'index utilisé pour dériver cette clé à partir de ses parents. L’apostrophe ($'$) située parfois à droite de l'index indique une dérivation endurcie ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Parfois, cette apostrophe est remplacée par un $h$. En l'absence d'apostrophe ou de $h$, il s'agit donc d'une dérivation normale ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 
 Comme nous l’avons vu dans les chapitres précédents, les index des clés endurcies commencent à partir de $2^{31}$, soit `0x80000000` en hexadécimal. Par conséquent, lorsqu'un index est accompagné d'une apostrophe dans un chemin de dérivation, il faut ajouter $2^{31}$ au nombre indiqué pour obtenir la valeur réelle utilisée dans la fonction HMAC-SHA512. Par exemple, si le chemin de dérivation spécifie $/44'/$, l’index réel sera :
+
 $$
 i = 44 + 2^{31} = 2\,147\,483\,692
 $$
@@ -1736,6 +1765,7 @@ $$
 En hexadécimal, cela donne `0x8000002C`.
 
 Maintenant que nous avons compris les grands principes des chemins de dérivation, prenons un exemple ! Voici le chemin de dérivation d'une adresse de réception Bitcoin :
+
 $$
 m / 84' / 0' / 1' / 0 / 7
 $$
@@ -1979,6 +2009,7 @@ Ce fonctionnement s’applique à tous les modèles de script reposant sur ECDSA
 Maintenant que nous avons obtenu notre clé publique compressée, nous pouvons dériver une adresse de réception SegWit v0 à partir de celle-ci.
 
 La première étape consiste à appliquer la fonction de hachage HASH160 à la clé publique compressée. HASH160 est une composition de deux fonctions de hachage successives : SHA256, suivie de RIPEMD160 :
+
 $$
 \text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
 $$
@@ -2157,6 +2188,7 @@ Comme nous l’avons vu dans le chapitre précédent, un script P2TR verrouille 
 - En satisfaisant l’un des scripts inclus dans l’arbre de Merkle (*script path*).
 
 En réalité, ces deux clés ne sont pas véritablement "agrégées". La clé $P$ est plutôt tweakée par la clé $M$. En cryptographie, "tweaker" une clé publique consiste à modifier cette clé en y appliquant une valeur additive appelée "tweak". Cette opération permet à la clé modifiée de rester compatible avec la clé privée d’origine et le tweak. Techniquement, un tweak est une valeur scalaire $t$ qui est ajoutée à la clé publique initiale. Si $P$ est la clé publique d’origine, la clé tweakée devient :
+
 $$
 P' = P + tG
 $$
@@ -2164,6 +2196,7 @@ $$
 Où $G$ est le générateur de la courbe elliptique utilisée. Cette opération produit une nouvelle clé publique dérivée de la clé originale, tout en conservant des propriétés cryptographiques permettant son utilisation.
 
 Si vous n’avez pas besoin d’ajouter des scripts alternatifs (dépense exclusivement via le *key path*), vous pouvez générer une adresse Taproot établie uniquement sur la clé publique présente en profondeur 5 de votre portefeuille. Dans ce cas, il est nécessaire de créer un script non dépensable pour le *script path*, afin de satisfaire les exigences de la structure. Le tweak $t$ est alors calculé en appliquant une fonction de hachage taguée, **`TapTweak`**, sur la clé publique interne $P$ :
+
 $$
 t = \text{H}_{\text{TapTweak}}(P)
 $$
@@ -2173,6 +2206,7 @@ où :
 - $P$ est la clé publique interne, représentée dans son format compressé de 256 bits, utilisant uniquement l’abscisse $x$.
 
 La clé publique Taproot $Q$ est ensuite calculée en ajoutant le tweak $t$, multiplié par le générateur de la courbe elliptique $G$, à la clé publique interne $P$ :
+
 $$
 Q = P + t \cdot G
 $$
@@ -2195,6 +2229,7 @@ bc1p[Qx][checksum]
 En revanche, si vous souhaitez ajouter des scripts alternatifs en complément de la dépense avec la clé publique interne (*script path*), le calcul de l’adresse de réception sera légèrement différent. Vous devrez inclure le hash des scripts alternatifs dans le calcul du tweak. Sur Taproot, chaque script alternatif, situé au bout de l'arbre de Merkle, est appelé une "feuille".
 
 Une fois les différents scripts alternatifs écrits, vous devez les passer individuellement dans une fonction de hachage taguée `TapLeaf`, accompagnée de quelques métadonnées :
+
 $$
 \text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}}(v || sz || S)
 $$
@@ -2205,6 +2240,7 @@ Avec :
 - $S$ : le script.
 
 Les différents hash de script ($\text{h}_{\text{leaf}}$) sont d’abord triés dans l’ordre lexicographique. Ensuite, ils sont concaténés par paires et passés dans une fonction de hachage taguée `TapBranch`. Ce processus est répété de manière itérative pour construire, étape par étape, l’arbre de Merkle :
+
 $$
 \text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} || \text{h}_{\text{leaf2}})
 $$
@@ -2214,11 +2250,13 @@ On poursuit ensuite en concaténant les résultats deux par deux, en les passant
 ![CYP201](assets/fr/066.webp)
 
 Une fois la racine de Merkle $h_{\text{root}}$ calculée, on va pouvoir calculer le tweak. Pour cela, on concatène la clé publique interne du portefeuille $P$ avec la racine $h_{\text{root}}$, puis on passe l’ensemble dans la fonction de hachage taguée `TapTweak` :
+
 $$
 t = \text{H}_{\text{TapTweak}}(P || h_{\text{root}})
 $$
 
 Enfin, comme précédemment, la clé publique Taproot $Q$ est obtenue en ajoutant la clé publique interne $P$ au produit du tweak $t$ par le point générateur $G$ :
+
 $$
 Q = P + t \cdot G
 $$
