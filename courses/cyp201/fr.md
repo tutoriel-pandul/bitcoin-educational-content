@@ -1226,14 +1226,14 @@ Une fois la checksum calculée, on la concatène avec l’entropie pour obtenir 
 ### Correspondance entre l’entropie et la phrase mnémonique
 
 Le nombre de mots dans la phrase mnémonique dépend de la taille de l’entropie initiale, comme illustré dans le tableau suivant avec :
-- $ENT$ : la taille en bits de l'entropie ;
-- $CS$ : la taille en bits de la checksum ;
+- $\text{ENT}$ : la taille en bits de l'entropie ;
+- $\text{CS}$ : la taille en bits de la checksum ;
 - $w$ : le nombre de mots dans la phrase mnémonique finale.
 
 $$
 \begin{array}{|c|c|c|c|}
 \hline
-ENT & CS & ENT \Vert CS & w \\
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
 \hline
 128 & 4 & 132 & 12 \\
 160 & 5 & 165 & 15 \\
@@ -1248,11 +1248,11 @@ Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \Vert \text
 
 ### Conversion de la séquence binaire en une phrase mnémonique
 
-La séquence de bits $\text{ENT} \, || \, \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 
-Par exemple, pour une entropie de 128 bits et la checksum est de 4 bits, et donc la séquence totale mesure 132 bits. Elle est découpée en 12 segments de 11 bits (les bits oranges désignent la checksum) :
+Par exemple, pour une entropie de 128 bits, la checksum est de 4 bits, et donc la séquence totale mesure 132 bits. Elle est découpée en 12 segments de 11 bits (les bits oranges désignent la checksum) :
 
 ![CYP201](assets/fr/038.webp)
 
@@ -1286,7 +1286,7 @@ Ainsi, on considère qu’une clé privée utilisée sur Bitcoin offre 128 bits 
 
 En conséquence, choisir une phrase de 24 mots n’apporte pas de protection supplémentaire pour le portefeuille, car une sécurité de 256 bits sur la phrase est inutile si les clés dérivées n'offrent que 128 bits de sécurité. Pour illustrer ce principe, c'est comme si une maison possédait deux portes : une vieille porte en bois et une porte blindée. En cas de cambriolage, la porte blindée ne serait d'aucune utilité, puisque l'intrus passerait par la porte en bois. C'est une situation analogue ici.
 
-Une phrase de 12 mots, qui offre également 128 bits de sécurité, est donc actuellement suffisante pour protéger vos bitcoins contre toute tentative de vol. Tant que l’algorithme de signature numérique ne change pas pour utiliser des clés grandes ou bien pour reposer sur un autre problème mathématique que l'ECDLP, une phrase de 24 mots demeure superflue. De plus, une phrase plus longue augmente le risque de perte lors de la sauvegarde : une sauvegarde deux fois plus courte est toujours plus facile à gérer.
+Une phrase de 12 mots, qui offre également 128 bits de sécurité, est donc actuellement suffisante pour protéger vos bitcoins contre toute tentative de vol. Tant que l’algorithme de signature numérique ne change pas pour utiliser des clés plus grandes ou bien pour reposer sur un autre problème mathématique que l'ECDLP, une phrase de 24 mots demeure superflue. De plus, une phrase plus longue augmente le risque de perte lors de la sauvegarde : une sauvegarde deux fois plus courte est toujours plus facile à gérer.
 
 Pour aller plus loin et découvrir concrètement comment générer manuellement une phrase mnémonique de test, je vous conseille de découvrir ce tutoriel : 
 
@@ -1339,7 +1339,7 @@ Une fois la phrase mnémonique et l'optionnelle passphrase générées, le proce
 
 ### La graine d'un portefeuille HD
 
-Le standard BIP39 définit la graine comme une séquence de 512 bits, qui sert de point de départ pour la dérivation de toutes les clés d’un portefeuille HD. La graine est dérivée de la phrase mnémonique et de l'éventuelle passphrase en utilisant l’algorithme **PBKDF2** (*Password-Based Key Derivation Function 2*) dont nous avons déjà parlé dans le chapitre 3.3 dans cette fonction de dérivation, on va utiliser les paramètres suivants :
+Le standard BIP39 définit la graine comme une séquence de 512 bits, qui sert de point de départ pour la dérivation de toutes les clés d’un portefeuille HD. La graine est dérivée de la phrase mnémonique et de l'éventuelle passphrase en utilisant l’algorithme **PBKDF2** (*Password-Based Key Derivation Function 2*) dont nous avons déjà parlé dans le chapitre 3.3. Dans cette fonction de dérivation, on va utiliser les paramètres suivants :
 
 - $m$ : la phrase mnémonique ;
 - $p$ : une passphrase optionnelle choisie par l’utilisateur pour renforcer la sécurité de la graine. S'il n'y a pas de passphrase, ce champ est laissé vide ;
@@ -1405,7 +1405,7 @@ Avant de poursuivre la dérivation du portefeuille HD avec les éléments suivan
 ## Les clés étendues
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
-Une clé étendue est simplement la concaténation d’une clé (qu’elle soit privée ou publique) et de son code de chaîne associé. Ce code de chaîne est indispensable pour la dérivation des clés enfants car, sans lui, il est impossible de dériver les clés enfants d’une clé parent, mais nous découvrirons plus précisément ce processus dans le chapitre suivant. Ces clés étendues permettent donc d’agréger toutes les informations nécessaires pour dériver des clés enfants, et donc de simplifier la gestion des comptes au sein d'un portefeuille HD.
+Une clé étendue est simplement la concaténation d’une clé (qu’elle soit privée ou publique) et de son code de chaîne associé. Ce code de chaîne est indispensable pour la dérivation des clés enfants car, sans lui, il est impossible de dériver les clés enfants d’une clé parent, mais nous découvrirons plus précisément ce processus dans le chapitre suivant. Ces clés étendues permettent ainsi d’agréger toutes les informations nécessaires pour dériver des clés enfants, et donc de simplifier la gestion des comptes au sein d'un portefeuille HD.
 
 ![CYP201](assets/fr/046.webp)
 
@@ -1446,15 +1446,15 @@ Une clé étendue est structurée comme suit :
 
 Le format complet d’une clé étendue est donc de 78 octets sans la checksum, et de 82 octets avec la checksum. Elle est ensuite convertie en Base58 pour produire une représentation facilement lisible par les utilisateurs. Le format Base58 est le même que celui utilisé pour les adresses de réception *Legacy* (avant *SegWit*).
 
-| Élément           | Description                                                                                                | Taille    |
-| ----------------- | ---------------------------------------------------------------------------------------------------------- | --------- |
-| Version           | Indique si la clé est publique (xpub, ypub) ou privée (xprv, zprv), ainsi que la version de la clé étendue | 4 octets  |
-| Profondeur        | Niveau dans la hiérarchie par rapport à la clé maîtresse                                                   | 1 octet   |
-| Empreinte parent  | Les 4 premiers octets de HASH160 de la clé publique parent                                                 | 4 octets  |
-| Numéro d'index    | Position de la clé dans l’ordre des enfants                                                                | 4 octets  |
-| Code de chaîne    | Utilisé pour dériver les clés enfants                                                                      | 32 octets |
-| Clé               | La clé privée (avec un préfixe de 1 octet) ou la clé publique                                              | 33 octets |
-| Somme de contrôle | Checksum pour vérifier l'intégrité                                                                         | 4 octets  |
+| Élément           | Description                                                                                                        | Taille    |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Version           | Indique si la clé est publique (`xpub`, `ypub`) ou privée (`xprv`, `zprv`), ainsi que la version de la clé étendue | 4 octets  |
+| Profondeur        | Niveau dans la hiérarchie par rapport à la clé maîtresse                                                           | 1 octet   |
+| Empreinte parent  | Les 4 premiers octets de HASH160 de la clé publique parent                                                         | 4 octets  |
+| Numéro d'index    | Position de la clé dans l’ordre des enfants                                                                        | 4 octets  |
+| Code de chaîne    | Utilisé pour dériver les clés enfants                                                                              | 32 octets |
+| Clé               | La clé privée (avec un préfixe de 1 octet) ou la clé publique                                                      | 33 octets |
+| Somme de contrôle | Checksum pour vérifier l'intégrité                                                                                 | 4 octets  |
 
 Si l'on ajoute un octet à la clé privée uniquement, c’est parce que la clé publique compressée est plus longue que la clé privée d’un octet. Cet octet supplémentaire, ajouté au début de la clé privée sous la forme `0x00`, permet d’égaliser leur taille, ce qui assure d'avoir une charge utile de clé étendue de même longueur, qu’il s’agisse d’une clé publique ou d'une clé privée.
 
@@ -1527,7 +1527,7 @@ Dans ce chapitre, nous avons découvert qu’il existe deux types de clés enfan
 ## Dérivation des paires de clés enfants
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
-La dérivation des paires de clés enfants dans les portefeuilles HD Bitcoin repose sur une structure hiérarchique permettant de générer un grand nombre de clés, tout en permettant d'organiser ces paires en différents groupes via des branches. Chaque paire enfant dérivée depuis une paire parent peut être utilisée soit directement dans un *scriptPubKey* pour verrouiller des bitcoins, soit comme point de départ pour générer d’autres clés enfants, et ainsi de suite, afin de créer une arborescence de clés.
+La dérivation des paires de clés enfants dans les portefeuilles HD Bitcoin repose sur une structure hiérarchique permettant de générer un grand nombre de clés, tout en organisant ces paires en différents groupes via des branches. Chaque paire enfant dérivée depuis une paire parent peut être utilisée soit directement dans un *scriptPubKey* pour verrouiller des bitcoins, soit comme point de départ pour générer d’autres clés enfants, et ainsi de suite, afin de créer une arborescence de clés.
 
 Toutes ces dérivations débutent avec la clé maîtresse et le code de chaîne maître, qui sont les premiers parents au niveau de profondeur 0. Ce sont, en quelque sorte, les Adam et Ève des clés de votre portefeuille, ancêtres communs de toutes les clés dérivées.
 
@@ -1549,7 +1549,7 @@ La dérivation de chaque clé enfant repose sur la fonction HMAC-SHA512 dont nou
 - **Les 32 premiers octets** (ou $h_1$) servent à calculer la nouvelle paire enfant.
 - **Les 32 derniers octets** (ou $h_2$) servent de nouveau code de chaîne $C_{\text{CHD}}$ pour la paire enfant.
 
-Dans tous nos calculs, je noterai $hash$ l'output de la fonction HMAC-SHA512.
+Dans tous nos calculs, je noterai $\text{hash}$ l'output de la fonction HMAC-SHA512.
 
 ![CYP201](assets/fr/049.webp)
 
@@ -1560,7 +1560,7 @@ Pour dériver une clé privée enfant $k_{\text{CHD}}$ à partir d’une clé pr
 Pour une **clé enfant normale** ($i < 2^{31}$), le calcul de $\text{hash}$ est le suivant :
 
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \| i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
 Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique associée à la clé privée parent. La clé publique parent est utilisée ici car nous cherchons à dériver une clé enfant normale, et non endurcie.
@@ -1568,11 +1568,11 @@ Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abo
 On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
 
 $$
-\text{hash} = h_1 \| h_2
+\text{hash} = h_1 \Vert h_2
 $$
 
 $$
-h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
 La clé privée enfant $k_{\text{CHD}}^n$ est alors calculée comme cela :
@@ -1598,7 +1598,7 @@ Voici une représentation schématique de la dérivation globale :
 Pour une **clé enfant endurcie** ($i \geq 2^{31}$), le calcul de $\text{hash}$ est le suivant :
 
 $$
-hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \|k_{\text{PAR}} \| i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 $$
 
 Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé privée parent. La clé privée parent est utilisée ici car nous cherchons à dériver une clé enfant endurcie. De plus, un octet égal à `0x00` est ajouté au début de la clé. Cette opération permet d'égaliser sa longueur pour correspondre à celle d'une clé publique compressée.
@@ -1606,7 +1606,7 @@ Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abo
 On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
 
 $$
-\text{hash} = h_1 \| h_2
+\text{hash} = h_1 \Vert h_2
 $$
 
 $$
@@ -1638,7 +1638,7 @@ Si l'on n'a connaissance que de la clé publique parent $K_{\text{PAR}}$ et du c
 Pour réaliser ce calcul, on va calculer le $\text{hash}$ avec un index $i < 2^{31}$ (dérivation normale) :
 
 $$
-\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \| i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 $$
 
 Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique parent.
@@ -1646,7 +1646,7 @@ Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abo
 On a donc maintenant un $hash$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
 
 $$
-\text{hash} = h_1 \| h_2
+\text{hash} = h_1 \Vert h_2
 $$
 
 $$
@@ -1736,7 +1736,7 @@ Pour vous donner d'autres exemples, voici les index de quelques devises :
 
 **Profondeur 3 : Compte (BIP32)**  
 
-Chaque portefeuille peut être divisé en plusieurs comptes, numérotés à partir de $2^{31}$, et représentés en profondeur 3 par $/0'/$ pour le premier compte, $/1'/$ pour le second, et ainsi de suite. En général, lorsqu’on fait référence à une clé étendue $xpub$, il s’agit des clés situées à cette profondeur de dérivation.
+Chaque portefeuille peut être divisé en plusieurs comptes, numérotés à partir de $2^{31}$, et représentés en profondeur 3 par $/0'/$ pour le premier compte, $/1'/$ pour le second, et ainsi de suite. En général, lorsqu’on fait référence à une clé étendue `xpub`, il s’agit des clés situées à cette profondeur de dérivation.
 
 Cette séparation en différents comptes est optionnelle. Elle vise à simplifier l’organisation du portefeuille pour les utilisateurs. En pratique, on utilise souvent un seul compte, généralement le premier par défaut. Cependant, dans certains cas, si l’on souhaite bien distinguer les paires de clés pour différents usages, cela peut s’avérer utile. Par exemple, il est possible de créer un compte personnel et un compte professionnel à partir de la même graine, avec des groupes de clés complètement distincts à partir de cette profondeur de dérivation.
 
@@ -1775,7 +1775,7 @@ Dans cet exemple :
 - $0'$ indique la devise Bitcoin sur le mainnet ;
 - $1'$ correspond au deuxième compte dans le portefeuille ;
 - $0$ désigne que l'adresse est sur la chaîne externe ;
-- $7$ désigne la 8ᵉ adresse externe de ce compte.
+- $7$ désigne la 8ème adresse externe de ce compte.
 
 ### Résumé de la structure de dérivation
 
@@ -1815,9 +1815,7 @@ Un descriptor se compose de plusieurs éléments :
 Par exemple, un descriptor pour un portefeuille P2WPKH (SegWit v0) pourrait ressembler à :
 
 ```text
-wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17
-C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7n
-r4
+wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4
 ```
 
 Dans ce descriptor, la fonction de dérivation `wpkh` indique un type de script *Pay-to-Witness-Public-Key-Hash*. Elle est suivie par le chemin de dérivation qui contient :
@@ -1829,8 +1827,7 @@ Dans ce descriptor, la fonction de dérivation `wpkh` indique un type de script 
 Le descriptor inclut également la clé publique étendue utilisée sur ce portefeuille : 
 
 ```text
-xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6
-cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
+xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
 Ensuite, la notation `/<0;1>/*` spécifie que le descriptor peut générer des adresses à partir de la chaîne externe (`0`) et interne (`1`), avec un wildcard (`*`) permettant la dérivation séquentielle de plusieurs adresses de manière paramétrable, similaire à la gestion d'un « *gap limit* » sur des logiciels de portefeuille classiques.
@@ -1983,7 +1980,7 @@ Cependant, les courbes elliptiques possèdent une propriété de symétrie par r
 
 Pour compresser une clé publique, on encode uniquement $x$, qui occupe 256 bits, et on ajoute un préfixe pour préciser la parité de $y$. Cette méthode réduit la taille de la clé publique à 264 bits au lieu des 520 initiaux. Le préfixe `0x02` indique que $y$ est pair, et le préfixe `0x03` indique que $y$ est impair.
 
-Prenons un exemple pour bien comprendre, avec la clé publique brute en représentation non compressée :
+Prenons un exemple pour bien comprendre, avec une clé publique brute en représentation non compressée :
 
 ```txt
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
@@ -2100,7 +2097,7 @@ Le HRP doit être étendu en séparant chaque caractère en deux parties :
 Avec le séparateur `0` entre les deux caractères, l'extension du HRP est donc :
 
 ```txt
-[03, 03, 00, 02, 03]
+03 03 00 02 03
 ```
 
 - **La version du témoin** : Pour SegWit version 0, c'est `00` ;
@@ -2213,7 +2210,7 @@ $$
 
 Une fois la clé publique Taproot $Q$ obtenue, nous pouvons générer l’adresse de réception correspondante. Contrairement à d’autres formats, les adresses Taproot ne sont pas établies sur un hash de la clé publique. La clé $Q$ est donc insérée directement dans l’adresse, de manière brute.
 
-Pour commencer, nous extrayons l’abscisse $x$ du point $Q$ afin d’obtenir une clé publique compressée. Sur cette charge utile, une somme de contrôle est calculée à l’aide de codes BCH, comme pour les adresses SegWit v0. Cependant, le programme utilisé pour les adresses Taproot diffère légèrement. En effet, après l’introduction du format bech32 avec SegWit, un bug a été découvert : lorsque le dernier caractère d’une adresse est un `p`, insérer ou supprimer des `q` juste avant ce `p` ne rend pas la somme de contrôle invalide. Bien que ce bug n’ait pas de conséquence sur SegWit v0 (grâce à une contrainte de taille), il pourrait poser un problème à l’avenir. Ce bug a donc été corrigé pour les adresses Taproot, et le nouveau format corrigé est appelé "*bech32m*".
+Pour commencer, nous extrayons l’abscisse $x$ du point $Q$ afin d’obtenir une clé publique compressée. Sur cette charge utile, une somme de contrôle est calculée à l’aide de codes BCH, comme pour les adresses SegWit v0. Cependant, le programme utilisé pour les adresses Taproot diffère légèrement. En effet, après l’introduction du format *bech32* avec SegWit, un bug a été découvert : lorsque le dernier caractère d’une adresse est un `p`, insérer ou supprimer des `q` juste avant ce `p` ne rend pas la somme de contrôle invalide. Bien que ce bug n’ait pas de conséquence sur SegWit v0 (grâce à une contrainte de taille), il pourrait poser un problème à l’avenir. Ce bug a donc été corrigé pour les adresses Taproot, et le nouveau format corrigé est appelé "*bech32m*".
 
 L’adresse Taproot est générée en encodant la coordonnée $x$ de $Q$ dans le format *bech32m*, avec les éléments suivants :
 - **Le HRP (*Human Readable Part*)** : `bc`, pour indiquer le réseau principal Bitcoin ;
@@ -2230,9 +2227,7 @@ En revanche, si vous souhaitez ajouter des scripts alternatifs en complément de
 
 Une fois les différents scripts alternatifs écrits, vous devez les passer individuellement dans une fonction de hachage taguée `TapLeaf`, accompagnée de quelques métadonnées :
 
-$$
-\text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}}(v || sz || S)
-$$
+$$\text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}}(v \Vert sz \Vert S)$$
 
 Avec :
 - $v$ : le numéro de version du script (par défaut **`0xC0`** pour Taproot) ;
@@ -2241,9 +2236,7 @@ Avec :
 
 Les différents hash de script ($\text{h}_{\text{leaf}}$) sont d’abord triés dans l’ordre lexicographique. Ensuite, ils sont concaténés par paires et passés dans une fonction de hachage taguée `TapBranch`. Ce processus est répété de manière itérative pour construire, étape par étape, l’arbre de Merkle :
 
-$$
-\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} || \text{h}_{\text{leaf2}})
-$$
+$$\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} || \text{h}_{\text{leaf2}})$$
 
 On poursuit ensuite en concaténant les résultats deux par deux, en les passant à chaque étape dans la fonction de hachage taguée `TapBranch`, jusqu’à obtenir la racine de l’arbre de Merkle :
 
@@ -2251,9 +2244,7 @@ On poursuit ensuite en concaténant les résultats deux par deux, en les passant
 
 Une fois la racine de Merkle $h_{\text{root}}$ calculée, on va pouvoir calculer le tweak. Pour cela, on concatène la clé publique interne du portefeuille $P$ avec la racine $h_{\text{root}}$, puis on passe l’ensemble dans la fonction de hachage taguée `TapTweak` :
 
-$$
-t = \text{H}_{\text{TapTweak}}(P || h_{\text{root}})
-$$
+$$t = \text{H}_{\text{TapTweak}}(P || h_{\text{root}})$$
 
 Enfin, comme précédemment, la clé publique Taproot $Q$ est obtenue en ajoutant la clé publique interne $P$ au produit du tweak $t$ par le point générateur $G$ :
 
