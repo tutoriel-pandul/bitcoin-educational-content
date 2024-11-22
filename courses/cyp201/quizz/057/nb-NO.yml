@@ -1,0 +1,9 @@
+spørsmål: Hva er størrelsen på frøet generert av PBKDF2?
+svar: 512 bits
+feil_svar:
+  - 128 bits
+  - 256 bits
+  - Variabel avhengig av lengden på den mnemoniske frasen
+forklaring: |
+  Uavhengig av lengden på den mnemoniske frasen, genererer PBKDF2 alltid et 512-bits frø.
+reviewed: false

@@ -1,0 +1,9 @@
+kysymys: Mikä on siemenen rooli Bitcoin HD-lompakossa?
+vastaus: Toimia kaikkien avainten johdannan lähtökohtana
+vaarat_vastaukset:
+  - Tallentaa lompakon tapahtumat
+  - Luoda suoraan pääjulkinen avain
+  - Varmistaa tapahtumien luottamuksellisuuden
+selitys: |
+  Siemen on 512-bittinen sekvenssi, joka on johdettu muistilauseesta ja salasanasta. Se muodostaa perustan kaikille lompakon avaimille.
+arvioitu: false

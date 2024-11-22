@@ -1,0 +1,8 @@
+kysymys: Mikä modifioija voidaan yhdistää perus Sighash-lippuihin?
+vastaus: SIGHASH_ANYONECANPAY
+vaarat_vastaukset:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+selitys: |
+  SIGHASH_ANYONECANPAY modifioi Sighash-lippuja siten, että ne kattavat vain yhden syötteen samalla kun loput jätetään muokattaviksi.

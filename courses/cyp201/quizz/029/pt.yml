@@ -1,0 +1,8 @@
+pergunta: Qual algoritmo de assinatura digital foi utilizado no lançamento do Bitcoin?
+resposta: ECDSA
+respostas_erradas:
+  - Schnorr
+  - RSA
+  - HMAC
+explicação: |
+  O Bitcoin inicialmente utilizou o ECDSA, um protocolo de assinatura baseado em curvas elípticas, antes da introdução das assinaturas Schnorr em 2021.

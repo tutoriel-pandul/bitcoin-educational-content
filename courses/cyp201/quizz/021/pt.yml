@@ -1,0 +1,8 @@
+pergunta: Qual é a principal característica da multiplicação escalar em curvas elípticas?
+resposta: Função unidirecional
+respostas_erradas:
+  - Facilmente reversível
+  - Baseada na fatoração de números primos
+  - Muito longa para calcular
+explicação: |
+  A multiplicação escalar em curvas elípticas é uma função unidirecional, tornando impossível recuperar a chave privada a partir da chave pública.

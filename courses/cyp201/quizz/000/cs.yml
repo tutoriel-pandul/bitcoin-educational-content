@@ -1,0 +1,9 @@
+otázka: Jaká je hlavní funkce hašovací funkce?
+odpověď: Převádí informace libovolné délky na otisk pevné velikosti
+špatné odpovědi:
+  - Šifruje zprávy, aby byly nečitelné
+  - Používá se pouze pro ověření integrity softwaru Bitcoinu
+  - Generuje soukromé klíče pro Bitcoinové peněženky
+vysvětlení: |
+  Hašovací funkce transformuje data jakékoli velikosti na haš pevné velikosti, což je klíčové pro mnoho aplikací v Bitcoinu.
+recenzováno: false

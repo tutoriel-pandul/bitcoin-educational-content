@@ -1,0 +1,9 @@
+domanda: Quale percorso di derivazione viene utilizzato per un account SegWit v0 in un descrittore standard?
+risposta: 84h/0h/0h
+risposte_errate:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+spiegazione: |
+  Il percorso 84h/0h/0h è definito nel BIP84 per un account che deriva indirizzi SegWit v0 con P2WPKH.
+recensito: false

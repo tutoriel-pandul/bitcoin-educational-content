@@ -1,0 +1,8 @@
+kysymys: Mikä vakio käytetään johdattamaan pääyksityisavain siemenestä?
+vastaus: "Bitcoin Seed"
+vaarat_vastaukset:
+  - "Pääavain"
+  - "HD Lompakon Siemen"
+  - "Lohkoketjun Juuri"
+selitys: |
+  "Bitcoin Seed" vakioa käytetään avaimena HMAC-SHA512 funktiossa johdattaakseen pääyksityisavaimen ja pääketjukoodin.

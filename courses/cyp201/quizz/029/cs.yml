@@ -1,0 +1,9 @@
+otázka: Který algoritmus digitálního podpisu byl použit při spuštění Bitcoinu?
+odpověď: ECDSA
+špatné_odpovědi:
+  - Schnorr
+  - RSA
+  - HMAC
+vysvětlení: |
+  Bitcoin původně používal ECDSA, protokol podpisu založený na eliptických křivkách, před zavedením Schnorr podpisů v roce 2021.
+recenzováno: false

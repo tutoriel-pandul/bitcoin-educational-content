@@ -1,0 +1,9 @@
+kysymys: Minkä tyyppinen avain liittyy "zpub"-etuliitteeseen?
+vastaus: Laajennettu julkinen avain SegWit V0:lle Mainnetissä
+vaarat_vastaukset:
+  - Laajennettu yksityinen avain SegWit V1:lle Mainnetissä
+  - Laajennettu julkinen avain Legacylle Testnetissä
+  - Laajennettu julkinen avain SegWit V2:lle Testnetissä
+selitys: |
+  "zpub"-etuliite merkitsee laajennettua julkista avainta SegWit V0 -skripteille Mainnetissä.
+arvioitu: false

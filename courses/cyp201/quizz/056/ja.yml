@@ -1,0 +1,8 @@
+質問: シードからマスタープライベートキーを導出するために使用される定数は何ですか？
+回答: "Bitcoin Seed"
+誤った回答:
+  - "Master Key"
+  - "HD Wallet Seed"
+  - "Blockchain Root"
+説明: |
+  "Bitcoin Seed" 定数は、マスタープライベートキーとマスターチェーンコードを導出するために HMAC-SHA512 関数のキーとして使用されます。

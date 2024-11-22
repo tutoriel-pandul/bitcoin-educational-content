@@ -1,0 +1,8 @@
+pregunta: ¿Qué permite derivar una clave pública extendida?
+respuesta: Solo claves públicas de hijos normales
+respuestas_incorrectas:
+  - Solo claves privadas de hijos normales
+  - Tanto claves públicas de hijos endurecidos como normales
+  - Tanto claves privadas de hijos endurecidos como normales
+explicación: |
+  Una clave pública extendida solo permite la derivación de claves públicas de hijos normales, no de claves privadas ni de claves endurecidas.

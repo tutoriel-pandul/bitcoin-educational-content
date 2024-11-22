@@ -1,0 +1,9 @@
+kysymys: Mikä on pääasiallinen rooli salasanalla Bitcoin HD-lompakossa?
+vastaus: Muuttaa avaimen johdannan parantaakseen turvallisuutta
+vaarat_vastaukset:
+  - Purkaa odottavat transaktiot
+  - Generoida lompakon UTXO:t
+  - Suojata lompakon pääsy kasvojentunnistuksella
+selitys: |
+  Salasana toimii toisena turvatekijänä, muuttaen avaimen johdannan siementä estääkseen pääsyn lompakkoon, jos mnemoninen lause on vaarantunut.
+arvioitu: false

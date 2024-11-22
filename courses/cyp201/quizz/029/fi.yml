@@ -1,0 +1,9 @@
+kysymys: Mikä digitaalisen allekirjoituksen algoritmi otettiin käyttöön Bitcoinin lanseerauksessa?
+vastaus: ECDSA
+vaarat_vastaukset:
+  - Schnorr
+  - RSA
+  - HMAC
+selitys: |
+  Bitcoin käytti alun perin ECDSA:ta, allekirjoitusprotokollaa, joka perustuu elliptisiin käyriin, ennen kuin Schnorrin allekirjoitukset otettiin käyttöön vuonna 2021.
+arvioitu: false

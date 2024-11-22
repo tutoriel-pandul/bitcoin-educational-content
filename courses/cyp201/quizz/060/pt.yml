@@ -1,0 +1,9 @@
+pergunta: Que tipo de chave está associada ao prefixo "zpub"?
+resposta: Uma chave pública estendida para SegWit V0 na Mainnet
+respostas_erradas:
+  - Uma chave privada estendida para SegWit V1 na Mainnet
+  - Uma chave pública estendida para Legacy no Testnet
+  - Uma chave pública estendida para SegWit V2 no Testnet
+explicação: |
+  O prefixo "zpub" denota uma chave pública estendida para scripts SegWit V0 na Mainnet.
+revisado: false

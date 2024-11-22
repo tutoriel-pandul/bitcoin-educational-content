@@ -1,0 +1,9 @@
+pergunta: Qual é o tamanho da semente gerada pelo PBKDF2?
+resposta: 512 bits
+respostas_erradas:
+  - 128 bits
+  - 256 bits
+  - Variável dependendo do comprimento da frase mnemônica
+explicação: |
+  Independentemente do comprimento da frase mnemônica, o PBKDF2 sempre gera uma semente de 512 bits.
+revisado: false

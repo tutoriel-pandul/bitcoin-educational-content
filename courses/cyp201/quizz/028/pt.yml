@@ -1,0 +1,9 @@
+pergunta: Qual é o tamanho de uma chave pública comprimida usando o protocolo Schnorr?
+resposta: 32 bytes
+respostas_erradas:
+  - 33 bytes
+  - 64 bytes
+  - 256 bits
+explicação: |
+  Uma chave pública Schnorr é representada apenas pela coordenada x do ponto na curva elíptica, o que reduz seu tamanho para 32 bytes.
+revisado: false

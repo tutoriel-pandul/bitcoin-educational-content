@@ -1,0 +1,8 @@
+câu hỏi: Tiêu chuẩn Bitcoin nào giới thiệu ví xác định phân cấp?
+câu trả lời: BIP32
+câu trả lời sai:
+  - BIP39
+  - BIP44
+  - BIP141
+giải thích: |
+  BIP32 định nghĩa hoạt động của ví HD, cho phép việc phái sinh phân cấp các khóa riêng từ một hạt giống.

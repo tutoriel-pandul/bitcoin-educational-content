@@ -1,0 +1,8 @@
+kysymys: Mikä on laajennetun avaimen päätoiminto HD-lompakossa?
+vastaus: Mahdollistaa ala-avainten johdannan
+vaarat_vastaukset:
+  - Tallentaa lompakon tapahtumat
+  - Generoida suoraan UTXO:t
+  - Salata julkiset avaimet
+selitys: |
+  Laajennettu avain yhdistää avaimen (joko yksityisen tai julkisen) liitännäisen ketjukoodin kanssa, eli kaksi elementtiä, jotka ovat tarpeen ala-avainten johdannassa.

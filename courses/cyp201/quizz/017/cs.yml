@@ -1,0 +1,9 @@
+otázka: Která eliptická křivka je používána v protokolu Bitcoin?
+odpověď: secp256k1
+špatné_odpovědi:
+  - secp256r1
+  - ed25519
+  - P-384
+vysvětlení: |
+  Bitcoin používá křivku secp256k1, definovanou rovnicí y² = x³ + 7, pro své kryptografické operace.
+recenzováno: false

@@ -1,0 +1,9 @@
+otázka: Který Bitcoinový standard zavádí hierarchické deterministické peněženky?
+odpověď: BIP32
+špatné_odpovědi:
+  - BIP39
+  - BIP44
+  - BIP141
+vysvětlení: |
+  BIP32 definuje fungování HD peněženek, což umožňuje hierarchickou derivaci soukromých klíčů ze seedu.
+recenzováno: false

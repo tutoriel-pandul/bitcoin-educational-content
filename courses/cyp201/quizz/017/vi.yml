@@ -1,0 +1,9 @@
+câu hỏi: Đường cong elliptic nào được sử dụng trong giao thức Bitcoin?
+câu trả lời: secp256k1
+câu trả lời sai:
+  - secp256r1
+  - ed25519
+  - P-384
+giải thích: |
+  Bitcoin sử dụng đường cong secp256k1, được định nghĩa bởi phương trình y² = x³ + 7, cho các hoạt động mật mã của mình.
+đã xem xét: false

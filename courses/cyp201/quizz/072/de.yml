@@ -1,0 +1,9 @@
+Frage: Was bedeutet ein Apostroph (') oder das "h" in einem Ableitungspfad?
+Antwort: Eine gehärtete Ableitung
+Falsche Antworten:
+  - Eine normale Ableitung
+  - Eine externe Ableitung
+  - Eine nicht-standardmäßige Ableitung
+Erklärung: |
+  Ein Apostroph zeigt an, dass die Ableitung gehärtet ist, was bedeutet, dass ein Eltern-Privatschlüssel erforderlich ist, um den Kind-Schlüssel zu generieren.
+Überprüft: false

@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es el tamaño total de una clave extendida con el checksum incluido?
+respuesta: 82 bytes
+respuestas_incorrectas:
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
+explicación: |
+  Una clave extendida es de 78 bytes sin el checksum y de 82 bytes con el checksum incluido.

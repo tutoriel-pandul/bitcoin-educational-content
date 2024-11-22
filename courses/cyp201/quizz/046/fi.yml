@@ -1,0 +1,9 @@
+kysymys: Kuinka monta bittiä on tarkistussummassa, kun entropia on 128 bittiä?
+vastaus: 4 bittiä
+vaarat_vastaukset:
+  - 8 bittiä
+  - 16 bittiä
+  - 6 bittiä
+selitys: |
+  Tarkistussumman pituus lasketaan käyttämällä kaavaa CS = ENT / 32, mikä tarkoittaa 4 bittiä 128 bitin entropialle.
+arvioitu: false

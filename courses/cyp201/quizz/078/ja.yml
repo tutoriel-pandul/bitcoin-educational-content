@@ -1,0 +1,9 @@
+質問: ディスクリプターでの接頭辞 `wpkh` は何を意味していますか？
+回答: Pay-to-Witness-PubKey-Hash
+誤った回答:
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
+説明: |
+  接頭辞 `wpkh` は、Pay-to-Witness-Public-Key-Hash アドレスを使用する SegWit v0 スクリプトを示しています。
+レビュー済み: false

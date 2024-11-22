@@ -1,0 +1,8 @@
+kysymys: Mikä hajautusfunktio käytetään laskemaan mnemonisen lauseen tarkistussumma?
+vastaus: SHA256
+vaarat_vastaukset:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+selitys: |
+  Mnemonisen lauseen tarkistussumma lasketaan soveltamalla yksinkertaista SHA256-hajautusta entropiaan.

@@ -1,0 +1,9 @@
+Frage: Was ist der Zweck von SIGHASH_SINGLE?
+Antwort: Ein einzelnes Eingangssignal und sein entsprechendes Ausgangssignal abzudecken
+Falsche Antworten:
+  - Alle Eingangs- und Ausgangssignale abzudecken
+  - Nur Eingangssignale abzudecken
+  - Alle Ausgangssignale außer einem abzudecken
+Erklärung: |
+  SIGHASH_SINGLE deckt ein einzelnes Eingangssignal und ein einzelnes Ausgangssignal ab, das dem Index des signierten Eingangssignals entspricht, wobei der Rest modifizierbar bleibt.
+Überprüft: false

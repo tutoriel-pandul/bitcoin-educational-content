@@ -1,0 +1,9 @@
+otázka: Jaký typ klíče se používá k uzamčení UTXO na Bitcoinu?
+odpověď: Veřejný klíč
+nesprávné_odpovědi:
+  - Soukromý klíč
+  - Hash seedu
+  - Mnemonická fráze
+vysvětlení: |
+  UTXO jsou uzamčeny veřejným klíčem nebo jeho hashem a odemčeny odpovídajícím soukromým klíčem.
+recenzováno: false

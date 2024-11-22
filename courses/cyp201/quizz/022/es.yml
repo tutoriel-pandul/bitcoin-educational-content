@@ -1,0 +1,9 @@
+pregunta: ¿Cómo se calcula una clave pública a partir de una clave privada?
+respuesta: Mediante la multiplicación escalar en la curva elíptica
+respuestas_incorrectas:
+  - Aplicando un hash en la clave privada
+  - A través de la encriptación asimétrica
+  - Con la adición repetida de valores numéricos
+explicación: |
+  La clave pública se obtiene mediante la multiplicación escalar de la clave privada con el punto generador G en la curva elíptica.
+revisado: false

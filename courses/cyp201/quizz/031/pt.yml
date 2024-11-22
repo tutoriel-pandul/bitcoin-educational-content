@@ -1,0 +1,8 @@
+pergunta: Qual é o modificador que pode ser combinado com as flags básicas de sighash?
+resposta: SIGHASH_ANYONECANPAY
+respostas_erradas:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explicação: |
+  SIGHASH_ANYONECANPAY modifica as flags de sighash para cobrir apenas uma única entrada, deixando o restante modificável.

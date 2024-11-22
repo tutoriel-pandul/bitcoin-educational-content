@@ -1,0 +1,9 @@
+domanda: Quale algoritmo di firma digitale è stato utilizzato al lancio di Bitcoin?
+risposta: ECDSA
+risposte_errate:
+  - Schnorr
+  - RSA
+  - HMAC
+spiegazione: |
+  Inizialmente, Bitcoin ha utilizzato ECDSA, un protocollo di firma basato su curve ellittiche, prima dell'introduzione delle firme Schnorr nel 2021.
+revisionato: false

@@ -1,0 +1,9 @@
+domanda: Cosa ti permette di fare un portafoglio HD rispetto a un portafoglio JBOK?
+risposta: Generare tutte le chiavi private da un unico seed
+risposte_errate:
+  - Aumentare la sicurezza delle firme digitali
+  - Riutilizzare lo stesso indirizzo per molteplici transazioni
+  - Evitare completamente l'uso di chiavi pubbliche
+spiegazione: |
+  I portafogli HD derivano tutte le chiavi private da un seed unico, il che semplifica il backup e indirettamente migliora la privacy.
+revisionato: false

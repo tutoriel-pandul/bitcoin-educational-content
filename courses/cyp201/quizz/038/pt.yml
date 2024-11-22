@@ -1,0 +1,9 @@
+pergunta: Por que não é recomendado reutilizar um endereço Bitcoin?
+resposta: Facilita o rastreamento de transações por terceiros
+respostas_erradas:
+  - Revela a chave privada por causa do nonce
+  - Torna as transações mais caras
+  - Invalida assinaturas digitais
+explicação: |
+  Reutilizar um endereço permite que observadores vinculem facilmente diferentes transações ao mesmo usuário, comprometendo sua privacidade.
+revisado: false

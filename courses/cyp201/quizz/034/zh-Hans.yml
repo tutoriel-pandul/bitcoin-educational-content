@@ -1,0 +1,8 @@
+问题：在比特币交易中最常用的签名哈希标志是什么？
+答案：SIGHASH_ALL
+错误答案：
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+解释：
+  SIGHASH_ALL 是默认的签名哈希标志，它涵盖了交易的所有输入和输出，防止任何修改。

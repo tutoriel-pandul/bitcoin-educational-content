@@ -1,0 +1,8 @@
+pertanyaan: Berapa banyak bit entropi yang digunakan untuk frasa mnemonik 24 kata?
+jawaban: 256 bit
+jawaban_salah:
+  - 128 bit
+  - 512 bit
+  - 64 bit
+penjelasan: |
+  Frasa mnemonik 24 kata didasarkan pada 256 bit entropi, memastikan keamanan yang sangat tinggi.

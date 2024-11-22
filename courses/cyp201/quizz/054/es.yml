@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el principal papel de la frase de paso en una cartera HD de Bitcoin?
+respuesta: Modificar la derivación de clave para mejorar la seguridad
+respuestas_incorrectas:
+  - Descifrar transacciones pendientes
+  - Generar los UTXOs de la cartera
+  - Proteger el acceso a la cartera con identificación facial
+explicación: |
+  La frase de paso actúa como un segundo factor de seguridad, alterando la semilla de derivación de clave para prevenir el acceso a la cartera en caso de que la frase mnemotécnica sea comprometida.
+revisado: false

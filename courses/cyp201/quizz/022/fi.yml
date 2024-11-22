@@ -1,0 +1,9 @@
+kysymys: Kuinka julkinen avain lasketaan yksityisavaimesta?
+vastaus: Käyttämällä skalaarikertolaskua elliptisellä käyrällä
+vaarat_vastaukset:
+  - Soveltamalla hajautusfunktiota yksityisavaimelle
+  - Asymmetrisen salauksen kautta
+  - Toistuvalla numeeristen arvojen lisäyksellä
+selitys: |
+  Julkinen avain saadaan yksityisavaimen skalaarikertolaskulla generaattoripisteen G kanssa elliptisellä käyrällä.
+arvioitu: false

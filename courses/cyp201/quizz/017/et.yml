@@ -1,0 +1,9 @@
+küsimus: Millist elliptilist kõverat kasutatakse Bitcoin'i protokollis?
+vastus: secp256k1
+valed_vastused:
+  - secp256r1
+  - ed25519
+  - P-384
+selgitus: |
+  Bitcoin kasutab oma krüptograafilistes toimingutes secp256k1 kõverat, mis on määratletud võrrandiga y² = x³ + 7.
+üle vaadatud: false

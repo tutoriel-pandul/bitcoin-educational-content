@@ -1,0 +1,9 @@
+câu hỏi: Kích thước khối mà SHA512 sử dụng trong HMAC là bao nhiêu?
+câu trả lời: 128 byte
+câu trả lời sai:
+  - 64 byte
+  - 256 byte
+  - 1024 byte
+giải thích: |
+  SHA512 sử dụng các khối 128-byte, tương đương với 1024 bit, cho các phép tính của mình.
+đã xem xét: false

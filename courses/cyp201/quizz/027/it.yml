@@ -1,0 +1,9 @@
+domanda: Quale vulnerabilità della firma ECDSA è stata corretta da SegWit?
+risposta: Malleabilità
+risposte_errate:
+  - Verifica batch
+  - Mancanza di aggregazione
+  - Dimensione eccessiva delle firme
+spiegazione: |
+  SegWit ha corretto la malleabilità delle firme ECDSA, consentendo utilizzi come la Lightning Network.
+revisionato: false

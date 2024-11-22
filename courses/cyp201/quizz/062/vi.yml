@@ -1,0 +1,8 @@
+câu hỏi: Khóa công khai mở rộng cho phép suy ra những gì?
+câu trả lời: Chỉ các khóa công khai con bình thường
+câu trả lời sai:
+  - Chỉ các khóa riêng tư con bình thường
+  - Cả khóa công khai con cứng và bình thường
+  - Cả khóa riêng tư con cứng và bình thường
+giải thích: |
+  Một khóa công khai mở rộng chỉ cho phép suy ra các khóa công khai con bình thường, không phải khóa riêng tư hoặc khóa cứng.

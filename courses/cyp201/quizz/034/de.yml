@@ -1,0 +1,8 @@
+Frage: Welches Sighash-Flag wird am häufigsten bei Bitcoin-Transaktionen verwendet?
+Antwort: SIGHASH_ALL
+Falsche Antworten:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+Erklärung: |
+  SIGHASH_ALL ist das Standard-Sighash-Flag, das alle Eingaben und Ausgaben einer Transaktion abdeckt und jegliche Modifikationen verhindert.

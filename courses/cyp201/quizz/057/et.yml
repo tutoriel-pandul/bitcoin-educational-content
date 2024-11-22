@@ -1,0 +1,9 @@
+küsimus: Kui suur on PBKDF2 poolt genereeritud seemne suurus?
+vastus: 512 bitti
+valed_vastused:
+  - 128 bitti
+  - 256 bitti
+  - Muutuv sõltuvalt mnemoonilise fraasi pikkusest
+selgitus: |
+  Sõltumata mnemoonilise fraasi pikkusest genereerib PBKDF2 alati 512-bitise seemne.
+üle vaadatud: false

@@ -1,0 +1,9 @@
+otázka: Co se děje během každého kompresního kola v SHA256?
+odpověď: Stavové proměnné jsou aktualizovány z datových slov zprávy a konstant
+špatné_odpovědi:
+  - Konečný hash je postupně generován po každém kole
+  - Bity zprávy jsou přeuspořádány
+  - Počáteční hodnoty proměnných zůstávají nezměněny
+vysvětlení: |
+  Každé kolo upravuje stavové proměnné pomocí slov, konstant a logických operací pro rozšíření informací.
+recenzováno: false

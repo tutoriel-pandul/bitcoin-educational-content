@@ -1,0 +1,9 @@
+domanda: Che tipo di chiave viene utilizzata per bloccare gli UTXO su Bitcoin?
+risposta: Chiave pubblica
+risposte_errate:
+  - Chiave privata
+  - Hash del seed
+  - Frase mnemonica
+spiegazione: |
+  Gli UTXO sono bloccati con una chiave pubblica o il suo hash e sbloccati con la corrispondente chiave privata.
+revisionato: false

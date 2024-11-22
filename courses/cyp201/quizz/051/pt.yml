@@ -1,0 +1,9 @@
+pergunta: Qual é a principal diferença entre uma frase-senha e um código PIN para uma carteira de Bitcoin?
+resposta: A frase-senha modifica a derivação da chave, não o código PIN
+respostas_erradas:
+  - O código PIN está vinculado à frase mnemônica
+  - O código PIN é usado para criptografar transações, mas não a frase-senha
+  - O código PIN gera endereços Bitcoin
+explicação: |
+  Ao contrário do código PIN, a frase-senha está diretamente envolvida no processo de derivação da chave e altera as chaves da carteira.
+revisado: false

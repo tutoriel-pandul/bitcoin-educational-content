@@ -1,0 +1,8 @@
+kysymys: Miksi kuvaajat ovat erityisen hyödyllisiä multisignatuuri-lompakoille?
+vastaus: Ne sisältävät jokaisen tekijän xpubin ja kuvaavat multisignatuurirakennetta
+vaarat_vastaukset:
+  - Ne poistavat tarpeen mnemoniselle lauseelle
+  - Ne yksinkertaistavat kovetettujen avainten luomista
+  - Ne tekevät multisignatuureista yhteensopivia kaikkien skriptien kanssa
+selitys: |
+  Kuvaajat sisältävät kaikkien osallistujien laajennetut julkiset avaimet, mikä helpottaa multisignatuurikonfiguraatioiden palauttamista ja hallintaa.

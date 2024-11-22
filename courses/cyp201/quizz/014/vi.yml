@@ -1,0 +1,8 @@
+câu hỏi: Số lần lặp lại được sử dụng bởi PBKDF2 trong Bitcoin là bao nhiêu?
+câu trả lời: 2048
+câu trả lời sai:
+  - 1024
+  - 4096
+  - 512
+giải thích: |
+  PBKDF2 lặp lại quy trình HMAC-SHA512 2048 lần để tăng cường bảo mật.

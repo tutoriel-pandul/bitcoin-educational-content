@@ -1,0 +1,8 @@
+domanda: Quale flag sighash è il più comunemente usato nelle transazioni Bitcoin?
+risposta: SIGHASH_ALL
+risposte_errate:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+spiegazione: |
+  SIGHASH_ALL è il flag sighash predefinito, che copre tutti gli input e gli output di una transazione, impedendo qualsiasi modifica.

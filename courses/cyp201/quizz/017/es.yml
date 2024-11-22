@@ -1,0 +1,9 @@
+pregunta: ¿Qué curva elíptica se utiliza en el protocolo Bitcoin?
+respuesta: secp256k1
+respuestas_incorrectas:
+  - secp256r1
+  - ed25519
+  - P-384
+explicación: |
+  Bitcoin utiliza la curva secp256k1, definida por la ecuación y² = x³ + 7, para sus operaciones criptográficas.
+revisado: false

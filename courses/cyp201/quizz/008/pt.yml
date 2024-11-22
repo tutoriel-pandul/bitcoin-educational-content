@@ -1,0 +1,9 @@
+pergunta: Por que o SHA256 aplica um pré-processamento à mensagem de entrada?
+resposta: Para garantir um comprimento múltiplo de 512 bits
+respostas_erradas:
+  - Para verificar a integridade da mensagem
+  - Para criptografar os dados antes da hashagem
+  - Para aumentar o tamanho das hashes geradas
+explicação: |
+  O pré-processamento ajusta o comprimento da mensagem adicionando bits de preenchimento e uma representação binária de seu comprimento.
+revisado: false
