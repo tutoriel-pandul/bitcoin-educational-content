@@ -80,7 +80,7 @@ In addition to maintaining financial stability, central banks are responsible fo
 
 ![image](assets/en/02.webp)
 
-Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+Figure2: Lehman Brothers’ Bankruptcy (15/09/2008)
 
 During the major financial crisis of 2008, Lehman Brothers, a large investment bank, declared bankruptcy after suffering significant losses on its mortgage securities holdings and experiencing massive withdrawals from concerned clients. In response to this unprecedented financial turmoil, central bankers around the world injected large amounts of liquidity into financial markets, merged struggling investment banks with commercial banks, and lowered policy rates to near zero in an effort to prevent a systemic collapse.
 
