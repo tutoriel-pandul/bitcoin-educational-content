@@ -99,7 +99,7 @@ Difficulty adjustment is a crucial mechanism in the operation of the Bitcoin net
 - Example from China:
   The case of China perfectly illustrates this difficulty adjustment mechanism. With abundant and cheap energy, China was the main global hub for Bitcoin mining. In 2021, the country suddenly banned Bitcoin mining on its territory, resulting in a massive drop in the global Bitcoin network's hashrate, around 50%. This rapid decrease in mining power could have severely disrupted the Bitcoin network by increasing the average block mining time. However, the difficulty adjustment mechanism kicked in, reducing the mining difficulty to ensure that the block mining frequency remains at an average of 10 minutes. This case demonstrates the efficiency and resilience of Bitcoin's difficulty adjustment mechanism, which ensures the stability and predictability of the network, even in the face of sudden and significant changes in the global mining landscape.
 
-### Evolution of Bitcoin nining nachines
+### Evolution of Bitcoin mining machines
 
 Regarding the evolution of Bitcoin mining machines, it is important to note that the context is more oriented towards a traditional business model. Miners earn their income from block validation, a task with a relatively low probability of success. The current model in use, the Antminer S9, although an older model launched around 2016, is still in circulation in the second-hand market, trading for around €100 to €200. However, the price of mining machines varies based on the value of Bitcoin, and a newer model, the Antminer S19, is currently estimated at around €3000.
 
