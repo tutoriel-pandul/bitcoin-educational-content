@@ -318,11 +318,11 @@ Face à des campagnes comme celles de Greenpeace et aux chiffres souvent trompeu
 
 En conclusion, malgré le risque réglementaire et la possibilité d'une interdiction du minage en Europe, l'arme la plus puissante reste l'éducation et l'information. La compréhension claire et précise du minage, son fonctionnement, et son impact peut aider à démystifier l'industrie et à lutter contre la désinformation, offrant ainsi une meilleure résistance aux régulations potentiellement dommageables. L'initiative de former et d'informer les gens sur le minage, comme le fait cette discussion, est un pas dans la bonne direction pour garantir la pérennité et la croissance du minage en Europe, et partout dans le monde. Les efforts continus pour éduquer et informer sont essentiels pour assurer un avenir sûr et prospère pour l'industrie du minage de Bitcoin.
 
-## Interview d'un professionnel de l'industrie du minage
+### Interview d'un professionnel de l'industrie du minage
 
 <chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
 
-### Les coulisses du minage industriel - Sebastien Gouspillou
+#### Les coulisses du minage industriel - Sebastien Gouspillou
 
 ![Les coulisses du minage industriel - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
@@ -352,9 +352,9 @@ Un ordinateur, ou plus largement une carte électronique, ne consomme pas d’é
 
 Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. La besoin des serveurs n’est pas liée au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.
 
-> La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générer cette chaleur avec votre ordinateur.Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double. La création de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où le chauffage est électrique, où miner deviendra gratuit.
->
-> Satoshi Nakamoto – 8 août 2010
+> La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générer cette chaleur avec votre ordinateur.Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double. La création de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où le chauffage est électrique, où miner deviendra gratuit.  
+>  
+> Satoshi Nakamoto – 8 août 2010  
 
 Le Bitcoin et sa preuve de travail se démarquent car ils ajustent automatiquement la difficulté du minage en fonction de la quantité de calcul effectué par l’ensemble du réseau, cette quantité s’appelle le hashrate et est exprimé en hash/seconde. Aujourd’hui il est estimé à 380 Exahash/seconde, soit 380 milliards de milliards de hash/seconde. Ce hashrate représente du travail et donc une quantité d’énergie dépensée. Plus le hashrate est élevé, plus la difficulté augmente, et inversement. Ainsi, on peut activer ou désactiver un mineur Bitcoin à n’importe quel moment sans incidence pour le réseau contrairement aux radiateurs/serveurs qui nécessitent de rester stables pour offrir leur service. Le mineur est récompensé pour sa participation, relativement à celle des autres, aussi petite soit-elle.
 
@@ -366,9 +366,9 @@ Ce qu’il est important de comprendre, c’est la manière dont le minage parti
 Plusieurs technologies déjà existantes ont été ingénieusement combinées pour donner vie au consensus de Nakamoto. Ce consensus permet de récompenser économiquement les acteurs honnêtes pour leur participation au fonctionnement du réseau Bitcoin, tout en décourageant les acteurs malhonnêtes. C’est l’un des points clés qui permet au réseau d’exister de façon durable.
 Les acteurs honnêtes, ceux qui effectuent du minage selon les règles, sont tous en concurrence les uns avec les autres pour obtenir la plus grande part possible de la récompense pour la production de nouveaux blocs. Cette incitation économique conduit naturellement à une forme de centralisation car des entreprises choisissent de se spécialiser dans cette activité lucrative en réduisant leurs coûts grâce aux économies d’échelle. Ces acteurs industriels ont une position avantageuse, pour l’achat, la maintenance de machines mais aussi pour la négociation de tarifs d’électricité de gros.
 
-> Au début, la plupart des utilisateurs exécuteraient des nœuds de réseau, mais à mesure que le réseau se développerait au-delà d’un certain point, il serait de plus en plus laissé aux spécialistes avec des fermes de serveurs de matériel spécialisé. Une batterie de serveurs n’aurait besoin que d’un seul nœud sur le réseau et le reste du LAN se connecte à ce nœud.
->
-> Satoshi Nakamoto – 2 novembre 2008
+> Au début, la plupart des utilisateurs exécuteraient des nœuds de réseau, mais à mesure que le réseau se développerait au-delà d’un certain point, il serait de plus en plus laissé aux spécialistes avec des fermes de serveurs de matériel spécialisé. Une batterie de serveurs n’aurait besoin que d’un seul nœud sur le réseau et le reste du LAN se connecte à ce nœud.  
+>  
+> Satoshi Nakamoto – 2 novembre 2008  
 
 Certaines entités détiennent un pourcentage considérable du hashrate total dans de grandes fermes de minage. On peut observer la récente vague de froid aux États-Unis où une partie importante du hashrate a été mise hors ligne pour permettre à l’énergie d’être redirigée vers les foyers ayant un besoin exceptionnel d’électricité. Pendant plusieurs jours, les mineurs ont été incités économiquement à éteindre leurs fermes et on peut donc voir cette météo exceptionnelle sur la courbe du hashrate de Bitcoin.
 
@@ -582,7 +582,7 @@ Nous allons voir ici comment installer facilement Braiins OS+ directement sur la
 
 8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée puis cliquez sur “Start”.
 
-> Si l’installation ne fonctionne pas, il peut être nécessaire d’effectuer une réinitialisation puis essayer de nouveau (voir la section précédente).
+> Si l’installation ne fonctionne pas, il peut être nécessaire d’effectuer une réinitialisation puis essayer de nouveau (voir la section précédente).  
 
 ![image](assets/software/8.webp)
 
@@ -644,7 +644,7 @@ Sur cette première page vous pourrez observer les performances de votre machine
 
 ![Remplacer les ventilateurs pour réduire les nuisances sonores](https://www.youtube.com/watch?v=2CNGKZiveuc)
 
-> ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.
+> ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.  
 
 ![image](assets/hardware/cover.webp)
 
@@ -653,7 +653,7 @@ Sur cette première page vous pourrez observer les performances de votre machine
 - 1 ventilateur Noctua NF-A6x25 PWM
 - Sucre d’électricien 2,5mm2
 
-> ATTENTION : Tout d’abord, avant de commencer, assurez-vous de bien avoir débranché votre mineur pour éviter tout risque d’électrocution.
+> ATTENTION : Tout d’abord, avant de commencer, assurez-vous de bien avoir débranché votre mineur pour éviter tout risque d’électrocution.  
 
 ![image](assets/hardware/1.webp)
 
@@ -702,7 +702,7 @@ Une fois le branchement effectué, il est temps de mettre en place le nouveau ve
 ![image](assets/hardware/15.webp)
 ![image](assets/hardware/16.webp)
 
-> Optionnel : Si vous êtes compétent en électricité, vous pouvez ajouter directement sur la sortie d’alimentation 12V un connecteur jack 5,5 mm femelle qui permettra d’alimenter directement le bridge Wi-Fi Vonet. Cependant, si vous n’êtes pas sûr de vos compétences en électricité, il est préférable d’utiliser le connecteur USB avec un chargeur de type smartphone pour éviter tout risque de court-circuit ou de dommage électrique.
+> Optionnel : Si vous êtes compétent en électricité, vous pouvez ajouter directement sur la sortie d’alimentation 12V un connecteur jack 5,5 mm femelle qui permettra d’alimenter directement le bridge Wi-Fi Vonet. Cependant, si vous n’êtes pas sûr de vos compétences en électricité, il est préférable d’utiliser le connecteur USB avec un chargeur de type smartphone pour éviter tout risque de court-circuit ou de dommage électrique.  
 
 ![image](assets/hardware/17.webp)
 
@@ -718,7 +718,7 @@ Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur le
 
 ![Remplacer les ventilateurs pour réduire les nuisances sonores](https://www.youtube.com/watch?v=2CNGKZiveuc)
 
-> ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.
+> ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.  
 
 ![image](assets/hardware/cover.webp)
 
@@ -728,7 +728,7 @@ Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur le
 - 2 ventilateurs Noctua NF-A14 iPPC-2000 PWM
 - 2 grilles de ventilateurs 140mm
 
-> ATTENTION : Tout d’abord, avant de commencer, assurez-vous de bien avoir débranché votre mineur pour éviter tout risque d’électrocution.
+> ATTENTION : Tout d’abord, avant de commencer, assurez-vous de bien avoir débranché votre mineur pour éviter tout risque d’électrocution.  
 
 1. Tout d’abord, débranchez les ventilateurs et dévissez-les.
 
