@@ -381,7 +381,7 @@ The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by t
 
 ![image](assets/en/chapter4/2.webp)
 
-> Did you know that miners are incentivized to mine a block in order to earn new bitcoins through the block subsidy, as well as transaction fees from the transactions they include in that block?
+Did you know that miners are incentivized to mine a block in order to earn new bitcoins through the block subsidy, as well as transaction fees from the transactions they include in that block?
 
 Thus, as the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block subsidy.
 
@@ -534,20 +534,20 @@ In conclusion, direct ownership of one's bitcoins is an essential element to ens
 
 With this in mind, we can now move to the next section where we describe how to create a Bitcoin wallet. However, if you wish to further explore the topic of security, you can read this [article by DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Quick recap in a poster!
+### Quick Recap in a Poster!
 
 ![Alt text](assets/posters/en/9._choose_the_right_wallet.webp)
 
-## Setting up a wallet
+## Setting up a Wallet
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
-The security of your bitcoins is of crucial importance, and a simple mistake can have costly consequences. That's why we will now look at the best practices when creating a new Bitcoin wallet.
+The security of your bitcoins has crucial importance, and a simple mistake can have disastrous consequences. That is why we need to learn the best practices to adopt when creating a new Bitcoin wallet.
 
-> Note that the BTC102 course will guide you through this step.
+Please note that the [BTC102 course](https://planb.network/en/courses/btc102) will guide you through this step.
 
-### This step is no joke!
+### This Step is no Joke!
 
-Your private key, often represented by a list of 24 words (often called a "seed" or "mnemonic phrase"), represents access to your funds. If this key is revealed to a third party, consider the associated funds no longer secure. Therefore, when initializing your wallet, it is important to follow these rules:
+When you set up a wallet, the software usually creates your private key, usually represented by a list of 12/24 words (often called "seed phrase" or "mnemonic phrase"): these words constitute the access to your funds. If this key is ever revealed to a third party, you should consider the associated funds to be compromised. Therefore, when setting up your wallet, it is essential to follow these rules:
 
 - Cover all cameras.
 - Do not take a photo of the word list.
@@ -556,71 +556,76 @@ Your private key, often represented by a list of 24 words (often called a "seed"
 - Never leave your words unattended on your desk.
 - Never hide your word list in an unusual place.
 
-You will literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list in order, neatly and clearly, with a pen. If the ink fades over time, you may lose your funds; therefore, it is important to keep this paper protected from the elements.
+You should literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list with a pen, following the presented order neatly and clearly. Be aware that if the ink fades over time, you may lose your funds. Therefore, it is important to keep this paper protected from those environmental factors that could potentially damage the paper, like moisture or fire.
 
 ![image](assets/en/chapter7/0.webp)
 
-### Tips for doing it right
-
-There are also alternative solutions to paper, such as engraving your mnemonic phrase on a metal plate. If you write it incorrectly, your heirs may not be able to read it and therefore may not be able to recover the funds. Once the words are written, it is recommended to make a second copy and store it in a separate location from the first. This provides a backup in case of loss or accident with the first copy.
+### Our Tips for Doing it Right
+Besides, make sure not to make a mistake during the copy, otherwise your heirs may struggle to read it and could be unable to recover the funds. Besides, once you have saved the words, it’s advisable to create a second copy and store it in a different location from the first. This ensures you have a backup in case the original is lost or damaged.
 
 ![image](assets/en/chapter7/1.webp)
 
-Once the copies are made, store the word lists in a safe place where you will remember to look for them! Do not create a too complex hiding plan where you risk losing them.
+The word lists should be stored in a safe place that you can easily remember. Avoid creating overly-complicated hiding plans that could lead to losing them.
 
-> Your words = your money.
+**Your words = your money.**
 
-"Cold" wallets generally have these word lists, just like "hot" wallets on mobile or PC. This method of backing up the private key is now the standard. This means that you can enter your mnemonic phrase into any wallet software to restore yours. Only bad wallets that we strongly discourage will not give you a list of 24 words, but may ask for an account, an email address, or worse, an ID.
+Both 'cold' and 'hot' wallets use the word list method as the standard for backing up private keys. As a result, you can enter your mnemonic phrase into any compatible wallet software or device to restore your access. On the other hand, we strongly advise against using wallets that do not provide a seed phrase, as they may require you to provide an account, an email address, or, even worse, an ID.
 
-**ATTENTION: The absence of a list of 24 words should alert you.**
+**ATTENTION: The absence of a list of 12/24 words should alert you.**
 
-### Quick recap in a poster!
+### Quick Recap in a Poster!
 
 ![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
-## Standing the test of time
+## Passing the Test of Time
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
-Security is a major concern in the Bitcoin ecosystem. Indeed, like any form of wealth, your bitcoins must be protected against loss, theft, and degradation, especially in the long term. Securing your bitcoins requires some technical knowledge and awareness of the associated risks, which leads us to discuss two main strategies: engraving your bitcoins in steel and creating an inheritance plan.
+Like any form of wealth, your bitcoins must be protected against loss, theft, and degradation, especially over the long term. Safeguarding your bitcoins requires some technical knowledge and an understanding of the associated risks, which opens the way to two main strategies: engraving your bitcoins on a steel plate and establishing an inheritance plan.
 
-### Engraving in stone
+### Engraving in Steel
 
-One method to secure your bitcoins in the long term is to engrave your mnemonic phrase on a resistant material like steel. This creates a physical backup of your keys that is resistant to both water damage and fire.
+One method to secure your bitcoins in the long term is to engrave your mnemonic phrase on a resistant material like steel, by creating a physical backup of your keys that is resistant to both water and fire damage.
 
-There are many solutions to achieve this, some are low-cost like the "Blockmit," while others require more equipment. You can explore this topic yourself through the tutorials section of this university.
+Various solutions are available: some of them are low-cost, such as the "Blockmit", while others may require more specialized equipment. You can explore this topic further in the [tutorials](https://planb.network/en/tutorials/wallet) section of our academy.
 
 ![image](assets/en/chapter8/1.webp)
 
-### Think about the next generation!
+### Think about the Next Generation!
 
-Conjointly with this, creating an inheritance plan is also a crucial step to ensure that your bitcoins will be properly managed after your death. This plan can include a handwritten letter detailing your assets, their access methods, and the contact information of trusted individuals to be contacted. It is also important to discuss the inheritance of bitcoins with a notary to ensure tax compliance, although it is important to never directly entrust your bitcoins to a third party, including a notary.
+Alongside this first practice, creating an inheritance plan is a crucial step to ensure that your bitcoins are properly managed after your death. This plan involves handwriting a letter where you outline the nature of your assets, their access methods, and the contact information of the trusted individuals who have responsibility over them. It’s also important to discuss the inheritance of bitcoins with a notary to ensure tax compliance, even if this person should never be entrusted directly with the management of your bitcoins.
 
-If you wish to further explore the subject of an inheritance plan for your bitcoins, we recommend Pamela Morgan's book [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) or taking the BTC102 course where we guide you in its creation.
+If you wish to further explore the subject of the inheritance plan for your bitcoins, we recommend reading Pamela Morgan's book [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) or enrolling in the BTC102 course, where we provide guidance on creating your plan.
 
 ![image](assets/en/chapter8/2.webp)
 
-### Privacy is important
+### Privacy is Important
 
-The long-term security of your bitcoins is not limited to creating physical backups or developing an inheritance plan. Privacy is another important consideration. For example, it is preferable to buy bitcoins without providing identification to minimize the risks of identity theft or simply the tracing of your funds by any entity with sufficient means. The BTC 205 course can assist you with this if needed.
+In addition to creating physical backups or developing an inheritance plan, privacy is another important topic when it comes to the long-term security of your bitcoins. For example, it is preferable to buy bitcoins without providing identification to minimize the risks of identity theft or tracking of your funds by those entities with the right tools.
 
-Regarding privacy, it is crucial to avoid talking to everyone about your bitcoins. Indeed, we do not know where this asset will go, and maintaining discretion regarding its ownership is a wise decision. You do not want to attract attention to yourself and your wallet.
+Regarding privacy, it is crucial to avoid talking to everyone about your bitcoins. We cannot predict how this technology will be perceived in the future, so maintaining discretion about your ownership is a wise choice: you don’t want to draw attention to yourself or your wallet.
 
-In the same vein, avoid loudly revealing your security system during bitcoin meetings or encounters with strangers...
+Similarly, avoid openly sharing details about your security system during bitcoin meetings or encounters with strangers...
 
-### Quick recap in a poster!
+### Quick Recap in a Poster!
 
 ![Alt text](assets/posters/en/19._think_long_term.webp)
 
-### Summary on Bitcoin wallet security
+### Summary on Bitcoin Wallet Security
 
-Bitcoin wallets are software that allows you to store and transact bitcoins. There are several types: mobile or PC wallets, convenient for small amounts and/or regular expenses; physical wallets, more suitable for storing bitcoins in the medium and long term; multisig wallets, which are more complex to manage and require multiple signatures to perform transactions.
-When creating a wallet, you must first backup your private key. This backup takes the form of a list of 12 or 24 words, or 12 words that you can write on a piece of paper or a metal plate. This mnemonic phrase allows you to restore your wallet on any Bitcoin wallet application. Anyone with access to this list also has access to your bitcoins. In Bitcoin, financial sovereignty goes hand in hand with individual responsibility, so it is crucial that you secure access to your wallets and backups. To do this, it is important to follow certain rules:
+Bitcoin wallets are pieces of software that allow you to store bitcoins and make transactions. There are several types: 
+- mobile or PC wallets, convenient for small amounts and/or regular expenses;
+- physical wallets, more suitable for storing bitcoins in the medium and long term;
+- multisig wallets, which are more complex to manage and require multiple signatures to perform transactions.
+  
+When creating a wallet, you must first backup your list of 12 or 24 words on a piece of paper or a metal plate. This so-called mnemonic phrase allows you to restore your wallet through any Bitcoin wallet application. Be aware that anyone who gains access to this list also gains access to your funds. 
 
-- Create an inheritance plan: to ensure that your loved ones can retrieve the money in case of a problem.
-- Avoid exchange platforms: it is advisable to avoid leaving your Bitcoins on exchange platforms, as they can be susceptible to hacker attacks.
-- Adapt your level of security: take the time to explain your needs and uses, this will help you make your choice among the different Bitcoin wallets available.
+In the world of Bitcoin, financial sovereignty is closely tied to individual responsibility, making it essential to secure access to your wallets and backups. To achieve this, it’s important to follow certain guidelines:
 
-Now that we have covered the basics of Bitcoin wallets and best practices for securing them, we will address the technical functioning of Bitcoin in the next chapter. Once again, knowing the basics of the Bitcoin protocol will allow you to better understand its functioning, which will enable you to make better use of it.
+- Create an inheritance plan to ensure that your loved ones can retrieve the money in case of any problem.
+- Avoid leaving your Bitcoins on exchange platforms as they can be susceptible to hacker attacks.
+- Adapt your level of security to your needs and use cases, in order to choose well among the different Bitcoin wallets available.
+
+Now that we have covered the basics of Bitcoin wallets and the best practices for securing them, in the next chapter we will explore the technical features of Bitcoin. Once again, understanding the basics of the Bitcoin protocol will enhance your comprehension of how it works, empowering you to make better use of it.
 
 # The technical aspects of Bitcoin.
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
