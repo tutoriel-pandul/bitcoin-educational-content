@@ -8,7 +8,7 @@ objectives:
   - Why have central bankers gone mad?
 ---
 
-# A journey into economics
+# A Journey into Economics
 
 Welcome to Théo Mogenet's course! Passionate about economics, history, literature, political science, and technology, he has decided to share his knowledge of Austrian economics with you. This branch, less known in economics, is based on human rationality and free actor behavior. Less intense in mathematics, it is a question of logic and social study above all.
 
@@ -48,6 +48,7 @@ If you are ready to embark on this adventure, I invite you to click on the follo
 >
 > Satoshi Nakamoto, pseudonymous inventor of Bitcoin
 
+
 ### How Money is Created
 
 In our present-day monetary system, money is primarily created through a banking practice known as "fractional reserve banking." This term essentially means that banks are not required to hold as many reserves as they receive in deposits. Consequently, they can create new purchasing power when granting loans and, conversely, reduce purchasing power when customers repay their loans.
@@ -65,6 +66,7 @@ Figure 1: Money Creation as Bookkeeping Entries
 > “It is well enough that people of our nation do not understand our banking and monetary system, for if they did, I believe there would be a revolution before tomorrow morning”
 >
 > Henry Ford
+
 
 This process allows banks to record all transactions, including wire transfers, credit card purchases, and checks, over a specified period (usually a week or a month). They then settle these transactions with each other using bank reserves, which are another form of fiat currency never used by the public. Bank reserves are held at the central bank in a special account accessible only to licensed banks and financial institutions.
 
@@ -124,6 +126,7 @@ With inflation on the rise due to substantial money creation in response to COVI
 >
 > John Maynard Keynes
 
+
 In essence, our system is facing substantial challenges, and Bitcoin emerges as the only credible alternative. However, Bitcoin alone cannot address the issues within our monetary system. Above all, we need individuals who understand basic economic principles among Bitcoin enthusiasts, enabling a broader awareness and economic common sense to guide us away from constructing another fragile financial foundation for our civilization. The primary objective of this course is to educate new Bitcoin enthusiasts in sound economic principles.
 
 To achieve this goal, we will explain the fundamental principles of "Austrian Economics," an economic school of thought with a methodological tradition dating back to the 16th century, providing insights into human action under economic constraints. With this introduction, you now grasp the essentials of money creation and the current state of our financial and monetary system.
@@ -141,6 +144,7 @@ In the upcoming chapter, we will delve into the foundational cornerstone of any 
 > “Value only exists within human consciousness”
 >
 > Carl Menger, Principles of Political Economy
+
 
 ### The Marginal Revolution
 
@@ -211,6 +215,7 @@ The result of the preceding analysis is that individuals are always better off w
 > "If a man sees that he can live more comfortably hanging from the gallows than sitting at the table, he would be acting like a fool not to hang himself."
 >
 > Baruch Spinoza
+
 
 1871-1874 are the wonderful years of modern economics: this period witnessed the works of three independent thinkers foundational to modern economics. With their emphasis on subjective ordinal value Austrian economists will develop a whole body of economic thought setting them apart from their homologues. The work of Austrian economists reasoning about human action in the context of scarcity will forever stand in stark contrast with the economic doctrines initiated by Jevons and Walras heavily relying on mathematics standing on the back of the idea that value can be objectively measured and derived as a continuous function.
 
@@ -385,6 +390,7 @@ This is what we will find out in the next chapter dedicated to the Austrian Theo
 >
 > Ludwig von Mises
 
+
 It was Ludwig Von Mises, the most accomplished student of Böhm-Bawerk and arguably the most important Austrian economist of the 20th century, who used Böhm-Bawerk's capital reasoning to explain the causes and dynamics of economic cycles. Friedrich A. Hayek, Mises's protege, later extended this reasoning to its logical conclusions in works for which he was awarded the Nobel Prize in Economics in 1974.
 
 Mises and Hayek began their analysis with an increase in savings as the starting point. As we have seen in the previous chapters, any increase in savings necessarily entails a corresponding decrease in consumption and thus lower relative prices of consumer goods. This leads to two effects: firstly, an increased demand for capital goods caused by rising real wages resulting from the relative decrease in the prices of consumer goods; and secondly, an increase in entrepreneurial profits at the stages of production farthest from consumption (lower order). As real wages rise, entrepreneurs are incentivized to economize labor by using more capital goods, which creates a stronger demand for capital goods and higher profits for entrepreneurs producing these lower order goods. Thus, in the context of increased savings, i.e. a decrease in time preferences, interest rates fall, promoting the development of additional stages of production and increased productivity. This is a classic Böhm-Bawerkian production detour, and it is a highly desirable outcome.
@@ -461,6 +467,7 @@ This will be the subject of the next and last chapter of this course.
 >
 > Ludwig von Mises, Planned Chaos
 
+
 ### The Impossibility of Economic Calculation under Socialism
 
 Despite the repeated failures of Marxist regimes over the last century, the economic calculation debate remains pertinent for two significant reasons:
@@ -487,6 +494,7 @@ Without markets for capital and money, it becomes impossible to rationalize the 
 > "[...] the cardinal fallacy implied in [market socialist] proposals is that they look at the economic problem from the perspective of the subaltern clerk whose intellectual horizon does not extend beyond subordinate tasks. They consider the structure of industrial production and the allocation of capital to the various branches and production aggregates as rigid and do not take into account the necessity of altering this structure to adjust it to changes in conditions.... They fail to realize that the operations of corporate officers consist merely in the loyal execution of the tasks entrusted to them by their bosses, the shareholders.... The operations of managers, their buying and selling, are only a small segment of the totality of market operations. The market of the capitalist society also performs those operations which allocate the capital goods to the various branches of industry. The entrepreneurs and capitalists establish corporations and other firms, enlarge or reduce their size, dissolve them, or merge them with other enterprises; they buy and sell the shares and bonds of already existing and new corporations; they grant, withdraw, and recover credits; in short, they perform all those acts, the totality of which is called the capital and money market. It is these financial transactions of promoters and speculators that direct production into those channels in which it satisfies the most urgent wants of the consumers in the best possible way."
 >
 > Mises, Human Action, pp. 703-04
+
 
 In essence, Mises argues that property rights, which place capital owners in a context of profits and losses, motivate them to allocate their resources to industries that are currently most in need of resources to satisfy consumer demands. When they succeed, they profit, but when they fail, they incur financial losses. Their "skin in the game" encourages them to speculate about the best allocation of capital for the current state of the economy. This creates a market-driven dynamic where the collective outcomes of their actions produce vital information about the most efficient use of resources.
 
@@ -517,6 +525,7 @@ Today, the economic calculation debate resurfaces primarily in discussions about
 For a concrete application of the economic calculation problem to a contemporary situation, you can refer to this article tackling the problem of resource allocation in modern China.
 
 > The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
+
 
 ### Conclusion
 
