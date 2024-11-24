@@ -81,14 +81,14 @@ The important point here is to understand this new technology in a general way, 
 
 Before the term "Bitcoin" became synonymous with digital currency and financial transformation, the groundwork for its creation was laid by a series of ideas, innovations, and social movements. Among these, the cypherpunk movement stands out as a key element in the prehistory of Bitcoin."
 
-### Cypherpunks: Visionaries of the Digital World
+### Cypherpunks: visionaries of the digital world
 
 ![image](assets/en/chapter0/0.webp)
 In the heart of the technological evolution of the 1980s and 1990s, a group of people began to deeply question the role of privacy and freedom in the digital age. These individuals, who would later be known as "cypherpunks", firmly believed that cryptography could serve as a tool to protect individual rights against the interference from governments and large corporations.
 
 Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum played a pivotal role in shaping the philosophy and vision of the movement. These thinkers shared their ideas on an influential mailing list, where participants from around the globe engaged in debates about the best ways to leverage technology for greater individual freedom.
 
-### The Three Fundamental Papers of the Cypherpunks
+### The three fundamental papers of the Cypherpunks
 
 ![image](assets/en/chapter0/2.webp)
 
@@ -103,7 +103,7 @@ The cypherpunk movement, deeply rooted in digital activism and cryptography, dre
 - The "Declaration of the Independence of Cyberspace":
   Although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
 
-### The Predecessors of Bitcoin
+### The predecessors of Bitcoin
 
 Before the emergence of Bitcoin, there had been several attempts to create a digital currency. For example, David Chaum introduced the concept of "anonymous electronic money" with his project "DigiCash" in the 1980s. Unfortunately, due to various constraints, DigiCash never boomed.
 
@@ -135,14 +135,14 @@ The evolution of money is a fascinating aspect of human history that reflects th
 
 ![image](assets/en/chapter1/2.webp)
 
-### From Shells to Bank Accounts
+### From shells to bank accounts
 
 Originally, currency was a tangible asset, such as grain, livestock, or another commodity. However, these goods had the major disadvantage of being perishable, making it difficult to use them as a long-term savings medium. For example, poor harvests or animal illness could destroy an individual's wealth overnight.
 Thus, as civilizations advanced and trade expanded to new regions, the need for a universal medium of exchange arised. Individuals first experimented with objects such as shells and gemstones, but they were not as durable or scarse as they believed. Eventually, gold became the standard, due to its rarity, durability, and divisibility. It was, and remains to this day, a symbol of wealth and power.
 
 ![image](assets/en/chapter1/1.webp)
 
-### What is the Role of Money?
+### What is the role of money?
 
 Money is a highly sophisticated communication tool:
 
@@ -162,7 +162,7 @@ For these reasons, gold as money is the result of 4,000 years of monetary Darwin
 ![image](assets/en/chapter1/4.webp)
 ![image](assets/en/chapter1/5.webp)
 
-### The Characteristics of Money
+### The characteristics of money
 
 Gold ideally meets the criteria of an efficient currency: its natural rarity makes it valuable, while its chemical properties ensure it does not erode over time. These features have made gold a great store of value, but not a common currency, because this form of money is not easily divisible or transportable over long distances. In a globalized and digital world, gold struggles to keep pace and requires a central entity to make it divisible and easily exchangeable (i.e. through minted coins).
 
@@ -560,7 +560,7 @@ You should literally take a blank sheet of paper or print this [template](https:
 
 ![image](assets/en/chapter7/0.webp)
 
-### Our Tips for Doing it Right
+### Our tips for doing it right
 Besides, make sure not to make a mistake during the copy, otherwise your heirs may struggle to read it and could be unable to recover the funds. Besides, once you have saved the words, it’s advisable to create a second copy and store it in a different location from the first. This ensures you have a backup in case the original is lost or damaged.
 
 ![image](assets/en/chapter7/1.webp)
@@ -582,7 +582,7 @@ Both 'cold' and 'hot' wallets use the word list method as the standard for backi
 
 Like any form of wealth, your bitcoins must be protected against loss, theft, and degradation, especially over the long term. Safeguarding your bitcoins requires some technical knowledge and an understanding of the associated risks, which opens the way to two main strategies: engraving your bitcoins on a steel plate and establishing an inheritance plan.
 
-### Engraving in Steel
+### Engraving in steel
 
 One method to secure your bitcoins in the long term is to engrave your mnemonic phrase on a resistant material like steel, by creating a physical backup of your keys that is resistant to both water and fire damage.
 
@@ -590,7 +590,7 @@ Various solutions are available: some of them are low-cost, such as the "Blockmi
 
 ![image](assets/en/chapter8/1.webp)
 
-### Think about the Next Generation!
+### Think about the next generation!
 
 Alongside this first practice, creating an inheritance plan is a crucial step to ensure that your bitcoins are properly managed after your death. This plan involves handwriting a letter where you outline the nature of your assets, their access methods, and the contact information of the trusted individuals who have responsibility over them. It’s also important to discuss the inheritance of bitcoins with a notary to ensure tax compliance, even if this person should never be entrusted directly with the management of your bitcoins.
 
@@ -598,7 +598,7 @@ If you wish to further explore the subject of the inheritance plan for your bitc
 
 ![image](assets/en/chapter8/2.webp)
 
-### Privacy is Important
+### Privacy is important
 
 In addition to creating physical backups or developing an inheritance plan, privacy is another important topic when it comes to the long-term security of your bitcoins. For example, it is preferable to buy bitcoins without providing identification to minimize the risks of identity theft or tracking of your funds by those entities with the right tools.
 
@@ -627,7 +627,7 @@ In the world of Bitcoin, financial sovereignty is closely tied to individual res
 
 Now that we have covered the basics of Bitcoin wallets and the best practices for securing them, in the next chapter we will explore the technical features of Bitcoin. Once again, understanding the basics of the Bitcoin protocol will enhance your comprehension of how it works, empowering you to make better use of it.
 
-# The technical aspects of Bitcoin.
+# The technical Aspects of Bitcoin.
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 ## Launching Bitcoin
@@ -637,13 +637,13 @@ Now that we have covered the basics of Bitcoin wallets and the best practices fo
 
 ![image](assets/en/chapter9/2.webp)
 
-October 31, 2008 marks the birth of a new financial technology: Bitcoin. It is on this date that Satoshi Nakamoto, the anonymous author of Bitcoin, presents his innovation to the world through an email distributed to the cypherpunk mailing list, a community of cryptography enthusiasts passionate about privacy on the internet.
+October 31, 2008 marks the birth of a new financial technology: Bitcoin. On this day, Satoshi Nakamoto, the anonymous author of Bitcoin, presented his innovation to the world through an email sent to the mailing list of the cypherpunk, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper," which presented the functioning of Bitcoin. 
 
-This email contained a document, called the "White Paper," which presented the functioning of Bitcoin. Given the previous failures of digital cash systems, this initiative did not immediately generate enthusiasm. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem.
+This initiative did not immediately generate enthusiasm, probably because of the previous failures in the attempts to create a digital cash systems. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem through the years.
 
 ![image](assets/en/chapter9/3.webp)
 
-On January 3, 2009, Satoshi officially inaugurates the Bitcoin network by creating the first block, also known as the genesis block, which marks the launch of the Bitcoin blockchain. This block contains a revealing message about the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
+On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creating the first block, also known as the "genesis block", which marked the launch of the Bitcoin blockchain. This block contains a revealing message reflecting the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 ![image](assets/en/chapter9/9.webp)
 
