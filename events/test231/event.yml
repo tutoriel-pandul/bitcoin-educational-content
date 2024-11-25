@@ -7,10 +7,10 @@
   name: Adopting Bitcoin 2024
   builder: Adopting Bitcoin
   type: conference
- book_online: true
+  book_online: true
   book_in_person: true
   price_dollars: 0
- available_seats: 20
+  available_seats: 20
   description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption.
   language:
     - en

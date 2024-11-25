@@ -9,7 +9,7 @@
   type: course
   book_online: true
   book_in_person: true
-   available_seats: 20
+  available_seats: 20
 
   price_dollars: 0
   description: You will be able to orange pill everyone. You will learn soft skills, for example how to handle objections, what real-life analogies to use so it's not overwhelming for pre-coiners, etc. 

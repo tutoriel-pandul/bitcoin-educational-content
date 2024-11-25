@@ -7,8 +7,8 @@
   name: Bitcoin Educators Academy Praha
   builder: Amity Age
   type: course
-  book_online: false
-  book_in_person: false
+  book_online: true
+  book_in_person: true
   price_dollars: 0
   available_seats: 20
   description: You will be able to orange pill everyone. You will learn soft skills, for example how to handle objections, what real-life analogies to use so it's not overwhelming for pre-coiners, etc. 
