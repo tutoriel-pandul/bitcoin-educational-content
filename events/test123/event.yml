@@ -6,7 +6,7 @@
   address_line_3: 
   name: Bitcoin Educators Academy Praha
   builder: Amity Age
-  type: course
+  type: Lecture
   book_online: true
   book_in_person: true
   price_dollars: 0
