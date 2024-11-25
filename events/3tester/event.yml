@@ -1,16 +1,16 @@
-- start_date: 2024-11-25 07:00:00
-  end_date: 2024-11-25 15:00:00
+- start_date: 2024-11-26 07:00:00
+  end_date: 2024-11-26 15:00:00
   timezone: Asia/Bangkok
   address_line_1: 65 Sukhumvit 13 Soi 1-1
   address_line_2: Watthana
   address_line_3: Bangkok, Thailand 
-  name: Test 6
+  name: tester 3
   builder: Plan ₿ Network
   type: Lecture
   book_online: true
   book_in_person: true
   price_dollars: 0
-  available_seats: 20
+  available_seats: 10
   description: 2nd guest star lecture of Plan ₿ Biz School
   language: 
     - en
