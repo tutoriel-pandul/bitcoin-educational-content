@@ -1,16 +1,16 @@
-- start_date: 2024-11-25 16:00:00
-  end_date: 2024-11-26 23:00:00
+- start_date: 2024-11-27 16:00:00
+  end_date: 2024-11-27 23:00:00
   timezone: America/El_Salvador
   address_line_1: San Salvador, El Salvador
   address_line_2:
   address_line_3:
   name: TEst21231421
-  builder: Adopting Bitcoin
+  builder: Plan ₿ Network
   type: Lecture
   book_online: true
   book_in_person: true
   price_dollars: 0
-  available_seats: 20
+  available_seats: 10
   description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption.
   language:
     - en
