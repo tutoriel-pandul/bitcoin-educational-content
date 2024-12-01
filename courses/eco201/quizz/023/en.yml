@@ -5,8 +5,10 @@ wrong_answers:
   - Because larger communities have more resources, leading to less need for division of labor.
   - Because larger communities have more conflicts, making coordination difficult.
 explanation: |
-  In larger communities, it is impossible for a person to maintain and
-  remember stable social relationships with more than 150 individuals, making a reputation
-  system insufficient to overcome the prisoner's dilemma at scale. Also, evaluating
-  the value of contributions in exchange is a complex problem in larger communities.
+  In larger communities, it is impossible for a person to
+  maintain and remember stable social relationships with more
+  than 150 individuals, making a reputation system
+  insufficient to overcome the prisoner's dilemma at scale.
+  Also, evaluating the value of contributions in exchange is
+  a complex problem in larger communities.
 reviewed: true
