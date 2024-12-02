@@ -627,7 +627,7 @@ In the world of Bitcoin, financial sovereignty is closely tied to individual res
 
 Now that we have covered the basics of Bitcoin wallets and the best practices for securing them, in the next chapter we will explore the technical features of Bitcoin. Once again, understanding the basics of the Bitcoin protocol will enhance your comprehension of how it works, empowering you to make better use of it.
 
-# The technical Aspects of Bitcoin.
+# The Technical Aspects of Bitcoin.
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 ## Launching Bitcoin
@@ -637,13 +637,13 @@ Now that we have covered the basics of Bitcoin wallets and the best practices fo
 
 ![image](assets/en/chapter9/2.webp)
 
-October 31, 2008 marks the birth of a new financial technology: Bitcoin. On this day, Satoshi Nakamoto, the anonymous author of Bitcoin, presented his innovation to the world through an email sent to the mailing list of the cypherpunk, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper," which presented the functioning of Bitcoin. 
+October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper", which presented how Bitcoin worked.
 
 This initiative did not immediately generate enthusiasm, probably because of the previous failures in the attempts to create a digital cash systems. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem through the years.
 
 ![image](assets/en/chapter9/3.webp)
 
-On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creating the first block, also known as the "genesis block", which marked the launch of the Bitcoin blockchain. This block contains a revealing message reflecting the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
+On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creating the first block, also known as the "Genesis block", which marked the launch of the Bitcoin blockchain. This block contains a revealing message reflecting the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 ![image](assets/en/chapter9/9.webp)
 
@@ -652,125 +652,115 @@ On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creati
 
 ![image](assets/en/chapter9/7.webp)
 
-### The Bitcoin protocol begins to live
+### The Bitcoin protocol comes to life
 
-On January 8, 2009, Satoshi announces the release of Bitcoin-0.1.0. Shortly after, Hal Finney takes hold of the software and joins the network. Now, there were 2 nodes, and therefore 2 miners, in the network. Finney immortalizes this step by tweeting "Running Bitcoin". On January 12, 2009, the first Bitcoin transaction is made between Satoshi and Hal Finney. This transaction, of 10 BTC, is recorded in block 170.
+On January 9, 2009, Satoshi announced the release of Bitcoin 0.1.0 version. Shortly after, Hal Finney took hold of the software and joined the network, which marked the presence of two nodes and, therefore, two miners in the network. Finney even immortalized this step by tweeting, 'Running Bitcoin'. On January 12, 2009, the first Bitcoin transaction of 10 BTC was made between Satoshi and Hal Finney, and you can easily find it, if you go back to block 170. 
 
 ![image](assets/en/chapter9/4.webp)
 
-Interest in Bitcoin grows rapidly, and many people begin to test, debate, solve bugs, and reflect on the ethical, economic, and philosophical aspects of Bitcoin. To facilitate these exchanges, the BitcoinTalk forum is created on November 22, 2009 by Satoshi.
-This forum quickly becomes the preferred place of discussion for Bitcoin users. It is there that many memes and symbols associated with Bitcoin are born, such as the [Bitcoin logo](https://bitcointalk.org/index.php?topic=64.0), the famous [Hodl](https://bitcointalk.org/index.php?topic=375643.0), or even [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
+Interest in Bitcoin grew rapidly, leading many people to test it, engage in debates, solve bugs, and reflect on its ethical, economic, and philosophical aspects. People were so captivated that Satoshi created the BitcoinTalk forum on November 22, 2009, in order to facilitate these types of confrontation.
+The forum quickly became the preferred place of discussion for Bitcoin users, so much so that famous memes and symbols associated with Bitcoin were born from it, such as the [Bitcoin logo](https://bitcointalk.org/index.php?topic=64.0), the famous [Hodl](https://bitcointalk.org/index.php?topic=375643.0), or even [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
-> **Did you know?** Indeed, on May 22, 2010, Laszlo Hanyecz made history with Bitcoin by offering to buy 2 pizzas for 10,000 BTC. This is the first time that Bitcoin is used to purchase physical goods.
+**Did you know?** On May 22, 2010, Laszlo Hanyecz made history by offering to buy two pizzas for 10.000 BTC: it was the first time that Bitcoin was used to purchase physical goods.
 
 ![image](assets/en/chapter9/6.webp)
 
 ### The disappearance of Satoshi Nakamoto
 
-In 2010, as Bitcoin begins to attract media attention, Satoshi decides to distance himself. On December 12, 2010, he publishes his last post on the forum, announcing his departure. On April 23, 2011, he makes his last known private exchange via email. Satoshi then disappears, leaving his creation in the hands of the community.
+In 2010, as Bitcoin started attracting media attention, Satoshi decided to distance himself by announcing his departure in a forum post on December 12, 2010. On April 23, 2011, he made his last known private exchange via email, then disappeared, leaving his creation in the hands of the community.
 
 > “Governments are good at cutting off the heads of a centrally
 > controlled networks like Napster, but pure P2P networks like
 > Gnutella and Tor seem to be holding their own.” - Satoshi Nakamoto
 
-Despite Satoshi's absence, Bitcoin continues to develop. Every 10 minutes, the history of Bitcoin is written, and the protocol continues to function as intended. Regardless of fear, uncertainty, or doubt (FOMO for Fear Of Missing Out or FUD for Fear Uncertainty Doubt), Bitcoin continues to move forward, with an online availability of 99.988%.
+Despite Satoshi's absence, Bitcoin continued to be developed: the history of Bitcoin is written every 10 minutes, and the protocol continues to function to this day as intended. Regardless of any fear, uncertainty, or doubt, Bitcoin continues to move forward, with a very strong online availability. In fact, according to this [website](https://bitcoinuptime.com/), Bitcoin has been functional and running without massive issues for 99.988% of the time since it was created.
 
-Bitcoin is perceived differently by each individual. For some, it's a fungal entity like [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), for others it's a [black hole](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
+For some, Bitcoin is a defined as fungal entity like a [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), while others descrive it as a [black hole](https://dergigi.com/). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
 
-To learn more about Satoshi Nakamoto's writings, I recommend [Phil Champagne's book](https://planb.network/resources/books) or the ARTE documentary "le mystaire Satoshi".
+To learn more about Satoshi Nakamoto's writings, we recommend reading ["The Book of Satoshi"](https://planb.network/en/resources/books/98) by Phil Champagne or the ARTE documentary "Le mystaire Satoshi".
 
 ![image](assets/en/chapter9/8.webp)
 
-> “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve.”
+> “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve” - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 
-Now that we have some background, let's take a look at how a Bitcoin transaction works in general.
+Now that we have some background, let's examine how a Bitcoin transaction works in general.
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
-
-## Bitcoin transactions
+## Bitcoin Transactions
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
-A Bitcoin transaction is simply a transfer of ownership of bitcoins, using a Bitcoin address. Let's take, for example, two protagonists: Alice and Bob. Alice wishes to acquire bitcoins, while Bob already owns some.
+A Bitcoin transaction is simply a transfer of ownership of bitcoins through the use of a Bitcoin address. In order to describe this process, let's introduce two protagonists: Alice and Bob. Alice wishes to acquire bitcoins, while Bob already owns some.
 
 ### Step 1 - Creating the transaction via the wallet
 
-For Bob to transfer bitcoins to Alice, Alice must provide Bob with one of her Bitcoin addresses. This address, derived from Alice's public key, is unique to her Bitcoin wallet.
+For Bob to transfer bitcoins to Alice, she must provide him with one of her Bitcoin addresses, which are unique to her Bitcoin wallet. Just like the private key is used to generate the public key, the latter is then used to generate addresses.
 
-In concrete terms, Alice opens her wallet and presses "receive". A QR code or address like this bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr will be displayed. It's her "Bitcoin IBAN" of sorts. She provides it to Bob.
+In concrete terms, when Alice opens her wallet and presses "receive", a QR code or an address (like this bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr) will be displayed. This serves as her 'Bitcoin IBAN' of sorts, which she then provides to Bob.
 
-Bob then initiates the transaction using Alice's reception address. Bob in turn opens his Bitcoin wallet, presses "send", copies and pastes the address, adds an amount and a transaction fee. These fees are an incentive for miners to include the transaction in the next block.
+Afterwards, Bob makes the transaction by opening his Bitcoin wallet and pressing "send". He then copies and pastes Alice's address into the required field, adds the amount he wishes to send, and decides on the transaction fees, which serve as an incentive for miners to include the transaction in the next block. In fact, the higher the fees Bob pays, the better his chances are of having the transaction included in the next block added to the blockchain, i.e. a public and immutable ledger recording all Bitcoin transactions.
+
+To finalize the transaction, Bob must sign it with his private key to verify that he is the owner of the bitcoins he wants to transfer. This step is usually automatic on mobile wallets, or it takes the form of a confirmation on your physical wallet: "Are you sure you want to send X to Y? Yes or no".
 
 ![image](assets/en/chapter10/1.webp)
 
-> **Why pay fees?** These fees are essential to create a free market for including transactions in blocks, as the number of transactions in a block is limited. In fact, a block has a size of 1 MB (can expand to 4MB after Segwit update), which corresponds to a few thousand transactions per block. The fees of a transaction are proportional to its size. The size of the transaction, in turn, depends on the complexity of the transaction.
+**Why do we pay fees?** Fees are essential to create a free market for including transactions in blocks. In fact, a block has a size of 1 MB (which was expanded to 4MB after the Segwit update), so the number of transactions that can be "inserted" in a block is limited to a few thousand transactions per block. The size of a transaction depends on its complexity. Therefore, more complex transactions typically incur higher fees.
 
-To finalize the transaction, Bob must provide a signature with the private key of the addresses he uses to pay Alice. This verifies that he is the owner of the bitcoins he wants to transfer. This step is usually done automatically on mobile wallets, or it is a confirmation on your physical wallet: "Are you sure you want to send X to Y? Yes or no".
+### Step 2: Propagation of the transaction through nodes
 
-### Step 2: Propagation of the transaction through nodes to miners
-
-At this stage, the transaction has been created and Bob's wallet will share it with the Bitcoin network. To do this, his wallet will communicate with a node of the Bitcoin network, and this node will propagate this information to other nodes. This propagation step allows the entire network to see this new transaction and take it into account.
+At this stage, the transaction has been created and Bob's wallet will share it with the Bitcoin network. To do this, his wallet will communicate with a node of the Bitcoin network, which will propagate this information to other nodes. This kind of process allows the entire network to see this new transaction and take it into account.
 
 ![image](assets/en/chapter10/4.webp)
 
-Although this transaction is now known to everyone (via a tool called Mempool), the transaction is not necessarily considered confirmed! Indeed, it is the miners who validate the transactions by including them in a block of our famous blockchain.
+At this point, even though this transaction is known to everyone (via a tool called Mempool), it cannot be considered as confirmed until it gets inserted in a block by miners, who are the only ones who validate transactions by including them in the blockchain.
 
-Miners have the role of taking valid and unconfirmed transactions, and then compiling them into a block. In order for their block to be the next one in the Bitcoin blockchain, they must solve a cryptographic puzzle in a process called "proof of work".
+In fact, miners have the role of gathering valid and unconfirmed transactions to compile them into a block. In order for their block to be the next one in the Bitcoin blockchain, they must solve a cryptographic puzzle in a process called "proof of work".
 
 ![image](assets/en/chapter10/2.webp)
 
 ### Step 3: The transaction is mined in a block by a miner.
 
-This proof of work requires finding a valid "hash" for the block in question. Think of it as a unique fingerprint associated with the block, composed of 256 characters. The validity of this hash depends on the difficulty of the Bitcoin network. We will go into more detail on this mechanism later. For now, consider that a miner has found a valid block and that Bob's transaction to Alice is included in it.
-
-This new valid block is added to the Bitcoin blockchain, which is a public and immutable ledger of all Bitcoin transactions. Think of it as a common ledger for all Bitcoin users. According to the protocol rules, a block is added approximately every ten minutes thanks to the difficulty adjustment. We will see in the section on miners what mechanism prevents the modification of the Bitcoin transaction ledger.
+The Proof of work system requires finding a valid "hash" for the block in question: think of it as a unique fingerprint associated with the block, composed of 256 characters. The validity of this hash depends on the difficulty rate of the Bitcoin network (we will go into more details later). For now, consider that a miner has found a valid block, and that Bob's transaction to Alice is included in it. Then, the new valid block is added to the blockchain, the common ledger for all Bitcoin users.
 
 ![image](assets/en/chapter10/5.webp)
 
-### Step 4: The block is valid and verified by Alice's wallet node.
+### Step 4: The block is valid and verified by Alice's referent node.
 
-At this stage, the transaction is considered valid, the miner will then propagate the new block through their node to the network, and Alice's wallet will be updated.
+At this stage, the transaction is considered valid: the miner will then propagate to the network the new block through their node, and Alice's wallet will be updated.
 
 ![image](assets/en/chapter10/3.webp)
 
-> Note: Even if Alice sees that she has received bitcoins on one of her addresses, it is recommended to consider the transaction as immutable only when it has 6 confirmations. This means that 6 other blocks have been mined on top of the block containing Bob's transaction. In other words, the older a transaction is in the blockchain, the more immutable it becomes.
+**Note:** Even if Alice is notified that she has received bitcoins at one of her addresses, it is advisable to consider the transaction immutable only after it has received **six** confirmations. This means that six additional blocks have been mined on top of the block containing Bob's transaction. In other words, the older a transaction is in the blockchain, the more immutable it becomes.
 
-### Quick recap in a poster!
+### What is the importance of this process?
 
-![Explanation of a transaction](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
+The Bitcoin transaction system is decentralized and works peer-to-peer, without any trusted intermediaries.
 
-### What's the point of all this?
+Bob sends his transaction to the Bitcoin network, and when a miner publishes a valid block containing Bob's transaction, Alice can start considering that the bitcoins belong to her. Trust is not required at any step of the bitcoin ownership transfer: the protocol rules and economic incentives alone make it prohibitively costly to act maliciously within the Bitcoin system.
 
-In the end, the Bitcoin transaction system is decentralized and works peer-to-peer, without any trusted intermediaries.
+In fact, users transfer ownership of their funds by digitally signing transactions with their own private keys. On the other hand, miners hold limited power, and users maintain significant control by using Bitcoin nodes to validate the new blocks and the included transactions. Every node has either a full or a partial copy of the ledger, so the network formed by the Bitcoin nodes makes the system truly decentralized.
 
-Bob sends his transaction to the Bitcoin network, and when a miner publishes a valid block containing Bob's transaction, Alice can start considering that the bitcoins belong to her. Trust is not required at any step of the bitcoin ownership transfer; only the protocol rules and economic incentives make it too costly to act maliciously within the Bitcoin protocol.
-
-Users transfer ownership of their money by digitally signing transactions with their private keys. Miners hold little power, as users also have significant control through Bitcoin nodes that handle the validation of new blocks and included transactions. It is through this network of Bitcoin nodes that the network is truly decentralized.
-
-In fact, for the Bitcoin network to be completely destroyed, all copies of the blockchain on all Bitcoin nodes would have to be destroyed - a practically impossible task due to the geographical distribution of these nodes and the difficulty of physically seizing them.
+As a consequence, for the Bitcoin network to be completely destroyed, every copy of the blockchain on all Bitcoin nodes would need to be eliminated, which is a practically impossible task due to the geographical distribution of these nodes and the difficulty of physically seizing them.
 
 Let's take a closer look at how a Bitcoin node works.
 
 ## Bitcoin Nodes
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
-Nodes are a fundamental element of the Bitcoin network architecture. They perform various crucial functions:
+Nodes are a fundamental element of the Bitcoin network architecture, as they perform various crucial functions:
 
 - Maintaining a copy of the Bitcoin blockchain
 - Validating transactions
 - Transmitting information to other nodes
 - Enforcing the rules of the Bitcoin protocol.
 
-Therefore, any device running Bitcoin software, called Bitcoin nodes (often through [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), contributes to the decentralization of the network.
+Therefore, any device running a piece of Bitcoin software, called Bitcoin node (often using [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), contributes to the decentralization of the network.
 
 ![image](assets/en/chapter11/1.webp)
 
-### Nodes are thus the central core of Bitcoin.
+### Nodes are the central core of Bitcoin.
 
-Each node holds a copy of the blockchain, which allows for transaction verification and prevents any attempt at fraud. The decentralized aspect of the network gives Bitcoin exceptional resilience and robustness - to stop the Bitcoin protocol, all nodes around the world would have to be shut down. For your information, there are currently (September 2023) approximately [45,000 nodes](https://bitnodes.io/nodes/all/) distributed across the globe.
+Each node holds a copy of the blockchain, which permits transaction verification and prevents any fraud attempt. The decentralized nature of the network gives Bitcoin exceptional resilience and robustness. In fact, to stop the Bitcoin protocol, all nodes around the world would have to be shut down. For your information, as of September 2023 there were approximately [45,000 nodes](https://bitnodes.io/nodes/all/) distributed across the globe.
 
-Nodes are capable of verifying the validity of blocks and transactions because they follow the rules of the Bitcoin consensus. These rules govern, among other things, Bitcoin's monetary policy such as the amount of miners' reward (which we will discuss in more detail in the next section) and the amount of bitcoin in circulation. Nodes act as the network's legal system in a way. Thanks to them, all network participants follow the same rules. They ensure the neutrality of the Bitcoin protocol. The consensus rules vary very little, if at all, because to make changes, the approval of all nodes is required.
+Nodes are capable of verifying the validity of blocks and transactions because they follow the rules of the Bitcoin consensus. These rules establish the Bitcoin's monetary policy, such as the amount of miners' reward (which we will discuss in more detail in the next section) and the amount of bitcoin in circulation. Nodes act as the network's legal system in a way. Thanks to them, all network participants follow the same rules. They ensure the neutrality of the Bitcoin protocol. The consensus rules vary very little, if at all, because to make changes, the approval of all nodes is required.
 
 ![image](assets/en/chapter11/2.webp)
 
