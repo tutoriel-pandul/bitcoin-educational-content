@@ -1,6 +1,6 @@
 ---
-nimi: Blockstream Green - Vaatlusrežiimis
-kirjeldus: Vaatlusrežiimis rahakoti seadistamine
+name: Blockstream Green - Vaatlusrežiimis
+description: Vaatlusrežiimis rahakoti seadistamine
 ---
 ![kaas](assets/cover.webp)
 

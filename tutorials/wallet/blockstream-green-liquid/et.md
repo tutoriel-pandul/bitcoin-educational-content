@@ -1,6 +1,6 @@
 ---
-nimi: Blockstream Green - Liquid
-kirjeldus: Rahakoti seadistamine Liquid Network kõrvalahelal
+name: Blockstream Green - Liquid
+description: Rahakoti seadistamine Liquid Network kõrvalahelal
 ---
 ![kaas](assets/cover.webp)
 Bitcoin'i protokollil on tahtlikud tehnilised piirangud, mis aitavad säilitada võrgu detsentraliseeritust ja tagavad turvalisuse jaotumise kõigi kasutajate vahel. Siiski võivad need piirangud mõnikord kasutajaid frustratsiooni tekitada, eriti ummikute ajal, mida põhjustab suur hulk samaaegseid tehinguid. Vaidlus Bitcoin'i skaleeritavuse üle on kogukonda pikka aega lõhestanud, eriti Blocksize Sõja ajal. Sellest episoodist alates on Bitcoin'i kogukonnas laialdaselt tunnustatud, et skaleeritavust tuleb tagada väljaspool plokiahelat asuvate lahendustega, teise kihi süsteemides. Nende lahenduste hulka kuuluvad kõrvalahelad, mis on endiselt suhteliselt tundmatud ja kasutamata võrreldes teiste süsteemidega nagu Lightning Network.

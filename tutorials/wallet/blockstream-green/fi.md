@@ -1,6 +1,6 @@
 ---
-nimi: Blockstream Green - Mobiili
-kuvaus: Mobiilin ohjelmistolompakon asettaminen
+name: Blockstream Green - Mobiili
+description: Mobiilin ohjelmistolompakon asettaminen
 ---
 ![kansi](assets/cover.webp)
 

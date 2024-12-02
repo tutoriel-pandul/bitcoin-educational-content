@@ -1,6 +1,6 @@
 ---
-nimi: Aqua
-kirjeldus: Bitcoin, Lightning ja Liquid ühes rahakotis
+name: Aqua
+description: Bitcoin, Lightning ja Liquid ühes rahakotis
 ---
 ![kaas](assets/cover.webp)
 

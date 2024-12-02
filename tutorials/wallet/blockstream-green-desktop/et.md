@@ -1,6 +1,6 @@
 ---
-nimi: Blockstream Green - Töölaud
-kirjeldus: Green Wallet tarkvara kasutamine arvutis
+name: Blockstream Green - Töölaud
+description: Green Wallet tarkvara kasutamine arvutis
 ---
 ![kaas](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
-nimi: Blockstream Green - Mobiil
-kirjeldus: Mobiilse tarkvarakoti seadistamine
+name: Blockstream Green - Mobiil
+description: Mobiilse tarkvarakoti seadistamine
 ---
 ![kaas](assets/cover.webp)
 

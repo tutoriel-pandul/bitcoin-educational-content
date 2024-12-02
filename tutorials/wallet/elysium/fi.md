@@ -1,6 +1,6 @@
 ---
-nimi: Elysium Wallet
-kuvaus: Elysium Walletin asennus ja käyttö
+name: Elysium Wallet
+description: Elysium Walletin asennus ja käyttö
 ---
 
 ![cover-elysium](assets/cover.webp)

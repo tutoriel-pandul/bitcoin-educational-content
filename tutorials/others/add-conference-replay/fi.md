@@ -73,7 +73,7 @@ https://planb.network/tutorials/others/add-builder
 
 - Kun olet valmis tekemään muutoksia tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![konferenssi](assets/10.webp)
-- Lisää otsikko muutoksillesi sekä lyhyt kuvaus:
+- Lisää otsikko muutoksillesi sekä lyhyt description:
 ![konferenssi](assets/11.webp)
 - Napsauta vihreää `Propose changes` -painiketta:
 ![konferenssi](assets/12.webp)
@@ -190,7 +190,7 @@ Puhuja: Satoshi Nakamoto
 
 - Kun olet saanut muutokset tähän tiedostoon valmiiksi, tallenna ne klikkaamalla `Commit changes...` -nappia:
 ![konferenssi](assets/38.webp)
-- Lisää muutoksillesi otsikko sekä lyhyt kuvaus:
+- Lisää muutoksillesi otsikko sekä lyhyt description:
 ![konferenssi](assets/39.webp)
 - Klikkaa `Commit changes` -painiketta: ![konferenssi](assets/40.webp)
 - Konferenssikansiosi pitäisi nyt näyttää tältä:
