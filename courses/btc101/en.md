@@ -921,47 +921,47 @@ In order for miners to be as profitable as possible in their activity, they must
 
 Thus, the Bitcoin protocol is an uncensorable and unstoppable monetary system because each component of the protocol is distributed geographically across the globe. For example, there are more than 40,000 Bitcoin nodes across all continents. Bitcoin's consensus rules are such that it is economically more profitable to follow them than to try to break them, and therefore no trust is required between actors. Bitcoin has no leader and cannot be stopped. Even if it is possible to regulate exchange platforms to limit Bitcoin, this approach has a marginal impact on the system. In short, no judge or state can censor or stop Bitcoin.
 
-# How to obtain Bitcoin?
+# How do You Obtain Bitcoin?
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
-## Bitcoin never sleeps!
+## Bitcoin Never Sleeps!
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
-The price of Bitcoin is often characterized by significant volatility. Its value can fluctuate considerably depending on market variations and bullish and bearish market phases. This is present in 100% of financial markets, including Bitcoin.
+The price of Bitcoin is often characterized by significant volatility. Its value can fluctuate considerably depending on market variations or on bullish and bearish phases, just like any other financial market.
 
 ![image](assets/en/chapter14/2.webp)
 
-> To put it simply: humans buy all at the same time and sell all at the same time. Bitcoin is not immune to human nature.
+To put it simply, humans tend to buy everything at once and sell everything at once. **Bitcoin is not immune to human nature.**
 
-### Understanding Adoption Waves
+### Understanding adoption waves
 
-The development and evolution of Bitcoin are largely linked to the different groups of actors who have gradually integrated its ecosystem.
+Both the development and the evolution of Bitcoin are largely linked to the different groups of actors who have gradually integrated its ecosystem.
 
 ![image](assets/en/chapter14/1.webp)
 
 - The believers:
 
-The early users of Bitcoin were mainly technophiles, cypherpunks, libertarians, and gold enthusiasts. These groups were attracted to Bitcoin because of its ability to offer solutions such as trustless electronic cash, resistance to censorship, or transparent and immutable monetary policy.
+The early users of Bitcoin were mainly technophiles, cypherpunks, libertarians, and gold enthusiasts. These groups were attracted to it because of its value as trustless electronic cash, its resistance to censorship, and its transparent, immutable monetary policy.
 
 - The dark web & criminals
 
-Then, the use of Bitcoin expanded to dark web marketplaces like Silk Road due to its uncontrollable and pseudonymous nature. This site drew attention to the uncontrollable and pseudonymous nature of Bitcoin, which prompted some criminal actors to use it. However, it should be noted that it is the use of a tool, not the tool itself, that determines its legality or illegality. It should be noted that the illegal use of Bitcoin does not make a person a criminal in itself. It is the use, not the tool, that can be classified as illegal. For example, the use of Bitcoin for activities such as purchasing certain drugs may be legal or illegal depending on the regulations of the territory where the activity takes place.
+Then, Bitcoin's use expanded into dark web marketplaces like Silk Road, largely due to its uncontrollable and pseudonymous nature, which also attracted individuals beyond that platform, including some people engaged in criminal activities. However, it's important to emphasize that it is the application of a tool, rather than the tool itself, that determines legality. The illegal use of Bitcoin does not inherently make someone a criminal; rather, it is the specific actions that can be classified as illegal. For instance, using Bitcoin to purchase certain drugs may be legal or illegal depending on the regulations governing the territory where the transaction occurs.
 
 - The ICO frenzy and the arrival of the general public.
 
-The year 2017 was marked by a significant speculative bubble in the cryptocurrency world, especially with the launch of thousands of Initial Coin Offerings (ICOs). However, many of these new cryptocurrencies had no concrete development or utility and quickly disappeared. This 2017 bubble was followed by a strong correction in 2018-2019.
+The year 2017 was marked by a significant speculative bubble in the cryptocurrency world, especially with the launch of thousands of Initial Coin Offerings (ICOs). However, many of these new cryptocurrencies had no concrete development or utility, and quickly disappeared. This 2017 bubble was followed by a strong correction in 2018-2019.
 
 - The NFT bubble and DeFi
 
-Then again in 2020, the market experienced another speculative bubble that drove the price of Bitcoin to $60,000. This bubble is distinguished from previous ones by a greater diversification of investors, including financial institutions and large companies. But once again, strong corrections occur once the euphoria subsides.
+Then again in 2020, the market experienced another speculative bubble that drove the price of Bitcoin to $60,000. This bubble was different from the previous ones because of the broader diversification of investors, including financial institutions and large corporations. However, as with previous bubbles, significant corrections tend to follow once the initial euphoria fades.
 
-### Bitcoin & Volatility
+### Bitcoin and volatility
 
-Based on past cycles, it seems that the periodicity of Bitcoin's economic cycles is equivalent to the duration between two halvings. Perhaps because the halving event acts as a trigger by halving the emission of new bitcoins.
+Based on past cycles, it seems that the periodicity of Bitcoin's economic cycles is equivalent to the duration between two halvings, perhaps because the halving event acts as a trigger by cutting the emission of new bitcoins in half.
 
-These significant fluctuations have created a reputation for bitcoin as an extremely dangerous asset that causes its users to lose money. Although the price can drop by 10-20 or even 50% in a few days, it is important to understand that Bitcoin, the protocol, is not affected by price changes.
+These significant fluctuations have earned Bitcoin a reputation as a highly volatile asset, often leading to substantial losses for its users. Although the price can drop by 10%, 20% or even 50% in a few days, it is important to understand that the Bitcoin protocol itself is not affected by price changes.
 
-This significant volatility is fully accepted today by Bitcoin actors and can be mitigated by several solutions such as financial hedges (stablecoins), a strong long-term belief (hodling), or simply not putting 100% of one's money into Bitcoin without understanding anything. Understanding why the price of bitcoin fluctuates so much is therefore essential to be able to progress in this industry because ultimately, it is the price and cycles that temper and regulate our market to some extent. However, we can note that as Bitcoin grows and matures, volatility becomes less significant.
+This significant volatility is fully accepted today by Bitcoin actors and can be mitigated by several solutions such as financial hedges (stablecoins), a strong long-term belief (hodling), or simply avoiding the risk of investing 100% of one’s funds in Bitcoin without a solid understanding. Understanding why the price of Bitcoin fluctuates so much is therefore essential to progress in this industry, as it is ultimately the price movements and cycles that help temper and regulate the market to some extent. However, it is fundamental to note that as Bitcoin grows and matures, volatility becomes less impactful.
 
 ![image](assets/en/chapter14/5.webp)
 
@@ -969,11 +969,11 @@ Although the btc/dollar pair fluctuates in the short term, bitcoin, due to its l
 
 ### A unique market
 
-These cycles of speculative bubbles are quite unique in the world, as it is very rare for the same asset to experience so many bubbles one after another. This can be explained simply because bitcoin is not a bubble that will disappear but a currency that is actually used everywhere in the world. The Bitcoin protocol is unique in that it operates on a global scale, 24 hours a day, 7 days a week, making regulation difficult for financial authorities.
+These cycles of speculative bubbles are quite unique in the world, s it is rare for a single asset to experience such a series of bubbles in succession. This phenomenon can be attributed to the fact that Bitcoin is not merely a bubble destined to burst. Rather, it functions as a currency that is actively used around the globe. The Bitcoin protocol stands out for its ability to operate on a global scale, 24/7, which poses significant challenges for financial authorities attempting to regulate it.
 
 ![image](assets/en/chapter14/4.webp)
 
-Today, in 2023, Bitcoin continues to survive and grow even more by integrating itself more and more into the traditional market. The upcoming arrival of Bitcoin ETFs, clearer regulation, and better acquisition or storage tools only encourage this trend. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not all hot air!
+Today, Bitcoin continues to survive and grow even more by being integrated more and more into the traditional market. The arrival of Bitcoin ETFs, clearer regulation, and better acquisition or storage tools only encourage this trend. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not all hot air!
 
 ![image](assets/en/chapter14/3.webp)
 
