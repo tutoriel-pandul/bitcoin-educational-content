@@ -710,9 +710,9 @@ At this stage, the transaction has been created and Bob's wallet will share it w
 
 ![image](assets/en/chapter10/4.webp)
 
-At this point, even though this transaction is known to everyone (via a tool called Mempool), it cannot be considered as confirmed until it gets inserted in a block by miners, who are the only ones who validate transactions by including them in the blockchain.
+At this point, even though this transaction is known to everyone (via a tool called Mempool), it cannot be considered confirmed until it gets inserted in a block by a miner, who is the only one who validates transactions by including them in the blockchain.
 
-In fact, miners have the role of gathering valid and unconfirmed transactions to compile them into a block. In order for their block to be the next one in the Bitcoin blockchain, they must solve a cryptographic puzzle in a process called "proof of work".
+In fact, miners have the role of gathering valid and unconfirmed transactions to compile them into a block. In a nutshell, they must solve a cryptographic puzzle in a process called "proof of work" in order for their block to be the next one in the Bitcoin blockchain.
 
 ![image](assets/en/chapter10/2.webp)
 
@@ -724,11 +724,11 @@ The Proof of work system requires finding a valid "hash" for the block in questi
 
 ### Step 4: The block is valid and verified by Alice's referent node.
 
-At this stage, the transaction is considered valid: the miner will then propagate to the network the new block through their node, and Alice's wallet will be updated.
+At this stage, the transaction is considered valid: the miner will then propagate the new block to the network through their node, and Alice's wallet will be updated.
 
 ![image](assets/en/chapter10/3.webp)
 
-**Note:** Even if Alice is notified that she has received bitcoins at one of her addresses, it is advisable to consider the transaction immutable only after it has received **six** confirmations. This means that six additional blocks have been mined on top of the block containing Bob's transaction. In other words, the older a transaction is in the blockchain, the more immutable it becomes.
+**Note:** Even if Alice is notified that she has received bitcoins at one of her addresses, it is advisable to consider the transaction immutable only after it has received **six** confirmations. This means that six additional blocks have to be mined on top of the block containing Bob's transaction. In other words, the older a transaction is in the blockchain, the more immutable it becomes.
 
 ### What is the importance of this process?
 
@@ -760,67 +760,64 @@ Therefore, any device running a piece of Bitcoin software, called Bitcoin node (
 
 Each node holds a copy of the blockchain, which permits transaction verification and prevents any fraud attempt. The decentralized nature of the network gives Bitcoin exceptional resilience and robustness. In fact, to stop the Bitcoin protocol, all nodes around the world would have to be shut down. For your information, as of September 2023 there were approximately [45,000 nodes](https://bitnodes.io/nodes/all/) distributed across the globe.
 
-Nodes are capable of verifying the validity of blocks and transactions because they follow the rules of the Bitcoin consensus. These rules establish the Bitcoin's monetary policy, such as the amount of miners' reward (which we will discuss in more detail in the next section) and the amount of bitcoin in circulation. Nodes act as the network's legal system in a way. Thanks to them, all network participants follow the same rules. They ensure the neutrality of the Bitcoin protocol. The consensus rules vary very little, if at all, because to make changes, the approval of all nodes is required.
+Nodes are capable of verifying the validity of blocks and transactions because they follow the rules of the Bitcoin consensus. These rules establish the Bitcoin's monetary policy, such as the amount of miners' reward (which we will discuss in more detail in the next section) and the amount of bitcoin in circulation. In a way, nodes act as the network's legal system because all network participants follow the same rules because of them, so they ensure the neutrality of the Bitcoin protocol. Consensus rules hardly vary, if at all, because to make changes, the approval of all nodes is required.
 
 ![image](assets/en/chapter11/2.webp)
 
-Governance within the protocol is beyond the scope of this training, but know that each user running a Bitcoin node decides which rules they want to follow. Thus, a user could decide to follow other rules (i.e., make modifications to the code), but if these modifications invalidate the current consensus rules, then this node will no longer be part of the Bitcoin network. Major modifications are therefore rare and require significant coordination among thousands of actors with varied ideologies and interests, which forces the protocol to only produce updates that make it "better" in the sense of all Bitcoin users.
+Governance within the protocol is beyond the scope of this basic course, but it's important to note that each user running a Bitcoin node can decide which rules to follow. A user may choose to adhere to different rules (i.e., make modifications to the code), but if these changes invalidate the current consensus rules, that node will no longer be part of the Bitcoin network. Consequently, major modifications are rare and require significant coordination among thousands of participants with diverse ideologies and interests, which forces them to provide updates that are considered 'better' by all Bitcoin users.
 
 ### What does a node look like?
 
-There are several options available to us when we want to have our own node, and their maintenance costs vary. You can simply run the Bitcoin Core software on your computer, but this will require a significant amount of storage space as the blockchain is about ~500GB. To overcome this constraint, you can choose to only keep the last N blocks in memory, which is called a "pruned node". For this kind of solution, the cost is negligible because the node is only turned on when you need it.
+There are several options available when you want to install your own node, with different maintenance costs. You can simply run the Bitcoin Core software on your computer, but it will require a significant amount of storage space, as the blockchain is about ~500GB. To overcome this constraint, you can choose to only keep the last N blocks in the memory by creating a "pruned node". For this second solution, the cost is negligible because the node is only active when you need it.
 
 ![image](assets/en/chapter11/10.webp)
 
-A second option is to use dedicated hardware for this purpose, such as Raspberry Pi 4 with a sufficiently large SSD (about ~1TB). This second option is more expensive if you have to buy the hardware, but in terms of electricity consumption, it represents a little less than €10 per year.
-From a bandwidth perspective, considering 1 block of 1MB every 10 minutes, this represents approximately 5GB per month.
+A second option is to use a dedicated piece of hardware for this purpose, such as a Raspberry Pi 4 with a sufficiently large SSD (about ~1TB). This other option is more expensive if you have to buy the hardware, but it represents a little less than €10,00 per year in terms of electricity consumption.
+From a bandwidth perspective, considering 1 block of 1MB every 10 minutes, it corresponds approximately to 5GB per month.
 
 ### Nodes must remain accessible to everyone!
 
-The affordable cost and accessibility of a Bitcoin node in terms of hardware resources, storage, and bandwidth is a very important aspect as it facilitates the decentralization of the network.
+The affordable cost and accessibility of a Bitcoin node in terms of hardware resources, storage, and bandwidth is a very important characteristic, as it facilitates the decentralization of the network.
 
-Indeed, everyone has a good reason to run a node! The price and effort are minimal for the benefit obtained. You just have to embark on the adventure and join thousands of other bitcoiners because together we form the Bitcoin network.
+Indeed, everyone has a good reason to run a node! The costs and efforts are minimal compared to the benefit obtained. You just have to embark on the adventure and join thousands of other bitcoiners to form the Bitcoin network all together.
 
 ![image](assets/en/chapter11/11.webp)
 
-For example, if the blocks were 100 times heavier, we could certainly make 100 times more transactions every 10 minutes, but running a Bitcoin node would require a 50TB hard disk, a bandwidth of over 500GB/month, and hardware capable of validating hundreds of thousands of transactions in less than 10 minutes. In this hypothetical situation with 100 times larger blocks, running a Bitcoin node would not be accessible to the average person, which would compromise the decentralization of the protocol and the immutability of transactions and consensus rules. Thus, the protocol constraints have also been chosen to allow as many people as possible to run their own Bitcoin node.
+On the contrary, if the blocks were 100 times heavier, we could certainly make 100 times more transactions every 10 minutes, but running a Bitcoin node would require a 50TB hard disk, a bandwidth of over 500GB/month, and a piece of hardware capable of validating hundreds of thousands of transactions in less than 10 minutes. In this hypothetical situation with 100 times larger blocks, running a Bitcoin node would not be accessible to the average person, which would compromise both the decentralization of the protocol and the immutability of transactions and consensus rules. 
 
-This situation is not so hypothetical because the year 2017 was marked by an intense controversy known as the "block war". This conflict opposed actors who wanted to modify Bitcoin by increasing the block size to increase transaction capacity, to those who sought to preserve the independence and power of users. In the end, users and nodes triumphed by rejecting the proposed change initiated by miners, exchange platforms, and institutions.
+Thus, the protocol constraints have been designed to enable as many people as possible to run their own Bitcoin nodes. In fact, the year 2017 was marked by an intense controversy known as the "block size war". This conflict pitted those who wanted to modify Bitcoin by increasing the block size to enhance transaction capacity (miners, exchange platforms, and institutions) against those who sought to preserve the independence and power of users (nodes and users). In the end, the second party triumphed.
 
-Following this victory, the nodes activated an update called SegWit, paving the way for the implementation of the Lightning Network, an instant Bitcoin payment network using the Bitcoin blockchain. This situation demonstrates that users, through their nodes, hold real power within Bitcoin, allowing them to stand up to large institutions.
-
-### Summary in a poster!
-
-![Bitcoin nodes](assets/posters/fr/12_explication_des_nodes_crop.webp)
+Following this victory, the nodes activated an update called SegWit, paving the way for the implementation of the Lightning Network, an instant Bitcoin payment network built as a second layer of the Bitcoin blockchain. This situation demonstrates that users, through their nodes, hold real power within Bitcoin, allowing them to stand up to large institutions in times of disagreement.
 
 ## Miners
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-> Miners serve to secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.
+**Miners secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.**
 
 ![image](assets/en/chapter12/15.webp)
 
 ### Explanation of Proof of Work
 
-The Proof of Work, also known as "Proof of Work" (POW), is the security consensus of the Bitcoin protocol. It is the rule that allows Bitcoin to operate and ensure its robustness. POW is the foundation of everything and plays a crucial role in the game theory of Bitcoin.
+The "Proof of Work" (POW) is the security consensus mechanism of the Bitcoin protocol. It is the foundation of everything and plays a crucial role in the game theory of Bitcoin.
 
-Think of it as a giant lottery where everyone can participate. The goal is to find a specific number that will allow for the signing of a valid block, and the winner receives a reward in bitcoin. This number is very simple to verify but difficult to find. In fact, the easy verification is done through the SHA-256 hash function, which is included in the mining algorithm. In order to find this number, participants (miners) will attempt billions upon billions of possibilities, such as 1, 52, 2648, 26874615, 15344854131318631, etc.
+To explain how it works, envision a universal lottery where everyone can participate. The goal is to find a specific number that enables the winner to sign a valid block, earning a reward in Bitcoin. This number is very simple to verify using the SHA-256 hash function, but difficult to find: participants (miners) will try billions upon billions of possibilities, such as 1, 52, 2648, 26874615, 15344854131318631, and so on, until they discover the right one.
 
-If the chosen number is correct: Jackpot! Otherwise, the search continues. To optimize the number of attempts, they will use specific machines called ASICs, which have the sole role of calculating billions of possibilities per second. The total quantity of attempts is called the HashRate and allows for quantifying the security of the Bitcoin protocol. To operate these machines, large quantities of electricity must be consumed. Therefore, POW transforms energy into currency, connecting the real world and the digital world to create the first energy-based currency.
+If the chosen number is correct: Jackpot! Otherwise, the search continues. 
+To optimize the number of attempts, they will use specific machines called ASICs, which have the sole role of calculating billions of possibilities per second (the total quantity of attempts is called "HashRate"). To operate these machines, large quantities of electricity must be consumed. Therefore, POW transforms energy into currency, connecting the real world and the digital world to create the first energy-based currency.
 
-The machines run, and after an average of 10 minutes, a winner will emerge. They will have found the correct hash below the difficulty threshold. The grand and sole winner will then sign the new block of the timestamp server and continue the blockchain. The winner receives their rewards and returns to try their luck for the next block. The process has been repeating for 12 years, and every 10 minutes, a winner confirms Bitcoin transactions while continuing to secure past transactions. Making our Bitcoin blockchain more robust and secure.
+The machines operate continuously, and after an average of 10 minutes, a winner emerges: this participant has successfully found the correct hash that falls below the difficulty threshold. The grand and sole winner will then sign the new block of the timestamp server, adding it to the blockchain. They receive their rewards and return to try their luck at mining the next block. This process has been ongoing for more than ten years, with a winner confirming Bitcoin transactions every 10 minutes while also securing past transactions, thereby making the Bitcoin blockchain more robust and secure.
 
-Every 2 weeks (2016 blocks), the difficulty adjustment rebalances the global mining game based on the number of participants.
+Every 2016 blocks (approximately every two weeks), the **difficulty adjustment** rebalances the global mining game based on the number of participants. This adjustment is necessary because the number of miners and their combined computing power can vary significantly over time. To maintain the target block time, the network recalibrates the difficulty level based on how quickly the last 2016 blocks were mined. If they were mined too quickly, the difficulty increases, making it harder to find the correct hash. On the contrary, if they were mined too slowly, the difficulty decreases, making it easier.
 
 ![image](assets/en/chapter12/14.webp)
 
 ### Mining is constantly evolving
 
-Over the years, miners have equipped themselves with increasingly efficient computer hardware to produce as many hashes as possible per second (called HashRate) while consuming the least amount of energy in the most cost-effective way possible. The early miners like Satoshi or Hal Finney mined with just their CPU, then others started mining with their graphics card. Nowadays, miners use what are called ASICs (Application-Specific Integrated Circuit), machines designed solely for applying the SHA256 algorithm.
+Over the years, miners have equipped themselves with increasingly efficient computer hardware to produce as many hashes as possible per second (HashRate) while consuming the least amount of energy in the most cost-effective way possible. The early miners like Satoshi or Hal Finney mined using just their CPU, then others started mining with their graphics cards. Nowadays, miners use ASICs (Application-Specific Integrated Circuit): machines solely designed to apply the SHA256 algorithm.
 
 ![image](assets/en/chapter12/20.webp)
 
-The Hashrate of the Bitcoin network represents the number of attempts made per second to find the next block. Today it is about 400 TH/s, which is 400,000 billion attempts per second! The higher the global hashrate, the more difficult it is for a malicious actor to monopolize the resources needed to obtain a majority of the mining and perform a double spend. It is therefore more economically viable to follow the rules of the Bitcoin protocol than to act against them. This raises a question: how do miners get paid?
+The Hashrate of the Bitcoin network represents the number of attempts made per second to find the next block. Today it even surpassed 500 TH/s, which is 500,000 billion attempts per second! The higher the global hashrate, the more difficult it is for a malicious actor to monopolize the resources needed to obtain the majority of the mining power and spend their funds more than once (double spending problem). It is therefore more economically viable to follow the rules of the Bitcoin protocol than to act against them.
 
 ![image](assets/en/chapter12/16.webp)
 
@@ -830,100 +827,99 @@ The Hashrate of the Bitcoin network represents the number of attempts made per s
 
 The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkle Root of the previous transactions.
 
-The coinbase transaction is always the first one; it includes the reward received for performing the validator's work. Then come the validated transactions. The miner will choose the transactions that pay the most and try to create a block that maximizes their income, namely small-sized transactions with maximum fees.
+The **coinbase transaction** is always the first one included in the block: it contains the miner's reward for performing the validator's work. Then come the validated transactions. Miners will choose to insert the transactions which give them the most profit, namely small-sized transactions with maximum fees.
 
 ### Miners' compensation
 
-Initially, a miner is compensated when they find a valid block. More precisely, they are compensated in two ways: (i) through the subsidy (newly minted bitcoins) included in the block and (ii) through transaction fees in the transactions included in the block. The amount of the subsidy is defined by the consensus rules and depends on the Epoch we are in. Block reward = Block subsidy + transaction fees.
+Initially, a miner is compensated when they find a valid block. More precisely, they are rewarded in two ways: 
 
-Indeed, for the first blocks, the block subsidy was 50 bitcoins, then every 210,000 blocks (approximately every 4 years), it is halved. Today (in 2023), we are in the 4th Epoch; therefore, the subsidy is 6.25 bitcoins. This subsidy is the mechanism for creating new bitcoins in Bitcoin. As the subsidy decreases over time, it means that there is a limit of 21 million bitcoins - currently, there are already over 19.4 million bitcoins in circulation, which is over 92%.
+- through the subsidy (newly minted bitcoins) included in the block;
+- through transaction fees from the transactions included in the block.
+
+The amount of the subsidy is defined by the consensus rules and depends on the Epoch: **block reward = block subsidy + transaction fees**.
+
+Indeed, for the first blocks, the block subsidy was 50 bitcoins. Every 210,000 blocks (approximately every 4 years), this amount is halved. Today (in 2024), we are in the 5th Epoch, which means that the subsidy is 3.125 bitcoins. In short, this is the automatic mechanism that releases new bitcoins in the system. The subsidy decreases over time, until it meets the limit of issuance of 21 million bitcoins. There are already over 19.4 million bitcoins in circulation, which is over 92%.
 
 ![image](assets/en/chapter12/18.webp)
 
-The second method of compensation is defined by the amount chosen by users for transaction fees. Since the miner wants to maximize their income, they will tend to prioritize transactions with high transaction fees; the transaction fees reflect the urgency of the user to have their transaction included in the next block.
+The second method of compensation is defined by the amount chosen by users for transaction fees, which show the urgency of the user to have their transaction included in the next block. Since miners want to maximize their income, they will tend to prioritize transactions with high transaction fees.
 
 ![image](assets/en/chapter12/17.webp)
 
-Furthermore, to stabilize the miners' economic model, which relies on the rewards they receive for each valid block, miners often collaborate in groups through "mining pools," where they pool their computing resources.
+To stabilize their business model, which relies on the rewards they receive for each valid block, miners often create groups through "mining pools", where they pool their computing resources.
 
 ### Why bother doing all this?
 
-In short, the innovation of Bitcoin is to propose a solution to the problem of double spending through the use of a blockchain based on Proof of Work with a floating difficulty. In the digital world, the concept of ownership differs from that of the physical world. Indeed, in the digital world, everything can be copied and pasted, which poses problems in terms of double spending for digital assets of value. Trusted intermediaries, such as banks, have been created to solve this technological problem and ensure that when an asset is transferred, it no longer belongs to the sender. But how can this be done without a trusted intermediary? This problem is equivalent to the Byzantine Generals' Problem, a problem of coordinating information in a system where the various actors cannot be trusted.
+In short, the innovation of Bitcoin is to propose a solution to the problem of double spending through the use of a blockchain based on Proof of Work with a floating difficulty. In the digital world, the concept of ownership differs from that of the physical world. In fact, in the digital world, everything can be copied and pasted, which creates the risk of using digital assets of value more times. Trusted intermediaries, such as banks, have been created to solve this technological problem and ensure that when an asset is transferred, it no longer belongs to the sender. 
+
+But how can this be done without a trusted intermediary? This problem is well described through the Byzantine Generals' paradox, a problem of coordinating information in a system where various actors cannot be trusted. In the Byzantine Generals Problem, a group of generals must coordinate an attack on a city, but some may be traitors trying to disrupt the plan. The challenge is for the loyal generals to reach a consensus on whether to attack or retreat, despite receiving potentially misleading messages from the traitors.
 
 ![image](assets/en/chapter12/13.webp)
 
-Bitcoin is therefore a kind of solution to solve this problem, or at least to work around it. The "generals" of Bitcoin, or miners, produce blocks (of information) and Bitcoin nodes verify financial transactions using consensus rules to ensure the authenticity of the information. The asymmetry in the energy cost between information production and verification ensures the reliability of the information, without a trusted third party.
+Bitcoin is therefore a kind of solution to solve this issue, or at least to work around it. The "generals" of Bitcoin, or miners, produce blocks (of information) and Bitcoin nodes verify financial transactions using consensus rules to ensure the authenticity of the information. The asymmetry in the energy cost between information production and verification ensures the reliability of the information, without a trusted third party.
 
-Miners are the builders of the security of the Bitcoin network. By spending energy to produce hashes, they build a wall that makes it extremely costly for a malicious agent to rewrite the transaction history. This economic disincentive deters them from behaving dishonestly.
+Miners are the builders of the Bitcoin network security. By spending energy to produce hashes, they build a wall that makes it extremely costly for a malicious agent to rewrite the transaction history, and this economic disincentive deters others from behaving dishonestly.
 
-Even in the case of a 51% attack, meaning that an agent possesses more than half of the hashrate, the network remains secure because the attacker must spend as much energy as all the miners combined to attempt to modify the blockchain. It is thanks to this mechanism of proof of work, which requires energy to be accomplished, that the network is secure.
+Even in the case of a 51% attack, where an agent would possess more than half of the hashrate, the network would remain secure because the attacker must spend as much energy as all the miners combined to attempt to modify the blockchain. This energy-intensive proof-of-work mechanism is what ensures the network's security.
 
 ### In summary
 
-The theory of game applied to Bitcoin eliminates dishonest miners. Miners use ASIC machines to mine and receive a reward in case of success. Additionally, they often join mining pools to share their computing power and receive smaller but more regular rewards. Bitcoin mining is a process with a high energy cost but is essential for the functioning and security of the Bitcoin network. Proof of work and the blockchain solve the problem of double spending and ensure the veracity of information without any trusted third party. The energy expenditure is necessary to produce the information, but the verification of information has a negligible cost. This asymmetry guarantees the security of the network. Therefore, it is more economically viable to follow the consensus rules than to break them.
-
-### Quick recap in a poster!
-
-![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+The theory of game applied to Bitcoin eliminates dishonest miners, who use ASIC machines to mine and receive a reward in case of success. Additionally, they often join mining pools to share their computing power and receive smaller but more regular rewards. While Bitcoin mining incurs high energy costs, it is crucial for the operation and security of the Bitcoin network. The proof-of-work mechanism and blockchain technology address the double-spending problem and ensure the integrity of information without relying on a trusted third party. Although producing information requires significant energy expenditure, verifying that information incurs a negligible cost. This asymmetry reinforces the network's security, making it more economically viable to adhere to consensus rules rather than attempt to break them.
 
 ## Bitcoin and Ecology
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
-We have just seen in the previous section that the security of the Bitcoin protocol relies on a high energy cost to produce a public ledger of transactions without a trusted third party. The overall energy cost is often compared to the electricity consumption of a small country. But does this comparison make sense? Is it relevant to understand the reasons behind such a cost?
+In the previous section, we understood that the security of the Bitcoin protocol relies on high energy consumption to produce a public ledger of transactions without a trusted third party. In mainstream media, the overall energy cost is often compared to the electricity usage of a small country. But does this comparison make sense? Is it relevant to understand the reasons behind such costs?
 
 ### The energy costs of Bitcoin.
 
-First, let's qualitatively assess the environmental cost of mining. A miner must have a machine like an ASIC and a source of energy in the form of electricity to power these machines. ASICs are mostly made of aluminum and can be either recycled or reused for a second purpose (as demonstrated with the [Attakaï project](https://decouvrebitcoin.fr/attakai/), which transforms an Antminer S9 into a space heater). The main concern is therefore the energy consumption. Let's try to provide more context to this.
+First, let's qualitatively assess the environmental cost of mining. A miner must have a machine like an ASIC and a source of energy in the form of electricity to power these machines. ASICs are mostly made of aluminum and can be either recycled or reused for a second purpose (as demonstrated by the [Attakaï project](https://decouvrebitcoin.fr/attakai/), which transforms an Antminer S9 into a space heater). The main concern is therefore the energy consumption.
 
 ![image](assets/en/chapter13/1.webp)
 
-The electricity consumption represents almost all of the costs for a miner. Therefore, they are encouraged to find a cheap source of electricity. However, since miners are mobile, they can go to places where power plants are installed but not yet connected to the electrical grid of the territory. Miners act as a last resort buyer, allowing power plants to secure financing even before being connected to the electrical network. And when they are connected, the demand for electricity will increase, which will raise the price and make it less profitable for the miner to obtain electricity in these places. The miner will then decide to move their installation and settle further away where the demand is low and therefore the price as well.
+The electricity consumption represents almost all of the costs for a miner. Therefore, they are encouraged to find a cheap source of electricity, so they can go to places where power plants are installed but not yet connected to the electrical grid of the territory. In this case, miners act as a last resort buyer, allowing power plants to secure financing even before being connected to the electrical network. When they are connected, the demand for electricity will increase, which will raise the price and make it less profitable for miners to obtain electricity in these places. Sice the machines can be easily moved, miners will then decide to take their installation and settle further away where the demand is low and so is the price, most often in areas where they can get energy from green power plants.
 
 ### An endless debate
 
-Thus, the debate on the ecological impact of Bitcoin is often misguided, mainly due to an insufficient understanding of its usefulness and operation. Bitcoin cannot be evaluated simply in terms of energy cost per transaction, as miners secure both the current and historical network, transactions are grouped and not all equivalent, and the impact of the Lightning Network is not taken into account. Those who claim that Bitcoin consumes too much energy may have political motivations or seek to sell their own blockchain solution. The ecological pretext is used to justify the banning of Bitcoin.
+Thus, the debate on the ecological impact of Bitcoin is often misguided, mainly due to an insufficient understanding of its usefulness. Bitcoin cannot be evaluated simply in terms of energy costs per transaction, because miners secure both the current and historical network, and transactions are grouped and not all equivalent. Besides, the impact of the Lightning Network is not even taken into account. Those who claim that Bitcoin consumes too much energy may have political motivations or seek to sell their own blockchain solution. Many times, the ecological pretext is used to justify the banning of Bitcoin.
 
-However, it should not be forgotten that Bitcoin, as a revolutionary invention, has given individuals living under financial oppression or a dictatorial regime a means to fight for their freedom. As a last resort, Bitcoin offers a form of financial freedom by escaping censorship and banking restrictions. Bitcoin is more than just a currency. It is a form of communication and expression of freedom. The energy spent by miners contributes to the defense of our freedom. Bitcoin allows for the emancipation from the current financial system, dominated by debt and excessive monetary creation by central banks.
+It is important to emphasize that Bitcoin, as a revolutionary invention, provides a means for individuals living under financial oppression or dictatorial regimes to fight for their freedom. As a last resort, Bitcoin offers a pathway to financial independence by circumventing censorship and banking restrictions. More than just a currency, Bitcoin serves as a form of communication and a symbol of freedom, and the energy expended by miners plays a crucial role in defending this freedom, enabling emancipation from a financial system dominated by debt and excessive monetary creation by central banks.
 
 ![image](assets/en/chapter13/3.webp)
 
-For those living in countries with high inflation, Bitcoin is a matter of survival. It provides a means to survive in precarious financial situations. Furthermore, Bitcoin offers a fairer and more equitable financial system. It also provides an opportunity for billions of people around the world to access the financial system. Seen from this perspective, is the energy consumption legitimate?
+For those living in countries with high inflation rates, Bitcoin is a matter of survival. It provides a means to survive in precarious financial situations. Furthermore, Bitcoin offers a more equitable and impartial financial system, providing billions of people worldwide with access to financial resources. Given this perspective, is the energy consumption justified?
 
-### Could Bitcoin be a net positive for the environment?
+### Bitcoin could be a net positive for the environment
 
-Finally, it is essential to discuss the economic and environmental issues of Bitcoin adoption.
+Finally, it is essential to discuss the economic and environmental consequences of Bitcoin adoption.
 
-Especially when comparing it to the current financial system. The latter, due to its encouragement of overconsumption and debt, poses serious problems. Easy access to credit, monetary issuance by banks, and the use of fractional reserve banking are all factors that promote overindebtedness and, consequently, overconsumption.
+When comparing it to the current financial system, the latter, due to its encouragement of overconsumption and debt, poses serious problems. Factors such as easy access to credit, monetary issuance by banks, and the practice of fractional reserve banking all contribute to overindebtedness and, as a result, excessive consumption.
 
 ![image](assets/en/chapter13/12.webp)
 
 It is necessary to reform the monetary system in order to reflect the scarcity of our resources with the scarcity of our currency. This will encourage more responsible consumption and a long-term vision. Conversely, inflation, by encouraging consumption and investment, has a negative long-term impact on the environment.
 
-The current financial system aligns with the ideas of Keynesian economics, which, unlike Austrian economics, does not take into account the temporal and dynamic aspects of situations and resources. In other words, an unlimited currency cannot effectively reflect the limited resources of our planet.
+The current financial system aligns with the ideas of Keynesian economics, which, unlike Austrian economics, does not take into account the temporal and dynamic aspects of situations and resources. In other words, an unlimited currency cannot effectively represent the limited resources of our planet.
 
 ![image](assets/en/chapter13/2.webp)
 
-Politicians, due to their short-term vision and their need for economic growth to be reelected, are not able to solve ecological problems in the long term. Conversely, the adoption of a sound currency like Bitcoin is a potential alternative that could empower the people economically.
+On the other hand, politicians usually have short-term vision and they need economic growth to be reelected, so they are not able to solve ecological problems in the long term. Conversely, the adoption of a sound currency like Bitcoin is a potential alternative that could empower people economically.
 
-The flames in oil wells, which burn methane to prevent pollution, can be extinguished by Bitcoin miners, which is beneficial for the environment. Bitcoin promotes the use of green energy. Methane can be converted into electricity to power mining machines, which is advantageous for everyone.
+They do not aknowledge that Bitcoin promotes the use of green energy. For example, the flames ignited in oil wells sites to burn methane and prevent pollution can be extinguished by Bitcoin miners, because methane can be converted into electricity to power mining machines, which is beneficial for the environment.  
 
-The technology of Bitcoin is often misunderstood, and criticisms regarding its environmental impact are often simplistic and short-term. These criticisms are often motivated by political interests. Bitcoin has the potential to help with the ecological transition and contribute to a greener world. The media often spreads false ideas about Bitcoin and ecology. So take the time to form your own opinion. Everything is transparent with Bitcoin.
+The technology of Bitcoin is often misunderstood, and the criticism regarding its environmental impact is often simplistic and short-sighted, often motivated by political interests. However, Bitcoin has the potential to help with the ecological transition and contribute to a greener world. Please be aware of mainstream media, which often spreads false ideas about Bitcoin and ecology: take the time to get informed and create your own opinion. After all, everything is transparent with Bitcoin.
 
-> Follow one of Bitcoin's maxims: Don't trust, verify for yourself!
+**Follow one of Bitcoin's maxims: Don't trust, verify for yourself!**
 
-### Quick recap in a poster!
-
-![Bitcoin & ecology](assets/posters/fr/14_minage_et_ecologie_crop.webp)
-
-### Brief summary of the technical aspects of Bitcoin
+### Brief summary of the technical features of Bitcoin
 
 Satoshi Nakamoto released the Bitcoin protocol in January 2009, which has since evolved thanks to a growing community of developers, miners, and users with Bitcoin nodes. By keeping their own copy of the Bitcoin blockchain, a public ledger of all Bitcoin transactions, these nodes can ensure the validity of transactions according to Bitcoin's consensus rules. This includes ensuring that miners produce valid blocks, which contain thousands of pending transactions.
 
-On average, a block is created every 10 minutes, and the miner who finds a valid hash for the next block is rewarded by the protocol with a reward whose amount is defined by the consensus rules, as well as the transaction fees from all transactions included in the valid block. Since the result of the hashing algorithm (SHA256) for a given input is considered unpredictable, the mining process involves building numerous candidate blocks and testing if their hash is valid or not. However, to ensure that the average time between two blocks remains constant (~10 mins) regardless of the number of miners and their computing power, the difficulty of finding a valid hash adjusts every 2016 blocks, approximately every 2 weeks. Miners have developed specialized SHA256 machines over time, called ASICS, to increase the hash rate per joule, which means the number of attempts per second and per consumed energy.
+On average, a block is created every 10 minutes, and the miner who finds a valid hash for the next block is rewarded by the protocol with both an amount that is defined by the consensus rules, as well as the transaction fees from all transactions included in the valid block. Since the result of the hashing algorithm (SHA256) for a given input is considered unpredictable, the mining process involves building numerous candidate blocks and testing if their hash is valid or not. However, to ensure that the average time between two blocks remains constant (~10 mins) regardless of the number of miners and their computing power, the difficulty of finding a valid hash adjusts every 2016 blocks, approximately every 2 weeks. Miners have developed specialized SHA256 machines over time, called ASICS, to increase the hash rate per joule, which means the number of attempts per second and per consumed energy.
 
-In order for miners to be as profitable as possible in their activity, they must obtain the cheapest electricity possible, which is often in remote locations, within power plants that are not yet connected to the grid. The miner then acts as a buyer of last resort, and as soon as the price of electricity increases due to an increase in demand, the miner will tend to relocate their activity elsewhere.
+In order for miners to be as profitable as possible in their activity, they must obtain the cheapest electricity possible, which is often in remote locations, within power plants that are not yet connected to the grid. The miner then acts as a buyer of last resort, and, as soon as the price of electricity increases due to an rise in demand, the miner will tend to relocate their activity elsewhere.
 
-Thus, the Bitcoin protocol is an uncensorable and unstoppable monetary system because each component of the protocol is distributed geographically across the globe - for example, there are approximately 40,000 Bitcoin nodes across all continents. Bitcoin's consensus rules are such that it is economically more profitable to follow them than to try to break them, and therefore no trust is required between actors. Bitcoin has no leader and cannot be stopped. It is possible to regulate exchange platforms to limit Bitcoin, but this is limited in terms of impact. In short, no judge or state can censor or stop Bitcoin.
+Thus, the Bitcoin protocol is an uncensorable and unstoppable monetary system because each component of the protocol is distributed geographically across the globe. For example, there are more than 40,000 Bitcoin nodes across all continents. Bitcoin's consensus rules are such that it is economically more profitable to follow them than to try to break them, and therefore no trust is required between actors. Bitcoin has no leader and cannot be stopped. Even if it is possible to regulate exchange platforms to limit Bitcoin, this approach has a marginal impact on the system. In short, no judge or state can censor or stop Bitcoin.
 
 # How to obtain Bitcoin?
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
