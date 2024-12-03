@@ -973,108 +973,100 @@ These cycles of speculative bubbles are quite unique in the world, s it is rare 
 
 ![image](assets/en/chapter14/4.webp)
 
-Today, Bitcoin continues to survive and grow even more by being integrated more and more into the traditional market. The arrival of Bitcoin ETFs, clearer regulation, and better acquisition or storage tools only encourage this trend. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not all hot air!
+Today, Bitcoin continues to survive and grow even more by being integrated more and more into the traditional market, and the introduction of Bitcoin ETFs, clearer regulations, and improved tools for acquisition and storage are all contributing to this positive momentum. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not ajust hot air after all!
 
 ![image](assets/en/chapter14/3.webp)
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
-
-## Obtaining bitcoins by working
+## Obtaining Bitcoins by Working
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 ### A parallel economy is developing
 
-Bitcoin can be seen as a parallel economy to fiat currencies. This means that it is possible to sell goods or services and be paid in bitcoin. Transactions can be made directly in bitcoin, without the need to go through an exchange platform, simply from Bitcoin wallet to Bitcoin wallet.
+Bitcoin can be seen as the tool to create a parallel economy to fiat currencies, because it is possible to sell goods or services and be paid in bitcoin. Transactions can be made directly in Bitcoin, without the need to go through an exchange platform, but simply going from a Bitcoin wallet to another.
 
-The Bitcoin economy exists and is developing in certain regions of the world, such as El Salvador where bitcoin has been legal tender since 2021. Furthermore, some individuals, businesses, and organizations already accept Bitcoin as a means of payment for their products or services.
+The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin has been a legal tender since 2021. All around us there are some individuals, businesses, and organizations that already accept Bitcoin as a means of payment for their products or services.
 
 ![image](assets/en/chapter16/6.webp)
 
-In addition, to facilitate the use of bitcoin in everyday transactions, an open-source and collaborative project has been launched: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). This platform lists all the merchants that accept bitcoin as well as the different Bitcoin communities around the world. You can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
+In addition, an open-source and collaborative project has been launched, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), to facilitate the use of Bitcoin in everyday transactions. This platform lists all the merchants that accept Bitcoin, as well as the different Bitcoin communities around the world, so you can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and the hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
 
-### Why accept Bitcoin instead of buying it?
+### Why should we accept Bitcoin instead of buying it?
 
-To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France. This method involves certain risks and the traceability of your transactions. Another method to obtain bitcoins is to accept them as a means of payment for the products or services you offer. This method allows you to acquire bitcoins through your work without constantly worrying about the price of Bitcoin.
+To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France, or the Securities & Exchange Commission (SEC) in Usa, but this solution entails the traceability of your transactions. Another method to obtain bitcoins is to accept them as a means of payment for the products or services you offer, so you can acquire bitcoins through your work without constantly worrying about the price of Bitcoin.
 
 Furthermore, accepting Bitcoin as a merchant has several advantages, including censorship resistance, reduced transaction fees, increased efficiency, protection against inflation, as well as financial freedom and sovereignty.
 
 ![image](assets/en/chapter16/3.webp)
 
-### How to proceed:
+### How can you proceed?
 
 To accept Bitcoin, it is necessary to study the different available solutions and choose the one that best suits your business. There is no perfect solution, and several factors must be taken into account to make your choice, such as the expected transaction volume, allocated budget, and type of business (online or physical).
 
-We will cover this topic in detail in another training, but to keep it simple, we can consider several categories of businesses and therefore related solutions:
+We will cover this topic in detail in another course, but to keep it simple, we can consider several categories of businesses and therefore related solutions.
 
 - Simple online solution: OpenNode
 - Solution for amateur merchants: Swiss Bitcoin Pay
 - Solution for large structures or passionate bitcoiners: BTCpay Server
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
-
 ## Saving with Bitcoin
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
-### Warning before getting started!
+### A warning before getting started!
 
-Bitcoin has become a major financial asset, mainly due to its limited supply and increasing demand. However, buying bitcoin carries risks that require special attention. It is therefore recommended to conduct your own research and learn more about the subject to become familiar with the technology before investing.
+Bitcoin has become a major financial asset, mainly due to its limited supply and increasing demand. However, buying Bitcoin carries risks that require special attention. It is therefore recommended to conduct your own research and learn more about the subject to become familiar with the technology before investing any funds.
 
 - Only invest what you can afford to lose.
-- Bitcoin is a highly volatile financial asset; its price can drop to 0.
-- Past performance is not indicative of future performance.
+- Bitcoin is a highly volatile financial asset, and its price can drop to 0.
+- Past performance is not a reliable indicator of future performance.
 - Contact your financial advisor if needed.
 
-> DécouvreBitcoin (Rogzy) does not provide investment advice and nothing stated here should be considered as such.
+**Plan ₿ Network does not provide any investment advice and nothing stated here should be considered as such**
 
 ### Mini Checklist before taking the plunge
 
-Before diving into buying bitcoin, make sure you have:
+Before diving into buying Bitcoin, make sure you have:
 
 - A secure wallet.
 - A solid understanding of Bitcoin.
 - A savings plan to follow.
 - A long-term vision.
 
-If the subject is still unclear, know that the BTC102 course will guide you in securing and acquiring your first bitcoins. Here, we will only skim the surface of the topic.
+If the subject is still unclear, be aware that the [BTC102](https://planb.network/en/courses/btc102) course will guide you in securing and acquiring your first bitcoins. Here, we will only skim the surface of the topic.
 
 In concrete terms, there are two questions to ask yourself:
 
-- What acquisition strategy to adopt: gradually or all at once?
-- Which platform to use: regulated or unregulated?
+- Should you adopt a gradual or an all-at-once acquisition strategy?
+- Should you use a regulated or an unregulated platform?
 
 ### Acquisition strategies
 
 - Dollar Cost Average
 
-Recurring purchases involve buying small amounts of bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of bitcoin owned. It is an ideal solution for long-term savings without worrying about the price and volatility of bitcoin. Set it up and forget about it.
+A gradual strategy involves recurring purchases, meaning buying small amounts of Bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of bitcoin owned. It is an ideal solution for long-term savings, and alleviates the concerns about Bitcoin's price volatility. Once set up, you can simply forget about it and watch your investment grow.
 
 ![image](assets/en/chapter15/2.webp)
 
-> Beware of UTXOs: Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
+**Beware of UTXOs**: Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
 
 - Spontaneous purchase
 
-Spontaneous purchase is used to immediately gain exposure to bitcoin. Whether it's buying during a crash or taking advantage of a bonus, the decision is yours. You will need to muster up your courage and press the buy button.
+An all-at-once solution could be a spontaneous purchase, which is used to immediately gain exposure to bitcoin. Whether it's buying during a crash or taking advantage of a bonus, the decision is yours. You will need to muster up your courage and press the buy-button.
 
-Given the significant volatility of bitcoin, special attention must be paid to your emotions. FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, Doubt) are your worst enemies in this context! Stay calm and follow the strategy you have established in advance to avoid impulsive and potentially harmful decision-making.
+In this case, you should be careful and control your emotions, as the price of bitcoin can be quite volative. In fact, FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, Doubt) are your worst enemies! Remember to stay calm and follow the strategy you have established in advance, to avoid impulsive and potentially harmful decision-making.
 
 ### Who should we buy our bitcoin from?
 
-There are several ways to acquire bitcoins, each with its own regulations. Some platforms require identification for verification, while others do not. It is crucial to understand the regulations associated with each platform.
+There are several ways to acquire bitcoins, each subject to its own set of regulations that can vary by jurisdiction. Some platforms require identification for verification (KYC), while others do not. Therefore, it is crucial to understand the regulations associated with each platform.
 
 - DCA platforms
 
-A common method of accumulating bitcoins is Dollar Cost Averaging (DCA), which involves regularly investing small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.network/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
+As we introduced above, a common method to accumulate bitcoins is the Dollar Cost Averaging (DCA), which involves regularly buying small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.network/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
 
 Today, almost all DCA solutions are relatively efficient and have almost similar fees, so the choice will depend more on availability in your country.
 
 - Broker platforms
 
-For large-scale investments, regulated and recognized platforms such as Kraken, Bitstamp, and Paymium are recommended. These platforms offer a safe and secure environment for high-volume transactions.
+For large-scale investments, regulated and recognized platforms such as Kraken, Bitstamp, and Paymium are recommended. They offer a safe and secure environment for high-volume transactions.
 
 Their use is simple and accessible to everyone:
 
@@ -1085,15 +1077,15 @@ Their use is simple and accessible to everyone:
 
 ![image](assets/en/chapter15/1.webp)
 
-After the purchase, it is advisable to immediately withdraw the bitcoins from the exchange platforms to minimize the risks of hacking and fund blocking. Withdrawal fees can be high, sometimes up to 25 euros depending on the platform.
+After the purchase, it is advisable to immediately withdraw the bitcoins from the exchange platforms to minimize the risks of hacking and fund blocking. Be aware that withdrawal fees can be high, sometimes up to 25 euros depending on the platform.
 
-> Know Your Customer (KYC) regulations require users to provide identification to combat terrorism financing, tax evasion, and money laundering.
+**Know Your Customer (KYC) regulations require users to provide identification to combat terrorism financing, tax evasion, and money laundering.**
 
-It is important to note that KYC is an important topic in our industry as its effectiveness remains easily debatable while its negative aspects are numerous. In many of our university's training programs and content, we advise against using full KYC platforms if you are already an advanced user.
+It is essential to recognize that KYC is a significant topic of discussion in the Bitcoin industry. While many people debate its effectiveness, there are numerous concerns associated with it. In many of our academy's training programs and content, we advise advanced users to avoid platforms that require KYC, as there are often more privacy-focused alternatives available.
 
-### Non-KYC Solution
+### Non-KYC solutions
 
-In addition, there are several [marketplaces](https://planb.network/tutorials/exchange) to buy and sell bitcoins peer-to-peer. If you are interested in these, you can take our BTC 205 course on the subject. Generally, these solutions are:
+In addition, there are several [marketplaces](https://planb.network/tutorials/exchange) where to buy and sell bitcoins in a peer-to-peer exchange. In general, you mau consider the following:
 
 - Bitcoin ATMs
 - Physical meetings with other bitcoin enthusiasts
@@ -1103,22 +1095,18 @@ In addition, there are several [marketplaces](https://planb.network/tutorials/ex
 
 ![image](assets/en/chapter15/3.webp)
 
-It is also important to note that taxes may be implemented in your jurisdiction. We invite you to consult the regulations of your country before taking any action that may put you at risk.
-
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/16._saving_in_bitcoin.webp)
+Finally, it is important to note that tax obligations may vary depending on the jurisdiction, so we strongly encourage you to consult the regulations in your country before taking any actions that could put you at risk.
 
 ## Hyper-bitcoinization
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
 ### The wild race is just beginning!
 
-Like any new technology, the adoption of Bitcoin follows an S-curve. We have surpassed the era of early adopters and the indicators seem to point towards a complete democratization of Bitcoin. It is a viral technology that cannot be stopped. El Salvador has taken the bold gamble of adopting Bitcoin in its entirety, declaring it as a legal tender. However, each country reacts differently to this technology. Some have banned and criminalized its use, adding to the complexity of Bitcoin adoption based on cultures, eras, and nations.
+Like any new technology, the adoption of Bitcoin follows an S-curve, illustrating the progression from early adopters to broader acceptance. We have moved beyond the era of early adopters, and indicators suggest a potential democratization of Bitcoin. After all, it is a viral technology that cannot be easily halted. On the one hand, El Salvador has taken the bold step of fully adopting Bitcoin as legal tender. On the opposite, other countries have responded by banning it and criminalizing its usage, which shows that Bitcoin adoption is complex and is exposed to the influence of cultural, historical, and national factors.
 
 ![image](assets/en/chapter17/2.webp)
 
-The rise of Bitcoin forces companies, universities, regulators, and individuals to take this new technology into account. New tools need to be created, services need to be adapted, and innovation must continue to ensure their survival. This context raises many questions related to various fields, including cryptography, game theory, economics and monetary policy, computer science, philosophy, energy, laws, and regulation. In short, Bitcoin is a multidisciplinary object.
+The rise of Bitcoin forces companies, universities, regulators, and individuals to take this new technology into account. New tools need to be created, services need to be adapted, and innovation must continue to ensure their survival. This context raises many questions related to various fields, including cryptography, game theory, economics and monetary policy, computer science, philosophy, energy, laws, and regulation. In short, Bitcoin is a multidisciplinary subject.
 
 ![image](assets/en/chapter17/1.webp)
 
