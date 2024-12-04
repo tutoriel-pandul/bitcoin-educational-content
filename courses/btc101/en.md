@@ -1112,17 +1112,13 @@ The rise of Bitcoin forces companies, universities, regulators, and individuals 
 
 ### Bitcoin is a 0 to 1
 
-We invite you to reflect on this new monetary revolution. There is so much to explore with Bitcoin that it is complicated to assimilate everything at once. Take your time, Bitcoin is not going to disappear. On the contrary, the revolution has just begun. Together, we believe that we are capable of creating the world we want to entrust to our children. A world where human sovereignty is a right, where privacy is respected by default, and where money is not manipulated. We hope that together we will achieve this.
+In the end, we invite you to reflect on this new monetary revolution. There is so much to explore with Bitcoin that it is complicated to assimilate everything at once. Take your time, Bitcoin is not going to disappear. On the contrary, the revolution has just begun. We believe we are capable of creating the world we want to entrust to our children: a world where human sovereignty is a right, where privacy is respected by default, and where money is not manipulated. We hope that, together, we will achieve this.
 
 ![image](assets/en/chapter17/3.webp)
 
-If you want to expand your knowledge about Bitcoin, a large number of authors, thinkers, and essayists have contributed to the educational layer of Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://planb.network/resources) to the most curious among you. You will find the best podcasts, websites, articles, tutorials, books, and other content.
+If you want to broaden your knowledge about Bitcoin, this is the right time: a large number of authors, thinkers, and essayists have created educational content about Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://planb.network/resources) to the most curious among you. In that section, You will find the best podcasts, websites, articles, tutorials, books, and other content.
 
-> Milton Friedman, a renowned economist, predicted in 1999: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A."
-
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/18._hyperbitcoinization.webp)
+> "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A." - Milton Friedman prediction in 1999
 
 # The Future of Bitcoin: The Lightning Network
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
@@ -1130,94 +1126,85 @@ If you want to expand your knowledge about Bitcoin, a large number of authors, t
 ## A Brief Introduction to the Lightning Network
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions. We are obviously talking about the Lightning Network!
+Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions: Lightning Network! 
 
-### In a Nutshell
+Be aware that the following is only a general description, so, if you want to understand it in deeper details, we invite you to check our [LNP201 course](https://planb.network/en/courses/lnp201)
 
-The Lightning Network is a revolutionary technology that has profoundly changed our perception of Bitcoin. It is a solution that addresses the scalability issue of Bitcoin.
+### In a nutshell
 
-To fully grasp the Lightning Network, it is crucial to understand how Bitcoin evolves. Bitcoin develops in infrastructure layers: the first layer is the blockchain, and the second layer is the Lightning Network.
+The Lightning Network is a revolutionary technology that has profoundly changed our perception of Bitcoin, as it addresses the scalability issue of Bitcoin.
+
+To fully grasp the Lightning Network, it is crucial to understand how Bitcoin evolves and develops in infrastructure layers: the first layer is the blockchain, and the second one is the Lightning Network.
 
 ![image](assets/en/chapter18/6.webp)
 
-Recognized as a layer of Bitcoin, the Lightning Network was validated and implemented in 2017. It allows for instant, low-cost Bitcoin transactions, thus solving the scalability problem of Bitcoin. But what is this scalability problem that Bitcoin faces?
+### A Blockchain cannot grow indefinitely
 
-### A Blockchain Cannot Grow Indefinitely
+Lightning Network was validated and implemented in 2017 to solve the scalability problem of Bitcoin, as it allows for instant, low-cost Bitcoin transactions.
 
-The scalability problem refers to the challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second as it is adopted. This relates to the blockchain trilemma. Imagine a triangle with decentralization, security, and scalability as its vertices.
+The scalability problem refers to the challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second to face the increasing adoption. This issue relates to the blockchain trilemma. Imagine a triangle with decentralization, security, and scalability as its vertices.
 
 ![image](assets/en/chapter18/5.webp)
 
-A protocol based on a blockchain can only satisfy two out of these 3 aspects. Within the Bitcoin protocol, choices have been made to favor decentralization/security. On one hand, the block size of 1MB and the time between two blocks (on average 10 minutes) allow for running a Bitcoin node at a lower cost, favoring decentralization. On the other hand, the production of blocks through Proof-of-Work makes fraud within the protocol extremely costly while facilitating verification by network nodes, thus favoring security. However, these choices impose a limit on the average number of transactions in a block, roughly corresponding to a few transactions per second. This number is ridiculous when compared to the processing capacity of payment processors like VISA, which is 1700/s. However, this limit is necessary in order to transact with Bitcoin in a censorship-resistant and trustless manner. Nevertheless, those developing on Bitcoin have been thinking about this problem since the beginning.
+According to it, a protocol based on a blockchain can only satisfy two out of these three features. Within the Bitcoin protocol, developers have made choices to favor decentralization and security. On the one hand, the block size of 1MB and the time between two blocks (on average 10 minutes) allow for running a Bitcoin node at a lower cost, favoring decentralization. On the other hand, the production of blocks through Proof-of-Work makes fraud within the protocol extremely costly, while facilitating verification by network nodes and favoring security. However, these choices impose a limit on the average number of transactions in a block, roughly corresponding to a few transactions per second. This number is ridiculous when compared to the computational capacity of payment processors like VISA (1700/s), but this limit is necessary in order to transact with Bitcoin in a censorship-resistant and trustless manner. Nevertheless, those developing on Bitcoin have been thinking about this problem since the beginning.
 
-### Lightning as a Layer on Top
+### Lightning as a layer on top
 
-After years of reflection and multiple attempts, the Lightning protocol emerges. Using a certain number of specifications, this protocol allows for the construction of a peer-to-peer payment network by leveraging the security and programmability of Bitcoin's transaction protocol. The Lightning Network acts as a network of payment channels, enabling instant transactions with low fees for the sender. This network of payment channels even makes it possible to transact between individuals who do not have a direct channel connection.
+After years of consideration and multiple attempts, the Lightning protocol emerged. Using a certain number of specifications, this protocol constructs a peer-to-peer payment network by leveraging the security and programmability of Bitcoin's transaction protocol. The Lightning Network acts as a network of payment channels, enabling instant transactions with low fees for the sender, and it even creates exchange routes between individuals who do not have a direct channel connection.
 
 ![image](assets/en/chapter18/4.webp)
 
-Traditional money transfer services such as Western Union, central banks, Visa, and Mastercard could disappear if they do not adopt Lightning Network technology. The Lightning Network is more efficient and cost-effective than current payment systems. Indeed, the Lightning Network allows for nearly unlimited transactions between two peers sharing a channel, without energy expenses on the base blockchain other than the transaction to announce the creation of the channel.
+Traditional money transfer services such as Western Union, central banks, Visa, and Mastercard could disappear if they do not adopt the Lightning Network technology, which is more efficient and cost-effective than current payment systems. In fact, the Lightning Network enables nearly unlimited transactions between two peers sharing a channel, incurring only the energy costs associated with the transaction to announce the creation of the channel, rather than on each individual transaction.
 
 ![image](assets/en/chapter18/7.webp)
 
-Transactions are secured through cryptography and indirectly through the energy consumed by miners on Bitcoin. Transactions can be made instantly, without geographical limitations, and fees are extremely low, often less than 0.5%.
+Transactions are secured through cryptography and indirectly through the energy consumed by miners on Bitcoin. They can be made instantly, without geographical limitations, with extremely low fees (often less than 0.5%).
 
-In summary, the Lightning Network is a promising attempt to deploy an efficient payment system for transacting in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network training.
+In summary, Lightning Network is a promising attempt to deploy an efficient payment system to buy and sell in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network courses.
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/20._lightning_network.webp)
-
-## Use Cases of the Lightning Network
+## Lightning Network Use Cases
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-As we have just seen, the Bitcoin protocol, although revolutionary, faces significant challenges in terms of scalability in order to handle all of our daily transactions. To solve these problems, a second layer solution known as the Lightning Network was proposed in 2016 and now has several different implementations, all of which are interoperable:
+As we have just seen, the Bitcoin protocol, although revolutionary, faces significant challenges in terms of the scalability needed to handle all of our daily transactions. To solve these problems, the Lightning Network was proposed and has since developed into several different implementations, all of which are interoperable:
 
 - Core-lightning by Blockstream
 - Eclair by Acinq
 - LND by Lightning strike
 
-This peer-to-peer network aims to facilitate micro-transactions, which are transactions of very low value that would otherwise be impractical due to high fees and long confirmation times on the Bitcoin blockchain.
+This peer-to-peer network aims to facilitate micro-transactions (with very low value) that would otherwise be impractical due to high fees and long confirmation times on the Bitcoin blockchain.
 
 ### What are the use cases of the network?
 
-This technology opens the door to a wide range of potential applications for Bitcoin that were previously out of reach due to the constraints necessary to ensure the security and decentralization of Bitcoin. Among these applications in everyday life, we can mention instant billing in commerce (both physical and online), streaming money for real-time payments, and micro-donations for content. By deploying a network of almost instant, secure, and low-cost transactions (on average less than 0.5%), many previously unimaginable business models can be implemented. This is possible because the Lightning Network uses sats (the decimal of bitcoin) to function.
+This technology opens the door to a wide range of potential applications for Bitcoin that were previously out of reach because of the necessary constraints to ensure the security and decentralization of Bitcoin. Among these everyday use cases, we can mention instant billing in both physical and online commerce, streaming money for real-time payments, and micro-donations for content creators. By enabling a network of nearly instant, secure, and low-cost transactions (averaging less than 0.5%), many previously unimaginable business models can be realized. This is made possible because the Lightning Network operates using satoshis (sats), the smallest unit of Bitcoin.
 
 ![image](assets/en/chapter19/9.webp)
 
-The video game industry offers a particularly interesting example of how the Lightning Network can be used to transform existing business models. The concept of "skin in the game" is an idea that has recently gained popularity in this context. It essentially involves having a financial stake in the outcome of a game.
-The Lightning Network allows players to wager very small amounts of money when playing games, such as a few satoshis (about a fraction of a euro cent). This allows for the establishment of a stake that stimulates competition while significantly increasing the cost of deploying bots.
+The video game industry offers a particularly interesting example of how the Lightning Network can be used to transform existing business models. The concept of "skin in the game" is an idea that has recently gained popularity in this context. It essentially involves having a financial stake in the outcome of a game. In fact, Lightning Network allows players to wager very small amounts of money when playing games, such as a few satoshis (about a fraction of a euro cent) to establish a stake that stimulates competition while significantly increasing the cost of using bots.
 
 ![image](assets/en/chapter19/2.webp)
 
-In summary, the future of micro-transactions with Bitcoin looks promising thanks to innovations like the Lightning Network. As these technologies continue to develop and mature, we can expect to see new and exciting applications emerge in the near future. Take, for example, the concept of "money streaming." With the Lightning Network, we can make micro-transactions every minute (potentially without a trusted third party), which opens the door to experimenting with economic models where consumers pay for content based on what they consume.
+In summary, the future of micro-transactions with Bitcoin looks promising thanks to innovations like Lightning Network. As these technologies continue to develop and mature, we can expect to see new and exciting applications emerge in the near future. 
 
 ![image](assets/en/chapter19/8.webp)
 
-In such a system, money is automatically divided, based on a predefined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models. For example, instead of paying a monthly subscription for a service, users could be charged per minute, or even per second, for the time they spend using the service. Such an economic model could have profound implications for content creators, who would be incentivized to produce quality content to retain users' attention. Users, in turn, would only pay for the content they consume, thus eliminating upfront subscription fees. It is even conceivable to use this system for renting goods.
+Another example could be "money streaming": through Lightning Network, we can make micro-transactions every minute (potentially without a trusted third party), which opens the door to experimenting with economic models where consumers pay for content based on their actual consumption. It is even conceivable to use this system for renting goods. In such a system, money is automatically divided, based on a predefined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models: instead of paying a monthly subscription for a service, users could be charged per minute, or even per second, for the time they spend using the service. Such an economic model could have profound implications for content creators, who would be incentivized to produce quality content to keep users' attention.
 
 ![image](assets/en/chapter19/3.webp)
 
-In conclusion, the Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied. We encourage you to test it out for yourself by trying the podcast application [Fountain](https://www.fountain.fm/), which allows you to be rewarded with a few sats for listening to your favorite podcasts!
+In conclusion, Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied, and we encourage you to check for yourself by trying the podcast application [Fountain](https://www.fountain.fm/), which allows you to be rewarded with a few sats for listening to your favorite podcasts!
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/21._ln_use_cases.webp)
-
-## Red pill or blue pill?
+## Red Pill or Blue Pill?
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 As Morpheus said to Neo: "You take the blue pill, the story ends, you wake up in your bed, and you believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes." Are you ready to explore the rabbit hole of Bitcoin? Be careful, as you might rediscover your financial freedom!
 
-![red pill](assets/posters/fr/2_pilluleorange.webp)
-
 ### Technological future and its implications
 
-Technology is evolving exponentially, and no one can predict its future developments with certainty. The connectivity of the world and artificial intelligence continue to advance. The knowledge that an individual can acquire through the internet is becoming increasingly immeasurable over time.
+Technology is evolving exponentially, and no one can predict its future developments with certainty. World connectivity and artificial intelligence continue to advance, and the knowledge that an individual can acquire through the internet is becoming increasingly immeasurable over time.
 
-Let's take AI as an example. These technologies have already surpassed or are approaching human-level performance in a growing number of domains, such as video games, image and text production, and data analysis. One potential implication is that over 80% of jobs will disappear due to AI and automation. Several options are available to us, such as restraining technological progress or harnessing the increased capital from productivity gains created by AI.
+If we take AI as an example, these technologies have already surpassed or are approaching human-level performance in a growing number of domains, such as video games, image and text production, and data analysis. One potential implication is that over 80% of jobs will disappear due to AI and automation. As a consequence, several options are available to us, such as restraining technological progress or harnessing the increased capital from productivity gains created by AI.
 
-The essential questions to ask are:
+We have some essential questions to ask ourselves:
 
 - How do we manage a society where 80% of jobs will disappear?
 - How do we revitalize a population?
@@ -1225,14 +1212,15 @@ The essential questions to ask are:
 - The geopolitical, political, and human consequences of automation are not sufficiently discussed.
   Computing, the internet, streaming, and VR will change education. We could have a universal course for all French students managed by the government and teachers who no longer give lectures but directly accompany the students. Children could go into a virtual world and be accompanied in learning history.
 
-- Where is the boundary between a teacher and an AI?
+- Where is the boundary between a teacher and an AI personification?
 - How can we guarantee a society that lives in prosperity?
 
-These fundamental questions for our future must be debated and collectively decided. But what is the connection with Bitcoin? Like the internet for modes of communication, Bitcoin is a technological revolution for new modes of large-scale organization, bringing us the possibility of exchanging value without any trusted third party. Do we want to hinder the technological evolution of the monetary system or reap the increase in capital through the tenfold productivity gain from using Bitcoin and Lightning protocols?
+These fundamental questions for our future must be debated and collectively decided. 
+What is the connection with Bitcoin? Just as the Internet revolutionized modes of communication, Bitcoin represents a technological revolution for new forms of large-scale organization, enabling us to exchange value without relying on any trusted third party. Do we want to hinder the technological evolution of the monetary system, or do we wish to embrace the potential for increased capital through the tenfold productivity gains offered by using Bitcoin and Lightning protocols?
 
 ### What is the future of finance?
 
-These reflections also raise questions about who should hold, authorize, and trace the money we use. The goal is to decide between a closed system with unelected leaders or an open system without trusted third parties, where neutrality prevails.
+These considerations also raise questions about who should hold, authorize, and trace the money we use. The goal is to decide between a closed system with unelected leaders or an open system without trusted third parties, where neutrality prevails.
 
 - Is currency a form of private property?
 - Can protesters' accounts be blocked without a Supreme Court order?
@@ -1240,22 +1228,22 @@ These reflections also raise questions about who should hold, authorize, and tra
 - How can an individual be sovereign over their money and rely on a trusted third party?
 - Can money be sent to the other side of the world without fees or intermediaries?
 
-Accepting these new technologies could generate massive economies of scale worldwide. Should we allow the free movement of capital flows? International blockades have economic and political consequences. Is it ethical to use financial intermediaries like Western Union, which sometimes charge up to 25% in fees? We believe that in an increasingly digital world, money should be democratized and considered a common good belonging to the people rather than the state or opaque financial institutions.
+Accepting these new technologies could generate massive economies of scale worldwide. Should we allow the free movement of capital flows? International blockades have economic and political consequences. Is it ethical to use financial intermediaries like Western Union, which sometimes charge up to 25% in fees? We believe that in an increasingly digital world, money should be democratized and considered a common good belonging to the people rather than to the state or to opaque financial institutions.
 
-The question of who should control the banking system is crucial because the rules of the banking game are not transparent and understandable to all, allowing a caste of politicians and regulators to maintain their grip on the system. It is important to question whether the free market or a group of intellectuals should control the banking system.
+The question of who should control the banking system is crucial because the rules of the banking game are not transparent and understandable to all, allowing a caste of politicians and regulators to maintain their grip on the system, so it is important to question whether the free market or a group of intellectuals should have the power over it.
 
-### Our freedoms are at stake.
+### Our freedom is at stake.
 
-The censorship must also be questioned because who has the knowledge to decide what should be censored or not? The media has changed their position on certain information and the people who were censored before are no longer censored today.
+Censorship must also be questioned: who has the knowledge to decide what should be censored or not? The media has changed their position on certain information and those who were censored before are no longer censored today.
 
 - Who decides what is censorship or propaganda?
 - Who has the divine hand over our system?
 
-Tolerating censorship can destroy freedom of expression and the right to assembly. Implementing censorship is technically difficult without creating a complete dystopia. Which entity should have the power of censorship? The question of censorship is complicated and it is difficult to know who should be censored or not. Censorship can have a negative impact on innovation and freedom to undertake.
+We strongly believe that tolerating censorship can destroy freedom of expression and the right to assembly, as it can have a negative impact on innovation and free will. Imposing censorship is technically difficult without creating a complete dystopia. Thus, which entity should have the power of censorship? The matter is complicated, and it is also difficult to decide who should be restricted or not. 
 
-There are 2.4 billion people in the world without a bank account, which necessarily creates geographical inequalities. Bitcoin allows for equality in transactions, regardless of your social status or political position. The Bitcoin protocol is apolitical and does not give specific privileges to the president or other actors. Leaders should have the same privileges as ordinary people to push development upwards rather than leaving some at the top and others at the bottom. Should everyone have the same currency, regardless of their social status? It is important to think about the world we want to leave to our children. We wish to leave an open world where they are free to do what they want with their money.
+There are 2.4 billion people in the world without a bank account, which necessarily creates geographical inequalities. On the other hand, Bitcoin grants transactions equality, disregarding your social status or political position. The protocol is apolitical and does not grant specific privileges to leaders or other influential figures, ensuring that everyone has the same opportunities to drive development forward, rather than allowing a few to remain at the top while others are left behind. Should everyone have access to the same currency, regardless of their social status? It is essential to consider the world we want to leave to our children, and we aspire to create an open world where they are free to manage their money as they choose.
 
-Bitcoin is important and should not be considered just a game of chance. It is crucial to continue asking questions about Bitcoin.
+Bitcoin is important and should not be considered just a game of chance, so it is crucial to keep asking questions about Bitcoin and its consequences on the world.
 
 ### Bitcoin: a revolutionary protocol
 
