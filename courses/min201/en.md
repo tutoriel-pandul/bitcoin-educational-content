@@ -38,7 +38,7 @@ In the second section, we will embark on a fascinating practical case, learning 
 
 This learning journey will show you that the mining industry is more complex than it appears, offering a balanced perspective on the ecological debate associated with it. Ongoing assistance will be available through a dedicated Telegram group for students, and all the necessary components will be easily accessible on our e-commerce platform.
 
-### Curriculum:
+### Curriculum
 
 Theoretical Section:
 
