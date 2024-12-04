@@ -186,10 +186,6 @@ Currencies are still evolving to this day, adapting their forms to meet differen
 
 On the other hand, Bitcoin presents new possibilities. Its properties, such as a strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable means of exchange that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
 
-### Quick recap in a poster!
-
-![v](assets/posters/en/3._money.webp)
-
 ## Fiduciary currencies
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
@@ -203,7 +199,7 @@ Today, major currencies such as the Euro and the Dollar are considered fiduciary
 
 ![image](assets/en/chapter2/1.webp)
 
-### Monetary devaluation: A strategy as old as the Roman Empire
+### Monetary devaluation: a strategy as old as the Roman Empire
 
 Since antiquity, gold has served as a monetary reference, but its rigidity has often led leaders, whether Roman emperors or modern governments, to adopt alternative currencies, often fiduciary.
 
@@ -225,7 +221,7 @@ Today, we are witnessing a historic turning point. The dollar, which has long do
 
 ![image](assets/en/chapter2/4.webp)
 
-### Is Bitcoin a Solution?
+### Is Bitcoin a solution?
 
 Because of these premises, the Bitcoin revolution is gaining momentum. Contrary to previous currencies, it requires **no trusted third party** and aims to separate the State from money.
 
@@ -238,16 +234,13 @@ In fact, Bitcoin presents itself as a response to these systemic challenges by p
 Another reason why Bitcoin has acquired attention is the emergence of central bank digital currencies, or CBDCs, which seems inevitable. This new form of money would develop a more centrally planned economy, and could both hinder individuals' financial freedom and facilitate authoritarian abuses.
 We can conclude this chapter with the quote from the Nobel Prize winner F.A Hayek in 1984: "I don't believe that we should ever have a good money again, before we take the thing out of the hands of the government. If we can't take them violently out of the hands of the government, all we can do is by some sly or roundabout way introduce something they can't stop."
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/4._fiat_currency.webp)
 
 ## Hyperinflation
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
 Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is charterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
 
-### Inflation Running Wild!
+### Inflation running wild!
 
 In order to understand the impact of inflation on savings, we need to take different inflation rates into consideration.
 
@@ -261,7 +254,7 @@ It is crucial to understand that hyperinflation does not happen by chance, by ca
 
 ![image](assets/en/chapter3/1.webp)
 
-### What are the Phases of Hyperinflation?
+### What are the phases of hyperinflation?
 
 ![image](assets/en/chapter3/3.webp)
 
@@ -325,14 +318,11 @@ In the end, the authorities created a new currency, backed by the debts of Germa
 In conclusion, hyperinflation has the effect of rapidly degrading the value of the currency, leading to the erosion of savings and the loss of confidence in the monetary system. As Voltaire once suggested, a fiat currency will always eventually lose its intrinsic value and converge towards zero.
 A currency that relies on a trusted third party like a financial institution is, in practice and in the long term, a defective one, because it is unable to guarantee purchasing power or preserve savings.
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/5._hyperinflation.webp)
 
 ## 21 million bitcoins
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
-### Bitcoin's Monetary Policy
+### Bitcoin's monetary policy
 
 Bitcoin is a decentralized digital currency with a pre-defined maximum quantity of **21 million units**. This intrinsic characteristic of scarcity is determined by its computer code and reinforced by the consensus of all users participating in the protocol.
 
@@ -340,7 +330,7 @@ Bitcoin is a decentralized digital currency with a pre-defined maximum quantity 
 
 Its monetary issuance can be illustrated by a curve that represents the quantity of bitcoins created over time. For example, in 2022, approximately 18.5 million bitcoins were in circulation. Forecasts indicate that by 2025, there will be around 19.5 million bitcoins, representing around the 93% of the total supply, and by 2037, this figure will reach 20.4 million.
 
-### How are New Bitcoins Created?
+### How are new bitcoins created?
 
 The creation of new bitcoins is the result of the mining process. In a nutshell, miners use powerful computers that solve complex mathematical problems, which validate and secure transactions. Once a problem is solved, the miner adds a new block of transactions to the blockchain, a decentralized and distributed ledger that records all transactions made on the network. The blockchain ensures transparency and security, as each block is linked to the previous one, making it nearly impossible to alter past data without consensus from the network.
 
@@ -391,7 +381,7 @@ Thus, as the number of bitcoins issued approaches the 21 million limit, miners w
 
 The idea of devaluing the currency goes against the fundamental philosophy of Bitcoin, so a change in its overall quantity is highly unlikely to happen.
 
-### An Auditable Monetary Policy: Every Second, from the Beginning and Forever!
+### An auditable monetary molicy: every second, from the beginning and forever!
 
 The scarcity of Bitcoin is a major asset, and the maximum quantity of 21 million bitcoins in circulation is public and verifiable by anyone.
 
@@ -442,7 +432,7 @@ Portfolios can thus be categorized into broad families of use, always centered a
 
 ![image](assets/en/chapter5/3.webp)
 
-### How does a Bitcoin Wallet Work?
+### How does a Bitcoin wallet work?
 
 Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wallets work with a similar technology based on asymmetric cryptography, which involves a system of key pairs: a private key for spending and a public key for receiving.
 
@@ -464,7 +454,7 @@ In a summary, this technology empowers us to receive bitcoins without enabling t
 
 ![image](assets/en/chapter5/4.webp)
 
-### Are Bitcoins in the Wallet?
+### Are bitcoins in the wallet?
 
 Although your keys are stored in your wallet, the bitcoins themselves are actually "stored" in the Bitcoin blockchain, which is a public distributed ledger within the Bitcoin peer-to-peer network (we will delve into it in section 3). This means that losing the device containing your wallet does not necessarily result in the loss of your bitcoins. What allows you to recreate your wallet and spend your bitcoin is actually the private key, so always remember to secure it properly!
 
@@ -482,14 +472,11 @@ Thus, the probability of hacking your Bitcoin wallet is astronomically low if yo
 
 Keep in mind to choose the right wallet for your needs and usage: detailed tutorials on managing and securing different wallets are available in the [tutorial section of our university](https://planb.network/tutorials/wallet).
 
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
 ## Bitcoin Wallets and Security 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
-### Asking the Right Questions before Starting
+### Asking the right questions before starting
 
 When you own bitcoins, the security of your funds is a major concern. The best way to define a security level that is suitable for your situation is to ask yourself a series of questions:
 
@@ -502,7 +489,7 @@ There is actually no universal answer or solution, so take the time to answer th
 
 ![image](assets/en/chapter6/0.webp)
 
-### Thinking about Bitcoin Wallets in Terms of Complexity
+### Thinking about Bitcoin wallets in terms of complexity
 
 Here below, we will define several levels of security:
 
@@ -526,7 +513,7 @@ Here below, we will define several levels of security:
 
 Of course, different use cases also require different Bitcoin wallets, and there is no one-size-fits-all solution.
 
-### Security Must be Adapted
+### Security must be adapted
 
 The amount one is willing to leave on a specific security level depends on each individual. For some, leaving 1 BTC on a hot wallet is reasonable, while, for others, it is the oppsosite. In any case, when you want to secure a small amount, we advise not to spend too much on security by buying a physical wallet. Besides, keep in mind that overcomplicating the security and accessibility of your bitcoins can be detrimental, especially if you mishandle the backups of your wallets.
 
@@ -534,9 +521,6 @@ In conclusion, direct ownership of one's bitcoins is an essential element to ens
 
 With this in mind, we can now move to the next section where we describe how to create a Bitcoin wallet. However, if you wish to further explore the topic of security, you can read this [article by DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Quick Recap in a Poster!
-
-![Alt text](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Setting up a Wallet
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
@@ -545,7 +529,7 @@ The security of your bitcoins has crucial importance, and a simple mistake can h
 
 Please note that the [BTC102 course](https://planb.network/en/courses/btc102) will guide you through this step.
 
-### This Step is no Joke!
+### This step is no joke!
 
 When you set up a wallet, the software usually creates your private key, usually represented by a list of 12/24 words (often called "seed phrase" or "mnemonic phrase"): these words constitute the access to your funds. If this key is ever revealed to a third party, you should consider the associated funds to be compromised. Therefore, when setting up your wallet, it is essential to follow these rules:
 
@@ -573,9 +557,6 @@ Both 'cold' and 'hot' wallets use the word list method as the standard for backi
 
 **ATTENTION: The absence of a list of 12/24 words should alert you.**
 
-### Quick Recap in a Poster!
-
-![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
 ## Passing the Test of Time
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
@@ -606,9 +587,6 @@ Regarding privacy, it is crucial to avoid talking to everyone about your bitcoin
 
 Similarly, avoid openly sharing details about your security system during bitcoin meetings or encounters with strangers...
 
-### Quick Recap in a Poster!
-
-![Alt text](assets/posters/en/19._think_long_term.webp)
 
 ### Summary on Bitcoin Wallet Security
 
@@ -1020,7 +998,7 @@ Bitcoin has become a major financial asset, mainly due to its limited supply and
 - Past performance is not a reliable indicator of future performance.
 - Contact your financial advisor if needed.
 
-**Plan ₿ Network does not provide any investment advice and nothing stated here should be considered as such**
+**Plan ₿ Network does not provide any investment advice, and nothing stated here should be considered as such**
 
 ### Mini Checklist before taking the plunge
 
@@ -1247,34 +1225,34 @@ Bitcoin is important and should not be considered just a game of chance, so it i
 
 ### Bitcoin: a revolutionary protocol
 
-As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can record transactions immutably in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB) allows for network scalability and the development of new functionalities, especially to address scaling issues.
+As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can immutably record transactions in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB) is used for network scalability and the development of new functionalities.
 
-Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible cost for verification, and with a monetary policy already set for centuries to come with these 21 million units. Bitcoin is pseudonymous and can be exchanged anywhere in the world without any authorization from any entity, you just need to hold your own private keys - as the saying goes "Not your keys, not your bitcoins".
+Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible verification costs, and with a monetary policy already set to 21 million units for centuries to come. Bitcoin is pseudonymous and can be exchanged anywhere in the world without any authorization from any entity. You just need to hold your own private keys and remember the saying "Not your keys, not your bitcoins".
 
-Bitcoin is adopted by diverse groups of people, from cryptographers to libertarians to traditional businesses and even a country. However, Bitcoin is for everyone, and its number of users is growing, as is the number of Bitcoin nodes that serve as guardians of transaction history, ensuring its decentralization.
+It is adopted by diverse groups of people, from cryptographers, to libertarians, to traditional businesses, and even entire countries. However, Bitcoin is for everyone, and as the number of users is growing, so does the number of Bitcoin nodes that serve as guardians of transaction history, ensuring its decentralization.
 
-Bitcoin cannot be stopped anymore and cannot be censored anymore. It is a peaceful revolution to change the monetary system and enable financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. Bitcoins can be stored in wallets, mobile applications, or physical devices. No trusted intermediary in Bitcoin, Bitcoin advocates transparency, freedom, and individual responsibility - as the saying goes "Don't Trust, Verify".
+Bitcoin cannot be stopped and cannot be censored anymore. It is a peaceful revolution that changes the monetary system and enables financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. They can store funds in their wallets, mobile applications, or physical devices, without the need of trusted intermediaries. Bitcoin advocates transparency, freedom, and individual responsibility: as the saying goes "Don't Trust, Verify".
 
-Changing the financial system requires changing the currency. Satoshi created Bitcoin in 2008 to propose an attempt at this. Having access to easy and "magical" money corrupts. Bitcoin is therefore an alternative to build a new neutral monetary system. Bitcoin allows for the emancipation from the banking system. It is a social phenomenon that leads us to participate in a peaceful revolution. Are you ready to join?
+Satoshi created Bitcoin in 2008 to propose a change the financial system, through the change of the currency, because he knew that having access to easy and "magical" money easily brings to corruption. Bitcoin is therefore an alternative to build a new neutral monetary system, as it allows for the emancipation from the banking system. In the end, it is a social phenomenon that encourages us to participate in a peaceful revolution. Are you ready to join?
 
 ## Acknowledgments and keep digging the rabbit hole
 <chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
 
 ### Go further
 
-Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed it and it opened doors for you. Your discovery of bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
+Congratulations on completing this BTC 101 course! We sincerely hope you enjoyed it and it opened doors for you. Your discovery of Bitcoin is just at the beginning, so we invite you to explore all the other courses available at the university. Besides, you will also find many posters dedicated to this course in the [21 posters section](https://testnet.planb.network/en/resources/bet). Feel free to use that content, and remember to tag us on [X!](https://x.com/planb_network)
 
-- [BTC 102](https://planb.network/courses/btc101) will help you set up your bitcoin plan
-- [LNP 201](https://planb.network/courses/lnp201) will allow you to discover the Lightning Network, a second-layer payment network
+- [BTC 102](https://planb.network/courses/btc101) will help you set up your Bitcoin plan
+- [LNP 201](https://planb.network/courses/lnp201) will let you discover the Lightning Network, a second-layer payment network
 - [ECO 201](https://planb.network/courses/eco201) will cover Austrian economics
 - [SCU 101](https://planb.network/courses/scu101) will allow you to update your digital security
-- [MIN 201](https://planb.network/courses/min201) to learn more about mining
+- [MIN 201](https://planb.network/courses/min201) will teach you more about mining
 - and many more...
 
 ## Support us
 <chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
-This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via [our GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). On behalf of the entire team, thank you!
+This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the academy, and even contribute to its development via [our GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). On behalf of the entire team, thank you!
 
 
 
@@ -1287,6 +1265,6 @@ This course, as well as all the content on this university, has been offered to 
 
 A grading system for the training will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course and if you enjoyed it, please consider sharing it with others.
 
-A huge thank you to our Patreon supporters, members, and donors for their financial support, thank you to the people who share, and thank you to those who made this training possible: Rachel, Muriel, the StackinSat team, JohnOnChain, Fanis, Guillaume, Lounes, the proofreaders, and the reviewers.
+A huge thank you to our Patreon supporters, members, and donors for their financial support. Another big thank you to the people who share, and thank you to those who made this training possible: Rachel, Muriel, the StackinSat team, JohnOnChain, Fanis, Guillaume, Lounes, the proofreaders, and the reviewers.
 
 See you soon!
