@@ -11,9 +11,9 @@ objectives:
 
 # Your First Bitcoin Adventure
 
-In this course, I will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional resources will be available throughout the journey, and we also invite you to check our posters in the [21 section](https://testnet.planb.network/en/resources/bet) after you finish this course.
+In this course, I will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
 
-You don't need any specific knowledge to get started. In fact, the course is accessible to students of all levels, and it should take approximately 15 hours to finish. 
+You don't need any specific knowledge to get started. In fact, the following content is accessible to students of all levels, and it should take approximately 15 hours to finish. 
 
 +++
 
@@ -250,7 +250,7 @@ In order to understand the impact of inflation on savings, we need to take diffe
 
 When hyperinflation occurs, we are no longer talking about 20% per year, but rather 20% per month or, at its peak, even per DAY. Experiencing a 100% inflation per day over three days is a realistic scenario that has occurred and continues to happen in our world.
 
-It is crucial to understand that hyperinflation does not happen by chance, by capitalism, or by political attacks from opponents. Hyperinflation is the direct consequence of bad monetary decisions made by central bankers and politicians. Its aftermaths affect every citizen and even impacts next generations. We kindly invite you to spend five minutes reading the following table to fully realize the real impact of this phenomenon (the [ECO204](https://planb.network/en/courses/eco204) course further delves into this subject)." As you can see, no country or currency is potentially safe.
+It is crucial to understand that hyperinflation does not happen by chance, by capitalism, or by political attacks from opponents. Hyperinflation is the direct consequence of bad monetary decisions made by central bankers and politicians. Its aftermaths affect every citizen and even impacts next generations. We kindly invite you to spend five minutes reading the following table to fully realize the real impact of this phenomenon (the ECO204 course further delves into this subject)." As you can see, no country or currency is potentially safe.
 
 ![image](assets/en/chapter3/1.webp)
 
@@ -400,7 +400,7 @@ In fact, anyone can do this through a Bitcoin node (i.e. a transaction validator
 }
 ```
 
-Bitcoin guarantees a sound monetary management by limiting its creation by design, which makes it very different from other currencies because it can protect users' savings. Aligned with the principles of Austrian economics, its stable quantity and predictable distribution protect it from the inherent risks of inflation that traditional currencies have to face (see [ECO201](https://planb.network/en/courses/eco201) to know more).
+Bitcoin guarantees a sound monetary management by limiting its creation by design, which makes it very different from other currencies because it can protect users' savings. Aligned with the principles of Austrian economics, its stable quantity and predictable distribution protect it from the inherent risks of inflation that traditional currencies have to face (see the course ECO201 to know more).
 
 In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that not only is useful and verifiable, but also preserves the value of users' savings by strictly limiting its supply.
 
@@ -527,7 +527,9 @@ With this in mind, we can now move to the next section where we describe how to 
 
 The security of your bitcoins has crucial importance, and a simple mistake can have disastrous consequences. That is why we need to learn the best practices to adopt when creating a new Bitcoin wallet.
 
-Please note that the [BTC102 course](https://planb.network/en/courses/btc102) will guide you through this step.
+Please note that the BTC102 course will guide you through this step.
+
+https://planb.network/en/courses/btc102
 
 ### This step is no joke!
 
@@ -851,7 +853,7 @@ In the previous section, we understood that the security of the Bitcoin protocol
 
 ### The energy costs of Bitcoin.
 
-First, let's qualitatively assess the environmental cost of mining. A miner must have a machine like an ASIC and a source of energy in the form of electricity to power these machines. ASICs are mostly made of aluminum and can be either recycled or reused for a second purpose (as demonstrated by the [Attakaï project](https://decouvrebitcoin.fr/attakai/), which transforms an Antminer S9 into a space heater). The main concern is therefore the energy consumption.
+First, let's qualitatively assess the environmental cost of mining. A miner must have a machine like an ASIC and a source of energy in the form of electricity to power these machines. ASICs are mostly made of aluminum and can be either recycled or reused for a second purpose (as demonstrated by the Attakaï project described in our course MIN201), which transforms an Antminer S9 into a space heater). The main concern is therefore the energy consumption.
 
 ![image](assets/en/chapter13/1.webp)
 
@@ -1009,7 +1011,7 @@ Before diving into buying Bitcoin, make sure you have:
 - A savings plan to follow.
 - A long-term vision.
 
-If the subject is still unclear, be aware that the [BTC102](https://planb.network/en/courses/btc102) course will guide you in securing and acquiring your first bitcoins. Here, we will only skim the surface of the topic.
+If the subject is still unclear, be aware that the BTC102 course will guide you in securing and acquiring your first bitcoins. Here, we will only skim the surface of the topic.
 
 In concrete terms, there are two questions to ask yourself:
 
@@ -1106,7 +1108,7 @@ If you want to broaden your knowledge about Bitcoin, this is the right time: a l
 
 Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions: Lightning Network! 
 
-Be aware that the following is only a general description, so, if you want to understand it in deeper details, we invite you to check our [LNP201 course](https://planb.network/en/courses/lnp201)
+Be aware that the following is only a general description, so, if you want to understand it in deeper details, we invite you to check our LNP201 course.
 
 ### In a nutshell
 
@@ -1233,38 +1235,48 @@ It is adopted by diverse groups of people, from cryptographers, to libertarians,
 
 Bitcoin cannot be stopped and cannot be censored anymore. It is a peaceful revolution that changes the monetary system and enables financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. They can store funds in their wallets, mobile applications, or physical devices, without the need of trusted intermediaries. Bitcoin advocates transparency, freedom, and individual responsibility: as the saying goes "Don't Trust, Verify".
 
-Satoshi created Bitcoin in 2008 to propose a change the financial system, through the change of the currency, because he knew that having access to easy and "magical" money easily brings to corruption. Bitcoin is therefore an alternative to build a new neutral monetary system, as it allows for the emancipation from the banking system. In the end, it is a social phenomenon that encourages us to participate in a peaceful revolution. Are you ready to join?
+Satoshi created Bitcoin in 2008 to propose a change the financial system, through the change of the currency, because he knew that having access to easy and "magical" money easily brings to corruption. Bitcoin is therefore an alternative to build a new neutral monetary system, as it allows for the emancipation from the banking system. In the end, it is a social phenomenon that encourages us to participate in a peaceful revolution. 
 
-## Acknowledgments and keep digging the rabbit hole
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+Are you ready to join?
 
-### Go further
+# Conclusion
 
-Congratulations on completing this BTC 101 course! We sincerely hope you enjoyed it and it opened doors for you. Your discovery of Bitcoin is just at the beginning, so we invite you to explore all the other courses available at the university. Besides, you will also find many posters dedicated to this course in the [21 posters section](https://testnet.planb.network/en/resources/bet). Feel free to use that content, and remember to tag us on [X!](https://x.com/planb_network)
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-- [BTC 102](https://planb.network/courses/btc101) will help you set up your Bitcoin plan
-- [LNP 201](https://planb.network/courses/lnp201) will let you discover the Lightning Network, a second-layer payment network
-- [ECO 201](https://planb.network/courses/eco201) will cover Austrian economics
-- [SCU 101](https://planb.network/courses/scu101) will allow you to update your digital security
-- [MIN 201](https://planb.network/courses/min201) will teach you more about mining
-- and many more...
+## Course Evaluation
 
-## Support us
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the academy, and even contribute to its development via [our GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). On behalf of the entire team, thank you!
-
-
-
-## Give us some feedback about this course
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Note the training
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
+## Final Exam
 
-A grading system for the training will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course and if you enjoyed it, please consider sharing it with others.
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-A huge thank you to our Patreon supporters, members, and donors for their financial support. Another big thank you to the people who share, and thank you to those who made this training possible: Rachel, Muriel, the StackinSat team, JohnOnChain, Fanis, Guillaume, Lounes, the proofreaders, and the reviewers.
+## Conclusion
 
-See you soon!
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+Congratulations on completing this BTC 101 basic course! We sincerely hope you enjoyed it and that it opened new doors for you. Your discovery of Bitcoin is just beginning and we invite you to explore all the other courses available on Plan ₿ Network:
+
+#### Get and secure your first bitcoins with
+
+https://planb.network/courses/btc102
+
+#### Discover the Lightning Network with
+
+https://planb.network/courses/lnp201
+
+#### Learn about the Austrian School of Economic Thought with
+
+https://planb.network/courses/eco201
+
+#### Update your online security with
+
+https://planb.network/courses/scu101
+
+#### Understand Bitcoin basics and build your home heating with
+
+https://planb.network/courses/min201
+
+In the end, feel free to also have a look at the "21 Posters" about this course content in the [resources section](https://planb.network/en/resources/bet).
