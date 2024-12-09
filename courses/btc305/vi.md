@@ -10,7 +10,7 @@ objectives:
 
 # Bitcoin và BTCPay Server
 
-Đây là một khóa học giới thiệu về Cách vận hành của BTCPay Server được viết bởi Alekos và Bas, sau đó được điều chỉnh theo định dạng một khóa học trên PlanB bởi melontwist và asi0.
+Đây là một khóa học giới thiệu về Cách vận hành của BTCPay Server được viết bởi Alekos và Bas, sau đó được điều chỉnh theo định dạng một khóa học trên Plan ₿ bởi melontwist và asi0.
 
 MỘT CÂU CHUYỆN CHƯA CÓ HỒI KẾT - AN UNFINSHED STORY
 
@@ -2377,7 +2377,7 @@ Cài đặt trên Umbrel khác với hai lựa chọn sử dụng dịch vụ ho
 
 
 
-## Cho chúng tôi biết phản hồi của bạn về khóa học này
+## Đánh giá khóa học
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
 

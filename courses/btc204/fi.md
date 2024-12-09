@@ -7,6 +7,7 @@ objectives:
   - Käyttää menetelmiä ja työkaluja yksityisyytesi suojaamiseen Bitcoinissa
   - Ymmärtää ketjuanalyysimenetelmiä ja kehittää puolustusstrategioita
 ---
+
 # Suojaa yksityisyytesi Bitcoinissa
 
 Maailmassa, jossa rahoitustransaktioiden yksityisyys on vähitellen muuttumassa ylellisyydeksi, on olennaista ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössäsi. Tämä koulutus antaa sinulle kaikki avaimet, sekä teoreettiset että käytännölliset, saavuttaaksesi tämän itsenäisesti.
@@ -1107,7 +1108,6 @@ Jos haluat oppia, kuinka merkitä UTXO:si, olemme tehneet täydellisen oppaan t�
 
 https://planb.network/tutorials/privacy/utxo-labelling
 
-
 ## KYC ja avaintunnistus
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1274,7 +1274,7 @@ Muita menetelmiä hankkia bitcoineja samalla kun suojataan yksityisyyttäsi, on 
 
 Toinen menetelmä koostuu työskentelystä vaihdossa bitcoineihin. Tämä hankintamenetelmä voi olla mielenkiintoinen, mutta vaaditun tunnistautumisen aste vaihtelee suuresti olosuhteiden mukaan.
 
-_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) PlanB Networkissa (toistaiseksi saatavilla vain ranskaksi)._
+\_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) Plan ₿ Networkissa (toistaiseksi saatavilla vain ranskaksi).\_
 
 ## Konsolidointi, UTXO-hallinta ja CIOH
 
@@ -1341,7 +1341,6 @@ Tässä esimerkissä olisi viisasta ylläpitää vähintään 940 000 satoshin a
 Yksi yleisimmin käytetyistä heuristiikoista ketjuanalyysissä on COIH (_Common Input Ownership Heuristic_), joka mahdollistaa oletuksen, että kaikki Bitcoin-siirron sisääntulot kuuluvat samalle entiteetille. Tarkalleen ottaen konsolidoinnin periaate on kuluttaa useita UTXO:ja sisääntuloina ja luoda yksi UTXO ulostulona. Näin ollen konsolidointi mahdollistaa COIH:n soveltamisen.
 
 ![BTC204](assets/notext/45/04.webp)
-
 
 Käytännössä tämä tarkoittaa, että ulkopuolinen tarkkailija voi päätellä, että kaikki konsolidoidut UTXO:t todennäköisesti kuuluvat samalle henkilölle ja että tuotettu yksittäinen ulostulo kuuluu myös heille. Tämä tilanne voi vaarantaa yksityisyytesi yhdistämällä erilaisia siirtotarinoita. Esimerkiksi sanotaan, että konsolidoin 3 P2P:llä hankittua UTXO:a UTXO:n kanssa, joka on saatu alustalta, joka vaatii KYC:n:
 ![BTC204](assets/notext/45/05.webp)
@@ -2386,7 +2385,7 @@ Ricochet tarkoittaa yksinkertaisesti bitcoinien lähettämistä itselleen. On t�
 Seuraavassa luvussa tutkimme erilaisia tekniikoita salaisiin omaisuuden siirtoihin. Nämä menetelmät eroavat radikaalisti tähän asti tarkastelluista sekä toiminnan että tulosten osalta.
 
 https://planb.network/tutorials/privacy/ricochet
- 
+
 ## Salaiset Omaisuuden Siirrot
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -2617,7 +2616,7 @@ Nämä avatarit voidaan myös esittää kuvien muodossa:
 ![BTC204](assets/notext/66/6.webp)
 
 Vaikka näillä roboteilla ei ole erityistä teknistä toiminnallisuutta BIP47:n puitteissa, ne toimivat roolissa helpottamassa käyttäjien välisiä vuorovaikutuksia tarjoamalla helposti tunnistettavan visuaalisen identiteetin.
-Tässä luvussa, joka on omistettu BIP47:lle, tarkastelemme yksityiskohtaisesti sen toimintaa, erityisesti keskittyen käytettyihin kryptografisiin menetelmiin. Jotta voit täysin ymmärtää nämä hieman tekniset selitykset, on olennaista ensin ymmärtää HD-lompakoiden rakenne, avainjohdannaisprosessit ja elliptiseen käyrään perustuvan kryptografian perusperiaatteet. Jos haluat syventää näitä käsitteitä, toinen ilmainen kurssi on saatavilla PlanB Networkissa: [CRYPTO 301](https://planb.network/en/courses/crypto301). Suosittelen silti niiden seuraamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joita käsittelemme seuraavissa luvuissa.
+Tässä luvussa, joka on omistettu BIP47:lle, tarkastelemme yksityiskohtaisesti sen toimintaa, erityisesti keskittyen käytettyihin kryptografisiin menetelmiin. Jotta voit täysin ymmärtää nämä hieman tekniset selitykset, on olennaista ensin ymmärtää HD-lompakoiden rakenne, avainjohdannaisprosessit ja elliptiseen käyrään perustuvan kryptografian perusperiaatteet. Jos haluat syventää näitä käsitteitä, toinen ilmainen kurssi on saatavilla Plan ₿ Networkissa: [CRYPTO 301](https://planb.network/en/courses/crypto301). Suosittelen silti niiden seuraamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joita käsittelemme seuraavissa luvuissa.
 
 ### Uudelleenkäytettävä Maksukoodi
 
@@ -3629,21 +3628,55 @@ Koska tämä ominaisuus on uusi, on suositeltavaa olla varovainen ja välttää 
 
 _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivustoa](https://silentpayments.xyz/) ja [BIP352-selitysdokumenttia](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+# Yhteenveto
 
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Anna meille palautetta tästä kurssista
+## Arvioi tämä kurssi
+
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Loppukoe
+
+<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<isCourseExam>true</isCourseExam>
 
 ## Yhteenveto
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Onnittelut Bitcoin-yksityisyyskoulutuksen suorittamisesta!
 
-Onnittelut Bitcoinin yksityisyyden suojan koulutuksen suorittamisesta!
+Tässä koulutuksessa käsittelimme monia edistyneitä ja teknisiä aiheita, mutta kaikkia esiteltyjä työkaluja ei ole välttämätöntä käyttää. Päätavoitteena oli antaa sinulle valta valita, mitä tietoja haluat paljastaa ja mitkä haluat pitää luottamuksellisina Bitcoinin käytössäsi. Tämä ilmentää yksityisyyden suojaamisen olemusta. Tehdäksesi tietoisia valintoja siitä, mitä tietoja jakaa tai piilottaa, sinun on oltava tietoinen toimiesi seurauksista. Toivon, että tämä koulutus on auttanut sinua hankkimaan nämä tiedot.
 
-Olemme käsitelleet monia edistyneitä ja teknisiä aiheita tässä koulutuksessa, mutta ei ole välttämätöntä käyttää kaikkia esiteltyjä työkaluja. Päämääränä oli valtuuttaa sinut valitsemaan, mitä tietoja haluat paljastaa ja mitä tietoja haluat pitää luottamuksellisina Bitcoinin käytössäsi. Tämä tiivistää yksityisyyden suojan ydinolemuksen. Tietoisten valintojen tekeminen jaettavasta tai piilotettavasta tiedosta edellyttää toimintamme seurausten ymmärtämistä. Toivon, että tämä koulutus on auttanut sinua saavuttamaan tämän tiedon.
-Jos minun pitäisi valita tämän koulutuksen tärkein osa, valitsisin ketjuanalyysille omistetun osion. Mahdollisten hyökkääjien käyttämien tekniikoiden ymmärtäminen on paras tapa suojautua. Siksi neuvoni olisi tarkastella huolellisesti tätä osaa ja pyrkiä ymmärtämään kaikki sen yksityiskohdat.
-Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Myös toisen kerroksen järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyysongelmat ovat merkittäviä ja niillä on hyvin spesifisiä ominaisuuksia. Vaikka off-chain -transaktioiden käyttö voi olla tehokas strategia välttää monia Bitcoinissa tutkimiamme jäljitettävyysriskejä, se altistaa sinut myös muille riskeille, joista on myös tärkeää olla tietoinen. Siksi nämä aiheet käsitellään tulevassa omistetussa koulutuksessa PlanB Networkissa.
+Jos minun pitäisi valita tämän koulutuksen tärkein osa, valitsisin lohkoketjuanalyysiä käsittelevän osion. Mahdollisten hyökkääjien käyttämien tekniikoiden ymmärtäminen on paras tapa suojautua niiltä. Neuvoni olisi siis käydä tämä osa huolellisesti läpi ja yrittää ymmärtää kaikki sen yksityiskohdat.
 
-Jos pidit tästä koulutuksesta, olisin erittäin kiitollinen, jos voisit jakaa sen ystäviesi kanssa ja sosiaalisessa mediassa. Kiitos! :)
+Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Toisen tason järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyyskysymykset ovat myös tärkeitä ja niillä on hyvin erityisiä ominaisuuksia. Vaikka ketjun ulkopuolisten transaktioiden käyttö voi olla tehokas strategia monien tutkimiemme Bitcoinin jäljitettävyysriskien kiertämiseksi, se altistaa sinut muille riskeille, jotka on myös tärkeä tuntea. Siksi näitä aiheita käsitellään tulevassa erillisessä Plan ₿ Network -koulutuksessa.
 
+Jos pidit tästä koulutuksesta, olisin erittäin kiitollinen, jos jakaisit sen läheistesi kanssa ja sosiaalisessa mediassa. Kiitos! :)
+
+Jatkaaksesi tietojesi syventämistä Bitcoin-maailmassa, kutsumme sinut tutustumaan muihin Plan ₿ Networkissa saatavilla oleviin kursseihin, kuten:
+
+#### Ymmärrä, miten Bitcoin-lompakko toimii
+
+https://planb.network/courses/cyp201
+
+#### Opi luomaan Bitcoin-yhteisösi
+
+https://planb.network/courses/btc302
+
+#### Tutustu Bitcoinin alkuperän historiaan
+
+https://planb.network/courses/his201
+
+#### Määritä BTC-maksupalvelin
+
+https://planb.network/courses/btc305
+
+#### Tutustu Lightning Networkiin
+
+https://planb.network/courses/lnp201
+
+#### Tutustu vapauden kehitykseen aikojen saatossa
+
+https://planb.network/courses/phi201

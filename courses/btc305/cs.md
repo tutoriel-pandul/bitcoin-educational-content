@@ -9,7 +9,7 @@ objectives:
 
 # Bitcoin a BTCPay Server
 
-Toto je úvodní kurz o provozování BTCPay Serveru, který napsali Alekos a Bas a byl přizpůsoben ve formátu kurzu PlanB melontwist a asi0.
+Toto je úvodní kurz o provozování BTCPay Serveru, který napsali Alekos a Bas a byl přizpůsoben ve formátu kurzu Plan ₿ melontwist a asi0.
 
 NEDOKONČENÝ PŘÍBĚH
 
@@ -2409,7 +2409,7 @@ Jak se nastavení na Umbrelu liší od předchozích dvou hostovaných možnost�
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
 

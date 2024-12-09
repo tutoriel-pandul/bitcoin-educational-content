@@ -9,7 +9,7 @@ objectives:
 
 # Bitcoin dan BTCPay Server
 
-Ini adalah kursus pengenalan tentang Operator BTCPay Server yang ditulis oleh Alekos dan Bas, yang diadaptasi dalam Format Kursus PlanB oleh melontwist dan asi0.
+Ini adalah kursus pengenalan tentang Operator BTCPay Server yang ditulis oleh Alekos dan Bas, yang diadaptasi dalam Format Kursus Plan ₿ oleh melontwist dan asi0.
 
 SEBUAH CERITA YANG BELUM SELESAI
 
@@ -2406,7 +2406,7 @@ Bagaimana cara pengaturan di Umbrel berbeda dari dua opsi hosted sebelumnya?
 
 
 
-## Beri kami umpan balik tentang kursus ini
+## Evaluasi kursus ini
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
 

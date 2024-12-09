@@ -9,7 +9,7 @@ objectives:
 
 # BitcoinとBTCPay Server
 
-これは、AlekosとBasによって書かれ、melontwistとasi0によってPlanBコースフォーマットに適応されたBTCPay Serverオペレーターの導入コースです。
+これは、AlekosとBasによって書かれ、melontwistとasi0によってPlan ₿コースフォーマットに適応されたBTCPay Serverオペレーターの導入コースです。
 
 未完成の物語
 
@@ -2379,7 +2379,7 @@ Umbrelでの設定は、以前の2つのホスト型オプションとどのよ�
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -17,9 +17,11 @@ Ici nous mettrons en lumière les tendances et les motifs communs dans les épis
 +++
 
 # Introduction
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
 ## Introduction
+
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 Ce programme vise à offrir une compréhension profonde de l’émergence des hyperinflations dans un monde dominé par la monnaie Fiat et d’examiner leurs conséquences considérables. Les participants exploreront en détail les cycles hyperinflationnistes, en analysant les causes, les déclencheurs et les exemples historiques et contemporains. Ils se pencheront également sur l'impact tangible des hyperinflations sur l'économie et la vie quotidienne, étudiant les répercussions sur la valeur de la monnaie, le pouvoir d'achat, et l'épargne individuelle et collective.
@@ -54,9 +56,11 @@ Section 4 - Comment en sommes nous arrivés là ?
 Bonne chance !
 
 # Qu’est-ce que l’inflation ?
+
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Un phénomène monétaire
+
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ![video ](https://youtu.be/Hg8L_PIs008)
@@ -232,6 +236,7 @@ Cette analyse démontre que la confiance en la monnaie, et par extension sa vale
 En concluant, cette étude sur la dévaluation monétaire ouvre la porte à une compréhension approfondie des mécanismes d'inflation, qui seront explorés dans les vidéos suivantes. Nous discuterons des différents types d'inflation et du seuil où ils basculent vers une haute ou hyperinflation. Cette base solide nous permettra d'aborder les complexités de l'inflation dans les sessions à venir. Merci pour votre attention, et rendez-vous dans la prochaine vidéo pour poursuivre cette exploration des dynamiques monétaires.
 
 ## Les types d’inflation
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ![ Video](https://youtu.be/hHk5oV8HsNQ)
@@ -427,9 +432,11 @@ Dans nos discussions futures, nous plongerons plus profondément dans l'hyperinf
 Merci pour votre attention la prochaine session sera entièrement dédiée à définir et à démystifier l'hyperinflation, en tenant compte des différentes perspectives académiques et pratiques. Nous nous réjouissons de poursuivre cette exploration avec vous lors de notre prochaine rencontre.
 
 # Qu’est-ce que l’hyperinflation ?
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Les définitions de l'hyperinflation
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ![video provisoire 3.1 ](https://youtu.be/Pd-dWA-FrfY)
@@ -515,6 +522,7 @@ Les définitions courantes d'hyperinflation, comme celle avancée par Cagan stip
 Il est à noter que certaines périodes historiques d'inflation élevée ne figurent pas dans les tableaux classiques d'hyperinflation, souvent en raison des critères stricts de classification. Par exemple, pendant la guerre d'indépendance des États-Unis en novembre 1779, et durant la guerre civile américaine en mars 1864, les taux d'inflation mensuels étaient respectivement de 47,4% et 40%. Ces taux, bien que élevés, ne dépassent pas le seuil de 50% stipulé par Cagan, excluant ainsi ces périodes des cas classés comme hyperinflation. Cette omission illustre les limites des définitions rigides et souligne la nécessité d'une approche plus nuancée pour appréhender l'hyperinflation dans toute sa complexité.
 
 ## Weimar vs Zimbabwe similitudes
+
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ![Video](https://youtu.be/yYeEyT0CKE4)
@@ -536,7 +544,6 @@ Plusieurs ouvrages ont été particulièrement instructifs :
 En consolidant mes notes, j'ai discerné une multitude de similitudes entre les expériences d'hyperinflation au Zimbabwe et dans la République de Weimar, malgré le fossé de 90 ans les séparant. J'ai identifié environ 17 similitudes, dont 13 illustraient une sorte de progression vers le désastre économique dépeint dans ces témoignages. Ces parallèles fascinants démontrent la nature répétitive et dévastatrice de l'hyperinflation à travers les époques et les frontières. Nous examinerons aujourd'hui ces similitudes et la façon dont elles dépeignent une trajectoire inquiétante durant les périodes d'hyperinflation.
 
 ### Analyse Comparative : Zimbabwe et République de Weimar
-
 
 #### 1. Pénurie de monnaie
 
@@ -703,6 +710,7 @@ Zimbabwe : "Ces bons, nous les utilisions désormais pour payer les loyers aux p
 C'est ce qui complète cette vidéo au sujet des similitudes des expériences vécues durant les périodes d'hyperinflation du Zimbabwe et de la République de Weimar. Dans la prochaine vidéo, on va parler des différences et des parallèles contemporains. Merci.
 
 ## Weimar vs Zimbabwe différences et parallèle contemporains
+
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 ![Video](https://youtu.be/qoHAN4Nj2pE)
@@ -732,7 +740,6 @@ Parmi les Notgeld, un billet particulier attire l'attention. Il présente une il
 L'artiste derrière ce Notgeld semble adresser une critique ironique envers les autorités, responsables de la crise d'hyperinflation. Le billet porte l'inscription "Necessity knows no law", signifiant "La nécessité ne connaît pas de loi". Une autre expression, spécifique à la localité d'origine du Notgeld, énonce : "Ce qui doit être fait doit être fait".
 
 ![image](assets/chapitre-3.3/0.webp)
-
 
 > “necessity knows no law”
 
@@ -784,7 +791,7 @@ Cette situation soulève une problématique centrale liée à la notion de prix 
 
 > Weimar : « Il restait fermement attaché à son point de vue selon lequel l'offre de monnaie n'était liée ni aux niveaux de prix ni aux taux de change ; »"
 
-De manière contemporaine, cette tendance persiste avec l'exemple le chapitre précédent d'une liste d'explications avancées par divers économistes et instituts économiques pour justifier l'inflation. 
+De manière contemporaine, cette tendance persiste avec l'exemple le chapitre précédent d'une liste d'explications avancées par divers économistes et instituts économiques pour justifier l'inflation.
 Ces raisons varient, allant d'événements culturels et de célébrités tels que Taylor Swift, Zelda ou Beyoncé, à des facteurs globaux comme la guerre et la pandémie. Toutes ces raisons, bien que potentiellement contributrices à des fluctuations économiques à court terme, détournent l'attention de la véritable cause sous-jacente, à savoir l'expansion de la masse monétaire
 
 #### 5. Les compagnies zombies
@@ -816,6 +823,7 @@ Imaginez un scénario où vous avez une famille ou des proches que vous souhaite
 Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le relais. Cependant, cette approche comporte ses propres risques. L'épargne a toujours été un remède contre l'incertitude. Avoir des réserves financières pour gérer des situations imprévues contribue à une sérénité d'esprit et renforce la cohésion sociale. En conclusion, la protection de notre pouvoir d'épargne est essentielle pour maintenir la stabilité sociale et individuelle.
 
 ## Les redénominations en Amérique Latine
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 ![Video](https://youtu.be/MnAFWQKdYAM)
@@ -930,6 +938,7 @@ En se basant sur le critère du arbitraire du 50% d'inflation par mois, plusieur
 En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La haute inflation, à elle seule, peut être tout aussi dommageable. La prochaine section explorera les solutions possibles pour sortir de l'hyperinflation.
 
 ## Comment sortir de l’hyperinflation
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ![video](https://youtu.be/o7Gz8q_PfoE)
@@ -970,8 +979,7 @@ En 2007, le taux d'inflation au Zimbabwe avait atteint le seuil de 50 % par mois
 
 C'est inquiétant de noter que le Zimbabwe a depuis tenté de réintroduire sa propre monnaie, et des signes d'inflation élevée sont à nouveau apparus. Selon certaines organisations internationales, le pays pourrait déjà remplir à nouveau les critères d'hyperinflation, même s'il n'a pas encore atteint le seuil officiel de 50 % par mois. Cela sert de rappel sur les dangers de l'émission monétaire excessive et du financement du déficit par la banque centrale.
 
-## Conclusion
-<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+### Conclusion
 
 Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation.
 
@@ -984,6 +992,7 @@ Pour ceux qui sont curieux de l'expérience allemande après la Première Guerre
 L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusieurs stratégies. On peut opter pour la dollarisation ou introduire une nouvelle monnaie. Ces solutions ne fonctionneront que si la population a confiance en elles. Il est crucial d'imposer des contraintes rigoureuses. Une banque centrale véritablement indépendante est essentielle. Elle ne doit pas gonfler la masse monétaire pour combler les déficits gouvernementaux. En cas d'inflation légère, limiter la croissance de la masse monétaire devrait suffire. Toutefois, lorsqu'on est confronté à une hyperinflation, il est primordial d'abord d'avoir une masse monétaire appropriée à la taille de l'économie en question. Ensuite, il est impératif d'imposer des contraintes strictes au gouvernement pour stabiliser la situation.
 
 ## Présentation de la collection de billets d’hyperinflation
+
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 ![video](https://youtu.be/h1uwR3Yge1M)
@@ -991,9 +1000,11 @@ L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusie
 Le lien vers la collection scannée est disponible dans le Bitcoin Educational Toolkit, accessible depuis la section Ressources de la plateforme.
 
 # Comment en sommes nous arrivés là ?
+
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## L’émergence de la deuxième couche de la monnaie et des banques centrales
+
 <chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 ![video](https://youtu.be/cEon5lVtKZE)
@@ -1057,13 +1068,8 @@ Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le m
 
 Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept du prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
 
-
-
-## Donnez-nous votre avis sur ce cours
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Livres et ressources
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 L'hyperinflation est un sujet fascinant qui a été étudié à travers divers événements historiques. Si vous souhaitez approfondir ce sujet, voici une liste de 10 ressources essentielles à lire et à étudier :
@@ -1086,11 +1092,50 @@ L'hyperinflation est un sujet fascinant qui a été étudié à travers divers �
 - "The Hyperinflation Survival Guide: Strategies for American Businesses" par Gerald Swanson
   Un guide pratique sur la manière dont les entreprises peuvent naviguer dans un environnement hyperinflationniste.
 
-- "Dying of Money: Lessons of the Great German and American Inflations" par Jens O. Parsson
-  Une analyse comparative des crises inflationnistes en Allemagne et aux États-Unis.
+# Conclusion
 
-- "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" par Frederick Taylor
-  Une exploration narrative de l'impact social et économique de l'hyperinflation sur la société allemande.
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-- "Currency Boards for Developing Countries: A Handbook" par Steve Hanke et Kurt Schuler
-  Bien que le focus soit sur les caisses d'émission, ce livre offre une perspective sur comment éviter des situations d'hyperinflation.
+## Évaluez ce cours
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+
+Félicitations pour avoir terminé ce cours !
+
+Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
+
+Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
+
+#### Découvrez la vie de F. Bastiat avec
+
+https://planb.network/courses/eco102
+
+#### Découvrez la pensée économique de l'école autrichienne avec
+
+https://planb.network/courses/eco201
+
+#### Découvrez Bitcoin et ses fondamentaux avec
+
+https://planb.network/courses/btc101
+
+#### Mettez à jour votre sécurité en ligne avec
+
+https://planb.network/courses/scu101
+
+#### Obtenez et sécurisez vos premiers bitcoins avec
+
+https://planb.network/courses/btc102
+
+#### Découvrez l'histoire des origines de Bitcoin avec
+
+https://planb.network/courses/his201

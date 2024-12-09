@@ -128,6 +128,10 @@ Oleh karena itu, Bitcoin adalah protokol yang membentang sepanjang periode waktu
 
 ![Sejarah Pra-Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
+Jika Anda ingin mengeksplorasi sejarah Bitcoin secara lebih mendalam, saya sangat merekomendasikan kursus kami, HIS 201. Anda akan menemukan asal-usul dan munculnya Bitcoin secara perlahan, serta awal mula sejarah dan komunitasnya. Kursus ini sepenuhnya didokumentasikan dan memiliki banyak anekdot :
+
+https://planb.network/courses/his201
+
 # Uang
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -240,6 +244,10 @@ Bab ini dapat disimpulkan dengan kutipan dari pemenang Hadiah Nobel F.A Hayek pa
 
 ![Alt text](assets/posters/en/4._fiat_currency.webp)
 
+Jika Anda ingin mempelajari lebih lanjut tentang kesalahan ekonomi dan kebebasan, saya mengundang Anda untuk mengikuti kursus ECO 102 kami. Kursus ini menelusuri kehidupan dan gagasan Frédéric Bastiat, seorang pemikir Prancis abad ke-19 yang pasti akan menghargai kemunculan Bitcoin:
+
+https://planb.network/courses/eco102
+
 ## Hiperinflasi
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -319,6 +327,10 @@ Kesimpulannya, hiperinflasi memiliki efek buruk yang dapat merusak nilai mata ua
 ### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+Untuk mempelajari lebih lanjut tentang hiperinflasi, saya merekomendasikan kursus ECO 204 oleh David St-Onge. Anda akan mempelajari apa itu siklus hiperinflasi dan dampak nyata mereka pada kehidupan kita. Anda juga akan menemukan kesamaan antara siklus-siklus ini dan, yang terpenting, bagaimana melindungi diri Anda dari mereka:
+
+https://planb.network/courses/eco204
 
 ## 21 juta bitcoin
 
@@ -474,6 +486,10 @@ Pilihlah dompet yang sesuai dengan kebutuhan dan penggunaan Anda. Tutorial terpe
 
 ![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
+Jika selama perjalanan Anda di lubang kelinci Anda ingin mempelajari lebih lanjut tentang membangun dompet Bitcoin, mulai dari entropi hingga alamat penerimaan, saya merekomendasikan kursus CYP 201 yang didedikasikan untuk topik ini:
+
+https://planb.network/courses/cyp201
+
 ## Keamanan dan Dompet Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -501,11 +517,27 @@ Kami akan menetapkan beberapa tingkat keamanan untuk bitcoin Anda:
 
 - **Level 1**, Anda menggunakan dompet Bitcoin di ponsel atau komputer Anda, di mana Anda merupakan satu-satunya pemegang bitcoin Anda. Anda dapat dengan mudah melakukan transaksi. Namun, sangat penting untuk melakukan pencadangan frasa mnemonik untuk tetap memiliki akses ke dana Anda apabila terjadi kasus kehilangan ponsel atau komputer. Tingkat keamanan ini sering disebut sebagai "hot wallet", karena kunci privat disimpan pada perangkat dengan akses internet.
 
+Misalnya, Anda dapat menggunakan Sparrow Wallet sebagai dompet panas:
+
+https://planb.network/tutorials/wallet/sparrow
+
 - **Level 2**, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12 atau 24 kata Anda. Untuk melakukan transaksi, Anda selalu harus tanda tangan dengan perangkat Anda. Hal ini membuat dana Anda tidak sering diakses dalam kehidupan sehari-hari. Dompet ini sering disebut sebagai "Cold Wallet" karena kunci Anda disimpan pada perangkat yang tidak terhubung ke internet.
+
+Misalnya, Anda dapat menggunakan Ledger, Satochip, atau Tapsigner:
+
+https://planb.network/tutorials/wallet/ledger-nano-s-plus
+
+https://planb.network/tutorials/wallet/satochip
+
+https://planb.network/tutorials/wallet/tapsigner
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Level 3**, Anda menggunakan dompet level 1 atau 2 tetapi dengan frasa sandi tambahan. Perlu diketahui bahwa Anda sekarang perlu melakukan pencadangan daftar 12 atau 24 kata **dan** frasa sandi Anda. Sebaiknya, kedua informasi ini disimpan di dua tempat yang berbeda.
+
+Untuk mempelajari lebih lanjut tentang penggunaan dan fungsi frasa sandi BIP39:
+
+https://planb.network/tutorials/wallet/passphrase
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -565,6 +597,10 @@ Setelah salinan dibuat, simpan daftar kata-kata di tempat yang aman dan pasti bi
 ### Ringkasan Singkat dalam Poster!
 
 ![Teks Alternatif](assets/posters/en/10._set_up_your_wallet.webp)
+
+Jika Anda kemudian ingin mempelajari, langkah demi langkah, cara membuat dompet Anda sendiri dan mendapatkan bitcoin pertama Anda, saya juga merekomendasikan mengikuti kursus ini:
+
+https://planb.network/courses/btc102
 
 ## Bertahan terhadap ujian waktu
 
@@ -854,6 +890,10 @@ Teori permainan yang diterapkan pada Bitcoin mengeliminasi para penambang yang t
 
 ![penambang](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
+Jika Anda ingin memperdalam topik spesifik tentang penambangan Bitcoin, Anda dapat mengikuti kursus MIN 201 kami. Anda akan mempelajari cara kerja dan peran Proof-of-Work, serta seluk-beluk industri penambangan. Kami juga menjelaskan cara mengubah ASIC menjadi pemanas, sehingga Anda dapat menambang satoshi pertama Anda sambil memanaskan rumah Anda!
+
+https://planb.network/courses/min201
+
 ## Bitcoin dan Ekologi
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -999,8 +1039,16 @@ Untuk menerima Bitcoin, Anda perlu mempelajari solusi-solusi yang tersedia dan m
 Kami akan membahas topik ini secara detail dalam pelatihan lain, tetapi sederhananya, berikut kami berikan contoh beberapa kategori bisnis dan solusi terkait:
 
 - Solusi online sederhana: OpenNode
+
+https://planb.network/tutorials/merchant/open-node
+
 - Solusi untuk pedagang amatir: Swiss Bitcoin Pay
-- Solusi untuk struktur besar atau bitcoiners yang bersemangat: BTCpay Server
+
+https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+
+- Solusi untuk struktur besar atau bitcoiner yang bersemangat: BTCpay Server
+
+https://planb.network/courses/btc305
 
 ### Ringkasan Singkat dalam Poster!
 
@@ -1019,7 +1067,7 @@ Bitcoin telah menjadi aset keuangan yang besar, terutama karena pasokannya yang 
 - Performa masa lalu bukan merupakan indikasi performa di masa mendatang.
 - Hubungi penasihat keuangan Anda jika diperlukan.
 
-> DécouvreBitcoin (Rogzy) tidak memberikan saran dan nasihat investasi, dan semua informasi yang disampaikan di sini tidak dapat dianggap sebagai nasihat investasi.
+> Plan ₿ Network tidak memberikan saran dan nasihat investasi, dan semua informasi yang disampaikan di sini tidak dapat dianggap sebagai nasihat investasi.
 
 ### Daftar Periksa Singkat sebelum Terjun Lebih Dalam
 
@@ -1170,6 +1218,10 @@ Secara ringkas, Lightning Network adalah upaya yang menjanjikan untuk menerapkan
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
 
+Jika Anda ingin melangkah lebih jauh dari pengantar ini dan memahami semua seluk-beluk Lightning Network, saya merekomendasikan kursus luar biasa dari Fanis Michalakis tentang topik ini:
+
+https://planb.network/courses/lnp201
+
 ## Kasus Penggunaan Jaringan Lightning
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1268,39 +1320,42 @@ Bitcoin diadopsi oleh berbagai kelompok individu, mulai dari ahli kriptografi hi
 Bitcoin tidak bisa lagi dihentikan dan tidak bisa lagi disensor. Bitcoin adalah revolusi damai untuk mengubah sistem moneter dan memungkinkan inklusivitas finansial. Pengguna dapat memperoleh bitcoin dengan menerimanya sebagai pembayaran dalam aktivitas perdagangan mereka atau dengan membelinya melalui platform yang diatur atau tidak diatur. Bitcoin dapat disimpan dalam dompet, aplikasi seluler, atau perangkat fisik. Tidak ada perantara terpercaya dalam Bitcoin, Bitcoin mengadvokasi transparansi, kebebasan, dan tanggung jawab individu - seperti pepatah "Jangan Percaya, Verifikasi".
 Perubahan sistem finansial memerlukan penggantian mata uang. Satoshi menciptakan Bitcoin pada tahun 2008 untuk sebagai upaya untuk mengusulkan ini. Memiliki akses ke uang yang mudah didapat dan "ajaib" dapat merusak moralitas. Oleh karena itu, Bitcoin adalah sebuah alternatif untuk membangun sistem moneter netral yang baru. Bitcoin memungkinkan penggunanya untuk merdeka dari sistem perbankan. Bitcoin merupakan fenomena sosial yang mendorong kita untuk berpartisipasi dalam revolusi damai. Apakah Anda siap untuk bergabung?
 
-## Ucapan terima kasih dan terus menggali lubang kelinci
+# Kesimpulan
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Pelajari Lebih Lanjut
+## Evaluasi Kursus
 
-Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda menikmatinya dan membuka peluang baru untuk Anda. Penemuan Anda tentang bitcoin baru saja dimulai, dan kami mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di universitas.
-
-- [BTC 102](https://planb.network/courses/btc101) akan membantu Anda menyiapkan rencana bitcoin Anda
-- [LNP 201](https://planb.network/courses/lnp201) akan memungkinkan Anda untuk menemukan Jaringan Petir, jaringan pembayaran lapis kedua
-- [ECO 201](https://planb.network/courses/eco201) akan membahas ekonomi Austria
-- [SCU 101](https://planb.network/courses/scu101) akan memungkinkan Anda memperbarui keamanan digital Anda
-- [MIN 201](https://planb.network/courses/min201) untuk mempelajari lebih lanjut tentang penambangan
-- dan banyak lagi...
-
-## Dukung kami
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Komunitas ini telah menyediakan kursus ini, serta semua konten di universitas ini kepada Anda secara gratis. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui [GitHub kami](https://github.com/DecouvreBitcoin/sovereign-university-data). Mewakili seluruh anggota tim, kami ucapkan terima kasih!
-
-
-
-## Beri kami umpan balik tentang kursus ini
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Catat pelatihan
+## Ujian Akhir
 
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-Sistem penilaian untuk pelatihan akan segera diintegrasikan ke dalam platform E-learning baru ini! Sementara itu, terima kasih banyak telah mengikuti kursus ini dan jika Anda menikmatinya, jangan ragu untuk membagikannya dengan orang lain.
+## Kesimpulan
 
-Terima kasih yang sebesar-besarnya kepada pendukung, anggota, dan donor Patreon kami atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Rachel, Muriel, tim StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, para penguji-baca, dan para peninjau.
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-Sampai jumpa lagi!
+Selamat atas penyelesaian pelatihan BTC 101! Saya sangat berharap Anda menikmatinya dan pelatihan ini membuka pintu-pintu baru untuk Anda. Perjalanan Anda dalam mengenal Bitcoin baru saja dimulai dan saya mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di Plan ₿ Network:
+
+#### Dapatkan dan amankan bitcoin pertama Anda dengan
+
+https://planb.network/courses/btc102
+
+#### Temukan Lightning Network dengan
+
+https://planb.network/courses/lnp201
+
+#### Pelajari Sekolah Pemikiran Ekonomi Austria dengan
+
+https://planb.network/courses/eco201
+
+#### Perbarui keamanan online Anda dengan
+
+https://planb.network/courses/scu101
+
+#### Pahami dasar-dasar Bitcoin dan bangun pemanas rumah Anda dengan
+
+https://planb.network/courses/min201

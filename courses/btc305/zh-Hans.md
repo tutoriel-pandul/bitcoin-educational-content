@@ -9,7 +9,7 @@ objectives:
 
 # 比特币与BTCPay服务器
 
-这是由Alekos和Bas编写的关于BTCPay服务器操作器的入门课程，由melontwist和asi0按照PlanB课程格式进行改编。
+这是由Alekos和Bas编写的关于BTCPay服务器操作器的入门课程，由melontwist和asi0按照Plan ₿课程格式进行改编。
 
 一个未结束的故事
 
@@ -2371,7 +2371,7 @@ Umbrel上的设置与之前两个托管选项有何不同？
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 
 
-## 给我们关于这门课程的反馈
+## 评估课程
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
 
