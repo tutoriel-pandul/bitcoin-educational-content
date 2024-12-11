@@ -8,10 +8,9 @@ link:
 language: en
 description: |
   Compared to the Bitcoin Core releases newsletter, this source is less common and
-  provides insights of security issues at the moment of the public disclosure.
-  This newsletter would be effective for those who want to be aware in a more
-  detailed way of both solved and potential issues, and especially for all of
-  those with no fix available yet. Under this category will probably fit mostly
+  provides insights on security issues at the time of public disclosure.
+  This newsletter would be useful for those who want to be more aware of both resolved and potential issues, and especially for all of
+  those searching for a solution to their own matters. This second category will probably include
   bitcoiner workers, developers and IT systemists.
 tags:
   - node
