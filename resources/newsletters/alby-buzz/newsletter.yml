@@ -7,11 +7,10 @@ link:
   - website: https://blog.getalby.com/tag/newsletter/
 language: en
 description: |
-  Monthly newsletter, it is now running only as private email newsletter, not
-  showing updates anymore on public channels. It presents a brief recap of most
-  relevant bitcoin news from all over the world, recent updates from LN Apps as
-  well as new ones published, event list and obviously it gives updates on most
-  recent Alby features.
+  Monthly newsletter, it is now only running as a private e-mail newsletter, not
+  showing updates on public channels anymore. It presents a brief recap of the most
+  relevant Bitcoin news from all over the world, recent updates from LN Apps, as
+  well as newly published information. Naturally, it also provides updates on the latest Alby features.
 tags:
   - lightning
   - software
