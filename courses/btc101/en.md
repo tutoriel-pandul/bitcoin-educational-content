@@ -1213,7 +1213,7 @@ Transactions are secured through cryptography and indirectly through the energy 
 In summary, Lightning Network is a promising attempt to deploy an efficient payment system to buy and sell in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network courses.
 
 
-If you want to go beyond this introduction and understand all the workings of the Lightning Network, I recommend taking this excellent course by Fanis Michalakis on the subject:
+If you want to go beyond this introduction and understand all the workings of the Lightning Network, we recommend taking this excellent course by Fanis Michalakis on the subject:
 
 https://planb.network/courses/lnp201
 
