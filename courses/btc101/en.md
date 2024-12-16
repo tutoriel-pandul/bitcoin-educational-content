@@ -1333,27 +1333,4 @@ Are you ready to join?
 ## Conclusion
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-Congratulations on completing this BTC 101 basic course! We sincerely hope you enjoyed it and that it opened new doors for you. Your discovery of Bitcoin is just beginning and we invite you to explore all the other courses available on Plan ₿ Network:
-
-#### Get and secure your first bitcoins with
-
-https://planb.network/courses/btc102
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Learn about the Austrian School of Economic Thought with
-
-https://planb.network/courses/eco201
-
-#### Update your online security with
-
-https://planb.network/courses/scu101
-
-#### Understand Bitcoin basics and build your home heating with
-
-https://planb.network/courses/min201
-
-In the end, feel free to also have a look at the "21 Posters" about this course content in the [resources section](https://planb.network/en/resources/bet).
+<isCourseConclusion>true</isCourseConclusion>
